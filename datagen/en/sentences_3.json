@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 401,
+    "ru": "Do you have any rooms available for this weekend?",
+    "phonetic": "du yu hev EN-i ruumz ə-VEI-lə-bəl fər this WIIK-end",
+    "meaning": "Khách sạn có phòng trống cuối tuần này không?",
+    "note": "Khách hỏi lễ tân hoặc gọi điện hỏi phòng trống.",
+    "category": "hotel"
+  },
+  {
+    "id": 402,
+    "ru": "I'd like to book a double room for three nights.",
+    "phonetic": "aid laik tu buk ə DAH-bəl ruum fər thrii naits",
+    "meaning": "Tôi muốn đặt một phòng đôi trong ba đêm.",
+    "note": "Khách đặt phòng tại quầy hoặc qua điện thoại.",
+    "category": "hotel"
+  },
+  {
+    "id": 403,
+    "ru": "What's the rate for a single room per night?",
+    "phonetic": "wʌts thə reit fər ə SIN-gəl ruum pər nait",
+    "meaning": "Giá phòng đơn mỗi đêm là bao nhiêu?",
+    "note": "Khách hỏi giá phòng khi đặt phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 404,
+    "ru": "Is breakfast included in the room rate?",
+    "phonetic": "iz BREK-fəst in-KLUU-dəd in thə ruum reit",
+    "meaning": "Bữa sáng có được tính trong giá phòng không?",
+    "note": "Khách hỏi lễ tân về dịch vụ đi kèm.",
+    "category": "hotel"
+  },
+  {
+    "id": 405,
+    "ru": "Could I see the room before I book it?",
+    "phonetic": "kud ai sii thə ruum bi-FOR ai buk it",
+    "meaning": "Tôi có thể xem phòng trước khi đặt được không?",
+    "note": "Khách muốn xem phòng thực tế trước khi quyết định.",
+    "category": "hotel"
+  },
+  {
+    "id": 406,
+    "ru": "We'd like a room with a sea view, if possible.",
+    "phonetic": "wiid laik ə ruum with ə sii vyuu if PAA-sə-bəl",
+    "meaning": "Chúng tôi muốn một phòng có view biển nếu có thể.",
+    "note": "Khách nêu yêu cầu đặc biệt khi đặt phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 407,
+    "ru": "How much would it cost for a family suite?",
+    "phonetic": "hau mʌch wud it kaast fər ə FEM-ə-li swiit",
+    "meaning": "Phòng suite gia đình giá bao nhiêu?",
+    "note": "Khách hỏi giá phòng suite lớn cho gia đình.",
+    "category": "hotel"
+  },
+  {
+    "id": 408,
+    "ru": "I'm calling to make a reservation for next Friday.",
+    "phonetic": "aim KAA-ling tu meik ə re-zər-VEI-shən fər nekst FRAI-dei",
+    "meaning": "Tôi gọi để đặt phòng cho thứ Sáu tới.",
+    "note": "Khách đặt phòng qua điện thoại.",
+    "category": "hotel"
+  },
+  {
+    "id": 409,
+    "ru": "Do you offer a discount for a week-long stay?",
+    "phonetic": "du yu AA-fər ə DIS-kaunt fər ə wiik-laang stei",
+    "meaning": "Khách sạn có giảm giá cho khách ở một tuần không?",
+    "note": "Khách hỏi ưu đãi khi ở dài ngày.",
+    "category": "hotel"
+  },
+  {
+    "id": 410,
+    "ru": "Is there a cancellation fee if I change my mind?",
+    "phonetic": "iz ther ə kan-sə-LEI-shən fii if ai cheinj mai maind",
+    "meaning": "Có phí hủy phòng nếu tôi đổi ý không?",
+    "note": "Khách hỏi chính sách hủy đặt phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 411,
+    "ru": "We need two adjoining rooms for our family.",
+    "phonetic": "wii niid tuu ə-JOI-ning ruumz fər aur FEM-ə-li",
+    "meaning": "Chúng tôi cần hai phòng liền kề cho gia đình.",
+    "note": "Khách yêu cầu phòng gần nhau cho gia đình đông người.",
+    "category": "hotel"
+  },
+  {
+    "id": 412,
+    "ru": "What time is check-in and check-out?",
+    "phonetic": "wʌt taim iz CHEK-in ənd CHEK-aut",
+    "meaning": "Giờ nhận phòng và trả phòng là mấy giờ?",
+    "note": "Khách hỏi thông tin trước khi đặt phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 413,
+    "ru": "I'd prefer a non-smoking room on a high floor.",
+    "phonetic": "aid pri-FƏR ə naan-SMOU-king ruum aan ə hai flor",
+    "meaning": "Tôi muốn phòng không hút thuốc ở tầng cao.",
+    "note": "Khách nêu yêu cầu cụ thể về phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 414,
+    "ru": "Can you hold the room without a deposit?",
+    "phonetic": "kən yu hould thə ruum wi-THAUT ə di-PAA-zit",
+    "meaning": "Anh chị có thể giữ phòng mà không cần đặt cọc không?",
+    "note": "Khách hỏi lễ tân về việc giữ chỗ.",
+    "category": "hotel"
+  },
+  {
+    "id": 415,
+    "ru": "I'm afraid we're fully booked that weekend.",
+    "phonetic": "aim ə-FREID wir FUL-i bukt that WIIK-end",
+    "meaning": "Rất tiếc, khách sạn đã kín phòng vào cuối tuần đó.",
+    "note": "Lễ tân báo hết phòng cho khách.",
+    "category": "hotel"
+  },
+  {
+    "id": 416,
+    "ru": "Would you like to upgrade to a suite for an extra fee?",
+    "phonetic": "wud yu laik tu ʌp-GREID tu ə swiit fər ən EKS-trə fii",
+    "meaning": "Anh chị có muốn nâng cấp lên suite với phụ phí không?",
+    "note": "Lễ tân gợi ý nâng hạng phòng cho khách.",
+    "category": "hotel"
+  },
+  {
+    "id": 417,
+    "ru": "I'll take the room with twin beds, please.",
+    "phonetic": "ail teik thə ruum with twin bedz pliiz",
+    "meaning": "Tôi sẽ lấy phòng có hai giường đơn.",
+    "note": "Khách chọn loại phòng khi đặt.",
+    "category": "hotel"
+  },
+  {
+    "id": 418,
+    "ru": "Can I pay a deposit to secure the booking?",
+    "phonetic": "kən ai pei ə di-PAA-zit tu si-KYUR thə BUK-ing",
+    "meaning": "Tôi có thể đặt cọc để giữ phòng không?",
+    "note": "Khách hỏi về việc đặt cọc giữ phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 419,
+    "ru": "Could I check in a little early, around noon?",
+    "phonetic": "kud ai chek in ə LI-təl ƏR-li ə-RAUND nuun",
+    "meaning": "Tôi có thể nhận phòng sớm một chút, khoảng buổi trưa được không?",
+    "note": "Khách hỏi lễ tân về check-in sớm.",
+    "category": "hotel"
+  },
+  {
+    "id": 420,
+    "ru": "May I see your ID and credit card, please?",
+    "phonetic": "mei ai sii yər ai-DII ənd KRE-dit kaard pliiz",
+    "meaning": "Cho tôi xem giấy tờ tùy thân và thẻ tín dụng của anh chị được không?",
+    "note": "Lễ tân yêu cầu giấy tờ khi khách check-in.",
+    "category": "hotel"
+  },
+  {
+    "id": 421,
+    "ru": "Here's my passport and booking confirmation.",
+    "phonetic": "hirz mai PAS-port ənd BUK-ing kaan-fər-MEI-shən",
+    "meaning": "Đây là hộ chiếu và xác nhận đặt phòng của tôi.",
+    "note": "Khách đưa giấy tờ cho lễ tân khi check-in.",
+    "category": "hotel"
+  },
+  {
+    "id": 422,
+    "ru": "Your room is on the fifth floor, room 512.",
+    "phonetic": "yər ruum iz aan thə fifth flor ruum faiv-wʌn-tuu",
+    "meaning": "Phòng của anh chị ở tầng năm, phòng 512.",
+    "note": "Lễ tân thông báo số phòng cho khách.",
+    "category": "hotel"
+  },
+  {
+    "id": 423,
+    "ru": "Is there a shuttle bus from the airport to the hotel?",
+    "phonetic": "iz ther ə SHƏ-təl bʌs frəm thi ER-port tu thə hou-TEL",
+    "meaning": "Khách sạn có xe đưa đón từ sân bay không?",
+    "note": "Khách hỏi dịch vụ đưa đón sân bay.",
+    "category": "hotel"
+  },
+  {
+    "id": 424,
+    "ru": "Could you fill out this registration form, please?",
+    "phonetic": "kud yu fil aut this re-jis-TREI-shən form pliiz",
+    "meaning": "Anh chị vui lòng điền vào phiếu đăng ký này.",
+    "note": "Lễ tân yêu cầu khách điền thông tin khi check-in.",
+    "category": "hotel"
+  },
+  {
+    "id": 425,
+    "ru": "Here's your key card. Breakfast is served from six thirty.",
+    "phonetic": "hirz yər kii kaard BREK-fəst iz sərvd frəm siks THƏR-ti",
+    "meaning": "Đây là thẻ phòng của anh chị. Bữa sáng phục vụ từ sáu rưỡi.",
+    "note": "Lễ tân đưa chìa khóa và thông báo giờ ăn sáng.",
+    "category": "hotel"
+  },
+  {
+    "id": 426,
+    "ru": "Do I need to leave a security deposit at check-in?",
+    "phonetic": "du ai niid tu liiv ə si-KYU-rə-ti di-PAA-zit ət CHEK-in",
+    "meaning": "Tôi có cần đặt cọc an ninh khi nhận phòng không?",
+    "note": "Khách hỏi về khoản đặt cọc khi check-in.",
+    "category": "hotel"
+  },
+  {
+    "id": 427,
+    "ru": "Someone will show you to your room shortly.",
+    "phonetic": "SƏM-wʌn wil shou yu tu yər ruum SHORT-li",
+    "meaning": "Sẽ có người đưa anh chị lên phòng ngay.",
+    "note": "Lễ tân thông báo có nhân viên dẫn khách lên phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 428,
+    "ru": "I booked online, but I haven't received a confirmation email.",
+    "phonetic": "ai bukt AAN-lain bʌt ai HEV-ənt ri-SIIVD ə kaan-fər-MEI-shən II-meil",
+    "meaning": "Tôi đã đặt phòng online nhưng chưa nhận được email xác nhận.",
+    "note": "Khách phản ánh chưa nhận xác nhận đặt phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 429,
+    "ru": "What time do we need to check out tomorrow?",
+    "phonetic": "wʌt taim du wii niid tu chek aut tə-MAA-rou",
+    "meaning": "Ngày mai chúng tôi cần trả phòng lúc mấy giờ?",
+    "note": "Khách hỏi giờ check-out.",
+    "category": "hotel"
+  },
+  {
+    "id": 430,
+    "ru": "I'd like to check out and settle the bill, please.",
+    "phonetic": "aid laik tu chek aut ənd SE-təl thə bil pliiz",
+    "meaning": "Tôi muốn trả phòng và thanh toán hóa đơn.",
+    "note": "Khách báo lễ tân muốn check-out.",
+    "category": "hotel"
+  },
+  {
+    "id": 431,
+    "ru": "Could you have my luggage brought down to the lobby?",
+    "phonetic": "kud yu hev mai LƏ-gij braat daun tu thə LAA-bi",
+    "meaning": "Anh chị có thể mang hành lý của tôi xuống sảnh không?",
+    "note": "Khách nhờ nhân viên mang hành lý xuống sảnh.",
+    "category": "hotel"
+  },
+  {
+    "id": 432,
+    "ru": "Can I get a late check-out until 2 p.m.?",
+    "phonetic": "kən ai get ə leit CHEK-aut ʌn-TIL tuu pii-EM",
+    "meaning": "Tôi có thể trả phòng muộn đến 2 giờ chiều không?",
+    "note": "Khách xin trả phòng trễ hơn giờ quy định.",
+    "category": "hotel"
+  },
+  {
+    "id": 433,
+    "ru": "Could I have a receipt for my stay, please?",
+    "phonetic": "kud ai hev ə ri-SIIT fər mai stei pliiz",
+    "meaning": "Cho tôi xin hóa đơn cho thời gian lưu trú được không?",
+    "note": "Khách yêu cầu hóa đơn khi trả phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 434,
+    "ru": "Did you use anything from the minibar?",
+    "phonetic": "did yu yuuz EN-i-thing frəm thə MI-ni-bar",
+    "meaning": "Anh chị có dùng gì trong minibar không?",
+    "note": "Lễ tân hỏi khách khi làm thủ tục trả phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 435,
+    "ru": "I'd like to extend my stay for one more night.",
+    "phonetic": "aid laik tu ik-STEND mai stei fər wʌn mor nait",
+    "meaning": "Tôi muốn ở thêm một đêm nữa.",
+    "note": "Khách xin gia hạn thời gian lưu trú.",
+    "category": "hotel"
+  },
+  {
+    "id": 436,
+    "ru": "Could you keep my bags here until this afternoon?",
+    "phonetic": "kud yu kiip mai begz hir ʌn-TIL this af-tər-NUUN",
+    "meaning": "Anh chị có thể giữ hành lý của tôi đến chiều nay không?",
+    "note": "Khách gửi hành lý lại sau khi trả phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 437,
+    "ru": "What's the wifi password for the hotel?",
+    "phonetic": "wʌts thə WAI-fai PAS-wərd fər thə hou-TEL",
+    "meaning": "Mật khẩu wifi của khách sạn là gì?",
+    "note": "Khách hỏi mật khẩu wifi.",
+    "category": "hotel"
+  },
+  {
+    "id": 438,
+    "ru": "Is the swimming pool open all day?",
+    "phonetic": "iz thə SWI-ming puul OU-pən aal dei",
+    "meaning": "Hồ bơi có mở cả ngày không?",
+    "note": "Khách hỏi giờ mở cửa hồ bơi.",
+    "category": "hotel"
+  },
+  {
+    "id": 439,
+    "ru": "Do you have a fitness center on site?",
+    "phonetic": "du yu hev ə FIT-nəs SEN-tər aan sait",
+    "meaning": "Khách sạn có phòng tập gym không?",
+    "note": "Khách hỏi tiện nghi phòng gym.",
+    "category": "hotel"
+  },
+  {
+    "id": 440,
+    "ru": "Is parking free for hotel guests?",
+    "phonetic": "iz PAR-king frii fər hou-TEL gests",
+    "meaning": "Bãi đỗ xe có miễn phí cho khách không?",
+    "note": "Khách hỏi phí giữ xe.",
+    "category": "hotel"
+  },
+  {
+    "id": 441,
+    "ru": "Where can I drop off my laundry?",
+    "phonetic": "wer kən ai draap aaf mai LAAN-dri",
+    "meaning": "Tôi có thể gửi đồ giặt ở đâu?",
+    "note": "Khách hỏi nơi gửi quần áo giặt ủi.",
+    "category": "hotel"
+  },
+  {
+    "id": 442,
+    "ru": "How long does the laundry service take?",
+    "phonetic": "hau laang dʌz thə LAAN-dri SƏR-vis teik",
+    "meaning": "Dịch vụ giặt ủi mất bao lâu?",
+    "note": "Khách hỏi thời gian giặt trả đồ.",
+    "category": "hotel"
+  },
+  {
+    "id": 443,
+    "ru": "Is there a charge for using the minibar?",
+    "phonetic": "iz ther ə chaarj fər YUU-zing thə MI-ni-bar",
+    "meaning": "Dùng đồ trong minibar có tính phí không?",
+    "note": "Khách hỏi về phí sử dụng minibar.",
+    "category": "hotel"
+  },
+  {
+    "id": 444,
+    "ru": "The wifi in my room seems really slow.",
+    "phonetic": "thə WAI-fai in mai ruum siimz RII-li slou",
+    "meaning": "Wifi trong phòng tôi có vẻ rất chậm.",
+    "note": "Khách phàn nàn về tốc độ wifi.",
+    "category": "hotel"
+  },
+  {
+    "id": 445,
+    "ru": "What time does the gym close?",
+    "phonetic": "wʌt taim dʌz thə jim klouz",
+    "meaning": "Phòng gym đóng cửa lúc mấy giờ?",
+    "note": "Khách hỏi giờ đóng cửa phòng gym.",
+    "category": "hotel"
+  },
+  {
+    "id": 446,
+    "ru": "Is there a rooftop bar or restaurant?",
+    "phonetic": "iz ther ə RUUF-taap baar or RES-tə-rənt",
+    "meaning": "Khách sạn có quầy bar hay nhà hàng trên sân thượng không?",
+    "note": "Khách hỏi tiện ích trên tầng thượng.",
+    "category": "hotel"
+  },
+  {
+    "id": 447,
+    "ru": "Could you tell me where the parking garage is?",
+    "phonetic": "kud yu tel mii wer thə PAR-king gə-RAAZH iz",
+    "meaning": "Anh chị chỉ giúp tôi bãi đỗ xe ở đâu được không?",
+    "note": "Khách hỏi vị trí bãi đỗ xe.",
+    "category": "hotel"
+  },
+  {
+    "id": 448,
+    "ru": "Do you provide ironing facilities in the room?",
+    "phonetic": "du yu prə-VAID AI-ər-ning fə-SI-lə-tiz in thə ruum",
+    "meaning": "Phòng có sẵn bàn ủi không?",
+    "note": "Khách hỏi thiết bị ủi đồ trong phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 449,
+    "ru": "Is there a spa or sauna in the hotel?",
+    "phonetic": "iz ther ə spaa or SAA-nə in thə hou-TEL",
+    "meaning": "Khách sạn có spa hay phòng xông hơi không?",
+    "note": "Khách hỏi dịch vụ spa hoặc sauna.",
+    "category": "hotel"
+  },
+  {
+    "id": 450,
+    "ru": "Can I get my clothes dry-cleaned by tomorrow?",
+    "phonetic": "kən ai get mai klouz drai-KLIIND bai tə-MAA-rou",
+    "meaning": "Tôi có thể giặt khô đồ và lấy lại vào ngày mai không?",
+    "note": "Khách hỏi dịch vụ giặt khô nhanh.",
+    "category": "hotel"
+  },
+  {
+    "id": 451,
+    "ru": "Are pets allowed in the hotel?",
+    "phonetic": "aar pets ə-LAUD in thə hou-TEL",
+    "meaning": "Khách sạn có cho phép mang thú cưng không?",
+    "note": "Khách hỏi chính sách thú cưng.",
+    "category": "hotel"
+  },
+  {
+    "id": 452,
+    "ru": "The air conditioner in my room isn't working.",
+    "phonetic": "thi er kən-DI-shə-nər in mai ruum I-zənt WƏR-king",
+    "meaning": "Điều hòa trong phòng tôi không hoạt động.",
+    "note": "Khách phàn nàn điều hòa bị hỏng.",
+    "category": "hotel"
+  },
+  {
+    "id": 453,
+    "ru": "There's no hot water in the shower.",
+    "phonetic": "therz nou haat WAA-tər in thə SHAU-ər",
+    "meaning": "Vòi sen không có nước nóng.",
+    "note": "Khách phàn nàn không có nước nóng.",
+    "category": "hotel"
+  },
+  {
+    "id": 454,
+    "ru": "My room is quite noisy because of the street outside.",
+    "phonetic": "mai ruum iz kwait NOI-zi bi-KAAZ əv thə striit aut-SAID",
+    "meaning": "Phòng tôi khá ồn vì tiếng đường phố bên ngoài.",
+    "note": "Khách phàn nàn phòng bị ồn.",
+    "category": "hotel"
+  },
+  {
+    "id": 455,
+    "ru": "The room hasn't been cleaned yet.",
+    "phonetic": "thə ruum HEZ-ənt bin kliind yet",
+    "meaning": "Phòng vẫn chưa được dọn dẹp.",
+    "note": "Khách phàn nàn phòng chưa được dọn.",
+    "category": "hotel"
+  },
+  {
+    "id": 456,
+    "ru": "The elevator seems to be out of order.",
+    "phonetic": "thi E-lə-vei-tər siimz tu bii aut əv OR-dər",
+    "meaning": "Thang máy có vẻ bị hỏng.",
+    "note": "Khách phàn nàn thang máy không hoạt động.",
+    "category": "hotel"
+  },
+  {
+    "id": 457,
+    "ru": "There's a strange smell coming from the bathroom.",
+    "phonetic": "therz ə streinj smel KƏ-ming frəm thə BAATH-ruum",
+    "meaning": "Có mùi lạ bốc ra từ phòng tắm.",
+    "note": "Khách phàn nàn mùi lạ trong phòng tắm.",
+    "category": "hotel"
+  },
+  {
+    "id": 458,
+    "ru": "The toilet won't flush properly.",
+    "phonetic": "thə TOI-lət wount flʌsh PRAA-pər-li",
+    "meaning": "Bồn cầu xả nước không đúng cách.",
+    "note": "Khách phàn nàn bồn cầu bị hỏng.",
+    "category": "hotel"
+  },
+  {
+    "id": 459,
+    "ru": "We can hear the guests next door very clearly.",
+    "phonetic": "wii kən hir thə gests nekst dor VE-ri KLIR-li",
+    "meaning": "Chúng tôi nghe rất rõ tiếng khách phòng bên cạnh.",
+    "note": "Khách phàn nàn cách âm phòng kém.",
+    "category": "hotel"
+  },
+  {
+    "id": 460,
+    "ru": "The heater isn't warming up the room at all.",
+    "phonetic": "thə HII-tər I-zənt WAR-ming ʌp thə ruum ət AAL",
+    "meaning": "Máy sưởi không làm ấm phòng chút nào.",
+    "note": "Khách phàn nàn máy sưởi không hoạt động.",
+    "category": "hotel"
+  },
+  {
+    "id": 461,
+    "ru": "The curtains won't close all the way.",
+    "phonetic": "thə KƏR-tənz wount klouz aal thə wei",
+    "meaning": "Rèm cửa không kéo kín hết được.",
+    "note": "Khách phàn nàn rèm cửa bị hỏng.",
+    "category": "hotel"
+  },
+  {
+    "id": 462,
+    "ru": "There's a leak under the sink in the bathroom.",
+    "phonetic": "therz ə liik ʌn-dər thə sink in thə BAATH-ruum",
+    "meaning": "Có chỗ rò rỉ nước dưới bồn rửa trong phòng tắm.",
+    "note": "Khách phàn nàn rò rỉ nước trong phòng tắm.",
+    "category": "hotel"
+  },
+  {
+    "id": 463,
+    "ru": "The bed sheets don't look very clean.",
+    "phonetic": "thə bed shiits dount luk VE-ri kliin",
+    "meaning": "Ga trải giường trông không sạch lắm.",
+    "note": "Khách phàn nàn ga giường bẩn.",
+    "category": "hotel"
+  },
+  {
+    "id": 464,
+    "ru": "The TV remote doesn't seem to work.",
+    "phonetic": "thə tii-VII ri-MOUT DƏ-zənt siim tu wərk",
+    "meaning": "Điều khiển tivi có vẻ không hoạt động.",
+    "note": "Khách phàn nàn remote tivi bị hỏng.",
+    "category": "hotel"
+  },
+  {
+    "id": 465,
+    "ru": "The room smells like cigarette smoke.",
+    "phonetic": "thə ruum smelz laik SI-gə-ret smouk",
+    "meaning": "Phòng có mùi thuốc lá.",
+    "note": "Khách phàn nàn phòng có mùi thuốc lá.",
+    "category": "hotel"
+  },
+  {
+    "id": 466,
+    "ru": "Could someone come fix the light in the bathroom?",
+    "phonetic": "kud SƏM-wʌn kʌm fiks thə lait in thə BAATH-ruum",
+    "meaning": "Anh chị có thể cử người sửa đèn trong phòng tắm không?",
+    "note": "Khách yêu cầu sửa đèn bị hỏng.",
+    "category": "hotel"
+  },
+  {
+    "id": 467,
+    "ru": "Could you send some extra towels to room 304?",
+    "phonetic": "kud yu send sʌm EKS-trə TAU-əlz tu ruum thrii-ou-for",
+    "meaning": "Anh chị gửi thêm ít khăn tắm lên phòng 304 giúp tôi được không?",
+    "note": "Khách gọi lễ tân xin thêm khăn.",
+    "category": "hotel"
+  },
+  {
+    "id": 468,
+    "ru": "I'd like to request a wake-up call at seven tomorrow.",
+    "phonetic": "aid laik tu ri-KWEST ə WEIK-ʌp kaal ət SE-vən tə-MAA-rou",
+    "meaning": "Tôi muốn đặt báo thức lúc bảy giờ sáng mai.",
+    "note": "Khách yêu cầu dịch vụ báo thức.",
+    "category": "hotel"
+  },
+  {
+    "id": 469,
+    "ru": "Can someone come clean my room while I'm out?",
+    "phonetic": "kən SƏM-wʌn kʌm kliin mai ruum wail aim aut",
+    "meaning": "Có ai dọn phòng giúp tôi khi tôi đi ra ngoài được không?",
+    "note": "Khách nhờ dọn phòng lúc vắng mặt.",
+    "category": "hotel"
+  },
+  {
+    "id": 470,
+    "ru": "Could you call a taxi for me, please?",
+    "phonetic": "kud yu kaal ə TEK-si fər mii pliiz",
+    "meaning": "Anh chị gọi giúp tôi một chiếc taxi được không?",
+    "note": "Khách nhờ lễ tân gọi taxi.",
+    "category": "hotel"
+  },
+  {
+    "id": 471,
+    "ru": "Can someone help carry my bags to the room?",
+    "phonetic": "kən SƏM-wʌn help KE-ri mai begz tu thə ruum",
+    "meaning": "Có ai giúp tôi mang hành lý lên phòng được không?",
+    "note": "Khách nhờ nhân viên mang hành lý.",
+    "category": "hotel"
+  },
+  {
+    "id": 472,
+    "ru": "I'd like to order room service, please.",
+    "phonetic": "aid laik tu OR-dər ruum SƏR-vis pliiz",
+    "meaning": "Tôi muốn gọi dịch vụ phòng.",
+    "note": "Khách gọi dịch vụ mang đồ ăn lên phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 473,
+    "ru": "Could I get an extra pillow and blanket?",
+    "phonetic": "kud ai get ən EKS-trə PI-lou ənd BLENG-kət",
+    "meaning": "Cho tôi xin thêm một cái gối và chăn được không?",
+    "note": "Khách yêu cầu thêm gối chăn.",
+    "category": "hotel"
+  },
+  {
+    "id": 474,
+    "ru": "Is it possible to get a hair dryer sent up?",
+    "phonetic": "iz it PAA-sə-bəl tu get ə her DRAI-ər sent ʌp",
+    "meaning": "Có thể mang máy sấy tóc lên phòng tôi không?",
+    "note": "Khách yêu cầu máy sấy tóc.",
+    "category": "hotel"
+  },
+  {
+    "id": 475,
+    "ru": "Could you send someone to fix the air conditioner?",
+    "phonetic": "kud yu send SƏM-wʌn tu fiks thi er kən-DI-shə-nər",
+    "meaning": "Anh chị cử người lên sửa điều hòa giúp tôi được không?",
+    "note": "Khách yêu cầu sửa điều hòa bị hỏng.",
+    "category": "hotel"
+  },
+  {
+    "id": 476,
+    "ru": "I need a few more hangers in my closet.",
+    "phonetic": "ai niid ə fyuu mor HENG-ərz in mai KLAA-zət",
+    "meaning": "Tôi cần thêm vài cái móc treo đồ trong tủ.",
+    "note": "Khách yêu cầu thêm móc treo quần áo.",
+    "category": "hotel"
+  },
+  {
+    "id": 477,
+    "ru": "Can you recommend a good restaurant nearby?",
+    "phonetic": "kən yu re-kə-MEND ə gud RES-tə-rənt nir-BAI",
+    "meaning": "Anh chị có thể gợi ý một nhà hàng ngon gần đây không?",
+    "note": "Khách hỏi lễ tân gợi ý nhà hàng.",
+    "category": "hotel"
+  },
+  {
+    "id": 478,
+    "ru": "Could you store this package for me until I check out?",
+    "phonetic": "kud yu stor this PE-kij fər mii ʌn-TIL ai chek aut",
+    "meaning": "Anh chị có thể giữ giúp tôi gói hàng này đến khi tôi trả phòng không?",
+    "note": "Khách gửi đồ nhờ lễ tân giữ hộ.",
+    "category": "hotel"
+  },
+  {
+    "id": 479,
+    "ru": "I'd like to arrange a wake-up call for five thirty a.m.",
+    "phonetic": "aid laik tu ə-REINJ ə WEIK-ʌp kaal fər faiv THƏR-ti ei-EM",
+    "meaning": "Tôi muốn đặt báo thức lúc năm giờ rưỡi sáng.",
+    "note": "Khách yêu cầu báo thức sớm.",
+    "category": "hotel"
+  },
+  {
+    "id": 480,
+    "ru": "Can housekeeping skip my room today, please?",
+    "phonetic": "kən HAUS-kii-ping skip mai ruum tə-DEI pliiz",
+    "meaning": "Hôm nay có thể bỏ qua dọn phòng của tôi không?",
+    "note": "Khách từ chối dọn phòng hôm đó.",
+    "category": "hotel"
+  },
+  {
+    "id": 481,
+    "ru": "Could you send up some ice, please?",
+    "phonetic": "kud yu send ʌp sʌm ais pliiz",
+    "meaning": "Anh chị mang lên giúp tôi ít đá được không?",
+    "note": "Khách yêu cầu mang đá lên phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 482,
+    "ru": "What time does breakfast start in the morning?",
+    "phonetic": "wʌt taim dʌz BREK-fəst stært in thə MOR-ning",
+    "meaning": "Bữa sáng bắt đầu lúc mấy giờ?",
+    "note": "Khách hỏi giờ bắt đầu ăn sáng.",
+    "category": "hotel"
+  },
+  {
+    "id": 483,
+    "ru": "Is breakfast buffet-style or à la carte?",
+    "phonetic": "iz BREK-fəst bə-FEI-stail or aa-lə-KAART",
+    "meaning": "Bữa sáng là buffet hay gọi món riêng?",
+    "note": "Khách hỏi hình thức phục vụ bữa sáng.",
+    "category": "hotel"
+  },
+  {
+    "id": 484,
+    "ru": "Where is the breakfast hall located?",
+    "phonetic": "wer iz thə BREK-fəst haal LOU-kei-təd",
+    "meaning": "Phòng ăn sáng ở đâu?",
+    "note": "Khách hỏi vị trí phòng ăn sáng.",
+    "category": "hotel"
+  },
+  {
+    "id": 485,
+    "ru": "Do you serve breakfast until ten on weekends?",
+    "phonetic": "du yu sərv BREK-fəst ʌn-TIL ten aan WIIK-endz",
+    "meaning": "Cuối tuần bữa sáng phục vụ đến mấy giờ?",
+    "note": "Khách hỏi giờ ăn sáng vào cuối tuần.",
+    "category": "hotel"
+  },
+  {
+    "id": 486,
+    "ru": "Is there a vegetarian option for breakfast?",
+    "phonetic": "iz ther ə ve-jə-TE-ri-ən AAP-shən fər BREK-fəst",
+    "meaning": "Bữa sáng có món chay không?",
+    "note": "Khách hỏi món ăn chay trong bữa sáng.",
+    "category": "hotel"
+  },
+  {
+    "id": 487,
+    "ru": "Could I have breakfast delivered to my room?",
+    "phonetic": "kud ai hev BREK-fəst di-LI-vərd tu mai ruum",
+    "meaning": "Tôi có thể được mang bữa sáng lên phòng không?",
+    "note": "Khách yêu cầu phục vụ bữa sáng tại phòng.",
+    "category": "hotel"
+  },
+  {
+    "id": 488,
+    "ru": "Does the buffet include fresh fruit and juice?",
+    "phonetic": "dʌz thə bə-FEI in-KLUUD fresh fruut ənd juus",
+    "meaning": "Buffet có trái cây tươi và nước ép không?",
+    "note": "Khách hỏi món ăn trong buffet sáng.",
+    "category": "hotel"
+  },
+  {
+    "id": 489,
+    "ru": "Can I get a cup of coffee before the buffet opens?",
+    "phonetic": "kən ai get ə kʌp əv KAA-fi bi-FOR thə bə-FEI OU-pənz",
+    "meaning": "Tôi có thể uống cà phê trước khi buffet mở cửa không?",
+    "note": "Khách hỏi cà phê sớm trước giờ buffet.",
+    "category": "hotel"
+  },
+  {
+    "id": 490,
+    "ru": "Is breakfast complimentary for hotel guests?",
+    "phonetic": "iz BREK-fəst kaam-plə-MEN-tə-ri fər hou-TEL gests",
+    "meaning": "Bữa sáng có miễn phí cho khách lưu trú không?",
+    "note": "Khách hỏi bữa sáng có tính phí không.",
+    "category": "hotel"
+  },
+  {
+    "id": 491,
+    "ru": "Do you have a table for four available around eight o'clock?",
+    "phonetic": "dù yu hæv ə TEI-bəl fər for ə-VEI-lə-bəl ə-RAUND eit ə-KLAK",
+    "meaning": "Anh/chị có bàn cho bốn người vào khoảng tám giờ không?",
+    "note": "Khách hỏi phục vụ/lễ tân khi gọi điện hoặc đến hỏi đặt bàn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 492,
+    "ru": "I'd like to book a table for six people this Saturday evening.",
+    "phonetic": "aid laik tə buk ə TEI-bəl fər siks PI-pəl this SÆ-tər-dei IV-ning",
+    "meaning": "Tôi muốn đặt bàn cho sáu người vào tối thứ Bảy này.",
+    "note": "Dùng khi đặt bàn trước qua điện thoại hoặc trực tiếp.",
+    "category": "restaurant"
+  },
+  {
+    "id": 493,
+    "ru": "Could we get a table by the window, please?",
+    "phonetic": "kud wi get ə TEI-bəl bai thə WIN-dou pliz",
+    "meaning": "Chúng tôi có thể có bàn gần cửa sổ được không?",
+    "note": "Khách yêu cầu vị trí ngồi cụ thể khi đặt bàn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 494,
+    "ru": "We have a reservation under the name Tran.",
+    "phonetic": "wi hæv ə re-zər-VEI-shən ÂN-dər thə neim træn",
+    "meaning": "Chúng tôi có đặt bàn dưới tên Trần.",
+    "note": "Khách xác nhận đặt bàn khi đến nhà hàng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 495,
+    "ru": "Is it possible to reserve a private room for a birthday party?",
+    "phonetic": "iz it PA-sə-bəl tə ri-ZƏRV ə PRAI-vət rum fər ə BƏRTH-dei PAR-ti",
+    "meaning": "Có thể đặt một phòng riêng cho tiệc sinh nhật không?",
+    "note": "Dùng khi cần đặt phòng riêng cho dịp đặc biệt.",
+    "category": "restaurant"
+  },
+  {
+    "id": 496,
+    "ru": "How long is the wait for a table without a reservation?",
+    "phonetic": "hau lɔŋ iz thə weit fər ə TEI-bəl wi-THAUT ə re-zər-VEI-shən",
+    "meaning": "Phải chờ bao lâu để có bàn nếu không đặt trước?",
+    "note": "Khách hỏi nhân viên về thời gian chờ khi không đặt bàn trước.",
+    "category": "restaurant"
+  },
+  {
+    "id": 497,
+    "ru": "I'm calling to confirm our reservation for tonight at seven thirty.",
+    "phonetic": "aim KAA-liŋ tə kən-FƏRM AUR re-zər-VEI-shən fər tə-NAIT æt SE-vən THƏR-ti",
+    "meaning": "Tôi gọi để xác nhận lại việc đặt bàn tối nay lúc bảy giờ rưỡi.",
+    "note": "Khách gọi điện xác nhận lại lịch đặt bàn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 498,
+    "ru": "Could you push our reservation back to eight fifteen?",
+    "phonetic": "kud yu push AUR re-zər-VEI-shən bæk tə eit fif-TIN",
+    "meaning": "Anh/chị có thể dời giờ đặt bàn của chúng tôi sang tám giờ mười lăm được không?",
+    "note": "Dùng khi muốn đổi giờ đặt bàn sang muộn hơn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 499,
+    "ru": "We'd prefer a table outside on the patio, if that's possible.",
+    "phonetic": "wid pri-FƏR ə TEI-bəl aut-SAID an thə PÆ-ti-ou if thæts PA-sə-bəl",
+    "meaning": "Chúng tôi muốn ngồi bàn ngoài sân hiên hơn, nếu có thể.",
+    "note": "Khách nêu nguyện vọng chỗ ngồi ngoài trời.",
+    "category": "restaurant"
+  },
+  {
+    "id": 500,
+    "ru": "Sorry, we need to cancel our reservation for tomorrow night.",
+    "phonetic": "SAA-ri wi nid tə KÆN-səl AUR re-zər-VEI-shən fər tə-MAA-rou nait",
+    "meaning": "Xin lỗi, chúng tôi cần hủy đặt bàn cho tối mai.",
+    "note": "Dùng khi cần hủy lịch đặt bàn đã đặt trước.",
+    "category": "restaurant"
+  },
+  {
+    "id": 501,
+    "ru": "Do you take walk-ins, or is a reservation required?",
+    "phonetic": "dù yu teik WAAK-inz ɔr iz ə re-zər-VEI-shən ri-KWAIRD",
+    "meaning": "Nhà hàng có nhận khách vãng lai không, hay bắt buộc phải đặt bàn trước?",
+    "note": "Khách hỏi về chính sách có cần đặt bàn trước hay không.",
+    "category": "restaurant"
+  },
+  {
+    "id": 502,
+    "ru": "We're a party of eight - do you have a table big enough?",
+    "phonetic": "wir ə PAR-ti əv eit dù yu hæv ə TEI-bəl big i-NÂF",
+    "meaning": "Nhóm chúng tôi có tám người - anh/chị có bàn đủ lớn không?",
+    "note": "Dùng khi đi nhóm đông cần bàn lớn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 503,
+    "ru": "Hi, we have a reservation for two under Nguyen.",
+    "phonetic": "hai wi hæv ə re-zər-VEI-shən fər tu ÂN-dər NGWIN",
+    "meaning": "Chào anh/chị, chúng tôi có đặt bàn cho hai người dưới tên Nguyễn.",
+    "note": "Khách nói khi vừa đến nhà hàng để nhận bàn đã đặt.",
+    "category": "restaurant"
+  },
+  {
+    "id": 504,
+    "ru": "Right this way, your table is ready.",
+    "phonetic": "rait this wei yər TEI-bəl iz RE-di",
+    "meaning": "Mời đi lối này, bàn của quý khách đã sẵn sàng.",
+    "note": "Nhân viên dẫn khách vào bàn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 505,
+    "ru": "Would you like to sit at the bar or in the dining room?",
+    "phonetic": "wud yu laik tə sit æt thə bar ɔr in thə DAI-niŋ rum",
+    "meaning": "Quý khách muốn ngồi ở quầy bar hay trong phòng ăn?",
+    "note": "Nhân viên hỏi khách về vị trí ngồi mong muốn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 506,
+    "ru": "Could we have a booth instead of a table, please?",
+    "phonetic": "kud wi hæv ə buth in-STED əv ə TEI-bəl pliz",
+    "meaning": "Chúng tôi có thể ngồi ghế bành thay vì bàn thường được không?",
+    "note": "Khách yêu cầu loại chỗ ngồi khác (ghế bọc góc).",
+    "category": "restaurant"
+  },
+  {
+    "id": 507,
+    "ru": "Follow me, please - I'll take you to your seats.",
+    "phonetic": "FAA-lou mi pliz ail teik yu tə yər sits",
+    "meaning": "Mời quý khách theo tôi - tôi sẽ dẫn quý khách đến chỗ ngồi.",
+    "note": "Nhân viên lễ tân dẫn khách vào bàn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 508,
+    "ru": "Is this table okay, or would you like another one?",
+    "phonetic": "iz this TEI-bəl ou-KEI ɔr wud yu laik ə-NÂ-thər wʌn",
+    "meaning": "Bàn này được không ạ, hay quý khách muốn đổi bàn khác?",
+    "note": "Nhân viên hỏi ý kiến khách về bàn được sắp xếp.",
+    "category": "restaurant"
+  },
+  {
+    "id": 509,
+    "ru": "We're still waiting for one more person to join us.",
+    "phonetic": "wir stil WEI-tiŋ fər wʌn mɔr PƏR-sən tə join âs",
+    "meaning": "Chúng tôi vẫn đang chờ thêm một người nữa đến.",
+    "note": "Khách giải thích với nhân viên khi chưa gọi món vì đợi người.",
+    "category": "restaurant"
+  },
+  {
+    "id": 510,
+    "ru": "Sorry we're a few minutes late for our reservation.",
+    "phonetic": "SAA-ri wir ə fyu MI-nəts leit fər AUR re-zər-VEI-shən",
+    "meaning": "Xin lỗi chúng tôi đến trễ vài phút so với giờ đặt bàn.",
+    "note": "Khách xin lỗi vì đến muộn so với giờ đã đặt.",
+    "category": "restaurant"
+  },
+  {
+    "id": 511,
+    "ru": "Could you seat us somewhere quieter, away from the kitchen?",
+    "phonetic": "kud yu sit âs SÂM-wer KWAI-ə-tər ə-WEI frâm thə KI-chən",
+    "meaning": "Anh/chị có thể xếp cho chúng tôi chỗ yên tĩnh hơn, xa nhà bếp không?",
+    "note": "Khách yêu cầu đổi chỗ ngồi yên tĩnh hơn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 512,
+    "ru": "Here are your menus - take your time deciding.",
+    "phonetic": "hir ar yər ME-nyuz teik yər taim di-SAI-diŋ",
+    "meaning": "Đây là thực đơn của quý khách - quý khách cứ từ từ chọn món.",
+    "note": "Nhân viên đưa thực đơn cho khách.",
+    "category": "restaurant"
+  },
+  {
+    "id": 513,
+    "ru": "Could we see the menu, please?",
+    "phonetic": "kud wi si thə ME-nyu pliz",
+    "meaning": "Chúng tôi có thể xem thực đơn được không?",
+    "note": "Khách yêu cầu xem thực đơn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 514,
+    "ru": "What do you recommend from the menu tonight?",
+    "phonetic": "wât dù yu re-kə-MEND frâm thə ME-nyu tə-NAIT",
+    "meaning": "Tối nay anh/chị gợi ý món gì trong thực đơn?",
+    "note": "Khách hỏi nhân viên món nên gọi.",
+    "category": "restaurant"
+  },
+  {
+    "id": 515,
+    "ru": "What's today's special?",
+    "phonetic": "wâts tə-DEIZ SPE-shəl",
+    "meaning": "Món đặc biệt hôm nay là gì vậy?",
+    "note": "Khách hỏi về món đặc biệt trong ngày.",
+    "category": "restaurant"
+  },
+  {
+    "id": 516,
+    "ru": "What's the most popular dish here?",
+    "phonetic": "wâts thə moust PA-pyə-lər dish hir",
+    "meaning": "Món nào được gọi nhiều nhất ở đây?",
+    "note": "Khách hỏi nhân viên về món ăn nổi bật/bán chạy.",
+    "category": "restaurant"
+  },
+  {
+    "id": 517,
+    "ru": "Could you give us a few more minutes to decide?",
+    "phonetic": "kud yu giv âs ə fyu mɔr MI-nəts tə di-SAID",
+    "meaning": "Anh/chị cho chúng tôi thêm vài phút để chọn món được không?",
+    "note": "Khách xin thêm thời gian trước khi gọi món.",
+    "category": "restaurant"
+  },
+  {
+    "id": 518,
+    "ru": "I'll have the grilled salmon, please.",
+    "phonetic": "ail hæv thə grild SÆ-mən pliz",
+    "meaning": "Cho tôi món cá hồi nướng.",
+    "note": "Khách gọi món chính.",
+    "category": "restaurant"
+  },
+  {
+    "id": 519,
+    "ru": "We'll start with the spring rolls as an appetizer.",
+    "phonetic": "wil start with thə spriŋ roulz æz ən Æ-pə-tai-zər",
+    "meaning": "Chúng tôi sẽ bắt đầu với chả giò làm món khai vị.",
+    "note": "Khách gọi món khai vị trước.",
+    "category": "restaurant"
+  },
+  {
+    "id": 520,
+    "ru": "Could I get the steak, medium rare?",
+    "phonetic": "kud ai get thə steik MI-di-əm rer",
+    "meaning": "Cho tôi món bít tết, chín tái được không?",
+    "note": "Khách gọi món và nêu độ chín mong muốn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 521,
+    "ru": "What comes with the set menu?",
+    "phonetic": "wât kâmz with thə set ME-nyu",
+    "meaning": "Thực đơn set này gồm những gì?",
+    "note": "Khách hỏi chi tiết về set menu.",
+    "category": "restaurant"
+  },
+  {
+    "id": 522,
+    "ru": "Is this dish spicy?",
+    "phonetic": "iz this dish SPAI-si",
+    "meaning": "Món này có cay không?",
+    "note": "Khách hỏi độ cay của món trước khi gọi.",
+    "category": "restaurant"
+  },
+  {
+    "id": 523,
+    "ru": "Are you ready to order, or do you need more time?",
+    "phonetic": "ar yu RE-di tə OR-dər ɔr dù yu nid mɔr taim",
+    "meaning": "Quý khách đã sẵn sàng gọi món chưa, hay cần thêm thời gian?",
+    "note": "Nhân viên hỏi khách đã sẵn sàng gọi món chưa.",
+    "category": "restaurant"
+  },
+  {
+    "id": 524,
+    "ru": "I'll have the same as him.",
+    "phonetic": "ail hæv thə seim æz him",
+    "meaning": "Cho tôi món giống anh ấy.",
+    "note": "Khách gọi món giống người ngồi cùng bàn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 525,
+    "ru": "For dessert, we'd like to share a slice of chocolate cake.",
+    "phonetic": "fər di-ZƏRT wid laik tə sher ə slais əv CHAA-kə-lət keik",
+    "meaning": "Món tráng miệng, chúng tôi muốn chia nhau một miếng bánh sô-cô-la.",
+    "note": "Khách gọi món tráng miệng để dùng chung.",
+    "category": "restaurant"
+  },
+  {
+    "id": 526,
+    "ru": "Does the pasta come with garlic bread?",
+    "phonetic": "dâz thə PAA-stə kâm with GAR-lik bred",
+    "meaning": "Món mì Ý có kèm bánh mì tỏi không?",
+    "note": "Khách hỏi món ăn kèm có sẵn theo món chính không.",
+    "category": "restaurant"
+  },
+  {
+    "id": 527,
+    "ru": "Could you tell me what's in this sauce?",
+    "phonetic": "kud yu tel mi wâts in this saas",
+    "meaning": "Anh/chị có thể cho tôi biết nước sốt này có gì không?",
+    "note": "Khách hỏi thành phần của nước sốt.",
+    "category": "restaurant"
+  },
+  {
+    "id": 528,
+    "ru": "We're not very hungry - could we just order some small plates?",
+    "phonetic": "wir nât VE-ri HÂN-gri kud wi jâst OR-dər sâm smaal pleits",
+    "meaning": "Chúng tôi không đói lắm - có thể gọi vài món nhỏ thôi được không?",
+    "note": "Khách gọi món nhẹ khi không quá đói.",
+    "category": "restaurant"
+  },
+  {
+    "id": 529,
+    "ru": "What size is the portion for this dish?",
+    "phonetic": "wât saiz iz thə POR-shən fər this dish",
+    "meaning": "Khẩu phần của món này lớn cỡ nào?",
+    "note": "Khách hỏi về khẩu phần ăn trước khi gọi món.",
+    "category": "restaurant"
+  },
+  {
+    "id": 530,
+    "ru": "I'd like to order the tasting menu, please.",
+    "phonetic": "aid laik tə OR-dər thə TEI-stiŋ ME-nyu pliz",
+    "meaning": "Tôi muốn gọi thực đơn nếm thử.",
+    "note": "Khách chọn gọi set thực đơn nếm thử nhiều món.",
+    "category": "restaurant"
+  },
+  {
+    "id": 531,
+    "ru": "Can I substitute the fries for a salad?",
+    "phonetic": "kæn ai SÂB-stə-tut thə fraiz fər ə SÆ-ləd",
+    "meaning": "Tôi có thể đổi khoai tây chiên thành salad không?",
+    "note": "Khách xin đổi món ăn kèm.",
+    "category": "restaurant"
+  },
+  {
+    "id": 532,
+    "ru": "Let's split a large pizza between the two of us.",
+    "phonetic": "lets split ə larj PIT-sə bi-TWIN thə tu əv âs",
+    "meaning": "Hai đứa mình chia nhau một chiếc pizza cỡ lớn nhé.",
+    "note": "Khách nói với bạn đi cùng khi chọn món chung.",
+    "category": "restaurant"
+  },
+  {
+    "id": 533,
+    "ru": "I'm allergic to peanuts - does this dish contain any?",
+    "phonetic": "aim ə-LƏR-jik tə PI-nâts dâz this dish kən-TEIN E-ni",
+    "meaning": "Tôi bị dị ứng đậu phộng - món này có chứa đậu phộng không?",
+    "note": "Khách báo dị ứng thực phẩm khi gọi món.",
+    "category": "restaurant"
+  },
+  {
+    "id": 534,
+    "ru": "Could you make this without seafood? I'm allergic.",
+    "phonetic": "kud yu meik this wi-THAUT SI-fud aim ə-LƏR-jik",
+    "meaning": "Anh/chị có thể làm món này không có hải sản được không? Tôi bị dị ứng.",
+    "note": "Khách yêu cầu bỏ hải sản vì dị ứng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 535,
+    "ru": "I'm vegetarian - what options do you have?",
+    "phonetic": "aim ve-jə-TE-ri-ən wât AAP-shənz dù yu hæv",
+    "meaning": "Tôi ăn chay - anh/chị có những món nào phù hợp?",
+    "note": "Khách ăn chay hỏi về lựa chọn món chay.",
+    "category": "restaurant"
+  },
+  {
+    "id": 536,
+    "ru": "Could you make it less spicy, please?",
+    "phonetic": "kud yu meik it les SPAI-si pliz",
+    "meaning": "Anh/chị có thể làm món này bớt cay được không?",
+    "note": "Khách yêu cầu giảm độ cay của món.",
+    "category": "restaurant"
+  },
+  {
+    "id": 537,
+    "ru": "Is there any dairy in this soup?",
+    "phonetic": "iz ther E-ni DE-ri in this sup",
+    "meaning": "Món súp này có chứa sữa hay các chế phẩm từ sữa không?",
+    "note": "Khách hỏi vì không dùng được sản phẩm từ sữa.",
+    "category": "restaurant"
+  },
+  {
+    "id": 538,
+    "ru": "My daughter has a gluten allergy - is this bread gluten-free?",
+    "phonetic": "mai DAA-tər hæz ə GLU-tən Æ-lər-ji iz this bred GLU-tən fri",
+    "meaning": "Con gái tôi bị dị ứng gluten - bánh mì này có phải loại không chứa gluten không?",
+    "note": "Phụ huynh hỏi về thực phẩm không chứa gluten cho con.",
+    "category": "restaurant"
+  },
+  {
+    "id": 539,
+    "ru": "Could you leave out the cilantro? I really don't like it.",
+    "phonetic": "kud yu liv aut thə si-LAAN-trou ai RI-li dount laik it",
+    "meaning": "Anh/chị có thể bỏ rau mùi ra được không? Tôi thật sự không thích nó.",
+    "note": "Khách yêu cầu bỏ một nguyên liệu không thích.",
+    "category": "restaurant"
+  },
+  {
+    "id": 540,
+    "ru": "Does the sauce contain any nuts?",
+    "phonetic": "dâz thə saas kən-TEIN E-ni nâts",
+    "meaning": "Nước sốt này có chứa các loại hạt không?",
+    "note": "Khách hỏi về nguyên liệu để tránh dị ứng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 541,
+    "ru": "I'm vegan - could you check if this has butter or eggs?",
+    "phonetic": "aim VI-gən kud yu chek if this hæz BÂ-tər ɔr egz",
+    "meaning": "Tôi ăn thuần chay - anh/chị kiểm tra giúp món này có bơ hay trứng không?",
+    "note": "Khách ăn thuần chay hỏi về thành phần món ăn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 542,
+    "ru": "Can you tell the kitchen to go easy on the salt?",
+    "phonetic": "kæn yu tel thə KI-chən tə gou I-zi aan thə saalt",
+    "meaning": "Anh/chị nhắn bếp cho ít muối lại giúp tôi được không?",
+    "note": "Khách yêu cầu món ăn nhạt hơn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 543,
+    "ru": "I have a shellfish allergy, so please keep it away from my food.",
+    "phonetic": "ai hæv ə SHEL-fish Æ-lər-ji sou pliz kip it ə-WEI frâm mai fud",
+    "meaning": "Tôi bị dị ứng động vật có vỏ, nên làm ơn để nó tránh xa món ăn của tôi.",
+    "note": "Khách nhấn mạnh yêu cầu tránh dị ứng nghiêm trọng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 544,
+    "ru": "Is this dish cooked in peanut oil?",
+    "phonetic": "iz this dish kukt in PI-nât oil",
+    "meaning": "Món này có được nấu bằng dầu đậu phộng không?",
+    "note": "Khách hỏi kỹ về loại dầu chế biến do dị ứng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 545,
+    "ru": "Could we start with some drinks while we decide on food?",
+    "phonetic": "kud wi start with sâm driŋks wail wi di-SAID aan fud",
+    "meaning": "Chúng tôi có thể gọi đồ uống trước trong lúc chọn món ăn không?",
+    "note": "Khách gọi đồ uống trước khi chọn món ăn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 546,
+    "ru": "I'll have a black coffee, please.",
+    "phonetic": "ail hæv ə blæk KAA-fi pliz",
+    "meaning": "Cho tôi một ly cà phê đen.",
+    "note": "Khách gọi đồ uống là cà phê đen.",
+    "category": "restaurant"
+  },
+  {
+    "id": 547,
+    "ru": "Could I get a latte with oat milk?",
+    "phonetic": "kud ai get ə LAA-tei with out milk",
+    "meaning": "Cho tôi một ly latte với sữa yến mạch được không?",
+    "note": "Khách gọi cà phê latte thay sữa bằng sữa yến mạch.",
+    "category": "restaurant"
+  },
+  {
+    "id": 548,
+    "ru": "What kind of wine would you recommend with the steak?",
+    "phonetic": "wât kaind əv wain wud yu re-kə-MEND with thə steik",
+    "meaning": "Anh/chị gợi ý loại rượu vang nào hợp với món bít tết?",
+    "note": "Khách hỏi nhân viên gợi ý rượu vang phù hợp món ăn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 549,
+    "ru": "Could we see the wine list, please?",
+    "phonetic": "kud wi si thə wain list pliz",
+    "meaning": "Chúng tôi có thể xem danh sách rượu vang được không?",
+    "note": "Khách yêu cầu xem menu rượu vang.",
+    "category": "restaurant"
+  },
+  {
+    "id": 550,
+    "ru": "I'll just have a glass of the house red.",
+    "phonetic": "ail jâst hæv ə glæs əv thə haus red",
+    "meaning": "Tôi chỉ dùng một ly rượu vang đỏ của nhà hàng thôi.",
+    "note": "Khách gọi rượu vang đỏ loại nhà hàng thường dùng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 551,
+    "ru": "Do you have any fresh juice?",
+    "phonetic": "dù yu hæv E-ni fresh jus",
+    "meaning": "Ở đây có nước ép tươi không?",
+    "note": "Khách hỏi về nước ép trái cây tươi.",
+    "category": "restaurant"
+  },
+  {
+    "id": 552,
+    "ru": "Could I get an iced tea with no sugar?",
+    "phonetic": "kud ai get ən aist ti with nou SHU-gər",
+    "meaning": "Cho tôi một ly trà đá không đường được không?",
+    "note": "Khách gọi trà đá và yêu cầu không đường.",
+    "category": "restaurant"
+  },
+  {
+    "id": 553,
+    "ru": "We'd like a bottle of sparkling water for the table.",
+    "phonetic": "wid laik ə BAA-təl əv SPAR-kliŋ WAA-tər fər thə TEI-bəl",
+    "meaning": "Chúng tôi muốn một chai nước có ga cho cả bàn.",
+    "note": "Khách gọi nước có ga dùng chung.",
+    "category": "restaurant"
+  },
+  {
+    "id": 554,
+    "ru": "What's in this cocktail?",
+    "phonetic": "wâts in this KAAK-teil",
+    "meaning": "Ly cocktail này có những gì?",
+    "note": "Khách hỏi thành phần của cocktail.",
+    "category": "restaurant"
+  },
+  {
+    "id": 555,
+    "ru": "Could you make my coffee extra strong?",
+    "phonetic": "kud yu meik mai KAA-fi EK-strə straang",
+    "meaning": "Anh/chị có thể pha cà phê của tôi đậm hơn được không?",
+    "note": "Khách yêu cầu cà phê pha đậm hơn bình thường.",
+    "category": "restaurant"
+  },
+  {
+    "id": 556,
+    "ru": "I'll have a cappuccino after dinner, please.",
+    "phonetic": "ail hæv ə kæ-pu-CHI-nou AAF-tər DI-nər pliz",
+    "meaning": "Sau bữa tối cho tôi một ly cappuccino.",
+    "note": "Khách gọi cà phê sau khi ăn xong.",
+    "category": "restaurant"
+  },
+  {
+    "id": 557,
+    "ru": "Do you serve espresso here?",
+    "phonetic": "dù yu sərv e-SPRE-sou hir",
+    "meaning": "Ở đây có phục vụ espresso không?",
+    "note": "Khách hỏi nhà hàng có món cà phê espresso không.",
+    "category": "restaurant"
+  },
+  {
+    "id": 558,
+    "ru": "Could we get another round of beers?",
+    "phonetic": "kud wi get ə-NÂ-thər raund əv birz",
+    "meaning": "Cho chúng tôi thêm một lượt bia nữa được không?",
+    "note": "Khách gọi thêm bia cho cả bàn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 559,
+    "ru": "I'll skip the alcohol - just a soda for me, thanks.",
+    "phonetic": "ail skip thi ÆL-kə-haal jâst ə SOU-də fər mi thæŋks",
+    "meaning": "Tôi không uống rượu bia đâu - cho tôi một ly soda thôi, cảm ơn.",
+    "note": "Khách từ chối đồ uống có cồn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 560,
+    "ru": "Could we get some more water, please?",
+    "phonetic": "kud wi get sâm mɔr WAA-tər pliz",
+    "meaning": "Cho chúng tôi thêm nước được không?",
+    "note": "Khách yêu cầu thêm nước trong bữa ăn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 561,
+    "ru": "Excuse me, could we have some extra napkins?",
+    "phonetic": "ik-SKYUZ mi kud wi hæv sâm EK-strə NÆP-kinz",
+    "meaning": "Xin lỗi, cho chúng tôi thêm khăn giấy được không?",
+    "note": "Khách yêu cầu thêm khăn giấy.",
+    "category": "restaurant"
+  },
+  {
+    "id": 562,
+    "ru": "Could you bring us some more bread, please?",
+    "phonetic": "kud yu briŋ âs sâm mɔr bred pliz",
+    "meaning": "Anh/chị mang thêm bánh mì cho chúng tôi được không?",
+    "note": "Khách xin thêm bánh mì.",
+    "category": "restaurant"
+  },
+  {
+    "id": 563,
+    "ru": "Sorry, I ordered the chicken, not the beef - could you fix that?",
+    "phonetic": "SAA-ri ai OR-dərd thə CHI-kən nât thə bif kud yu fiks thæt",
+    "meaning": "Xin lỗi, tôi gọi món gà chứ không phải bò - anh/chị đổi lại giúp được không?",
+    "note": "Khách báo phục vụ mang nhầm món.",
+    "category": "restaurant"
+  },
+  {
+    "id": 564,
+    "ru": "Could we get some chili sauce on the side?",
+    "phonetic": "kud wi get sâm CHI-li saas aan thə said",
+    "meaning": "Cho chúng tôi thêm chén tương ớt riêng được không?",
+    "note": "Khách xin thêm nước chấm/tương ớt kèm theo.",
+    "category": "restaurant"
+  },
+  {
+    "id": 565,
+    "ru": "Could you box up the rest of this for me to take home?",
+    "phonetic": "kud yu baaks âp thə rest əv this fər mi tə teik houm",
+    "meaning": "Anh/chị gói phần còn lại này để tôi mang về được không?",
+    "note": "Khách xin gói mang về phần thức ăn thừa.",
+    "category": "restaurant"
+  },
+  {
+    "id": 566,
+    "ru": "Could we get another fork? This one's dirty.",
+    "phonetic": "kud wi get ə-NÂ-thər fɔrk this wânz DƏR-ti",
+    "meaning": "Cho chúng tôi một cái nĩa khác được không? Cái này bị bẩn.",
+    "note": "Khách yêu cầu đổi dụng cụ ăn bị bẩn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 567,
+    "ru": "Could you bring the check along with our dessert?",
+    "phonetic": "kud yu briŋ thə chek ə-LAANG with AUR di-ZƏRT",
+    "meaning": "Anh/chị mang hóa đơn ra cùng lúc với món tráng miệng được không?",
+    "note": "Khách yêu cầu mang hóa đơn cùng lúc với món tráng miệng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 568,
+    "ru": "Excuse me, could you clear these plates when you get a chance?",
+    "phonetic": "ik-SKYUZ mi kud yu klir thiz pleits wen yu get ə cheins",
+    "meaning": "Xin lỗi, khi nào tiện anh/chị dọn giúp mấy cái đĩa này được không?",
+    "note": "Khách nhờ dọn đĩa đã dùng xong.",
+    "category": "restaurant"
+  },
+  {
+    "id": 569,
+    "ru": "Could I swap the rice for noodles?",
+    "phonetic": "kud ai swaap thə rais fər NU-dəlz",
+    "meaning": "Tôi có thể đổi cơm thành mì được không?",
+    "note": "Khách xin đổi món ăn kèm từ cơm sang mì.",
+    "category": "restaurant"
+  },
+  {
+    "id": 570,
+    "ru": "Would it be possible to get this dish to go instead?",
+    "phonetic": "wud it bi PA-sə-bəl tə get this dish tə gou in-STED",
+    "meaning": "Có thể đổi món này thành mang đi thay vì ăn tại chỗ không?",
+    "note": "Khách đổi ý muốn mang món đi thay vì ăn tại bàn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 571,
+    "ru": "Could you turn the air conditioning down a bit? It's a little cold here.",
+    "phonetic": "kud yu tərn thi er kən-DI-shə-niŋ daun ə bit its ə LI-təl kould hir",
+    "meaning": "Anh/chị vặn nhỏ máy lạnh lại một chút được không? Ở đây hơi lạnh.",
+    "note": "Khách yêu cầu điều chỉnh nhiệt độ phòng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 572,
+    "ru": "Could we get some more napkins and a to-go box?",
+    "phonetic": "kud wi get sâm mɔr NÆP-kinz ænd ə tə-GOU baaks",
+    "meaning": "Cho chúng tôi thêm khăn giấy và một hộp mang về được không?",
+    "note": "Khách xin thêm khăn giấy và hộp đựng mang về.",
+    "category": "restaurant"
+  },
+  {
+    "id": 573,
+    "ru": "Excuse me, this soup has gone cold.",
+    "phonetic": "ik-SKYUZ mi this sup hæz gaan kould",
+    "meaning": "Xin lỗi, món súp này bị nguội mất rồi.",
+    "note": "Khách phàn nàn món ăn bị nguội.",
+    "category": "restaurant"
+  },
+  {
+    "id": 574,
+    "ru": "I think there's been a mistake - this isn't what I ordered.",
+    "phonetic": "ai thiŋk therz bin ə mi-STEIK this I-zənt wât ai OR-dərd",
+    "meaning": "Tôi nghĩ có sự nhầm lẫn - đây không phải món tôi đã gọi.",
+    "note": "Khách phàn nàn vì bị mang nhầm món.",
+    "category": "restaurant"
+  },
+  {
+    "id": 575,
+    "ru": "We've been waiting almost forty minutes for our food.",
+    "phonetic": "wiv bin WEI-tiŋ AAL-moust FOR-ti MI-nəts fər AUR fud",
+    "meaning": "Chúng tôi đã chờ gần bốn mươi phút mà chưa có đồ ăn.",
+    "note": "Khách phàn nàn về việc phục vụ chậm.",
+    "category": "restaurant"
+  },
+  {
+    "id": 576,
+    "ru": "This steak is way too well-done - I asked for medium rare.",
+    "phonetic": "this steik iz wei tu WEL-dân ai æskt fər MI-di-əm rer",
+    "meaning": "Miếng bít tết này chín quá kỹ rồi - tôi yêu cầu chín tái mà.",
+    "note": "Khách phàn nàn món bít tết nấu sai độ chín yêu cầu.",
+    "category": "restaurant"
+  },
+  {
+    "id": 577,
+    "ru": "Sorry, but this doesn't taste fresh.",
+    "phonetic": "SAA-ri bât this DÂ-zənt teist fresh",
+    "meaning": "Xin lỗi, nhưng món này ăn không có vị tươi.",
+    "note": "Khách phàn nàn về chất lượng, độ tươi của món ăn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 578,
+    "ru": "Could you check on our order? It's taking a really long time.",
+    "phonetic": "kud yu chek aan AUR OR-dər its TEI-kiŋ ə RI-li lɔŋ taim",
+    "meaning": "Anh/chị kiểm tra giúp đơn hàng của chúng tôi được không? Lâu quá rồi.",
+    "note": "Khách nhờ nhân viên kiểm tra vì món ăn ra quá lâu.",
+    "category": "restaurant"
+  },
+  {
+    "id": 579,
+    "ru": "Excuse me, we're still waiting for our drinks.",
+    "phonetic": "ik-SKYUZ mi wir stil WEI-tiŋ fər AUR driŋks",
+    "meaning": "Xin lỗi, chúng tôi vẫn đang chờ đồ uống.",
+    "note": "Khách nhắc nhân viên vì đồ uống ra chậm.",
+    "category": "restaurant"
+  },
+  {
+    "id": 580,
+    "ru": "This table hasn't been cleaned properly.",
+    "phonetic": "this TEI-bəl HÆ-zənt bin klind PRAA-pər-li",
+    "meaning": "Cái bàn này chưa được lau dọn sạch sẽ.",
+    "note": "Khách phàn nàn về vệ sinh bàn ăn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 581,
+    "ru": "I'm sorry about the delay - the kitchen is a bit backed up tonight.",
+    "phonetic": "aim SAA-ri ə-BAUT thə di-LEI thə KI-chən iz ə bit bækt âp tə-NAIT",
+    "meaning": "Tôi xin lỗi vì sự chậm trễ - bếp tối nay hơi quá tải.",
+    "note": "Nhân viên xin lỗi khách vì bếp làm chậm.",
+    "category": "restaurant"
+  },
+  {
+    "id": 582,
+    "ru": "This dish is way too salty for my taste.",
+    "phonetic": "this dish iz wei tu SAAL-ti fər mai teist",
+    "meaning": "Món này mặn quá so với khẩu vị của tôi.",
+    "note": "Khách phàn nàn món ăn bị mặn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 583,
+    "ru": "This is honestly one of the best meals I've had in a while.",
+    "phonetic": "this iz AA-nəst-li wân əv thə best milz aiv hæd in ə wail",
+    "meaning": "Thành thật mà nói đây là một trong những bữa ăn ngon nhất tôi từng ăn trong thời gian gần đây.",
+    "note": "Khách khen ngợi chất lượng bữa ăn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 584,
+    "ru": "Please tell the chef the food was absolutely delicious.",
+    "phonetic": "pliz tel thə shef thə fud wâz ÆB-sə-lut-li di-LI-shəs",
+    "meaning": "Làm ơn nhắn với đầu bếp là món ăn ngon tuyệt vời.",
+    "note": "Khách nhờ nhân viên chuyển lời khen đến đầu bếp.",
+    "category": "restaurant"
+  },
+  {
+    "id": 585,
+    "ru": "Everything tastes amazing - compliments to the chef.",
+    "phonetic": "EV-ri-thiŋ teists ə-MEI-ziŋ KAAM-plə-mənts tə thə shef",
+    "meaning": "Mọi thứ đều ngon tuyệt - xin gửi lời khen đến đầu bếp.",
+    "note": "Câu khen ngợi phổ biến gửi đến đầu bếp.",
+    "category": "restaurant"
+  },
+  {
+    "id": 586,
+    "ru": "Wow, this dessert is incredible.",
+    "phonetic": "wau this di-ZƏRT iz in-KRE-də-bəl",
+    "meaning": "Ồ, món tráng miệng này ngon không thể tin được.",
+    "note": "Khách trầm trồ khen món tráng miệng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 587,
+    "ru": "The service here has been fantastic tonight.",
+    "phonetic": "thə SƏR-vəs hir hæz bin fæn-TÆ-stik tə-NAIT",
+    "meaning": "Dịch vụ ở đây tối nay thật tuyệt vời.",
+    "note": "Khách khen chất lượng phục vụ.",
+    "category": "restaurant"
+  },
+  {
+    "id": 588,
+    "ru": "I love how fresh all the ingredients taste.",
+    "phonetic": "ai lâv hau fresh aal thi in-GRI-di-ənts teist",
+    "meaning": "Tôi rất thích vị tươi ngon của tất cả nguyên liệu.",
+    "note": "Khách khen độ tươi của nguyên liệu món ăn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 589,
+    "ru": "This is exactly how I like my steak cooked.",
+    "phonetic": "this iz ig-ZÆKT-li hau ai laik mai steik kukt",
+    "meaning": "Đây chính xác là cách tôi thích món bít tết được nấu.",
+    "note": "Khách khen món bít tết được chế biến đúng ý.",
+    "category": "restaurant"
+  },
+  {
+    "id": 590,
+    "ru": "We'll definitely be coming back here again.",
+    "phonetic": "wil DE-fə-nət-li bi KÂ-miŋ bæk hir ə-GEN",
+    "meaning": "Chắc chắn chúng tôi sẽ quay lại đây lần nữa.",
+    "note": "Khách bày tỏ sẽ quay lại nhà hàng vì hài lòng.",
+    "category": "restaurant"
+  },
+  {
+    "id": 591,
+    "ru": "Could we have the check, please?",
+    "phonetic": "kud wi hæv thə chek pliz",
+    "meaning": "Cho chúng tôi xin hóa đơn được không?",
+    "note": "Khách yêu cầu tính tiền.",
+    "category": "restaurant"
+  },
+  {
+    "id": 592,
+    "ru": "Do you accept credit cards?",
+    "phonetic": "dù yu ək-SEPT KRE-dət kardz",
+    "meaning": "Ở đây có nhận thanh toán bằng thẻ tín dụng không?",
+    "note": "Khách hỏi về hình thức thanh toán bằng thẻ.",
+    "category": "restaurant"
+  },
+  {
+    "id": 593,
+    "ru": "Could we split the bill between us?",
+    "phonetic": "kud wi split thə bil bi-TWIN âs",
+    "meaning": "Chúng tôi có thể chia đôi hóa đơn được không?",
+    "note": "Khách đề nghị chia tiền hóa đơn.",
+    "category": "restaurant"
+  },
+  {
+    "id": 594,
+    "ru": "I'll get this one - you can get the next round.",
+    "phonetic": "ail get this wân yu kæn get thə nekst raund",
+    "meaning": "Lần này để tôi trả - lần sau bạn trả nhé.",
+    "note": "Khách nói với bạn khi giành trả tiền lần này.",
+    "category": "restaurant"
+  },
+  {
+    "id": 595,
+    "ru": "Is the tip included in the bill?",
+    "phonetic": "iz thə tip in-KLU-dəd in thə bil",
+    "meaning": "Tiền tip đã được tính vào hóa đơn chưa?",
+    "note": "Khách hỏi xem tiền tip đã bao gồm trong hóa đơn hay chưa.",
+    "category": "restaurant"
+  },
+  {
+    "id": 596,
+    "ru": "Could you split this into two separate checks?",
+    "phonetic": "kud yu split this IN-tu tu SE-pə-rət cheks",
+    "meaning": "Anh/chị có thể tách thành hai hóa đơn riêng được không?",
+    "note": "Khách yêu cầu tách hóa đơn thành hai phần riêng biệt.",
+    "category": "restaurant"
+  },
+  {
+    "id": 597,
+    "ru": "We'd like to pay separately, if that's okay.",
+    "phonetic": "wid laik tə pei SE-pə-rət-li if thæts ou-KEI",
+    "meaning": "Chúng tôi muốn thanh toán riêng, nếu được ạ.",
+    "note": "Khách đề nghị thanh toán tách riêng từng người.",
+    "category": "restaurant"
+  },
+  {
+    "id": 598,
+    "ru": "How much should we tip for good service?",
+    "phonetic": "hau mâch shud wi tip fər gud SƏR-vəs",
+    "meaning": "Chúng ta nên tip bao nhiêu cho dịch vụ tốt?",
+    "note": "Khách hỏi bạn đi cùng về mức tiền tip hợp lý.",
+    "category": "restaurant"
+  },
+  {
+    "id": 599,
+    "ru": "Could I get a receipt, please?",
+    "phonetic": "kud ai get ə ri-SIT pliz",
+    "meaning": "Cho tôi xin hóa đơn/biên lai được không?",
+    "note": "Khách xin biên lai sau khi thanh toán.",
+    "category": "restaurant"
+  },
+  {
+    "id": 600,
+    "ru": "Sorry, do you take cash, or card only?",
+    "phonetic": "SAA-ri dù yu teik kæsh ɔr kard OUN-li",
+    "meaning": "Xin lỗi, ở đây nhận tiền mặt hay chỉ nhận thẻ thôi?",
+    "note": "Khách hỏi về phương thức thanh toán được chấp nhận.",
+    "category": "restaurant"
+  }
+]

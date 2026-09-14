@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1001,
+    "ru": "喂,你好,请问是李经理吗?",
+    "phonetic": "Wèi, nǐ hǎo, qǐngwèn shì Lǐ jīnglǐ ma?",
+    "meaning": "Alo, xin chào, xin hỏi có phải là giám đốc Lý không?",
+    "note": "Dùng khi mở đầu cuộc gọi điện thoại với người chưa quen giọng.",
+    "category": "greetings"
+  },
+  {
+    "id": 1002,
+    "ru": "喂,能看到我吗?",
+    "phonetic": "Wèi, néng kàndào wǒ ma?",
+    "meaning": "Alo, bạn nhìn thấy tôi không?",
+    "note": "Dùng khi bắt đầu một cuộc gọi video để kiểm tra kết nối.",
+    "category": "greetings"
+  },
+  {
+    "id": 1003,
+    "ru": "在吗?",
+    "phonetic": "Zài ma?",
+    "meaning": "Có ở đó không?",
+    "note": "Câu nhắn tin ngắn gọn để mở đầu trò chuyện qua ứng dụng chat.",
+    "category": "greetings"
+  },
+  {
+    "id": 1004,
+    "ru": "你好呀,加个微信吧。",
+    "phonetic": "Nǐ hǎo ya, jiāgè Wēixìn ba.",
+    "meaning": "Chào bạn, kết bạn Wechat nhé.",
+    "note": "Dùng khi mới quen ai đó và muốn trao đổi liên lạc qua WeChat.",
+    "category": "greetings"
+  },
+  {
+    "id": 1005,
+    "ru": "老师好!",
+    "phonetic": "Lǎoshī hǎo!",
+    "meaning": "Chào thầy/cô!",
+    "note": "Câu chào kính trọng học sinh dùng khi gặp giáo viên.",
+    "category": "greetings"
+  },
+  {
+    "id": 1006,
+    "ru": "王总,早上好!",
+    "phonetic": "Wáng zǒng, zǎoshang hǎo!",
+    "meaning": "Chào buổi sáng, tổng giám đốc Vương!",
+    "note": "Câu chào trang trọng dùng với cấp trên có chức danh cụ thể.",
+    "category": "greetings"
+  },
+  {
+    "id": 1007,
+    "ru": "您好,请问找哪位?",
+    "phonetic": "Nín hǎo, qǐngwèn zhǎo nǎwèi?",
+    "meaning": "Xin chào, xin hỏi ông/bà tìm ai ạ?",
+    "note": "Câu hỏi lịch sự khi có khách gõ cửa hoặc gọi điện đến.",
+    "category": "greetings"
+  },
+  {
+    "id": 1008,
+    "ru": "新年好!",
+    "phonetic": "Xīnnián hǎo!",
+    "meaning": "Chúc mừng năm mới!",
+    "note": "Lời chào phổ biến dịp Tết Dương lịch hoặc Tết Nguyên đán.",
+    "category": "greetings"
+  },
+  {
+    "id": 1009,
+    "ru": "春节快乐!",
+    "phonetic": "Chūnjié kuàilè!",
+    "meaning": "Chúc mừng Tết Nguyên đán!",
+    "note": "Lời chúc dùng riêng vào dịp Tết cổ truyền Trung Quốc.",
+    "category": "greetings"
+  },
+  {
+    "id": 1010,
+    "ru": "生日快乐!",
+    "phonetic": "Shēngrì kuàilè!",
+    "meaning": "Chúc mừng sinh nhật!",
+    "note": "Lời chúc dùng khi gặp ai đó vào đúng ngày sinh nhật của họ.",
+    "category": "greetings"
+  },
+  {
+    "id": 1011,
+    "ru": "张总,久仰大名。",
+    "phonetic": "Zhāng zǒng, jiǔyǎng dàmíng.",
+    "meaning": "Tổng giám đốc Trương, nghe danh đã lâu.",
+    "note": "Câu chào trang trọng khi lần đầu gặp một nhân vật có tiếng.",
+    "category": "greetings"
+  },
+  {
+    "id": 1012,
+    "ru": "您一路过来辛苦了。",
+    "phonetic": "Nín yílù guòlái xīnkǔ le.",
+    "meaning": "Ngài đi đường xa vất vả rồi.",
+    "note": "Câu chào thể hiện sự quan tâm khi đón khách vừa đi đường xa tới.",
+    "category": "greetings"
+  },
+  {
+    "id": 1013,
+    "ru": "爷爷,您身体还好吗?",
+    "phonetic": "Yéye, nín shēntǐ háihǎo ma?",
+    "meaning": "Ông ơi, sức khỏe ông vẫn tốt chứ?",
+    "note": "Câu hỏi thăm kính trọng dùng khi chào ông bà, người lớn tuổi trong gia đình.",
+    "category": "greetings"
+  },
+  {
+    "id": 1014,
+    "ru": "小朋友,你好呀!",
+    "phonetic": "Xiǎo péngyou, nǐ hǎo ya!",
+    "meaning": "Chào cháu bé!",
+    "note": "Câu chào thân thiện, vui vẻ dùng khi gặp trẻ nhỏ.",
+    "category": "greetings"
+  },
+  {
+    "id": 1015,
+    "ru": "老同学,你怎么也来了?",
+    "phonetic": "Lǎo tóngxué, nǐ zěnme yě lái le?",
+    "meaning": "Bạn học cũ ơi, sao cậu cũng đến đây?",
+    "note": "Câu chào ngạc nhiên vui mừng khi tình cờ gặp bạn học cũ ở một sự kiện.",
+    "category": "greetings"
+  },
+  {
+    "id": 1016,
+    "ru": "好多年不见了,你还认得我吗?",
+    "phonetic": "Hǎo duōnián bújiàn le, nǐ hái rènde wǒ ma?",
+    "meaning": "Bao nhiêu năm không gặp, cậu còn nhận ra tớ không?",
+    "note": "Dùng khi gặp lại người quen sau thời gian rất dài xa cách.",
+    "category": "greetings"
+  },
+  {
+    "id": 1017,
+    "ru": "医生您好,麻烦看一下。",
+    "phonetic": "Yīshēng nín hǎo, máfan kàn yíxià.",
+    "meaning": "Chào bác sĩ, phiền bác sĩ khám giúp ạ.",
+    "note": "Câu chào khi bệnh nhân vào phòng khám gặp bác sĩ.",
+    "category": "greetings"
+  },
+  {
+    "id": 1018,
+    "ru": "老板,在吗?",
+    "phonetic": "Lǎobǎn, zài ma?",
+    "meaning": "Ông chủ ơi, có ở đó không?",
+    "note": "Câu chào thân mật khi bước vào một cửa hàng nhỏ tìm chủ quán.",
+    "category": "greetings"
+  },
+  {
+    "id": 1019,
+    "ru": "能听到我说话吗?",
+    "phonetic": "Néng tīngdào wǒ shuōhuà ma?",
+    "meaning": "Mọi người có nghe thấy tôi nói không?",
+    "note": "Câu mở đầu kiểm tra âm thanh khi bắt đầu một cuộc họp video.",
+    "category": "greetings"
+  },
+  {
+    "id": 1020,
+    "ru": "醒了吗?早上好。",
+    "phonetic": "Xǐng le ma? zǎoshang hǎo.",
+    "meaning": "Dậy chưa? Chào buổi sáng.",
+    "note": "Câu chào thân mật dùng khi đánh thức người thân, bạn cùng phòng vào buổi sáng.",
+    "category": "greetings"
+  },
+  {
+    "id": 1021,
+    "ru": "除夕快乐,阖家团圆。",
+    "phonetic": "Chúxī kuàilè, héjiā tuányuán.",
+    "meaning": "Chúc đêm giao thừa vui vẻ, cả nhà đoàn viên.",
+    "note": "Lời chúc trang trọng dùng vào đêm giao thừa Tết Nguyên đán.",
+    "category": "greetings"
+  },
+  {
+    "id": 1022,
+    "ru": "中秋节快乐!",
+    "phonetic": "Zhōngqiū jié kuàilè!",
+    "meaning": "Chúc mừng Tết Trung thu!",
+    "note": "Lời chúc dùng riêng vào dịp Tết Trung thu.",
+    "category": "greetings"
+  },
+  {
+    "id": 1023,
+    "ru": "欢迎来北京,一路顺利吗?",
+    "phonetic": "Huānyíng lái Běijīng, yílù shùnlì ma?",
+    "meaning": "Chào mừng đến Bắc Kinh, đường đi có suôn sẻ không?",
+    "note": "Câu chào đón khách nước ngoài vừa đến sân bay.",
+    "category": "greetings"
+  },
+  {
+    "id": 1024,
+    "ru": "您好,我是来面试的。",
+    "phonetic": "Nín hǎo, wǒ shì lái miànshì de.",
+    "meaning": "Xin chào, tôi đến để phỏng vấn.",
+    "note": "Câu chào tự giới thiệu khi đến công ty phỏng vấn xin việc.",
+    "category": "greetings"
+  },
+  {
+    "id": 1025,
+    "ru": "谢谢邀请,打扰了。",
+    "phonetic": "Xièxie yāoqǐng, dǎrǎo le.",
+    "meaning": "Cảm ơn đã mời, làm phiền rồi.",
+    "note": "Câu chào lịch sự khi bước vào một bữa tiệc do người khác mời.",
+    "category": "greetings"
+  },
+  {
+    "id": 1026,
+    "ru": "终于见到你本人了。",
+    "phonetic": "Zhōngyú jiàndào nǐ běnrén le.",
+    "meaning": "Cuối cùng cũng gặp được bạn ngoài đời.",
+    "note": "Dùng khi gặp mặt trực tiếp lần đầu một người quen qua mạng.",
+    "category": "greetings"
+  },
+  {
+    "id": 1027,
+    "ru": "你身体好些了吗?",
+    "phonetic": "Nǐ shēntǐ hǎoxiē le ma?",
+    "meaning": "Sức khỏe bạn đỡ hơn chưa?",
+    "note": "Câu chào hỏi thăm khi gặp người vừa mới ốm dậy.",
+    "category": "greetings"
+  },
+  {
+    "id": 1028,
+    "ru": "你好,打扰一下,跟您打听个事。",
+    "phonetic": "Nǐ hǎo, dǎrǎo yíxià, gēn nín dǎtīng gèshì.",
+    "meaning": "Xin chào, làm phiền một chút, tôi muốn hỏi thăm việc này.",
+    "note": "Câu mở lời lịch sự khi hỏi đường hoặc hỏi thông tin từ người lạ.",
+    "category": "greetings"
+  },
+  {
+    "id": 1029,
+    "ru": "你好,哪位?",
+    "phonetic": "Nǐ hǎo, nǎwèi?",
+    "meaning": "Xin chào, ai đấy ạ?",
+    "note": "Câu hỏi khi nhấc máy nghe điện thoại từ số lạ.",
+    "category": "greetings"
+  },
+  {
+    "id": 1030,
+    "ru": "你什么时候回来的?",
+    "phonetic": "Nǐ shénme shíhou huílái de?",
+    "meaning": "Bạn về từ lúc nào vậy?",
+    "note": "Câu chào hỏi khi gặp lại người vừa đi công tác hoặc du lịch về.",
+    "category": "greetings"
+  },
+  {
+    "id": 1031,
+    "ru": "各位好,不好意思让大家久等了。",
+    "phonetic": "Gèwèi hǎo, bùhǎo yìsi ràng dàjiā jiǔděng le.",
+    "meaning": "Chào mọi người, xin lỗi để mọi người đợi lâu.",
+    "note": "Câu chào khi đến muộn trong một cuộc họp hoặc buổi gặp mặt nhóm.",
+    "category": "greetings"
+  },
+  {
+    "id": 1032,
+    "ru": "服务员,你好。",
+    "phonetic": "Fúwùyuán, nǐ hǎo.",
+    "meaning": "Chào bạn phục vụ.",
+    "note": "Cách gọi và chào nhân viên phục vụ trong nhà hàng, quán ăn.",
+    "category": "greetings"
+  },
+  {
+    "id": 1033,
+    "ru": "师傅,您好。",
+    "phonetic": "Shīfù, nín hǎo.",
+    "meaning": "Chào bác/anh.",
+    "note": "Cách chào lịch sự dùng với thợ, tài xế hoặc người lao động chân tay.",
+    "category": "greetings"
+  },
+  {
+    "id": 1034,
+    "ru": "师傅您好,麻烦去机场。",
+    "phonetic": "Shīfù nín hǎo, máfan qù jīchǎng.",
+    "meaning": "Chào bác tài, phiền bác cho đi sân bay.",
+    "note": "Câu chào tài xế taxi kèm nói điểm đến ngay khi lên xe.",
+    "category": "greetings"
+  },
+  {
+    "id": 1035,
+    "ru": "你好,我们是新搬来的邻居。",
+    "phonetic": "Nǐ hǎo, wǒmen shì xīn bān lái de línjū.",
+    "meaning": "Xin chào, chúng tôi là hàng xóm mới chuyển đến.",
+    "note": "Câu chào tự giới thiệu khi lần đầu gặp hàng xóm mới.",
+    "category": "greetings"
+  },
+  {
+    "id": 1036,
+    "ru": "恭喜恭喜,新婚快乐!",
+    "phonetic": "Gōngxǐ gōngxǐ, xīnhūn kuàilè!",
+    "meaning": "Chúc mừng chúc mừng, tân hôn hạnh phúc!",
+    "note": "Lời chúc dùng khi tham dự đám cưới của bạn bè, người quen.",
+    "category": "greetings"
+  },
+  {
+    "id": 1037,
+    "ru": "恭喜恭喜,母子平安吗?",
+    "phonetic": "Gōngxǐ gōngxǐ, mǔzi píngān ma?",
+    "meaning": "Chúc mừng chúc mừng, mẹ tròn con vuông chứ?",
+    "note": "Câu chào hỏi thăm khi đến thăm gia đình có em bé mới sinh.",
+    "category": "greetings"
+  },
+  {
+    "id": 1038,
+    "ru": "你休假回来啦?",
+    "phonetic": "Nǐ xiūjià huílái la?",
+    "meaning": "Bạn nghỉ phép về rồi à?",
+    "note": "Câu chào đồng nghiệp vừa quay lại làm việc sau kỳ nghỉ.",
+    "category": "greetings"
+  },
+  {
+    "id": 1039,
+    "ru": "听说你升职了,恭喜你!",
+    "phonetic": "Tīngshuō nǐ shēngzhí le, gōngxǐ nǐ!",
+    "meaning": "Nghe nói bạn được thăng chức, chúc mừng nhé!",
+    "note": "Lời chào kèm chúc mừng khi biết tin đồng nghiệp được thăng chức.",
+    "category": "greetings"
+  },
+  {
+    "id": 1040,
+    "ru": "尊敬的各位来宾,大家好。",
+    "phonetic": "Zūnjìng de gèwèi láibīn, dàjiā hǎo.",
+    "meaning": "Kính thưa quý vị khách mời, xin chào mọi người.",
+    "note": "Câu mở đầu trang trọng khi phát biểu trước đông người trong sự kiện.",
+    "category": "greetings"
+  },
+  {
+    "id": 1041,
+    "ru": "欢迎各位参加今天的会议。",
+    "phonetic": "Huānyíng gèwèi cānjiā jīntiān de huìyì.",
+    "meaning": "Chào mừng mọi người tham dự cuộc họp hôm nay.",
+    "note": "Câu mở đầu trang trọng của người chủ trì một cuộc họp.",
+    "category": "greetings"
+  },
+  {
+    "id": 1042,
+    "ru": "同学们好,我是你们的新老师。",
+    "phonetic": "Tóngxuémen hǎo, wǒ shì nǐmen de xīn lǎoshī.",
+    "meaning": "Chào các em, cô/thầy là giáo viên mới của các em.",
+    "note": "Câu chào giáo viên tự giới thiệu trong buổi học đầu tiên.",
+    "category": "greetings"
+  },
+  {
+    "id": 1043,
+    "ru": "好久没你消息了,最近怎么样?",
+    "phonetic": "Hǎojiǔ méi nǐ xiāoxi le, zuìjìn zěnmeyàng?",
+    "meaning": "Lâu rồi không thấy tin nhắn của bạn, dạo này thế nào?",
+    "note": "Câu mở đầu trò chuyện qua tin nhắn với người quen lâu không liên lạc.",
+    "category": "greetings"
+  },
+  {
+    "id": 1044,
+    "ru": "你适应这边了吗?",
+    "phonetic": "Nǐ shìyìng zhèbiān le ma?",
+    "meaning": "Bạn thích nghi ở đây chưa?",
+    "note": "Câu hỏi thăm người mới chuyển đến thành phố hoặc quốc gia mới.",
+    "category": "greetings"
+  },
+  {
+    "id": 1045,
+    "ru": "拜年啦,恭喜发财!",
+    "phonetic": "Bàinián la, gōngxǐ fācái!",
+    "meaning": "Chúc Tết nào, chúc phát tài!",
+    "note": "Lời chúc truyền thống khi đi chúc Tết họ hàng vào dịp năm mới.",
+    "category": "greetings"
+  },
+  {
+    "id": 1046,
+    "ru": "你也来健身啊?",
+    "phonetic": "Nǐ yě lái jiànshēn a?",
+    "meaning": "Bạn cũng đến tập gym à?",
+    "note": "Câu chào thân mật khi gặp người quen tại phòng gym.",
+    "category": "greetings"
+  },
+  {
+    "id": 1047,
+    "ru": "您好,这是我的座位。",
+    "phonetic": "Nín hǎo, zhè shì wǒ de zuòwèi.",
+    "meaning": "Xin chào, đây là chỗ ngồi của tôi.",
+    "note": "Câu chào lịch sự khi tìm đúng chỗ ngồi cạnh hành khách khác trên máy bay.",
+    "category": "greetings"
+  },
+  {
+    "id": 1048,
+    "ru": "大家能听到我吗?",
+    "phonetic": "Dàjiā néng tīngdào wǒ ma?",
+    "meaning": "Mọi người nghe thấy tôi không?",
+    "note": "Câu kiểm tra âm thanh khi vừa tham gia vào một cuộc họp trực tuyến.",
+    "category": "greetings"
+  },
+  {
+    "id": 1049,
+    "ru": "你什么时候回国的?",
+    "phonetic": "Nǐ shénme shíhou huíguó de?",
+    "meaning": "Bạn về nước từ khi nào vậy?",
+    "note": "Câu chào hỏi khi gặp lại người quen vừa từ nước ngoài trở về.",
+    "category": "greetings"
+  },
+  {
+    "id": 1050,
+    "ru": "各位领导,大家辛苦了。",
+    "phonetic": "Gèwèi lǐngdǎo, dàjiā xīnkǔ le.",
+    "meaning": "Kính thưa các lãnh đạo, mọi người vất vả rồi.",
+    "note": "Câu chào trang trọng mở đầu trong một buổi lễ hoặc sự kiện có lãnh đạo tham dự.",
+    "category": "greetings"
+  },
+  {
+    "id": 1051,
+    "ru": "欢迎各位莅临我们公司。",
+    "phonetic": "Huānyíng gèwèi lìlín wǒmen gōngsī.",
+    "meaning": "Kính chào quý vị đã đến thăm công ty chúng tôi.",
+    "note": "Câu chào trang trọng khi đón đoàn khách đến thăm công ty.",
+    "category": "greetings"
+  },
+  {
+    "id": 1052,
+    "ru": "你感觉怎么样,好点了吗?",
+    "phonetic": "Nǐ gǎnjué zěnmeyàng, hǎodiǎn le ma?",
+    "meaning": "Bạn cảm thấy thế nào, đỡ hơn chưa?",
+    "note": "Câu hỏi thăm ân cần khi đến bệnh viện thăm người ốm.",
+    "category": "greetings"
+  },
+  {
+    "id": 1053,
+    "ru": "现在方便说话吗?",
+    "phonetic": "Xiànzài fāngbiàn shuōhuà ma?",
+    "meaning": "Bây giờ tiện nói chuyện không?",
+    "note": "Câu mở đầu lịch sự khi gọi điện cho ai đó có thể đang bận.",
+    "category": "greetings"
+  },
+  {
+    "id": 1054,
+    "ru": "哎,这不是老张吗?",
+    "phonetic": "Āi, zhè búshì Lǎo Zhāng ma?",
+    "meaning": "Ơ, đây chẳng phải là lão Trương sao?",
+    "note": "Câu thốt lên ngạc nhiên vui mừng khi tình cờ nhận ra người quen trên phố.",
+    "category": "greetings"
+  },
+  {
+    "id": 1055,
+    "ru": "不好意思来晚了,大家都到齐了吗?",
+    "phonetic": "Bùhǎo yìsi láiwǎn le, dàjiā dōu dào qí le ma?",
+    "meaning": "Xin lỗi đến muộn, mọi người đến đủ chưa?",
+    "note": "Câu chào khi bản thân đến trễ một buổi hẹn có nhiều người.",
+    "category": "greetings"
+  },
+  {
+    "id": 1056,
+    "ru": "你也是这层楼的吗?",
+    "phonetic": "Nǐ yě shì zhè cénglóu de ma?",
+    "meaning": "Bạn cũng ở tầng này à?",
+    "note": "Câu bắt chuyện làm quen tình cờ trong thang máy với người cùng tòa nhà.",
+    "category": "greetings"
+  },
+  {
+    "id": 1057,
+    "ru": "毕业这么多年,大家都过得怎么样?",
+    "phonetic": "Bìyè zhème duōnián, dàjiā dōu guò de zěnmeyàng?",
+    "meaning": "Ra trường bao nhiêu năm rồi, mọi người sống thế nào?",
+    "note": "Câu mở đầu trò chuyện trong buổi họp lớp sau nhiều năm tốt nghiệp.",
+    "category": "greetings"
+  },
+  {
+    "id": 1058,
+    "ru": "大家早!",
+    "phonetic": "Dàjiā zǎo!",
+    "meaning": "Chào buổi sáng mọi người!",
+    "note": "Lời chào ngắn gọn thân thiện mở đầu một cuộc họp hoặc lớp học buổi sáng.",
+    "category": "greetings"
+  },
+  {
+    "id": 1059,
+    "ru": "宝宝好可爱啊!",
+    "phonetic": "Bǎobǎo hǎo kěài a!",
+    "meaning": "Em bé dễ thương quá!",
+    "note": "Lời khen thân thiện khi gặp và chào một em bé của người quen.",
+    "category": "greetings"
+  },
+  {
+    "id": 1060,
+    "ru": "我回来了!",
+    "phonetic": "Wǒ huílái le!",
+    "meaning": "Con/anh về rồi đây!",
+    "note": "Câu chào quen thuộc khi bước vào nhà sau khi đi làm, đi học về.",
+    "category": "greetings"
+  },
+  {
+    "id": 1061,
+    "ru": "你觉得今年冬天是不是特别冷?",
+    "phonetic": "Nǐ juéde jīnnián dōngtiān shìbúshì tèbié lěng?",
+    "meaning": "Bạn thấy mùa đông năm nay có đặc biệt lạnh không?",
+    "note": "Câu mở đầu trò chuyện phiếm về thời tiết mùa đông.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1062,
+    "ru": "天气预报说这周末有台风。",
+    "phonetic": "Tiānqì yùbào shuō zhè zhōumò yǒu táifēng.",
+    "meaning": "Dự báo thời tiết nói cuối tuần này có bão.",
+    "note": "Chia sẻ thông tin thời tiết khi trò chuyện về kế hoạch cuối tuần.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1063,
+    "ru": "最近雾霾有点严重啊。",
+    "phonetic": "Zuìjìn wù mái yǒudiǎn yánzhòng a.",
+    "meaning": "Dạo này sương mù ô nhiễm hơi nghiêm trọng đấy.",
+    "note": "Nhận xét về chất lượng không khí, phổ biến ở các thành phố lớn.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1064,
+    "ru": "空气质量终于好一点了。",
+    "phonetic": "Kōngqì zhìliàng zhōngyú hǎo yìdiǎn le.",
+    "meaning": "Chất lượng không khí cuối cùng cũng tốt hơn rồi.",
+    "note": "Nhận xét tích cực khi không khí được cải thiện sau nhiều ngày ô nhiễm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1065,
+    "ru": "早高峰地铁真是太挤了。",
+    "phonetic": "Zǎo gāofēng dìtiě zhēnshì tài jǐ le.",
+    "meaning": "Tàu điện ngầm giờ cao điểm sáng đông thật đấy.",
+    "note": "Than phiền về tình trạng đông đúc khi đi làm giờ cao điểm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1066,
+    "ru": "你每天上班要花多长时间?",
+    "phonetic": "Nǐ měitiān shàngbān yàohuā duōcháng shíjiān?",
+    "meaning": "Mỗi ngày bạn mất bao lâu để đi làm?",
+    "note": "Câu hỏi phổ biến khi trò chuyện với đồng nghiệp về việc đi lại.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1067,
+    "ru": "现在打车比以前方便多了。",
+    "phonetic": "Xiànzài dǎchē bǐ yǐqián fāngbiàn duō le.",
+    "meaning": "Bây giờ gọi taxi tiện hơn trước nhiều.",
+    "note": "Nhận xét về sự thay đổi thuận tiện trong việc đi lại nhờ ứng dụng gọi xe.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1068,
+    "ru": "共享单车挺好用的。",
+    "phonetic": "Gòngxiǎng dānchē tǐng hǎoyòng de.",
+    "meaning": "Xe đạp chia sẻ dùng khá tiện đấy.",
+    "note": "Chia sẻ nhận xét tích cực về phương tiện đi lại công cộng mới.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1069,
+    "ru": "你会不会觉得这个城市房租太贵了?",
+    "phonetic": "Nǐ huì búhuì juéde zhège chéngshì fángzū tàiguì le?",
+    "meaning": "Bạn có thấy tiền thuê nhà ở thành phố này quá đắt không?",
+    "note": "Câu hỏi mở đầu chủ đề trò chuyện về chi phí sinh hoạt thành phố.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1070,
+    "ru": "我们小区最近在装修,挺吵的。",
+    "phonetic": "Wǒmen xiǎoqū zuìjìn zài zhuāngxiū, tǐng chǎo de.",
+    "meaning": "Khu chung cư tôi dạo này đang sửa nhà, ồn lắm.",
+    "note": "Than phiền nhẹ nhàng về tiếng ồn trong khu dân cư.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1071,
+    "ru": "你平时喜欢自己做饭还是叫外卖?",
+    "phonetic": "Nǐ píngshí xǐhuan zìjǐ zuòfàn háishì jiào wàimài?",
+    "meaning": "Bình thường bạn thích tự nấu ăn hay gọi đồ ăn ngoài?",
+    "note": "Câu hỏi thân mật về thói quen ăn uống hằng ngày.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1072,
+    "ru": "我最近迷上了做烘焙。",
+    "phonetic": "Wǒ zuìjìn míshàng le zuò hōngbèi.",
+    "meaning": "Dạo này tôi mê làm bánh lắm.",
+    "note": "Chia sẻ về sở thích mới trong trò chuyện phiếm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1073,
+    "ru": "你会用那个新出的手机软件吗?",
+    "phonetic": "Nǐ huì yòng nàge xīnchū de shǒujī ruǎnjiàn ma?",
+    "meaning": "Bạn có biết dùng ứng dụng điện thoại mới ra đó không?",
+    "note": "Câu hỏi trao đổi về ứng dụng công nghệ mới.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1074,
+    "ru": "现在的手机更新换代太快了。",
+    "phonetic": "Xiànzài de shǒujī gēngxīn huàndài tàikuài le.",
+    "meaning": "Điện thoại bây giờ đổi đời quá nhanh.",
+    "note": "Nhận xét về tốc độ phát triển công nghệ trong trò chuyện phiếm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1075,
+    "ru": "你平时刷短视频多吗?",
+    "phonetic": "Nǐ píngshí shuā duǎn shìpín duō ma?",
+    "meaning": "Bình thường bạn lướt video ngắn nhiều không?",
+    "note": "Câu hỏi về thói quen sử dụng mạng xã hội.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1076,
+    "ru": "我朋友圈好久没更新了。",
+    "phonetic": "Wǒ péngyou quān hǎojiǔ méi gēngxīn le.",
+    "meaning": "Dạo này tôi lâu rồi không cập nhật WeChat Moments.",
+    "note": "Chia sẻ về thói quen mạng xã hội cá nhân.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1077,
+    "ru": "你玩那个手游吗?挺火的。",
+    "phonetic": "Nǐ wán nàge shǒuyóu ma? tǐnghuǒ de.",
+    "meaning": "Bạn có chơi game điện thoại đó không? Đang hot lắm.",
+    "note": "Câu hỏi bắt chuyện về trò chơi điện tử đang thịnh hành.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1078,
+    "ru": "最近有什么新剧值得追吗?",
+    "phonetic": "Zuìjìn yǒu shénme xīnjù zhíde zhuī ma?",
+    "meaning": "Dạo này có phim mới nào đáng xem không?",
+    "note": "Câu hỏi xin gợi ý phim ảnh trong trò chuyện phiếm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1079,
+    "ru": "那个演员演技真不错。",
+    "phonetic": "Nàge yǎnyuán yǎnjì zhēn búcuò.",
+    "meaning": "Diễn viên đó diễn xuất khá thật đấy.",
+    "note": "Nhận xét khi bàn luận về một bộ phim hoặc diễn viên.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1080,
+    "ru": "昨晚的比赛你看了吗?",
+    "phonetic": "Zuówǎn de bǐsài nǐ kàn le ma?",
+    "meaning": "Trận đấu tối qua bạn xem chưa?",
+    "note": "Câu hỏi mở đầu chủ đề trò chuyện về thể thao.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1081,
+    "ru": "我们队居然输了,太可惜了。",
+    "phonetic": "Wǒmen duì jūrán shū le, tài kěxī le.",
+    "meaning": "Đội mình lại thua, tiếc quá.",
+    "note": "Bày tỏ cảm xúc tiếc nuối khi bàn về kết quả thể thao.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1082,
+    "ru": "你支持哪个球队?",
+    "phonetic": "Nǐ zhīchí nǎge qiúduì?",
+    "meaning": "Bạn ủng hộ đội bóng nào?",
+    "note": "Câu hỏi làm quen phổ biến khi nói chuyện về bóng đá, thể thao.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1083,
+    "ru": "周末要不要一起去爬山?",
+    "phonetic": "Zhōumò yào búyào yìqǐ qù páshān?",
+    "meaning": "Cuối tuần có muốn cùng đi leo núi không?",
+    "note": "Lời rủ rê hoạt động cuối tuần với bạn bè.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1084,
+    "ru": "我最近开始学游泳了。",
+    "phonetic": "Wǒ zuìjìn kāishǐ xué yóuyǒng le.",
+    "meaning": "Dạo này tôi bắt đầu học bơi rồi.",
+    "note": "Chia sẻ về hoạt động thể thao mới đang theo học.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1085,
+    "ru": "你会弹乐器吗?",
+    "phonetic": "Nǐ huì dàn yuèqì ma?",
+    "meaning": "Bạn có biết chơi nhạc cụ nào không?",
+    "note": "Câu hỏi làm quen về sở thích âm nhạc, năng khiếu cá nhân.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1086,
+    "ru": "我小时候学过几年钢琴。",
+    "phonetic": "Wǒ xiǎo shíhou xuéguò jǐnián gāngqín.",
+    "meaning": "Hồi nhỏ tôi từng học piano vài năm.",
+    "note": "Chia sẻ về trải nghiệm học nhạc cụ thời thơ ấu.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1087,
+    "ru": "你喜欢摄影吗?",
+    "phonetic": "Nǐ xǐhuan shèyǐng ma?",
+    "meaning": "Bạn có thích chụp ảnh không?",
+    "note": "Câu hỏi về sở thích nhiếp ảnh trong trò chuyện phiếm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1088,
+    "ru": "这张照片是你拍的?拍得真好。",
+    "phonetic": "Zhèzhāng zhàopiān shì nǐ pāi de? pāi de zhēnhǎo.",
+    "meaning": "Tấm ảnh này là bạn chụp à? Chụp đẹp thật đấy.",
+    "note": "Lời khen khi xem ảnh do bạn bè chụp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1089,
+    "ru": "你最近在追什么综艺?",
+    "phonetic": "Nǐ zuìjìn zài zhuī shénme zōngyì?",
+    "meaning": "Dạo này bạn đang xem chương trình giải trí nào?",
+    "note": "Câu hỏi về sở thích xem truyền hình thực tế.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1090,
+    "ru": "你孩子今年上几年级了?",
+    "phonetic": "Nǐ háizi jīnnián shàng jǐ niánjí le?",
+    "meaning": "Con bạn năm nay học lớp mấy rồi?",
+    "note": "Câu hỏi thăm về việc học của con cái khi trò chuyện với phụ huynh.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1091,
+    "ru": "现在小孩学习压力真大。",
+    "phonetic": "Xiànzài xiǎohái xuéxí yālì zhēndà.",
+    "meaning": "Trẻ con bây giờ áp lực học hành lớn thật.",
+    "note": "Nhận xét chung khi bàn luận về giáo dục con cái.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1092,
+    "ru": "你儿子这次考试考得怎么样?",
+    "phonetic": "Nǐ érzi zhècì kǎoshì kǎo de zěnmeyàng?",
+    "meaning": "Con trai bạn thi lần này thế nào?",
+    "note": "Câu hỏi thăm kết quả học tập của con.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1093,
+    "ru": "我女儿马上要高考了,挺紧张的。",
+    "phonetic": "Wǒ nǚér mǎshàng yào gāokǎo le, tǐng jǐnzhāng de.",
+    "meaning": "Con gái tôi sắp thi đại học rồi, khá căng thẳng.",
+    "note": "Chia sẻ tâm trạng lo lắng khi con chuẩn bị thi cử quan trọng.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1094,
+    "ru": "你平时怎么陪孩子学习?",
+    "phonetic": "Nǐ píngshí zěnme péi háizi xuéxí?",
+    "meaning": "Bình thường bạn kèm con học như thế nào?",
+    "note": "Câu hỏi trao đổi kinh nghiệm nuôi dạy con giữa các phụ huynh.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1095,
+    "ru": "你打算送孩子出国留学吗?",
+    "phonetic": "Nǐ dǎsuàn sòng háizi chūguó liúxué ma?",
+    "meaning": "Bạn định cho con đi du học nước ngoài không?",
+    "note": "Câu hỏi về kế hoạch tương lai cho con cái.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1096,
+    "ru": "婆婆最近身体还好吗?",
+    "phonetic": "Pópo zuìjìn shēntǐ háihǎo ma?",
+    "meaning": "Mẹ chồng bạn dạo này sức khỏe vẫn tốt chứ?",
+    "note": "Câu hỏi thăm gia đình chồng/vợ trong trò chuyện thân mật.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1097,
+    "ru": "你和你爱人是怎么认识的?",
+    "phonetic": "Nǐ hé nǐ àirén shì zěnme rènshí de?",
+    "meaning": "Bạn và người bạn đời quen nhau như thế nào?",
+    "note": "Câu hỏi tò mò thân mật về chuyện tình cảm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1098,
+    "ru": "你们打算什么时候要孩子?",
+    "phonetic": "Nǐmen dǎsuàn shénme shíhou yào háizi?",
+    "meaning": "Hai bạn định khi nào sinh con?",
+    "note": "Câu hỏi khá riêng tư nhưng phổ biến với các cặp vợ chồng mới cưới.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1099,
+    "ru": "我最近在准备考研。",
+    "phonetic": "Wǒ zuìjìn zài zhǔnbèi kǎoyán.",
+    "meaning": "Dạo này tôi đang chuẩn bị thi cao học.",
+    "note": "Chia sẻ về kế hoạch học tập, thi cử của bản thân.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1100,
+    "ru": "你现在还在原来那家公司吗?",
+    "phonetic": "Nǐ xiànzài hái zài yuánlái nà jiā gōngsī ma?",
+    "meaning": "Bây giờ bạn vẫn làm ở công ty cũ chứ?",
+    "note": "Câu hỏi thăm tình hình công việc của người quen lâu ngày không gặp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1101,
+    "ru": "我跳槽到一家新公司了。",
+    "phonetic": "Wǒ tiàocáo dào yìjiā xīn gōngsī le.",
+    "meaning": "Tôi vừa nhảy việc sang một công ty mới rồi.",
+    "note": "Chia sẻ tin tức về thay đổi công việc gần đây.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1102,
+    "ru": "你们公司经常加班吗?",
+    "phonetic": "Nǐmen gōngsī jīngcháng jiābān ma?",
+    "meaning": "Công ty bạn có thường xuyên tăng ca không?",
+    "note": "Câu hỏi về môi trường làm việc trong trò chuyện với đồng nghiệp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1103,
+    "ru": "这个月的业绩怎么样?",
+    "phonetic": "Zhège yuè de yèjì zěnmeyàng?",
+    "meaning": "Doanh số tháng này thế nào?",
+    "note": "Câu hỏi trao đổi công việc thân mật giữa đồng nghiệp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1104,
+    "ru": "老板对这个方案满意吗?",
+    "phonetic": "Lǎobǎn duì zhège fāngàn mǎnyì ma?",
+    "meaning": "Sếp có hài lòng với phương án này không?",
+    "note": "Câu hỏi về phản hồi công việc trong môi trường công sở.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1105,
+    "ru": "明天的会议改到几点了?",
+    "phonetic": "Míngtiān de huìyì gǎi dào jǐdiǎn le?",
+    "meaning": "Cuộc họp ngày mai đổi sang mấy giờ rồi?",
+    "note": "Câu hỏi xác nhận lịch họp với đồng nghiệp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1106,
+    "ru": "我这周末要出差。",
+    "phonetic": "Wǒ zhè zhōumò yào chūchāi.",
+    "meaning": "Cuối tuần này tôi phải đi công tác.",
+    "note": "Chia sẻ kế hoạch công việc sắp tới.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1107,
+    "ru": "你们部门最近在招人吗?",
+    "phonetic": "Nǐmen bùmén zuìjìn zài zhāorén ma?",
+    "meaning": "Phòng ban của bạn dạo này có tuyển người không?",
+    "note": "Câu hỏi trao đổi thông tin tuyển dụng giữa đồng nghiệp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1108,
+    "ru": "我在考虑要不要换个行业。",
+    "phonetic": "Wǒ zài kǎolǜ yào búyào huàngè hángyè.",
+    "meaning": "Tôi đang cân nhắc có nên đổi ngành hay không.",
+    "note": "Chia sẻ suy nghĩ về định hướng nghề nghiệp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1109,
+    "ru": "现在找工作是不是挺难的?",
+    "phonetic": "Xiànzài zhǎo gōngzuò shìbúshì tǐngnán de?",
+    "meaning": "Bây giờ tìm việc có khó không nhỉ?",
+    "note": "Câu hỏi bàn luận về thị trường lao động hiện tại.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1110,
+    "ru": "你觉得在家办公效率高吗?",
+    "phonetic": "Nǐ juéde zàijiā bàngōng xiàolǜ gāo ma?",
+    "meaning": "Bạn thấy làm việc tại nhà hiệu quả không?",
+    "note": "Câu hỏi trao đổi ý kiến về hình thức làm việc từ xa.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1111,
+    "ru": "我已经居家办公一个月了。",
+    "phonetic": "Wǒ yǐjīng jūjiā bàngōng yígè yuè le.",
+    "meaning": "Tôi đã làm việc tại nhà được một tháng rồi.",
+    "note": "Chia sẻ về tình hình công việc hiện tại của bản thân.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1112,
+    "ru": "你最近网购了什么好东西?",
+    "phonetic": "Nǐ zuìjìn wǎnggòu le shénme hǎo dōngxi?",
+    "meaning": "Dạo này bạn mua online được món gì hay không?",
+    "note": "Câu hỏi trao đổi kinh nghiệm mua sắm trực tuyến.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1113,
+    "ru": "双十一你买了什么?",
+    "phonetic": "Shuāngshí yī nǐ mǎi le shénme?",
+    "meaning": "Ngày lễ độc thân bạn mua gì vậy?",
+    "note": "Câu hỏi phổ biến vào dịp khuyến mãi mua sắm lớn ở Trung Quốc.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1114,
+    "ru": "这个快递怎么还没到?",
+    "phonetic": "Zhège kuàidì zěnme hái méidào?",
+    "meaning": "Sao cái bưu kiện này vẫn chưa đến nhỉ?",
+    "note": "Câu than phiền phổ biến khi chờ hàng giao chậm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1115,
+    "ru": "我昨天收到一个包裹,东西挺不错的。",
+    "phonetic": "Wǒ zuótiān shōudào yígè bāoguǒ, dōngxi tǐng búcuò de.",
+    "meaning": "Hôm qua tôi nhận được một gói hàng, đồ khá ổn.",
+    "note": "Chia sẻ trải nghiệm mua sắm online tích cực.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1116,
+    "ru": "你信任那些直播带货的主播吗?",
+    "phonetic": "Nǐ xìnrèn nàxiē zhíbō dàihuò de zhǔbō ma?",
+    "meaning": "Bạn có tin tưởng những người livestream bán hàng không?",
+    "note": "Câu hỏi bàn luận về xu hướng mua sắm qua livestream.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1117,
+    "ru": "现在很多人喜欢用手机付款。",
+    "phonetic": "Xiànzài hěnduō rén xǐhuan yòng shǒujī fùkuǎn.",
+    "meaning": "Bây giờ nhiều người thích thanh toán bằng điện thoại.",
+    "note": "Nhận xét về thói quen thanh toán hiện đại.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1118,
+    "ru": "你出门还带现金吗?",
+    "phonetic": "Nǐ chūmén hái dài xiànjīn ma?",
+    "meaning": "Bạn ra ngoài còn mang tiền mặt không?",
+    "note": "Câu hỏi về thói quen sử dụng tiền mặt trong thời đại thanh toán điện tử.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1119,
+    "ru": "这附近有没有便宜实惠的理发店?",
+    "phonetic": "Zhè fùjìn yǒuméiyǒu piányi shíhuì de lǐfà diàn?",
+    "meaning": "Gần đây có tiệm cắt tóc nào rẻ mà tốt không?",
+    "note": "Câu hỏi xin gợi ý dịch vụ trong khu vực sinh sống.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1120,
+    "ru": "你办健身卡了吗?",
+    "phonetic": "Nǐ bàn jiànshēn kǎ le ma?",
+    "meaning": "Bạn đăng ký thẻ tập gym chưa?",
+    "note": "Câu hỏi trao đổi về thói quen tập luyện thể thao.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1121,
+    "ru": "我最近在减肥,少吃了很多。",
+    "phonetic": "Wǒ zuìjìn zài jiǎnféi, shǎo chī le hěnduō.",
+    "meaning": "Dạo này tôi đang giảm cân, ăn ít đi nhiều.",
+    "note": "Chia sẻ về chế độ ăn uống, giảm cân cá nhân.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1122,
+    "ru": "你一般几点睡觉?",
+    "phonetic": "Nǐ yìbān jǐdiǎn shuìjiào?",
+    "meaning": "Bình thường bạn ngủ lúc mấy giờ?",
+    "note": "Câu hỏi thân mật về thói quen sinh hoạt.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1123,
+    "ru": "我最近总是失眠。",
+    "phonetic": "Wǒ zuìjìn zǒngshì shīmián.",
+    "meaning": "Dạo này tôi cứ bị mất ngủ hoài.",
+    "note": "Chia sẻ về vấn đề sức khỏe giấc ngủ.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1124,
+    "ru": "你平时会熬夜吗?",
+    "phonetic": "Nǐ píngshí huì áoyè ma?",
+    "meaning": "Bình thường bạn có thức khuya không?",
+    "note": "Câu hỏi về thói quen sinh hoạt ban đêm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1125,
+    "ru": "医生让我少喝咖啡。",
+    "phonetic": "Yīshēng ràng wǒ shǎo hē kāfēi.",
+    "meaning": "Bác sĩ bảo tôi hạn chế uống cà phê.",
+    "note": "Chia sẻ lời khuyên sức khỏe từ bác sĩ trong trò chuyện.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1126,
+    "ru": "你戒烟了吗?",
+    "phonetic": "Nǐ jièyān le ma?",
+    "meaning": "Bạn bỏ thuốc lá chưa?",
+    "note": "Câu hỏi thăm về thói quen sức khỏe cá nhân.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1127,
+    "ru": "我最近血压有点高,得注意饮食。",
+    "phonetic": "Wǒ zuìjìn xuèyā yǒudiǎn gāo, děi zhùyì yǐnshí.",
+    "meaning": "Dạo này huyết áp tôi hơi cao, phải chú ý ăn uống.",
+    "note": "Chia sẻ tình trạng sức khỏe và thói quen ăn uống.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1128,
+    "ru": "你家附近有公园吗,适合散步。",
+    "phonetic": "Nǐjiā fùjìn yǒu gōngyuán ma, shìhé sànbù.",
+    "meaning": "Gần nhà bạn có công viên không, hợp để đi dạo.",
+    "note": "Câu hỏi trao đổi về không gian sống xung quanh.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1129,
+    "ru": "这个季节容易感冒,你要多穿点。",
+    "phonetic": "Zhège jìjié róngyì gǎnmào, nǐ yào duō chuāndiǎn.",
+    "meaning": "Mùa này dễ bị cảm, bạn nên mặc ấm hơn.",
+    "note": "Lời dặn dò quan tâm về sức khỏe khi thời tiết chuyển mùa.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1130,
+    "ru": "你打了流感疫苗了吗?",
+    "phonetic": "Nǐ dǎ le liúgǎn yìmiáo le ma?",
+    "meaning": "Bạn đã tiêm vắc-xin cúm chưa?",
+    "note": "Câu hỏi thăm về việc phòng bệnh theo mùa.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1131,
+    "ru": "你养花吗?我家阳台种了不少。",
+    "phonetic": "Nǐ yǎnghuā ma? wǒjiā yángtái zhòng le bùshǎo.",
+    "meaning": "Bạn có trồng hoa không? Nhà tôi trồng khá nhiều ở ban công.",
+    "note": "Chia sẻ sở thích làm vườn, trồng cây tại nhà.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1132,
+    "ru": "这盆花开得真漂亮。",
+    "phonetic": "Zhè pénhuā kāi de zhēn piàoliang.",
+    "meaning": "Chậu hoa này nở đẹp thật.",
+    "note": "Lời khen khi nhìn thấy cây hoa của người khác.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1133,
+    "ru": "你喜欢什么颜色?",
+    "phonetic": "Nǐ xǐhuan shénme yánsè?",
+    "meaning": "Bạn thích màu gì?",
+    "note": "Câu hỏi làm quen nhẹ nhàng về sở thích cá nhân.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1134,
+    "ru": "你最近搬新家了吗?",
+    "phonetic": "Nǐ zuìjìn bān xīnjiā le ma?",
+    "meaning": "Dạo này bạn chuyển nhà mới chưa?",
+    "note": "Câu hỏi thăm về tình hình chỗ ở của người quen.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1135,
+    "ru": "新房子装修得怎么样了?",
+    "phonetic": "Xīn fángzi zhuāngxiū de zěnmeyàng le?",
+    "meaning": "Nhà mới sửa sang đến đâu rồi?",
+    "note": "Câu hỏi thăm tiến độ trang trí, sửa chữa nhà cửa.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1136,
+    "ru": "你觉得这个话题有点意思。",
+    "phonetic": "Nǐ juéde zhège huàtí yǒudiǎn yìsi.",
+    "meaning": "Bạn thấy chủ đề này khá thú vị đấy.",
+    "note": "Câu nhận xét dùng để phản hồi tích cực trong cuộc trò chuyện.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1137,
+    "ru": "你说的也有几分道理。",
+    "phonetic": "Nǐ shuō de yě yǒu jǐfēn dàolǐ.",
+    "meaning": "Điều bạn nói cũng có phần đúng đấy.",
+    "note": "Cách phản hồi khi phần nào đồng ý với ý kiến của đối phương.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1138,
+    "ru": "我倒是有不同看法。",
+    "phonetic": "Wǒ dào shì yǒu bùtóng kànfǎ.",
+    "meaning": "Tôi thì lại có quan điểm khác.",
+    "note": "Cách phản hồi lịch sự khi muốn bày tỏ ý kiến trái chiều.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1139,
+    "ru": "听你这么一说,好像确实是这样。",
+    "phonetic": "Tīng nǐ zhème yìshuō, hǎoxiàng quèshí shì zhèyàng.",
+    "meaning": "Nghe bạn nói vậy, hình như đúng là như thế thật.",
+    "note": "Cách phản hồi khi bị thuyết phục bởi lý lẽ của đối phương.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1140,
+    "ru": "反正我是这么觉得的。",
+    "phonetic": "Fǎnzhèng wǒ shì zhème juéde de.",
+    "meaning": "Dù sao thì tôi cũng nghĩ vậy.",
+    "note": "Cách kết thúc một ý kiến cá nhân trong cuộc trò chuyện.",
+    "category": "small_talk"
+  },
+  {
+    "id": 1141,
+    "ru": "电话里再聊,先挂了。",
+    "phonetic": "Diànhuà lǐ zàiliáo, xiānguà le.",
+    "meaning": "Nói chuyện tiếp qua điện thoại nhé, tôi cúp máy trước đây.",
+    "note": "Câu kết thúc cuộc gọi điện thoại khi cần dừng giữa chừng.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1142,
+    "ru": "视频先到这里,下次再聊。",
+    "phonetic": "Shìpín xiāndào zhèlǐ, xiàcì zàiliáo.",
+    "meaning": "Cuộc gọi video đến đây thôi, lần sau nói tiếp nhé.",
+    "note": "Câu kết thúc một cuộc gọi video call.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1143,
+    "ru": "今天就先聊到这儿吧。",
+    "phonetic": "Jīntiān jiù xiānliáo dào zhèér ba.",
+    "meaning": "Hôm nay tạm nói chuyện đến đây thôi nhé.",
+    "note": "Câu kết thúc một buổi trò chuyện hoặc cuộc họp.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1144,
+    "ru": "那我不打扰你休息了。",
+    "phonetic": "Nà wǒ bù dǎrǎo nǐ xiūxī le.",
+    "meaning": "Vậy tôi không làm phiền bạn nghỉ ngơi nữa.",
+    "note": "Câu tạm biệt lịch sự khi rời đi để người khác nghỉ ngơi.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1145,
+    "ru": "你先忙,我们回头再约。",
+    "phonetic": "Nǐ xiānmáng, wǒmen huítóu zài yuē.",
+    "meaning": "Bạn cứ bận việc đi, chúng ta hẹn lại sau nhé.",
+    "note": "Câu tạm biệt khi thấy đối phương đang bận, hẹn gặp lại sau.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1146,
+    "ru": "谢谢你请我吃饭,下次我请你。",
+    "phonetic": "Xièxie nǐ qǐng wǒ chīfàn, xiàcì wǒ qǐng nǐ.",
+    "meaning": "Cảm ơn bạn đã mời tôi ăn cơm, lần sau tôi mời lại.",
+    "note": "Cảm ơn khi được bạn bè mời ăn và hẹn đáp lễ.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1147,
+    "ru": "谢谢你今天开车送我。",
+    "phonetic": "Xièxie nǐ jīntiān kāichē sòng wǒ.",
+    "meaning": "Cảm ơn bạn hôm nay đã lái xe đưa tôi đi.",
+    "note": "Cảm ơn khi được ai đó chở đi bằng xe hơi.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1148,
+    "ru": "麻烦你了,真是太谢谢了。",
+    "phonetic": "Máfan nǐ le, zhēnshì tài xièxie le.",
+    "meaning": "Làm phiền bạn rồi, thực sự cảm ơn nhiều.",
+    "note": "Cảm ơn chân thành khi nhờ vả ai đó làm việc gì đó vất vả.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1149,
+    "ru": "谢谢你抽空帮我修电脑。",
+    "phonetic": "Xièxie nǐ chōukòng bāng wǒ xiū diànnǎo.",
+    "meaning": "Cảm ơn bạn đã dành thời gian sửa máy tính giúp tôi.",
+    "note": "Cảm ơn khi được giúp sửa chữa đồ dùng cụ thể.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1150,
+    "ru": "谢谢你借我这本书。",
+    "phonetic": "Xièxie nǐ jiè wǒ zhè běnshū.",
+    "meaning": "Cảm ơn bạn đã cho tôi mượn cuốn sách này.",
+    "note": "Cảm ơn khi được mượn đồ vật cụ thể như sách vở.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1151,
+    "ru": "谢谢你借车给我用。",
+    "phonetic": "Xièxie nǐ jièchē gěi wǒ yòng.",
+    "meaning": "Cảm ơn bạn đã cho tôi mượn xe dùng.",
+    "note": "Cảm ơn khi được mượn phương tiện đi lại.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1152,
+    "ru": "谢谢你辅导我孩子功课。",
+    "phonetic": "Xièxie nǐ fǔdǎo wǒ háizi gōngkè.",
+    "meaning": "Cảm ơn bạn đã kèm cặp bài vở cho con tôi.",
+    "note": "Cảm ơn khi ai đó giúp kèm học cho con cái.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1153,
+    "ru": "谢谢你一直以来的照顾。",
+    "phonetic": "Xièxie nǐ yìzhí yǐlái de zhàogù.",
+    "meaning": "Cảm ơn sự quan tâm chăm sóc của bạn suốt thời gian qua.",
+    "note": "Lời cảm ơn chân thành dành cho người đã giúp đỡ lâu dài.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1154,
+    "ru": "谢谢你陪我去医院。",
+    "phonetic": "Xièxie nǐ péi wǒ qù yīyuàn.",
+    "meaning": "Cảm ơn bạn đã đi cùng tôi đến bệnh viện.",
+    "note": "Cảm ơn khi được người khác đồng hành lúc ốm đau.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1155,
+    "ru": "谢谢你听我倾诉。",
+    "phonetic": "Xièxie nǐ tīng wǒ qīngsù.",
+    "meaning": "Cảm ơn bạn đã lắng nghe tôi tâm sự.",
+    "note": "Cảm ơn khi được bạn bè lắng nghe chia sẻ tâm sự.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1156,
+    "ru": "谢谢你的理解。",
+    "phonetic": "Xièxie nǐ de lǐjiě.",
+    "meaning": "Cảm ơn sự thông cảm của bạn.",
+    "note": "Cảm ơn khi đối phương thông cảm cho hoàn cảnh của mình.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1157,
+    "ru": "谢谢你信任我。",
+    "phonetic": "Xièxie nǐ xìnrèn wǒ.",
+    "meaning": "Cảm ơn bạn đã tin tưởng tôi.",
+    "note": "Cảm ơn khi ai đó đặt niềm tin vào mình.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1158,
+    "ru": "谢谢你耐心解释给我听。",
+    "phonetic": "Xièxie nǐ nàixīn jiěshì gěi wǒ tīng.",
+    "meaning": "Cảm ơn bạn đã kiên nhẫn giải thích cho tôi nghe.",
+    "note": "Cảm ơn khi được ai đó giải thích tỉ mỉ một vấn đề.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1159,
+    "ru": "谢谢你专程跑一趟。",
+    "phonetic": "Xièxie nǐ zhuānchéng pǎo yítàng.",
+    "meaning": "Cảm ơn bạn đã đặc biệt chạy đến đây.",
+    "note": "Cảm ơn khi ai đó vất vả di chuyển chỉ vì việc của mình.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1160,
+    "ru": "谢谢你的建议,很有帮助。",
+    "phonetic": "Xièxie nǐ de jiànyì, hěn yǒu bāngzhù.",
+    "meaning": "Cảm ơn lời khuyên của bạn, rất hữu ích.",
+    "note": "Cảm ơn khi nhận được lời khuyên hữu ích từ ai đó.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1161,
+    "ru": "你帮了我这么大的忙,我都不知道怎么感谢你。",
+    "phonetic": "Nǐ bāng le wǒ zhème dà de máng, wǒ dōu bù zhīdào zěnme gǎnxiè nǐ.",
+    "meaning": "Bạn giúp tôi nhiều đến vậy, tôi không biết cảm ơn thế nào cho đủ.",
+    "note": "Lời cảm ơn sâu sắc khi nhận được sự giúp đỡ to lớn.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1162,
+    "ru": "这份情我记住了,谢谢。",
+    "phonetic": "Zhèfèn qíng wǒ jìzhù le, xièxie.",
+    "meaning": "Ân tình này tôi ghi nhớ, cảm ơn bạn.",
+    "note": "Lời cảm ơn trang trọng thể hiện sự biết ơn sâu sắc.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1163,
+    "ru": "改天我一定好好谢谢你。",
+    "phonetic": "Gǎitiān wǒ yídìng hǎohǎo xièxie nǐ.",
+    "meaning": "Hôm khác tôi nhất định sẽ cảm ơn bạn thật chu đáo.",
+    "note": "Lời hứa đáp lễ khi chưa thể cảm ơn ngay lúc đó.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1164,
+    "ru": "小事一桩,不用放在心上。",
+    "phonetic": "Xiǎoshì yìzhuāng, búyòng fàngzài xīnshàng.",
+    "meaning": "Chuyện nhỏ thôi mà, đừng để trong lòng.",
+    "note": "Cách đáp lại khiêm tốn khi được cảm ơn vì một việc nhỏ.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1165,
+    "ru": "这点小忙不算什么。",
+    "phonetic": "Zhèdiǎn xiǎománg búsuàn shénme.",
+    "meaning": "Giúp chút này có đáng gì đâu.",
+    "note": "Cách đáp lại khiêm tốn khi được cảm ơn.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1166,
+    "ru": "应该的,不用客气。",
+    "phonetic": "Yīnggāi de, búyòng kèqi.",
+    "meaning": "Đó là điều nên làm, không cần khách sáo.",
+    "note": "Cách đáp lại lời cảm ơn một cách nhẹ nhàng, tự nhiên.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1167,
+    "ru": "我们是朋友,不用这么客气。",
+    "phonetic": "Wǒmen shì péngyou, búyòng zhème kèqi.",
+    "meaning": "Chúng ta là bạn bè, không cần khách sáo vậy đâu.",
+    "note": "Cách đáp lại lời cảm ơn thân mật giữa bạn bè.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1168,
+    "ru": "谁都会遇到这种事,别客气。",
+    "phonetic": "Shuí dōu huì yùdào zhèzhǒng shì, bié kèqi.",
+    "meaning": "Ai cũng có lúc gặp chuyện như vậy, đừng khách sáo.",
+    "note": "Cách đáp lại lời cảm ơn khi giúp đỡ ai đó gặp khó khăn.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1169,
+    "ru": "举手之劳,别放心上。",
+    "phonetic": "Jǔshǒu zhīláo, bié fàngxīn shàng.",
+    "meaning": "Chỉ là chuyện nhỏ nhặt thôi, đừng bận tâm.",
+    "note": "Cách đáp lại khiêm tốn khi việc giúp đỡ không tốn nhiều công sức.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1170,
+    "ru": "抱歉,东西不小心弄坏了。",
+    "phonetic": "Bàoqiàn, dōngxi bù xiǎoxīn nònghuài le.",
+    "meaning": "Xin lỗi, tôi không cẩn thận làm hỏng đồ rồi.",
+    "note": "Lời xin lỗi khi vô ý làm hỏng đồ vật của người khác.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1171,
+    "ru": "不好意思,把你的杯子打碎了。",
+    "phonetic": "Bùhǎo yìsi, bǎ nǐ de bēizi dǎsuì le.",
+    "meaning": "Xin lỗi, tôi làm vỡ mất cái cốc của bạn rồi.",
+    "note": "Lời xin lỗi cụ thể khi làm vỡ đồ vật của ai đó.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1172,
+    "ru": "抱歉,我把日期记错了。",
+    "phonetic": "Bàoqiàn, wǒ bǎ rìqī jìcuò le.",
+    "meaning": "Xin lỗi, tôi nhớ nhầm ngày rồi.",
+    "note": "Lời xin lỗi khi mắc lỗi nhớ sai thời gian, ngày hẹn.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1173,
+    "ru": "真不好意思,临时有事去不了了。",
+    "phonetic": "Zhēn bùhǎo yìsi, línshí yǒushì qù bùliǎo le.",
+    "meaning": "Thật xin lỗi, có việc đột xuất nên không đi được.",
+    "note": "Lời xin lỗi khi phải hủy hẹn vào phút chót.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1174,
+    "ru": "抱歉,这次要放你鸽子了。",
+    "phonetic": "Bàoqiàn, zhècì yàofàng nǐ gēzi le.",
+    "meaning": "Xin lỗi, lần này tôi phải bùng hẹn với bạn rồi.",
+    "note": "Cách nói thân mật khi buộc phải hủy một cuộc hẹn đã lên kế hoạch.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1175,
+    "ru": "对不起,让你白跑一趟。",
+    "phonetic": "Duìbuqǐ, ràng nǐ báipǎo yítàng.",
+    "meaning": "Xin lỗi, để bạn phải chạy đến đây vô ích.",
+    "note": "Lời xin lỗi khi khiến người khác mất công đi lại mà không có kết quả.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1176,
+    "ru": "不好意思,这件事是我疏忽了。",
+    "phonetic": "Bùhǎo yìsi, zhèjiàn shìshì wǒ shūhū le.",
+    "meaning": "Xin lỗi, việc này là do tôi sơ suất.",
+    "note": "Lời xin lỗi khi tự nhận trách nhiệm về một sai sót trong công việc.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1177,
+    "ru": "抱歉,回复晚了。",
+    "phonetic": "Bàoqiàn, huífù wǎn le.",
+    "meaning": "Xin lỗi, tôi trả lời muộn quá.",
+    "note": "Lời xin lỗi khi phản hồi tin nhắn hoặc email chậm trễ.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1178,
+    "ru": "对不起,我刚才语气重了。",
+    "phonetic": "Duìbuqǐ, wǒ gāngcái yǔqì zhòngle.",
+    "meaning": "Xin lỗi, vừa nãy giọng điệu tôi hơi nặng.",
+    "note": "Lời xin lỗi khi nhận ra mình nói chuyện hơi gay gắt với ai đó.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1179,
+    "ru": "不好意思,占用你这么多时间。",
+    "phonetic": "Bùhǎo yìsi, zhànyòng nǐ zhème duō shíjiān.",
+    "meaning": "Xin lỗi, đã chiếm dụng nhiều thời gian của bạn.",
+    "note": "Lời xin lỗi khi cảm thấy đã làm mất nhiều thời gian của người khác.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1180,
+    "ru": "没事,下次注意就好。",
+    "phonetic": "Méishì, xiàcì zhùyì jiù hǎo.",
+    "meaning": "Không sao, lần sau chú ý là được.",
+    "note": "Cách đáp lại nhẹ nhàng khi ai đó xin lỗi vì sơ suất nhỏ.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1181,
+    "ru": "没关系,谁都会犯错。",
+    "phonetic": "Méi guānxi, shuí dōu huì fàncuò.",
+    "meaning": "Không sao, ai cũng có lúc mắc lỗi.",
+    "note": "Cách đáp lại bao dung khi ai đó xin lỗi vì phạm sai lầm.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1182,
+    "ru": "没事的,我不介意。",
+    "phonetic": "Méishì de, wǒ bú jièyì.",
+    "meaning": "Không sao đâu, tôi không để bụng.",
+    "note": "Cách đáp lại nhẹ nhàng khi được xin lỗi.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1183,
+    "ru": "算了,不是什么大事。",
+    "phonetic": "Suànle, búshì shénme dàshì.",
+    "meaning": "Thôi bỏ qua đi, không phải chuyện gì lớn.",
+    "note": "Cách đáp lại khi muốn bỏ qua một lỗi nhỏ của người khác.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1184,
+    "ru": "这次就算了,下不为例。",
+    "phonetic": "Zhècì jiùsuàn le, xiàbù wéi lì.",
+    "meaning": "Lần này thì bỏ qua, lần sau đừng tái phạm nhé.",
+    "note": "Cách đáp lại khi chấp nhận lời xin lỗi nhưng nhắc nhở nhẹ.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1185,
+    "ru": "春节快到了,祝你全家幸福安康。",
+    "phonetic": "Chūnjié kuàidào le, zhù nǐ quánjiā xìngfú ānkāng.",
+    "meaning": "Tết sắp đến rồi, chúc gia đình bạn hạnh phúc an khang.",
+    "note": "Lời chúc trang trọng dịp Tết dành cho cả gia đình người khác.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1186,
+    "ru": "中秋快乐,愿你团团圆圆。",
+    "phonetic": "Zhōngqiū kuàilè, yuàn nǐ tuántuán yuányuán.",
+    "meaning": "Chúc Trung thu vui vẻ, mong bạn luôn đoàn viên.",
+    "note": "Lời chúc dịp Tết Trung thu, thể hiện mong ước sum vầy.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1187,
+    "ru": "圣诞快乐,新年也要顺顺利利。",
+    "phonetic": "Shèngdàn kuàilè, xīnnián yě yào shùnshùn lìlì.",
+    "meaning": "Giáng sinh vui vẻ, năm mới cũng phải thật suôn sẻ nhé.",
+    "note": "Lời chúc dịp Giáng sinh kèm chúc năm mới thuận lợi.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1188,
+    "ru": "祝你早日康复。",
+    "phonetic": "Zhù nǐ zǎorì kāngfù.",
+    "meaning": "Chúc bạn sớm bình phục.",
+    "note": "Lời chúc khi tạm biệt người đang bị ốm hoặc điều trị bệnh.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1189,
+    "ru": "祝你考试顺利,发挥出色。",
+    "phonetic": "Zhù nǐ kǎoshì shùnlì, fāhuī chūsè.",
+    "meaning": "Chúc bạn thi cử thuận lợi, phát huy tốt.",
+    "note": "Lời chúc dành cho người sắp bước vào kỳ thi quan trọng.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1190,
+    "ru": "祝你面试成功。",
+    "phonetic": "Zhù nǐ miànshì chénggōng.",
+    "meaning": "Chúc bạn phỏng vấn thành công.",
+    "note": "Lời chúc dành cho người sắp đi phỏng vấn xin việc.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1191,
+    "ru": "祝你生意兴隆。",
+    "phonetic": "Zhù nǐ shēngyi xīnglóng.",
+    "meaning": "Chúc bạn làm ăn phát đạt.",
+    "note": "Lời chúc dành cho người kinh doanh, buôn bán.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1192,
+    "ru": "祝你新婚快乐,百年好合。",
+    "phonetic": "Zhù nǐ xīnhūn kuàilè, bǎinián hǎohé.",
+    "meaning": "Chúc bạn tân hôn hạnh phúc, trăm năm hòa hợp.",
+    "note": "Lời chúc trang trọng dành cho cô dâu chú rể trong đám cưới.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1193,
+    "ru": "祝宝宝健康成长。",
+    "phonetic": "Zhù bǎobǎo jiànkāng chéngzhǎng.",
+    "meaning": "Chúc em bé khỏe mạnh khôn lớn.",
+    "note": "Lời chúc dành cho gia đình có trẻ nhỏ, em bé mới sinh.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1194,
+    "ru": "恭喜你,也祝你以后一切顺利。",
+    "phonetic": "Gōngxǐ nǐ, yě zhù nǐ yǐhòu yíqiè shùnlì.",
+    "meaning": "Chúc mừng bạn, cũng chúc bạn sau này mọi việc thuận lợi.",
+    "note": "Lời chúc mừng kèm chúc phúc tương lai cho ai đó vừa đạt được thành công.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1195,
+    "ru": "感谢老师这学期的教导,再见。",
+    "phonetic": "Gǎnxiè lǎoshī zhè xuéqī de jiàodǎo, zàijiàn.",
+    "meaning": "Cảm ơn thầy/cô đã dạy dỗ trong học kỳ này, tạm biệt ạ.",
+    "note": "Lời cảm ơn và tạm biệt học sinh dành cho giáo viên cuối học kỳ.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1196,
+    "ru": "谢谢您百忙之中抽空指导。",
+    "phonetic": "Xièxie nín bǎimáng zhīzhōng chōukòng zhǐdǎo.",
+    "meaning": "Cảm ơn ngài đã dành thời gian quý báu để chỉ dạy.",
+    "note": "Lời cảm ơn trang trọng dành cho người có địa vị đã bớt chút thời gian giúp đỡ.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1197,
+    "ru": "感谢领导一直以来的栽培。",
+    "phonetic": "Gǎnxiè lǐngdǎo yìzhí yǐlái de zāipéi.",
+    "meaning": "Cảm ơn lãnh đạo đã luôn bồi dưỡng, dìu dắt.",
+    "note": "Lời cảm ơn trang trọng dành cho cấp trên trong môi trường công sở.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1198,
+    "ru": "谢谢大家今天的配合,辛苦了。",
+    "phonetic": "Xièxie dàjiā jīntiān de pèihé, xīnkǔ le.",
+    "meaning": "Cảm ơn mọi người đã phối hợp hôm nay, vất vả rồi.",
+    "note": "Lời cảm ơn dành cho một nhóm người sau khi hoàn thành công việc chung.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1199,
+    "ru": "今天先到这里,大家早点休息吧。",
+    "phonetic": "Jīntiān xiāndào zhèlǐ, dàjiā zǎodiǎn xiūxī ba.",
+    "meaning": "Hôm nay tạm dừng ở đây, mọi người nghỉ ngơi sớm nhé.",
+    "note": "Câu kết thúc buổi họp hoặc buổi làm việc nhóm.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 1200,
+    "ru": "那就这样定了,回头联系。",
+    "phonetic": "Nà jiù zhèyàng dìng le, huítóu liánxì.",
+    "meaning": "Vậy thì quyết định như vậy nhé, lát liên lạc lại.",
+    "note": "Câu kết thúc cuộc trò chuyện khi đã thống nhất xong một việc gì đó.",
+    "category": "farewell_thanks"
+  }
+]

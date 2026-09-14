@@ -1,0 +1,88 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Sửa các thành ngữ ở sentences_7.json (tiếng Trung) bị trùng với đợt 1 (sentences_6.json)."""
+import json, os
+
+PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "zh", "sentences_7.json")
+
+PATCH = {
+1121: dict(ru="社畜", phonetic="shè chù",
+    meaning="nô lệ công sở (tự trào lao động vất vả)",
+    note="Từ lóng tự trào (vay mượn từ tiếng Nhật) chỉ dân văn phòng làm việc vất vả, ít tự do."),
+1123: dict(ru="35岁危机", phonetic="sān shí wǔ suì wēi jī",
+    meaning="khủng hoảng tuổi 35 (lo sợ mất việc vì tuổi tác)",
+    note="Hiện tượng xã hội Trung Quốc: nhiều công ty ưu tiên nhân viên trẻ, người 35 tuổi dễ bị coi là 'già' và mất việc."),
+1124: dict(ru="咸鱼翻身", phonetic="xián yú fān shēn",
+    meaning="lật ngược tình thế, từ thất bại vươn lên thành công",
+    note="Nghĩa đen 'cá muối lật mình' — hồi sinh điều tưởng đã 'chết'; dùng khi ai đó từ bế tắc bỗng thành công."),
+1127: dict(ru="甩锅", phonetic="shuǎi guō",
+    meaning="đổ lỗi, đùn đẩy trách nhiệm cho người khác",
+    note="Rất phổ biến trong môi trường công sở khi ai đó cố tình đổ lỗi sai sót cho đồng nghiệp."),
+1145: dict(ru="十全十美", phonetic="shí quán shí měi",
+    meaning="hoàn hảo mười phân vẹn mười",
+    note="Khen ngợi điều gì đó gần như hoàn hảo tuyệt đối, không chê vào đâu được."),
+1146: dict(ru="指鹿为马", phonetic="zhǐ lù wéi mǎ",
+    meaning="chỉ hươu nói ngựa, cố tình xuyên tạc sự thật",
+    note="Điển tích thời Tần, chỉ hành vi lộng quyền bóp méo sự thật, đổi trắng thay đen."),
+1148: dict(ru="杀鸡取卵", phonetic="shā jī qǔ luǎn",
+    meaning="giết gà lấy trứng, vì lợi trước mắt mà hại về lâu dài",
+    note="Cảnh báo hành động tham lam ngắn hạn gây hại nguồn lợi lâu dài."),
+1151: dict(ru="对症下药", phonetic="duì zhèng xià yào",
+    meaning="bốc đúng thuốc chữa đúng bệnh, giải quyết đúng trọng tâm",
+    note="Khen cách xử lý vấn đề đi thẳng vào nguyên nhân gốc rễ."),
+1152: dict(ru="不入虎穴焉得虎子", phonetic="bù rù hǔ xué yān dé hǔ zǐ",
+    meaning="không vào hang cọp sao bắt được cọp con, phải liều mới có thành quả lớn",
+    note="Khuyến khích dám mạo hiểm để đạt được điều lớn lao."),
+1163: dict(ru="纸上谈兵", phonetic="zhǐ shàng tán bīng",
+    meaning="bàn binh trên giấy, chỉ giỏi lý thuyết suông",
+    note="Điển tích Triệu Quát thời Chiến Quốc, chê người chỉ giỏi nói mà không biết làm thực tế."),
+1173: dict(ru="自欺欺人", phonetic="zì qī qī rén",
+    meaning="tự lừa mình dối người, tự huyễn hoặc bản thân",
+    note="Chỉ trích hành vi né tránh sự thật, tự an ủi bằng những lý do không có thật."),
+1213: dict(ru="整活", phonetic="zhěng huó",
+    meaning="bày trò, tạo nội dung sáng tạo/hài hước (mạng xã hội)",
+    note="Từ lóng chỉ việc tạo ra nội dung độc lạ, hài hước để gây chú ý trên mạng."),
+1218: dict(ru="尴尬癌", phonetic="gān gà ái",
+    meaning="'ung thư ngại', cực kỳ xấu hổ/khó xử",
+    note="Từ lóng hài hước diễn tả cảm giác xấu hổ thay cho người khác đến mức khó chịu."),
+1219: dict(ru="普信男", phonetic="pǔ xìn nán",
+    meaning="gã bình thường mà tự tin thái quá",
+    note="Chỉ đàn ông tầm thường nhưng ảo tưởng bản thân; từ lóng mang tính châm biếm phổ biến trên mạng."),
+1220: dict(ru="自我拉扯", phonetic="zì wǒ lā chě",
+    meaning="giằng xé nội tâm, do dự dằn vặt liên tục",
+    note="Diễn tả trạng thái tâm lý phân vân, tự đấu tranh nội tâm kéo dài."),
+1221: dict(ru="躺赢", phonetic="tǎng yíng",
+    meaning="nằm im vẫn thắng, thành công mà không cần cố nhiều",
+    note="Trái nghĩa với '内卷', diễn tả việc đạt thành tích tốt một cách nhàn nhã, may mắn."),
+1226: dict(ru="杠精", phonetic="gàng jīng",
+    meaning="người thích cãi cùn, chuyên bắt bẻ vô lý",
+    note="Chỉ những người hay tranh luận vô nghĩa trên mạng, thích phản bác mọi ý kiến chỉ để cãi."),
+1227: dict(ru="007", phonetic="líng líng qī",
+    meaning="chế độ làm việc cực đoan (0h-0h, 7 ngày/tuần)",
+    note="Cách nói đùa cay đắng về cường độ làm việc quá tải, còn khắc nghiệt hơn cả '996'."),
+1230: dict(ru="真下头", phonetic="zhēn xià tóu",
+    meaning="mất hứng, tụt mood hoàn toàn",
+    note="Ngược nghĩa với '上头'; diễn tả cảm giác thất vọng/mất thiện cảm đột ngột với ai/việc gì đó."),
+1234: dict(ru="远水救不了近火", phonetic="yuǎn shuǐ jiù bù liǎo jìn huǒ",
+    meaning="nước xa không cứu được lửa gần",
+    note="Nhắc nhở cần giải pháp thiết thực, kịp thời thay vì trông chờ vào thứ ở xa."),
+1241: dict(ru="说时迟那时快", phonetic="shuō shí chí nà shí kuài",
+    meaning="nói thì chậm nhưng lúc đó lại rất nhanh",
+    note="Thường dùng khi kể lại một tình huống xảy ra rất nhanh, bất ngờ."),
+1243: dict(ru="这话怎么说", phonetic="zhè huà zěn me shuō",
+    meaning="sao lại nói vậy, ý anh/chị là sao",
+    note="Dùng khi muốn người khác giải thích rõ hơn về điều họ vừa nói."),
+1259: dict(ru="五十步笑百步", phonetic="wǔ shí bù xiào bǎi bù",
+    meaning="kẻ năm mươi bước cười kẻ trăm bước",
+    note="Điển tích Mạnh Tử — chê người tự thấy mình hơn người khác dù bản chất lỗi như nhau."),
+1260: dict(ru="有缘千里来相会", phonetic="yǒu yuán qiān lǐ lái xiāng huì",
+    meaning="hữu duyên thiên lý năng tương ngộ",
+    note="Có duyên thì dù xa vẫn gặp được nhau; thường dùng khi bất ngờ gặp lại người quen hoặc kết bạn mới hợp ý."),
+}
+
+data = json.load(open(PATH, encoding="utf-8"))
+for it in data:
+    if it["id"] in PATCH:
+        it.update(PATCH[it["id"]])
+json.dump(data, open(PATH, "w", encoding="utf-8"), ensure_ascii=False)
+print(f"patched {len(PATCH)} ids in {PATH}")

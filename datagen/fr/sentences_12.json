@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1801,
+    "ru": "Appelez une ambulance, s'il vous plaît !",
+    "phonetic": "a-pơ-LÉ UYN AN~-BUY-LAN~S SIL VOU PLÈ",
+    "meaning": "Hãy gọi xe cứu thương, làm ơn!",
+    "note": "Dùng khi cần gọi cấp cứu ngay lập tức tại hiện trường.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1802,
+    "ru": "Il a besoin d'un médecin de toute urgence.",
+    "phonetic": "IL A bơ-ZOIN~ DUN~ MÉD-SEN~ dơ TOUT uyr-JAN~S",
+    "meaning": "Anh ấy cần bác sĩ gấp.",
+    "note": "Nói khi thông báo tình trạng khẩn cấp cho người xung quanh hoặc tổng đài.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1803,
+    "ru": "Quel est le numéro des urgences ici ?",
+    "phonetic": "KÈL È lơ nuy-mé-RO DÉ zuyr-JAN~-Sơ i-SI",
+    "meaning": "Số điện thoại cấp cứu ở đây là gì?",
+    "note": "Hỏi khi ở nơi lạ và cần liên hệ cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1804,
+    "ru": "Je fais un malaise, aidez-moi.",
+    "phonetic": "Jơ FÈ Ơ~ ma-LÈZ, è-DÉ-MOA",
+    "meaning": "Tôi thấy khó chịu trong người, hãy giúp tôi.",
+    "note": "Dùng khi bản thân cảm thấy sắp ngất hoặc choáng váng.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1805,
+    "ru": "Elle a perdu connaissance.",
+    "phonetic": "ÈL A pèr-DUY ko-nè-SAN~S",
+    "meaning": "Cô ấy đã bất tỉnh.",
+    "note": "Mô tả tình trạng người bị nạn cho nhân viên y tế.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1806,
+    "ru": "Il ne respire plus !",
+    "phonetic": "IL nơ rơs-PIRH PLUY",
+    "meaning": "Anh ấy không còn thở nữa!",
+    "note": "Hét lên khi phát hiện người ngừng thở, cần gọi cấp cứu ngay.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1807,
+    "ru": "J'ai une douleur dans la poitrine.",
+    "phonetic": "JÉ UYN dou-LƠRH DAN~ LA poa-TRIN",
+    "meaning": "Tôi bị đau ở ngực.",
+    "note": "Mô tả triệu chứng đau ngực với bác sĩ hoặc nhân viên cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1808,
+    "ru": "Mon bras est cassé.",
+    "phonetic": "MON~ BRA È ka-SÉ",
+    "meaning": "Cánh tay tôi bị gãy.",
+    "note": "Nói khi bị chấn thương gãy xương tay.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1809,
+    "ru": "Elle saigne beaucoup.",
+    "phonetic": "ÈL SÈ-Nhơ bo-KOU",
+    "meaning": "Cô ấy đang chảy máu nhiều.",
+    "note": "Báo động tình trạng chảy máu nghiêm trọng.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1810,
+    "ru": "Il fait une crise cardiaque.",
+    "phonetic": "IL FÈ UYN KRIZ kar-di-AK",
+    "meaning": "Anh ấy đang lên cơn đau tim.",
+    "note": "Thông báo khẩn cấp khi nghi ngờ ai đó bị nhồi máu cơ tim.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1811,
+    "ru": "J'ai du mal à respirer.",
+    "phonetic": "JÉ DUY MAL A rơs-pi-RÉ",
+    "meaning": "Tôi cảm thấy khó thở.",
+    "note": "Mô tả triệu chứng khó thở với bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1812,
+    "ru": "Elle est allergique aux arachides.",
+    "phonetic": "È-LÈT a-lèr-JIK O za-ra-SHID",
+    "meaning": "Cô ấy bị dị ứng với lạc.",
+    "note": "Thông báo dị ứng thực phẩm cho nhân viên y tế hoặc nhà hàng.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1813,
+    "ru": "Il s'est étouffé avec un morceau de nourriture.",
+    "phonetic": "IL SÈ té-tou-FÉ a-VÈK Ơ~ mor-SO dơ nou-ri-TUYRH",
+    "meaning": "Anh ấy bị nghẹn vì một miếng thức ăn.",
+    "note": "Dùng khi mô tả tình huống ai đó bị hóc dị vật.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1814,
+    "ru": "Ma fille s'est brûlée avec de l'eau chaude.",
+    "phonetic": "MA FI-Ơ SÈ bruy-LÉ a-VÈK dơ LO SHOD",
+    "meaning": "Con gái tôi bị bỏng vì nước nóng.",
+    "note": "Mô tả tai nạn bỏng cho nhân viên y tế.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1815,
+    "ru": "Il a avalé des médicaments par erreur.",
+    "phonetic": "IL A a-va-LÉ DÉ mé-di-ka-MAN~ PAR è-RƠRH",
+    "meaning": "Anh ấy đã nuốt nhầm thuốc.",
+    "note": "Báo cáo trường hợp ngộ độc thuốc cần cấp cứu ngay.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1816,
+    "ru": "Mon fils a beaucoup de fièvre.",
+    "phonetic": "MON~ FIS A bo-KOU dơ fi-È-VRƠ",
+    "meaning": "Con trai tôi bị sốt cao.",
+    "note": "Nói với bác sĩ khi trẻ bị sốt cao.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1817,
+    "ru": "Ma femme va accoucher, dépêchez-vous !",
+    "phonetic": "MA FAM VA a-kou-SHÉ, dé-pè-SHÉ-VOU",
+    "meaning": "Vợ tôi sắp sinh, hãy nhanh lên!",
+    "note": "Gọi cấp cứu khẩn cấp khi vợ chuyển dạ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1818,
+    "ru": "J'ai une rage de dents insupportable.",
+    "phonetic": "JÉ UYN RAJ dơ DAN~ en~-suy-por-TA-BLƠ",
+    "meaning": "Tôi bị đau răng dữ dội không chịu nổi.",
+    "note": "Dùng khi cần đi khám nha sĩ khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1819,
+    "ru": "Quelque chose m'est rentré dans l'œil.",
+    "phonetic": "KÈL-kơ SHOZ MÈ ran~-TRÉ DAN~ LƠY",
+    "meaning": "Có vật gì đó bay vào mắt tôi.",
+    "note": "Mô tả chấn thương mắt cần xử lý ngay.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1820,
+    "ru": "Il est tombé et s'est cogné la tête.",
+    "phonetic": "I-LÈ ton~-BÉ É SÈ ko-NHÉ LA TÈT",
+    "meaning": "Anh ấy bị ngã và đập đầu.",
+    "note": "Mô tả tai nạn ngã đập đầu, nghi chấn thương sọ não.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1821,
+    "ru": "Je suis diabétique et je fais une hypoglycémie.",
+    "phonetic": "Jơ SUY-I dia-bé-TIK É jơ FÈ UYN i-po-gli-sé-MI",
+    "meaning": "Tôi bị tiểu đường và đang hạ đường huyết.",
+    "note": "Thông báo tình trạng bệnh nền khi cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1822,
+    "ru": "Il fait une crise d'épilepsie.",
+    "phonetic": "IL FÈ UYN KRIZ dé-pi-lèp-SI",
+    "meaning": "Anh ấy đang lên cơn động kinh.",
+    "note": "Mô tả cơn co giật cho người xung quanh gọi cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1823,
+    "ru": "Son visage est paralysé d'un côté, je crois que c'est un AVC.",
+    "phonetic": "SON~ vi-ZAJ È pa-ra-li-ZÉ DUN~ KO-TÉ, jơ KROA kơ SÈ TUN~ a-vé-SÉ",
+    "meaning": "Mặt anh ấy bị liệt một bên, tôi nghĩ là bị đột quỵ.",
+    "note": "Mô tả dấu hiệu đột quỵ để gọi cấp cứu khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1824,
+    "ru": "Elle a une crise d'asthme, où est son inhalateur ?",
+    "phonetic": "È-LA UYN KRIZ DAZ-mơ, OU È SON~ ni-na-la-TƠRH",
+    "meaning": "Cô ấy đang lên cơn hen, ống hít của cô ấy đâu?",
+    "note": "Hỏi tìm dụng cụ hỗ trợ khi ai đó lên cơn hen.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1825,
+    "ru": "J'ai vomi plusieurs fois depuis ce matin.",
+    "phonetic": "JÉ vo-MI pluy-ZIƠRH FOA dơ-PUYI sơ ma-TEN~",
+    "meaning": "Tôi đã nôn nhiều lần từ sáng đến giờ.",
+    "note": "Mô tả triệu chứng khi khám bệnh.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1826,
+    "ru": "Une abeille m'a piqué et mon bras a gonflé.",
+    "phonetic": "UYN a-BÈY MA pi-KÉ É MON~ BRA A gon~-FLÉ",
+    "meaning": "Một con ong đốt tôi và cánh tay tôi đã sưng lên.",
+    "note": "Mô tả phản ứng sau khi bị côn trùng đốt.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1827,
+    "ru": "Nous avons eu un accident de voiture sur l'autoroute.",
+    "phonetic": "NOU za-VON~ ZUY Ơ~ nak-si-DAN~ dơ voa-TUYRH SUYRH LO-to-ROUT",
+    "meaning": "Chúng tôi vừa bị tai nạn xe hơi trên đường cao tốc.",
+    "note": "Báo cáo tai nạn giao thông khi gọi cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1828,
+    "ru": "Il est tombé du toit.",
+    "phonetic": "I-LÈ ton~-BÉ DUY TOA",
+    "meaning": "Anh ấy đã ngã từ trên mái nhà xuống.",
+    "note": "Mô tả tai nạn ngã từ độ cao.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1829,
+    "ru": "Quelqu'un se noie dans la piscine !",
+    "phonetic": "KÈL-kun~ sơ NOA DAN~ LA pi-SIN",
+    "meaning": "Có người đang chết đuối trong hồ bơi!",
+    "note": "Hô hoán khẩn cấp khi phát hiện người đuối nước.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1830,
+    "ru": "Je fais une crise de panique, je n'arrive pas à respirer normalement.",
+    "phonetic": "Jơ FÈ UYN KRIZ dơ pa-NIK, jơ na-RIV PA A rơs-pi-RÉ nor-mal-MAN~",
+    "meaning": "Tôi đang lên cơn hoảng loạn, tôi không thể thở bình thường.",
+    "note": "Dùng khi mô tả cơn hoảng loạn cấp tính cần trợ giúp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1831,
+    "ru": "Elle a pris trop de comprimés, c'est peut-être une overdose.",
+    "phonetic": "È-LA PRI TRO dơ kon~-pri-MÉ, SÈ pơ-TÈ-TRƠ UYN o-vơr-DOZ",
+    "meaning": "Cô ấy đã uống quá nhiều thuốc, có thể là dùng thuốc quá liều.",
+    "note": "Báo cáo tình trạng nghi ngộ độc thuốc cho cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1832,
+    "ru": "Bonjour, je voudrais quelque chose contre le mal de tête.",
+    "phonetic": "Bon~-JOURH, jơ vou-DRÈ KÈL-kơ SHOZ KON~-TRƠ lơ MAL dơ TÈT",
+    "meaning": "Xin chào, tôi muốn mua thuốc trị đau đầu.",
+    "note": "Câu nói khi mua thuốc tại quầy dược.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1833,
+    "ru": "Vous avez ce médicament sans ordonnance ?",
+    "phonetic": "VOU za-VÉ sơ mé-di-ka-MAN~ SAN~ nor-do-NAN~S",
+    "meaning": "Anh/chị có bán loại thuốc này mà không cần đơn không?",
+    "note": "Hỏi dược sĩ về thuốc không kê đơn.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1834,
+    "ru": "Depuis quand avez-vous ces symptômes ?",
+    "phonetic": "Dơ-PUYI KAN~ a-VÉ-VOU SÉ sen~-TOM",
+    "meaning": "Anh/chị có những triệu chứng này từ khi nào?",
+    "note": "Bác sĩ hỏi bệnh nhân để chẩn đoán.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1835,
+    "ru": "Où avez-vous mal exactement ?",
+    "phonetic": "OU a-VÉ-VOU MAL èg-zak-tơ-MAN~",
+    "meaning": "Anh/chị đau ở chỗ nào chính xác?",
+    "note": "Bác sĩ hỏi để xác định vị trí đau.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1836,
+    "ru": "Sur une échelle de un à dix, comment évaluez-vous la douleur ?",
+    "phonetic": "SUYRH UYN é-SHÈL dơ Ơ~ A DIS, ko-MAN~ té-va-luy-É-VOU LA dou-LƠRH",
+    "meaning": "Trên thang điểm từ một đến mười, anh/chị đánh giá mức đau thế nào?",
+    "note": "Bác sĩ hỏi để đánh giá mức độ đau.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1837,
+    "ru": "Avez-vous des allergies connues ?",
+    "phonetic": "a-VÉ-VOU DÉ za-lèr-JI ko-NUY",
+    "meaning": "Anh/chị có dị ứng nào đã biết không?",
+    "note": "Câu hỏi thường gặp trước khi kê đơn thuốc.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1838,
+    "ru": "Je vais devoir vous faire une prise de sang.",
+    "phonetic": "Jơ VÈ dơ-VOAR VOU FÈR UYN PRIZ dơ SAN~",
+    "meaning": "Tôi sẽ phải lấy máu xét nghiệm cho anh/chị.",
+    "note": "Nhân viên y tế thông báo trước khi lấy mẫu máu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1839,
+    "ru": "Nous devons faire une radio pour vérifier s'il y a une fracture.",
+    "phonetic": "NOU dơ-VON~ FÈR UYN ra-DIO POURH vé-ri-fi-É SI-LIA UYN frak-TUYRH",
+    "meaning": "Chúng tôi cần chụp X-quang để kiểm tra xem có bị gãy xương không.",
+    "note": "Bác sĩ giải thích quy trình khám khi nghi gãy xương.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1840,
+    "ru": "Le médecin va vous recevoir dans quelques minutes.",
+    "phonetic": "Lơ méd-SEN~ VA VOU rơ-sơ-VOAR DAN~ KÈL-kơ mi-NUYT",
+    "meaning": "Bác sĩ sẽ tiếp anh/chị trong vài phút nữa.",
+    "note": "Lễ tân thông báo cho bệnh nhân đang chờ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1841,
+    "ru": "Il faut vous faire quelques points de suture.",
+    "phonetic": "IL FO VOU FÈR KÈL-kơ POIN~ dơ suy-TUYRH",
+    "meaning": "Chúng tôi cần khâu vài mũi cho anh/chị.",
+    "note": "Bác sĩ thông báo cần khâu vết thương.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1842,
+    "ru": "Vous devez rester en observation cette nuit.",
+    "phonetic": "VOU dơ-VÉ rès-TÉ AN~ nob-sèr-va-SION~ SÈT NUYI",
+    "meaning": "Anh/chị cần ở lại theo dõi qua đêm nay.",
+    "note": "Bác sĩ yêu cầu bệnh nhân nhập viện theo dõi.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1843,
+    "ru": "Avez-vous votre carte vitale sur vous ?",
+    "phonetic": "a-VÉ-VOU VO-TRƠ KART vi-TAL SUYRH VOU",
+    "meaning": "Anh/chị có mang theo thẻ bảo hiểm y tế không?",
+    "note": "Nhân viên bệnh viện hỏi về giấy tờ bảo hiểm.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1844,
+    "ru": "Est-ce que ma mutuelle couvre cette intervention ?",
+    "phonetic": "ÈS-kơ MA muy-TUYÈL KOU-VRƠ SÈT en~-tèr-van~-SION~",
+    "meaning": "Bảo hiểm bổ sung của tôi có chi trả ca phẫu thuật này không?",
+    "note": "Hỏi về phạm vi chi trả bảo hiểm y tế.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1845,
+    "ru": "Combien coûte approximativement cette consultation ?",
+    "phonetic": "KON~-BIEN~ KOUT a-prok-si-ma-tiv-MAN~ SÈT kon~-suyl-ta-SION~",
+    "meaning": "Buổi khám này tốn khoảng bao nhiêu tiền?",
+    "note": "Hỏi giá cả trước khi khám bệnh.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1846,
+    "ru": "Je dois prendre ce médicament combien de fois par jour ?",
+    "phonetic": "Jơ DOA PRAN~-DRƠ sơ mé-di-ka-MAN~ KON~-BIEN~ dơ FOA PAR JOURH",
+    "meaning": "Tôi phải uống thuốc này bao nhiêu lần một ngày?",
+    "note": "Hỏi dược sĩ hoặc bác sĩ về liều dùng thuốc.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1847,
+    "ru": "Est-ce que je peux prendre ce médicament à jeun ?",
+    "phonetic": "ÈS-kơ jơ PƠ PRAN~-DRƠ sơ mé-di-ka-MAN~ A JƠN~",
+    "meaning": "Tôi có thể uống thuốc này khi bụng đói không?",
+    "note": "Hỏi về cách dùng thuốc đúng cách.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1848,
+    "ru": "N'oubliez pas de venir pour le rendez-vous de suivi.",
+    "phonetic": "Nou-bli-É PA dơ vơ-NIRH POURH lơ ran~-dé-VOU dơ suy-VI",
+    "meaning": "Đừng quên đến buổi tái khám nhé.",
+    "note": "Bác sĩ dặn bệnh nhân trước khi ra về.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1849,
+    "ru": "Vous êtes à jour dans vos vaccins ?",
+    "phonetic": "VOU ZÈT A JOURH DAN~ VO vak-SEN~",
+    "meaning": "Anh/chị đã tiêm chủng đầy đủ chưa?",
+    "note": "Bác sĩ hỏi về lịch sử tiêm chủng.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1850,
+    "ru": "On va vous faire une anesthésie locale avant l'intervention.",
+    "phonetic": "ON~ VA VOU FÈR UYN a-nès-té-ZI lo-KAL a-VAN~ len~-tèr-van~-SION~",
+    "meaning": "Chúng tôi sẽ gây tê cục bộ cho anh/chị trước khi phẫu thuật.",
+    "note": "Bác sĩ giải thích quy trình gây tê trước tiểu phẫu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1851,
+    "ru": "Combien de temps dure la convalescence après cette opération ?",
+    "phonetic": "KON~-BIEN~ dơ TAN~ DUYRH LA kon~-va-lè-SAN~S a-PRÈ SÈT o-pé-ra-SION~",
+    "meaning": "Thời gian hồi phục sau ca mổ này là bao lâu?",
+    "note": "Hỏi bác sĩ về thời gian phục hồi sau phẫu thuật.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1852,
+    "ru": "Le patient a besoin d'être transporté d'urgence à l'hôpital.",
+    "phonetic": "Lơ pa-SIAN~ A bơ-ZOIN~ DÈ-TRƠ tran~s-por-TÉ duyr-JAN~S A lo-pi-TAL",
+    "meaning": "Bệnh nhân cần được chuyển khẩn cấp đến bệnh viện.",
+    "note": "Nhân viên y tế báo cáo tình trạng cần chuyển viện gấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1853,
+    "ru": "Infirmière, le patient de la chambre douze a besoin de vous.",
+    "phonetic": "En~-fir-MIÈRH, lơ pa-SIAN~ dơ LA SHAN~-BRƠ DOUZ A bơ-ZOIN~ dơ VOU",
+    "meaning": "Cô y tá ơi, bệnh nhân phòng mười hai cần cô.",
+    "note": "Gọi y tá khi bệnh nhân cần hỗ trợ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1854,
+    "ru": "Est-ce que vous avez des antécédents médicaux dans la famille ?",
+    "phonetic": "ÈS-kơ VOU za-VÉ DÉ zan~-té-sé-DAN~ mé-di-KO DAN~ LA fa-MIY",
+    "meaning": "Trong gia đình anh/chị có tiền sử bệnh lý nào không?",
+    "note": "Bác sĩ hỏi về tiền sử bệnh gia đình.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1855,
+    "ru": "Je suis sous traitement pour l'hypertension.",
+    "phonetic": "Jơ SUY-I SOU trèt-MAN~ POURH li-pèr-tan~-SION~",
+    "meaning": "Tôi đang điều trị bệnh cao huyết áp.",
+    "note": "Bệnh nhân thông báo bệnh nền đang điều trị.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1856,
+    "ru": "Je ressens des vertiges depuis ce matin.",
+    "phonetic": "Jơ rơ-SAN~ DÉ vèr-TIJ dơ-PUYI sơ ma-TEN~",
+    "meaning": "Tôi thấy chóng mặt từ sáng đến giờ.",
+    "note": "Mô tả triệu chứng chóng mặt với bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1857,
+    "ru": "Ma cheville a beaucoup gonflé après la chute.",
+    "phonetic": "MA SHơ-VI-Y A bo-KOU gon~-FLÉ a-PRÈ LA SHUYT",
+    "meaning": "Mắt cá chân tôi sưng to sau khi bị ngã.",
+    "note": "Mô tả chấn thương sau té ngã.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1858,
+    "ru": "Le nez de mon fils ne cesse pas de saigner.",
+    "phonetic": "Lơ NÉ dơ MON~ FIS nơ SÈS PA dơ sè-NHÉ",
+    "meaning": "Mũi con trai tôi cứ chảy máu mãi không ngừng.",
+    "note": "Mô tả tình trạng chảy máu cam kéo dài.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1859,
+    "ru": "J'ai des douleurs terribles dans le bas du dos.",
+    "phonetic": "JÉ DÉ dou-LƠRH tè-RI-BLƠ DAN~ lơ BA DUY DO",
+    "meaning": "Tôi bị đau dữ dội ở phần lưng dưới.",
+    "note": "Mô tả cơn đau lưng dưới nghiêm trọng.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1860,
+    "ru": "Elle souffre de migraines chroniques.",
+    "phonetic": "ÈL SOU-FRƠ dơ mi-GRÈN kro-NIK",
+    "meaning": "Cô ấy bị chứng đau nửa đầu mãn tính.",
+    "note": "Mô tả bệnh lý mãn tính khi khai bệnh sử.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1861,
+    "ru": "Le blessé respire encore mais il ne réagit pas.",
+    "phonetic": "Lơ blè-SÉ rơs-PIRH AN~-KOR MÈ IL nơ ré-a-JI PA",
+    "meaning": "Người bị thương vẫn còn thở nhưng không phản ứng.",
+    "note": "Mô tả tình trạng nạn nhân cho tổng đài cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1862,
+    "ru": "Restez avec moi, les secours arrivent.",
+    "phonetic": "Rès-TÉ a-VÈK MOA, LÉ sơ-KOURH a-RIV",
+    "meaning": "Hãy ở lại với tôi, lực lượng cứu hộ sắp đến rồi.",
+    "note": "Trấn an nạn nhân trong khi chờ cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1863,
+    "ru": "Ne le déplacez pas, il pourrait avoir une fracture de la colonne.",
+    "phonetic": "Nơ lơ dé-pla-SÉ PA, IL pou-RÈ a-VOAR UYN frak-TUYRH dơ LA ko-LON",
+    "meaning": "Đừng di chuyển anh ấy, có thể anh ấy bị gãy cột sống.",
+    "note": "Cảnh báo người xung quanh không di chuyển nạn nhân nghi chấn thương cột sống.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1864,
+    "ru": "Surélevez sa jambe et appuyez fort sur la plaie.",
+    "phonetic": "Suyr-é-lơ-VÉ SA JAN~-BƠ É a-puyi-YÉ FOR SUYRH LA PLÈ",
+    "meaning": "Hãy nâng cao chân nạn nhân và ấn mạnh vào vết thương.",
+    "note": "Hướng dẫn sơ cứu cầm máu tại chỗ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1865,
+    "ru": "J'ai fait une réaction allergique après avoir mangé des fruits de mer.",
+    "phonetic": "JÉ FÈ UYN ré-ak-SION~ a-lèr-JIK a-PRÈ a-VOAR man~-JÉ DÉ FRUYI dơ MÈRH",
+    "meaning": "Tôi bị phản ứng dị ứng sau khi ăn hải sản.",
+    "note": "Báo cáo dị ứng thực phẩm cho bác sĩ cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1866,
+    "ru": "Mon visage et ma gorge commencent à gonfler.",
+    "phonetic": "MON~ vi-ZAJ É MA GORJ ko-MAN~S A gon~-FLÉ",
+    "meaning": "Mặt và cổ họng tôi bắt đầu sưng lên.",
+    "note": "Mô tả dấu hiệu sốc phản vệ cần cấp cứu ngay.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1867,
+    "ru": "Avez-vous un défibrillateur dans le bâtiment ?",
+    "phonetic": "a-VÉ-VOU Ơ~ dé-fi-bri-la-TƠRH DAN~ lơ ba-ti-MAN~",
+    "meaning": "Tòa nhà này có máy khử rung tim không?",
+    "note": "Hỏi tìm thiết bị hỗ trợ khi có người bị ngừng tim.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1868,
+    "ru": "Je vais pratiquer un massage cardiaque en attendant les secours.",
+    "phonetic": "Jơ VÈ pra-ti-KÉ Ơ~ ma-SAJ kar-di-AK AN~ na-tan~-DAN~ LÉ sơ-KOURH",
+    "meaning": "Tôi sẽ ép tim ngoài lồng ngực trong khi chờ cứu hộ.",
+    "note": "Thông báo sẽ thực hiện hồi sức tim phổi (CPR).",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1869,
+    "ru": "Vous pouvez me dire votre nom et la date d'aujourd'hui ?",
+    "phonetic": "VOU pou-VÉ mơ DIRH VO-TRƠ NOM É LA DAT do-jour-DUYI",
+    "meaning": "Anh/chị có thể cho tôi biết tên và ngày hôm nay không?",
+    "note": "Kiểm tra ý thức của nạn nhân.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1870,
+    "ru": "Le patient ne répond plus aux stimuli.",
+    "phonetic": "Lơ pa-SIAN~ nơ ré-PON~ PLUY O sti-muy-LI",
+    "meaning": "Bệnh nhân không còn phản ứng với các kích thích nữa.",
+    "note": "Nhân viên y tế mô tả tình trạng nguy kịch.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1871,
+    "ru": "Il faut l'emmener aux urgences le plus vite possible.",
+    "phonetic": "IL FO lan~-mơ-NÉ O zuyr-JAN~S lơ PLUY VIT po-SI-BLƠ",
+    "meaning": "Phải đưa anh ấy đến phòng cấp cứu càng nhanh càng tốt.",
+    "note": "Yêu cầu khẩn cấp chuyển bệnh nhân đến bệnh viện.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1872,
+    "ru": "Quel est votre groupe sanguin ?",
+    "phonetic": "KÈ-LÈ VO-TRƠ GROUP san~-GEN~",
+    "meaning": "Nhóm máu của anh/chị là gì?",
+    "note": "Bác sĩ hỏi thông tin y tế cơ bản.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1873,
+    "ru": "Le pharmacien de garde est ouvert jusqu'à minuit ce soir.",
+    "phonetic": "Lơ far-ma-SIEN~ dơ GARD È tou-VÈRH juys-KA mi-NUYI sơ SOAR",
+    "meaning": "Nhà thuốc trực hôm nay mở cửa đến nửa đêm.",
+    "note": "Thông tin về giờ mở cửa nhà thuốc trực.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1874,
+    "ru": "Ce sirop pour la toux est-il adapté aux enfants ?",
+    "phonetic": "Sơ si-RO POURH LA TOU È-TIL a-dap-TÉ O zan~-FAN~",
+    "meaning": "Loại siro ho này có phù hợp cho trẻ em không?",
+    "note": "Hỏi dược sĩ về thuốc dùng cho trẻ nhỏ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1875,
+    "ru": "J'ai des frissons et j'ai très froid malgré la fièvre.",
+    "phonetic": "JÉ DÉ fri-SON~ É JÉ TRÈ FROA mal-GRÉ LA fi-È-VRƠ",
+    "meaning": "Tôi bị ớn lạnh và rất lạnh dù đang bị sốt.",
+    "note": "Mô tả triệu chứng sốt kèm ớn lạnh.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1876,
+    "ru": "La plaie est profonde, il faut désinfecter immédiatement.",
+    "phonetic": "LA PLÈ È pro-FON~D, IL FO dé-zen~-fèk-TÉ i-mé-dia-tơ-MAN~",
+    "meaning": "Vết thương này sâu, cần sát trùng ngay lập tức.",
+    "note": "Hướng dẫn xử lý vết thương hở nghiêm trọng.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1877,
+    "ru": "Mon collègue s'est électrocuté en réparant la machine.",
+    "phonetic": "MON~ ko-LÈG SÈ té-lèk-tro-kuy-TÉ AN~ ré-pa-RAN~ LA ma-SHIN",
+    "meaning": "Đồng nghiệp của tôi bị điện giật khi sửa máy.",
+    "note": "Báo cáo tai nạn điện giật tại nơi làm việc.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1878,
+    "ru": "Il y a eu un incendie et plusieurs personnes ont inhalé de la fumée.",
+    "phonetic": "I-LIA UY Ơ~ nen~-san~-DI É pluy-ZIƠRH pèr-SON ON~ ti-na-LÉ dơ LA fuy-MÉ",
+    "meaning": "Đã xảy ra hỏa hoạn và nhiều người đã hít phải khói.",
+    "note": "Báo cáo tình huống hỏa hoạn có nạn nhân hít khói.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1879,
+    "ru": "J'ai avalé un produit toxique par accident.",
+    "phonetic": "JÉ a-va-LÉ Ơ~ pro-DUYI tok-SIK PAR ak-si-DAN~",
+    "meaning": "Tôi đã lỡ nuốt phải chất độc.",
+    "note": "Báo cáo trường hợp ngộ độc cần cấp cứu ngay.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1880,
+    "ru": "Quel est le centre antipoison le plus proche ?",
+    "phonetic": "KÈ-LÈ lơ SAN~-TRƠ an~-ti-poa-ZON~ lơ PLUY PROSH",
+    "meaning": "Trung tâm chống độc gần nhất ở đâu?",
+    "note": "Hỏi thông tin trung tâm xử lý ngộ độc.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1881,
+    "ru": "Le vieil homme est tombé dans les escaliers et ne peut plus se relever.",
+    "phonetic": "Lơ vi-È-LOM È ton~-BÉ DAN~ LÉ zès-ka-LIÉ É nơ PƠ PLUY sơ rơ-lơ-VÉ",
+    "meaning": "Ông cụ bị ngã cầu thang và không thể tự đứng dậy được nữa.",
+    "note": "Mô tả tai nạn té ngã ở người cao tuổi.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1882,
+    "ru": "Ma grand-mère se plaint de douleurs à la hanche depuis sa chute.",
+    "phonetic": "MA gran~-MÈRH sơ PLEN~ dơ dou-LƠRH A LA AN~SH dơ-PUYI SA SHUYT",
+    "meaning": "Bà tôi kêu đau hông từ sau khi bị ngã.",
+    "note": "Mô tả triệu chứng sau té ngã ở người già.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1883,
+    "ru": "Le sportif s'est tordu la cheville pendant le match.",
+    "phonetic": "Lơ spor-TIF SÈ tor-DUY LA SHơ-VI-Y pan~-DAN~ lơ MATCH",
+    "meaning": "Vận động viên bị trẹo mắt cá chân trong lúc thi đấu.",
+    "note": "Mô tả chấn thương thể thao.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1884,
+    "ru": "J'ai reçu un coup violent au visage pendant l'entraînement.",
+    "phonetic": "JÉ rơ-SUY Ơ~ KOU vio-LAN~ O vi-ZAJ pan~-DAN~ lan~-trèn-MAN~",
+    "meaning": "Tôi bị đánh mạnh vào mặt trong lúc tập luyện.",
+    "note": "Mô tả chấn thương khi luyện tập thể thao.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1885,
+    "ru": "Pouvez-vous me faire un certificat médical pour l'école ?",
+    "phonetic": "Pou-VÉ-VOU mơ FÈR Ơ~ sèr-ti-fi-KA mé-di-KAL POURH lé-KOL",
+    "meaning": "Bác sĩ có thể cấp cho tôi giấy chứng nhận y tế để nộp cho trường không?",
+    "note": "Yêu cầu giấy khám sức khỏe cho học sinh.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1886,
+    "ru": "Le personnel des urgences fait de son mieux, la salle d'attente est pleine.",
+    "phonetic": "Lơ pèr-so-NÈL DÉ zuyr-JAN~S FÈ dơ SON~ MIƠ, LA SAL da-TAN~T È PLÈN",
+    "meaning": "Nhân viên phòng cấp cứu đang cố gắng hết sức, phòng chờ đã đầy người.",
+    "note": "Giải thích tình trạng quá tải tại phòng cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1887,
+    "ru": "Combien de temps devrons-nous encore attendre avant de voir un médecin ?",
+    "phonetic": "KON~-BIEN~ dơ TAN~ dơ-VRON~-NOU AN~-KOR a-TAN~-DRƠ a-VAN~ dơ VOAR Ơ~ méd-SEN~",
+    "meaning": "Chúng tôi còn phải chờ bao lâu nữa mới được gặp bác sĩ?",
+    "note": "Hỏi thời gian chờ đợi tại phòng khám.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1888,
+    "ru": "Le chirurgien va vous expliquer les risques avant l'opération.",
+    "phonetic": "Lơ shi-ruyr-JIEN~ VA VOU zèks-pli-KÉ LÉ RISK a-VAN~ lo-pé-ra-SION~",
+    "meaning": "Bác sĩ phẫu thuật sẽ giải thích các rủi ro trước khi mổ.",
+    "note": "Thông báo quy trình tư vấn trước phẫu thuật.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1889,
+    "ru": "Signez ici pour donner votre consentement à l'intervention.",
+    "phonetic": "Si-NHÉ i-SI POURH do-NÉ VO-TRƠ kon~-san~-tơ-MAN~ A len~-tèr-van~-SION~",
+    "meaning": "Xin ký vào đây để đồng ý cho ca phẫu thuật.",
+    "note": "Yêu cầu ký giấy đồng ý trước khi phẫu thuật.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1890,
+    "ru": "Reposez-vous bien et revenez si les symptômes s'aggravent.",
+    "phonetic": "Rơ-po-ZÉ-VOU BIEN~ É rơ-vơ-NÉ SI LÉ sen~-TOM sa-GRAV",
+    "meaning": "Hãy nghỉ ngơi thật tốt và quay lại nếu triệu chứng trở nặng.",
+    "note": "Lời dặn của bác sĩ khi bệnh nhân xuất viện.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1891,
+    "ru": "Pourriez-vous m'envoyer le rapport avant vendredi ?",
+    "phonetic": "Pou-RIÉ-VOU man~-voa-YÉ lơ ra-POR a-VAN~ van~-drơ-DI",
+    "meaning": "Anh/chị có thể gửi cho tôi báo cáo trước thứ Sáu không?",
+    "note": "Yêu cầu lịch sự trong email hoặc trao đổi công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1892,
+    "ru": "Nous devons revoir le budget du projet ce trimestre.",
+    "phonetic": "NOU dơ-VON~ rơ-VOAR lơ buy-JÈ DUY pro-JÈ sơ tri-MÈS-TRƠ",
+    "meaning": "Chúng ta cần xem lại ngân sách dự án trong quý này.",
+    "note": "Dùng trong họp về tài chính dự án.",
+    "category": "business"
+  },
+  {
+    "id": 1893,
+    "ru": "La réunion est reportée à quatorze heures.",
+    "phonetic": "LA ré-uy-NION~ È rơ-por-TÉ A ka-TORZ ƠRH",
+    "meaning": "Cuộc họp được dời sang lúc mười bốn giờ.",
+    "note": "Thông báo thay đổi lịch họp.",
+    "category": "business"
+  },
+  {
+    "id": 1894,
+    "ru": "J'aimerais programmer un entretien avec vous la semaine prochaine.",
+    "phonetic": "Jèm-RÈ pro-gra-MÉ Ơ~ nan~-trơ-TIEN~ a-VÈK VOU LA sơ-MÈN pro-SHÈN",
+    "meaning": "Tôi muốn sắp xếp một buổi phỏng vấn với anh/chị vào tuần tới.",
+    "note": "Đề xuất lịch phỏng vấn tuyển dụng.",
+    "category": "business"
+  },
+  {
+    "id": 1895,
+    "ru": "Le client n'est pas satisfait de la dernière livraison.",
+    "phonetic": "Lơ kli-AN~ NÈ PA sa-tis-FÈ dơ LA dèr-NIÈRH li-vrè-ZON~",
+    "meaning": "Khách hàng không hài lòng với lần giao hàng gần nhất.",
+    "note": "Báo cáo phản hồi tiêu cực từ khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1896,
+    "ru": "Nous avons dépassé notre chiffre d'affaires prévu ce mois-ci.",
+    "phonetic": "NOU za-VON~ dé-pa-SÉ NO-TRƠ SHI-FRƠ da-FÈRH pré-VUY sơ MOA-SI",
+    "meaning": "Chúng tôi đã vượt doanh thu dự kiến trong tháng này.",
+    "note": "Báo cáo kết quả kinh doanh tích cực.",
+    "category": "business"
+  },
+  {
+    "id": 1897,
+    "ru": "Pouvez-vous me confirmer votre présence à la conférence ?",
+    "phonetic": "Pou-VÉ-VOU mơ kon~-fir-MÉ VO-TRƠ pré-ZAN~S A LA kon~-fé-RAN~S",
+    "meaning": "Anh/chị có thể xác nhận việc tham dự hội nghị không?",
+    "note": "Xác nhận sự tham gia sự kiện công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1898,
+    "ru": "Le contrat doit être signé avant la fin du mois.",
+    "phonetic": "Lơ kon~-TRA DOA-TÈ-TRƠ si-NHÉ a-VAN~ LA FEN~ DUY MOA",
+    "meaning": "Hợp đồng phải được ký trước cuối tháng.",
+    "note": "Nhắc nhở về thời hạn ký kết hợp đồng.",
+    "category": "business"
+  },
+  {
+    "id": 1899,
+    "ru": "Nous cherchons un partenaire stratégique pour ce marché.",
+    "phonetic": "NOU shèr-SHON~ Ơ~ par-tơ-NÈRH stra-té-JIK POURH sơ mar-SHÉ",
+    "meaning": "Chúng tôi đang tìm đối tác chiến lược cho thị trường này.",
+    "note": "Dùng khi tìm kiếm hợp tác kinh doanh.",
+    "category": "business"
+  },
+  {
+    "id": 1900,
+    "ru": "Merci de trouver ci-joint la facture correspondante.",
+    "phonetic": "Mèr-SI dơ trou-VÉ si-JOIN~ LA fak-TUYRH ko-rès-pon~-DAN~T",
+    "meaning": "Vui lòng xem hóa đơn tương ứng đính kèm.",
+    "note": "Câu thường dùng trong email gửi hóa đơn.",
+    "category": "business"
+  },
+  {
+    "id": 1901,
+    "ru": "Je vous recontacte dès que j'ai une réponse de la direction.",
+    "phonetic": "Jơ VOU rơ-kon~-TAKT DÈ kơ JÉ UYN ré-PON~S dơ LA di-rèk-SION~",
+    "meaning": "Tôi sẽ liên hệ lại với anh/chị ngay khi có phản hồi từ ban lãnh đạo.",
+    "note": "Dùng khi chờ quyết định từ cấp trên.",
+    "category": "business"
+  },
+  {
+    "id": 1902,
+    "ru": "Nous avons un léger retard sur le calendrier du projet.",
+    "phonetic": "NOU za-VON~ Ơ~ lé-JÉ rơ-TAR SUYRH lơ ka-lan~-DRI-É DUY pro-JÈ",
+    "meaning": "Chúng tôi hơi chậm tiến độ so với kế hoạch dự án.",
+    "note": "Báo cáo tiến độ dự án bị trễ nhẹ.",
+    "category": "business"
+  },
+  {
+    "id": 1903,
+    "ru": "Pouvons-nous fixer un rendez-vous téléphonique demain matin ?",
+    "phonetic": "Pou-VON~-NOU fik-SÉ Ơ~ ran~-dé-VOU té-lé-fo-NIK dơ-MEN~ ma-TEN~",
+    "meaning": "Chúng ta có thể hẹn gọi điện thoại vào sáng mai không?",
+    "note": "Đề xuất lịch gọi điện trao đổi công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1904,
+    "ru": "Notre équipe travaille sur une nouvelle stratégie marketing.",
+    "phonetic": "NO-TRƠ é-KIP tra-VA-Y SUYRH UYN nou-VÈL stra-té-JI mar-kơ-TING",
+    "meaning": "Đội của chúng tôi đang xây dựng chiến lược marketing mới.",
+    "note": "Cập nhật tiến độ công việc trong họp nhóm.",
+    "category": "business"
+  },
+  {
+    "id": 1905,
+    "ru": "Il faut négocier de meilleures conditions avec ce fournisseur.",
+    "phonetic": "IL FO né-go-SIÉ dơ mè-YƠRH kon~-di-SION~ a-VÈK sơ four-ni-SƠRH",
+    "meaning": "Cần thương lượng điều kiện tốt hơn với nhà cung cấp này.",
+    "note": "Bàn về việc đàm phán với nhà cung cấp.",
+    "category": "business"
+  },
+  {
+    "id": 1906,
+    "ru": "Le poste requiert au moins cinq ans d'expérience.",
+    "phonetic": "Lơ POST rơ-KIÈRH O MOIN~ SEN~K AN~ dèks-pé-RIAN~S",
+    "meaning": "Vị trí này yêu cầu ít nhất năm năm kinh nghiệm.",
+    "note": "Mô tả yêu cầu trong tin tuyển dụng.",
+    "category": "business"
+  },
+  {
+    "id": 1907,
+    "ru": "Nous recherchons un candidat motivé et polyvalent.",
+    "phonetic": "NOU rơ-shèr-SHON~ Ơ~ kan~-di-DA mo-ti-VÉ É po-li-va-LAN~",
+    "meaning": "Chúng tôi đang tìm ứng viên nhiệt huyết và linh hoạt.",
+    "note": "Mô tả tiêu chí tuyển dụng ứng viên.",
+    "category": "business"
+  },
+  {
+    "id": 1908,
+    "ru": "Votre profil correspond parfaitement à nos attentes.",
+    "phonetic": "VO-TRƠ pro-FIL ko-rès-PON~ par-fè-tơ-MAN~ A NO za-TAN~T",
+    "meaning": "Hồ sơ của anh/chị hoàn toàn phù hợp với yêu cầu của chúng tôi.",
+    "note": "Nhận xét tích cực trong phỏng vấn tuyển dụng.",
+    "category": "business"
+  },
+  {
+    "id": 1909,
+    "ru": "Malheureusement, nous avons retenu un autre candidat.",
+    "phonetic": "Ma-lơ-rơ-ZƠZ-MAN~, NOU za-VON~ rơ-tơ-NUY Ơ~ NO-TRƠ kan~-di-DA",
+    "meaning": "Rất tiếc, chúng tôi đã chọn một ứng viên khác.",
+    "note": "Câu từ chối lịch sự sau phỏng vấn.",
+    "category": "business"
+  },
+  {
+    "id": 1910,
+    "ru": "Félicitations, nous souhaitons vous proposer le poste.",
+    "phonetic": "Fé-li-si-ta-SION~, NOU soua-TON~ VOU pro-po-ZÉ lơ POST",
+    "meaning": "Xin chúc mừng, chúng tôi muốn mời anh/chị nhận vị trí này.",
+    "note": "Thông báo trúng tuyển cho ứng viên.",
+    "category": "business"
+  },
+  {
+    "id": 1911,
+    "ru": "Quel salaire envisagez-vous pour ce poste ?",
+    "phonetic": "KÈL sa-LÈRH an~-vi-za-JÉ-VOU POURH sơ POST",
+    "meaning": "Anh/chị mong muốn mức lương bao nhiêu cho vị trí này?",
+    "note": "Câu hỏi thường gặp về mức lương khi phỏng vấn.",
+    "category": "business"
+  },
+  {
+    "id": 1912,
+    "ru": "Nous offrons également une mutuelle et des tickets restaurant.",
+    "phonetic": "NOU zo-FRON~ é-gal-MAN~ UYN muy-TUYÈL É DÉ ti-KÈ rès-to-RAN~",
+    "meaning": "Chúng tôi cũng cung cấp bảo hiểm y tế và phiếu ăn trưa.",
+    "note": "Trình bày phúc lợi công ty cho ứng viên.",
+    "category": "business"
+  },
+  {
+    "id": 1913,
+    "ru": "Je démissionne de mon poste actuel à compter du premier du mois.",
+    "phonetic": "Jơ dé-mi-SION lơ dơ MON~ POST ak-tuy-ÈL A kon~-TÉ DUY prơ-MIÉ DUY MOA",
+    "meaning": "Tôi xin nghỉ việc tại vị trí hiện tại kể từ ngày mùng một tháng sau.",
+    "note": "Câu dùng khi thông báo nghỉ việc chính thức.",
+    "category": "business"
+  },
+  {
+    "id": 1914,
+    "ru": "J'aimerais discuter d'une possible augmentation de salaire.",
+    "phonetic": "Jèm-RÈ dis-kuy-TÉ DUYN po-SI-BLƠ og-man~-ta-SION~ dơ sa-LÈRH",
+    "meaning": "Tôi muốn trao đổi về khả năng tăng lương.",
+    "note": "Dùng khi đề nghị tăng lương với cấp trên.",
+    "category": "business"
+  },
+  {
+    "id": 1915,
+    "ru": "Votre performance ce trimestre a été remarquable.",
+    "phonetic": "VO-TRƠ pèr-for-MAN~S sơ tri-MÈS-TRƠ A é-TÉ rơ-mar-KA-BLƠ",
+    "meaning": "Hiệu suất làm việc của anh/chị trong quý này thật xuất sắc.",
+    "note": "Lời khen từ cấp trên trong đánh giá công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1916,
+    "ru": "Nous devons améliorer notre communication interne.",
+    "phonetic": "NOU dơ-VON~ a-mé-lio-RÉ NO-TRƠ ko-muy-ni-ka-SION~ en~-TÈRN",
+    "meaning": "Chúng ta cần cải thiện giao tiếp nội bộ.",
+    "note": "Nhận xét trong họp cải tiến quy trình công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1917,
+    "ru": "Le délai de livraison a été prolongé de deux semaines.",
+    "phonetic": "Lơ dé-LÈ dơ li-vrè-ZON~ A é-TÉ pro-lon~-JÉ dơ DƠ sơ-MÈN",
+    "meaning": "Thời hạn giao hàng đã được gia hạn thêm hai tuần.",
+    "note": "Thông báo thay đổi lịch giao hàng cho khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1918,
+    "ru": "Cette proposition commerciale me semble très intéressante.",
+    "phonetic": "SÈT pro-po-zi-SION~ ko-mèr-SIAL mơ SAN~-BLƠ TRÈ zen~-té-rè-SAN~T",
+    "meaning": "Đề xuất kinh doanh này với tôi có vẻ rất thú vị.",
+    "note": "Phản hồi tích cực về một đề xuất hợp tác.",
+    "category": "business"
+  },
+  {
+    "id": 1919,
+    "ru": "Pouvez-vous m'envoyer un devis détaillé ?",
+    "phonetic": "Pou-VÉ-VOU man~-voa-YÉ Ơ~ dơ-VI dé-ta-YÉ",
+    "meaning": "Anh/chị có thể gửi cho tôi bảng báo giá chi tiết không?",
+    "note": "Yêu cầu báo giá khi làm việc với nhà cung cấp.",
+    "category": "business"
+  },
+  {
+    "id": 1920,
+    "ru": "Nos concurrents ont baissé leurs prix récemment.",
+    "phonetic": "NO kon~-kuy-RAN~ ON~ bè-SÉ LƠRH PRI ré-sa-MAN~",
+    "meaning": "Các đối thủ cạnh tranh của chúng ta vừa giảm giá gần đây.",
+    "note": "Cập nhật tình hình thị trường cạnh tranh.",
+    "category": "business"
+  },
+  {
+    "id": 1921,
+    "ru": "Il faut absolument fidéliser notre clientèle actuelle.",
+    "phonetic": "IL FO tap-so-luy-MAN~ fi-dé-li-ZÉ NO-TRƠ kli-an~-TÈL ak-tuy-ÈL",
+    "meaning": "Chúng ta nhất định phải giữ chân khách hàng hiện tại.",
+    "note": "Đề xuất chiến lược chăm sóc khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1922,
+    "ru": "La présentation s'est très bien déroulée devant les investisseurs.",
+    "phonetic": "LA pré-zan~-ta-SION~ SÈ TRÈ BIEN~ dé-rou-LÉ dơ-VAN~ LÉ zen~-vès-ti-SƠRH",
+    "meaning": "Buổi thuyết trình trước các nhà đầu tư đã diễn ra rất tốt.",
+    "note": "Tường thuật kết quả một buổi thuyết trình gọi vốn.",
+    "category": "business"
+  },
+  {
+    "id": 1923,
+    "ru": "Nous devons lever des fonds pour financer cette expansion.",
+    "phonetic": "NOU dơ-VON~ lơ-VÉ DÉ FON~ POURH fi-nan~-SÉ SÈT tèks-pan~-SION~",
+    "meaning": "Chúng ta cần huy động vốn để tài trợ cho việc mở rộng này.",
+    "note": "Bàn về kế hoạch gọi vốn cho doanh nghiệp.",
+    "category": "business"
+  },
+  {
+    "id": 1924,
+    "ru": "Le conseil d'administration se réunit chaque premier lundi du mois.",
+    "phonetic": "Lơ kon~-SÈY da-mi-nis-tra-SION~ sơ ré-uy-NI SHAK prơ-MIÉ len~-DI DUY MOA",
+    "meaning": "Hội đồng quản trị họp vào mỗi thứ Hai đầu tháng.",
+    "note": "Thông tin về lịch họp định kỳ của công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1925,
+    "ru": "Merci de votre patience concernant ce contretemps.",
+    "phonetic": "Mèr-SI dơ VO-TRƠ pa-SIAN~S kon~-sèr-NAN~ sơ kon~-trơ-TAN~",
+    "meaning": "Cảm ơn sự kiên nhẫn của anh/chị đối với sự cố này.",
+    "note": "Lời cảm ơn khách hàng khi xảy ra trục trặc.",
+    "category": "business"
+  },
+  {
+    "id": 1926,
+    "ru": "Je vous prie de bien vouloir excuser ce retard.",
+    "phonetic": "Jơ VOU PRI dơ BIEN~ vou-LOAR èks-kuy-ZÉ sơ rơ-TAR",
+    "meaning": "Tôi xin thành thật xin lỗi vì sự chậm trễ này.",
+    "note": "Câu xin lỗi trang trọng trong email công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1927,
+    "ru": "Nous allons devoir restructurer le département commercial.",
+    "phonetic": "NOU za-LON~ dơ-VOAR rơs-truyk-tuy-RÉ lơ dé-par-tơ-MAN~ ko-mèr-SIAL",
+    "meaning": "Chúng tôi sẽ phải tái cơ cấu bộ phận kinh doanh.",
+    "note": "Thông báo thay đổi cơ cấu tổ chức công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1928,
+    "ru": "L'entreprise envisage plusieurs licenciements ce trimestre.",
+    "phonetic": "Lan~-trơ-PRIZ an~-vi-ZAJ pluy-ZIƠRH li-san~-si-MAN~ sơ tri-MÈS-TRƠ",
+    "meaning": "Công ty đang cân nhắc sa thải nhiều nhân viên trong quý này.",
+    "note": "Thông tin nhạy cảm về cắt giảm nhân sự.",
+    "category": "business"
+  },
+  {
+    "id": 1929,
+    "ru": "Nous embauchons pour renforcer l'équipe technique.",
+    "phonetic": "NOU zan~-bo-SHON~ POURH ran~-for-SÉ lé-KIP tèk-NIK",
+    "meaning": "Chúng tôi đang tuyển người để tăng cường đội kỹ thuật.",
+    "note": "Thông báo tuyển dụng cho bộ phận kỹ thuật.",
+    "category": "business"
+  },
+  {
+    "id": 1930,
+    "ru": "Le télétravail est désormais possible deux jours par semaine.",
+    "phonetic": "Lơ té-lé-tra-VA-Y È dé-zor-MÈ po-SI-BLƠ DƠ JOURH PAR sơ-MÈN",
+    "meaning": "Từ nay có thể làm việc từ xa hai ngày mỗi tuần.",
+    "note": "Thông báo chính sách làm việc từ xa mới.",
+    "category": "business"
+  },
+  {
+    "id": 1931,
+    "ru": "Merci de badger en arrivant et en partant du bureau.",
+    "phonetic": "Mèr-SI dơ ba-JÉ AN~ na-ri-VAN~ É AN~ par-TAN~ DUY buy-RO",
+    "meaning": "Vui lòng quẹt thẻ khi đến và khi rời văn phòng.",
+    "note": "Nhắc nhở quy định chấm công tại công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1932,
+    "ru": "Le rapport annuel sera publié la semaine prochaine.",
+    "phonetic": "Lơ ra-POR a-nuy-ÈL sơ-RA puy-bli-É LA sơ-MÈN pro-SHÈN",
+    "meaning": "Báo cáo thường niên sẽ được công bố vào tuần tới.",
+    "note": "Thông báo lịch công bố báo cáo tài chính.",
+    "category": "business"
+  },
+  {
+    "id": 1933,
+    "ru": "Nos ventes ont chuté de dix pour cent ce semestre.",
+    "phonetic": "NO VAN~T ON~ shuy-TÉ dơ DIS POURH SAN~ sơ sơ-MÈS-TRƠ",
+    "meaning": "Doanh số của chúng ta đã giảm mười phần trăm trong nửa năm này.",
+    "note": "Báo cáo tình hình kinh doanh sụt giảm.",
+    "category": "business"
+  },
+  {
+    "id": 1934,
+    "ru": "Il faut revoir entièrement notre plan de communication.",
+    "phonetic": "IL FO rơ-VOAR an~-tiÈRH-MAN~ NO-TRƠ PLAN~ dơ ko-muy-ni-ka-SION~",
+    "meaning": "Chúng ta cần xem lại toàn bộ kế hoạch truyền thông.",
+    "note": "Đề xuất cải tổ chiến lược truyền thông.",
+    "category": "business"
+  },
+  {
+    "id": 1935,
+    "ru": "Cette clause du contrat me pose problème.",
+    "phonetic": "SÈT KLOZ DUY kon~-TRA mơ POZ pro-BLÈM",
+    "meaning": "Điều khoản này trong hợp đồng khiến tôi băn khoăn.",
+    "note": "Nêu vấn đề về một điều khoản hợp đồng.",
+    "category": "business"
+  },
+  {
+    "id": 1936,
+    "ru": "Pouvons-nous renégocier les termes de cet accord ?",
+    "phonetic": "Pou-VON~-NOU rơ-né-go-SIÉ LÉ TÈRM dơ SÈT a-KOR",
+    "meaning": "Chúng ta có thể đàm phán lại các điều khoản của thỏa thuận này không?",
+    "note": "Đề nghị đàm phán lại hợp đồng.",
+    "category": "business"
+  },
+  {
+    "id": 1937,
+    "ru": "Je vous transmets le dossier en pièce jointe.",
+    "phonetic": "Jơ VOU tranz-MÈ lơ do-SIÉ AN~ PIÈS JOIN~T",
+    "meaning": "Tôi gửi hồ sơ đính kèm cho anh/chị.",
+    "note": "Câu dùng khi gửi tài liệu qua email.",
+    "category": "business"
+  },
+  {
+    "id": 1938,
+    "ru": "N'hésitez pas à me contacter pour toute question.",
+    "phonetic": "Né-zi-TÉ PA A mơ kon~-tak-TÉ POURH TOUT KÈS-TION~",
+    "meaning": "Đừng ngần ngại liên hệ với tôi nếu có thắc mắc.",
+    "note": "Câu kết thúc lịch sự trong email công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1939,
+    "ru": "Nous devons finaliser le budget avant la réunion du conseil.",
+    "phonetic": "NOU dơ-VON~ fi-na-li-ZÉ lơ buy-JÈ a-VAN~ LA ré-uy-NION~ DUY kon~-SÈY",
+    "meaning": "Chúng ta cần hoàn thiện ngân sách trước cuộc họp hội đồng.",
+    "note": "Nhắc việc hoàn tất ngân sách trước hạn.",
+    "category": "business"
+  },
+  {
+    "id": 1940,
+    "ru": "L'usine tourne actuellement à pleine capacité.",
+    "phonetic": "Luy-ZIN TOURN ak-tuy-èl-MAN~ A PLÈN ka-pa-si-TÉ",
+    "meaning": "Nhà máy hiện đang hoạt động hết công suất.",
+    "note": "Báo cáo tình trạng sản xuất của nhà máy.",
+    "category": "business"
+  },
+  {
+    "id": 1941,
+    "ru": "Il faut auditer nos comptes avant la fin de l'année fiscale.",
+    "phonetic": "IL FO o-di-TÉ NO KON~T a-VAN~ LA FEN~ dơ la-NÉ fis-KAL",
+    "meaning": "Cần kiểm toán sổ sách trước khi kết thúc năm tài chính.",
+    "note": "Nhắc nhở về việc kiểm toán tài chính.",
+    "category": "business"
+  },
+  {
+    "id": 1942,
+    "ru": "Le fournisseur n'a pas respecté les délais convenus.",
+    "phonetic": "Lơ four-ni-SƠRH NA PA rès-pèk-TÉ LÉ dé-LÈ kon~-vơ-NUY",
+    "meaning": "Nhà cung cấp đã không tuân thủ thời hạn đã thỏa thuận.",
+    "note": "Phàn nàn về việc nhà cung cấp giao hàng trễ.",
+    "category": "business"
+  },
+  {
+    "id": 1943,
+    "ru": "Cette start-up a levé plusieurs millions d'euros l'an dernier.",
+    "phonetic": "SÈT start-UP A lơ-VÉ pluy-ZIƠRH mi-LION~ DƠ-RO LAN~ dèr-NIÉ",
+    "meaning": "Công ty khởi nghiệp này đã huy động được vài triệu euro vào năm ngoái.",
+    "note": "Chia sẻ thông tin thị trường khởi nghiệp.",
+    "category": "business"
+  },
+  {
+    "id": 1944,
+    "ru": "Nous devons diversifier notre portefeuille de clients.",
+    "phonetic": "NOU dơ-VON~ di-vèr-si-fi-É NO-TRƠ por-tơ-FƠY dơ kli-AN~",
+    "meaning": "Chúng ta cần đa dạng hóa danh mục khách hàng.",
+    "note": "Đề xuất chiến lược mở rộng khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1945,
+    "ru": "Le marché est de plus en plus concurrentiel dans ce secteur.",
+    "phonetic": "Lơ mar-SHÉ È dơ PLUY ZAN~ PLUY kon~-kuy-ran~-SIÈL DAN~ sơ sèk-TƠRH",
+    "meaning": "Thị trường trong lĩnh vực này ngày càng cạnh tranh gay gắt.",
+    "note": "Nhận định về tình hình cạnh tranh thị trường.",
+    "category": "business"
+  },
+  {
+    "id": 1946,
+    "ru": "Pourriez-vous préparer un résumé exécutif pour la direction ?",
+    "phonetic": "Pou-RIÉ-VOU pré-pa-RÉ Ơ~ ré-zuy-MÉ èg-zé-kuy-TIF POURH LA di-rèk-SION~",
+    "meaning": "Anh/chị có thể chuẩn bị bản tóm tắt điều hành cho ban lãnh đạo không?",
+    "note": "Yêu cầu chuẩn bị tài liệu cho cấp lãnh đạo.",
+    "category": "business"
+  },
+  {
+    "id": 1947,
+    "ru": "Nous avons signé un partenariat avec une entreprise allemande.",
+    "phonetic": "NOU za-VON~ si-NHÉ Ơ~ par-tơ-na-RIA a-VÈK UYN an~-trơ-PRIZ al-MAN~D",
+    "meaning": "Chúng tôi đã ký kết hợp tác với một công ty của Đức.",
+    "note": "Thông báo hợp tác quốc tế mới.",
+    "category": "business"
+  },
+  {
+    "id": 1948,
+    "ru": "Le siège social va être transféré à Lyon l'année prochaine.",
+    "phonetic": "Lơ SIÈJ so-SIAL VA È-TRƠ tran~s-fé-RÉ A li-ON~ la-NÉ pro-SHÈN",
+    "meaning": "Trụ sở công ty sẽ được chuyển đến Lyon vào năm sau.",
+    "note": "Thông báo thay đổi trụ sở công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1949,
+    "ru": "Les actionnaires ont approuvé la nouvelle stratégie à l'unanimité.",
+    "phonetic": "LÉ zak-sio-NÈRH ON~ ta-prou-VÉ LA nou-VÈL stra-té-JI A luy-na-ni-mi-TÉ",
+    "meaning": "Các cổ đông đã nhất trí thông qua chiến lược mới.",
+    "note": "Kết quả cuộc họp cổ đông.",
+    "category": "business"
+  },
+  {
+    "id": 1950,
+    "ru": "Cette fusion pourrait créer des synergies importantes.",
+    "phonetic": "SÈT fuy-ZION~ pou-RÈ kré-É DÉ si-nèr-JI en~-por-TAN~T",
+    "meaning": "Việc sáp nhập này có thể tạo ra những hiệu ứng cộng hưởng quan trọng.",
+    "note": "Nhận định về lợi ích của thương vụ sáp nhập.",
+    "category": "business"
+  },
+  {
+    "id": 1951,
+    "ru": "Je vous envoie l'ordre du jour de la réunion de demain.",
+    "phonetic": "Jơ VOU zan~-VOA lor-DRƠ DUY JOURH dơ LA ré-uy-NION~ dơ dơ-MEN~",
+    "meaning": "Tôi gửi anh/chị chương trình họp của ngày mai.",
+    "note": "Gửi lịch trình cuộc họp qua email.",
+    "category": "business"
+  },
+  {
+    "id": 1952,
+    "ru": "Merci de préparer vos questions avant la réunion.",
+    "phonetic": "Mèr-SI dơ pré-pa-RÉ VO KÈS-TION~ a-VAN~ LA ré-uy-NION~",
+    "meaning": "Vui lòng chuẩn bị câu hỏi trước khi họp.",
+    "note": "Nhắc nhở chuẩn bị trước cuộc họp.",
+    "category": "business"
+  },
+  {
+    "id": 1953,
+    "ru": "Le projet a été validé par le comité de direction.",
+    "phonetic": "Lơ pro-JÈ A é-TÉ va-li-DÉ PAR lơ ko-mi-TÉ dơ di-rèk-SION~",
+    "meaning": "Dự án đã được ban lãnh đạo phê duyệt.",
+    "note": "Thông báo dự án đã được duyệt.",
+    "category": "business"
+  },
+  {
+    "id": 1954,
+    "ru": "Nous manquons de ressources pour terminer ce projet à temps.",
+    "phonetic": "NOU man~-KON~ dơ rơ-SOURS POURH tèr-mi-NÉ sơ pro-JÈ A TAN~",
+    "meaning": "Chúng tôi thiếu nguồn lực để hoàn thành dự án đúng hạn.",
+    "note": "Báo cáo khó khăn về nguồn lực dự án.",
+    "category": "business"
+  },
+  {
+    "id": 1955,
+    "ru": "Cette campagne publicitaire a généré d'excellents résultats.",
+    "phonetic": "SÈT kan~-PA-NHƠ puy-bli-si-TÈRH A jé-né-RÉ dèk-sè-LAN~ ré-zuyl-TA",
+    "meaning": "Chiến dịch quảng cáo này đã mang lại kết quả rất tốt.",
+    "note": "Báo cáo kết quả chiến dịch marketing.",
+    "category": "business"
+  },
+  {
+    "id": 1956,
+    "ru": "Il faut revoir notre positionnement sur ce segment de marché.",
+    "phonetic": "IL FO rơ-VOAR NO-TRƠ po-zi-sion-MAN~ SUYRH sơ sèg-MAN~ dơ mar-SHÉ",
+    "meaning": "Cần xem lại vị trí của chúng ta trên phân khúc thị trường này.",
+    "note": "Đề xuất điều chỉnh chiến lược thị trường.",
+    "category": "business"
+  },
+  {
+    "id": 1957,
+    "ru": "Le taux de satisfaction client a augmenté de quinze pour cent.",
+    "phonetic": "Lơ TO dơ sa-tis-fak-SION~ kli-AN~ A og-man~-TÉ dơ KEN~Z POURH SAN~",
+    "meaning": "Tỷ lệ hài lòng của khách hàng đã tăng mười lăm phần trăm.",
+    "note": "Báo cáo chỉ số hài lòng khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1958,
+    "ru": "Nous devons réduire nos coûts de production.",
+    "phonetic": "NOU dơ-VON~ ré-DUYRH NO KOU dơ pro-duyk-SION~",
+    "meaning": "Chúng ta cần giảm chi phí sản xuất.",
+    "note": "Đề xuất cắt giảm chi phí sản xuất.",
+    "category": "business"
+  },
+  {
+    "id": 1959,
+    "ru": "Cette réunion a duré beaucoup plus longtemps que prévu.",
+    "phonetic": "SÈT ré-uy-NION~ A duy-RÉ bo-KOU PLUY LON~-TAN~ kơ pré-VUY",
+    "meaning": "Cuộc họp này kéo dài lâu hơn nhiều so với dự kiến.",
+    "note": "Nhận xét về thời lượng cuộc họp.",
+    "category": "business"
+  },
+  {
+    "id": 1960,
+    "ru": "Le nouveau logiciel de gestion sera déployé le mois prochain.",
+    "phonetic": "Lơ nou-VO lo-ji-SIÈL dơ jès-TION~ sơ-RA dé-ploa-YÉ lơ MOA pro-SHEN~",
+    "meaning": "Phần mềm quản lý mới sẽ được triển khai vào tháng tới.",
+    "note": "Thông báo triển khai hệ thống phần mềm mới.",
+    "category": "business"
+  },
+  {
+    "id": 1961,
+    "ru": "Pouvez-vous relire ce document avant l'envoi au client ?",
+    "phonetic": "Pou-VÉ-VOU rơ-LIRH sơ do-kuy-MAN~ a-VAN~ lan~-VOA O kli-AN~",
+    "meaning": "Anh/chị có thể xem lại tài liệu này trước khi gửi cho khách hàng không?",
+    "note": "Yêu cầu kiểm tra lại tài liệu trước khi gửi.",
+    "category": "business"
+  },
+  {
+    "id": 1962,
+    "ru": "J'ai une réunion importante avec un client étranger cet après-midi.",
+    "phonetic": "JÉ UYN ré-uy-NION~ en~-por-TAN~T a-VÈK Ơ~ kli-AN~ é-tran~-JÉ SÈT a-PRÈ-mi-DI",
+    "meaning": "Chiều nay tôi có cuộc họp quan trọng với một khách hàng nước ngoài.",
+    "note": "Thông báo lịch trình họp với đối tác nước ngoài.",
+    "category": "business"
+  },
+  {
+    "id": 1963,
+    "ru": "Le vol pour mon déplacement professionnel décolle à sept heures.",
+    "phonetic": "Lơ VOL POURH MON~ dé-plas-MAN~ pro-fè-sio-NÈL dé-KOL A SÈT ƠRH",
+    "meaning": "Chuyến bay công tác của tôi cất cánh lúc bảy giờ.",
+    "note": "Thông tin lịch trình chuyến công tác.",
+    "category": "business"
+  },
+  {
+    "id": 1964,
+    "ru": "L'hôtel est réservé près du centre de conférences.",
+    "phonetic": "Lo-TÈL È ré-zèr-VÉ PRÈ DUY SAN~-TRƠ dơ kon~-fé-RAN~S",
+    "meaning": "Khách sạn đã được đặt gần trung tâm hội nghị.",
+    "note": "Thông tin đặt phòng cho chuyến công tác.",
+    "category": "business"
+  },
+  {
+    "id": 1965,
+    "ru": "Je serai en déplacement toute la semaine prochaine.",
+    "phonetic": "Jơ sơ-RÈ AN~ dé-plas-MAN~ TOUT LA sơ-MÈN pro-SHÈN",
+    "meaning": "Tôi sẽ đi công tác cả tuần tới.",
+    "note": "Thông báo lịch công tác cho đồng nghiệp.",
+    "category": "business"
+  },
+  {
+    "id": 1966,
+    "ru": "Merci de me faire parvenir vos notes de frais avant vendredi.",
+    "phonetic": "Mèr-SI dơ mơ FÈR par-vơ-NIRH VO NOT dơ FRÈ a-VAN~ van~-drơ-DI",
+    "meaning": "Vui lòng gửi cho tôi bảng kê chi phí trước thứ Sáu.",
+    "note": "Yêu cầu nộp báo cáo chi phí công tác.",
+    "category": "business"
+  },
+  {
+    "id": 1967,
+    "ru": "Nos bureaux seront fermés pendant les vacances de fin d'année.",
+    "phonetic": "NO buy-RO sơ-RON~ fèr-MÉ pan~-DAN~ LÉ va-KAN~S dơ FEN~ da-NÉ",
+    "meaning": "Văn phòng chúng tôi sẽ đóng cửa trong kỳ nghỉ cuối năm.",
+    "note": "Thông báo lịch nghỉ lễ của công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1968,
+    "ru": "Le stand de notre entreprise au salon a attiré beaucoup de visiteurs.",
+    "phonetic": "Lơ STAN~D dơ NO-TRƠ an~-trơ-PRIZ O sa-LON~ A a-ti-RÉ bo-KOU dơ vi-zi-TƠRH",
+    "meaning": "Gian hàng của công ty chúng tôi tại triển lãm đã thu hút nhiều khách tham quan.",
+    "note": "Báo cáo kết quả tham gia hội chợ triển lãm.",
+    "category": "business"
+  },
+  {
+    "id": 1969,
+    "ru": "Nous avons besoin d'un consultant externe pour cette mission.",
+    "phonetic": "NOU za-VON~ bơ-ZOIN~ DUN~ kon~-suyl-TAN~ èks-TÈRN POURH SÈT mi-SION~",
+    "meaning": "Chúng tôi cần một chuyên gia tư vấn bên ngoài cho dự án này.",
+    "note": "Đề xuất thuê tư vấn bên ngoài.",
+    "category": "business"
+  },
+  {
+    "id": 1970,
+    "ru": "Le prestataire propose un tarif préférentiel pour un contrat annuel.",
+    "phonetic": "Lơ près-ta-TÈRH pro-POZ Ơ~ ta-RIF pré-fé-ran~-SIÈL POURH Ơ~ kon~-TRA a-nuy-ÈL",
+    "meaning": "Nhà cung cấp dịch vụ đề xuất mức giá ưu đãi cho hợp đồng năm.",
+    "note": "Thông tin về báo giá ưu đãi từ nhà cung cấp.",
+    "category": "business"
+  },
+  {
+    "id": 1971,
+    "ru": "Cette erreur de facturation doit être corrigée rapidement.",
+    "phonetic": "SÈT è-RƠRH dơ fak-tuy-ra-SION~ DOA-TÈ-TRƠ ko-ri-JÉ ra-pid-MAN~",
+    "meaning": "Lỗi hóa đơn này cần được sửa gấp.",
+    "note": "Yêu cầu xử lý lỗi hóa đơn nhanh chóng.",
+    "category": "business"
+  },
+  {
+    "id": 1972,
+    "ru": "Le client demande un remboursement intégral.",
+    "phonetic": "Lơ kli-AN~ dơ-MAN~D Ơ~ ran~-bours-MAN~ en~-té-GRAL",
+    "meaning": "Khách hàng yêu cầu hoàn tiền toàn bộ.",
+    "note": "Thông báo yêu cầu hoàn tiền từ khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1973,
+    "ru": "Notre service après-vente recevra votre réclamation sous peu.",
+    "phonetic": "NO-TRƠ sèr-VIS a-PRÈ-VAN~T rơ-sơ-VRA VO-TRƠ ré-kla-ma-SION~ SOU PƠ",
+    "meaning": "Bộ phận chăm sóc khách hàng sẽ tiếp nhận khiếu nại của anh/chị trong thời gian ngắn.",
+    "note": "Phản hồi khách hàng về việc xử lý khiếu nại.",
+    "category": "business"
+  },
+  {
+    "id": 1974,
+    "ru": "Il faut fixer des objectifs clairs pour la nouvelle équipe.",
+    "phonetic": "IL FO fik-SÉ DÉ zob-jèk-TIF KLÈRH POURH LA nou-VÈL é-KIP",
+    "meaning": "Cần đặt ra mục tiêu rõ ràng cho đội ngũ mới.",
+    "note": "Đề xuất thiết lập mục tiêu công việc cho nhóm mới.",
+    "category": "business"
+  },
+  {
+    "id": 1975,
+    "ru": "La formation des nouveaux employés commence lundi prochain.",
+    "phonetic": "LA for-ma-SION~ DÉ nou-VO zan~-ploa-YÉ ko-MAN~S len~-DI pro-SHEN~",
+    "meaning": "Khóa đào tạo cho nhân viên mới bắt đầu vào thứ Hai tới.",
+    "note": "Thông báo lịch đào tạo nhân viên mới.",
+    "category": "business"
+  },
+  {
+    "id": 1976,
+    "ru": "Nous organisons un séminaire d'intégration pour les stagiaires.",
+    "phonetic": "NOU zor-ga-ni-ZON~ Ơ~ sé-mi-NÈRH den~-té-gra-SION~ POURH LÉ sta-JIÈRH",
+    "meaning": "Chúng tôi tổ chức buổi hội thảo hội nhập cho thực tập sinh.",
+    "note": "Thông báo chương trình đào tạo cho thực tập sinh.",
+    "category": "business"
+  },
+  {
+    "id": 1977,
+    "ru": "Le comité a voté en faveur de l'ouverture d'une nouvelle filiale.",
+    "phonetic": "Lơ ko-mi-TÉ A vo-TÉ AN~ fa-VƠRH dơ lou-vèr-TUYRH DUYN nou-VÈL fi-li-AL",
+    "meaning": "Ủy ban đã bỏ phiếu đồng ý mở một chi nhánh mới.",
+    "note": "Kết quả biểu quyết về việc mở chi nhánh.",
+    "category": "business"
+  },
+  {
+    "id": 1978,
+    "ru": "Nous devons anticiper une baisse de la demande cet hiver.",
+    "phonetic": "NOU dơ-VON~ an~-ti-si-PÉ UYN BÈS dơ LA dơ-MAN~D SÈT ti-VÈRH",
+    "meaning": "Chúng ta cần dự đoán trước sự sụt giảm nhu cầu vào mùa đông này.",
+    "note": "Dự báo kinh doanh theo mùa.",
+    "category": "business"
+  },
+  {
+    "id": 1979,
+    "ru": "Le taux de change défavorable affecte nos marges à l'export.",
+    "phonetic": "Lơ TO dơ SHAN~J dé-fa-vo-RA-BLƠ a-FÈKT NO MARJ A lèks-POR",
+    "meaning": "Tỷ giá bất lợi đang ảnh hưởng đến biên lợi nhuận xuất khẩu của chúng ta.",
+    "note": "Phân tích tác động tỷ giá đến kinh doanh xuất khẩu.",
+    "category": "business"
+  },
+  {
+    "id": 1980,
+    "ru": "L'entretien d'embauche se déroulera en visioconférence.",
+    "phonetic": "Lan~-trơ-TIEN~ dan~-BOSH sơ dé-rou-lơ-RA AN~ vi-zio-kon~-fé-RAN~S",
+    "meaning": "Buổi phỏng vấn tuyển dụng sẽ diễn ra qua hình thức họp trực tuyến.",
+    "note": "Thông báo hình thức phỏng vấn online.",
+    "category": "business"
+  },
+  {
+    "id": 1981,
+    "ru": "Merci de nous transmettre vos disponibilités pour un entretien.",
+    "phonetic": "Mèr-SI dơ NOU tranz-MÈ-TRƠ VO dis-po-ni-bi-li-TÉ POURH Ơ~ nan~-trơ-TIEN~",
+    "meaning": "Vui lòng gửi cho chúng tôi thời gian rảnh của anh/chị để sắp xếp phỏng vấn.",
+    "note": "Yêu cầu ứng viên gửi lịch rảnh phỏng vấn.",
+    "category": "business"
+  },
+  {
+    "id": 1982,
+    "ru": "Le service comptabilité traite les factures sous quinze jours.",
+    "phonetic": "Lơ sèr-VIS kon~-ta-bi-li-TÉ TRÈT LÉ fak-TUYRH SOU KEN~Z JOURH",
+    "meaning": "Bộ phận kế toán xử lý hóa đơn trong vòng mười lăm ngày.",
+    "note": "Thông tin quy trình xử lý hóa đơn nội bộ.",
+    "category": "business"
+  },
+  {
+    "id": 1983,
+    "ru": "Cette réunion vise à clarifier les rôles de chacun dans le projet.",
+    "phonetic": "SÈT ré-uy-NION~ VIZ A kla-ri-fi-É LÉ ROL dơ SHA-KUN~ DAN~ lơ pro-JÈ",
+    "meaning": "Cuộc họp này nhằm làm rõ vai trò của mỗi người trong dự án.",
+    "note": "Mục đích của cuộc họp phân công dự án.",
+    "category": "business"
+  },
+  {
+    "id": 1984,
+    "ru": "Nous avons atteint tous les objectifs fixés pour ce trimestre.",
+    "phonetic": "NOU za-VON~ za-TEN~ TOU LÉ zob-jèk-TIF fik-SÉ POURH sơ tri-MÈS-TRƠ",
+    "meaning": "Chúng tôi đã đạt được tất cả mục tiêu đề ra cho quý này.",
+    "note": "Báo cáo hoàn thành mục tiêu quý.",
+    "category": "business"
+  },
+  {
+    "id": 1985,
+    "ru": "Le rapport doit inclure une analyse détaillée de la concurrence.",
+    "phonetic": "Lơ ra-POR DOA-TEN~-KLUYRH UYN a-na-LIZ dé-ta-YÉ dơ LA kon~-kuy-RAN~S",
+    "meaning": "Báo cáo cần bao gồm phân tích chi tiết về đối thủ cạnh tranh.",
+    "note": "Yêu cầu nội dung cụ thể cho báo cáo.",
+    "category": "business"
+  },
+  {
+    "id": 1986,
+    "ru": "J'aimerais avoir votre retour sur cette proposition avant jeudi.",
+    "phonetic": "Jèm-RÈ a-VOAR VO-TRƠ rơ-TOURH SUYRH SÈT pro-po-zi-SION~ a-VAN~ jơ-DI",
+    "meaning": "Tôi muốn nhận phản hồi của anh/chị về đề xuất này trước thứ Năm.",
+    "note": "Yêu cầu phản hồi về một đề xuất công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1987,
+    "ru": "Le directeur général présentera les résultats annuels demain.",
+    "phonetic": "Lơ di-rèk-TƠRH jé-né-RAL pré-zan~-tơ-RA LÉ ré-zuyl-TA a-nuy-ÈL dơ-MEN~",
+    "meaning": "Tổng giám đốc sẽ trình bày kết quả kinh doanh năm vào ngày mai.",
+    "note": "Thông báo lịch trình họp báo cáo kết quả năm.",
+    "category": "business"
+  },
+  {
+    "id": 1988,
+    "ru": "Cette collaboration entre nos deux services a porté ses fruits.",
+    "phonetic": "SÈT ko-la-bo-ra-SION~ AN~-TRƠ NO DƠ sèr-VIS A por-TÉ SÉ FRUYI",
+    "meaning": "Sự hợp tác giữa hai bộ phận của chúng ta đã mang lại kết quả tốt.",
+    "note": "Nhận xét tích cực về hợp tác liên phòng ban.",
+    "category": "business"
+  },
+  {
+    "id": 1989,
+    "ru": "Le prestataire informatique intervient en cas de panne du serveur.",
+    "phonetic": "Lơ près-ta-TÈRH en~-for-ma-TIK en~-tèr-VIEN~ AN~ KA dơ PAN DUY sèr-VƠRH",
+    "meaning": "Nhà cung cấp dịch vụ IT sẽ can thiệp khi máy chủ gặp sự cố.",
+    "note": "Thông tin về hợp đồng hỗ trợ kỹ thuật.",
+    "category": "business"
+  },
+  {
+    "id": 1990,
+    "ru": "Nous devons signer un accord de confidentialité avant d'échanger ces données.",
+    "phonetic": "NOU dơ-VON~ si-NHÉ Ơ~ na-KOR dơ kon~-fi-dan~-sia-li-TÉ a-VAN~ dé-SHAN~-JÉ SÉ do-NÉ",
+    "meaning": "Chúng ta cần ký thỏa thuận bảo mật trước khi trao đổi dữ liệu này.",
+    "note": "Yêu cầu ký NDA trước khi chia sẻ thông tin.",
+    "category": "business"
+  },
+  {
+    "id": 1991,
+    "ru": "Le poste est basé à Paris avec des déplacements réguliers en région.",
+    "phonetic": "Lơ POST È ba-ZÉ A pa-RI a-VÈK DÉ dé-plas-MAN~ ré-guy-li-É AN~ ré-JION~",
+    "meaning": "Vị trí này làm việc tại Paris với các chuyến công tác thường xuyên đến các tỉnh.",
+    "note": "Mô tả điều kiện công việc trong tin tuyển dụng.",
+    "category": "business"
+  },
+  {
+    "id": 1992,
+    "ru": "Votre lettre de motivation a retenu toute notre attention.",
+    "phonetic": "VO-TRƠ LÈ-TRƠ dơ mo-ti-va-SION~ A rơ-tơ-NUY TOUT NO ta-tan~-SION~",
+    "meaning": "Thư xin việc của anh/chị đã thu hút toàn bộ sự chú ý của chúng tôi.",
+    "note": "Phản hồi tích cực về hồ sơ xin việc.",
+    "category": "business"
+  },
+  {
+    "id": 1993,
+    "ru": "Merci de nous fournir vos références professionnelles.",
+    "phonetic": "Mèr-SI dơ NOU four-NIRH VO ré-fé-RAN~S pro-fè-sio-NÈL",
+    "meaning": "Vui lòng cung cấp cho chúng tôi thông tin người tham chiếu chuyên môn.",
+    "note": "Yêu cầu ứng viên cung cấp thông tin tham chiếu.",
+    "category": "business"
+  },
+  {
+    "id": 1994,
+    "ru": "Le processus de recrutement comprend trois entretiens successifs.",
+    "phonetic": "Lơ pro-sè-SUYS dơ rơ-kruyt-MAN~ kon~-PRAN~ TROA zan~-trơ-TIEN~ suyk-sè-SIF",
+    "meaning": "Quy trình tuyển dụng gồm ba vòng phỏng vấn liên tiếp.",
+    "note": "Giải thích quy trình tuyển dụng cho ứng viên.",
+    "category": "business"
+  },
+  {
+    "id": 1995,
+    "ru": "Notre bilan financier sera présenté lors de l'assemblée générale.",
+    "phonetic": "NO-TRƠ bi-LAN~ fi-nan~-SIÉ sơ-RA pré-zan~-TÉ LOR dơ la-san~-BLÉ jé-né-RAL",
+    "meaning": "Báo cáo tài chính sẽ được trình bày tại đại hội cổ đông.",
+    "note": "Thông báo lịch trình báo cáo tài chính.",
+    "category": "business"
+  },
+  {
+    "id": 1996,
+    "ru": "L'équipe marketing propose de repenser entièrement notre image de marque.",
+    "phonetic": "Lé-KIP mar-kơ-TING pro-POZ dơ rơ-pan~-SÉ an~-tiÈRH-MAN~ NO-TRƠ i-MAJ dơ MARK",
+    "meaning": "Đội marketing đề xuất tái thiết kế toàn bộ hình ảnh thương hiệu.",
+    "note": "Đề xuất chiến lược thương hiệu mới.",
+    "category": "business"
+  },
+  {
+    "id": 1997,
+    "ru": "Nous devons anticiper les risques avant de signer ce contrat.",
+    "phonetic": "NOU dơ-VON~ an~-ti-si-PÉ LÉ RISK a-VAN~ dơ si-NHÉ sơ kon~-TRA",
+    "meaning": "Chúng ta cần lường trước rủi ro trước khi ký hợp đồng này.",
+    "note": "Nhắc nhở đánh giá rủi ro hợp đồng.",
+    "category": "business"
+  },
+  {
+    "id": 1998,
+    "ru": "Le client souhaite renégocier le prix à la baisse.",
+    "phonetic": "Lơ kli-AN~ soua-IT rơ-né-go-SIÉ lơ PRI A LA BÈS",
+    "meaning": "Khách hàng muốn thương lượng giảm giá.",
+    "note": "Thông báo khách hàng yêu cầu giảm giá.",
+    "category": "business"
+  },
+  {
+    "id": 1999,
+    "ru": "Notre chiffre d'affaires annuel a doublé en trois ans.",
+    "phonetic": "NO-TRƠ SHI-FRƠ da-FÈRH a-nuy-ÈL A dou-BLÉ AN~ TROA ZAN~",
+    "meaning": "Doanh thu hằng năm của chúng tôi đã tăng gấp đôi trong ba năm.",
+    "note": "Báo cáo tăng trưởng doanh thu công ty.",
+    "category": "business"
+  },
+  {
+    "id": 2000,
+    "ru": "Je vous remercie pour cette opportunité et j'accepte le poste avec plaisir.",
+    "phonetic": "Jơ VOU rơ-mèr-SI POURH SÈT o-por-tuy-ni-TÉ É JAK-SÈPT lơ POST a-VÈK plè-ZIRH",
+    "meaning": "Tôi xin cảm ơn cơ hội này và vui vẻ nhận lời mời vào vị trí này.",
+    "note": "Câu trả lời chấp nhận lời mời làm việc.",
+    "category": "business"
+  }
+]

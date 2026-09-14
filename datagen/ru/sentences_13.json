@@ -1,0 +1,1922 @@
+[
+  {
+    "id": 2261,
+    "ru": "Краеугольный камень",
+    "phonetic": "kra-ye-u-GOL'-ny KA-myen'",
+    "meaning": "nền tảng cốt lõi, điều căn bản nhất",
+    "note": "Từ Kinh Thánh, nghĩa đen \"hòn đá góc\", dùng trang trọng trong văn viết, báo chí, diễn văn để chỉ nền tảng quan trọng nhất của vấn đề.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2262,
+    "ru": "Яблоко раздора",
+    "phonetic": "YAB-la-ka raz-DO-ra",
+    "meaning": "nguyên nhân gây bất hòa, tranh chấp",
+    "note": "Xuất phát từ thần thoại Hy Lạp (quả táo bất hòa), thường dùng trong báo chí khi nói về nguyên nhân gây tranh cãi giữa các bên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2263,
+    "ru": "Ахиллесова пята",
+    "phonetic": "a-khil-LYE-sa-va pya-TA",
+    "meaning": "gót chân Asin, điểm yếu chí mạng",
+    "note": "Xuất phát từ thần thoại Hy Lạp, chỉ điểm yếu duy nhất nhưng chí mạng của một người hay hệ thống. Phổ biến trong văn phong trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2264,
+    "ru": "Пиррова победа",
+    "phonetic": "PIR-ra-va pa-BYE-da",
+    "meaning": "chiến thắng kiểu Pyrros, thắng nhưng thiệt hại quá lớn",
+    "note": "Gốc từ vua Pyrros của Hy Lạp cổ, dùng khi thắng lợi phải trả giá quá đắt, gần như vô nghĩa. Hay gặp trong bình luận chính trị, thể thao.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2265,
+    "ru": "Сизифов труд",
+    "phonetic": "si-ZI-faf trut",
+    "meaning": "công việc vô ích, làm mãi không xong",
+    "note": "Từ thần thoại Sisyphos đẩy đá lên núi mãi mãi, chỉ công việc lặp đi lặp lại vô nghĩa, không có kết quả.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2266,
+    "ru": "Дамоклов меч",
+    "phonetic": "da-MOK-laf myech",
+    "meaning": "mối nguy hiểm luôn treo lơ lửng",
+    "note": "Từ truyền thuyết thanh gươm Damocles, chỉ hiểm họa có thể ập đến bất cứ lúc nào, dùng trang trọng trong văn viết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2267,
+    "ru": "Авгиевы конюшни",
+    "phonetic": "av-GI-ye-vy ka-NYUSH-ni",
+    "meaning": "mớ hỗn độn khổng lồ cần dọn dẹp",
+    "note": "Từ thần thoại Hy Lạp về chuồng ngựa vua Augias, chỉ tình trạng lộn xộn, tham nhũng nghiêm trọng cần cải tổ. Hay dùng trong báo chí chính trị.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2268,
+    "ru": "Гордиев узел",
+    "phonetic": "GOR-di-yef U-zyel",
+    "meaning": "nút thắt Gordi, vấn đề nan giải",
+    "note": "Từ truyền thuyết Alexander Đại đế chém đứt nút thắt, chỉ vấn đề phức tạp cần giải pháp táo bạo, dứt khoát.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2269,
+    "ru": "Ящик Пандоры",
+    "phonetic": "YA-shchik pan-DO-ry",
+    "meaning": "hộp Pandora, nguồn gốc mọi tai họa",
+    "note": "Từ thần thoại Hy Lạp, chỉ hành động mở ra nguồn gốc của hàng loạt rắc rối không lường trước.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2270,
+    "ru": "Камень преткновения",
+    "phonetic": "KA-myen' pryet-kna-VYE-ni-ya",
+    "meaning": "hòn đá cản đường, vật cản chính",
+    "note": "Nguồn gốc Kinh Thánh, chỉ trở ngại chính khiến công việc không tiến triển được. Dùng trong văn phong trang trọng, báo chí.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2271,
+    "ru": "Пальма первенства",
+    "phonetic": "PAL'-ma PYER-vyen-stva",
+    "meaning": "vị trí dẫn đầu, ngôi vương",
+    "note": "Nghĩa đen \"cành cọ quán quân\" (giải thưởng thời cổ đại), dùng khi nói ai/cái gì dẫn đầu trong một lĩnh vực.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2272,
+    "ru": "Кануть в Лету",
+    "phonetic": "KA-nut' v LYE-tu",
+    "meaning": "chìm vào quên lãng",
+    "note": "Lete là dòng sông quên lãng trong thần thoại Hy Lạp, dùng khi nói điều gì đó bị lãng quên hoàn toàn, thường trong văn viết trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2273,
+    "ru": "Притча во языцех",
+    "phonetic": "PRIT-cha va ya-ZY-tsekh",
+    "meaning": "chuyện cửa miệng, ai cũng bàn tán",
+    "note": "Thành ngữ cổ gốc Slavơ nhà thờ, chỉ chuyện được mọi người bàn tán, đàm tiếu khắp nơi. Mang sắc thái hơi mỉa mai, châm biếm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2274,
+    "ru": "Оставлять желать лучшего",
+    "phonetic": "as-tav-LYAT' zhe-LAT' LU-chshe-va",
+    "meaning": "còn nhiều điều chưa đạt yêu cầu",
+    "note": "Cách nói lịch sự, trang trọng để chê một cách nhẹ nhàng, thường dùng trong báo chí, đánh giá.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2275,
+    "ru": "Бросать тень",
+    "phonetic": "bra-SAT' tyen'",
+    "meaning": "gây nghi ngờ, làm ảnh hưởng xấu đến uy tín",
+    "note": "Thường dùng \"бросать тень на кого-то\" nghĩa là làm mất uy tín, gieo nghi ngờ về ai đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2276,
+    "ru": "Ставить точки над i",
+    "phonetic": "STA-vit' TOCH-ki nad i",
+    "meaning": "làm rõ ràng, dứt điểm mọi mơ hồ",
+    "note": "Vay mượn từ tiếng Pháp/tiếng Anh, dùng khi muốn nói rõ ràng, minh bạch hóa vấn đề đến cùng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2277,
+    "ru": "Подводить черту",
+    "phonetic": "pad-va-DIT' chyer-TU",
+    "meaning": "tổng kết, khép lại một giai đoạn",
+    "note": "Dùng khi kết thúc, tổng kết một vấn đề hay giai đoạn, thường trong diễn văn, báo cáo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2278,
+    "ru": "Вносить свою лепту",
+    "phonetic": "vna-SIT' sva-YU LYEP-tu",
+    "meaning": "đóng góp phần nhỏ nhưng ý nghĩa của mình",
+    "note": "Gốc Kinh Thánh (đồng xu của bà góa nghèo), dùng khi nói về đóng góp dù nhỏ nhưng chân thành.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2279,
+    "ru": "Играть на руку",
+    "phonetic": "ig-RAT' na RU-ku",
+    "meaning": "vô tình có lợi cho đối phương",
+    "note": "Dùng khi hành động của ai đó (dù không cố ý) lại mang lại lợi ích cho phía đối lập.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2280,
+    "ru": "Открывать новую страницу",
+    "phonetic": "at-kry-VAT' NO-vu-yu stra-NI-tsu",
+    "meaning": "mở ra chương mới, giai đoạn mới",
+    "note": "Ẩn dụ văn học, dùng trong diễn văn khi nói về khởi đầu mới trong quan hệ, sự nghiệp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2281,
+    "ru": "Почивать на лаврах",
+    "phonetic": "pa-chi-VAT' na LAV-rakh",
+    "meaning": "ngủ quên trên chiến thắng",
+    "note": "Nghĩa đen \"nằm nghỉ trên vòng nguyệt quế\", phê phán người tự mãn với thành công cũ mà không cố gắng tiếp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2282,
+    "ru": "Плыть по течению",
+    "phonetic": "plyt' pa tye-CHE-ni-yu",
+    "meaning": "sống buông xuôi, không có chủ kiến",
+    "note": "Chỉ người sống thụ động, để cuộc đời trôi theo hoàn cảnh mà không tự quyết định.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2283,
+    "ru": "Сжигать мосты",
+    "phonetic": "szhi-GAT' mas-TY",
+    "meaning": "đốt cháy cầu, cắt đứt đường lui",
+    "note": "Dùng khi ai đó dứt khoát từ bỏ khả năng quay lại, chấp nhận rủi ro không đường lui.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2284,
+    "ru": "Подливать масла в огонь",
+    "phonetic": "pad-li-VAT' MAS-la v a-GON'",
+    "meaning": "đổ thêm dầu vào lửa, làm tình hình căng thẳng hơn",
+    "note": "Dùng khi ai đó khiến mâu thuẫn, xung đột trở nên gay gắt hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2285,
+    "ru": "Терра инкогнита",
+    "phonetic": "TE-ra in-KOG-ni-ta",
+    "meaning": "vùng đất chưa được khám phá, lĩnh vực hoàn toàn mới lạ",
+    "note": "Thuật ngữ Latin dùng trong tiếng Nga trang trọng, chỉ lĩnh vực/chủ đề hoàn toàn chưa được biết đến.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2286,
+    "ru": "Найти точки соприкосновения",
+    "phonetic": "nay-TI TOCH-ki sa-pri-kas-na-VYE-ni-ya",
+    "meaning": "tìm được điểm chung, tiếng nói chung",
+    "note": "Thường dùng trong đàm phán, ngoại giao khi các bên tìm ra điểm tương đồng để hợp tác.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2287,
+    "ru": "Идти на поводу",
+    "phonetic": "it-TI na pa-va-DU",
+    "meaning": "bị dắt mũi, chiều theo ý người khác một cách thụ động",
+    "note": "Mang sắc thái phê phán, chỉ người thiếu chính kiến, dễ bị người khác chi phối.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2288,
+    "ru": "Оказаться на обочине",
+    "phonetic": "a-ka-ZAT'-sya na a-BO-chi-nye",
+    "meaning": "bị bỏ lại bên lề, tụt hậu",
+    "note": "Ẩn dụ \"bên lề đường\", dùng khi ai đó/cái gì bị tụt lại phía sau trong cuộc đua, tiến trình phát triển.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2289,
+    "ru": "Грызть гранит науки",
+    "phonetic": "gryzt' gra-NIT na-U-ki",
+    "meaning": "cày cuốc học hành chăm chỉ, học rất vất vả",
+    "note": "Nghĩa đen \"gặm đá granite của khoa học\", diễn tả việc học tập gian khổ, kiên trì. Rất phổ biến khi nói về sinh viên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2290,
+    "ru": "Знать назубок",
+    "phonetic": "znat' na-zu-BOK",
+    "meaning": "thuộc lòng làu làu",
+    "note": "Dùng khi ai đó nắm vững kiến thức đến mức có thể trả lời ngay không cần suy nghĩ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2291,
+    "ru": "Ни в зуб ногой",
+    "phonetic": "ni v zub na-GOY",
+    "meaning": "không biết gì cả, mù tịt",
+    "note": "Thành ngữ suồng sã, dùng khi hoàn toàn không hiểu hay không biết gì về một môn học/chủ đề.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2292,
+    "ru": "Учить матчасть",
+    "phonetic": "u-CHIT' mat-CHAST'",
+    "meaning": "học kỹ kiến thức nền tảng, nắm chắc cơ bản",
+    "note": "Gốc từ thuật ngữ quân sự \"vật chất kỹ thuật\", nay dùng phổ biến trong đời sống, học tập với nghĩa \"học kỹ lý thuyết cơ bản trước khi làm việc\".",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2293,
+    "ru": "Экзамен на носу",
+    "phonetic": "ek-ZA-myen na na-SU",
+    "meaning": "kỳ thi cận kề, sắp đến nơi rồi",
+    "note": "Nghĩa đen \"kỳ thi ở ngay trên mũi\", diễn tả deadline/kỳ thi đã rất gần.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2294,
+    "ru": "Забить на учёбу",
+    "phonetic": "za-BIT' na u-CHO-bu",
+    "meaning": "bỏ bê việc học, phó mặc chuyện học hành",
+    "note": "Khẩu ngữ giới trẻ, dùng khi ai đó không còn quan tâm đến việc học nữa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2295,
+    "ru": "Плестись в хвосте",
+    "phonetic": "plyes-TIS' v khvas-TYE",
+    "meaning": "tụt lại phía sau, học kém nhất lớp",
+    "note": "Nghĩa đen \"lê bước ở đuôi\", dùng khi ai đó có thành tích thấp nhất trong nhóm/lớp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2296,
+    "ru": "Сдать хвосты",
+    "phonetic": "sdat' khvas-TY",
+    "meaning": "trả nợ môn, hoàn thành các bài thi/bài tập còn nợ",
+    "note": "Tiếng lóng sinh viên, \"хвосты\" (đuôi) chỉ các môn/bài thi chưa hoàn thành cần trả nợ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2297,
+    "ru": "Получить автомат",
+    "phonetic": "pa-lu-CHIT' af-ta-MAT",
+    "meaning": "được miễn thi nhờ học tốt cả kỳ",
+    "note": "Tiếng lóng sinh viên Nga, chỉ việc được giáo viên cho điểm/miễn thi tự động vì đã học chăm chỉ suốt kỳ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2298,
+    "ru": "Вылететь из института",
+    "phonetic": "VY-lye-tyet' iz in-sti-TU-ta",
+    "meaning": "bị đuổi học, out khỏi trường đại học",
+    "note": "Khẩu ngữ, dùng khi sinh viên bị buộc thôi học vì kết quả kém hoặc vi phạm kỷ luật.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2299,
+    "ru": "Мотать на ус",
+    "phonetic": "ma-TAT' na us",
+    "meaning": "ghi nhớ kỹ, khắc cốt ghi tâm lời khuyên",
+    "note": "Nghĩa đen \"cuộn vào ria mép\", dùng khi khuyên ai đó nên nhớ kỹ một bài học hay lời khuyên nào đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2300,
+    "ru": "Изобретать велосипед",
+    "phonetic": "i-za-brye-TAT' vye-la-si-PYET",
+    "meaning": "phát minh lại cái đã có sẵn, mất công vô ích",
+    "note": "Phê phán việc cố nghĩ ra giải pháp cho vấn đề đã có sẵn cách giải quyết đơn giản, phổ biến trong học thuật lẫn công việc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2301,
+    "ru": "Открывать Америку",
+    "phonetic": "at-kry-VAT' a-MYE-ri-ku",
+    "meaning": "nói/nghĩ ra điều ai cũng đã biết, làm như phát hiện lớn",
+    "note": "Thường dùng châm biếm khi ai đó trình bày một điều hiển nhiên như thể là phát hiện mới.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2302,
+    "ru": "Зубрить как попугай",
+    "phonetic": "zub-RIT' kak pa-pu-GAY",
+    "meaning": "học vẹt, học thuộc lòng mà không hiểu",
+    "note": "So sánh việc học thuộc lòng máy móc với con vẹt lặp lại âm thanh mà không hiểu nghĩa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2303,
+    "ru": "Плавать по предмету",
+    "phonetic": "PLA-vat' pa pryed-MYE-tu",
+    "meaning": "nắm kiến thức lơ mơ, không chắc về môn học",
+    "note": "Dùng khi trả lời ấp úng, không vững kiến thức khi bị hỏi thi hay kiểm tra.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2304,
+    "ru": "Ходить в отличниках",
+    "phonetic": "kha-DIT' v at-LICH-ni-kakh",
+    "meaning": "luôn là học sinh giỏi, top đầu lớp",
+    "note": "Diễn tả việc duy trì thành tích học tập xuất sắc trong thời gian dài.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2305,
+    "ru": "Сесть за парту",
+    "phonetic": "syest' za PAR-tu",
+    "meaning": "quay lại việc học, ngồi vào bàn học",
+    "note": "Nghĩa đen \"ngồi vào bàn học sinh\", dùng khi ai đó (kể cả người lớn) bắt đầu/quay lại học tập.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2306,
+    "ru": "Получить неуд",
+    "phonetic": "pa-lu-CHIT' NYE-ud",
+    "meaning": "bị điểm kém, trượt bài kiểm tra",
+    "note": "\"Неуд\" là viết tắt của \"неудовлетворительно\" (không đạt), tiếng lóng học đường rất phổ biến.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2307,
+    "ru": "Провалить сессию",
+    "phonetic": "pra-va-LIT' SYE-si-yu",
+    "meaning": "trượt kỳ thi hết học kỳ",
+    "note": "\"Сессия\" là kỳ thi tổng kết học kỳ ở đại học Nga, cụm này rất quen thuộc với sinh viên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2308,
+    "ru": "Идти на пересдачу",
+    "phonetic": "it-TI na pye-rye-SDA-chu",
+    "meaning": "đi thi lại",
+    "note": "Dùng khi sinh viên phải thi lại môn đã trượt, cực kỳ phổ biến trong đời sống sinh viên Nga.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2309,
+    "ru": "Учиться на отлично",
+    "phonetic": "u-CHIT'-sya na at-LICH-na",
+    "meaning": "học giỏi xuất sắc, toàn điểm 5",
+    "note": "Cách nói phổ biến khi khen ai đó có thành tích học tập xuất sắc trong hệ thống điểm 5 của Nga.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2310,
+    "ru": "Быть на хорошем счету",
+    "phonetic": "byt' na kha-RO-shem shcho-TU",
+    "meaning": "được thầy cô/cấp trên đánh giá tốt",
+    "note": "Dùng cả trong môi trường học đường lẫn công sở, chỉ việc có uy tín, được tin tưởng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2311,
+    "ru": "Домашка на завтра",
+    "phonetic": "da-MASH-ka na ZAF-tra",
+    "meaning": "bài tập về nhà cho ngày mai",
+    "note": "\"Домашка\" là cách gọi thân mật, viết tắt của \"домашнее задание\" (bài tập về nhà), học sinh Nga dùng hàng ngày.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2312,
+    "ru": "Выезжать на шпаргалках",
+    "phonetic": "vy-yez-ZHAT' na shpar-GAL-kakh",
+    "meaning": "qua môn nhờ phao thi, sống nhờ tài liệu gian lận",
+    "note": "Khẩu ngữ sinh viên, nghĩa là vượt qua kỳ thi chủ yếu dựa vào phao thi (tài liệu gian lận) thay vì kiến thức thực sự.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2313,
+    "ru": "В мгновение ока",
+    "phonetic": "v mgna-VYE-ni-ye O-ka",
+    "meaning": "trong nháy mắt, cực nhanh",
+    "note": "Thành ngữ cổ, gốc Kinh Thánh, dùng trang trọng lẫn thường ngày khi diễn tả tốc độ cực nhanh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2314,
+    "ru": "Время не ждёт",
+    "phonetic": "VRYE-mya nye zhdyot",
+    "meaning": "thời gian không chờ đợi ai, phải khẩn trương",
+    "note": "Câu nhắc nhở phổ biến khi cần thúc giục ai đó hành động nhanh, đừng trì hoãn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2315,
+    "ru": "На носу",
+    "phonetic": "na na-SU",
+    "meaning": "sắp đến nơi, cận kề",
+    "note": "Nghĩa đen \"trên mũi\", dùng cho sự kiện/deadline sắp xảy ra rất gần, ví dụ \"Новый год на носу\" (Tết sắp đến).",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2316,
+    "ru": "В последний момент",
+    "phonetic": "v pas-LYED-ni ma-MYENT",
+    "meaning": "vào phút chót",
+    "note": "Diễn tả việc làm gì đó sát nút, ngay trước hạn chót, rất phổ biến trong giao tiếp hàng ngày.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2317,
+    "ru": "Тянуть время",
+    "phonetic": "tya-NUT' VRYE-mya",
+    "meaning": "câu giờ, trì hoãn cố ý",
+    "note": "Dùng khi ai đó cố tình kéo dài thời gian để trì hoãn quyết định hay hành động nào đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2318,
+    "ru": "Со дня на день",
+    "phonetic": "sa dnya na dyen'",
+    "meaning": "nay mai, trong vài ngày tới",
+    "note": "Dùng khi một sự kiện dự kiến sẽ xảy ra rất sớm, trong một hai ngày tới.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2319,
+    "ru": "Час пик",
+    "phonetic": "chas pik",
+    "meaning": "giờ cao điểm",
+    "note": "Cụm từ thông dụng chỉ giờ cao điểm giao thông hoặc giờ đông khách, dùng hàng ngày.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2320,
+    "ru": "На скорую руку",
+    "phonetic": "na SKO-ru-yu RU-ku",
+    "meaning": "làm vội vàng, qua loa cho nhanh",
+    "note": "Diễn tả việc làm gì đó nhanh chóng, không cầu kỳ, thường dùng khi nấu ăn hoặc làm việc gấp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2321,
+    "ru": "Время лечит",
+    "phonetic": "VRYE-mya LYE-chit",
+    "meaning": "thời gian chữa lành mọi vết thương",
+    "note": "Câu an ủi phổ biến khi ai đó đang đau buồn, ý nói rồi mọi chuyện sẽ nguôi ngoai theo thời gian.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2322,
+    "ru": "Раз и навсегда",
+    "phonetic": "raz i naf-syeg-DA",
+    "meaning": "một lần cho mãi mãi, dứt điểm luôn",
+    "note": "Dùng khi muốn giải quyết vấn đề triệt để, không để lặp lại về sau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2323,
+    "ru": "До поры до времени",
+    "phonetic": "da pa-RY da VRYE-mye-ni",
+    "meaning": "tạm thời, cho đến khi có biến",
+    "note": "Diễn tả trạng thái tạm ổn nhưng có thể thay đổi bất cứ lúc nào trong tương lai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2324,
+    "ru": "Не за горами",
+    "phonetic": "nye za ga-RA-mi",
+    "meaning": "không còn xa nữa, sắp tới rồi",
+    "note": "Nghĩa đen \"không sau những ngọn núi\", dùng khi một sự kiện tương lai đã gần kề.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2325,
+    "ru": "В два счёта",
+    "phonetic": "v dva SHCHO-ta",
+    "meaning": "trong chớp mắt, rất nhanh gọn",
+    "note": "Nghĩa đen \"trong hai lần đếm\", dùng khi việc gì đó được hoàn thành cực nhanh, dễ dàng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2326,
+    "ru": "Тютелька в тютельку",
+    "phonetic": "TYU-tyel'-ka v TYU-tyel'-ku",
+    "meaning": "chính xác từng ly từng tí, đúng giờ tuyệt đối",
+    "note": "Khẩu ngữ vui, dùng khi mọi thứ khớp chính xác, đặc biệt về thời gian hay số đo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2327,
+    "ru": "Как штык",
+    "phonetic": "kak shtyk",
+    "meaning": "đúng giờ tuyệt đối, không sai một phút",
+    "note": "Nghĩa đen \"như lưỡi lê\", gốc quân đội, dùng để nhấn mạnh sự đúng giờ, chính xác tuyệt đối.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2328,
+    "ru": "Всему своё время",
+    "phonetic": "fsye-MU sva-YO VRYE-mya",
+    "meaning": "cái gì cũng có thời điểm của nó",
+    "note": "Câu triết lý dân gian khuyên nên kiên nhẫn, mọi việc sẽ đến đúng lúc của nó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2329,
+    "ru": "Лучше рано, чем поздно",
+    "phonetic": "LU-chshe RA-na chyem POZ-na",
+    "meaning": "thà sớm còn hơn muộn",
+    "note": "Câu khuyên phổ biến khuyến khích hành động sớm thay vì chần chừ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2330,
+    "ru": "Битый час",
+    "phonetic": "BI-ty chas",
+    "meaning": "cả tiếng đồng hồ ròng rã (mà không có kết quả)",
+    "note": "Nghĩa đen \"giờ bị đánh\", ý nói mất cả tiếng đồng hồ làm việc gì đó, thường là vô ích hoặc mệt mỏi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2331,
+    "ru": "Минута в минуту",
+    "phonetic": "mi-NU-ta v mi-NU-tu",
+    "meaning": "đúng từng phút, chính xác tuyệt đối về giờ giấc",
+    "note": "Dùng khi ai đó đến hoặc hoàn thành việc gì đúng chính xác thời điểm đã hẹn, không sai một phút.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2332,
+    "ru": "На всех парах",
+    "phonetic": "na fsyekh pa-RAKH",
+    "meaning": "hết tốc lực, nhanh chóng mặt",
+    "note": "Nghĩa đen \"bằng toàn bộ hơi nước\" (từ tàu hỏa hơi nước), dùng khi làm gì đó với tốc độ tối đa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2333,
+    "ru": "Сломя голову",
+    "phonetic": "sla-MYA GO-la-vu",
+    "meaning": "lao đi bất chấp, chạy cắm đầu cắm cổ",
+    "note": "Nghĩa đen \"gãy cả đầu\", diễn tả việc chạy/lao đi cực nhanh mà không màng nguy hiểm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2334,
+    "ru": "Не успеть глазом моргнуть",
+    "phonetic": "nye us-PYET' GLA-zam marg-NUT'",
+    "meaning": "chưa kịp chớp mắt đã xong/đã xảy ra",
+    "note": "Dùng khi sự việc diễn ra quá nhanh, chưa kịp phản ứng thì mọi thứ đã kết thúc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2335,
+    "ru": "Время истекает",
+    "phonetic": "VRYE-mya is-tye-KA-yet",
+    "meaning": "thời gian sắp hết, sắp hết hạn",
+    "note": "Cách nói trang trọng, dùng khi deadline hay thời hạn sắp kết thúc, cần khẩn trương.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2336,
+    "ru": "Тянуть до последнего",
+    "phonetic": "tya-NUT' da pas-LYED-nye-va",
+    "meaning": "trì hoãn đến phút chót mới làm",
+    "note": "Phê phán thói quen để mọi việc đến sát deadline mới bắt tay vào làm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2337,
+    "ru": "Семимильными шагами",
+    "phonetic": "sye-mi-MIL'-ny-mi sha-GA-mi",
+    "meaning": "tiến những bước thần tốc, phát triển rất nhanh",
+    "note": "Nghĩa đen \"những bước chân bảy dặm\" (từ truyện cổ tích ủng bảy dặm), dùng khi tiến bộ/phát triển cực nhanh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2338,
+    "ru": "Испокон веков",
+    "phonetic": "is-pa-KON vye-KOF",
+    "meaning": "từ thuở xa xưa, từ bao đời nay",
+    "note": "Cách nói trang trọng, thường dùng trong văn viết khi nói về truyền thống, phong tục có từ rất lâu đời.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2339,
+    "ru": "С лихвой",
+    "phonetic": "s likh-VOY",
+    "meaning": "dư dả, thừa mứa (nhiều hơn mức cần)",
+    "note": "Dùng khi số lượng/kết quả vượt quá mong đợi, dư ra so với yêu cầu ban đầu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2340,
+    "ru": "Кот наплакал",
+    "phonetic": "kot na-PLA-kal",
+    "meaning": "ít ỏi, chẳng đáng là bao",
+    "note": "Nghĩa đen \"mèo khóc ra bấy nhiêu\", dùng khi số lượng gì đó quá ít ỏi, không đáng kể.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2341,
+    "ru": "С гулькин нос",
+    "phonetic": "s GUL'-kin nos",
+    "meaning": "bé tí tẹo, ít xíu",
+    "note": "\"Гулькин\" là biến âm của \"голубь\" (chim bồ câu), nghĩa đen \"bé như mũi chim bồ câu\", diễn tả số lượng cực nhỏ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2342,
+    "ru": "Хоть отбавляй",
+    "phonetic": "khot' at-bav-LYAY",
+    "meaning": "nhiều vô kể, thừa thãi",
+    "note": "Dùng sau tính từ/danh từ để nhấn mạnh số lượng dư thừa, ví dụ \"проблем хоть отбавляй\" (vấn đề nhiều vô kể).",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2343,
+    "ru": "Через край",
+    "phonetic": "CHYE-ryez kray",
+    "meaning": "tràn ra ngoài, quá mức",
+    "note": "Nghĩa đen \"qua cả miệng cốc\", dùng khi cảm xúc hay số lượng vượt quá giới hạn thông thường.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2344,
+    "ru": "С три короба",
+    "phonetic": "s tri ka-RO-ba",
+    "meaning": "nói quá nhiều, ba hoa (thường là nói dối)",
+    "note": "Nghĩa đen \"bằng ba cái giỏ\", thường đi với động từ \"наговорить/наобещать\" nghĩa là nói/hứa quá nhiều điều không thực tế.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2345,
+    "ru": "До отвала",
+    "phonetic": "da at-VA-la",
+    "meaning": "ăn no căng bụng, no đến mức không ăn nổi nữa",
+    "note": "Thường dùng với động từ \"наесться\" (ăn no), diễn tả ăn uống thỏa thích, no nê.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2346,
+    "ru": "Выше крыши",
+    "phonetic": "VY-she KRY-shi",
+    "meaning": "nhiều vô kể, quá tải",
+    "note": "Nghĩa đen \"cao hơn mái nhà\", dùng khi công việc hay vấn đề nhiều đến mức quá tải.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2347,
+    "ru": "На всю катушку",
+    "phonetic": "na fsyu ka-TUSH-ku",
+    "meaning": "hết cỡ, tận lực, không giữ lại gì",
+    "note": "Nghĩa đen liên quan đến cuộn dây tời, dùng khi làm gì đó hết mình, tối đa công suất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2348,
+    "ru": "По полной программе",
+    "phonetic": "pa POL-nay pra-GRA-mye",
+    "meaning": "làm tới bến, đầy đủ hết cỡ",
+    "note": "Khẩu ngữ hiện đại, dùng khi làm gì đó trọn vẹn, không nửa vời, đôi khi mang nghĩa \"bị xử lý tới nơi tới chốn\".",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2349,
+    "ru": "Битком набито",
+    "phonetic": "bit-KOM na-BI-ta",
+    "meaning": "chật cứng, đông nghẹt",
+    "note": "Dùng khi mô tả một không gian (xe buýt, phòng) đầy chật người hoặc đồ vật.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2350,
+    "ru": "Раз-два и обчёлся",
+    "phonetic": "raz dva i ap-CHOL-sya",
+    "meaning": "đếm trên đầu ngón tay, rất ít",
+    "note": "Diễn tả số lượng ít đến mức đếm được ngay, thường dùng cho người hoặc vật hiếm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2351,
+    "ru": "Всего понемножку",
+    "phonetic": "fsye-VO pa-nye-MNOSH-ku",
+    "meaning": "mỗi thứ một ít, đủ loại",
+    "note": "Dùng khi có một chút của nhiều loại khác nhau, không tập trung vào một thứ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2352,
+    "ru": "В самый раз",
+    "phonetic": "v SA-my raz",
+    "meaning": "vừa vặn, vừa đủ, chuẩn không cần chỉnh",
+    "note": "Dùng khi kích cỡ, số lượng hay thời điểm hoàn toàn phù hợp, không thừa không thiếu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2353,
+    "ru": "Через одного",
+    "phonetic": "CHYE-ryez ad-na-VO",
+    "meaning": "cứ cách một, so le nhau",
+    "note": "Dùng khi mô tả sự phân bố xen kẽ, ví dụ ghế trống cách một người.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2354,
+    "ru": "Яблоку негде упасть",
+    "phonetic": "YAB-la-ku NYEG-dye u-PAST'",
+    "meaning": "đông nghịt, không còn chỗ chen chân",
+    "note": "Nghĩa đen \"quả táo không có chỗ rơi xuống\", dùng khi đám đông quá chật kín.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2355,
+    "ru": "Пруд пруди",
+    "phonetic": "prut pru-DI",
+    "meaning": "nhiều vô số kể, thiếu gì",
+    "note": "Khẩu ngữ dùng khi thứ gì đó có rất nhiều, dư thừa đến mức không đáng quý.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2356,
+    "ru": "На вес золота",
+    "phonetic": "na vyes ZO-la-ta",
+    "meaning": "quý như vàng, đáng giá ngàn vàng",
+    "note": "Dùng khi thứ gì đó (thường là người tài, thời gian, kinh nghiệm) cực kỳ quý giá, hiếm có.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2357,
+    "ru": "С точностью до наоборот",
+    "phonetic": "s TOCH-nas-tyu da na-a-ba-ROT",
+    "meaning": "hoàn toàn ngược lại, trái ngược 100%",
+    "note": "Cách nói nhấn mạnh sự trái ngược hoàn toàn so với dự đoán hay mong đợi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2358,
+    "ru": "На глаз",
+    "phonetic": "na glaz",
+    "meaning": "áng chừng, ước lượng bằng mắt",
+    "note": "Dùng khi đo lường, ước tính mà không dùng dụng cụ chính xác, chỉ dựa vào cảm quan.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2359,
+    "ru": "В общих чертах",
+    "phonetic": "v OB-shchikh CHER-takh",
+    "meaning": "nói chung, đại khái, phác thảo sơ bộ",
+    "note": "Dùng khi trình bày ý chính mà không đi vào chi tiết cụ thể.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2360,
+    "ru": "От и до",
+    "phonetic": "at i da",
+    "meaning": "từ đầu đến cuối, toàn bộ không sót",
+    "note": "Dùng khi nhấn mạnh sự đầy đủ, trọn vẹn, làm hết mọi công đoạn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2361,
+    "ru": "Куда ни глянь",
+    "phonetic": "ku-DA ni glyan'",
+    "meaning": "nhìn đâu cũng thấy, khắp mọi nơi",
+    "note": "Dùng khi thứ gì đó xuất hiện dày đặc ở khắp mọi nơi trong tầm mắt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2362,
+    "ru": "С запасом",
+    "phonetic": "s za-PA-sam",
+    "meaning": "có dư, có phòng hờ thêm",
+    "note": "Dùng khi chuẩn bị số lượng/thời gian nhiều hơn mức cần thiết để đề phòng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2363,
+    "ru": "В обрез",
+    "phonetic": "v ab-RYEZ",
+    "meaning": "vừa đủ, không dư một chút nào",
+    "note": "Trái nghĩa với \"с запасом\", dùng khi số lượng/thời gian chỉ vừa đủ, sát nút, không có dư.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2364,
+    "ru": "На широкую ногу",
+    "phonetic": "na shi-RO-ku-yu NO-gu",
+    "meaning": "sống xa hoa, tiêu xài rộng rãi",
+    "note": "Nghĩa đen \"theo chân rộng\", dùng khi ai đó sống hoặc tổ chức việc gì đó với quy mô hoành tráng, tốn kém.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2365,
+    "ru": "Беспредел",
+    "phonetic": "byes-pre-DYEL",
+    "meaning": "sự vô luật lệ, hỗn loạn không giới hạn",
+    "note": "Gốc từ tiếng lóng nhà tù chỉ tình trạng vô pháp luật giữa tù nhân, nay dùng phổ biến để chỉ sự hỗn loạn, lạm quyền trong xã hội. Mang sắc thái mạnh, dùng cẩn trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2366,
+    "ru": "Мутить воду",
+    "phonetic": "mu-TIT' VO-du",
+    "meaning": "gây rối, làm phức tạp hóa tình hình một cách cố ý",
+    "note": "Nghĩa đen \"làm đục nước\", ám chỉ hành động cố tình gây rối, che giấu ý đồ xấu. Phổ biến trong khẩu ngữ, không quá thô.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2367,
+    "ru": "Сесть на зону",
+    "phonetic": "syest' na ZO-nu",
+    "meaning": "vào tù, đi ở tù",
+    "note": "\"Зона\" là tiếng lóng chỉ trại giam, cụm này khá thô, dùng trong khẩu ngữ suồng sã, tránh dùng trong giao tiếp lịch sự.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2368,
+    "ru": "Стучать",
+    "phonetic": "stu-CHAT'",
+    "meaning": "mách lẻo, làm chỉ điểm",
+    "note": "Gốc tiếng lóng tù/tội phạm chỉ hành vi báo tin cho công an/quản giáo, nay dùng phổ biến nghĩa \"mách lẻo, tố cáo\". Mang sắc thái tiêu cực, khinh miệt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2369,
+    "ru": "Бывалый",
+    "phonetic": "by-VA-ly",
+    "meaning": "người từng trải, dày dạn kinh nghiệm",
+    "note": "Gốc dùng để chỉ tù nhân kỳ cựu, nay dùng rộng rãi và trung tính hơn để khen người có nhiều kinh nghiệm sống.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2370,
+    "ru": "Двинуть кони",
+    "phonetic": "DVI-nut' KO-ni",
+    "meaning": "chết, ngoẻo (cách nói thô tục)",
+    "note": "Tiếng lóng rất thô, gốc đường phố/tù, nghĩa là chết. Chỉ dùng giữa bạn bè rất thân, tránh dùng trước người lạ hay người lớn tuổi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2371,
+    "ru": "Взять на понт",
+    "phonetic": "vzyat' na pont",
+    "meaning": "bịp, dọa nạt để chiếm ưu thế",
+    "note": "\"Понт\" trong tiếng lóng tội phạm nghĩa là màn kịch/lừa bịp, cụm này nghĩa là dùng thủ đoạn hù dọa để khuất phục đối phương. Khá thô, cẩn trọng khi dùng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2372,
+    "ru": "Шухер",
+    "phonetic": "SHU-khyer",
+    "meaning": "báo động, có biến (nguy hiểm sắp đến)",
+    "note": "Tiếng lóng cổ gốc tội phạm, hô \"шухер!\" nghĩa là \"coi chừng, có động!\". Nay dùng đùa vui trong giới trẻ, ít thô hơn trước.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2373,
+    "ru": "Пацан",
+    "phonetic": "pa-TSAN",
+    "meaning": "thằng nhóc, gã trai trẻ (đường phố)",
+    "note": "Từ gốc đường phố/tù nghĩa là \"con trai đàng hoàng theo luật giang hồ\", nay dùng phổ biến, trung tính hơn để gọi thanh niên, bạn trai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2374,
+    "ru": "По понятиям",
+    "phonetic": "pa pa-NYA-ti-yam",
+    "meaning": "theo đúng luật ngầm, đúng lẽ phải giang hồ",
+    "note": "Gốc tiếng lóng tội phạm chỉ hệ thống quy tắc ứng xử riêng của giới tội phạm, nay dùng rộng để nói \"theo đúng lẽ công bằng, đúng luật bất thành văn\". Cẩn trọng ngữ cảnh khi dùng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2375,
+    "ru": "Крыша",
+    "phonetic": "KRY-sha",
+    "meaning": "thế lực bảo kê, chống lưng",
+    "note": "Nghĩa đen \"mái nhà\", tiếng lóng chỉ tổ chức/người bảo kê, chống lưng cho hoạt động (thường phi pháp). Phổ biến trong đời sống, báo chí khi nói về tham nhũng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2376,
+    "ru": "Откинуться",
+    "phonetic": "at-KI-nut'-sya",
+    "meaning": "ra tù, mãn hạn tù",
+    "note": "Tiếng lóng nhà tù chỉ việc được thả tự do sau khi mãn án, nay cũng dùng hài hước cho việc \"thoát\" khỏi tình huống bó buộc nào đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2377,
+    "ru": "На стрёме",
+    "phonetic": "na STRYO-mye",
+    "meaning": "đứng canh, cảnh giới",
+    "note": "Gốc tiếng lóng tội phạm chỉ người đứng canh chừng khi đồng bọn hành sự, nay dùng đùa vui nghĩa là \"đứng canh, để ý xung quanh\".",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2378,
+    "ru": "Дать по шапке",
+    "phonetic": "dat' pa SHAP-kye",
+    "meaning": "bị khiển trách nặng, bị trừng phạt",
+    "note": "Khẩu ngữ suồng sã, nghĩa là bị cấp trên/ai đó mắng nặng hoặc xử lý kỷ luật.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2379,
+    "ru": "Взять за жабры",
+    "phonetic": "vzyat' za ZHAB-ry",
+    "meaning": "tóm gọn, bắt thóp, ép phải làm theo",
+    "note": "Nghĩa đen \"tóm lấy mang cá\", diễn tả việc kiểm soát hoàn toàn, buộc ai đó phải nghe theo. Khá mạnh, dùng trong tình huống căng thẳng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2380,
+    "ru": "Дедовщина",
+    "phonetic": "dye-daf-SHCHI-na",
+    "meaning": "nạn bắt nạt lính mới (trong quân đội)",
+    "note": "Thuật ngữ mô tả tệ nạn lính cũ bắt nạt, hành hạ lính mới trong quân đội Nga, vấn đề xã hội nghiêm trọng thường xuất hiện trên báo chí.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2381,
+    "ru": "Отдать долг Родине",
+    "phonetic": "at-DAT' dolg RO-di-nye",
+    "meaning": "đi nghĩa vụ quân sự",
+    "note": "Cách nói nửa đùa nửa trang trọng về việc thực hiện nghĩa vụ quân sự bắt buộc, nghĩa đen \"trả nợ cho Tổ quốc\".",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2382,
+    "ru": "Дух",
+    "phonetic": "dukh",
+    "meaning": "lính mới, tân binh (tiếng lóng quân đội)",
+    "note": "Tiếng lóng quân đội gọi lính mới nhập ngũ, thường bị \"дедовщина\" bắt nạt. Mang sắc thái tiêu cực, chỉ dùng để hiểu bối cảnh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2383,
+    "ru": "Дембель",
+    "phonetic": "DYEM-byel'",
+    "meaning": "xuất ngũ, giải ngũ",
+    "note": "Tiếng lóng quân đội rất phổ biến, chỉ việc hoàn thành nghĩa vụ quân sự và trở về nhà, thường được ăn mừng long trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2384,
+    "ru": "Залечь на дно",
+    "phonetic": "za-LYECH' na dno",
+    "meaning": "lặn mất tăm, trốn tránh, ở ẩn",
+    "note": "Nghĩa đen \"nằm xuống đáy\", gốc tiếng lóng tội phạm chỉ việc trốn tránh truy nã, nay dùng phổ biến hơn nghĩa \"biến mất, im hơi lặng tiếng một thời gian\".",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2385,
+    "ru": "Взять на слабо",
+    "phonetic": "vzyat' na SLA-ba",
+    "meaning": "khích tướng, dùng lời thách thức để ép làm",
+    "note": "Tiếng lóng đường phố, nghĩa là dùng câu khích \"mày không dám đâu\" để ép ai đó làm điều gì.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2386,
+    "ru": "Качать права",
+    "phonetic": "ka-CHAT' pra-VA",
+    "meaning": "làm ầm lên đòi quyền lợi, làm căng để đòi hỏi",
+    "note": "Khẩu ngữ đường phố, dùng khi ai đó lớn tiếng đòi hỏi quyền lợi, gây áp lực bằng thái độ hung hăng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2387,
+    "ru": "Разборка",
+    "phonetic": "raz-BOR-ka",
+    "meaning": "cuộc thanh toán, giải quyết mâu thuẫn (thường bằng đe dọa)",
+    "note": "Tiếng lóng gốc giới tội phạm những năm 1990, chỉ cuộc đối đầu giải quyết mâu thuẫn giữa các nhóm, nay dùng rộng hơn nghĩa \"cuộc đụng độ căng thẳng\". Cẩn trọng khi dùng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2388,
+    "ru": "Стоять на ушах",
+    "phonetic": "sta-YAT' na u-SHAKH",
+    "meaning": "náo loạn cả lên, làm ầm ĩ hết cỡ",
+    "note": "Nghĩa đen \"đứng bằng tai\", khẩu ngữ mạnh dùng khi mô tả tình trạng hỗn loạn, ồn ào cực độ, ai cũng tất bật, náo động.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2389,
+    "ru": "Залипать",
+    "phonetic": "za-li-PAT'",
+    "meaning": "dán mắt vào màn hình, mê mẩn không dứt ra được",
+    "note": "Dùng khi xem điện thoại/video/game quá lâu không dứt ra được, ví dụ \"залипать в телефоне\".",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2390,
+    "ru": "Оффнуть",
+    "phonetic": "AF-nut'",
+    "meaning": "tắt, ngắt kết nối",
+    "note": "Vay mượn tiếng Anh \"off\", dùng khi tắt thiết bị, thoát ứng dụng hoặc kết thúc cuộc trò chuyện online.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2391,
+    "ru": "Забить лайк",
+    "phonetic": "za-BIT' layk",
+    "meaning": "thả tim/like cho bài đăng",
+    "note": "\"Лайк\" vay mượn từ \"like\", cụm này nghĩa là nhấn nút thích trên mạng xã hội, cực kỳ phổ biến trong giới trẻ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2392,
+    "ru": "Запостить",
+    "phonetic": "za-pas-TIT'",
+    "meaning": "đăng bài lên mạng xã hội",
+    "note": "Vay mượn từ \"post\", dùng khi chia sẻ nội dung lên VK, Telegram, Instagram...",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2393,
+    "ru": "Скинуть в личку",
+    "phonetic": "SKI-nut' v LICH-ku",
+    "meaning": "gửi riêng qua tin nhắn cá nhân",
+    "note": "\"Личка\" là tiếng lóng chỉ hộp thư riêng tư (tin nhắn cá nhân) trên mạng xã hội, rất phổ biến trong giao tiếp online.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2394,
+    "ru": "Сидеть в телефоне",
+    "phonetic": "si-DYET' v tye-lye-FO-nye",
+    "meaning": "dán mắt vào điện thoại cả ngày",
+    "note": "Diễn tả việc dùng điện thoại quá nhiều, phổ biến khi phê phán thói quen nghiện điện thoại.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2395,
+    "ru": "Мемный",
+    "phonetic": "MYEM-ny",
+    "meaning": "mang tính chất meme, hài hước kiểu mạng",
+    "note": "Tính từ phái sinh từ \"мем\" (meme), dùng để mô tả nội dung/tình huống hài hước theo phong cách meme trên mạng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2396,
+    "ru": "Загуглить",
+    "phonetic": "za-GUG-lit'",
+    "meaning": "tra Google, tìm kiếm trên mạng",
+    "note": "Động từ phái sinh từ \"Google\", cực kỳ phổ biến nghĩa là \"tra cứu trên mạng\", dùng hàng ngày.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2397,
+    "ru": "Оффтоп",
+    "phonetic": "AF-top",
+    "meaning": "lạc đề, nói chuyện ngoài chủ đề (diễn đàn/chat)",
+    "note": "Vay mượn \"off-topic\", dùng phổ biến trong các nhóm chat, diễn đàn khi ai đó nói chuyện không liên quan.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2398,
+    "ru": "Кэшбэк",
+    "phonetic": "kesh-BEK",
+    "meaning": "tiền hoàn lại khi mua sắm",
+    "note": "Vay mượn \"cashback\", thuật ngữ tài chính công nghệ rất phổ biến trong thanh toán online, thẻ ngân hàng Nga.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2399,
+    "ru": "Зафрендить",
+    "phonetic": "za-FREN-dit'",
+    "meaning": "kết bạn trên mạng xã hội",
+    "note": "Vay mượn từ \"friend\", dùng khi thêm ai đó vào danh sách bạn bè trên mạng xã hội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2400,
+    "ru": "Расфрендить",
+    "phonetic": "ras-FREN-dit'",
+    "meaning": "hủy kết bạn, xóa khỏi danh sách bạn bè",
+    "note": "Ngược nghĩa với \"зафрендить\", dùng khi xóa ai đó khỏi danh sách bạn bè online.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2401,
+    "ru": "Устроить дисс",
+    "phonetic": "u-STRO-it' dis",
+    "meaning": "công kích, \"diss\" ai đó công khai",
+    "note": "Vay mượn \"diss\" (disrespect), phổ biến trong giới rapper và mạng xã hội khi công kích, chê bai ai đó công khai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2402,
+    "ru": "Хайповый",
+    "phonetic": "KHAY-pa-vy",
+    "meaning": "đang hot, gây sốt",
+    "note": "Tính từ phái sinh từ \"хайп\" (hype), mô tả thứ gì đó đang rất được chú ý, thịnh hành trên mạng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2403,
+    "ru": "Скинуть ссылку",
+    "phonetic": "SKI-nut' SSYL-ku",
+    "meaning": "gửi link cho ai đó",
+    "note": "Cụm rất thông dụng trong nhắn tin, nghĩa là chia sẻ đường link qua chat.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2404,
+    "ru": "Спамить",
+    "phonetic": "SPA-mit'",
+    "meaning": "gửi tin nhắn/nội dung tràn lan gây phiền",
+    "note": "Vay mượn \"spam\", dùng khi ai đó gửi quá nhiều tin nhắn hoặc nội dung rác gây khó chịu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2405,
+    "ru": "Читер",
+    "phonetic": "CHI-tyer",
+    "meaning": "kẻ gian lận (trong game)",
+    "note": "Vay mượn \"cheater\", phổ biến trong cộng đồng game thủ chỉ người dùng gian lận, hack để thắng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2406,
+    "ru": "Нуб",
+    "phonetic": "nub",
+    "meaning": "người mới, gà mờ (trong game/lĩnh vực nào đó)",
+    "note": "Vay mượn \"noob\", tiếng lóng game thủ chỉ người mới chưa có kinh nghiệm, đôi khi mang tính chê bai nhẹ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2407,
+    "ru": "Донат закинуть",
+    "phonetic": "da-NAT za-KI-nut'",
+    "meaning": "quyên góp/ủng hộ tiền cho streamer",
+    "note": "Cụm quen thuộc trong cộng đồng streamer Nga, nghĩa là gửi tiền ủng hộ qua nền tảng livestream.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2408,
+    "ru": "Сторис глянуть",
+    "phonetic": "STO-ris GLYA-nut'",
+    "meaning": "xem story trên mạng xã hội",
+    "note": "\"Сторис\" vay mượn từ \"stories\" (Instagram/VK), cụm này nghĩa là xem tin/story tạm thời của bạn bè.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2409,
+    "ru": "Респект",
+    "phonetic": "rye-SPYEKT",
+    "meaning": "sự tôn trọng, nể phục (thường viết tắt trong chat)",
+    "note": "Vay mượn \"respect\", dùng để bày tỏ sự khâm phục, thường viết tắt \"респект!\" trong bình luận mạng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2410,
+    "ru": "Запилить видос",
+    "phonetic": "za-pi-LIT' VI-das",
+    "meaning": "làm/dựng một video (tiếng lóng)",
+    "note": "\"Видос\" là cách gọi suồng sã của \"видео\", cụm này nghĩa là tạo ra một video, phổ biến trong giới blogger, streamer.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2411,
+    "ru": "Оставить коммент",
+    "phonetic": "as-TA-vit' ka-MYENT",
+    "meaning": "để lại bình luận",
+    "note": "\"Коммент\" là cách gọi tắt suồng sã của \"комментарий\" (bình luận), rất phổ biến trong giao tiếp mạng xã hội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2412,
+    "ru": "Скролить ленту",
+    "phonetic": "SKRO-lit' LYEN-tu",
+    "meaning": "lướt newsfeed, cuộn xem bảng tin",
+    "note": "\"Скролить\" vay mượn từ \"scroll\", \"лента\" là newsfeed mạng xã hội, cụm này rất quen thuộc với người dùng VK, Instagram.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2413,
+    "ru": "Выложить в сторис",
+    "phonetic": "VY-la-zhit' v STO-ris",
+    "meaning": "đăng lên story",
+    "note": "Cụm phổ biến khi chia sẻ ảnh/video tạm thời lên story mạng xã hội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2414,
+    "ru": "Оцифровать",
+    "phonetic": "a-tsif-ra-VAT'",
+    "meaning": "số hóa (tài liệu, quy trình)",
+    "note": "Thuật ngữ công nghệ phổ biến trong đời sống hiện đại, chỉ việc chuyển đổi sang dạng kỹ thuật số.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2415,
+    "ru": "Прокачать скилл",
+    "phonetic": "pra-ka-CHAT' skil",
+    "meaning": "nâng cấp kỹ năng, cải thiện bản thân",
+    "note": "Vay mượn \"skill\" từ game, nay dùng rộng rãi ngoài đời để nói về việc phát triển, cải thiện một kỹ năng nào đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2416,
+    "ru": "Влететь в бан",
+    "phonetic": "vlye-TYET' v ban",
+    "meaning": "bị cấm/khóa tài khoản",
+    "note": "\"Бан\" vay mượn từ \"ban\", cụm này nghĩa là tài khoản bị khóa do vi phạm quy định nền tảng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2417,
+    "ru": "Сделать репост",
+    "phonetic": "SDYE-lat' rye-POST",
+    "meaning": "chia sẻ lại bài đăng của người khác",
+    "note": "\"Репост\" vay mượn \"repost\", cực kỳ phổ biến trên VK khi chia sẻ lại nội dung của người khác lên trang mình.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2418,
+    "ru": "Уйти в оффлайн",
+    "phonetic": "uy-TI v af-LAYN",
+    "meaning": "biến mất khỏi mạng xã hội, ngừng online",
+    "note": "Cách nói hài hước khi ai đó ngừng hoạt động trên mạng xã hội một thời gian, \"đi offline\".",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2419,
+    "ru": "Семь пятниц на неделе",
+    "phonetic": "syem' PYAT-nits na nye-DYE-lye",
+    "meaning": "đổi ý xoành xoạch, sáng nắng chiều mưa",
+    "note": "Nghĩa đen \"một tuần có bảy ngày thứ Sáu\", chỉ người hay thay đổi quyết định, không nhất quán.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2420,
+    "ru": "Как две горошины в стручке",
+    "phonetic": "kak dvye ga-RO-shi-ny f struch-KYE",
+    "meaning": "giống nhau như đúc",
+    "note": "Biến thể dân gian ví như hai hạt đậu trong cùng vỏ, ví dụ dùng cho anh em sinh đôi giống hệt nhau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2421,
+    "ru": "Без сучка без задоринки",
+    "phonetic": "byez such-KA byez za-DO-rin-ki",
+    "meaning": "trơn tru, suôn sẻ không trục trặc",
+    "note": "Nghĩa đen liên quan đến gỗ mộc không mấu không xước, dùng khi công việc diễn ra hoàn hảo, không gặp trở ngại.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2422,
+    "ru": "Что в лоб, что по лбу",
+    "phonetic": "shto v lob shto pa lbu",
+    "meaning": "đằng nào cũng vậy, chẳng khác gì nhau",
+    "note": "Thành ngữ dân gian diễn tả hai lựa chọn thực chất giống hệt nhau, không có gì khác biệt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2423,
+    "ru": "Не рой другому яму",
+    "phonetic": "nye roy dru-GO-mu YA-mu",
+    "meaning": "đừng hại người khác kẻo hại chính mình",
+    "note": "Rút gọn từ tục ngữ \"đào hố hại người có ngày rơi vào hố đó\", lời cảnh báo dân gian phổ biến.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2424,
+    "ru": "На чужой каравай рот не разевай",
+    "phonetic": "na chu-ZHOY ka-ra-VAY rot nye ra-zye-VAY",
+    "meaning": "đừng thèm muốn của người khác",
+    "note": "Tục ngữ dân gian khuyên không nên ganh tị, dòm ngó tài sản/thành quả của người khác.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2425,
+    "ru": "Не в свои сани не садись",
+    "phonetic": "nye f sva-I SA-ni nye sa-DIS'",
+    "meaning": "đừng ôm việc không phải phận sự của mình",
+    "note": "Nghĩa đen \"đừng ngồi lên xe trượt tuyết không phải của mình\", khuyên nên biết vị trí, khả năng của bản thân.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2426,
+    "ru": "Готовь сани летом, а телегу зимой",
+    "phonetic": "ga-TOF' SA-ni LYE-tam a tye-LYE-gu zi-MOY",
+    "meaning": "chuẩn bị trước, phòng xa",
+    "note": "Tục ngữ dân gian nổi tiếng khuyên chuẩn bị dụng cụ mùa đông (xe trượt tuyết) vào mùa hè và ngược lại, ý nói nên lo xa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2427,
+    "ru": "Не солоно хлебавши",
+    "phonetic": "nye SO-la-na khlye-BAF-shi",
+    "meaning": "ra về tay không, thất vọng không đạt được gì",
+    "note": "Nghĩa đen \"ăn mà không có muối\" (thời xưa muối quý), diễn tả việc ra về mà không đạt được điều mong muốn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2428,
+    "ru": "С миру по нитке — голому рубаха",
+    "phonetic": "s MI-ru pa NIT-kye GO-la-mu ru-BA-kha",
+    "meaning": "góp gió thành bão, mỗi người một ít thành nhiều",
+    "note": "Tục ngữ dân gian nói về sức mạnh của sự đoàn kết, mỗi người góp một chút sẽ tạo nên thành quả lớn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2429,
+    "ru": "Кто в лес, кто по дрова",
+    "phonetic": "kto v lyes kto pa dra-VA",
+    "meaning": "mỗi người một phách, không đồng nhất",
+    "note": "Diễn tả tình trạng thiếu tổ chức, mỗi người làm một kiểu không ăn khớp với nhau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2430,
+    "ru": "Хлеб всему голова",
+    "phonetic": "khlyep fsye-MU ga-la-VA",
+    "meaning": "bánh mì là thứ quan trọng nhất, không thể thiếu",
+    "note": "Tục ngữ dân gian Nga đề cao vai trò của bánh mì, lương thực cơ bản, ý nói điều thiết yếu nhất trong cuộc sống.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2431,
+    "ru": "Своя рубашка ближе к телу",
+    "phonetic": "sva-YA ru-BASH-ka BLI-zhe k TYE-lu",
+    "meaning": "mình vẫn là quan trọng nhất, lo cho mình trước",
+    "note": "Tục ngữ dân gian nói về bản tính con người thường ưu tiên lợi ích bản thân trước tiên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2432,
+    "ru": "На безрыбье и рак рыба",
+    "phonetic": "na byez-RYB'-ye i rak RY-ba",
+    "meaning": "không có cá thì tôm cũng quý, có còn hơn không",
+    "note": "Tục ngữ dân gian, dùng khi phải chấp nhận lựa chọn kém hơn vì không có lựa chọn tốt hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2433,
+    "ru": "Голод не тётка",
+    "phonetic": "GO-lat nye TYOT-ka",
+    "meaning": "đói thì đầu gối phải bò, cơn đói không nương tay ai",
+    "note": "Tục ngữ dân gian nói về sự thúc bách của cơn đói, khiến người ta phải hành động dù không muốn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2434,
+    "ru": "Лес рубят — щепки летят",
+    "phonetic": "lyes RU-byat SHCHEP-ki lye-TYAT",
+    "meaning": "làm việc lớn ắt có thiệt hại nhỏ đi kèm",
+    "note": "Tục ngữ dân gian ví việc chặt gỗ tất sẽ có dăm bào bắn ra, ý nói cải cách lớn khó tránh khỏi tổn thất nhỏ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2435,
+    "ru": "Тише воды, ниже травы",
+    "phonetic": "TI-she va-DY NI-zhe tra-VY",
+    "meaning": "nhu mì, hiền lành, im lặng không gây chú ý",
+    "note": "Nghĩa đen \"êm hơn nước, thấp hơn cỏ\", mô tả người rất hiền lành, khiêm nhường, ít nói.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2436,
+    "ru": "Всяк кулик своё болото хвалит",
+    "phonetic": "fsyak ku-LIK sva-YO ba-LO-ta KHVA-lit",
+    "meaning": "mỗi người đều khen nơi mình sinh sống/thuộc về",
+    "note": "Tục ngữ dân gian ví con chim dẽ giun luôn khen đầm lầy của mình, ý nói ai cũng thiên vị cho những gì thuộc về mình.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2437,
+    "ru": "Яйца курицу не учат",
+    "phonetic": "YAY-tsa KU-ri-tsu nye U-chat",
+    "meaning": "trứng không thể dạy khôn gà, kẻ ít kinh nghiệm không nên dạy đời người từng trải",
+    "note": "Tục ngữ dân gian phê phán người ít kinh nghiệm lại đi chỉ dạy người có nhiều kinh nghiệm hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2438,
+    "ru": "Один в поле не воин",
+    "phonetic": "a-DIN v PO-lye nye VO-in",
+    "meaning": "một cây làm chẳng nên non",
+    "note": "Tục ngữ dân gian nói về sức mạnh của tập thể, một người đơn độc khó làm nên việc lớn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2439,
+    "ru": "Сколько волка ни корми, он всё в лес смотрит",
+    "phonetic": "SKOL'-ka VOL-ka ni kar-MI on fsyo v lyes SMOT-rit",
+    "meaning": "giang sơn dễ đổi, bản tính khó dời",
+    "note": "Tục ngữ dân gian ví con sói dù được nuôi tốt vẫn hướng về rừng, ý nói bản chất con người khó thay đổi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2440,
+    "ru": "Москва не сразу строилась",
+    "phonetic": "mask-VA nye SRA-zu STRO-i-las'",
+    "meaning": "việc lớn cần thời gian, đừng vội vàng",
+    "note": "Tục ngữ dân gian dùng hình ảnh xây dựng Moskva để khuyên kiên nhẫn, việc lớn không thể hoàn thành trong chốc lát.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2441,
+    "ru": "В тесноте, да не в обиде",
+    "phonetic": "f tyes-na-TYE da nye v a-BI-dye",
+    "meaning": "chật chội nhưng vui vẻ, hòa thuận là chính",
+    "note": "Tục ngữ dân gian dùng khi không gian sống chật hẹp nhưng mọi người vẫn vui vẻ, không phiền lòng vì tình cảm gắn bó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2442,
+    "ru": "Дальше в лес, больше дров",
+    "phonetic": "DAL'-she v lyes BOL'-she drof",
+    "meaning": "càng đi sâu càng rắc rối, việc càng để lâu càng phức tạp",
+    "note": "Thành ngữ dân gian ví việc đi sâu vào rừng thì củi (khó khăn) càng nhiều, ý nói vấn đề càng kéo dài càng phức tạp thêm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2443,
+    "ru": "В добрый час!",
+    "phonetic": "v DOB-ry chas",
+    "meaning": "chúc thượng lộ bình an, chúc khởi đầu suôn sẻ",
+    "note": "Lời chúc dân gian khi ai đó bắt đầu việc mới hay lên đường, mong mọi sự tốt lành.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2444,
+    "ru": "Дай Бог!",
+    "phonetic": "day bokh",
+    "meaning": "cầu trời phù hộ, mong là vậy",
+    "note": "Câu cảm thán bày tỏ hy vọng điều tốt đẹp sẽ xảy ra, dùng phổ biến dù không phải người sùng đạo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2445,
+    "ru": "Бог в помощь!",
+    "phonetic": "bokh v PO-mashch",
+    "meaning": "chúc trời giúp sức, chúc làm việc thuận lợi",
+    "note": "Lời chúc dân gian khi thấy ai đó đang làm việc, mong công việc của họ suôn sẻ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2446,
+    "ru": "С лёгким паром!",
+    "phonetic": "s LYOKH-kim PA-ram",
+    "meaning": "chúc tắm hơi thoải mái, mừng vừa tắm xong",
+    "note": "Lời chúc truyền thống Nga dành cho người vừa đi tắm hơi (banya) hoặc tắm xong, mang ý nghĩa văn hóa đặc trưng Nga.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2447,
+    "ru": "Живи и здравствуй!",
+    "phonetic": "zhi-VI i ZDRAF-stvuy",
+    "meaning": "chúc sống lâu và mạnh khỏe",
+    "note": "Lời chúc trang trọng, thường dùng trong các dịp lễ, sinh nhật, mang ý nghĩa chúc trường thọ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2448,
+    "ru": "Совет да любовь!",
+    "phonetic": "sa-VYET da lyu-BOF'",
+    "meaning": "chúc trăm năm hạnh phúc, thuận vợ thuận chồng",
+    "note": "Lời chúc truyền thống dành cho các cặp đôi mới cưới, mong họ sống hòa thuận, yêu thương nhau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2449,
+    "ru": "Живите дружно!",
+    "phonetic": "zhi-VI-tye DRUZH-na",
+    "meaning": "chúc sống hòa thuận với nhau",
+    "note": "Lời chúc dùng khi mong các thành viên trong gia đình hay tập thể luôn đoàn kết, hòa hợp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2450,
+    "ru": "Дай Бог не последний раз!",
+    "phonetic": "day bokh nye pas-LYED-ni raz",
+    "meaning": "chúc còn nhiều lần gặp lại như thế này nữa",
+    "note": "Lời chúc dân gian khi kết thúc một buổi gặp mặt/tiệc vui, mong sẽ còn nhiều dịp vui như vậy.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2451,
+    "ru": "Не поминай лихом",
+    "phonetic": "nye pa-mi-NAY LI-kham",
+    "meaning": "đừng nhớ về nhau với điều xấu, giữ kỷ niệm đẹp thôi",
+    "note": "Lời nhắn khi chia tay, mong người kia chỉ nhớ về mình những điều tốt đẹp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2452,
+    "ru": "Век живи, век учись",
+    "phonetic": "vyek zhi-VI vyek u-CHIS'",
+    "meaning": "sống đến già học đến già",
+    "note": "Tục ngữ dân gian khuyên con người luôn học hỏi không ngừng suốt cuộc đời.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2453,
+    "ru": "Тяжело в учении, легко в бою",
+    "phonetic": "tya-zhe-LO v u-CHE-ni-i LYEKH-ka v ba-YU",
+    "meaning": "học hành gian khổ thì làm việc thực tế mới dễ dàng",
+    "note": "Câu nói nổi tiếng của thống soái Suvorov, khuyên rèn luyện chăm chỉ để sau này việc thực tế trở nên nhẹ nhàng hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2454,
+    "ru": "Береги честь смолоду",
+    "phonetic": "bye-rye-GI chyest' SMO-la-du",
+    "meaning": "giữ gìn danh dự từ khi còn trẻ",
+    "note": "Câu châm ngôn dân gian nổi tiếng (cũng là tên tiểu thuyết của Pushkin), khuyên giữ gìn phẩm giá ngay từ tuổi trẻ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2455,
+    "ru": "Терпение и труд всё перетрут",
+    "phonetic": "tyer-PYE-ni-ye i trut fsyo pye-rye-TRUT",
+    "meaning": "có công mài sắt có ngày nên kim",
+    "note": "Tục ngữ dân gian rất nổi tiếng, khuyên kiên nhẫn và chăm chỉ sẽ vượt qua mọi khó khăn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2456,
+    "ru": "Поспешишь — людей насмешишь",
+    "phonetic": "pas-pye-SHISH lyu-DYEY nas-MYE-shish",
+    "meaning": "dục tốc bất đạt, vội vàng dễ hớ",
+    "note": "Tục ngữ dân gian cảnh báo làm việc vội vàng dễ mắc sai lầm khiến người khác cười chê.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2457,
+    "ru": "Долг платежом красен",
+    "phonetic": "dolg pla-tye-ZHOM KRA-syen",
+    "meaning": "ơn nghĩa cần đáp trả tương xứng, có đi có lại",
+    "note": "Tục ngữ dân gian nói về việc đáp lại ân nghĩa/sự giúp đỡ một cách xứng đáng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2458,
+    "ru": "На то и щука в море, чтоб карась не дремал",
+    "phonetic": "na to i SHCHU-ka v MO-rye shtop ka-RAS' nye dryem-AL",
+    "meaning": "có cạnh tranh mới khiến người ta không ngủ quên, luôn phải cảnh giác",
+    "note": "Tục ngữ dân gian ví cá pike tồn tại để cá diếc không được lơ là, ý nói áp lực cạnh tranh giúp người ta luôn tỉnh táo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2459,
+    "ru": "Скажешь — не воротишь",
+    "phonetic": "SKA-zhesh nye va-RO-tish",
+    "meaning": "lời nói ra không thể rút lại",
+    "note": "Tục ngữ nhắc nhở nên cẩn trọng lời ăn tiếng nói vì một khi đã nói ra thì không thể thu hồi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2460,
+    "ru": "На чужой роток не накинешь платок",
+    "phonetic": "na chu-ZHOY ra-TOK nye na-KI-nyesh pla-TOK",
+    "meaning": "không thể ngăn miệng thiên hạ",
+    "note": "Tục ngữ dân gian nói về việc không thể kiểm soát lời đàm tiếu của người đời.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2461,
+    "ru": "Каков привет, таков и ответ",
+    "phonetic": "ka-KOF pri-VYET ta-KOF i at-VYET",
+    "meaning": "đối xử thế nào sẽ nhận lại thế ấy",
+    "note": "Tục ngữ dân gian nói về luật nhân quả trong cách đối xử, chào hỏi thế nào thì đáp lại thế ấy.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2462,
+    "ru": "Каждому своё",
+    "phonetic": "KAZH-da-mu sva-YO",
+    "meaning": "mỗi người một số phận/sở thích riêng",
+    "note": "Câu nói ngắn gọn mang tính triết lý, ý nói mỗi người có con đường, khẩu vị riêng, không nên so sánh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2463,
+    "ru": "Не всё коту масленица",
+    "phonetic": "nye fsyo KO-tu MAS-lye-ni-tsa",
+    "meaning": "không phải lúc nào cũng suôn sẻ, vui mãi được",
+    "note": "Nghĩa đen \"không phải lúc nào mèo cũng có lễ hội bơ sữa\", cảnh báo rằng may mắn/niềm vui không kéo dài mãi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2464,
+    "ru": "Взялся за гуж, не говори, что не дюж",
+    "phonetic": "VZYAL-sya za guzh nye ga-va-RI shto nye dyuzh",
+    "meaning": "đã nhận việc thì phải làm cho xong, đừng than khó",
+    "note": "Tục ngữ dân gian cổ, khuyên đã cam kết làm việc gì thì phải hoàn thành, không được than vãn giữa chừng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2465,
+    "ru": "Умный в гору не пойдёт, умный гору обойдёт",
+    "phonetic": "UM-ny v GO-ru nye pay-DYOT UM-ny GO-ru a-BAY-dyot",
+    "meaning": "người khôn tránh khó khăn không cần thiết, đi đường vòng cho an toàn",
+    "note": "Tục ngữ dân gian khuyên nên khôn khéo tránh né trở ngại thay vì đối đầu trực diện không cần thiết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2466,
+    "ru": "Кашу маслом не испортишь",
+    "phonetic": "KA-shu MAS-lam nye is-POR-tish",
+    "meaning": "nhiều cái tốt thì không sợ dư, tốt thì càng nhiều càng hay",
+    "note": "Nghĩa đen \"cháo thêm bơ không hỏng được\", dùng khi muốn nói thêm điều tốt (nỗ lực, sự quan tâm) không bao giờ thừa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2467,
+    "ru": "Долго запрягает, да быстро едет",
+    "phonetic": "DOL-ga za-pry-A-gat da BYS-tra YE-dyet",
+    "meaning": "chuẩn bị lâu nhưng khi làm thì rất nhanh, chậm mà chắc",
+    "note": "Tục ngữ dân gian Nga, nghĩa đen \"thắng yên lâu nhưng phóng đi nhanh\", ý nói kỹ lưỡng lúc chuẩn bị để đạt hiệu quả cao khi hành động.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2468,
+    "ru": "Слово — серебро, молчание — золото",
+    "phonetic": "SLO-va sye-ryeb-RO mal-CHA-ni-ye ZO-la-ta",
+    "meaning": "lời nói là bạc, im lặng là vàng",
+    "note": "Tục ngữ dân gian rất phổ biến, khuyên đôi khi im lặng còn quý giá hơn nói nhiều.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2469,
+    "ru": "Как повезёт",
+    "phonetic": "kak pa-vye-ZYOT",
+    "meaning": "tùy may rủi, hên xui",
+    "note": "Cụm rất thông dụng khi kết quả phụ thuộc hoàn toàn vào may mắn, không chắc chắn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2470,
+    "ru": "Пан или пропал",
+    "phonetic": "pan i-LI pra-PAL",
+    "meaning": "được ăn cả ngã về không",
+    "note": "Diễn tả tình huống liều lĩnh, chấp nhận rủi ro cao để được tất cả hoặc mất tất cả.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2471,
+    "ru": "Счастливый случай",
+    "phonetic": "shchas-LI-vy SLU-chay",
+    "meaning": "cơ may hiếm có, vận may bất ngờ",
+    "note": "Dùng khi nói về một cơ hội may mắn hiếm có xuất hiện bất ngờ trong đời.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2472,
+    "ru": "Родиться в рубашке",
+    "phonetic": "ra-DIT'-sya v ru-BASH-kye",
+    "meaning": "sinh ra đã có phúc, số may mắn bẩm sinh",
+    "note": "Nghĩa đen \"sinh ra đã mặc áo\" (màng ối bao quanh khi sinh, dân gian coi là điềm may), dùng khi ai đó gặp may mắn hiếm có, thoát hiểm ngoạn mục.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2473,
+    "ru": "Как в воду глядел",
+    "phonetic": "kak v VO-du glya-DYEL",
+    "meaning": "đoán trúng phóc, như tiên tri",
+    "note": "Nghĩa đen \"như nhìn vào nước\" (bói toán dân gian), dùng khi ai đó dự đoán chính xác điều sẽ xảy ra.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2474,
+    "ru": "Испытывать судьбу",
+    "phonetic": "is-PY-ty-vat' sud'-BU",
+    "meaning": "thử thách vận may, liều lĩnh đánh cược",
+    "note": "Dùng khi ai đó làm điều mạo hiểm, đặt cược vào may rủi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2475,
+    "ru": "Идти ва-банк",
+    "phonetic": "it-TI va-BANK",
+    "meaning": "chơi tất tay, đặt cược toàn bộ",
+    "note": "Thuật ngữ từ bài bạc \"va-banque\" (tiếng Pháp), nghĩa là đánh cược tất cả vào một quyết định duy nhất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2476,
+    "ru": "Ловить момент",
+    "phonetic": "la-VIT' ma-MYENT",
+    "meaning": "nắm bắt thời cơ",
+    "note": "Dùng khi khuyên ai đó nên tận dụng ngay cơ hội đang có trước khi nó trôi qua.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2477,
+    "ru": "Как карта ляжет",
+    "phonetic": "kak KAR-ta LYA-zhet",
+    "meaning": "tùy theo vận số, xem con bài rơi thế nào",
+    "note": "Xuất phát từ bài bạc, dùng khi kết quả phụ thuộc hoàn toàn vào hoàn cảnh/vận may không kiểm soát được.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2478,
+    "ru": "Упустить свой шанс",
+    "phonetic": "u-pus-TIT' svoy shans",
+    "meaning": "bỏ lỡ cơ hội của mình",
+    "note": "Dùng khi ai đó không nắm bắt được cơ hội tốt và để nó vụt mất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2479,
+    "ru": "Судьба-злодейка",
+    "phonetic": "sud'-BA zla-DYEY-ka",
+    "meaning": "số phận trớ trêu, vận rủi trêu ngươi",
+    "note": "Cách nói than thở nửa đùa nửa thật khi gặp chuyện xui xẻo, đổ lỗi cho số phận éo le.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2480,
+    "ru": "Как назло",
+    "phonetic": "kak naz-LO",
+    "meaning": "y như cố tình trêu ngươi, xui xẻo đúng lúc",
+    "note": "Dùng khi điều xui xẻo xảy ra đúng vào thời điểm bất lợi nhất, như thể có ai cố tình sắp đặt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2481,
+    "ru": "Пронесло",
+    "phonetic": "pra-nyes-LO",
+    "meaning": "thoát nạn trong gang tấc, may mà qua chuyện",
+    "note": "Khẩu ngữ dùng khi vừa thoát khỏi một tình huống nguy hiểm hay rắc rối trong đường tơ kẽ tóc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2482,
+    "ru": "На авось",
+    "phonetic": "na a-VOS'",
+    "meaning": "làm liều, phó mặc may rủi",
+    "note": "Từ \"авось\" mang tính cách Nga đặc trưng, nghĩa là làm gì đó mà không tính toán kỹ, cứ liều rồi tính sau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2483,
+    "ru": "Счастье привалило",
+    "phonetic": "SHCHAS-tye pri-va-LI-la",
+    "meaning": "vận may ập đến bất ngờ",
+    "note": "Khẩu ngữ dùng khi may mắn lớn bất ngờ đến với ai đó, thường không do công sức bản thân.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2484,
+    "ru": "Ходить по краю",
+    "phonetic": "kha-DIT' pa KRA-yu",
+    "meaning": "sống/làm việc trên bờ vực nguy hiểm",
+    "note": "Dùng khi ai đó liên tục đặt mình vào tình huống rủi ro cao, mạo hiểm liên tục.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2485,
+    "ru": "Играть с огнём",
+    "phonetic": "ig-RAT' s ag-NYOM",
+    "meaning": "đùa với lửa, làm việc nguy hiểm liều lĩnh",
+    "note": "Cảnh báo khi ai đó làm điều mạo hiểm có thể gây hậu quả nghiêm trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2486,
+    "ru": "Рисковать головой",
+    "phonetic": "ris-ka-VAT' ga-la-VOY",
+    "meaning": "liều cả tính mạng, đánh cược mạng sống",
+    "note": "Dùng khi mức độ rủi ro cực cao, có thể nguy hiểm đến tính mạng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2487,
+    "ru": "Дуракам везёт",
+    "phonetic": "du-ra-KAM vye-ZYOT",
+    "meaning": "người ngốc lại hay gặp may (câu nói đùa)",
+    "note": "Câu nói vui dân gian, thường tự trào hoặc trêu chọc khi ai đó gặp may một cách khó hiểu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2488,
+    "ru": "Не было бы счастья, да несчастье помогло",
+    "phonetic": "NYE by-la by SHCHAS-tya da nye-SHCHAS-tye pa-mag-LO",
+    "meaning": "trong cái rủi có cái may",
+    "note": "Tục ngữ dân gian nói về việc điều xui xẻo ban đầu lại vô tình mang đến may mắn về sau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2489,
+    "ru": "Счастье не купишь",
+    "phonetic": "SHCHAS-tye nye KU-pish",
+    "meaning": "tiền không mua được hạnh phúc/may mắn",
+    "note": "Câu nói phổ biến nhắc nhở rằng may mắn, hạnh phúc không thể có được chỉ bằng tiền bạc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2490,
+    "ru": "Идти по лезвию ножа",
+    "phonetic": "it-TI pa LYEZ-vi-yu na-ZHA",
+    "meaning": "đi trên lưỡi dao, cực kỳ nguy hiểm mong manh",
+    "note": "Diễn tả tình huống cực kỳ nguy hiểm, ranh giới an toàn rất mong manh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2491,
+    "ru": "Синица в руках лучше журавля в небе",
+    "phonetic": "si-NI-tsa v ru-KAKH LU-chshe zhu-rav-LYA v NYE-bye",
+    "meaning": "một cái chắc chắn trong tay hơn cái to lớn xa vời",
+    "note": "Tục ngữ dân gian khuyên nên hài lòng với cái nhỏ nhưng chắc chắn thay vì mạo hiểm theo đuổi cái lớn nhưng bấp bênh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2492,
+    "ru": "Удача отвернулась",
+    "phonetic": "u-DA-cha at-vyer-NU-las'",
+    "meaning": "vận may quay lưng, hết thời",
+    "note": "Dùng khi ai đó liên tục gặp xui xẻo sau một thời gian dài may mắn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2493,
+    "ru": "Поймать удачу за хвост",
+    "phonetic": "pay-MAT' u-DA-chu za khvost",
+    "meaning": "nắm bắt được vận may, tóm được thời cơ",
+    "note": "Nghĩa đen \"tóm lấy đuôi vận may\", dùng khi ai đó may mắn nắm bắt được cơ hội hiếm có.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2494,
+    "ru": "Госпожа удача",
+    "phonetic": "gas-pa-ZHA u-DA-cha",
+    "meaning": "nàng may mắn, thần may mắn (nhân cách hóa)",
+    "note": "Cách nhân hóa vận may thành một \"quý bà\", thường dùng trong bài hát, văn học Nga khi nói về sự may rủi trong cuộc sống.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2495,
+    "ru": "Чёрная полоса",
+    "phonetic": "CHOR-na-ya pa-la-SA",
+    "meaning": "giai đoạn xui xẻo, vận đen kéo dài",
+    "note": "Nghĩa đen \"vệt đen\", dùng khi ai đó trải qua một chuỗi ngày liên tục gặp chuyện không may.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2496,
+    "ru": "Белая полоса",
+    "phonetic": "BYE-la-ya pa-la-SA",
+    "meaning": "giai đoạn may mắn, vận tốt kéo dài",
+    "note": "Đối lập với \"чёрная полоса\", chỉ giai đoạn thuận lợi, suôn sẻ trong cuộc sống.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2497,
+    "ru": "Везунчик",
+    "phonetic": "vye-ZUN-chik",
+    "meaning": "kẻ số hưởng, người luôn may mắn",
+    "note": "Danh từ thân mật chỉ người luôn gặp may mắn trong mọi việc, đôi khi mang chút ghen tị hài hước.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2498,
+    "ru": "Не искушай судьбу",
+    "phonetic": "nye is-ku-SHAY sud'-BU",
+    "meaning": "đừng thách thức số phận, đừng thử vận may quá đà",
+    "note": "Lời cảnh báo khi ai đó đang làm điều quá liều lĩnh, khuyên nên dừng lại trước khi gặp hậu quả xấu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2499,
+    "ru": "Судьба играет человеком",
+    "phonetic": "sud'-BA ig-RA-yet chye-la-VYE-kam",
+    "meaning": "số phận trêu đùa con người, đời đưa đẩy khó lường",
+    "note": "Câu nói mang tính triết lý, thường xuất hiện trong ca khúc dân gian Nga, nói về sự bất định của số phận.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2500,
+    "ru": "Как звёзды сложатся",
+    "phonetic": "kak ZVYOZ-dy SLO-zhat-sya",
+    "meaning": "tùy theo sao trời sắp đặt, tùy thiên định",
+    "note": "Cách nói ẩn dụ về việc kết quả phụ thuộc vào những yếu tố nằm ngoài tầm kiểm soát, giống như chiêm tinh học.",
+    "category": "idioms_slang"
+  }
+]

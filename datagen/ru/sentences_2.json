@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 201,
+    "ru": "Где регистрация на рейс до Москвы?",
+    "phonetic": "gdye ri-gi-STRA-tsi-ya na ryeys da mas-KVY?",
+    "meaning": "Quầy làm thủ tục cho chuyến bay đi Moskva ở đâu ạ?",
+    "note": "Dùng khi hỏi nhân viên sân bay vị trí quầy check-in, lịch sự với Вы.",
+    "category": "airport"
+  },
+  {
+    "id": 202,
+    "ru": "Во сколько начинается регистрация на рейс?",
+    "phonetic": "va SKOL'-ka na-chi-NA-yet-sya ri-gi-STRA-tsi-ya na ryeys?",
+    "meaning": "Mấy giờ bắt đầu làm thủ tục cho chuyến bay?",
+    "note": "Hỏi giờ mở quầy check-in tại quầy thông tin hoặc màn hình thông báo.",
+    "category": "airport"
+  },
+  {
+    "id": 203,
+    "ru": "Вот мой паспорт и билет.",
+    "phonetic": "vot moy PAS-part i bi-LYET.",
+    "meaning": "Đây là hộ chiếu và vé của tôi.",
+    "note": "Câu nói khi đưa giấy tờ cho nhân viên check-in hoặc hải quan.",
+    "category": "airport"
+  },
+  {
+    "id": 204,
+    "ru": "У меня только ручная кладь.",
+    "phonetic": "u mi-NYA TOL'-ka ruch-NA-ya klad'.",
+    "meaning": "Tôi chỉ có hành lý xách tay thôi.",
+    "note": "Trả lời khi nhân viên hỏi có ký gửi hành lý hay không.",
+    "category": "airport"
+  },
+  {
+    "id": 205,
+    "ru": "Сколько багажа я могу провезти бесплатно?",
+    "phonetic": "SKOL'-ka ba-ga-ZHA ya ma-GU pra-vis-TI bis-PLAT-na?",
+    "meaning": "Tôi được mang miễn phí bao nhiêu kg hành lý?",
+    "note": "Hỏi giới hạn hành lý ký gửi miễn phí ở quầy check-in.",
+    "category": "airport"
+  },
+  {
+    "id": 206,
+    "ru": "Дайте мне, пожалуйста, место у окна.",
+    "phonetic": "DAY-tye mnye, pa-ZHAL-sta, MYES-ta u ak-NA.",
+    "meaning": "Làm ơn cho tôi chỗ ngồi cạnh cửa sổ.",
+    "note": "Yêu cầu chọn chỗ ngồi khi làm thủ tục check-in.",
+    "category": "airport"
+  },
+  {
+    "id": 207,
+    "ru": "Регистрация на этот рейс уже началась?",
+    "phonetic": "ri-gi-STRA-tsi-ya na E-tat ryeys u-ZHE na-chi-LAS'?",
+    "meaning": "Thủ tục check-in cho chuyến bay này bắt đầu chưa?",
+    "note": "Hỏi nhân viên hoặc nhìn màn hình để biết đã mở quầy chưa.",
+    "category": "airport"
+  },
+  {
+    "id": 208,
+    "ru": "Дайте, пожалуйста, посадочный талон.",
+    "phonetic": "DAY-tye, pa-ZHAL-sta, pa-SA-dach-nyy ta-LON.",
+    "meaning": "Làm ơn cho tôi xin thẻ lên máy bay.",
+    "note": "Yêu cầu nhân viên đưa boarding pass sau khi check-in.",
+    "category": "airport"
+  },
+  {
+    "id": 209,
+    "ru": "Можно мне место у прохода?",
+    "phonetic": "MOZH-na mnye MYES-ta u pra-KHO-da?",
+    "meaning": "Tôi xin chỗ ngồi cạnh lối đi được không?",
+    "note": "Yêu cầu đổi loại chỗ ngồi khác cửa sổ.",
+    "category": "airport"
+  },
+  {
+    "id": 210,
+    "ru": "Регистрация уже закрыта?",
+    "phonetic": "ri-gi-STRA-tsi-ya u-ZHE zak-RY-ta?",
+    "meaning": "Quầy check-in đóng rồi phải không?",
+    "note": "Hỏi khi đến trễ, lo sợ lỡ chuyến bay.",
+    "category": "airport"
+  },
+  {
+    "id": 211,
+    "ru": "Снимите, пожалуйста, обувь и ремень.",
+    "phonetic": "sni-MI-tye, pa-ZHAL-sta, O-buv' i ri-MYEN'.",
+    "meaning": "Xin mời cởi giày và tháo thắt lưng.",
+    "note": "Nhân viên an ninh yêu cầu khi qua máy soi.",
+    "category": "airport"
+  },
+  {
+    "id": 212,
+    "ru": "Положите ноутбук отдельно в лоток.",
+    "phonetic": "pa-la-ZHY-tye NAUT-buk ad-DYEL'-na v la-TOK.",
+    "meaning": "Xin để laptop riêng vào khay.",
+    "note": "Hướng dẫn tại khu vực an ninh sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 213,
+    "ru": "У меня в сумке нет жидкостей.",
+    "phonetic": "u mi-NYA v SUM-kye nyet ZHYT-kas-tyey.",
+    "meaning": "Trong túi tôi không có chất lỏng.",
+    "note": "Trả lời nhân viên an ninh khi kiểm tra hành lý xách tay.",
+    "category": "airport"
+  },
+  {
+    "id": 214,
+    "ru": "Можно оставить телефон в кармане?",
+    "phonetic": "MOZH-na as-TA-vit' ti-li-FON v kar-MA-nye?",
+    "meaning": "Tôi có thể để điện thoại trong túi quần được không?",
+    "note": "Hỏi khi qua cổng an ninh, không phải lúc nào cũng được.",
+    "category": "airport"
+  },
+  {
+    "id": 215,
+    "ru": "Пройдите, пожалуйста, через рамку металлоискателя.",
+    "phonetic": "pray-DI-tye, pa-ZHAL-sta, CHE-ryez RAM-ku mye-tal-la-is-KA-ti-lya.",
+    "meaning": "Xin mời đi qua cổng dò kim loại.",
+    "note": "Câu nhân viên an ninh nói khi hướng dẫn hành khách.",
+    "category": "airport"
+  },
+  {
+    "id": 216,
+    "ru": "Это моя ручная кладь.",
+    "phonetic": "E-ta ma-YA ruch-NA-ya klad'.",
+    "meaning": "Đây là hành lý xách tay của tôi.",
+    "note": "Nói khi nhân viên hỏi về túi/vali đang mang theo.",
+    "category": "airport"
+  },
+  {
+    "id": 217,
+    "ru": "Мне нужно снять куртку?",
+    "phonetic": "mnye NUZH-na snyat' KURT-ku?",
+    "meaning": "Tôi có cần cởi áo khoác không?",
+    "note": "Hỏi nhân viên an ninh trước khi qua máy soi.",
+    "category": "airport"
+  },
+  {
+    "id": 218,
+    "ru": "Извините, я забыл вынуть ноутбук.",
+    "phonetic": "iz-vi-NI-tye, ya za-BYL VY-nut' NAUT-buk.",
+    "meaning": "Xin lỗi, tôi quên lấy laptop ra.",
+    "note": "Xin lỗi khi bỏ sót bước lấy laptop ra khỏi túi.",
+    "category": "airport"
+  },
+  {
+    "id": 219,
+    "ru": "Досмотр закончен, можете идти.",
+    "phonetic": "das-MOTR za-KON-chin, MO-zhy-tye it-TI.",
+    "meaning": "Kiểm tra xong rồi, ông/bà có thể đi.",
+    "note": "Câu nhân viên an ninh nói khi hoàn tất kiểm tra.",
+    "category": "airport"
+  },
+  {
+    "id": 220,
+    "ru": "У вас есть запрещённые предметы в багаже?",
+    "phonetic": "u vas yest' za-pri-SHCHYON-ny-ye prid-MYE-ty v ba-ga-ZHE?",
+    "meaning": "Ông/bà có mang đồ vật cấm trong hành lý không?",
+    "note": "Câu hỏi thường gặp của nhân viên hải quan/an ninh.",
+    "category": "airport"
+  },
+  {
+    "id": 221,
+    "ru": "Ваш паспорт и посадочный талон, пожалуйста.",
+    "phonetic": "vash PAS-part i pa-SA-dach-nyy ta-LON, pa-ZHAL-sta.",
+    "meaning": "Xin cho xem hộ chiếu và thẻ lên máy bay.",
+    "note": "Nhân viên kiểm soát biên giới yêu cầu xuất trình giấy tờ.",
+    "category": "airport"
+  },
+  {
+    "id": 222,
+    "ru": "Цель вашей поездки — туризм или бизнес?",
+    "phonetic": "tsel' VA-shey pa-YEZD-ki — tu-RIZM I-li BIZ-nes?",
+    "meaning": "Mục đích chuyến đi của ông/bà là du lịch hay công tác?",
+    "note": "Câu hỏi thường gặp ở cửa kiểm soát hộ chiếu (passport control).",
+    "category": "airport"
+  },
+  {
+    "id": 223,
+    "ru": "Я приехал в командировку.",
+    "phonetic": "ya pri-YE-khal f ka-man-di-ROF-ku.",
+    "meaning": "Tôi đến đây công tác.",
+    "note": "Câu trả lời cho nhân viên xuất nhập cảnh (nam nói); nữ dùng приехала.",
+    "category": "airport"
+  },
+  {
+    "id": 224,
+    "ru": "Сколько дней вы планируете пробыть в России?",
+    "phonetic": "SKOL'-ka dnyey vy pla-NI-ru-yi-tye pra-BYT' v ra-SI-i?",
+    "meaning": "Ông/bà dự định ở lại Nga bao nhiêu ngày?",
+    "note": "Câu hỏi phổ biến của nhân viên biên phòng.",
+    "category": "airport"
+  },
+  {
+    "id": 225,
+    "ru": "Где вы будете жить?",
+    "phonetic": "gdye vy BU-dye-tye zhyt'?",
+    "meaning": "Ông/bà sẽ ở đâu trong thời gian này?",
+    "note": "Nhân viên hỏi nơi lưu trú khi nhập cảnh.",
+    "category": "airport"
+  },
+  {
+    "id": 226,
+    "ru": "Вот адрес гостиницы, где я забронировал номер.",
+    "phonetic": "vot AD-ryes gas-TI-ni-tsy, gdye ya za-bra-ni-RA-val NO-mir.",
+    "meaning": "Đây là địa chỉ khách sạn tôi đã đặt phòng.",
+    "note": "Đưa địa chỉ khi bị hỏi nơi lưu trú; nữ dùng забронировала.",
+    "category": "airport"
+  },
+  {
+    "id": 227,
+    "ru": "У меня есть приглашение от компании.",
+    "phonetic": "u mi-NYA yest' prig-la-SHE-ni-ye at kam-PA-ni-i.",
+    "meaning": "Tôi có thư mời từ công ty.",
+    "note": "Xuất trình thư mời công tác khi được hỏi.",
+    "category": "airport"
+  },
+  {
+    "id": 228,
+    "ru": "Покажите, пожалуйста, вашу визу.",
+    "phonetic": "pa-ka-ZHY-tye, pa-ZHAL-sta, VA-shu VI-zu.",
+    "meaning": "Xin cho xem visa của ông/bà.",
+    "note": "Nhân viên biên phòng yêu cầu xuất trình visa.",
+    "category": "airport"
+  },
+  {
+    "id": 229,
+    "ru": "Мне нужна миграционная карта.",
+    "phonetic": "mnye nuzh-NA mig-ra-tsi-ON-na-ya KAR-ta.",
+    "meaning": "Tôi cần tờ khai di trú (thẻ di cư).",
+    "note": "Nói khi cần xin tờ khai nhập cảnh tại sân bay Nga.",
+    "category": "airport"
+  },
+  {
+    "id": 230,
+    "ru": "Где заполнить миграционную карту?",
+    "phonetic": "gdye za-POL-nit' mig-ra-tsi-ON-nu-yu KAR-tu?",
+    "meaning": "Tôi điền tờ khai di trú ở đâu?",
+    "note": "Hỏi vị trí bàn điền tờ khai nhập cảnh.",
+    "category": "airport"
+  },
+  {
+    "id": 231,
+    "ru": "Что мне нужно декларировать на таможне?",
+    "phonetic": "shto mnye NUZH-na dyk-la-RI-ra-vat' na ta-MOZH-nye?",
+    "meaning": "Tôi cần khai báo gì ở hải quan?",
+    "note": "Hỏi nhân viên hải quan những gì cần khai báo.",
+    "category": "airport"
+  },
+  {
+    "id": 232,
+    "ru": "Мне нечего декларировать.",
+    "phonetic": "mnye NYE-chi-va dyk-la-RI-ra-vat'.",
+    "meaning": "Tôi không có gì phải khai báo.",
+    "note": "Trả lời khi đi qua cổng xanh (không khai báo) ở hải quan.",
+    "category": "airport"
+  },
+  {
+    "id": 233,
+    "ru": "У меня с собой только личные вещи.",
+    "phonetic": "u mi-NYA s sa-BOY TOL'-ka LICH-ny-ye VYE-shchi.",
+    "meaning": "Tôi chỉ mang theo đồ dùng cá nhân.",
+    "note": "Giải thích với hải quan về nội dung hành lý.",
+    "category": "airport"
+  },
+  {
+    "id": 234,
+    "ru": "Это подарки для коллег.",
+    "phonetic": "E-ta pa-DAR-ki dlya kal-LYEG.",
+    "meaning": "Đây là quà tặng cho đồng nghiệp.",
+    "note": "Giải thích khi hải quan hỏi về món đồ mang theo.",
+    "category": "airport"
+  },
+  {
+    "id": 235,
+    "ru": "Добро пожаловать в Россию.",
+    "phonetic": "dab-RO pa-ZHA-la-vat' v ra-SI-yu.",
+    "meaning": "Chào mừng đến với nước Nga.",
+    "note": "Câu nhân viên biên phòng có thể nói sau khi đóng dấu hộ chiếu.",
+    "category": "airport"
+  },
+  {
+    "id": 236,
+    "ru": "Где я могу получить свой багаж?",
+    "phonetic": "gdye ya ma-GU pa-lu-CHIT' svoy ba-GASH?",
+    "meaning": "Tôi lấy hành lý của mình ở đâu?",
+    "note": "Hỏi đường đến khu vực nhận hành lý (baggage claim).",
+    "category": "airport"
+  },
+  {
+    "id": 237,
+    "ru": "Мой чемодан ещё не приехал.",
+    "phonetic": "moy chi-ma-DAN yi-SHCHO nye pri-YE-khal.",
+    "meaning": "Vali của tôi vẫn chưa ra.",
+    "note": "Nói khi chờ lâu ở băng chuyền hành lý.",
+    "category": "airport"
+  },
+  {
+    "id": 238,
+    "ru": "Кажется, мой багаж потерялся.",
+    "phonetic": "KA-zhyt-sya, moy ba-GASH pa-ti-RYAL-sya.",
+    "meaning": "Hình như hành lý của tôi bị thất lạc.",
+    "note": "Báo với nhân viên khi không thấy hành lý sau khi chờ đợi.",
+    "category": "airport"
+  },
+  {
+    "id": 239,
+    "ru": "Вот номер моего багажного талона.",
+    "phonetic": "vot NO-mir ma-yi-VO ba-GAZH-na-va ta-LO-na.",
+    "meaning": "Đây là số phiếu hành lý của tôi.",
+    "note": "Đưa số cuống hành lý khi báo mất hành lý.",
+    "category": "airport"
+  },
+  {
+    "id": 240,
+    "ru": "Сколько стоит провоз лишнего багажа?",
+    "phonetic": "SKOL'-ka STO-it pra-VOS LISH-ni-va ba-ga-ZHA?",
+    "meaning": "Phí hành lý quá cân là bao nhiêu?",
+    "note": "Hỏi khi hành lý vượt định mức miễn phí.",
+    "category": "airport"
+  },
+  {
+    "id": 241,
+    "ru": "У меня перевес багажа?",
+    "phonetic": "u mi-NYA pi-ri-VYES ba-ga-ZHA?",
+    "meaning": "Hành lý của tôi có bị quá cân không?",
+    "note": "Hỏi nhân viên check-in khi lo lắng về trọng lượng vali.",
+    "category": "airport"
+  },
+  {
+    "id": 242,
+    "ru": "Где лента выдачи багажа для рейса из Ханоя?",
+    "phonetic": "gdye LYEN-ta VY-da-chi ba-ga-ZHA dlya RYEY-sa iz kha-NO-ya?",
+    "meaning": "Băng chuyền hành lý cho chuyến bay từ Hà Nội ở đâu?",
+    "note": "Hỏi vị trí băng chuyền hành lý theo chuyến bay cụ thể.",
+    "category": "airport"
+  },
+  {
+    "id": 243,
+    "ru": "Можно сдать этот чемодан отдельно?",
+    "phonetic": "MOZH-na zdat' E-tat chi-ma-DAN ad-DYEL'-na?",
+    "meaning": "Tôi có thể ký gửi riêng chiếc vali này không?",
+    "note": "Hỏi khi muốn gửi thêm kiện hành lý riêng.",
+    "category": "airport"
+  },
+  {
+    "id": 244,
+    "ru": "Моя сумка повреждена.",
+    "phonetic": "ma-YA SUM-ka pav-rizh-di-NA.",
+    "meaning": "Túi/vali của tôi bị hư hỏng.",
+    "note": "Báo với nhân viên khi hành lý bị hỏng sau chuyến bay.",
+    "category": "airport"
+  },
+  {
+    "id": 245,
+    "ru": "Куда обращаться, если багаж не пришёл?",
+    "phonetic": "ku-DA ab-ra-SHCHAT'-sya, YES-li ba-GASH nye pri-SHOL?",
+    "meaning": "Tôi cần liên hệ đâu nếu hành lý không đến?",
+    "note": "Hỏi quầy dịch vụ hành lý thất lạc (lost & found).",
+    "category": "airport"
+  },
+  {
+    "id": 246,
+    "ru": "Это хрупкий предмет, будьте осторожны.",
+    "phonetic": "E-ta KHRUP-kiy prid-MYET, BUT'-tye as-ta-ROZH-ny.",
+    "meaning": "Đây là đồ dễ vỡ, xin cẩn thận.",
+    "note": "Dặn nhân viên khi ký gửi hành lý có đồ dễ vỡ.",
+    "category": "airport"
+  },
+  {
+    "id": 247,
+    "ru": "Мне нужна тележка для багажа.",
+    "phonetic": "mnye nuzh-NA ti-LYESH-ka dlya ba-ga-ZHA.",
+    "meaning": "Tôi cần một xe đẩy hành lý.",
+    "note": "Yêu cầu xe đẩy tại khu vực hành lý.",
+    "category": "airport"
+  },
+  {
+    "id": 248,
+    "ru": "Где камера хранения багажа?",
+    "phonetic": "gdye KA-mi-ra khra-NYE-ni-ya ba-ga-ZHA?",
+    "meaning": "Nơi gửi hành lý (lưu ký) ở đâu?",
+    "note": "Hỏi vị trí quầy gửi hành lý tạm thời.",
+    "category": "airport"
+  },
+  {
+    "id": 249,
+    "ru": "Багаж выдают на третьей ленте.",
+    "phonetic": "ba-GASH vy-da-YUT na TRYE-tyey LYEN-tye.",
+    "meaning": "Hành lý được trả ở băng chuyền số ba.",
+    "note": "Thông báo hoặc trả lời khi hỏi vị trí lấy hành lý.",
+    "category": "airport"
+  },
+  {
+    "id": 250,
+    "ru": "Извините, это не моя сумка.",
+    "phonetic": "iz-vi-NI-tye, E-ta nye ma-YA SUM-ka.",
+    "meaning": "Xin lỗi, đây không phải túi của tôi.",
+    "note": "Nói khi nhầm lẫn hành lý trên băng chuyền.",
+    "category": "airport"
+  },
+  {
+    "id": 251,
+    "ru": "Где выход на посадку номер пять?",
+    "phonetic": "gdye VY-khat na pa-SAT-ku NO-mir pyat'?",
+    "meaning": "Cổng ra máy bay số năm ở đâu?",
+    "note": "Hỏi đường đến gate lên máy bay.",
+    "category": "airport"
+  },
+  {
+    "id": 252,
+    "ru": "Во сколько начинается посадка на рейс?",
+    "phonetic": "va SKOL'-ka na-chi-NA-yet-sya pa-SAT-ka na ryeys?",
+    "meaning": "Mấy giờ bắt đầu lên máy bay?",
+    "note": "Hỏi giờ boarding tại cổng.",
+    "category": "airport"
+  },
+  {
+    "id": 253,
+    "ru": "Наш рейс задерживается?",
+    "phonetic": "nash ryeys zad-DYER-zhy-vi-yet-sya?",
+    "meaning": "Chuyến bay của chúng ta bị hoãn phải không?",
+    "note": "Hỏi khi thấy có dấu hiệu trễ chuyến.",
+    "category": "airport"
+  },
+  {
+    "id": 254,
+    "ru": "На каком табло указано время вылета?",
+    "phonetic": "na ka-KOM tab-LO u-ka-ZA-na VRYE-mya VY-li-ta?",
+    "meaning": "Bảng nào hiển thị giờ khởi hành?",
+    "note": "Hỏi vị trí bảng thông báo giờ bay.",
+    "category": "airport"
+  },
+  {
+    "id": 255,
+    "ru": "Извините, где ближайшее табло вылета?",
+    "phonetic": "iz-vi-NI-tye, gdye bli-ZHAY-shi-ye tab-LO VY-li-ta?",
+    "meaning": "Xin lỗi, bảng thông báo chuyến bay gần nhất ở đâu?",
+    "note": "Hỏi vị trí màn hình thông tin chuyến bay.",
+    "category": "airport"
+  },
+  {
+    "id": 256,
+    "ru": "Рейс отменили из-за погоды.",
+    "phonetic": "ryeys at-mi-NI-li IZ-za pa-GO-dy.",
+    "meaning": "Chuyến bay bị huỷ vì thời tiết.",
+    "note": "Thông tin thường gặp khi có sự cố thời tiết.",
+    "category": "airport"
+  },
+  {
+    "id": 257,
+    "ru": "Это последнее объявление о посадке?",
+    "phonetic": "E-ta pas-LYED-ni-ye ab-yav-LYE-ni-ye a pa-SAT-kye?",
+    "meaning": "Đây là thông báo lên máy bay cuối cùng phải không?",
+    "note": "Hỏi khi nghe loa thông báo boarding cuối.",
+    "category": "airport"
+  },
+  {
+    "id": 258,
+    "ru": "Я успею на стыковочный рейс?",
+    "phonetic": "ya us-PYE-yu na sty-KO-vach-nyy ryeys?",
+    "meaning": "Tôi có kịp chuyến bay nối chuyến không?",
+    "note": "Lo lắng về thời gian transit ngắn.",
+    "category": "airport"
+  },
+  {
+    "id": 259,
+    "ru": "У меня пересадка в Шереметьево.",
+    "phonetic": "u mi-NYA pi-ri-SAT-ka v shy-ri-MYE-tyi-va.",
+    "meaning": "Tôi transit ở sân bay Sheremetyevo.",
+    "note": "Thông báo với nhân viên về điểm nối chuyến.",
+    "category": "airport"
+  },
+  {
+    "id": 260,
+    "ru": "Сколько времени у меня на пересадку?",
+    "phonetic": "SKOL'-ka VRYE-mi-ni u mi-NYA na pi-ri-SAT-ku?",
+    "meaning": "Tôi có bao nhiêu thời gian để nối chuyến?",
+    "note": "Hỏi để tính toán thời gian transit.",
+    "category": "airport"
+  },
+  {
+    "id": 261,
+    "ru": "Где терминал В?",
+    "phonetic": "gdye tir-mi-NAL be?",
+    "meaning": "Nhà ga (terminal) B ở đâu?",
+    "note": "Hỏi hướng đi đến terminal cụ thể.",
+    "category": "airport"
+  },
+  {
+    "id": 262,
+    "ru": "Как пройти к выходу номер двадцать три?",
+    "phonetic": "kak pray-TI k VY-kha-du NO-mir dvat-TSAT' tri?",
+    "meaning": "Đi thế nào đến cổng số hai mươi ba?",
+    "note": "Hỏi đường đến gate cụ thể trong sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 263,
+    "ru": "Это прямой рейс или с пересадкой?",
+    "phonetic": "E-ta pri-MOY ryeys I-li s pi-ri-SAT-kay?",
+    "meaning": "Đây là chuyến bay thẳng hay có nối chuyến?",
+    "note": "Hỏi thông tin về hành trình chuyến bay.",
+    "category": "airport"
+  },
+  {
+    "id": 264,
+    "ru": "Посадка уже закончилась?",
+    "phonetic": "pa-SAT-ka u-ZHE za-KON-chi-las'?",
+    "meaning": "Đã kết thúc lên máy bay chưa?",
+    "note": "Hỏi khi lo sợ đến trễ giờ boarding.",
+    "category": "airport"
+  },
+  {
+    "id": 265,
+    "ru": "Пожалуйста, займите свои места, посадка начинается.",
+    "phonetic": "pa-ZHAL-sta, zay-MI-tye sva-I mi-STA, pa-SAT-ka na-chi-NA-yet-sya.",
+    "meaning": "Xin mời vào chỗ ngồi, chuyến bay bắt đầu lên khách.",
+    "note": "Câu loa thông báo tại cổng lên máy bay.",
+    "category": "airport"
+  },
+  {
+    "id": 266,
+    "ru": "Могу я пересесть на более ранний рейс?",
+    "phonetic": "ma-GU ya pi-ri-SYEST' na BO-li-ye RAN-niy ryeys?",
+    "meaning": "Tôi có thể đổi sang chuyến bay sớm hơn không?",
+    "note": "Hỏi nhân viên về khả năng đổi chuyến bay sớm hơn.",
+    "category": "airport"
+  },
+  {
+    "id": 267,
+    "ru": "Есть свободные места на следующий рейс?",
+    "phonetic": "yest' sva-BOD-ny-ye mi-STA na SLYE-du-yu-shchiy ryeys?",
+    "meaning": "Còn chỗ trống cho chuyến bay kế tiếp không?",
+    "note": "Hỏi khi cần đổi sang chuyến bay khác.",
+    "category": "airport"
+  },
+  {
+    "id": 268,
+    "ru": "Извините, я опаздываю на рейс, что мне делать?",
+    "phonetic": "iz-vi-NI-tye, ya a-PAZ-dy-va-yu na ryeys, shto mnye DYE-lat'?",
+    "meaning": "Xin lỗi, tôi đang trễ chuyến bay, tôi phải làm gì?",
+    "note": "Nói khi lo lắng sắp lỡ chuyến bay, cần trợ giúp gấp.",
+    "category": "airport"
+  },
+  {
+    "id": 269,
+    "ru": "Где можно распечатать посадочный талон?",
+    "phonetic": "gdye MOZH-na ras-pi-CHA-tat' pa-SA-dach-nyy ta-LON?",
+    "meaning": "Tôi in thẻ lên máy bay ở đâu?",
+    "note": "Hỏi vị trí máy in boarding pass tự động.",
+    "category": "airport"
+  },
+  {
+    "id": 270,
+    "ru": "Наш рейс задержан на два часа.",
+    "phonetic": "nash ryeys zad-DYER-zhan na dva chi-SA.",
+    "meaning": "Chuyến bay của chúng ta bị hoãn hai tiếng.",
+    "note": "Thông báo về thời gian trễ chuyến.",
+    "category": "airport"
+  },
+  {
+    "id": 271,
+    "ru": "Где здесь туалет?",
+    "phonetic": "gdye zdyes' tu-a-LYET?",
+    "meaning": "Nhà vệ sinh ở đâu?",
+    "note": "Câu hỏi cơ bản, dùng ở bất cứ đâu trong sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 272,
+    "ru": "Где можно поменять валюту в аэропорту?",
+    "phonetic": "gdye MOZH-na pa-mi-NYAT' va-LYU-tu v a-e-ra-par-TU?",
+    "meaning": "Tôi đổi ngoại tệ ở đâu trong sân bay?",
+    "note": "Hỏi vị trí quầy đổi tiền trong sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 273,
+    "ru": "Где ближайший банкомат?",
+    "phonetic": "gdye bli-ZHAY-shiy ban-ka-MAT?",
+    "meaning": "Cây ATM gần nhất ở đâu?",
+    "note": "Hỏi vị trí máy rút tiền gần nhất.",
+    "category": "airport"
+  },
+  {
+    "id": 274,
+    "ru": "Здесь есть беспроводной интернет?",
+    "phonetic": "zdyes' yest' bis-pra-vad-NOY in-tir-NYET?",
+    "meaning": "Ở đây có wifi không?",
+    "note": "Hỏi về mạng không dây miễn phí trong sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 275,
+    "ru": "Где зона беспошлинной торговли?",
+    "phonetic": "gdye ZO-na bis-POSH-lin-nay targ-OV-li?",
+    "meaning": "Khu miễn thuế (duty free) ở đâu?",
+    "note": "Hỏi đường đến khu mua sắm miễn thuế.",
+    "category": "airport"
+  },
+  {
+    "id": 276,
+    "ru": "Сколько стоит эта бутылка вина в магазине беспошлинной торговли?",
+    "phonetic": "SKOL'-ka STO-it E-ta bu-TYL-ka vi-NA v ma-ga-ZI-nye bis-POSH-lin-nay targ-OV-li?",
+    "meaning": "Chai rượu vang này giá bao nhiêu ở cửa hàng duty free?",
+    "note": "Hỏi giá khi mua sắm ở khu miễn thuế.",
+    "category": "airport"
+  },
+  {
+    "id": 277,
+    "ru": "Где можно перекусить перед вылетом?",
+    "phonetic": "gdye MOZH-na pi-ri-ku-SIT' PYE-rid VY-li-tam?",
+    "meaning": "Tôi ăn nhẹ ở đâu trước khi bay?",
+    "note": "Hỏi vị trí quán ăn trong khu vực chờ.",
+    "category": "airport"
+  },
+  {
+    "id": 278,
+    "ru": "Есть здесь зал ожидания для пассажиров бизнес-класса?",
+    "phonetic": "yest' zdyes' zal a-zhy-DA-ni-ya dlya pas-sa-ZHY-raf BIZ-nes-KLA-sa?",
+    "meaning": "Ở đây có phòng chờ hạng thương gia không?",
+    "note": "Hỏi về phòng chờ business lounge.",
+    "category": "airport"
+  },
+  {
+    "id": 279,
+    "ru": "Где стоянка такси у аэропорта?",
+    "phonetic": "gdye sta-YAN-ka tak-SI u a-e-ra-PORT-a?",
+    "meaning": "Bãi đỗ taxi của sân bay ở đâu?",
+    "note": "Hỏi đường ra khu vực đón taxi.",
+    "category": "airport"
+  },
+  {
+    "id": 280,
+    "ru": "Как добраться до города из аэропорта?",
+    "phonetic": "kak dab-RAT'-sya da GO-ra-da iz a-e-ra-par-TA?",
+    "meaning": "Từ sân bay vào trung tâm thành phố đi thế nào?",
+    "note": "Hỏi phương tiện di chuyển từ sân bay vào thành phố.",
+    "category": "airport"
+  },
+  {
+    "id": 281,
+    "ru": "Есть ли автобус до центра города?",
+    "phonetic": "YEST'-li af-TO-bus da TSENT-ra GO-ra-da?",
+    "meaning": "Có xe buýt vào trung tâm thành phố không?",
+    "note": "Hỏi về phương tiện công cộng từ sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 282,
+    "ru": "Где можно взять машину напрокат?",
+    "phonetic": "gdye MOZH-na vzyat' ma-SHY-nu na-pra-KAT?",
+    "meaning": "Tôi thuê xe ô tô ở đâu?",
+    "note": "Hỏi quầy thuê xe tự lái tại sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 283,
+    "ru": "Извините, где справочная служба аэропорта?",
+    "phonetic": "iz-vi-NI-tye, gdye SPRA-vach-na-ya SLUZH-ba a-e-ra-PORT-a?",
+    "meaning": "Xin lỗi, quầy thông tin của sân bay ở đâu?",
+    "note": "Hỏi vị trí quầy hỗ trợ thông tin chung.",
+    "category": "airport"
+  },
+  {
+    "id": 284,
+    "ru": "Мне нужна помощь с инвалидным креслом.",
+    "phonetic": "mnye nuzh-NA PO-mashch s in-va-LID-nym KRYES-lam.",
+    "meaning": "Tôi cần hỗ trợ xe lăn.",
+    "note": "Yêu cầu hỗ trợ đặc biệt cho người khuyết tật hoặc di chuyển khó khăn.",
+    "category": "airport"
+  },
+  {
+    "id": 285,
+    "ru": "Где можно зарядить телефон?",
+    "phonetic": "gdye MOZH-na za-ri-DIT' ti-li-FON?",
+    "meaning": "Tôi sạc điện thoại ở đâu?",
+    "note": "Hỏi vị trí ổ cắm điện công cộng trong sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 286,
+    "ru": "Здесь есть медпункт?",
+    "phonetic": "zdyes' yest' myet-PUNKT?",
+    "meaning": "Ở đây có phòng y tế không?",
+    "note": "Hỏi khi cần hỗ trợ y tế khẩn cấp.",
+    "category": "airport"
+  },
+  {
+    "id": 287,
+    "ru": "За сколько часов до вылета нужно быть в аэропорту?",
+    "phonetic": "za SKOL'-ka chi-SOF da VY-li-ta NUZH-na byt' v a-e-ra-par-TU?",
+    "meaning": "Cần có mặt ở sân bay trước giờ bay bao nhiêu tiếng?",
+    "note": "Hỏi để chuẩn bị thời gian ra sân bay hợp lý.",
+    "category": "airport"
+  },
+  {
+    "id": 288,
+    "ru": "Спасибо за помощь, счастливого пути!",
+    "phonetic": "spa-SI-ba za PO-mashch, shchis-LI-va-va pu-TI!",
+    "meaning": "Cảm ơn đã giúp đỡ, chúc thượng lộ bình an!",
+    "note": "Lời cảm ơn và chúc tạm biệt nhân viên sân bay.",
+    "category": "airport"
+  },
+  {
+    "id": 289,
+    "ru": "Приятного полёта!",
+    "phonetic": "pri-YAT-na-va pa-LYO-ta!",
+    "meaning": "Chúc chuyến bay tốt lành!",
+    "note": "Câu chúc phổ biến trước khi lên máy bay.",
+    "category": "airport"
+  },
+  {
+    "id": 290,
+    "ru": "Спасибо за информацию, до свидания.",
+    "phonetic": "spa-SI-ba za in-far-MA-tsi-yu, da svi-DA-ni-ya.",
+    "meaning": "Cảm ơn thông tin, tạm biệt.",
+    "note": "Lời cảm ơn và chào tạm biệt lịch sự.",
+    "category": "airport"
+  },
+  {
+    "id": 291,
+    "ru": "Где можно купить сим-карту?",
+    "phonetic": "gdye MOZH-na ku-PIT' sim-KAR-tu?",
+    "meaning": "Tôi mua sim điện thoại ở đâu?",
+    "note": "Hỏi vị trí cửa hàng bán sim khi mới đến Nga.",
+    "category": "telecom"
+  },
+  {
+    "id": 292,
+    "ru": "Мне нужна сим-карта с интернетом.",
+    "phonetic": "mnye nuzh-NA sim-KAR-ta s in-tir-NYE-tam.",
+    "meaning": "Tôi cần sim có gói data internet.",
+    "note": "Nói với nhân viên bán sim về nhu cầu dùng mạng.",
+    "category": "telecom"
+  },
+  {
+    "id": 293,
+    "ru": "Сколько стоит сим-карта на две недели?",
+    "phonetic": "SKOL'-ka STO-it sim-KAR-ta na dvye ni-DYE-li?",
+    "meaning": "Sim dùng trong hai tuần giá bao nhiêu?",
+    "note": "Hỏi giá gói sim theo thời gian công tác ngắn ngày.",
+    "category": "telecom"
+  },
+  {
+    "id": 294,
+    "ru": "У вас есть тариф с безлимитным интернетом?",
+    "phonetic": "u vas yest' ta-RIF s biz-li-MIT-nym in-tir-NYE-tam?",
+    "meaning": "Có gói cước internet không giới hạn không?",
+    "note": "Hỏi về gói cước data không giới hạn.",
+    "category": "telecom"
+  },
+  {
+    "id": 295,
+    "ru": "Нужен ли паспорт, чтобы купить сим-карту?",
+    "phonetic": "NU-zhyn li PAS-part, SHTO-by ku-PIT' sim-KAR-tu?",
+    "meaning": "Mua sim có cần hộ chiếu không?",
+    "note": "Ở Nga mua sim thường phải xuất trình hộ chiếu, nên hỏi trước.",
+    "category": "telecom"
+  },
+  {
+    "id": 296,
+    "ru": "Как активировать эту сим-карту?",
+    "phonetic": "kak ak-ti-VI-ra-vat' E-tu sim-KAR-tu?",
+    "meaning": "Kích hoạt sim này thế nào?",
+    "note": "Hỏi hướng dẫn kích hoạt sim mới mua.",
+    "category": "telecom"
+  },
+  {
+    "id": 297,
+    "ru": "У вас есть Wi-Fi?",
+    "phonetic": "u vas yest' vay-FAY?",
+    "meaning": "Ở đây có wifi không?",
+    "note": "Câu hỏi phổ biến ở khách sạn, quán cà phê.",
+    "category": "telecom"
+  },
+  {
+    "id": 298,
+    "ru": "Какой пароль от Wi-Fi?",
+    "phonetic": "ka-KOY pa-ROL' at vay-FAY?",
+    "meaning": "Mật khẩu wifi là gì?",
+    "note": "Hỏi mật khẩu để kết nối mạng không dây.",
+    "category": "telecom"
+  },
+  {
+    "id": 299,
+    "ru": "Как подключиться к беспроводной сети?",
+    "phonetic": "kak pad-klyu-CHIT'-sya k bis-pra-vad-NOY SYE-ti?",
+    "meaning": "Kết nối vào mạng không dây thế nào?",
+    "note": "Hỏi cách thức kết nối khi gặp khó khăn kỹ thuật.",
+    "category": "telecom"
+  },
+  {
+    "id": 300,
+    "ru": "Интернет очень медленный, есть другая сеть?",
+    "phonetic": "in-tir-NYET O-chin' MYED-lin-nyy, yest' dru-GA-ya syet'?",
+    "meaning": "Mạng chậm quá, có mạng khác không?",
+    "note": "Phàn nàn lịch sự khi wifi chậm, hỏi có mạng thay thế.",
+    "category": "telecom"
+  },
+  {
+    "id": 301,
+    "ru": "Wi-Fi не работает, вы можете проверить?",
+    "phonetic": "vay-FAY nye ra-BO-ta-yet, vy MO-zhy-tye pra-VYE-rit'?",
+    "meaning": "Wifi không hoạt động, anh/chị kiểm tra giúp được không?",
+    "note": "Nhờ nhân viên khách sạn/quán kiểm tra sự cố mạng.",
+    "category": "telecom"
+  },
+  {
+    "id": 302,
+    "ru": "У вас есть зарядка для телефона?",
+    "phonetic": "u vas yest' za-RYAT-ka dlya ti-li-FO-na?",
+    "meaning": "Anh/chị có sạc điện thoại không?",
+    "note": "Hỏi mượn dây/cục sạc điện thoại.",
+    "category": "telecom"
+  },
+  {
+    "id": 303,
+    "ru": "Где здесь можно зарядить телефон?",
+    "phonetic": "gdye zdyes' MOZH-na za-ri-DIT' ti-li-FON?",
+    "meaning": "Ở đây sạc điện thoại ở đâu?",
+    "note": "Hỏi vị trí ổ cắm điện công cộng.",
+    "category": "telecom"
+  },
+  {
+    "id": 304,
+    "ru": "У меня почти сел телефон.",
+    "phonetic": "u mi-NYA POCH-ti syel ti-li-FON.",
+    "meaning": "Điện thoại của tôi sắp hết pin rồi.",
+    "note": "Giải thích lý do cần tìm chỗ sạc pin gấp.",
+    "category": "telecom"
+  },
+  {
+    "id": 305,
+    "ru": "У вас есть переходник для розетки?",
+    "phonetic": "u vas yest' pi-ri-KHOD-nik dlya ra-ZYET-ki?",
+    "meaning": "Anh/chị có adapter ổ cắm điện không?",
+    "note": "Hỏi mượn phích chuyển đổi ổ điện (chuẩn Nga khác VN).",
+    "category": "telecom"
+  },
+  {
+    "id": 306,
+    "ru": "Мой телефон не заряжается.",
+    "phonetic": "moy ti-li-FON nye za-ri-ZHA-yet-sya.",
+    "meaning": "Điện thoại của tôi không sạc được.",
+    "note": "Báo sự cố khi cần hỗ trợ kỹ thuật hoặc mua sạc mới.",
+    "category": "telecom"
+  },
+  {
+    "id": 307,
+    "ru": "Как позвонить на этот номер из России?",
+    "phonetic": "kak paz-va-NIT' na E-tat NO-mir iz ra-SI-i?",
+    "meaning": "Gọi đến số này từ Nga thế nào?",
+    "note": "Hỏi cách gọi điện quốc tế hoặc nội địa.",
+    "category": "telecom"
+  },
+  {
+    "id": 308,
+    "ru": "Можно позвонить с вашего телефона?",
+    "phonetic": "MOZH-na paz-va-NIT' s VA-shy-va ti-li-FO-na?",
+    "meaning": "Tôi có thể gọi nhờ điện thoại của anh/chị không?",
+    "note": "Xin phép mượn điện thoại gọi khi khẩn cấp.",
+    "category": "telecom"
+  },
+  {
+    "id": 309,
+    "ru": "Как позвонить во Вьетнам?",
+    "phonetic": "kak paz-va-NIT' va vyet-NAM?",
+    "meaning": "Gọi về Việt Nam thế nào?",
+    "note": "Hỏi mã vùng/cách quay số quốc tế về Việt Nam.",
+    "category": "telecom"
+  },
+  {
+    "id": 310,
+    "ru": "Мне нужно пополнить баланс на телефоне.",
+    "phonetic": "mnye NUZH-na pa-POL-nit' ba-LANS na ti-li-FO-nye.",
+    "meaning": "Tôi cần nạp tiền vào tài khoản điện thoại.",
+    "note": "Nói khi cần nạp thêm tiền cho sim.",
+    "category": "telecom"
+  },
+  {
+    "id": 311,
+    "ru": "Где можно пополнить счёт?",
+    "phonetic": "gdye MOZH-na pa-POL-nit' shchot?",
+    "meaning": "Tôi nạp tiền điện thoại ở đâu?",
+    "note": "Hỏi địa điểm nạp tiền (cửa hàng, máy tự động, ATM).",
+    "category": "telecom"
+  },
+  {
+    "id": 312,
+    "ru": "Какой код нужно набрать для международного звонка?",
+    "phonetic": "ka-KOY kot NUZH-na naB-RAT' dlya myezh-du-na-ROD-na-va zvan-KA?",
+    "meaning": "Cần bấm mã nào để gọi quốc tế?",
+    "note": "Hỏi mã quay số cho cuộc gọi quốc tế.",
+    "category": "telecom"
+  },
+  {
+    "id": 313,
+    "ru": "Мобильный интернет здесь не ловит.",
+    "phonetic": "ma-BIL'-nyy in-tir-NYET zdyes' nye LO-vit.",
+    "meaning": "Ở đây mạng di động không bắt được sóng.",
+    "note": "Than phiền về việc mất sóng data khu vực đang đứng.",
+    "category": "telecom"
+  },
+  {
+    "id": 314,
+    "ru": "Связь очень плохая в этом районе.",
+    "phonetic": "svyaz' O-chin' pla-KHA-ya v E-tam ra-YO-nye.",
+    "meaning": "Sóng điện thoại ở khu vực này rất kém.",
+    "note": "Nhận xét về chất lượng sóng di động.",
+    "category": "telecom"
+  },
+  {
+    "id": 315,
+    "ru": "Извините, я не расслышал, повторите, пожалуйста.",
+    "phonetic": "iz-vi-NI-tye, ya nye ras-LY-shal, paf-ta-RI-tye, pa-ZHAL-sta.",
+    "meaning": "Xin lỗi, tôi không nghe rõ, làm ơn nhắc lại.",
+    "note": "Nói khi nghe điện thoại không rõ, cần người kia lặp lại.",
+    "category": "telecom"
+  },
+  {
+    "id": 316,
+    "ru": "Пришлите мне, пожалуйста, сообщение.",
+    "phonetic": "prish-LI-tye mnye, pa-ZHAL-sta, sa-ap-SHCHE-ni-ye.",
+    "meaning": "Làm ơn nhắn tin cho tôi.",
+    "note": "Đề nghị đối phương gửi tin nhắn thay vì gọi.",
+    "category": "telecom"
+  },
+  {
+    "id": 317,
+    "ru": "Я напишу вам в WhatsApp.",
+    "phonetic": "ya na-pi-SHU vam v vats-AP.",
+    "meaning": "Tôi sẽ nhắn cho anh/chị qua WhatsApp.",
+    "note": "Thông báo kênh liên lạc sẽ dùng, phổ biến ở Nga và quốc tế.",
+    "category": "telecom"
+  },
+  {
+    "id": 318,
+    "ru": "У вас есть Telegram?",
+    "phonetic": "u vas yest' ti-lig-RAM?",
+    "meaning": "Anh/chị có dùng Telegram không?",
+    "note": "Hỏi kênh liên lạc phổ biến nhất ở Nga.",
+    "category": "telecom"
+  },
+  {
+    "id": 319,
+    "ru": "Дайте, пожалуйста, ваш номер телефона.",
+    "phonetic": "DAY-tye, pa-ZHAL-sta, vash NO-mir ti-li-FO-na.",
+    "meaning": "Làm ơn cho tôi xin số điện thoại của anh/chị.",
+    "note": "Xin số điện thoại đối tác/khách hàng lịch sự.",
+    "category": "telecom"
+  },
+  {
+    "id": 320,
+    "ru": "Вот мой номер телефона.",
+    "phonetic": "vot moy NO-mir ti-li-FO-na.",
+    "meaning": "Đây là số điện thoại của tôi.",
+    "note": "Đưa số điện thoại cho người khác.",
+    "category": "telecom"
+  },
+  {
+    "id": 321,
+    "ru": "Перезвоните мне позже, пожалуйста.",
+    "phonetic": "pi-riz-va-NI-tye mnye PAZH-zhe, pa-ZHAL-sta.",
+    "meaning": "Làm ơn gọi lại cho tôi sau.",
+    "note": "Yêu cầu gọi lại khi hiện không tiện nói chuyện.",
+    "category": "telecom"
+  },
+  {
+    "id": 322,
+    "ru": "У меня закончились деньги на счету.",
+    "phonetic": "u mi-NYA za-KON-chi-lis' DYEN'-gi na shchi-TU.",
+    "meaning": "Tài khoản điện thoại của tôi hết tiền rồi.",
+    "note": "Giải thích lý do không gọi/nhắn được.",
+    "category": "telecom"
+  },
+  {
+    "id": 323,
+    "ru": "Как проверить баланс на телефоне?",
+    "phonetic": "kak pra-VYE-rit' ba-LANS na ti-li-FO-nye?",
+    "meaning": "Kiểm tra số dư tài khoản điện thoại thế nào?",
+    "note": "Hỏi cú pháp hoặc cách kiểm tra tiền còn lại trong sim.",
+    "category": "telecom"
+  },
+  {
+    "id": 324,
+    "ru": "Роуминг здесь работает?",
+    "phonetic": "RO-uming zdyes' ra-BO-ta-yet?",
+    "meaning": "Ở đây có dùng được roaming không?",
+    "note": "Hỏi về khả năng chuyển vùng quốc tế của sim Việt Nam.",
+    "category": "telecom"
+  },
+  {
+    "id": 325,
+    "ru": "Сколько стоит роуминг в этой стране?",
+    "phonetic": "SKOL'-ka STO-it RO-uming v E-tay stra-NYE?",
+    "meaning": "Cước roaming ở nước này giá bao nhiêu?",
+    "note": "Hỏi cước phí chuyển vùng quốc tế.",
+    "category": "telecom"
+  },
+  {
+    "id": 326,
+    "ru": "Мне нужно отключить роуминг.",
+    "phonetic": "mnye NUZH-na at-klyu-CHIT' RO-uming.",
+    "meaning": "Tôi cần tắt roaming.",
+    "note": "Yêu cầu tắt dịch vụ chuyển vùng để tránh phát sinh cước.",
+    "category": "telecom"
+  },
+  {
+    "id": 327,
+    "ru": "Батарея почти разряжена, у вас есть повербанк?",
+    "phonetic": "ba-ta-RYE-ya POCH-ti raz-ri-ZHE-na, u vas yest' PO-vyer-bank?",
+    "meaning": "Pin sắp hết rồi, anh/chị có sạc dự phòng không?",
+    "note": "Hỏi mượn pin sạc dự phòng khẩn cấp.",
+    "category": "telecom"
+  },
+  {
+    "id": 328,
+    "ru": "У вас есть беспроводная зарядка?",
+    "phonetic": "u vas yest' bis-pra-vad-NA-ya za-RYAT-ka?",
+    "meaning": "Anh/chị có sạc không dây không?",
+    "note": "Hỏi mượn sạc không dây (wireless charger).",
+    "category": "telecom"
+  },
+  {
+    "id": 329,
+    "ru": "Извините, у меня нет сигнала.",
+    "phonetic": "iz-vi-NI-tye, u mi-NYA nyet sig-NA-la.",
+    "meaning": "Xin lỗi, tôi không có sóng.",
+    "note": "Giải thích khi không liên lạc được do mất sóng.",
+    "category": "telecom"
+  },
+  {
+    "id": 330,
+    "ru": "Соединение постоянно обрывается.",
+    "phonetic": "sa-yi-di-NYE-ni-ye pas-ta-YAN-na ab-ry-VA-yet-sya.",
+    "meaning": "Kết nối cứ bị ngắt liên tục.",
+    "note": "Phàn nàn về chất lượng mạng/cuộc gọi không ổn định.",
+    "category": "telecom"
+  },
+  {
+    "id": 331,
+    "ru": "Напомните, пожалуйста, пароль от Wi-Fi ещё раз.",
+    "phonetic": "na-pam-NI-tye, pa-ZHAL-sta, pa-ROL' at vay-FAY yi-SHCHO ras.",
+    "meaning": "Làm ơn nhắc lại mật khẩu wifi lần nữa.",
+    "note": "Hỏi lại mật khẩu wifi khi quên.",
+    "category": "telecom"
+  },
+  {
+    "id": 332,
+    "ru": "Я не могу подключиться к интернету.",
+    "phonetic": "ya nye ma-GU pad-klyu-CHIT'-sya k in-tir-NYE-tu.",
+    "meaning": "Tôi không kết nối được internet.",
+    "note": "Báo sự cố kỹ thuật khi không vào mạng được.",
+    "category": "telecom"
+  },
+  {
+    "id": 333,
+    "ru": "У меня разбился экран телефона, где можно починить?",
+    "phonetic": "u mi-NYA raz-BIL-sya ek-RAN ti-li-FO-na, gdye MOZH-na pa-chi-NIT'?",
+    "meaning": "Màn hình điện thoại tôi bị vỡ, sửa ở đâu được?",
+    "note": "Hỏi địa chỉ sửa chữa điện thoại.",
+    "category": "telecom"
+  },
+  {
+    "id": 334,
+    "ru": "Где ближайший салон связи?",
+    "phonetic": "gdye bli-ZHAY-shiy sa-LON svya-ZI?",
+    "meaning": "Cửa hàng viễn thông gần nhất ở đâu?",
+    "note": "Hỏi vị trí cửa hàng bán sim, phụ kiện điện thoại.",
+    "category": "telecom"
+  },
+  {
+    "id": 335,
+    "ru": "У вас продаются наушники?",
+    "phonetic": "u vas pra-da-YUT-sya na-USH-ni-ki?",
+    "meaning": "Ở đây có bán tai nghe không?",
+    "note": "Hỏi mua tai nghe tại cửa hàng.",
+    "category": "telecom"
+  },
+  {
+    "id": 336,
+    "ru": "Мне нужен новый кабель для зарядки.",
+    "phonetic": "mnye NU-zhyn NO-vyy KA-bil' dlya za-RYAT-ki.",
+    "meaning": "Tôi cần một dây sạc mới.",
+    "note": "Nói khi cần mua dây sạc thay thế.",
+    "category": "telecom"
+  },
+  {
+    "id": 337,
+    "ru": "Я забыл зарядное устройство в отеле.",
+    "phonetic": "ya za-BYL za-RYAD-na-ye ust-ROY-stva v a-TE-lye.",
+    "meaning": "Tôi để quên bộ sạc ở khách sạn.",
+    "note": "Giải thích lý do cần mua/mượn sạc mới.",
+    "category": "telecom"
+  },
+  {
+    "id": 338,
+    "ru": "Вы можете помочь настроить интернет на телефоне?",
+    "phonetic": "vy MO-zhy-tye pa-MOCH' nast-RO-it' in-tir-NYET na ti-li-FO-nye?",
+    "meaning": "Anh/chị giúp tôi cài đặt mạng trên điện thoại được không?",
+    "note": "Nhờ hỗ trợ cấu hình internet/APN trên máy.",
+    "category": "telecom"
+  },
+  {
+    "id": 339,
+    "ru": "Напишите мне, пожалуйста, когда будете свободны.",
+    "phonetic": "na-pi-SHY-tye mnye, pa-ZHAL-sta, kag-DA BU-di-tye sva-BOD-ny.",
+    "meaning": "Làm ơn nhắn cho tôi khi nào anh/chị rảnh.",
+    "note": "Đề nghị liên lạc lại khi tiện, dùng qua tin nhắn.",
+    "category": "telecom"
+  },
+  {
+    "id": 340,
+    "ru": "Спасибо, теперь всё работает.",
+    "phonetic": "spa-SI-ba, ti-PYER' vsyo ra-BO-ta-yet.",
+    "meaning": "Cảm ơn, giờ mọi thứ hoạt động rồi.",
+    "note": "Cảm ơn sau khi được hỗ trợ khắc phục sự cố xong.",
+    "category": "telecom"
+  },
+  {
+    "id": 341,
+    "ru": "Где можно обменять валюту?",
+    "phonetic": "gdye MOZH-na ab-mi-NYAT' va-LYU-tu?",
+    "meaning": "Tôi đổi ngoại tệ ở đâu?",
+    "note": "Hỏi vị trí quầy đổi tiền.",
+    "category": "bank_money"
+  },
+  {
+    "id": 342,
+    "ru": "Какой сегодня курс доллара к рублю?",
+    "phonetic": "ka-KOY si-VOD-nya kurs DOL-la-ra k rub-LYU?",
+    "meaning": "Tỷ giá đô la so với rúp hôm nay là bao nhiêu?",
+    "note": "Hỏi tỷ giá hối đoái hiện tại.",
+    "category": "bank_money"
+  },
+  {
+    "id": 343,
+    "ru": "Я хочу обменять доллары на рубли.",
+    "phonetic": "ya kha-CHU ab-mi-NYAT' DOL-la-ry na rub-LI.",
+    "meaning": "Tôi muốn đổi đô la sang rúp.",
+    "note": "Nói với nhân viên quầy đổi tiền.",
+    "category": "bank_money"
+  },
+  {
+    "id": 344,
+    "ru": "Сколько рублей я получу за сто долларов?",
+    "phonetic": "SKOL'-ka rub-LYEY ya pa-lu-CHU za sto DOL-la-raf?",
+    "meaning": "Tôi sẽ nhận bao nhiêu rúp cho một trăm đô la?",
+    "note": "Hỏi số tiền quy đổi cụ thể.",
+    "category": "bank_money"
+  },
+  {
+    "id": 345,
+    "ru": "Здесь есть комиссия за обмен валюты?",
+    "phonetic": "zdyes' yest' ka-MI-si-ya za ab-MYEN va-LYU-ty?",
+    "meaning": "Ở đây có tính phí đổi tiền không?",
+    "note": "Hỏi trước về phí dịch vụ đổi ngoại tệ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 346,
+    "ru": "Где ближайший обменный пункт?",
+    "phonetic": "gdye bli-ZHAY-shiy ab-MYEN-nyy punkt?",
+    "meaning": "Điểm đổi tiền gần nhất ở đâu?",
+    "note": "Hỏi đường đến quầy đổi ngoại tệ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 347,
+    "ru": "Где здесь банкомат?",
+    "phonetic": "gdye zdyes' ban-ka-MAT?",
+    "meaning": "Ở đây có cây ATM ở đâu?",
+    "note": "Hỏi vị trí máy rút tiền tự động.",
+    "category": "bank_money"
+  },
+  {
+    "id": 348,
+    "ru": "Этот банкомат принимает иностранные карты?",
+    "phonetic": "E-tat ban-ka-MAT pri-ni-MA-yet in-nast-RAN-ny-ye KAR-ty?",
+    "meaning": "Cây ATM này có chấp nhận thẻ nước ngoài không?",
+    "note": "Hỏi trước khi thử rút tiền bằng thẻ quốc tế.",
+    "category": "bank_money"
+  },
+  {
+    "id": 349,
+    "ru": "Я хочу снять наличные с карты.",
+    "phonetic": "ya kha-CHU snyat' na-LICH-ny-ye s KAR-ty.",
+    "meaning": "Tôi muốn rút tiền mặt từ thẻ.",
+    "note": "Nói khi thao tác rút tiền tại quầy giao dịch ngân hàng.",
+    "category": "bank_money"
+  },
+  {
+    "id": 350,
+    "ru": "Какая максимальная сумма снятия за один раз?",
+    "phonetic": "ka-KA-ya mak-si-MAL'-na-ya SUM-ma SNYA-ti-ya za a-DIN ras?",
+    "meaning": "Số tiền rút tối đa một lần là bao nhiêu?",
+    "note": "Hỏi giới hạn rút tiền mỗi lần giao dịch.",
+    "category": "bank_money"
+  },
+  {
+    "id": 351,
+    "ru": "Банкомат не выдаёт деньги, что делать?",
+    "phonetic": "ban-ka-MAT nye vy-da-YOT DYEN'-gi, shto DYE-lat'?",
+    "meaning": "Máy ATM không nhả tiền, tôi phải làm gì?",
+    "note": "Báo sự cố khi máy ATM gặp trục trặc.",
+    "category": "bank_money"
+  },
+  {
+    "id": 352,
+    "ru": "Моя карта застряла в банкомате.",
+    "phonetic": "ma-YA KAR-ta zast-RYA-la v ban-ka-MA-tye.",
+    "meaning": "Thẻ của tôi bị kẹt trong máy ATM.",
+    "note": "Báo sự cố khẩn cấp, cần gọi ngân hàng hỗ trợ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 353,
+    "ru": "У вас принимают карты Visa?",
+    "phonetic": "u vas pri-ni-MA-yut KAR-ty VI-za?",
+    "meaning": "Ở đây có nhận thẻ Visa không?",
+    "note": "Hỏi trước khi thanh toán bằng thẻ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 354,
+    "ru": "У вас принимают Mastercard?",
+    "phonetic": "u vas pri-ni-MA-yut MAS-tyer-kart?",
+    "meaning": "Ở đây có nhận thẻ Mastercard không?",
+    "note": "Hỏi trước khi thanh toán bằng thẻ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 355,
+    "ru": "Можно расплатиться картой?",
+    "phonetic": "MOZH-na ras-pla-TIT'-sya KAR-tay?",
+    "meaning": "Tôi thanh toán bằng thẻ được không?",
+    "note": "Hỏi khả năng thanh toán thẻ tại cửa hàng, quán ăn.",
+    "category": "bank_money"
+  },
+  {
+    "id": 356,
+    "ru": "Вы принимаете бесконтактную оплату?",
+    "phonetic": "vy pri-ni-MA-yi-tye bis-kan-TAKT-nu-yu ap-LA-tu?",
+    "meaning": "Anh/chị có nhận thanh toán không tiếp xúc không?",
+    "note": "Hỏi về hình thức thanh toán chạm thẻ/điện thoại.",
+    "category": "bank_money"
+  },
+  {
+    "id": 357,
+    "ru": "Извините, у нас только наличные.",
+    "phonetic": "iz-vi-NI-tye, u nas TOL'-ka na-LICH-ny-ye.",
+    "meaning": "Xin lỗi, chúng tôi chỉ nhận tiền mặt.",
+    "note": "Câu nhân viên cửa hàng có thể nói khi không nhận thẻ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 358,
+    "ru": "Дайте, пожалуйста, чек.",
+    "phonetic": "DAY-tye, pa-ZHAL-sta, chek.",
+    "meaning": "Làm ơn cho tôi xin hóa đơn.",
+    "note": "Yêu cầu hóa đơn/biên lai sau khi thanh toán.",
+    "category": "bank_money"
+  },
+  {
+    "id": 359,
+    "ru": "Я хочу открыть счёт в банке.",
+    "phonetic": "ya kha-CHU atk-RYT' shchot v BAN-kye.",
+    "meaning": "Tôi muốn mở tài khoản ngân hàng.",
+    "note": "Nói khi cần mở tài khoản trong thời gian công tác dài.",
+    "category": "bank_money"
+  },
+  {
+    "id": 360,
+    "ru": "Мне нужна справка о курсе валют.",
+    "phonetic": "mnye nuzh-NA SPRAF-ka a KUR-sye va-LYUT.",
+    "meaning": "Tôi cần giấy xác nhận tỷ giá.",
+    "note": "Xin chứng từ tỷ giá phục vụ mục đích kế toán/công tác.",
+    "category": "bank_money"
+  },
+  {
+    "id": 361,
+    "ru": "Где касса в этом банке?",
+    "phonetic": "gdye KAS-sa v E-tam BAN-kye?",
+    "meaning": "Quầy thu ngân trong ngân hàng này ở đâu?",
+    "note": "Hỏi vị trí quầy giao dịch tiền mặt.",
+    "category": "bank_money"
+  },
+  {
+    "id": 362,
+    "ru": "Сколько стоит перевод денег за границу?",
+    "phonetic": "SKOL'-ka STO-it pi-ri-VOT DYE-nyek za gra-NI-tsu?",
+    "meaning": "Phí chuyển tiền ra nước ngoài là bao nhiêu?",
+    "note": "Hỏi phí dịch vụ chuyển khoản quốc tế.",
+    "category": "bank_money"
+  },
+  {
+    "id": 363,
+    "ru": "Я хочу перевести деньги на другой счёт.",
+    "phonetic": "ya kha-CHU pi-ri-vis-TI DYEN'-gi na dru-GOY shchot.",
+    "meaning": "Tôi muốn chuyển tiền sang tài khoản khác.",
+    "note": "Yêu cầu giao dịch chuyển khoản tại ngân hàng.",
+    "category": "bank_money"
+  },
+  {
+    "id": 364,
+    "ru": "Моя карта заблокирована, что делать?",
+    "phonetic": "ma-YA KAR-ta zab-LO-ki-ra-va-na, shto DYE-lat'?",
+    "meaning": "Thẻ của tôi bị khoá, tôi phải làm gì?",
+    "note": "Báo sự cố khi thẻ ngân hàng bị khóa đột ngột.",
+    "category": "bank_money"
+  },
+  {
+    "id": 365,
+    "ru": "Я потерял свою банковскую карту.",
+    "phonetic": "ya pa-ti-RYAL sva-YU BAN-kaf-sku-yu KAR-tu.",
+    "meaning": "Tôi làm mất thẻ ngân hàng của mình.",
+    "note": "Báo mất thẻ; nữ dùng потеряла.",
+    "category": "bank_money"
+  },
+  {
+    "id": 366,
+    "ru": "Как заблокировать украденную карту?",
+    "phonetic": "kak zab-LO-ki-ra-vat' uk-RA-din-nu-yu KAR-tu?",
+    "meaning": "Khóa thẻ bị đánh cắp thế nào?",
+    "note": "Hỏi cách khẩn cấp khóa thẻ khi bị mất cắp.",
+    "category": "bank_money"
+  },
+  {
+    "id": 367,
+    "ru": "Мне нужна помощь, моя карта не работает.",
+    "phonetic": "mnye nuzh-NA PO-mashch, ma-YA KAR-ta nye ra-BO-ta-yet.",
+    "meaning": "Tôi cần giúp đỡ, thẻ của tôi không dùng được.",
+    "note": "Nhờ nhân viên ngân hàng hỗ trợ khi thẻ gặp lỗi.",
+    "category": "bank_money"
+  },
+  {
+    "id": 368,
+    "ru": "Какая комиссия за снятие наличных в банкомате?",
+    "phonetic": "ka-KA-ya ka-MI-si-ya za SNYA-ti-ye na-LICH-nykh v ban-ka-MA-tye?",
+    "meaning": "Phí rút tiền mặt tại ATM là bao nhiêu?",
+    "note": "Hỏi trước khi rút tiền để tránh phí cao.",
+    "category": "bank_money"
+  },
+  {
+    "id": 369,
+    "ru": "У вас есть банкомат без комиссии?",
+    "phonetic": "u vas yest' ban-ka-MAT byez ka-MI-si-i?",
+    "meaning": "Có cây ATM nào không mất phí không?",
+    "note": "Hỏi để tìm ATM miễn phí rút tiền.",
+    "category": "bank_money"
+  },
+  {
+    "id": 370,
+    "ru": "Я хочу разменять крупную купюру.",
+    "phonetic": "ya kha-CHU raz-mi-NYAT' KRUP-nu-yu ku-PYU-ru.",
+    "meaning": "Tôi muốn đổi tờ tiền mệnh giá lớn.",
+    "note": "Yêu cầu đổi tiền lẻ từ tờ mệnh giá lớn.",
+    "category": "bank_money"
+  },
+  {
+    "id": 371,
+    "ru": "У вас есть мелкие купюры?",
+    "phonetic": "u vas yest' MYEL-ki-ye ku-PYU-ry?",
+    "meaning": "Anh/chị có tiền lẻ không?",
+    "note": "Hỏi xin đổi tiền mệnh giá nhỏ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 372,
+    "ru": "Дайте мне, пожалуйста, сдачу.",
+    "phonetic": "DAY-tye mnye, pa-ZHAL-sta, ZDA-chu.",
+    "meaning": "Làm ơn cho tôi xin tiền thừa.",
+    "note": "Yêu cầu tiền thối lại khi thanh toán tiền mặt.",
+    "category": "bank_money"
+  },
+  {
+    "id": 373,
+    "ru": "Сколько это стоит в рублях?",
+    "phonetic": "SKOL'-ka E-ta STO-it v rub-LYAKH?",
+    "meaning": "Cái này giá bao nhiêu rúp?",
+    "note": "Hỏi giá quy đổi ra rúp Nga.",
+    "category": "bank_money"
+  },
+  {
+    "id": 374,
+    "ru": "Могу я заплатить в долларах?",
+    "phonetic": "ma-GU ya zap-la-TIT' v DOL-la-rakh?",
+    "meaning": "Tôi trả bằng đô la được không?",
+    "note": "Hỏi khả năng thanh toán bằng ngoại tệ (thường không phổ biến ở Nga).",
+    "category": "bank_money"
+  },
+  {
+    "id": 375,
+    "ru": "Курс обмена сегодня выгодный?",
+    "phonetic": "kurs ab-MYE-na si-VOD-nya VY-gad-nyy?",
+    "meaning": "Tỷ giá đổi hôm nay có tốt không?",
+    "note": "Hỏi ý kiến về tỷ giá trước khi đổi tiền.",
+    "category": "bank_money"
+  },
+  {
+    "id": 376,
+    "ru": "Курс валют изменился со вчерашнего дня?",
+    "phonetic": "kurs va-LYUT iz-mi-NIL-sya sa fchi-RASH-ni-va dnya?",
+    "meaning": "Tỷ giá có thay đổi so với hôm qua không?",
+    "note": "Hỏi biến động tỷ giá gần đây.",
+    "category": "bank_money"
+  },
+  {
+    "id": 377,
+    "ru": "Мне нужна выписка по счёту.",
+    "phonetic": "mnye nuzh-NA VY-pis-ka pa shcho-TU.",
+    "meaning": "Tôi cần sao kê tài khoản.",
+    "note": "Yêu cầu bản sao kê giao dịch ngân hàng.",
+    "category": "bank_money"
+  },
+  {
+    "id": 378,
+    "ru": "Где я могу получить банковскую выписку?",
+    "phonetic": "gdye ya ma-GU pa-lu-CHIT' BAN-kaf-sku-yu VY-pis-ku?",
+    "meaning": "Tôi lấy bản sao kê ngân hàng ở đâu?",
+    "note": "Hỏi nơi hoặc cách nhận sao kê tài khoản.",
+    "category": "bank_money"
+  },
+  {
+    "id": 379,
+    "ru": "У вас работает интернет-банк?",
+    "phonetic": "u vas ra-BO-ta-yet in-tir-NYET bank?",
+    "meaning": "Ngân hàng anh/chị có dịch vụ internet banking không?",
+    "note": "Hỏi về dịch vụ ngân hàng trực tuyến.",
+    "category": "bank_money"
+  },
+  {
+    "id": 380,
+    "ru": "Можно оплатить через мобильное приложение?",
+    "phonetic": "MOZH-na ap-la-TIT' CHE-ryez ma-BIL'-na-ye pri-la-ZHE-ni-ye?",
+    "meaning": "Tôi thanh toán qua ứng dụng di động được không?",
+    "note": "Hỏi khả năng thanh toán qua app ngân hàng/ví điện tử.",
+    "category": "bank_money"
+  },
+  {
+    "id": 381,
+    "ru": "Извините, транзакция не прошла.",
+    "phonetic": "iz-vi-NI-tye, tran-ZAK-tsi-ya nye prash-LA.",
+    "meaning": "Xin lỗi, giao dịch không thành công.",
+    "note": "Câu nhân viên hoặc hệ thống báo khi thanh toán thất bại.",
+    "category": "bank_money"
+  },
+  {
+    "id": 382,
+    "ru": "Попробуйте, пожалуйста, ещё раз.",
+    "phonetic": "pap-RO-buy-tye, pa-ZHAL-sta, yi-SHCHO ras.",
+    "meaning": "Làm ơn thử lại lần nữa.",
+    "note": "Yêu cầu thực hiện lại giao dịch khi bị lỗi.",
+    "category": "bank_money"
+  },
+  {
+    "id": 383,
+    "ru": "У меня недостаточно средств на карте.",
+    "phonetic": "u mi-NYA ni-das-TA-tach-na sryedstf na KAR-tye.",
+    "meaning": "Thẻ của tôi không đủ tiền.",
+    "note": "Giải thích lý do giao dịch thẻ bị từ chối.",
+    "category": "bank_money"
+  },
+  {
+    "id": 384,
+    "ru": "Мне нужна небольшая сумма наличными.",
+    "phonetic": "mnye nuzh-NA ni-bal'-SHA-ya SUM-ma na-LICH-ny-mi.",
+    "meaning": "Tôi cần một khoản tiền mặt nhỏ.",
+    "note": "Yêu cầu rút một số tiền mặt không lớn.",
+    "category": "bank_money"
+  },
+  {
+    "id": 385,
+    "ru": "Обменный курс здесь хуже, чем в банке.",
+    "phonetic": "ab-MYEN-nyy kurs zdyes' KHU-zhy, chyem v BAN-kye.",
+    "meaning": "Tỷ giá ở đây kém hơn ở ngân hàng.",
+    "note": "Nhận xét so sánh tỷ giá giữa các nơi đổi tiền.",
+    "category": "bank_money"
+  },
+  {
+    "id": 386,
+    "ru": "Я хочу обменять оставшиеся рубли обратно на доллары.",
+    "phonetic": "ya kha-CHU ab-mi-NYAT' as-TAF-shi-ye-sya rub-LI ab-RAT-na na DOL-la-ry.",
+    "meaning": "Tôi muốn đổi số rúp còn lại trở lại đô la.",
+    "note": "Nói khi kết thúc chuyến công tác, muốn đổi tiền thừa.",
+    "category": "bank_money"
+  },
+  {
+    "id": 387,
+    "ru": "Сохраните, пожалуйста, чек об обмене.",
+    "phonetic": "sakh-ra-NI-tye, pa-ZHAL-sta, chek ab ab-MYE-nye.",
+    "meaning": "Làm ơn giữ lại biên lai đổi tiền.",
+    "note": "Nhân viên nhắc khách giữ hóa đơn để đối chiếu sau.",
+    "category": "bank_money"
+  },
+  {
+    "id": 388,
+    "ru": "Здесь безопасно снимать деньги вечером?",
+    "phonetic": "zdyes' bi-za-PAS-na sni-MAT' DYEN'-gi VYE-chi-ram?",
+    "meaning": "Rút tiền ở đây vào buổi tối có an toàn không?",
+    "note": "Hỏi về độ an toàn khu vực đặt ATM.",
+    "category": "bank_money"
+  },
+  {
+    "id": 389,
+    "ru": "Мне нужен пин-код для новой карты.",
+    "phonetic": "mnye NU-zhyn pin-KOT dlya NO-vay KAR-ty.",
+    "meaning": "Tôi cần mã PIN cho thẻ mới.",
+    "note": "Yêu cầu cấp mã PIN khi nhận thẻ mới.",
+    "category": "bank_money"
+  },
+  {
+    "id": 390,
+    "ru": "Я забыл свой пин-код.",
+    "phonetic": "ya za-BYL svoy pin-KOT.",
+    "meaning": "Tôi quên mã PIN của mình.",
+    "note": "Báo với nhân viên ngân hàng khi quên PIN; nữ dùng забыла.",
+    "category": "bank_money"
+  },
+  {
+    "id": 391,
+    "ru": "Как изменить пин-код карты?",
+    "phonetic": "kak iz-mi-NIT' pin-KOT KAR-ty?",
+    "meaning": "Đổi mã PIN của thẻ thế nào?",
+    "note": "Hỏi hướng dẫn đổi mã PIN tại ATM hoặc quầy giao dịch.",
+    "category": "bank_money"
+  },
+  {
+    "id": 392,
+    "ru": "У вас есть банкомат внутри отеля?",
+    "phonetic": "u vas yest' ban-ka-MAT vnut-RI a-TE-lya?",
+    "meaning": "Trong khách sạn có cây ATM không?",
+    "note": "Hỏi lễ tân khách sạn về vị trí ATM.",
+    "category": "bank_money"
+  },
+  {
+    "id": 393,
+    "ru": "Какая комиссия банка при обмене валюты?",
+    "phonetic": "ka-KA-ya ka-MI-si-ya BAN-ka pri ab-MYE-nye va-LYU-ty?",
+    "meaning": "Phí ngân hàng khi đổi ngoại tệ là bao nhiêu?",
+    "note": "Hỏi rõ mức phí trước khi giao dịch đổi tiền.",
+    "category": "bank_money"
+  },
+  {
+    "id": 394,
+    "ru": "Могу я оплатить услуги наличными?",
+    "phonetic": "ma-GU ya ap-la-TIT' us-LU-gi na-LICH-ny-mi?",
+    "meaning": "Tôi thanh toán dịch vụ bằng tiền mặt được không?",
+    "note": "Hỏi hình thức thanh toán khi dùng dịch vụ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 395,
+    "ru": "Дайте, пожалуйста, квитанцию об операции.",
+    "phonetic": "DAY-tye, pa-ZHAL-sta, kvi-TAN-tsi-yu ab a-pi-RA-tsi-i.",
+    "meaning": "Làm ơn cho tôi xin biên nhận giao dịch.",
+    "note": "Yêu cầu chứng từ sau khi thực hiện giao dịch ngân hàng.",
+    "category": "bank_money"
+  },
+  {
+    "id": 396,
+    "ru": "Курс покупки и курс продажи отличаются?",
+    "phonetic": "kurs pa-KUP-ki i kurs pra-DA-zhy at-LI-cha-yut-sya?",
+    "meaning": "Tỷ giá mua và tỷ giá bán có khác nhau không?",
+    "note": "Hỏi phân biệt giữa tỷ giá mua vào và bán ra.",
+    "category": "bank_money"
+  },
+  {
+    "id": 397,
+    "ru": "Где ближайшее отделение банка?",
+    "phonetic": "gdye bli-ZHAY-shi-ye at-di-LYE-ni-ye BAN-ka?",
+    "meaning": "Chi nhánh ngân hàng gần nhất ở đâu?",
+    "note": "Hỏi đường đến chi nhánh ngân hàng.",
+    "category": "bank_money"
+  },
+  {
+    "id": 398,
+    "ru": "Банк сегодня работает?",
+    "phonetic": "bank si-VOD-nya ra-BO-ta-yet?",
+    "meaning": "Hôm nay ngân hàng có mở cửa không?",
+    "note": "Hỏi giờ/ngày hoạt động của ngân hàng, tránh ngày lễ.",
+    "category": "bank_money"
+  },
+  {
+    "id": 399,
+    "ru": "До которого часа работает обменный пункт?",
+    "phonetic": "da ka-TO-ra-va CHA-sa ra-BO-ta-yet ab-MYEN-nyy punkt?",
+    "meaning": "Điểm đổi tiền mở cửa đến mấy giờ?",
+    "note": "Hỏi giờ đóng cửa của quầy đổi tiền.",
+    "category": "bank_money"
+  },
+  {
+    "id": 400,
+    "ru": "Спасибо, всё в порядке с моей картой.",
+    "phonetic": "spa-SI-ba, vsyo f pa-RYAT-kye s ma-YEY KAR-tay.",
+    "meaning": "Cảm ơn, thẻ của tôi không sao rồi.",
+    "note": "Câu nói khi xác nhận sự cố với thẻ đã được giải quyết.",
+    "category": "bank_money"
+  }
+]

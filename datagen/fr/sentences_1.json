@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "ru": "Bonjour ! Comment allez-vous ?",
+    "phonetic": "bo~-JURH ko-MA~ a-le-VU",
+    "meaning": "Xin chào! Bạn khỏe không?",
+    "note": "Câu chào lịch sự phổ biến nhất, dùng với người lạ hoặc người lớn tuổi, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 2,
+    "ru": "Bonjour madame, comment allez-vous aujourd'hui ?",
+    "phonetic": "bo~-JURH ma-DAM ko-MA~ a-le-VU o-jurh-DUI",
+    "meaning": "Chào bà, hôm nay bà khỏe không?",
+    "note": "Dùng khi chào phụ nữ lớn tuổi hoặc trong giao tiếp trang trọng, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 3,
+    "ru": "Bonjour monsieur, ravi de vous rencontrer.",
+    "phonetic": "bo~-JURH mơ-SYƠ rha-VI dơ vu rha~-ko~-TRE",
+    "meaning": "Chào ông, rất vui được gặp ông.",
+    "note": "Dùng khi gặp một người đàn ông lần đầu, trang trọng, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 4,
+    "ru": "Bonsoir, comment ça va ce soir ?",
+    "phonetic": "bo~-SWARH ko-MA~ sa VA sơ SWARH",
+    "meaning": "Chào buổi tối, tối nay bạn thế nào?",
+    "note": "Chào vào buổi tối, có thể dùng với người quen hoặc người lạ, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 5,
+    "ru": "Salut ! Ça va ?",
+    "phonetic": "sa-LUY sa VA",
+    "meaning": "Chào! Khỏe không?",
+    "note": "Câu chào thân mật giữa bạn bè, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 6,
+    "ru": "Salut, comment tu vas ?",
+    "phonetic": "sa-LUY ko-MA~ tuy VA",
+    "meaning": "Chào, bạn khỏe không?",
+    "note": "Chào thân mật, dùng giữa bạn bè trẻ tuổi, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 7,
+    "ru": "Coucou, ça fait longtemps !",
+    "phonetic": "ku-KU sa fe lo~-TA~",
+    "meaning": "Chào, lâu rồi không gặp!",
+    "note": "Cách chào rất thân mật, thường dùng với bạn thân hoặc người nhà, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 8,
+    "ru": "Bonjour tout le monde !",
+    "phonetic": "bo~-JURH tu lơ MO~D",
+    "meaning": "Chào mọi người!",
+    "note": "Dùng khi chào một nhóm người, trung tính, phù hợp mọi hoàn cảnh.",
+    "category": "greetings"
+  },
+  {
+    "id": 9,
+    "ru": "Je m'appelle Marie, et vous ?",
+    "phonetic": "jhơ ma-PEL ma-RI e VU",
+    "meaning": "Tôi tên là Marie, còn bạn?",
+    "note": "Dùng khi tự giới thiệu tên với người mới quen, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 10,
+    "ru": "Comment vous appelez-vous ?",
+    "phonetic": "ko-MA~ vu-za-ple-VU",
+    "meaning": "Bạn tên gì?",
+    "note": "Hỏi tên một cách lịch sự với người lạ hoặc cấp trên, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 11,
+    "ru": "Comment tu t'appelles ?",
+    "phonetic": "ko-MA~ tuy ta-PEL",
+    "meaning": "Bạn tên gì?",
+    "note": "Hỏi tên thân mật, dùng với bạn bè hoặc trẻ em, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 12,
+    "ru": "Enchanté de faire votre connaissance.",
+    "phonetic": "a~-sha~-TE dơ ferh votrh ko-ne-SA~S",
+    "meaning": "Rất hân hạnh được làm quen với bạn.",
+    "note": "Câu trang trọng khi gặp ai đó lần đầu, thể vous, nam nói.",
+    "category": "greetings"
+  },
+  {
+    "id": 13,
+    "ru": "Enchantée, je m'appelle Sophie.",
+    "phonetic": "a~-sha~-TE jhơ ma-PEL so-FI",
+    "meaning": "Rất hân hạnh, tôi tên là Sophie.",
+    "note": "Nữ giới tự giới thiệu khi gặp lần đầu, trang trọng.",
+    "category": "greetings"
+  },
+  {
+    "id": 14,
+    "ru": "Ravi de vous connaître enfin.",
+    "phonetic": "rha-VI dơ vu ko-NETRH a~-FE~",
+    "meaning": "Rất vui vì cuối cùng cũng được gặp bạn.",
+    "note": "Dùng khi gặp ai đó đã nghe tên từ trước, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 15,
+    "ru": "D'où venez-vous ?",
+    "phonetic": "du vơ-ne-VU",
+    "meaning": "Bạn đến từ đâu?",
+    "note": "Hỏi quê quán lịch sự, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 16,
+    "ru": "D'où viens-tu ?",
+    "phonetic": "du vye~-TUY",
+    "meaning": "Bạn đến từ đâu?",
+    "note": "Hỏi quê quán thân mật, thể tu, dùng với bạn bè.",
+    "category": "greetings"
+  },
+  {
+    "id": 17,
+    "ru": "Je viens du Vietnam.",
+    "phonetic": "jhơ vye~ duy vyet-NAM",
+    "meaning": "Tôi đến từ Việt Nam.",
+    "note": "Trả lời khi được hỏi về quê quán.",
+    "category": "greetings"
+  },
+  {
+    "id": 18,
+    "ru": "Quel âge avez-vous ?",
+    "phonetic": "kel AJH a-ve-VU",
+    "meaning": "Bạn bao nhiêu tuổi?",
+    "note": "Hỏi tuổi lịch sự, thể vous, nên dùng thận trọng vì hơi riêng tư.",
+    "category": "greetings"
+  },
+  {
+    "id": 19,
+    "ru": "Quel âge as-tu ?",
+    "phonetic": "kel AJH a-TUY",
+    "meaning": "Bạn bao nhiêu tuổi?",
+    "note": "Hỏi tuổi thân mật, thể tu, dùng với bạn bè hoặc trẻ em.",
+    "category": "greetings"
+  },
+  {
+    "id": 20,
+    "ru": "J'ai vingt-cinq ans.",
+    "phonetic": "je ve~-SE~K A~",
+    "meaning": "Tôi hai mươi lăm tuổi.",
+    "note": "Trả lời khi được hỏi tuổi.",
+    "category": "greetings"
+  },
+  {
+    "id": 21,
+    "ru": "Vous allez bien ?",
+    "phonetic": "vu-za-le BYE~",
+    "meaning": "Bạn có khỏe không?",
+    "note": "Hỏi thăm sức khỏe lịch sự, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 22,
+    "ru": "Ça va bien, merci, et vous ?",
+    "phonetic": "sa va BYE~ merh-SI e VU",
+    "meaning": "Tôi khỏe, cảm ơn, còn bạn?",
+    "note": "Trả lời lịch sự khi được hỏi thăm, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 23,
+    "ru": "Ça va, et toi ?",
+    "phonetic": "sa VA e TWA",
+    "meaning": "Khỏe, còn bạn?",
+    "note": "Trả lời thân mật, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 24,
+    "ru": "Ça va très bien, merci.",
+    "phonetic": "sa va tre BYE~ merh-SI",
+    "meaning": "Tôi khỏe lắm, cảm ơn.",
+    "note": "Trả lời tích cực khi được hỏi thăm sức khỏe.",
+    "category": "greetings"
+  },
+  {
+    "id": 25,
+    "ru": "Comment se passe votre journée ?",
+    "phonetic": "ko-MA~ sơ pas votrh jurh-NE",
+    "meaning": "Ngày hôm nay của bạn thế nào?",
+    "note": "Hỏi thăm trong ngày, thể vous, dùng ở nơi làm việc.",
+    "category": "greetings"
+  },
+  {
+    "id": 26,
+    "ru": "Comment s'est passée votre semaine ?",
+    "phonetic": "ko-MA~ se pa-SE votrh sơ-MEN",
+    "meaning": "Tuần vừa rồi của bạn thế nào?",
+    "note": "Hỏi thăm cuối tuần, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 27,
+    "ru": "Quoi de neuf ?",
+    "phonetic": "kwa dơ NƠF",
+    "meaning": "Có gì mới không?",
+    "note": "Hỏi thăm thân mật rất phổ biến giữa bạn bè, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 28,
+    "ru": "Quoi de neuf chez toi ?",
+    "phonetic": "kwa dơ nơf she TWA",
+    "meaning": "Có gì mới ở chỗ bạn không?",
+    "note": "Hỏi thăm thân mật, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 29,
+    "ru": "Rien de spécial, et toi ?",
+    "phonetic": "rye~ dơ spe-SYAL e TWA",
+    "meaning": "Không có gì đặc biệt, còn bạn?",
+    "note": "Trả lời khi được hỏi 'quoi de neuf', thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 30,
+    "ru": "Bienvenue chez nous.",
+    "phonetic": "bye~-vơ-NUY she NU",
+    "meaning": "Chào mừng bạn đến nhà chúng tôi.",
+    "note": "Dùng khi đón khách vào nhà, trung tính lịch sự.",
+    "category": "greetings"
+  },
+  {
+    "id": 31,
+    "ru": "Bienvenue en France.",
+    "phonetic": "bye~-vơ-NUY a~ FRA~S",
+    "meaning": "Chào mừng đến nước Pháp.",
+    "note": "Dùng khi đón ai đó mới đến Pháp.",
+    "category": "greetings"
+  },
+  {
+    "id": 32,
+    "ru": "Content de te revoir.",
+    "phonetic": "ko~-TA~ dơ tơ rơ-VWARH",
+    "meaning": "Vui vì được gặp lại bạn.",
+    "note": "Nam nói, thân mật, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 33,
+    "ru": "Contente de vous revoir.",
+    "phonetic": "ko~-TA~T dơ vu rơ-VWARH",
+    "meaning": "Vui vì được gặp lại bạn.",
+    "note": "Nữ nói, lịch sự, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 34,
+    "ru": "Ça fait plaisir de vous voir.",
+    "phonetic": "sa fe ple-ZIRH dơ vu VWARH",
+    "meaning": "Thật vui khi được gặp bạn.",
+    "note": "Câu lịch sự khi gặp lại ai đó, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 35,
+    "ru": "Ça faisait longtemps qu'on ne s'était pas vus.",
+    "phonetic": "sa fơ-ZE lo~-TA~ ko~ nơ se-TE pa VUY",
+    "meaning": "Đã lâu rồi chúng ta không gặp nhau.",
+    "note": "Dùng khi gặp lại người quen sau thời gian dài.",
+    "category": "greetings"
+  },
+  {
+    "id": 36,
+    "ru": "Bonjour, je suis nouveau ici.",
+    "phonetic": "bo~-JURH jhơ suyi nu-VO i-SI",
+    "meaning": "Xin chào, tôi mới đến đây.",
+    "note": "Nam giới tự giới thiệu là người mới, trang trọng vừa phải.",
+    "category": "greetings"
+  },
+  {
+    "id": 37,
+    "ru": "Bonjour, je suis nouvelle dans l'entreprise.",
+    "phonetic": "bo~-JURH jhơ suyi nu-VEL da~ la~-trơ-PRIZ",
+    "meaning": "Xin chào, tôi là nhân viên mới của công ty.",
+    "note": "Nữ giới tự giới thiệu là nhân viên mới, trang trọng.",
+    "category": "greetings"
+  },
+  {
+    "id": 38,
+    "ru": "Permettez-moi de me présenter.",
+    "phonetic": "perh-me-TE mwa dơ mơ pre-za~-TE",
+    "meaning": "Cho phép tôi tự giới thiệu.",
+    "note": "Câu rất trang trọng, dùng trong công việc hoặc gặp gỡ chính thức, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 39,
+    "ru": "Je me présente, je suis Paul.",
+    "phonetic": "jhơ mơ pre-ZA~T jhơ suyi POL",
+    "meaning": "Tôi xin tự giới thiệu, tôi là Paul.",
+    "note": "Tự giới thiệu tên khi gặp người mới.",
+    "category": "greetings"
+  },
+  {
+    "id": 40,
+    "ru": "Voici mon collègue, Jean.",
+    "phonetic": "vwa-SI mo~ ko-LEG jha~",
+    "meaning": "Đây là đồng nghiệp của tôi, Jean.",
+    "note": "Dùng khi giới thiệu đồng nghiệp với người khác.",
+    "category": "greetings"
+  },
+  {
+    "id": 41,
+    "ru": "Je vous présente ma femme.",
+    "phonetic": "jhơ vu pre-ZA~T ma FAM",
+    "meaning": "Tôi xin giới thiệu vợ tôi.",
+    "note": "Giới thiệu vợ với người khác, thể vous lịch sự.",
+    "category": "greetings"
+  },
+  {
+    "id": 42,
+    "ru": "Je te présente mon ami Marc.",
+    "phonetic": "jhơ tơ pre-ZA~T mo~-na-MI markh",
+    "meaning": "Mình giới thiệu bạn mình, Marc.",
+    "note": "Giới thiệu bạn bè trong hoàn cảnh thân mật, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 43,
+    "ru": "C'est un plaisir de vous rencontrer.",
+    "phonetic": "se te~ ple-ZIRH dơ vu rha~-ko~-TRE",
+    "meaning": "Thật là một niềm vui khi được gặp bạn.",
+    "note": "Câu trang trọng dùng trong giao tiếp công việc, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 44,
+    "ru": "On se connaît déjà, non ?",
+    "phonetic": "o~ sơ ko-NE de-ZHA NO~",
+    "meaning": "Chúng ta đã từng gặp nhau rồi phải không?",
+    "note": "Dùng khi cảm thấy quen mặt ai đó, có thể thân mật hoặc lịch sự.",
+    "category": "greetings"
+  },
+  {
+    "id": 45,
+    "ru": "Vous vous souvenez de moi ?",
+    "phonetic": "vu vu suv-NE dơ MWA",
+    "meaning": "Bạn còn nhớ tôi không?",
+    "note": "Hỏi lịch sự khi gặp lại người quen cũ, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 46,
+    "ru": "Tu te souviens de moi ?",
+    "phonetic": "tuy tơ suv-YE~ dơ MWA",
+    "meaning": "Bạn còn nhớ mình không?",
+    "note": "Hỏi thân mật, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 47,
+    "ru": "Comment va votre famille ?",
+    "phonetic": "ko-MA~ va votrh fa-MIY",
+    "meaning": "Gia đình bạn thế nào?",
+    "note": "Hỏi thăm gia đình lịch sự, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 48,
+    "ru": "Comment vont vos enfants ?",
+    "phonetic": "ko-MA~ vo~ vo-za~-FA~",
+    "meaning": "Các con của bạn thế nào?",
+    "note": "Hỏi thăm con cái, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 49,
+    "ru": "Et vos parents, comment vont-ils ?",
+    "phonetic": "e vo pa-RA~ ko-MA~ vo~-TIL",
+    "meaning": "Còn bố mẹ bạn, họ khỏe không?",
+    "note": "Hỏi thăm bố mẹ người đối diện, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 50,
+    "ru": "Bonne matinée à vous.",
+    "phonetic": "bon ma-ti-NE a VU",
+    "meaning": "Chúc bạn buổi sáng tốt lành.",
+    "note": "Chúc vào buổi sáng, thể vous, lịch sự.",
+    "category": "greetings"
+  },
+  {
+    "id": 51,
+    "ru": "Bonjour, il fait beau ce matin.",
+    "phonetic": "bo~-JURH il fe BO sơ ma-TE~",
+    "meaning": "Chào buổi sáng, hôm nay trời đẹp quá.",
+    "note": "Chào kèm nhận xét về thời tiết buổi sáng.",
+    "category": "greetings"
+  },
+  {
+    "id": 52,
+    "ru": "Salut, tu es matinal aujourd'hui.",
+    "phonetic": "sa-LUY tuy e ma-ti-NAL o-jurh-DUI",
+    "meaning": "Chào, hôm nay dậy sớm thế.",
+    "note": "Câu thân mật trêu bạn bè dậy sớm, thể tu.",
+    "category": "greetings"
+  },
+  {
+    "id": 53,
+    "ru": "Bonsoir tout le monde, entrez !",
+    "phonetic": "bo~-SWARH tu lơ MO~D a~-TRE",
+    "meaning": "Chào buổi tối mọi người, mời vào!",
+    "note": "Dùng khi đón khách vào nhà buổi tối.",
+    "category": "greetings"
+  },
+  {
+    "id": 54,
+    "ru": "Bienvenue, installez-vous.",
+    "phonetic": "bye~-vơ-NUY e~-sta-le-VU",
+    "meaning": "Chào mừng, mời bạn ngồi.",
+    "note": "Mời khách ngồi, thể vous lịch sự.",
+    "category": "greetings"
+  },
+  {
+    "id": 55,
+    "ru": "Asseyez-vous, je vous en prie.",
+    "phonetic": "a-se-ye-VU jhơ vu za~ PRI",
+    "meaning": "Mời bạn ngồi.",
+    "note": "Câu mời ngồi rất lịch sự, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 56,
+    "ru": "Vous êtes en avance aujourd'hui.",
+    "phonetic": "vu-ze-ta~-na-VA~S o-jurh-DUI",
+    "meaning": "Hôm nay bạn đến sớm nhỉ.",
+    "note": "Nhận xét khi ai đó đến sớm, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 57,
+    "ru": "Vous êtes en forme aujourd'hui.",
+    "phonetic": "vu-ze-ta~ FORHM o-jurh-DUI",
+    "meaning": "Hôm nay bạn trông khỏe khoắn nhỉ.",
+    "note": "Khen ai đó trông khỏe, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 58,
+    "ru": "Je suis content de vous revoir en pleine forme.",
+    "phonetic": "jhơ suyi ko~-TA~ dơ vu rơ-vwa-RA~ plen FORHM",
+    "meaning": "Tôi rất vui vì thấy bạn khỏe mạnh trở lại.",
+    "note": "Dùng khi thăm ai đó sau bệnh hoặc lâu không gặp.",
+    "category": "greetings"
+  },
+  {
+    "id": 59,
+    "ru": "Quel plaisir de vous croiser ici !",
+    "phonetic": "kel ple-ZIRH dơ vu krwa-ZE i-SI",
+    "meaning": "Thật vui khi tình cờ gặp bạn ở đây!",
+    "note": "Dùng khi tình cờ gặp người quen, thể vous.",
+    "category": "greetings"
+  },
+  {
+    "id": 60,
+    "ru": "On se voit enfin en personne.",
+    "phonetic": "o~ sơ vwa a~-FE~ a~ perh-SON",
+    "meaning": "Cuối cùng cũng được gặp nhau trực tiếp.",
+    "note": "Dùng khi gặp mặt ai đó lần đầu sau khi chỉ nói chuyện online.",
+    "category": "greetings"
+  },
+  {
+    "id": 61,
+    "ru": "Il fait beau aujourd'hui, n'est-ce pas ?",
+    "phonetic": "il fe BO o-jurh-DUI nes pa",
+    "meaning": "Hôm nay trời đẹp nhỉ?",
+    "note": "Câu bắt chuyện phổ biến về thời tiết, dùng được với cả tu/vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 62,
+    "ru": "Quel temps magnifique aujourd'hui !",
+    "phonetic": "kel ta~ ma-ni-FIK o-jurh-DUI",
+    "meaning": "Thời tiết hôm nay đẹp tuyệt vời!",
+    "note": "Câu cảm thán về thời tiết đẹp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 63,
+    "ru": "Il fait très chaud cet après-midi.",
+    "phonetic": "il fe tre SHO se ta-pre-mi-DI",
+    "meaning": "Chiều nay trời rất nóng.",
+    "note": "Nói về thời tiết nóng.",
+    "category": "small_talk"
+  },
+  {
+    "id": 64,
+    "ru": "Il fait froid ce matin.",
+    "phonetic": "il fe FRWA sơ ma-TE~",
+    "meaning": "Sáng nay trời lạnh.",
+    "note": "Nói về thời tiết lạnh.",
+    "category": "small_talk"
+  },
+  {
+    "id": 65,
+    "ru": "Il pleut beaucoup en ce moment.",
+    "phonetic": "il plơ bo-KU a~ sơ mo-MA~",
+    "meaning": "Dạo này mưa nhiều quá.",
+    "note": "Nói về mưa kéo dài.",
+    "category": "small_talk"
+  },
+  {
+    "id": 66,
+    "ru": "Le ciel est bien nuageux aujourd'hui.",
+    "phonetic": "lơ SYEL e bye~ nua-JHƠ o-jurh-DUI",
+    "meaning": "Hôm nay trời nhiều mây quá.",
+    "note": "Nhận xét bầu trời nhiều mây.",
+    "category": "small_talk"
+  },
+  {
+    "id": 67,
+    "ru": "J'espère qu'il ne va pas pleuvoir.",
+    "phonetic": "je-SPERH kil nơ va pa plơ-VWARH",
+    "meaning": "Mong là trời không mưa.",
+    "note": "Bày tỏ hy vọng về thời tiết.",
+    "category": "small_talk"
+  },
+  {
+    "id": 68,
+    "ru": "La météo annonce du soleil pour demain.",
+    "phonetic": "la me-te-O a-NO~S duy so-LEY purh dơ-ME~",
+    "meaning": "Dự báo thời tiết nói ngày mai trời nắng.",
+    "note": "Nói về dự báo thời tiết.",
+    "category": "small_talk"
+  },
+  {
+    "id": 69,
+    "ru": "C'est un temps parfait pour se promener.",
+    "phonetic": "se te~ ta~ parh-FE purh sơ prom-NE",
+    "meaning": "Thời tiết này quá hợp để đi dạo.",
+    "note": "Nhận xét thời tiết đẹp phù hợp đi dạo.",
+    "category": "small_talk"
+  },
+  {
+    "id": 70,
+    "ru": "Il neige déjà chez vous ?",
+    "phonetic": "il nejh de-ZHA she VU",
+    "meaning": "Chỗ bạn đã có tuyết rơi chưa?",
+    "note": "Hỏi thăm thời tiết ở nơi khác, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 71,
+    "ru": "L'hiver arrive vite cette année.",
+    "phonetic": "li-VERH a-RIV vit se-ta-NE",
+    "meaning": "Năm nay mùa đông đến nhanh thật.",
+    "note": "Nhận xét về mùa đông.",
+    "category": "small_talk"
+  },
+  {
+    "id": 72,
+    "ru": "Le printemps est ma saison préférée.",
+    "phonetic": "lơ prhe~-TA~ e ma se-zo~ pre-fe-RE",
+    "meaning": "Mùa xuân là mùa tôi thích nhất.",
+    "note": "Chia sẻ sở thích về mùa.",
+    "category": "small_talk"
+  },
+  {
+    "id": 73,
+    "ru": "Quelle chaleur insupportable aujourd'hui !",
+    "phonetic": "kel sha-LƠRH e~-suy-porh-TABL o-jurh-DUI",
+    "meaning": "Hôm nay nóng khủng khiếp quá!",
+    "note": "Than phiền về nóng bức.",
+    "category": "small_talk"
+  },
+  {
+    "id": 74,
+    "ru": "Le vent souffle très fort dehors.",
+    "phonetic": "lơ VA~ sufl tre forh dơ-ORH",
+    "meaning": "Ngoài trời gió thổi rất mạnh.",
+    "note": "Nhận xét về gió.",
+    "category": "small_talk"
+  },
+  {
+    "id": 75,
+    "ru": "Prenez un parapluie, il va pleuvoir.",
+    "phonetic": "prơ-NE e~ pa-ra-PLUI il va plơ-VWARH",
+    "meaning": "Mang theo ô đi, trời sắp mưa đấy.",
+    "note": "Nhắc nhở mang ô, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 76,
+    "ru": "Qu'est-ce que vous aimez faire pendant votre temps libre ?",
+    "phonetic": "kes kơ vu-ze-ME ferh pa~-da~ votrh ta~ LIBRH",
+    "meaning": "Bạn thích làm gì lúc rảnh?",
+    "note": "Hỏi về sở thích, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 77,
+    "ru": "Quels sont vos loisirs ?",
+    "phonetic": "kel so~ vo lwa-ZIRH",
+    "meaning": "Sở thích của bạn là gì?",
+    "note": "Hỏi về sở thích, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 78,
+    "ru": "J'aime beaucoup lire des romans.",
+    "phonetic": "jem bo-KU lirh de ro-MA~",
+    "meaning": "Tôi rất thích đọc tiểu thuyết.",
+    "note": "Chia sẻ sở thích đọc sách.",
+    "category": "small_talk"
+  },
+  {
+    "id": 79,
+    "ru": "Je passe mon temps libre à jouer de la guitare.",
+    "phonetic": "jhơ pas mo~ ta~ librh a jhwe dơ la gi-TARH",
+    "meaning": "Tôi dành thời gian rảnh để chơi guitar.",
+    "note": "Chia sẻ sở thích chơi nhạc cụ.",
+    "category": "small_talk"
+  },
+  {
+    "id": 80,
+    "ru": "Vous aimez le sport ?",
+    "phonetic": "vu-ze-ME lơ SPORH",
+    "meaning": "Bạn có thích thể thao không?",
+    "note": "Hỏi về sở thích thể thao, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 81,
+    "ru": "Tu fais du sport régulièrement ?",
+    "phonetic": "tuy fe duy sporh re-guy-lyerh-MA~",
+    "meaning": "Bạn có tập thể thao đều đặn không?",
+    "note": "Hỏi thân mật, thể tu.",
+    "category": "small_talk"
+  },
+  {
+    "id": 82,
+    "ru": "J'adore cuisiner le week-end.",
+    "phonetic": "jha-DORH kui-zi-NE lơ wi-KEND",
+    "meaning": "Tôi rất thích nấu ăn vào cuối tuần.",
+    "note": "Chia sẻ sở thích nấu ăn.",
+    "category": "small_talk"
+  },
+  {
+    "id": 83,
+    "ru": "Quel genre de musique aimez-vous ?",
+    "phonetic": "kel JHA~RH dơ muy-ZIK e-me-VU",
+    "meaning": "Bạn thích thể loại nhạc nào?",
+    "note": "Hỏi về sở thích âm nhạc, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 84,
+    "ru": "J'aime surtout le jazz et la musique classique.",
+    "phonetic": "jem suyrh-TU lơ jhaz e la muy-zik kla-SIK",
+    "meaning": "Tôi thích nhất nhạc jazz và nhạc cổ điển.",
+    "note": "Trả lời về gu âm nhạc.",
+    "category": "small_talk"
+  },
+  {
+    "id": 85,
+    "ru": "Vous regardez souvent des films ?",
+    "phonetic": "vu rơ-garh-DE suv-A~ de FILM",
+    "meaning": "Bạn có hay xem phim không?",
+    "note": "Hỏi sở thích xem phim, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 86,
+    "ru": "Je préfère les séries aux films.",
+    "phonetic": "jhơ pre-FERH le se-RI o FILM",
+    "meaning": "Tôi thích xem phim bộ hơn phim lẻ.",
+    "note": "Chia sẻ sở thích giải trí.",
+    "category": "small_talk"
+  },
+  {
+    "id": 87,
+    "ru": "Vous jouez d'un instrument de musique ?",
+    "phonetic": "vu jhwe de~-ne~-struy-MA~ dơ muy-ZIK",
+    "meaning": "Bạn có chơi nhạc cụ nào không?",
+    "note": "Hỏi về sở thích âm nhạc, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 88,
+    "ru": "Je fais de la peinture pour me détendre.",
+    "phonetic": "jhơ fe dơ la pe~-TUYRH purh mơ de-TA~DRH",
+    "meaning": "Tôi vẽ tranh để thư giãn.",
+    "note": "Chia sẻ sở thích hội họa.",
+    "category": "small_talk"
+  },
+  {
+    "id": 89,
+    "ru": "Le week-end, j'aime faire de la randonnée.",
+    "phonetic": "lơ wi-KEND jem ferh dơ la ra~-do-NE",
+    "meaning": "Cuối tuần tôi thích đi leo núi, đi bộ đường dài.",
+    "note": "Chia sẻ sở thích cuối tuần.",
+    "category": "small_talk"
+  },
+  {
+    "id": 90,
+    "ru": "Quel est votre passe-temps préféré ?",
+    "phonetic": "kel e votrh pas-TA~ pre-fe-RE",
+    "meaning": "Sở thích yêu thích nhất của bạn là gì?",
+    "note": "Hỏi về sở thích, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 91,
+    "ru": "Qu'est-ce que vous faites dans la vie ?",
+    "phonetic": "kes kơ vu fet da~ la VI",
+    "meaning": "Bạn làm nghề gì?",
+    "note": "Hỏi về công việc, thể vous, cách hỏi tự nhiên.",
+    "category": "small_talk"
+  },
+  {
+    "id": 92,
+    "ru": "Vous travaillez dans quel domaine ?",
+    "phonetic": "vu tra-va-YE da~ kel do-MEN",
+    "meaning": "Bạn làm việc trong lĩnh vực nào?",
+    "note": "Hỏi về ngành nghề, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 93,
+    "ru": "Je travaille comme ingénieur informatique.",
+    "phonetic": "jhơ tra-VAY kom e~-jhe-nyơrh e~-forh-ma-TIK",
+    "meaning": "Tôi làm kỹ sư công nghệ thông tin.",
+    "note": "Trả lời về nghề nghiệp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 94,
+    "ru": "Je suis professeur de français.",
+    "phonetic": "jhơ suyi pro-fe-SƠRH dơ fra~-SE",
+    "meaning": "Tôi là giáo viên tiếng Pháp.",
+    "note": "Trả lời về nghề nghiệp.",
+    "category": "small_talk"
+  },
+  {
+    "id": 95,
+    "ru": "Vous aimez votre travail ?",
+    "phonetic": "vu-ze-ME votrh tra-VAY",
+    "meaning": "Bạn có thích công việc của mình không?",
+    "note": "Hỏi về công việc, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 96,
+    "ru": "Le travail est assez stressant en ce moment.",
+    "phonetic": "lơ tra-VAY e ta-SE stre-SA~ a~ sơ mo-MA~",
+    "meaning": "Dạo này công việc khá căng thẳng.",
+    "note": "Chia sẻ áp lực công việc.",
+    "category": "small_talk"
+  },
+  {
+    "id": 97,
+    "ru": "J'ai beaucoup de travail cette semaine.",
+    "phonetic": "je bo-KU dơ tra-VAY set sơ-MEN",
+    "meaning": "Tuần này tôi có nhiều việc quá.",
+    "note": "Chia sẻ về khối lượng công việc.",
+    "category": "small_talk"
+  },
+  {
+    "id": 98,
+    "ru": "Vous travaillez depuis combien de temps ici ?",
+    "phonetic": "vu tra-va-YE dơ-PUI ko~-BYE~ dơ ta~ i-SI",
+    "meaning": "Bạn làm việc ở đây được bao lâu rồi?",
+    "note": "Hỏi thâm niên làm việc, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 99,
+    "ru": "Je cherche un nouvel emploi.",
+    "phonetic": "jhơ sherh e~ nu-ve la~-PLWA",
+    "meaning": "Tôi đang tìm việc mới.",
+    "note": "Chia sẻ về tình trạng tìm việc.",
+    "category": "small_talk"
+  },
+  {
+    "id": 100,
+    "ru": "Votre entreprise se trouve où exactement ?",
+    "phonetic": "votrh a~-trơ-PRIZ sơ truv U eg-zak-tơ-MA~",
+    "meaning": "Công ty bạn nằm ở chỗ nào vậy?",
+    "note": "Hỏi về địa điểm công ty, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 101,
+    "ru": "Je travaille à mon compte.",
+    "phonetic": "jhơ tra-VAY a mo~ KO~T",
+    "meaning": "Tôi làm việc tự do.",
+    "note": "Trả lời về hình thức làm việc.",
+    "category": "small_talk"
+  },
+  {
+    "id": 102,
+    "ru": "Le trajet jusqu'au bureau est très long.",
+    "phonetic": "lơ tra-JHE juys-ko buy-RO e tre LO~",
+    "meaning": "Đường đến văn phòng của tôi rất xa.",
+    "note": "Than phiền về quãng đường đi làm.",
+    "category": "small_talk"
+  },
+  {
+    "id": 103,
+    "ru": "Vous avez une réunion cet après-midi ?",
+    "phonetic": "vu-za-VE uyn re-uy-NYO~ se ta-pre-mi-DI",
+    "meaning": "Chiều nay bạn có cuộc họp không?",
+    "note": "Hỏi về lịch làm việc, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 104,
+    "ru": "Je suis en télétravail aujourd'hui.",
+    "phonetic": "jhơ suyi a~ te-le-tra-VAY o-jurh-DUI",
+    "meaning": "Hôm nay tôi làm việc tại nhà.",
+    "note": "Thông báo hình thức làm việc.",
+    "category": "small_talk"
+  },
+  {
+    "id": 105,
+    "ru": "J'ai pris un congé cette semaine.",
+    "phonetic": "je pri e~ ko~-JHE set sơ-MEN",
+    "meaning": "Tuần này tôi xin nghỉ phép.",
+    "note": "Thông báo nghỉ phép.",
+    "category": "small_talk"
+  },
+  {
+    "id": 106,
+    "ru": "Vous êtes déjà allé en France ?",
+    "phonetic": "vu-zet de-ZHA a-LE a~ FRA~S",
+    "meaning": "Bạn đã từng đến Pháp chưa?",
+    "note": "Hỏi về kinh nghiệm du lịch, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 107,
+    "ru": "Vous partez en vacances bientôt ?",
+    "phonetic": "vu parh-TE a~ va-KA~S bye~-TO",
+    "meaning": "Sắp tới bạn có đi nghỉ mát không?",
+    "note": "Hỏi về kế hoạch du lịch, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 108,
+    "ru": "Où comptez-vous voyager cet été ?",
+    "phonetic": "u ko~-te-VU vwa-ya-JHE se te-TE",
+    "meaning": "Hè này bạn định đi du lịch ở đâu?",
+    "note": "Hỏi về kế hoạch du lịch hè, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 109,
+    "ru": "J'aimerais visiter le Vietnam un jour.",
+    "phonetic": "jem-RE vi-zi-TE lơ vyet-NAM e~ JHURH",
+    "meaning": "Tôi muốn một ngày nào đó đi thăm Việt Nam.",
+    "note": "Chia sẻ mong muốn du lịch.",
+    "category": "small_talk"
+  },
+  {
+    "id": 110,
+    "ru": "Le voyage s'est bien passé ?",
+    "phonetic": "lơ vwa-YAJH se bye~ pa-SE",
+    "meaning": "Chuyến đi có suôn sẻ không?",
+    "note": "Hỏi thăm sau chuyến đi.",
+    "category": "small_talk"
+  },
+  {
+    "id": 111,
+    "ru": "Combien de temps dure le vol ?",
+    "phonetic": "ko~-BYE~ dơ ta~ duyrh lơ VOL",
+    "meaning": "Chuyến bay kéo dài bao lâu?",
+    "note": "Hỏi về thời gian bay.",
+    "category": "small_talk"
+  },
+  {
+    "id": 112,
+    "ru": "Vous voyagez souvent pour le travail ?",
+    "phonetic": "vu vwa-ya-JHE suv-A~ purh lơ tra-VAY",
+    "meaning": "Bạn có hay đi công tác không?",
+    "note": "Hỏi về công tác, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 113,
+    "ru": "J'ai adoré mon séjour à Paris.",
+    "phonetic": "je a-do-RE mo~ se-JHURH a pa-RI",
+    "meaning": "Tôi rất thích chuyến đi Paris của mình.",
+    "note": "Chia sẻ cảm nhận sau chuyến đi.",
+    "category": "small_talk"
+  },
+  {
+    "id": 114,
+    "ru": "Quel pays avez-vous préféré visiter ?",
+    "phonetic": "kel pe-I a-ve-VU pre-fe-RE vi-zi-TE",
+    "meaning": "Bạn thích đến thăm nước nào nhất?",
+    "note": "Hỏi về trải nghiệm du lịch, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 115,
+    "ru": "Nous avons prévu un road trip cet été.",
+    "phonetic": "nu-za-VO~ pre-VUY e~ rhod-TRIP se te-TE",
+    "meaning": "Hè này chúng tôi đã lên kế hoạch đi phượt bằng xe.",
+    "note": "Chia sẻ kế hoạch du lịch.",
+    "category": "small_talk"
+  },
+  {
+    "id": 116,
+    "ru": "L'avion a eu du retard ce matin.",
+    "phonetic": "la-VYO~ a uy duy rơ-TARH sơ ma-TE~",
+    "meaning": "Sáng nay chuyến bay bị trễ.",
+    "note": "Nói về sự cố chuyến bay.",
+    "category": "small_talk"
+  },
+  {
+    "id": 117,
+    "ru": "Avez-vous déjà visité ce musée ?",
+    "phonetic": "a-ve-VU de-ZHA vi-zi-TE sơ muy-ZE",
+    "meaning": "Bạn đã từng đến thăm bảo tàng này chưa?",
+    "note": "Hỏi về trải nghiệm, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 118,
+    "ru": "Je rêve de faire le tour du monde.",
+    "phonetic": "jhơ REV dơ ferh lơ turh duy MO~D",
+    "meaning": "Tôi mơ ước được đi vòng quanh thế giới.",
+    "note": "Chia sẻ ước mơ du lịch.",
+    "category": "small_talk"
+  },
+  {
+    "id": 119,
+    "ru": "Les billets d'avion sont très chers en ce moment.",
+    "phonetic": "le bi-YE da-VYO~ so~ tre SHERH a~ sơ mo-MA~",
+    "meaning": "Dạo này vé máy bay đắt quá.",
+    "note": "Than phiền về giá vé máy bay.",
+    "category": "small_talk"
+  },
+  {
+    "id": 120,
+    "ru": "On a réservé un hôtel près de la plage.",
+    "phonetic": "o~ na re-zerh-VE e~-no-TEL pre dơ la PLAJH",
+    "meaning": "Chúng tôi đã đặt một khách sạn gần bãi biển.",
+    "note": "Chia sẻ về kế hoạch du lịch.",
+    "category": "small_talk"
+  },
+  {
+    "id": 121,
+    "ru": "Vous parlez très bien français.",
+    "phonetic": "vu parh-LE tre bye~ fra~-SE",
+    "meaning": "Bạn nói tiếng Pháp giỏi quá.",
+    "note": "Khen ngợi khả năng ngôn ngữ, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 122,
+    "ru": "Votre français s'améliore de jour en jour.",
+    "phonetic": "votrh fra~-SE sa-me-LYORH dơ jhurh a~ JHURH",
+    "meaning": "Tiếng Pháp của bạn tiến bộ từng ngày.",
+    "note": "Khen ngợi sự tiến bộ, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 123,
+    "ru": "J'adore votre nouvelle coiffure.",
+    "phonetic": "jha-DORH votrh nu-vel kwa-FUYRH",
+    "meaning": "Tôi rất thích kiểu tóc mới của bạn.",
+    "note": "Khen ngợi ngoại hình, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 124,
+    "ru": "Cette robe vous va vraiment bien.",
+    "phonetic": "set rhob vu va vre-MA~ BYE~",
+    "meaning": "Chiếc váy này rất hợp với bạn.",
+    "note": "Khen ngợi trang phục, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 125,
+    "ru": "Vous avez un très bel appartement.",
+    "phonetic": "vu-za-ve e~ tre be-la-parh-tơ-MA~",
+    "meaning": "Căn hộ của bạn đẹp quá.",
+    "note": "Khen ngợi nhà cửa, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 126,
+    "ru": "C'est délicieux, vous cuisinez très bien.",
+    "phonetic": "se de-li-SYƠ vu kui-zi-NE tre BYE~",
+    "meaning": "Ngon quá, bạn nấu ăn giỏi thật.",
+    "note": "Khen ngợi tài nấu ăn, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 127,
+    "ru": "Vous avez beaucoup de talent.",
+    "phonetic": "vu-za-ve bo-KU dơ ta-LA~",
+    "meaning": "Bạn rất tài năng.",
+    "note": "Khen ngợi năng lực, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 128,
+    "ru": "Félicitations pour votre nouveau poste !",
+    "phonetic": "fe-li-si-ta-SYO~ purh votrh nu-vo POST",
+    "meaning": "Chúc mừng bạn với công việc mới!",
+    "note": "Chúc mừng thăng chức hoặc việc mới.",
+    "category": "small_talk"
+  },
+  {
+    "id": 129,
+    "ru": "Bravo, vous avez très bien réussi.",
+    "phonetic": "bra-VO vu-za-ve tre bye~ re-uy-SI",
+    "meaning": "Giỏi quá, bạn đã làm rất tốt.",
+    "note": "Khen ngợi thành tích, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 130,
+    "ru": "Vous avez fait du bon travail.",
+    "phonetic": "vu-za-ve fe duy bo~ tra-VAY",
+    "meaning": "Bạn đã làm việc rất tốt.",
+    "note": "Khen ngợi công việc, thể vous, thường dùng ở nơi làm việc.",
+    "category": "small_talk"
+  },
+  {
+    "id": 131,
+    "ru": "J'aime beaucoup votre montre.",
+    "phonetic": "jem bo-KU votrh MO~TRH",
+    "meaning": "Tôi rất thích chiếc đồng hồ của bạn.",
+    "note": "Khen ngợi phụ kiện, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 132,
+    "ru": "Quel beau jardin vous avez !",
+    "phonetic": "kel bo jarh-DE~ vu-za-VE",
+    "meaning": "Khu vườn của bạn đẹp quá!",
+    "note": "Khen ngợi nhà cửa/vườn, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 133,
+    "ru": "Votre maison est magnifique.",
+    "phonetic": "votrh me-ZO~ e ma-ni-FIK",
+    "meaning": "Ngôi nhà của bạn thật tuyệt vời.",
+    "note": "Khen ngợi nhà cửa, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 134,
+    "ru": "Vous conduisez très bien.",
+    "phonetic": "vu ko~-dui-ZE tre BYE~",
+    "meaning": "Bạn lái xe giỏi quá.",
+    "note": "Khen ngợi kỹ năng lái xe, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 135,
+    "ru": "C'est une excellente idée.",
+    "phonetic": "se tuyn ek-se-la~-TI-de",
+    "meaning": "Đó là một ý tưởng tuyệt vời.",
+    "note": "Khen ngợi ý tưởng, trung tính.",
+    "category": "small_talk"
+  },
+  {
+    "id": 136,
+    "ru": "Vous avez raison, c'est vrai.",
+    "phonetic": "vu-za-ve rhe-ZO~ se VRE",
+    "meaning": "Bạn nói đúng, đúng là vậy.",
+    "note": "Đồng tình với ý kiến, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 137,
+    "ru": "Je suis d'accord avec vous.",
+    "phonetic": "jhơ suyi da-KORH a-vek VU",
+    "meaning": "Tôi đồng ý với bạn.",
+    "note": "Bày tỏ sự đồng ý, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 138,
+    "ru": "C'est vraiment intéressant ce que vous dites.",
+    "phonetic": "se vre-MA~ e~-te-re-SA~ sơ kơ vu DIT",
+    "meaning": "Điều bạn nói thật sự rất thú vị.",
+    "note": "Khen ngợi câu chuyện, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 139,
+    "ru": "Vous avez beaucoup voyagé, dites-moi.",
+    "phonetic": "vu-za-ve bo-KU vwa-ya-JHE dit-MWA",
+    "meaning": "Hình như bạn đi du lịch nhiều lắm nhỉ, kể tôi nghe đi.",
+    "note": "Mở đầu cuộc trò chuyện về du lịch, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 140,
+    "ru": "Racontez-moi votre dernier voyage.",
+    "phonetic": "rha-ko~-te-MWA votrh derh-NYE vwa-YAJH",
+    "meaning": "Kể cho tôi nghe về chuyến đi gần đây nhất của bạn đi.",
+    "note": "Mời kể chuyện du lịch, thể vous.",
+    "category": "small_talk"
+  },
+  {
+    "id": 141,
+    "ru": "Au revoir, à bientôt !",
+    "phonetic": "o rhơ-VWARH a bye~-TO",
+    "meaning": "Tạm biệt, hẹn gặp lại sớm!",
+    "note": "Câu tạm biệt phổ biến, dùng được cả tu/vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 142,
+    "ru": "Au revoir et bonne journée.",
+    "phonetic": "o rhơ-VWARH e bon jurh-NE",
+    "meaning": "Tạm biệt và chúc một ngày tốt lành.",
+    "note": "Tạm biệt kèm lời chúc, lịch sự.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 143,
+    "ru": "À bientôt, prenez soin de vous.",
+    "phonetic": "a bye~-TO prơ-NE swe~ dơ VU",
+    "meaning": "Hẹn gặp lại, giữ gìn sức khỏe nhé.",
+    "note": "Lời chào tạm biệt kèm quan tâm, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 144,
+    "ru": "À plus tard !",
+    "phonetic": "a pluy TARH",
+    "meaning": "Hẹn gặp lại sau!",
+    "note": "Câu tạm biệt thân mật, ngắn gọn.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 145,
+    "ru": "À plus, salut !",
+    "phonetic": "a PLUYS sa-LUY",
+    "meaning": "Hẹn gặp lại, chào nhé!",
+    "note": "Câu tạm biệt rất thân mật, thể tu, giữa bạn bè.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 146,
+    "ru": "À demain, alors.",
+    "phonetic": "a dơ-ME~ a-LORH",
+    "meaning": "Vậy hẹn mai gặp lại.",
+    "note": "Dùng khi tạm biệt người sẽ gặp lại vào hôm sau.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 147,
+    "ru": "On se voit la semaine prochaine.",
+    "phonetic": "o~ sơ vwa la sơ-men pro-SHEN",
+    "meaning": "Tuần sau gặp lại nhé.",
+    "note": "Hẹn gặp lại tuần sau.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 148,
+    "ru": "Bonne soirée à vous.",
+    "phonetic": "bon swa-RE a VU",
+    "meaning": "Chúc bạn buổi tối vui vẻ.",
+    "note": "Chúc buổi tối, thể vous, lịch sự.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 149,
+    "ru": "Bonne nuit, dormez bien.",
+    "phonetic": "bon NUI dorh-ME BYE~",
+    "meaning": "Chúc ngủ ngon.",
+    "note": "Chúc ngủ ngon trước khi đi ngủ, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 150,
+    "ru": "Passez une bonne fin de journée.",
+    "phonetic": "pa-SE uyn bon fe~ dơ jurh-NE",
+    "meaning": "Chúc bạn cuối ngày vui vẻ.",
+    "note": "Lời chúc khi chia tay vào buổi chiều, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 151,
+    "ru": "Je dois y aller, à bientôt.",
+    "phonetic": "jhơ dwa i a-LE a bye~-TO",
+    "meaning": "Mình phải đi rồi, hẹn gặp lại.",
+    "note": "Dùng khi cần rời đi, trung tính.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 152,
+    "ru": "Il faut que je parte maintenant.",
+    "phonetic": "il fo kơ jhơ parht me~-tơ-NA~",
+    "meaning": "Tôi phải đi ngay bây giờ.",
+    "note": "Thông báo cần rời đi gấp.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 153,
+    "ru": "C'était un plaisir de vous parler.",
+    "phonetic": "se-te te~ ple-ZIRH dơ vu parh-LE",
+    "meaning": "Rất vui được trò chuyện với bạn.",
+    "note": "Lời tạm biệt lịch sự sau cuộc trò chuyện, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 154,
+    "ru": "Ravi d'avoir discuté avec vous.",
+    "phonetic": "rha-VI da-vwarh dis-kuy-TE a-vek VU",
+    "meaning": "Rất vui vì đã được trò chuyện với bạn.",
+    "note": "Lời tạm biệt trang trọng, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 155,
+    "ru": "On garde le contact, d'accord ?",
+    "phonetic": "o~ GARHD lơ ko~-TAKT da-KORH",
+    "meaning": "Chúng ta giữ liên lạc nhé?",
+    "note": "Đề nghị giữ liên lạc khi chia tay, thân mật.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 156,
+    "ru": "Prenez soin de vous.",
+    "phonetic": "prơ-NE swe~ dơ VU",
+    "meaning": "Giữ gìn sức khỏe nhé.",
+    "note": "Lời chúc khi tạm biệt, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 157,
+    "ru": "Bon voyage et à bientôt !",
+    "phonetic": "bo~ vwa-YAJH e a bye~-TO",
+    "meaning": "Chúc thượng lộ bình an, hẹn gặp lại!",
+    "note": "Chúc ai đó lên đường.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 158,
+    "ru": "Bonne route !",
+    "phonetic": "bon RHUT",
+    "meaning": "Chúc thượng lộ bình an!",
+    "note": "Chúc ai đó đi đường xa được an toàn.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 159,
+    "ru": "Bon week-end à vous.",
+    "phonetic": "bo~ wi-KEND a VU",
+    "meaning": "Chúc bạn cuối tuần vui vẻ.",
+    "note": "Chúc cuối tuần, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 160,
+    "ru": "À la prochaine fois !",
+    "phonetic": "a la pro-SHEN FWA",
+    "meaning": "Hẹn gặp lại lần sau!",
+    "note": "Lời tạm biệt chung chung, thân mật.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 161,
+    "ru": "Merci beaucoup pour votre aide.",
+    "phonetic": "merh-SI bo-KU purh votrh ED",
+    "meaning": "Cảm ơn bạn rất nhiều vì đã giúp đỡ.",
+    "note": "Cảm ơn vì sự giúp đỡ, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 162,
+    "ru": "Merci infiniment, c'est très gentil.",
+    "phonetic": "merh-SI e~-fi-ni-MA~ se tre jha~-TI",
+    "meaning": "Cảm ơn vô cùng, bạn thật tốt bụng.",
+    "note": "Cảm ơn chân thành.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 163,
+    "ru": "Je vous remercie sincèrement.",
+    "phonetic": "jhơ vu rơ-merh-SI se~-serh-MA~",
+    "meaning": "Tôi chân thành cảm ơn bạn.",
+    "note": "Cảm ơn trang trọng, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 164,
+    "ru": "Merci pour ce merveilleux cadeau.",
+    "phonetic": "merh-SI purh sơ merh-ve-YƠ ka-DO",
+    "meaning": "Cảm ơn vì món quà tuyệt vời này.",
+    "note": "Cảm ơn khi nhận quà.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 165,
+    "ru": "Merci de m'avoir invité.",
+    "phonetic": "merh-SI dơ ma-vwarh e~-vi-TE",
+    "meaning": "Cảm ơn đã mời tôi.",
+    "note": "Nam nói, cảm ơn khi được mời.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 166,
+    "ru": "Merci d'être venu aujourd'hui.",
+    "phonetic": "merh-SI detrh vơ-NUY o-jurh-DUI",
+    "meaning": "Cảm ơn đã đến hôm nay.",
+    "note": "Cảm ơn khách đã đến, dùng cho nam.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 167,
+    "ru": "Je ne sais pas comment vous remercier.",
+    "phonetic": "jhơ nơ se pa ko-MA~ vu rơ-merh-SYE",
+    "meaning": "Tôi không biết phải cảm ơn bạn thế nào.",
+    "note": "Bày tỏ lòng biết ơn sâu sắc, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 168,
+    "ru": "Merci pour votre patience.",
+    "phonetic": "merh-SI purh votrh pa-SYA~S",
+    "meaning": "Cảm ơn vì sự kiên nhẫn của bạn.",
+    "note": "Cảm ơn vì đã kiên nhẫn chờ đợi, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 169,
+    "ru": "Merci de votre compréhension.",
+    "phonetic": "merh-SI dơ votrh ko~-pre-a~-SYO~",
+    "meaning": "Cảm ơn vì sự thông cảm của bạn.",
+    "note": "Cảm ơn vì đã thông cảm, thể vous, trang trọng.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 170,
+    "ru": "C'est très gentil de votre part, merci.",
+    "phonetic": "se tre jha~-TI dơ votrh PARH merh-SI",
+    "meaning": "Bạn thật tốt bụng, cảm ơn nhiều.",
+    "note": "Cảm ơn kèm khen ngợi, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 171,
+    "ru": "Merci pour tout ce que vous avez fait.",
+    "phonetic": "merh-SI purh tu sơ kơ vu-za-ve FE",
+    "meaning": "Cảm ơn vì tất cả những gì bạn đã làm.",
+    "note": "Cảm ơn tổng quát vì sự giúp đỡ, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 172,
+    "ru": "Merci pour ce délicieux repas.",
+    "phonetic": "merh-SI purh sơ de-li-SYƠ rơ-PA",
+    "meaning": "Cảm ơn vì bữa ăn ngon này.",
+    "note": "Cảm ơn sau bữa ăn.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 173,
+    "ru": "Merci pour votre accueil chaleureux.",
+    "phonetic": "merh-SI purh votrh a-KƠY sha-lơ-RƠ",
+    "meaning": "Cảm ơn vì sự đón tiếp nồng hậu.",
+    "note": "Cảm ơn khi được đón tiếp nhiệt tình, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 174,
+    "ru": "Un grand merci à toute l'équipe.",
+    "phonetic": "e~ gra~ merh-SI a tut le-KIP",
+    "meaning": "Xin cảm ơn cả đội rất nhiều.",
+    "note": "Cảm ơn một nhóm người, ở nơi làm việc.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 175,
+    "ru": "Merci mille fois pour votre soutien.",
+    "phonetic": "merh-SI mil FWA purh votrh su-TYE~",
+    "meaning": "Cảm ơn ngàn lần vì sự ủng hộ của bạn.",
+    "note": "Cảm ơn vì sự hỗ trợ, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 176,
+    "ru": "Je vous suis très reconnaissant.",
+    "phonetic": "jhơ vu suyi tre rơ-ko-ne-SA~",
+    "meaning": "Tôi rất biết ơn bạn.",
+    "note": "Nam nói, bày tỏ lòng biết ơn, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 177,
+    "ru": "Je vous suis reconnaissante de votre aide.",
+    "phonetic": "jhơ vu suyi rơ-ko-ne-SA~T dơ votrh ED",
+    "meaning": "Tôi rất biết ơn sự giúp đỡ của bạn.",
+    "note": "Nữ nói, bày tỏ lòng biết ơn, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 178,
+    "ru": "Merci de m'avoir attendu.",
+    "phonetic": "merh-SI dơ ma-vwarh a-ta~-DUY",
+    "meaning": "Cảm ơn đã chờ tôi.",
+    "note": "Cảm ơn vì đã đợi.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 179,
+    "ru": "Merci pour ce joli compliment.",
+    "phonetic": "merh-SI purh sơ jho-LI ko~-pli-MA~",
+    "meaning": "Cảm ơn vì lời khen dễ thương đó.",
+    "note": "Đáp lại khi được khen.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 180,
+    "ru": "Merci beaucoup, vous êtes trop gentil.",
+    "phonetic": "merh-SI bo-KU vu-zet trho jha~-TI",
+    "meaning": "Cảm ơn nhiều, bạn tốt bụng quá.",
+    "note": "Cảm ơn kèm khen, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 181,
+    "ru": "Je suis désolé pour le retard.",
+    "phonetic": "jhơ suyi de-zo-LE purh lơ rơ-TARH",
+    "meaning": "Xin lỗi vì đến muộn.",
+    "note": "Nam nói, xin lỗi vì trễ giờ.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 182,
+    "ru": "Excusez-moi pour le dérangement.",
+    "phonetic": "ek-skuy-ze-MWA purh lơ de-ra~jh-MA~",
+    "meaning": "Xin lỗi vì đã làm phiền.",
+    "note": "Xin lỗi lịch sự, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 183,
+    "ru": "Pardon, je ne voulais pas vous déranger.",
+    "phonetic": "parh-DO~ jhơ nơ vu-LE pa vu de-ra~-JHE",
+    "meaning": "Xin lỗi, tôi không có ý làm phiền bạn.",
+    "note": "Xin lỗi khi vô tình làm phiền, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 184,
+    "ru": "Je m'excuse pour cette erreur.",
+    "phonetic": "jhơ mek-SKUYZ purh set e-RƠRH",
+    "meaning": "Tôi xin lỗi vì sai sót này.",
+    "note": "Xin lỗi vì mắc lỗi.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 185,
+    "ru": "Désolé, je n'ai pas fait exprès.",
+    "phonetic": "de-zo-LE jhơ ne pa fe teks-PRE",
+    "meaning": "Xin lỗi, tôi không cố ý.",
+    "note": "Nam nói, xin lỗi vì vô tình.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 186,
+    "ru": "Je suis vraiment désolé pour hier.",
+    "phonetic": "jhơ suyi vre-MA~ de-zo-LE purh YERH",
+    "meaning": "Tôi thật sự xin lỗi về chuyện hôm qua.",
+    "note": "Xin lỗi chân thành về việc trước đó.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 187,
+    "ru": "Excusez mon retard, il y avait des embouteillages.",
+    "phonetic": "ek-skuy-ZE mo~ rơ-TARH il i a-VE de za~-bu-te-YAJH",
+    "meaning": "Xin lỗi vì tôi đến muộn, do kẹt xe.",
+    "note": "Giải thích lý do trễ, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 188,
+    "ru": "Pardon, pouvez-vous répéter s'il vous plaît ?",
+    "phonetic": "parh-DO~ pu-ve-VU re-pe-TE sil vu PLE",
+    "meaning": "Xin lỗi, bạn có thể nhắc lại được không?",
+    "note": "Xin lỗi khi cần nghe lại, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 189,
+    "ru": "Je suis désolé de vous déranger si tard.",
+    "phonetic": "jhơ suyi de-zo-LE dơ vu de-ra~-JHE si TARH",
+    "meaning": "Xin lỗi vì đã làm phiền bạn muộn thế này.",
+    "note": "Xin lỗi khi liên lạc muộn, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 190,
+    "ru": "Toutes mes excuses pour ce malentendu.",
+    "phonetic": "tut me zeks-KUYZ purh sơ ma-la~-ta~-DUY",
+    "meaning": "Tôi thành thật xin lỗi về sự hiểu lầm này.",
+    "note": "Xin lỗi trang trọng vì hiểu lầm.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 191,
+    "ru": "Excusez-moi, je me suis trompé.",
+    "phonetic": "ek-skuy-ze-MWA jhơ mơ suyi tro~-PE",
+    "meaning": "Xin lỗi, tôi đã nhầm.",
+    "note": "Nam nói, xin lỗi vì nhầm lẫn, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 192,
+    "ru": "Je suis navré pour ce contretemps.",
+    "phonetic": "jhơ suyi na-VRE purh sơ ko~-trơ-TA~",
+    "meaning": "Tôi rất tiếc vì sự cố này.",
+    "note": "Xin lỗi trang trọng vì sự cố bất tiện.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 193,
+    "ru": "Pardonnez-moi, ce n'était pas mon intention.",
+    "phonetic": "parh-do-ne-MWA sơ ne-TE pa mo~-ne~-ta~-SYO~",
+    "meaning": "Xin thứ lỗi, đó không phải là chủ ý của tôi.",
+    "note": "Xin lỗi trang trọng, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 194,
+    "ru": "Désolé de ne pas avoir répondu plus tôt.",
+    "phonetic": "de-zo-LE dơ nơ pa-zavwarh re-po~-DUY pluy TO",
+    "meaning": "Xin lỗi vì đã không trả lời sớm hơn.",
+    "note": "Xin lỗi vì trả lời muộn.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 195,
+    "ru": "Je vous prie de m'excuser pour cet oubli.",
+    "phonetic": "jhơ vu PRI dơ mek-skuy-ZE purh se tu-BLI",
+    "meaning": "Tôi mong bạn thứ lỗi vì sự quên sót này.",
+    "note": "Xin lỗi rất trang trọng, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 196,
+    "ru": "Excusez-moi, puis-je passer ?",
+    "phonetic": "ek-skuy-ze-MWA pui-jhơ pa-SE",
+    "meaning": "Xin lỗi, tôi đi qua được không?",
+    "note": "Xin phép đi qua ở nơi đông người, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 197,
+    "ru": "Je suis sincèrement désolé pour ce qui s'est passé.",
+    "phonetic": "jhơ suyi se~-serh-MA~ de-zo-LE purh sơ ki se pa-SE",
+    "meaning": "Tôi thành thật xin lỗi về chuyện đã xảy ra.",
+    "note": "Xin lỗi chân thành, trang trọng.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 198,
+    "ru": "Ce n'est pas grave, ne vous inquiétez pas.",
+    "phonetic": "sơ ne pa GRAV nơ vu-ze~-kye-TE pa",
+    "meaning": "Không sao đâu, đừng lo lắng.",
+    "note": "Đáp lại lời xin lỗi, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 199,
+    "ru": "Il n'y a pas de mal, ne vous en faites pas.",
+    "phonetic": "il ni a pa dơ MAL nơ vu za~ fet PA",
+    "meaning": "Không có gì đâu, đừng bận tâm.",
+    "note": "Đáp lại lời xin lỗi một cách nhẹ nhàng, thể vous.",
+    "category": "farewell_thanks"
+  },
+  {
+    "id": 200,
+    "ru": "Ce n'est rien, pas de souci.",
+    "phonetic": "sơ ne RYE~ pa dơ su-SI",
+    "meaning": "Không sao cả, đừng lo.",
+    "note": "Đáp lại lời xin lỗi/cảm ơn thân mật.",
+    "category": "farewell_thanks"
+  }
+]

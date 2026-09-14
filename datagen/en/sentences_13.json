@@ -1,0 +1,1922 @@
+[
+  {
+    "id": 2261,
+    "ru": "a double-edged sword",
+    "phonetic": "ơ DU-bâl-ejd SORD",
+    "meaning": "con dao hai lưỡi, việc vừa có lợi vừa có hại",
+    "note": "Thường dùng trong báo chí, bài luận khi nói về chính sách hay quyết định có cả mặt tốt lẫn mặt xấu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2262,
+    "ru": "a far cry from",
+    "phonetic": "ơ FAR KRAI from",
+    "meaning": "khác xa, hoàn toàn không giống với",
+    "note": "Dùng để nhấn mạnh sự khác biệt lớn giữa hai điều, phổ biến trong văn viết trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2263,
+    "ru": "a litmus test",
+    "phonetic": "ơ LIT-mâs TEST",
+    "meaning": "phép thử quyết định, tiêu chí để đánh giá điều gì đó",
+    "note": "Xuất phát từ hóa học (giấy quỳ), hay dùng trong chính trị, báo chí để chỉ một yếu tố then chốt chứng minh điều gì.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2264,
+    "ru": "a slippery slope",
+    "phonetic": "ơ SLIP-ơ-ri SLÔP",
+    "meaning": "con đường trơn trượt, một hành động nhỏ dẫn đến hậu quả nghiêm trọng dần",
+    "note": "Thường dùng trong tranh luận, cảnh báo rằng một quyết định có thể kéo theo chuỗi hệ lụy khó kiểm soát.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2265,
+    "ru": "a watershed moment",
+    "phonetic": "ơ WO-tơ-shed MÔ-mânt",
+    "meaning": "thời khắc bước ngoặt, mang tính lịch sử",
+    "note": "Dùng trang trọng trong báo chí, diễn văn khi nói về sự kiện làm thay đổi hoàn toàn cục diện.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2266,
+    "ru": "against all odds",
+    "phonetic": "ơ-GENST awl ODZ",
+    "meaning": "vượt qua mọi khó khăn, bất chấp nghịch cảnh",
+    "note": "Hay dùng khi kể về thành công đạt được dù xác suất thành công rất thấp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2267,
+    "ru": "an uphill battle",
+    "phonetic": "ơn UP-hil BA-tâl",
+    "meaning": "cuộc chiến gian nan, nhiệm vụ rất khó khăn",
+    "note": "Diễn tả một công việc, mục tiêu đòi hỏi nỗ lực rất lớn mới đạt được, hay gặp trong tin thể thao, chính trị.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2268,
+    "ru": "at a crossroads",
+    "phonetic": "ət ơ KROS-rôdz",
+    "meaning": "đứng trước ngã rẽ quan trọng, thời điểm phải quyết định lớn",
+    "note": "Thường dùng khi nói về một quốc gia, tổ chức hay cá nhân đang ở bước ngoặt cần lựa chọn hướng đi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2269,
+    "ru": "bear the brunt of",
+    "phonetic": "BEA dhuh BRUNT ov",
+    "meaning": "gánh chịu phần nặng nề nhất của điều gì đó",
+    "note": "Dùng trang trọng khi nói ai hoặc nhóm nào chịu ảnh hưởng xấu nhiều nhất từ một sự việc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2270,
+    "ru": "bridge the gap",
+    "phonetic": "BRIJ dhuh GAP",
+    "meaning": "thu hẹp khoảng cách, kết nối hai bên khác biệt",
+    "note": "Rất phổ biến trong văn viết khi nói về việc dung hòa khác biệt về thế hệ, giàu nghèo, văn hóa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2271,
+    "ru": "call into question",
+    "phonetic": "KAWL IN-tu KWES-chân",
+    "meaning": "đặt nghi vấn về điều gì đó, làm dấy lên nghi ngờ",
+    "note": "Ngôn ngữ báo chí trang trọng, dùng khi một sự việc làm người ta hoài nghi tính đúng đắn của điều gì.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2272,
+    "ru": "come to terms with",
+    "phonetic": "KUM tu TƠMZ with",
+    "meaning": "chấp nhận, học cách sống chung với một sự thật khó khăn",
+    "note": "Thường dùng khi nói về việc chấp nhận mất mát, thất bại hay hoàn cảnh khó thay đổi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2273,
+    "ru": "draw a line in the sand",
+    "phonetic": "DRAW ơ LAIN in dhuh SAND",
+    "meaning": "vạch ra giới hạn cuối cùng, ranh giới không được vượt qua",
+    "note": "Hay dùng trong chính trị, ngoại giao khi một bên tuyên bố giới hạn không nhân nhượng thêm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2274,
+    "ru": "fall by the wayside",
+    "phonetic": "FAWL bai dhuh WÊI-sait",
+    "meaning": "bị bỏ rơi, thất bại giữa chừng, không hoàn thành",
+    "note": "Dùng khi nói về kế hoạch, dự án hay người bị loại bỏ, bỏ cuộc trong quá trình thực hiện.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2275,
+    "ru": "food for thought",
+    "phonetic": "FOOD fơ THAWT",
+    "meaning": "điều đáng suy ngẫm, vấn đề cần suy nghĩ kỹ",
+    "note": "Thường dùng để kết một bài viết, phát biểu, gợi mở điều gì đó cho người nghe tự suy xét.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2276,
+    "ru": "go hand in hand",
+    "phonetic": "GÔ HAND in HAND",
+    "meaning": "đi đôi với nhau, có liên quan mật thiết",
+    "note": "Diễn tả hai điều luôn xuất hiện cùng nhau hoặc bổ trợ cho nhau, dùng trong văn viết học thuật, báo chí.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2277,
+    "ru": "in the wake of",
+    "phonetic": "in dhuh WÊIK ov",
+    "meaning": "sau khi xảy ra, ngay sau hậu quả của sự kiện gì đó",
+    "note": "Ngôn ngữ báo chí trang trọng, thường mở đầu câu nói về hệ quả của một sự kiện lớn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2278,
+    "ru": "pave the way for",
+    "phonetic": "PÊIV dhuh WÊI fơ",
+    "meaning": "mở đường, tạo điều kiện thuận lợi cho điều gì xảy ra tiếp theo",
+    "note": "Rất phổ biến trong diễn văn, báo chí khi nói về một thành tựu mở ra cơ hội mới.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2279,
+    "ru": "push the envelope",
+    "phonetic": "PUSH dhi EN-vơ-lôp",
+    "meaning": "đẩy giới hạn, thử thách những gì được coi là có thể",
+    "note": "Dùng khi nói về việc đổi mới, sáng tạo vượt ra khỏi khuôn khổ thông thường.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2280,
+    "ru": "set a precedent",
+    "phonetic": "SET ơ PRE-si-dânt",
+    "meaning": "tạo tiền lệ, làm gương cho những trường hợp sau",
+    "note": "Ngôn ngữ trang trọng, hay dùng trong pháp lý, chính trị khi một quyết định trở thành khuôn mẫu áp dụng sau này.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2281,
+    "ru": "set the record straight",
+    "phonetic": "SET dhuh RE-kord STRÊIT",
+    "meaning": "đính chính, làm rõ sự thật",
+    "note": "Dùng khi ai đó công khai sửa lại thông tin sai lệch hoặc hiểu lầm trước công chúng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2282,
+    "ru": "shed light on",
+    "phonetic": "SHED LAIT on",
+    "meaning": "làm sáng tỏ, giúp hiểu rõ hơn về điều gì đó",
+    "note": "Rất thông dụng trong báo chí, học thuật khi một nghiên cứu hay sự kiện giúp giải thích một vấn đề.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2283,
+    "ru": "stand the test of time",
+    "phonetic": "STAND dhuh TEST ov TAIM",
+    "meaning": "đứng vững qua thời gian, vẫn còn giá trị dù nhiều năm trôi qua",
+    "note": "Dùng khi khen ngợi một tác phẩm, ý tưởng hay giá trị vẫn còn đúng đắn sau thời gian dài.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2284,
+    "ru": "strike a balance",
+    "phonetic": "STRAIK ơ BA-lâns",
+    "meaning": "tìm được sự cân bằng hợp lý giữa hai yếu tố",
+    "note": "Thường dùng khi nói về việc dung hòa giữa công việc và cuộc sống, lợi ích các bên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2285,
+    "ru": "take center stage",
+    "phonetic": "TÊIK SEN-tơ STÊIJ",
+    "meaning": "trở thành tâm điểm chú ý, chiếm vị trí quan trọng nhất",
+    "note": "Dùng khi một vấn đề, sự kiện hay nhân vật trở nên nổi bật nhất trong một bối cảnh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2286,
+    "ru": "the writing is on the wall",
+    "phonetic": "dhuh RAI-ting iz on dhuh WAWL",
+    "meaning": "điềm báo trước, dấu hiệu cho thấy điều xấu hoặc thất bại sắp xảy ra",
+    "note": "Thành ngữ có gốc Kinh Thánh, dùng trang trọng khi nói dấu hiệu rõ ràng báo trước kết cục nào đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2287,
+    "ru": "turn the tide",
+    "phonetic": "TƠN dhuh TAID",
+    "meaning": "xoay chuyển tình thế, đảo ngược cục diện",
+    "note": "Hay dùng trong thể thao, chính trị khi một sự kiện làm thay đổi hoàn toàn chiều hướng đang diễn ra.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2288,
+    "ru": "a can of worms",
+    "phonetic": "ơ KAN ov WƠMZ",
+    "meaning": "vấn đề phức tạp, hễ động vào là rắc rối kéo theo",
+    "note": "Thường nói 'open a can of worms' - cảnh báo rằng nếu đề cập vấn đề này sẽ kéo theo nhiều rắc rối khác.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2289,
+    "ru": "add fuel to the fire",
+    "phonetic": "AD FYU-ơl tu dhuh FAI-ơ",
+    "meaning": "đổ thêm dầu vào lửa, làm tình hình càng thêm căng thẳng",
+    "note": "Dùng khi một hành động hay lời nói làm một tình huống vốn đã xấu càng trở nên tồi tệ hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2290,
+    "ru": "turn a blind eye",
+    "phonetic": "TƠN ơ BLAIND AI",
+    "meaning": "làm ngơ, cố tình không thấy điều sai trái",
+    "note": "Dùng khi ai đó biết rõ vấn đề nhưng lờ đi, không can thiệp hay xử lý.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2291,
+    "ru": "cram for an exam",
+    "phonetic": "KRAM fơr ơn ig-ZAM",
+    "meaning": "học nhồi nhét gấp rút trước kỳ thi",
+    "note": "Diễn tả việc học dồn dập vào phút chót thay vì học đều trong suốt quá trình.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2292,
+    "ru": "pass with flying colors",
+    "phonetic": "PAS with FLAI-ing KU-lơz",
+    "meaning": "đỗ hoặc vượt qua xuất sắc, đạt kết quả rất tốt",
+    "note": "Dùng khi ai đó vượt qua kỳ thi hay thử thách với kết quả vượt trội, không chỉ vừa đủ đậu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2293,
+    "ru": "learn something by heart",
+    "phonetic": "LƠN SUM-thing bai HART",
+    "meaning": "học thuộc lòng",
+    "note": "Dùng phổ biến khi nói về việc ghi nhớ bài học, bài thơ, lời thoại một cách chính xác từng chữ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2294,
+    "ru": "burn the candle at both ends",
+    "phonetic": "BƠN dhuh KAN-dâl ət BÔTH ENDZ",
+    "meaning": "làm việc hoặc học quá sức, thức khuya dậy sớm liên tục",
+    "note": "Cảnh báo về lối sống làm việc, học tập kiệt sức, thường dẫn đến hậu quả sức khỏe.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2295,
+    "ru": "make the grade",
+    "phonetic": "MÊIK dhuh GRÊID",
+    "meaning": "đạt yêu cầu, đủ tiêu chuẩn trong học tập hoặc công việc",
+    "note": "Dùng khi ai đó đáp ứng được mức tiêu chuẩn cần thiết để được chấp nhận, thành công.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2296,
+    "ru": "teacher's pet",
+    "phonetic": "TEE-chơz PET",
+    "meaning": "học trò cưng của giáo viên",
+    "note": "Đôi khi mang hàm ý châm biếm nhẹ, chỉ học sinh được thầy cô ưu ái hơn các bạn khác.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2297,
+    "ru": "ace a test",
+    "phonetic": "ÊIS ơ TEST",
+    "meaning": "làm bài kiểm tra xuất sắc, đạt điểm gần như tuyệt đối",
+    "note": "Dùng thân mật khi khen ai đó làm bài thi rất tốt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2298,
+    "ru": "know something inside out",
+    "phonetic": "NÔ SUM-thing IN-said AOT",
+    "meaning": "nắm rõ, hiểu tường tận điều gì đó",
+    "note": "Diễn tả sự am hiểu sâu sắc, thấu đáo một chủ đề hay lĩnh vực nào đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2299,
+    "ru": "a steep learning curve",
+    "phonetic": "ơ STEEP LƠ-ning KƠV",
+    "meaning": "quá trình học rất khó và nhanh, phải tiếp thu nhiều trong thời gian ngắn",
+    "note": "Thường dùng khi bắt đầu công việc hoặc kỹ năng mới đòi hỏi học hỏi nhanh và nhiều.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2300,
+    "ru": "brush up on",
+    "phonetic": "BRUSH UP on",
+    "meaning": "ôn lại, trau dồi lại kiến thức hoặc kỹ năng đã có",
+    "note": "Dùng khi cần ôn lại điều gì đã biết nhưng đã quên bớt, ví dụ 'brush up on your English'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2301,
+    "ru": "put your thinking cap on",
+    "phonetic": "PUT yor THIN-king KAP on",
+    "meaning": "tập trung suy nghĩ nghiêm túc để giải quyết vấn đề",
+    "note": "Cách nói vui, thường dùng với trẻ em hoặc trong lớp học khi khuyến khích động não.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2302,
+    "ru": "top of the class",
+    "phonetic": "TOP ov dhuh KLAS",
+    "meaning": "đứng đầu lớp, học giỏi nhất",
+    "note": "Dùng khi nói về học sinh có thành tích học tập xuất sắc nhất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2303,
+    "ru": "a straight-A student",
+    "phonetic": "ơ STRÊIT-Ê STYU-dânt",
+    "meaning": "học sinh toàn điểm A, học sinh xuất sắc",
+    "note": "Thường dùng ở Mỹ để chỉ học sinh có bảng điểm toàn A.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2304,
+    "ru": "rack your brains",
+    "phonetic": "RAK yor BRÊINZ",
+    "meaning": "vắt óc suy nghĩ, cố hết sức để nhớ ra hoặc tìm giải pháp",
+    "note": "Dùng khi phải suy nghĩ rất nhiều, căng não để giải quyết một câu hỏi khó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2305,
+    "ru": "a crash course",
+    "phonetic": "ơ KRASH KORS",
+    "meaning": "khóa học cấp tốc, học nhanh trong thời gian ngắn",
+    "note": "Dùng khi nói về một khóa học hoặc chương trình học rút gọn, tập trung học nhanh một kỹ năng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2306,
+    "ru": "read up on",
+    "phonetic": "REED UP on",
+    "meaning": "đọc và tìm hiểu kỹ về một chủ đề",
+    "note": "Dùng khi khuyên ai đó nên tìm tài liệu đọc thêm để hiểu rõ một vấn đề trước khi làm gì.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2307,
+    "ru": "get to grips with",
+    "phonetic": "GET tu GRIPS with",
+    "meaning": "bắt đầu hiểu và làm chủ được một vấn đề hoặc kỹ năng khó",
+    "note": "Thường dùng trong tiếng Anh-Anh, diễn tả quá trình làm quen và nắm vững một việc khó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2308,
+    "ru": "the school of hard knocks",
+    "phonetic": "dhuh SKOOL ov HARD NOKS",
+    "meaning": "trường đời, bài học rút ra từ khó khăn thực tế trong cuộc sống",
+    "note": "Dùng khi nói ai đó học được kinh nghiệm quý giá từ trải nghiệm khó khăn thay vì từ sách vở.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2309,
+    "ru": "old school",
+    "phonetic": "ÔLD SKOOL",
+    "meaning": "theo phong cách hoặc lối cũ, truyền thống",
+    "note": "Có thể dùng khen vì giá trị bền vững hoặc chê vì lỗi thời, tùy ngữ cảnh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2310,
+    "ru": "cut class",
+    "phonetic": "KUT KLAS",
+    "meaning": "trốn học, bỏ tiết học",
+    "note": "Cách nói thân mật của học sinh sinh viên khi cố tình không đến lớp mà không xin phép.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2311,
+    "ru": "a quick learner",
+    "phonetic": "ơ KWIK LƠ-nơ",
+    "meaning": "người học nhanh, tiếp thu nhanh",
+    "note": "Dùng để khen ai đó nắm bắt kiến thức hoặc kỹ năng mới rất nhanh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2312,
+    "ru": "learn the hard way",
+    "phonetic": "LƠN dhuh HARD WÊI",
+    "meaning": "học được bài học qua thất bại hoặc khó khăn thực tế",
+    "note": "Diễn tả việc rút kinh nghiệm sau khi đã trải qua hậu quả xấu, thay vì được ai đó dạy trước.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2313,
+    "ru": "back to basics",
+    "phonetic": "BAK tu BÊI-siks",
+    "meaning": "quay lại những điều cơ bản, nền tảng",
+    "note": "Dùng khi khuyên nên tập trung vào kiến thức, kỹ năng nền tảng thay vì chạy theo điều phức tạp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2314,
+    "ru": "pull an all-nighter",
+    "phonetic": "PUL ơn AWL-NAI-tơ",
+    "meaning": "thức trắng đêm để học bài, làm bài",
+    "note": "Cách nói rất thông dụng của học sinh sinh viên khi phải thức cả đêm ôn thi hoặc làm deadline.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2315,
+    "ru": "top marks",
+    "phonetic": "TOP MARKS",
+    "meaning": "điểm số cao nhất, đánh giá xuất sắc",
+    "note": "Thường dùng trong tiếng Anh-Anh để khen ai đó đạt kết quả hoặc điểm số rất tốt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2316,
+    "ru": "at the eleventh hour",
+    "phonetic": "ət dhi i-LE-vânth AO-ơ",
+    "meaning": "vào phút chót, sát nút thời hạn",
+    "note": "Diễn tả việc gì đó xảy ra hoặc được giải quyết ngay trước khi quá muộn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2317,
+    "ru": "in the nick of time",
+    "phonetic": "in dhuh NIK ov TAIM",
+    "meaning": "đúng lúc, vừa kịp lúc trong gang tấc",
+    "note": "Dùng khi điều gì đó xảy ra ngay trước khi quá trễ, thường mang tính hồi hộp, may mắn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2318,
+    "ru": "beat the clock",
+    "phonetic": "BEET dhuh KLOK",
+    "meaning": "chạy đua với thời gian và thắng, hoàn thành trước hạn",
+    "note": "Dùng khi ai đó hoàn thành công việc đúng hoặc trước thời hạn dù áp lực thời gian lớn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2319,
+    "ru": "against the clock",
+    "phonetic": "ơ-GENST dhuh KLOK",
+    "meaning": "chạy đua với thời gian, làm việc dưới áp lực thời hạn gấp",
+    "note": "Diễn tả tình huống phải hoàn thành việc gì đó trong thời gian rất hạn hẹp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2320,
+    "ru": "time flies",
+    "phonetic": "TAIM FLAIZ",
+    "meaning": "thời gian trôi nhanh",
+    "note": "Câu cảm thán quen thuộc khi nhận ra thời gian đã trôi qua nhanh hơn ta tưởng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2321,
+    "ru": "make up for lost time",
+    "phonetic": "MÊIK UP fơ LOST TAIM",
+    "meaning": "bù đắp lại thời gian đã mất",
+    "note": "Dùng khi cố gắng làm nhanh hoặc nhiều hơn để bù lại khoảng thời gian đã bị lãng phí hoặc trì hoãn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2322,
+    "ru": "time is of the essence",
+    "phonetic": "TAIM iz ov dhi E-sâns",
+    "meaning": "thời gian là yếu tố then chốt, phải khẩn trương",
+    "note": "Cách nói khá trang trọng, nhấn mạnh sự cấp bách, thường gặp trong công việc, hợp đồng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2323,
+    "ru": "in a jiffy",
+    "phonetic": "in ơ JI-fi",
+    "meaning": "trong chớp mắt, rất nhanh",
+    "note": "Cách nói thân mật, ví dụ 'I'll be back in a jiffy' nghĩa là tôi sẽ quay lại ngay thôi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2324,
+    "ru": "in a flash",
+    "phonetic": "in ơ FLASH",
+    "meaning": "trong nháy mắt, cực nhanh",
+    "note": "Diễn tả tốc độ cực nhanh, gần như tức thì.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2325,
+    "ru": "before you know it",
+    "phonetic": "bi-FOR yu NÔ it",
+    "meaning": "trước khi kịp nhận ra, rất nhanh chóng",
+    "note": "Dùng khi nói thời gian trôi hoặc sự việc xảy ra nhanh đến mức không kịp để ý.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2326,
+    "ru": "at the drop of a hat",
+    "phonetic": "ət dhuh DROP ov ơ HAT",
+    "meaning": "ngay lập tức, không cần chuẩn bị trước",
+    "note": "Diễn tả việc sẵn sàng làm gì đó ngay tức khắc, không chút do dự hay chuẩn bị.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2327,
+    "ru": "around the clock",
+    "phonetic": "ơ-RAOND dhuh KLOK",
+    "meaning": "suốt ngày đêm, liên tục 24 trên 24",
+    "note": "Dùng khi nói về công việc hoặc dịch vụ diễn ra không ngừng nghỉ cả ngày lẫn đêm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2328,
+    "ru": "in the blink of an eye",
+    "phonetic": "in dhuh BLINK ov ơn AI",
+    "meaning": "trong chớp mắt, cực kỳ nhanh",
+    "note": "Nhấn mạnh tốc độ cực nhanh của một sự việc, thường dùng khi kể chuyện bất ngờ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2329,
+    "ru": "from time to time",
+    "phonetic": "from TAIM tu TAIM",
+    "meaning": "thỉnh thoảng, thi thoảng",
+    "note": "Cách nói trung tính, phổ biến để chỉ tần suất không thường xuyên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2330,
+    "ru": "once and for all",
+    "phonetic": "WUNS ənd fơr AWL",
+    "meaning": "một lần cho xong, dứt điểm hoàn toàn",
+    "note": "Dùng khi muốn giải quyết dứt điểm một vấn đề để không phải lặp lại nữa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2331,
+    "ru": "ahead of schedule",
+    "phonetic": "ơ-HED ov SKE-jul",
+    "meaning": "vượt trước tiến độ, sớm hơn kế hoạch",
+    "note": "Dùng trong công việc, dự án khi hoàn thành sớm hơn thời hạn đề ra.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2332,
+    "ru": "behind schedule",
+    "phonetic": "bi-HAIND SKE-jul",
+    "meaning": "chậm tiến độ, trễ hơn kế hoạch",
+    "note": "Ngược lại với 'ahead of schedule', dùng khi công việc bị trễ so với dự kiến.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2333,
+    "ru": "on the dot",
+    "phonetic": "on dhuh DOT",
+    "meaning": "đúng giờ chính xác, không sớm không muộn",
+    "note": "Dùng để nhấn mạnh sự chính xác về thời gian, ví dụ 'at 9 o'clock on the dot'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2334,
+    "ru": "right off the bat",
+    "phonetic": "RAIT of dhuh BAT",
+    "meaning": "ngay lập tức, ngay từ đầu",
+    "note": "Có gốc từ bóng chày, dùng khi điều gì đó xảy ra ngay tức thì không chậm trễ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2335,
+    "ru": "for the time being",
+    "phonetic": "fər dhuh TAIM BEE-ing",
+    "meaning": "tạm thời, trong lúc này",
+    "note": "Dùng khi nói về giải pháp hoặc tình trạng chỉ mang tính tạm thời, chưa phải lâu dài.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2336,
+    "ru": "a stitch in time saves nine",
+    "phonetic": "ơ STICH in TAIM SÊIVZ NAIN",
+    "meaning": "xử lý sớm một vấn đề nhỏ sẽ tránh được rắc rối lớn về sau",
+    "note": "Tục ngữ khuyên nên giải quyết vấn đề ngay khi còn nhỏ, tránh để kéo dài thành hậu quả lớn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2337,
+    "ru": "dead on time",
+    "phonetic": "DED on TAIM",
+    "meaning": "đúng giờ tuyệt đối, không sai lệch chút nào",
+    "note": "Cách nói tiếng Anh-Anh nhấn mạnh việc đến hoặc xảy ra rất đúng giờ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2338,
+    "ru": "run out of time",
+    "phonetic": "RUN aot ov TAIM",
+    "meaning": "hết thời gian, không còn kịp nữa",
+    "note": "Dùng khi thời hạn sắp hết mà công việc chưa xong.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2339,
+    "ru": "in due course",
+    "phonetic": "in DYU KORS",
+    "meaning": "đến lúc thích hợp, sau này sẽ tới",
+    "note": "Cách nói trang trọng, dùng khi nói điều gì đó sẽ xảy ra vào thời điểm hợp lý mà không cần nói rõ khi nào.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2340,
+    "ru": "it's high time",
+    "phonetic": "its HAI TAIM",
+    "meaning": "đã đến lúc phải làm gì đó rồi, thường là hơi muộn",
+    "note": "Dùng để nhấn mạnh rằng lẽ ra nên làm việc gì đó từ trước, ví dụ 'it's high time you apologized'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2341,
+    "ru": "a drop in the ocean",
+    "phonetic": "ơ DROP in dhi Ô-shân",
+    "meaning": "một giọt nước giữa đại dương, quá nhỏ bé so với tổng thể",
+    "note": "Dùng khi một đóng góp hoặc số lượng quá nhỏ so với nhu cầu thực tế cần giải quyết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2342,
+    "ru": "a dime a dozen",
+    "phonetic": "ơ DAIM ơ DU-zân",
+    "meaning": "nhiều vô kể, rẻ và phổ biến đến mức không có gì đặc biệt",
+    "note": "Thành ngữ Mỹ, dùng khi nói về thứ gì đó quá phổ biến nên không còn giá trị hiếm có.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2343,
+    "ru": "the tip of the iceberg",
+    "phonetic": "dhuh TIP ov dhi AIS-bơg",
+    "meaning": "phần nổi của tảng băng chìm, chỉ là một phần rất nhỏ so với vấn đề thực sự lớn hơn",
+    "note": "Dùng khi điều đang thấy chỉ là biểu hiện nhỏ của một vấn đề lớn hơn nhiều còn ẩn giấu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2344,
+    "ru": "more than meets the eye",
+    "phonetic": "MOR dhân MEETS dhi AI",
+    "meaning": "phức tạp hoặc nhiều hơn những gì thấy được bên ngoài",
+    "note": "Dùng khi một sự việc hoặc con người có nhiều khía cạnh ẩn giấu hơn vẻ bề ngoài.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2345,
+    "ru": "go all out",
+    "phonetic": "GÔ awl AOT",
+    "meaning": "dốc hết sức lực, làm hết mình",
+    "note": "Diễn tả việc nỗ lực tối đa, không giữ lại chút sức lực nào.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2346,
+    "ru": "over the top",
+    "phonetic": "Ô-vơ dhuh TOP",
+    "meaning": "thái quá, quá đà, phóng đại",
+    "note": "Thường dùng để chê một hành động hoặc phản ứng vượt quá mức cần thiết, hơi lố.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2347,
+    "ru": "by leaps and bounds",
+    "phonetic": "bai LEEPS ənd BAONDZ",
+    "meaning": "tiến bộ hoặc tăng trưởng nhanh chóng, vượt bậc",
+    "note": "Dùng khi nói về sự phát triển hay cải thiện diễn ra rất nhanh và rõ rệt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2348,
+    "ru": "through the roof",
+    "phonetic": "thru dhuh ROOF",
+    "meaning": "tăng vọt, cao ngất ngưởng",
+    "note": "Thường dùng để nói giá cả, số liệu tăng đột biến, ví dụ 'prices went through the roof'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2349,
+    "ru": "to a fault",
+    "phonetic": "tu ơ FAWLT",
+    "meaning": "đến mức thái quá dù bản chất là tốt, quá mức",
+    "note": "Dùng khi một đức tính tốt bị đẩy lên quá mức, ví dụ 'generous to a fault' nghĩa là hào phóng quá mức.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2350,
+    "ru": "to the nth degree",
+    "phonetic": "tu dhuh ENTH di-GREE",
+    "meaning": "đến mức tối đa có thể, cực độ",
+    "note": "Cách nói mượn từ toán học, nhấn mạnh mức độ cao nhất có thể của điều gì đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2351,
+    "ru": "give it your all",
+    "phonetic": "GIV it yor AWL",
+    "meaning": "dốc hết toàn lực, cố gắng hết mình",
+    "note": "Lời khích lệ phổ biến, khuyên ai đó nỗ lực hết sức cho một việc quan trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2352,
+    "ru": "more or less",
+    "phonetic": "MOR ər LES",
+    "meaning": "gần như, xấp xỉ",
+    "note": "Dùng khi nói con số hoặc mức độ không hoàn toàn chính xác nhưng gần đúng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2353,
+    "ru": "give it 110 percent",
+    "phonetic": "GIV it wun TEN pơ-SENT",
+    "meaning": "cố gắng hết sức, thậm chí vượt cả giới hạn bản thân",
+    "note": "Cách nói phóng đại thân mật, thường gặp trong thể thao khi khích lệ nỗ lực tối đa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2354,
+    "ru": "a ton of",
+    "phonetic": "ơ TUN ov",
+    "meaning": "rất nhiều",
+    "note": "Cách nói thân mật để chỉ số lượng lớn, ví dụ 'a ton of homework'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2355,
+    "ru": "not by a long shot",
+    "phonetic": "not bai ơ LONG SHOT",
+    "meaning": "hoàn toàn không, còn lâu mới",
+    "note": "Dùng để phủ định mạnh mẽ, nhấn mạnh khoảng cách còn rất xa so với điều gì đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2356,
+    "ru": "all or nothing",
+    "phonetic": "awl ər NU-thing",
+    "meaning": "được ăn cả ngã về không, tất cả hoặc không gì cả",
+    "note": "Diễn tả thái độ dứt khoát, không chấp nhận giải pháp nửa vời.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2357,
+    "ru": "at full throttle",
+    "phonetic": "ət FUL THRO-tâl",
+    "meaning": "hết tốc lực, hết công suất",
+    "note": "Có gốc từ động cơ, dùng khi làm việc hoặc hoạt động với cường độ tối đa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2358,
+    "ru": "go the whole hog",
+    "phonetic": "GÔ dhuh HÔL HOG",
+    "meaning": "làm tới cùng, làm triệt để không nửa vời",
+    "note": "Cách nói tiếng Anh-Anh, nghĩa tương tự 'go all the way' nghĩa là làm hết mình, không bỏ dở.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2359,
+    "ru": "down to a science",
+    "phonetic": "DAON tu ơ SAI-âns",
+    "meaning": "thành thạo đến mức chính xác như khoa học, làm rất thuần thục",
+    "note": "Dùng khi ai đó đã luyện tập một việc đến mức làm rất chuẩn xác, không sai sót.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2360,
+    "ru": "a needle in a haystack",
+    "phonetic": "ơ NEE-dâl in ơ HÊI-stak",
+    "meaning": "như tìm kim đáy bể, cực kỳ khó tìm",
+    "note": "Dùng khi việc tìm kiếm gì đó gần như bất khả thi vì quá nhỏ bé giữa số lượng khổng lồ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2361,
+    "ru": "next to nothing",
+    "phonetic": "NEKST tu NU-thing",
+    "meaning": "gần như không có gì, rất ít",
+    "note": "Dùng khi số lượng hoặc giá trị gì đó quá nhỏ, gần bằng không.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2362,
+    "ru": "the whole shebang",
+    "phonetic": "dhuh HÔL shi-BANG",
+    "meaning": "toàn bộ mọi thứ, trọn gói",
+    "note": "Cách nói thân mật, vui, chỉ toàn bộ sự việc hoặc đồ vật không sót gì.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2363,
+    "ru": "a stone's throw away",
+    "phonetic": "ơ STÔNZ THRÔ ơ-WÊI",
+    "meaning": "rất gần, chỉ cách một quãng ngắn",
+    "note": "Dùng để mô tả khoảng cách rất gần, ví dụ nhà cách công ty 'a stone's throw away'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2364,
+    "ru": "a far stretch",
+    "phonetic": "ơ FAR STRECH",
+    "meaning": "khó tin, hơi quá xa vời khi so sánh hoặc suy luận",
+    "note": "Dùng khi một lập luận hay so sánh nghe có vẻ khiên cưỡng, không thực sự thuyết phục.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2365,
+    "ru": "top to bottom",
+    "phonetic": "TOP tu BO-tâm",
+    "meaning": "từ trên xuống dưới, toàn bộ, triệt để",
+    "note": "Dùng khi làm việc gì đó bao quát toàn bộ, không bỏ sót phần nào, ví dụ dọn dẹp 'top to bottom'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2366,
+    "ru": "fam",
+    "phonetic": "FAM",
+    "meaning": "bạn thân, 'gia đình' theo nghĩa bạn bè rất thân thiết",
+    "note": "Tiếng lóng thân mật phổ biến trong giới trẻ và hip-hop để gọi bạn bè thân như người nhà; chỉ nên dùng với người rất thân.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2367,
+    "ru": "on fleek",
+    "phonetic": "on FLEEK",
+    "meaning": "hoàn hảo, chỉn chu, thường nói về ngoại hình đặc biệt là lông mày",
+    "note": "Bắt nguồn từ mạng xã hội khoảng năm 2014, nay hơi lỗi thời nhưng vẫn được dùng đùa; mang tính suồng sã.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2368,
+    "ru": "turnt",
+    "phonetic": "TƠNT",
+    "meaning": "phấn khích cao độ, quẩy hết mình thường ở tiệc tùng",
+    "note": "Tiếng lóng gốc hip-hop, mô tả trạng thái hưng phấn tột độ tại tiệc tùng; khá suồng sã, tránh dùng nơi trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2369,
+    "ru": "cap",
+    "phonetic": "KAP",
+    "meaning": "nói dối, bịa chuyện",
+    "note": "Nguồn gốc từ AAVE, tiếng lóng của cộng đồng người Mỹ gốc Phi, phổ biến qua nhạc rap và mạng xã hội; ví dụ 'you're capping' nghĩa là mày đang nói dối.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2370,
+    "ru": "straight fire",
+    "phonetic": "STRÊIT FAI-ơ",
+    "meaning": "cực đỉnh, quá đã, quá tuyệt, thường dùng khen nhạc, món ăn, trang phục",
+    "note": "Tiếng lóng gốc hip-hop dùng để khen ngợi mạnh mẽ; thân mật, phổ biến trong giới trẻ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2371,
+    "ru": "clout",
+    "phonetic": "KLAOT",
+    "meaning": "sức ảnh hưởng, tiếng tăm trên mạng xã hội",
+    "note": "Gốc từ văn hóa hip-hop và mạng xã hội, chỉ danh tiếng hay quyền lực xã hội có được nhờ nổi tiếng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2372,
+    "ru": "clout chaser",
+    "phonetic": "KLAOT CHÊI-sơ",
+    "meaning": "người chạy theo nổi tiếng, làm mọi thứ chỉ để gây chú ý",
+    "note": "Mang hàm ý chê bai người hành động vì muốn nổi tiếng hoặc viral hơn là vì mục đích thật sự.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2373,
+    "ru": "thirsty",
+    "phonetic": "THƠS-ti",
+    "meaning": "khao khát được chú ý, quá sốt sắng tìm kiếm sự công nhận hoặc tình cảm",
+    "note": "Tiếng lóng chỉ người tỏ ra quá nhiệt tình, đặc biệt trong chuyện tán tỉnh trên mạng xã hội; hơi mang tính chê bai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2374,
+    "ru": "drip",
+    "phonetic": "DRIP",
+    "meaning": "gu thời trang đỉnh cao, phong cách ăn mặc chất",
+    "note": "Tiếng lóng hip-hop dùng khen ai đó ăn mặc rất chất, hợp mốt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2375,
+    "ru": "finna",
+    "phonetic": "FI-nơ",
+    "meaning": "sắp sửa, chuẩn bị làm gì đó, viết tắt của 'fixing to'",
+    "note": "Gốc từ AAVE, rất phổ biến trong lời bài hát và mạng xã hội; chỉ dùng trong văn nói suồng sã.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2376,
+    "ru": "deadass",
+    "phonetic": "DED-as",
+    "meaning": "nói thật đấy, nghiêm túc đó, nhấn mạnh sự chân thật",
+    "note": "Tiếng lóng đường phố Mỹ, dùng để khẳng định mình không đùa; khá thô, tránh dùng trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2377,
+    "ru": "goat",
+    "phonetic": "GÔT",
+    "meaning": "người giỏi nhất mọi thời đại, viết tắt của 'Greatest Of All Time'",
+    "note": "Thường viết hoa GOAT, dùng khen ai đó xuất sắc nhất trong lĩnh vực của họ, phổ biến trong thể thao và nhạc rap.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2378,
+    "ru": "ratchet",
+    "phonetic": "RA-chit",
+    "meaning": "thô lỗ, quá lố, thiếu tinh tế, thường chê hành vi hoặc phong cách ai đó",
+    "note": "Tiếng lóng gốc hip-hop miền Nam nước Mỹ, mang tính chê bai khá mạnh, cần cẩn trọng khi dùng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2379,
+    "ru": "woke",
+    "phonetic": "WÔK",
+    "meaning": "có nhận thức xã hội, tỉnh táo trước bất công xã hội",
+    "note": "Gốc từ phong trào công bằng xã hội của người Mỹ gốc Phi, sau lan rộng và đôi khi bị dùng mỉa mai để chê người 'làm màu đạo đức'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2380,
+    "ru": "shook",
+    "phonetic": "SHUK",
+    "meaning": "sốc, bàng hoàng, mất bình tĩnh",
+    "note": "Tiếng lóng thân mật diễn tả trạng thái bất ngờ mạnh, phổ biến trên mạng xã hội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2381,
+    "ru": "pressed",
+    "phonetic": "PREST",
+    "meaning": "khó chịu, bực bội, thường vì chuyện nhỏ nhặt",
+    "note": "Tiếng lóng dùng khi chê ai đó phản ứng thái quá hoặc để bụng chuyện không đáng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2382,
+    "ru": "boujee",
+    "phonetic": "BU-zhi",
+    "meaning": "sang chảnh, chưng diện quá mức, đôi khi hàm ý giả tạo",
+    "note": "Biến thể từ 'bourgeois', phổ biến qua nhạc rap để chỉ phong cách sống xa hoa, đôi khi mang nghĩa mỉa mai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2383,
+    "ru": "stan",
+    "phonetic": "STAN",
+    "meaning": "fan cuồng, hâm mộ cuồng nhiệt một người nổi tiếng",
+    "note": "Xuất phát từ bài hát 'Stan' của Eminem, nay dùng phổ biến để chỉ fan hâm mộ nhiệt thành, đôi khi hơi thái quá.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2384,
+    "ru": "gassed",
+    "phonetic": "GAST",
+    "meaning": "được tâng bốc, tự tin hoặc phấn khích quá mức vì được khen",
+    "note": "Tiếng lóng chỉ trạng thái 'lên mây' vì được người khác khen ngợi hoặc cổ vũ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2385,
+    "ru": "that's a W",
+    "phonetic": "dhats ơ DU-bâl-yu",
+    "meaning": "đó là một chiến thắng, một điều tốt hoặc thành công",
+    "note": "'W' là viết tắt của 'win', tiếng lóng phổ biến trên mạng xã hội và trong gaming để khen ngợi kết quả tốt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2386,
+    "ru": "that's an L",
+    "phonetic": "dhats ơn EL",
+    "meaning": "đó là một thất bại, một điều tệ",
+    "note": "Ngược nghĩa với 'W', 'L' là viết tắt của 'loss', dùng phổ biến trong giới trẻ và cộng đồng gaming.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2387,
+    "ru": "periodt",
+    "phonetic": "PI-ri-âd",
+    "meaning": "chấm hết, không bàn cãi gì thêm, nhấn mạnh sự dứt khoát",
+    "note": "Biến thể nhấn mạnh của 'period', phổ biến trên mạng xã hội để khẳng định ý kiến một cách dứt khoát.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2388,
+    "ru": "swag",
+    "phonetic": "SWAG",
+    "meaning": "phong cách tự tin, cuốn hút riêng",
+    "note": "Tiếng lóng phổ biến chỉ sự tự tin, phong cách cá tính trong cách ăn mặc hoặc hành xử.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2389,
+    "ru": "og",
+    "phonetic": "Ô-JI",
+    "meaning": "người kỳ cựu, chính hiệu, có từ đầu, viết tắt của 'Original Gangster' hoặc 'Original'",
+    "note": "Gốc từ văn hóa hip-hop, dùng khen ai đó là bậc tiền bối, nguyên bản, đáng nể trong một lĩnh vực.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2390,
+    "ru": "clapback",
+    "phonetic": "KLAP-bak",
+    "meaning": "đáp trả sắc bén, phản pháo lại lời chỉ trích một cách dứt khoát",
+    "note": "Thường dùng trên mạng xã hội khi ai đó phản ứng lại bình luận tiêu cực một cách thông minh, sắc sảo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2391,
+    "ru": "go viral",
+    "phonetic": "GÔ VAI-râl",
+    "meaning": "lan truyền nhanh chóng trên mạng, trở nên nổi tiếng khắp nơi",
+    "note": "Dùng khi nội dung như video, bài đăng được chia sẻ rộng rãi trong thời gian ngắn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2392,
+    "ru": "ok boomer",
+    "phonetic": "ô-KÊI BOO-mơ",
+    "meaning": "câu đáp trả mỉa mai người lớn tuổi có quan điểm lỗi thời",
+    "note": "Tiếng lóng gen Z dùng để phản bác quan điểm bị coi là cổ hủ, không hiểu thời đại; có thể gây khó chịu nếu dùng bừa bãi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2393,
+    "ru": "ratio",
+    "phonetic": "RÊI-shi-ô",
+    "meaning": "bị 'vùi dập' trên mạng xã hội khi bình luận nhận nhiều phản hồi chê bai hơn lượt thích bài gốc",
+    "note": "Tiếng lóng trên Twitter/X, 'get ratioed' nghĩa là bài đăng bị cộng đồng mạng phản đối áp đảo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2394,
+    "ru": "based",
+    "phonetic": "BÊIST",
+    "meaning": "dám nói thẳng quan điểm cá nhân bất chấp phản đối, được khen là có chính kiến",
+    "note": "Tiếng lóng mạng phổ biến trong giới trẻ để khen ai đó thẳng thắn, không sợ dư luận.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2395,
+    "ru": "cheugy",
+    "phonetic": "CHU-gi",
+    "meaning": "lỗi thời, cố tỏ ra hợp trend nhưng không còn chất nữa",
+    "note": "Tiếng lóng TikTok, dùng để chê những thứ từng thịnh hành nay đã lỗi mốt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2396,
+    "ru": "gaslighting",
+    "phonetic": "GAS-lai-ting",
+    "meaning": "thao túng tâm lý khiến người khác nghi ngờ chính nhận thức của mình",
+    "note": "Thuật ngữ tâm lý học phổ biến hóa trên mạng xã hội, chỉ hành vi lừa dối tinh vi khiến nạn nhân hoang mang.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2397,
+    "ru": "brain rot",
+    "phonetic": "BRÊIN ROT",
+    "meaning": "'thối não', tình trạng đầu óc trì trệ do xem quá nhiều nội dung mạng xã hội vô bổ",
+    "note": "Tiếng lóng TikTok và gen Z chỉ hậu quả của việc lướt mạng quá nhiều nội dung nhảm nhí.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2398,
+    "ru": "side quest",
+    "phonetic": "SAID KWEST",
+    "meaning": "nhiệm vụ phụ, việc làm thêm ngoài mục tiêu chính, mượn từ game",
+    "note": "Dùng ngoài đời để chỉ việc gì đó thú vị nhưng không nằm trong kế hoạch chính, mang tính vui đùa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2399,
+    "ru": "rage quit",
+    "phonetic": "RÊIJ KWIT",
+    "meaning": "bỏ cuộc trong tức giận, đặc biệt khi chơi game",
+    "note": "Gốc từ cộng đồng game thủ, chỉ việc thoát game hoặc bỏ dở việc gì đó vì quá tức giận.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2400,
+    "ru": "gg",
+    "phonetic": "JEE-JEE",
+    "meaning": "'trận đấu hay', lời chào kết thúc trận game dù thắng hay thua",
+    "note": "Viết tắt của 'good game', văn hóa gaming, dùng thể hiện tinh thần thể thao sau một trận đấu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2401,
+    "ru": "noob",
+    "phonetic": "NUUB",
+    "meaning": "người mới, tay mơ, thường trong game hoặc lĩnh vực nào đó",
+    "note": "Tiếng lóng gaming chỉ người mới chưa có kinh nghiệm; dùng đùa giữa bạn bè nhưng có thể xúc phạm nếu dùng với người lạ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2402,
+    "ru": "pwned",
+    "phonetic": "PÔND",
+    "meaning": "bị đánh bại hoàn toàn, bị hạ đo ván, biến thể đùa của 'owned'",
+    "note": "Tiếng lóng gaming xuất phát từ lỗi gõ phím 'owned' thành 'pwned', nay dùng phổ biến khi ai đó thua thảm hại.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2403,
+    "ru": "speedrun",
+    "phonetic": "SPEED-run",
+    "meaning": "hoàn thành điều gì đó, thường là game, nhanh nhất có thể",
+    "note": "Gốc từ cộng đồng game, nay cũng dùng để chỉ việc hoàn tất bất kỳ việc gì với tốc độ kỷ lục.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2404,
+    "ru": "nerf",
+    "phonetic": "NƠF",
+    "meaning": "làm yếu đi, giảm sức mạnh một nhân vật hoặc vũ khí trong game",
+    "note": "Thuật ngữ gaming khi nhà phát triển điều chỉnh giảm sức mạnh một yếu tố trong game cho cân bằng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2405,
+    "ru": "buff",
+    "phonetic": "BUF",
+    "meaning": "tăng cường sức mạnh một nhân vật hoặc kỹ năng trong game",
+    "note": "Ngược nghĩa với 'nerf', thuật ngữ gaming chỉ việc nâng cấp sức mạnh cho cân bằng trò chơi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2406,
+    "ru": "lag",
+    "phonetic": "LAG",
+    "meaning": "đơ, giật, trễ do đường truyền mạng kém",
+    "note": "Thuật ngữ công nghệ và gaming rất phổ biến chỉ tình trạng chậm trễ khi kết nối mạng yếu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2407,
+    "ru": "loot",
+    "phonetic": "LOOT",
+    "meaning": "chiến lợi phẩm, phần thưởng nhặt được trong game",
+    "note": "Thuật ngữ gaming chỉ vật phẩm hoặc tiền thưởng kiếm được sau khi hoàn thành nhiệm vụ hoặc đánh bại đối thủ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2408,
+    "ru": "respawn",
+    "phonetic": "ri-SPAWN",
+    "meaning": "hồi sinh, xuất hiện lại sau khi 'chết' trong game",
+    "note": "Thuật ngữ gaming chỉ việc nhân vật được hồi sinh lại tại một điểm nhất định sau khi thua hoặc chết trong trò chơi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2409,
+    "ru": "one-shot",
+    "phonetic": "WUN-SHOT",
+    "meaning": "hạ gục hoặc hoàn thành chỉ trong một lần duy nhất",
+    "note": "Gốc gaming khi hạ đối thủ bằng một đòn duy nhất, nay cũng dùng rộng để chỉ việc làm xong ngay lần đầu tiên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2410,
+    "ru": "meta",
+    "phonetic": "ME-tơ",
+    "meaning": "chiến thuật hoặc lối chơi được coi là tối ưu nhất hiện tại trong game",
+    "note": "Viết tắt của 'most effective tactics available', thuật ngữ gaming chỉ xu hướng chơi phổ biến và hiệu quả nhất lúc đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2411,
+    "ru": "toxic",
+    "phonetic": "TOK-sik",
+    "meaning": "độc hại, có thái độ tiêu cực gây khó chịu cho người khác trong game hoặc mạng xã hội",
+    "note": "Dùng phổ biến để mô tả người chơi hoặc người dùng mạng có hành vi công kích, thô lỗ với người khác.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2412,
+    "ru": "cancel culture",
+    "phonetic": "KAN-sâl KUL-chơ",
+    "meaning": "văn hóa tẩy chay công khai người hoặc tổ chức có phát ngôn, hành vi gây tranh cãi",
+    "note": "Hiện tượng mạng xã hội gây nhiều tranh luận, dùng khi cộng đồng đồng loạt quay lưng với ai đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2413,
+    "ru": "doxx",
+    "phonetic": "DOKS",
+    "meaning": "công khai thông tin cá nhân của ai đó trên mạng mà không được phép",
+    "note": "Hành vi nguy hiểm và tiêu cực trên mạng, thường được nhắc đến khi bàn về an toàn thông tin cá nhân.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2414,
+    "ru": "catfish",
+    "phonetic": "KAT-fish",
+    "meaning": "giả danh người khác để lừa tình cảm trên mạng",
+    "note": "Dùng khi ai đó tạo hồ sơ giả để lừa đảo tình cảm hoặc tiền bạc qua mạng xã hội hoặc app hẹn hò.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2415,
+    "ru": "lurker",
+    "phonetic": "LƠ-kơ",
+    "meaning": "người chỉ xem mà không tương tác trên mạng xã hội hoặc diễn đàn",
+    "note": "Chỉ người thường xuyên theo dõi nội dung nhưng hiếm khi bình luận, thích hay đăng bài.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2416,
+    "ru": "troll",
+    "phonetic": "TRÔL",
+    "meaning": "người cố tình chọc phá, khiêu khích người khác trên mạng",
+    "note": "Dùng chỉ hành vi đăng bình luận gây tranh cãi hoặc khiêu khích chỉ để chọc tức người khác cho vui.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2417,
+    "ru": "clickbait",
+    "phonetic": "KLIK-bêit",
+    "meaning": "tiêu đề giật gân câu view, nội dung câu kéo lượt click",
+    "note": "Chỉ tiêu đề bài viết hoặc video được thiết kế để gây tò mò quá mức nhằm thu hút lượt xem.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2418,
+    "ru": "terminally online",
+    "phonetic": "TƠ-mi-nơ-li ON-lain",
+    "meaning": "'nghiện mạng' đến mức mất kết nối với thực tế đời sống",
+    "note": "Tiếng lóng chỉ trạng thái dành quá nhiều thời gian trên mạng đến mức suy nghĩ, hành xử bị ảnh hưởng lệch lạc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2419,
+    "ru": "chronically online",
+    "phonetic": "KRO-nik-li ON-lain",
+    "meaning": "lên mạng liên tục, gần như suốt ngày dán mắt vào màn hình",
+    "note": "Tương tự 'terminally online', nhấn mạnh việc sử dụng mạng xã hội quá mức thường xuyên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2420,
+    "ru": "main character syndrome",
+    "phonetic": "MÊIN KE-rik-tơ SIN-drôm",
+    "meaning": "hội chứng tự coi mình là nhân vật chính, luôn nghĩ mọi thứ xoay quanh bản thân",
+    "note": "Tiếng lóng TikTok chỉ xu hướng tự huyễn hoặc bản thân là trung tâm của mọi câu chuyện, đôi khi mang tính chê bai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2421,
+    "ru": "bits and bobs",
+    "phonetic": "BITS ənd BOBZ",
+    "meaning": "những thứ linh tinh, lặt vặt",
+    "note": "Thành ngữ Anh-Anh rất phổ biến, chỉ những đồ vật hoặc việc nhỏ lẻ không quan trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2422,
+    "ru": "chuffed to bits",
+    "phonetic": "CHUFT tu BITS",
+    "meaning": "vui sướng, hài lòng cực kỳ",
+    "note": "Thành ngữ Anh-Anh thân mật diễn tả niềm vui hoặc tự hào lớn về điều gì đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2423,
+    "ru": "gobsmacked",
+    "phonetic": "GOB-smakt",
+    "meaning": "sững sờ, kinh ngạc đến mức không nói nên lời",
+    "note": "Tiếng lóng Anh-Anh rất phổ biến diễn tả sự ngạc nhiên tột độ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2424,
+    "ru": "taking the mickey",
+    "phonetic": "TÊI-king dhuh MI-ki",
+    "meaning": "trêu chọc, giễu cợt ai đó",
+    "note": "Thành ngữ Anh-Anh, thường nói 'taking the mickey out of someone' nghĩa là chọc ghẹo ai đó cho vui.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2425,
+    "ru": "knackered",
+    "phonetic": "NA-kơd",
+    "meaning": "kiệt sức, mệt lử",
+    "note": "Tiếng lóng Anh-Anh rất thông dụng để nói mình quá mệt, gần giống 'exhausted'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2426,
+    "ru": "dodgy",
+    "phonetic": "DO-ji",
+    "meaning": "đáng ngờ, không đáng tin cậy",
+    "note": "Tiếng Anh-Anh thân mật, dùng cho người, đồ vật hay tình huống có vẻ mờ ám, không ổn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2427,
+    "ru": "fancy a cuppa",
+    "phonetic": "FAN-si ơ KU-pơ",
+    "meaning": "muốn uống một tách trà",
+    "note": "Cách nói rất Anh-Anh và đời thường, 'cuppa' là viết tắt thân mật của 'cup of tea'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2428,
+    "ru": "bob's your uncle",
+    "phonetic": "BOBZ yor UN-kâl",
+    "meaning": "thế là xong, đơn giản vậy thôi",
+    "note": "Thành ngữ Anh-Anh vui nhộn, dùng sau khi hướng dẫn xong việc gì đó để nói 'vậy là hoàn tất'.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2429,
+    "ru": "the full monty",
+    "phonetic": "dhuh FUL MON-ti",
+    "meaning": "toàn bộ, đầy đủ hết mức có thể, trọn gói",
+    "note": "Thành ngữ Anh-Anh, nghĩa gần giống 'the whole thing', nổi tiếng qua tên bộ phim cùng tên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2430,
+    "ru": "go pear-shaped",
+    "phonetic": "GÔ PEƠ-shêipt",
+    "meaning": "hỏng bét, đổ vỡ hết kế hoạch",
+    "note": "Thành ngữ Anh-Anh dùng khi mọi việc diễn ra không như dự định, trở nên tồi tệ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2431,
+    "ru": "lose the plot",
+    "phonetic": "LOOZ dhuh PLOT",
+    "meaning": "mất kiểm soát, không còn tỉnh táo hay hợp lý nữa",
+    "note": "Thành ngữ Anh-Anh, dùng khi ai đó phản ứng thái quá hoặc hành xử vô lý, mất bình tĩnh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2432,
+    "ru": "over the moon",
+    "phonetic": "Ô-vơ dhuh MOON",
+    "meaning": "vui sướng tột độ, cực kỳ hạnh phúc",
+    "note": "Thành ngữ Anh-Anh phổ biến để diễn tả niềm vui lớn, thường dùng trong tin thể thao.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2433,
+    "ru": "chin wag",
+    "phonetic": "CHIN WAG",
+    "meaning": "buôn chuyện, tán gẫu",
+    "note": "Tiếng lóng Anh-Anh chỉ cuộc trò chuyện phiếm, thân mật giữa bạn bè.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2434,
+    "ru": "gutted",
+    "phonetic": "GU-tid",
+    "meaning": "thất vọng, buồn bã tột cùng",
+    "note": "Tiếng lóng Anh-Anh rất thông dụng để diễn tả cảm giác thất vọng nặng nề, ví dụ khi đội bóng yêu thích thua.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2435,
+    "ru": "sod's law",
+    "phonetic": "SODZ LAW",
+    "meaning": "định luật 'xui xẻo', điều gì có thể sai sẽ sai vào đúng lúc tệ nhất",
+    "note": "Thành ngữ Anh-Anh tương tự 'Murphy's Law', dùng khi vận rủi xảy ra đúng lúc không mong muốn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2436,
+    "ru": "spend a penny",
+    "phonetic": "SPEND ơ PE-ni",
+    "meaning": "đi vệ sinh, cách nói tế nhị, lịch sự",
+    "note": "Thành ngữ Anh-Anh cũ nhưng vẫn được dùng đùa, cách nói giảm nhẹ khi muốn đi toilet.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2437,
+    "ru": "throw a spanner in the works",
+    "phonetic": "THRÔ ơ SPA-nơ in dhuh WƠKS",
+    "meaning": "phá đám, làm hỏng kế hoạch đang tiến triển tốt",
+    "note": "Thành ngữ Anh-Anh, tương đương 'throw a wrench in the works' trong tiếng Anh-Mỹ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2438,
+    "ru": "do a runner",
+    "phonetic": "DU ơ RU-nơ",
+    "meaning": "bỏ chạy, lẩn trốn, thường để tránh trả tiền hoặc trách nhiệm",
+    "note": "Tiếng lóng Anh-Anh, ví dụ bỏ trốn khỏi nhà hàng mà không trả tiền.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2439,
+    "ru": "no worries",
+    "phonetic": "NÔ WU-riz",
+    "meaning": "không sao đâu, đừng lo",
+    "note": "Câu cửa miệng đặc trưng của người Úc, dùng để đáp lại lời cảm ơn hoặc trấn an ai đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2440,
+    "ru": "she'll be right",
+    "phonetic": "SHIL bi RAIT",
+    "meaning": "mọi chuyện sẽ ổn thôi",
+    "note": "Thành ngữ Úc điển hình thể hiện tinh thần lạc quan, mọi việc rồi sẽ tự ổn thỏa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2441,
+    "ru": "fair dinkum",
+    "phonetic": "FEƠ DIN-kâm",
+    "meaning": "thật đấy, chính xác và chân thật",
+    "note": "Tiếng lóng Úc đặc trưng dùng để khẳng định điều gì đó là sự thật, đáng tin.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2442,
+    "ru": "chuck a sickie",
+    "phonetic": "CHUK ơ SI-ki",
+    "meaning": "giả bệnh để nghỉ làm hoặc nghỉ học",
+    "note": "Tiếng lóng Úc chỉ việc xin nghỉ ốm giả để trốn việc, trốn học.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2443,
+    "ru": "ripper",
+    "phonetic": "RI-pơ",
+    "meaning": "tuyệt vời, hết sảy",
+    "note": "Tiếng lóng Úc dùng khen ngợi điều gì đó rất tốt, rất đã.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2444,
+    "ru": "true blue",
+    "phonetic": "TRU BLOO",
+    "meaning": "chân chính, đích thực, thường nói về người Úc hoặc tinh thần Úc",
+    "note": "Thành ngữ Úc chỉ điều gì đó rất 'thuần Úc', trung thành và chân thật.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2445,
+    "ru": "flat out like a lizard drinking",
+    "phonetic": "FLAT AOT laik ơ LI-zơd DRIN-king",
+    "meaning": "bận rộn tối đa, không có thời gian nghỉ",
+    "note": "Thành ngữ Úc hài hước, dùng khi cực kỳ bận rộn với công việc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2446,
+    "ru": "crikey",
+    "phonetic": "KRAI-ki",
+    "meaning": "ối trời ơi, thán từ bày tỏ ngạc nhiên",
+    "note": "Thán từ đặc trưng Úc, nổi tiếng qua 'Crocodile Hunter' Steve Irwin, dùng khi bất ngờ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2447,
+    "ru": "tall poppy syndrome",
+    "phonetic": "TAWL PO-pi SIN-drôm",
+    "meaning": "hội chứng 'cây cao thì gió lớn', tâm lý dìm hàng người thành công nổi trội",
+    "note": "Hiện tượng văn hóa Úc và Anh, chỉ xu hướng chỉ trích, dìm những người quá thành công hoặc nổi bật.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2448,
+    "ru": "arvo",
+    "phonetic": "AR-vô",
+    "meaning": "buổi chiều, viết tắt của 'afternoon'",
+    "note": "Tiếng lóng viết tắt rất đặc trưng của người Úc, ví dụ 'this arvo' nghĩa là chiều nay.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2449,
+    "ru": "flat chat",
+    "phonetic": "FLAT CHAT",
+    "meaning": "làm việc hết tốc lực, cực kỳ bận rộn",
+    "note": "Tiếng lóng Úc tương tự 'flat out', chỉ trạng thái làm việc với cường độ cao nhất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2450,
+    "ru": "give it a burl",
+    "phonetic": "GIV it ơ BƠL",
+    "meaning": "thử làm việc gì đó xem sao",
+    "note": "Tiếng lóng Úc thân mật, tương đương 'give it a try' hay 'give it a go' trong tiếng Anh chuẩn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2451,
+    "ru": "bon voyage",
+    "phonetic": "bon voi-AZH",
+    "meaning": "thượng lộ bình an, chúc đi đường vui vẻ",
+    "note": "Mượn từ tiếng Pháp nhưng dùng phổ biến trong tiếng Anh khi tiễn ai đó đi xa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2452,
+    "ru": "safe travels",
+    "phonetic": "SÊIF TRA-vâlz",
+    "meaning": "chúc đi đường bình an",
+    "note": "Lời chúc thông dụng và trung tính khi tiễn ai đó lên đường.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2453,
+    "ru": "get well soon",
+    "phonetic": "GET WEL SOON",
+    "meaning": "chúc mau khỏe lại",
+    "note": "Lời chúc phổ biến khi thăm hoặc nhắn tin cho người đang ốm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2454,
+    "ru": "best of luck",
+    "phonetic": "BEST ov LUK",
+    "meaning": "chúc may mắn nhé",
+    "note": "Lời chúc trang trọng hơn 'good luck' một chút, dùng trước một sự kiện hoặc thử thách quan trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2455,
+    "ru": "fingers crossed",
+    "phonetic": "FIN-gơz KROST",
+    "meaning": "mong mọi việc suôn sẻ, cầu cho may mắn",
+    "note": "Thường đi kèm cử chỉ bắt chéo ngón tay, dùng khi hy vọng điều gì đó diễn ra tốt đẹp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2456,
+    "ru": "knock on wood",
+    "phonetic": "NOK on WUD",
+    "meaning": "cầu trời đừng xui xẻo, nói để tránh vận rủi",
+    "note": "Câu nói kèm hành động gõ vào gỗ, mê tín dân gian phương Tây để tránh nói gở.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2457,
+    "ru": "all the best",
+    "phonetic": "AWL dhuh BEST",
+    "meaning": "chúc mọi điều tốt đẹp nhất",
+    "note": "Lời chúc ngắn gọn, thân thiện, thường dùng khi chia tay hoặc kết thư.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2458,
+    "ru": "take it easy",
+    "phonetic": "TÊIK it EE-zi",
+    "meaning": "thư giãn thôi, đừng căng thẳng quá",
+    "note": "Vừa là lời khuyên nghỉ ngơi vừa là câu chào tạm biệt thân mật.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2459,
+    "ru": "mind your own business",
+    "phonetic": "MAIND yor ÔN BIZ-nis",
+    "meaning": "lo việc của mình đi, đừng xen vào chuyện người khác",
+    "note": "Câu nói khá thẳng, dùng khi muốn ai đó ngừng tọc mạch chuyện không liên quan.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2460,
+    "ru": "sleep tight",
+    "phonetic": "SLEEP TAIT",
+    "meaning": "ngủ ngon nhé",
+    "note": "Lời chúc ngủ ngon thân mật, thường nói với người thân, trẻ em.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2461,
+    "ru": "live and learn",
+    "phonetic": "LIV ənd LƠN",
+    "meaning": "sống và rút kinh nghiệm, ai cũng có lúc sai lầm để học hỏi",
+    "note": "Câu an ủi khi ai đó mắc lỗi, nhắc rằng sai lầm là một phần của việc trưởng thành.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2462,
+    "ru": "practice makes perfect",
+    "phonetic": "PRAK-tis mêiks PƠ-fikt",
+    "meaning": "có công mài sắt có ngày nên kim, luyện tập nhiều sẽ giỏi",
+    "note": "Câu khích lệ kinh điển khuyên kiên trì luyện tập để đạt sự hoàn hảo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2463,
+    "ru": "rome wasn't built in a day",
+    "phonetic": "RÔM WO-zânt BILT in ơ DÊI",
+    "meaning": "thành công lớn cần thời gian, đừng vội vàng",
+    "note": "Tục ngữ khuyên kiên nhẫn, mọi thành tựu lớn đều cần quá trình tích lũy lâu dài.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2464,
+    "ru": "when in rome",
+    "phonetic": "WEN in RÔM",
+    "meaning": "nhập gia tùy tục",
+    "note": "Nói đủ là 'when in Rome, do as the Romans do', khuyên nên hòa nhập theo phong tục hoặc quy tắc của nơi mình đang ở.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2465,
+    "ru": "to each their own",
+    "phonetic": "tu EECH dheơ ÔN",
+    "meaning": "mỗi người một sở thích riêng, tùy quan điểm mỗi người",
+    "note": "Dùng khi tôn trọng sự khác biệt trong sở thích hoặc quan điểm của người khác.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2466,
+    "ru": "better safe than sorry",
+    "phonetic": "BE-tơ SÊIF dhân SO-ri",
+    "meaning": "cẩn tắc vô áy náy, thà cẩn thận còn hơn hối tiếc",
+    "note": "Lời khuyên phổ biến khuyến khích thận trọng để tránh hậu quả đáng tiếc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2467,
+    "ru": "easy come, easy go",
+    "phonetic": "EE-zi KUM EE-zi GÔ",
+    "meaning": "dễ có được thì cũng dễ mất đi, thường nói về tiền bạc",
+    "note": "Dùng an ủi khi mất thứ gì đó đến một cách dễ dàng, không tiếc nuối nhiều.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2468,
+    "ru": "no pain, no gain",
+    "phonetic": "NÔ PÊIN NÔ GÊIN",
+    "meaning": "không khổ luyện thì không có thành quả",
+    "note": "Câu khích lệ rất phổ biến, đặc biệt trong thể thao hoặc rèn luyện, nhấn mạnh phải cố gắng mới có kết quả.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2469,
+    "ru": "don't sweat the small stuff",
+    "phonetic": "dôunt SWET dhuh SMAWL STUF",
+    "meaning": "đừng lo lắng những chuyện vặt vãnh",
+    "note": "Lời khuyên giữ tâm lý thoải mái, không nên căng thẳng vì những điều nhỏ nhặt không đáng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2470,
+    "ru": "go with the flow",
+    "phonetic": "GÔ with dhuh FLÔ",
+    "meaning": "thuận theo tự nhiên, sao cũng được, không cưỡng cầu",
+    "note": "Khuyên nên thoải mái thích nghi với hoàn cảnh thay vì cố kiểm soát mọi thứ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2471,
+    "ru": "seize the day",
+    "phonetic": "SEEZ dhuh DÊI",
+    "meaning": "nắm bắt lấy hôm nay, sống trọn vẹn từng ngày",
+    "note": "Dịch từ tiếng Latin 'carpe diem', khuyên tận dụng thời gian hiện tại, đừng trì hoãn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2472,
+    "ru": "one step at a time",
+    "phonetic": "WUN STEP ət ơ TAIM",
+    "meaning": "từng bước một, đừng vội vàng",
+    "note": "Lời khuyên nên kiên nhẫn giải quyết việc lớn theo từng bước nhỏ thay vì nóng vội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2473,
+    "ru": "if it ain't broke, don't fix it",
+    "phonetic": "if it ÊINT BRÔK dôunt FIKS it",
+    "meaning": "cái gì đang tốt thì đừng thay đổi",
+    "note": "Lời khuyên đừng can thiệp vào thứ đang hoạt động ổn, tránh sửa chữa không cần thiết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2474,
+    "ru": "live in the moment",
+    "phonetic": "LIV in dhuh MÔ-mânt",
+    "meaning": "sống cho hiện tại, tận hưởng khoảnh khắc hiện tại",
+    "note": "Khuyên nên tập trung trải nghiệm hiện tại thay vì lo lắng quá khứ hoặc tương lai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2475,
+    "ru": "count your blessings",
+    "phonetic": "KAONT yor BLE-singz",
+    "meaning": "biết ơn những gì mình đang có",
+    "note": "Lời khuyên nên trân trọng, biết ơn những điều tốt đẹp sẵn có thay vì chỉ nhìn vào thiếu sót.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2476,
+    "ru": "beginner's luck",
+    "phonetic": "bi-GI-nơz LUK",
+    "meaning": "may mắn của người mới, lần đầu làm đã thành công",
+    "note": "Dùng khi người mới bắt đầu làm gì đó lại đạt kết quả tốt bất ngờ, dù chưa có kinh nghiệm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2477,
+    "ru": "as luck would have it",
+    "phonetic": "əz LUK wud HAV it",
+    "meaning": "thật trùng hợp hoặc may mắn làm sao",
+    "note": "Dùng mở đầu câu chuyện về một sự trùng hợp ngẫu nhiên, tình cờ xảy ra, có thể tốt hoặc xấu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2478,
+    "ru": "a stroke of luck",
+    "phonetic": "ơ STRÔK ov LUK",
+    "meaning": "một vận may bất ngờ",
+    "note": "Dùng khi điều may mắn xảy đến hoàn toàn tình cờ, không lường trước được.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2479,
+    "ru": "luck of the draw",
+    "phonetic": "LUK ov dhuh DRAW",
+    "meaning": "hên xui, hoàn toàn do may rủi quyết định",
+    "note": "Dùng khi kết quả phụ thuộc hoàn toàn vào yếu tố ngẫu nhiên, không kiểm soát được.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2480,
+    "ru": "push your luck",
+    "phonetic": "PUSH yor LUK",
+    "meaning": "được đằng chân lân đằng đầu, thử thách vận may quá mức",
+    "note": "Cảnh báo ai đó đang mạo hiểm quá đà sau khi đã có chút may mắn, dễ gặp rủi ro.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2481,
+    "ru": "try your luck",
+    "phonetic": "TRAI yor LUK",
+    "meaning": "thử vận may, liều thử xem sao",
+    "note": "Dùng khi quyết định thử làm gì đó dù không chắc chắn về kết quả.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2482,
+    "ru": "better luck next time",
+    "phonetic": "BE-tơ LUK nekst TAIM",
+    "meaning": "lần sau may mắn hơn nhé",
+    "note": "Câu an ủi phổ biến khi ai đó không đạt được điều mong muốn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2483,
+    "ru": "third time's the charm",
+    "phonetic": "THƠD TAIMZ dhuh CHARM",
+    "meaning": "quá tam ba bận, lần thứ ba sẽ thành công",
+    "note": "Câu động viên sau hai lần thất bại, tin rằng lần thử thứ ba sẽ may mắn hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2484,
+    "ru": "down on your luck",
+    "phonetic": "DAON on yor LUK",
+    "meaning": "đang gặp vận rủi, sa cơ lỡ vận",
+    "note": "Dùng khi ai đó đang trải qua giai đoạn khó khăn, kém may mắn liên tục.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2485,
+    "ru": "strike it lucky",
+    "phonetic": "STRAIK it LU-ki",
+    "meaning": "gặp may lớn, trúng số vận may",
+    "note": "Dùng khi bất ngờ gặp được điều may mắn lớn, thường liên quan đến tiền bạc hoặc cơ hội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2486,
+    "ru": "a long shot",
+    "phonetic": "ơ LONG SHOT",
+    "meaning": "khả năng thành công rất thấp, canh bạc liều lĩnh",
+    "note": "Dùng khi mô tả một nỗ lực hoặc dự đoán có xác suất thành công rất nhỏ nhưng vẫn đáng thử.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2487,
+    "ru": "play with fire",
+    "phonetic": "PLÊI with FAI-ơ",
+    "meaning": "chơi với lửa, làm điều nguy hiểm hoặc liều lĩnh",
+    "note": "Cảnh báo ai đó đang làm điều có thể gây hậu quả nghiêm trọng nếu không cẩn thận.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2488,
+    "ru": "take a gamble",
+    "phonetic": "TÊIK ơ GAM-bâl",
+    "meaning": "đánh liều, chấp nhận rủi ro để thử",
+    "note": "Dùng khi quyết định làm điều gì đó không chắc chắn về kết quả, chấp nhận rủi ro.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2489,
+    "ru": "a calculated risk",
+    "phonetic": "ơ KAL-kyu-lê-tid RISK",
+    "meaning": "rủi ro đã được cân nhắc kỹ trước khi hành động",
+    "note": "Khác với liều lĩnh mù quáng, đây là rủi ro được tính toán, cân nhắc lợi hại rõ ràng trước khi quyết định.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2490,
+    "ru": "bet the farm",
+    "phonetic": "BET dhuh FARM",
+    "meaning": "đặt cược tất cả, dồn hết vốn liếng vào một việc",
+    "note": "Dùng khi ai đó mạo hiểm toàn bộ tài sản hoặc nguồn lực vào một quyết định duy nhất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2491,
+    "ru": "go for broke",
+    "phonetic": "GÔ fơ BRÔK",
+    "meaning": "liều hết mình, dốc toàn lực bất chấp rủi ro",
+    "note": "Dùng khi quyết định dồn toàn lực cho một cơ hội, chấp nhận mất tất cả nếu thất bại.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2492,
+    "ru": "put all your eggs in one basket",
+    "phonetic": "PUT awl yor EGZ in WUN BAS-kit",
+    "meaning": "bỏ hết trứng vào một giỏ, dồn hết vào một lựa chọn duy nhất",
+    "note": "Cảnh báo về việc không nên dồn toàn bộ nguồn lực hay hy vọng vào một phương án duy nhất vì rủi ro cao.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2493,
+    "ru": "a shot in the dark",
+    "phonetic": "ơ SHOT in dhuh DARK",
+    "meaning": "một phỏng đoán mù quáng, thử liều không chắc chắn",
+    "note": "Dùng khi đưa ra một dự đoán hoặc nỗ lực mà không có nhiều cơ sở để tin sẽ đúng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2494,
+    "ru": "hit the jackpot",
+    "phonetic": "HIT dhuh JAK-pot",
+    "meaning": "trúng số, gặp vận may lớn bất ngờ",
+    "note": "Dùng khi đạt được thành công hoặc lợi ích lớn ngoài mong đợi, như trúng giải thưởng lớn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2495,
+    "ru": "nothing ventured, nothing gained",
+    "phonetic": "NU-thing VEN-chơd NU-thing GÊIND",
+    "meaning": "không liều thì không được gì, phải dám thử mới có cơ hội",
+    "note": "Tục ngữ khuyến khích dám chấp nhận rủi ro để có cơ hội đạt được thành quả.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2496,
+    "ru": "fortune favors the bold",
+    "phonetic": "FOR-chun FÊI-vơz dhuh BÔLD",
+    "meaning": "vận may ưu ái người dũng cảm",
+    "note": "Câu nói cổ động tinh thần dám nghĩ dám làm, dám chấp nhận rủi ro để thành công.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2497,
+    "ru": "live dangerously",
+    "phonetic": "LIV DÊIN-jơ-râs-li",
+    "meaning": "sống liều lĩnh, chấp nhận mạo hiểm trong cuộc sống",
+    "note": "Dùng khi khuyến khích hoặc mô tả lối sống dám thử thách, không ngại rủi ro.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2498,
+    "ru": "roll the dice",
+    "phonetic": "RÔL dhuh DAIS",
+    "meaning": "thử vận may, chấp nhận để may rủi quyết định",
+    "note": "Dùng khi một quyết định phụ thuộc phần lớn vào may mắn hơn là sự chắc chắn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2499,
+    "ru": "lady luck",
+    "phonetic": "LÊI-di LUK",
+    "meaning": "thần may mắn, nhân cách hóa vận may",
+    "note": "Cách nói hình tượng hóa vận may như một 'quý cô', thường dùng trong cờ bạc, thi đấu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2500,
+    "ru": "sink or swim",
+    "phonetic": "SINK ər SWIM",
+    "meaning": "tự lực cánh sinh, hoặc thành công hoặc thất bại hoàn toàn",
+    "note": "Dùng khi ai đó bị đặt vào tình huống phải tự xoay sở, không có ai giúp đỡ, thành hay bại tự chịu.",
+    "category": "idioms_slang"
+  }
+]

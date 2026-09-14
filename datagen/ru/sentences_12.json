@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1801,
+    "ru": "Вызовите скорую помощь, пожалуйста!",
+    "phonetic": "vy-ZO-vi-tye SKO-ru-yu PO-mashch' pa-ZHAL-sta",
+    "meaning": "Hãy gọi xe cấp cứu, làm ơn!",
+    "note": "Dùng khi cần gọi cấp cứu khẩn cấp cho người bị nạn.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1802,
+    "ru": "У меня сильная боль в груди.",
+    "phonetic": "u mye-NYA SIL'-na-ya bol' v gru-DI",
+    "meaning": "Tôi bị đau ngực dữ dội.",
+    "note": "Bệnh nhân mô tả triệu chứng với bác sĩ hoặc nhân viên cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1803,
+    "ru": "Кажется, у него сердечный приступ.",
+    "phonetic": "KA-zhet-sya u nye-VO syer-DYECH-nyy PRI-stup",
+    "meaning": "Tôi nghĩ anh ấy đang lên cơn đau tim.",
+    "note": "Dùng khi báo cáo tình huống khẩn cấp cho người xung quanh hoặc nhân viên y tế.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1804,
+    "ru": "Пациент потерял сознание.",
+    "phonetic": "pa-tsi-YENT pa-tye-RYAL saz-NA-ni-ye",
+    "meaning": "Bệnh nhân đã bất tỉnh.",
+    "note": "Nhân viên y tế báo cáo tình trạng bệnh nhân.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1805,
+    "ru": "Где находится ближайшая больница?",
+    "phonetic": "gdye na-KHO-dit-sya bli-ZHAY-sha-ya bal'-NI-tsa",
+    "meaning": "Bệnh viện gần nhất ở đâu?",
+    "note": "Hỏi đường khi cần đưa người đi cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1806,
+    "ru": "У неё аллергия на пенициллин.",
+    "phonetic": "u nye-YO a-lyer-GI-ya na pye-ni-tsi-LIN",
+    "meaning": "Cô ấy bị dị ứng với penicillin.",
+    "note": "Thông báo cho bác sĩ về tiền sử dị ứng trước khi dùng thuốc.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1807,
+    "ru": "Нужно немедленно остановить кровотечение.",
+    "phonetic": "NUZH-na nye-MYED-lyen-na a-sta-na-VIT' kra-va-tye-CHE-ni-ye",
+    "meaning": "Cần cầm máu ngay lập tức.",
+    "note": "Hướng dẫn sơ cứu tại hiện trường tai nạn.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1808,
+    "ru": "Он подавился, помогите!",
+    "phonetic": "on pa-da-VIL-sya pa-ma-GI-tye",
+    "meaning": "Anh ấy bị nghẹn, giúp với!",
+    "note": "Kêu cứu khẩn cấp khi có người bị hóc dị vật.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1809,
+    "ru": "У ребёнка высокая температура.",
+    "phonetic": "u rye-BYON-ka vy-SO-ka-ya tyem-pye-ra-TU-ra",
+    "meaning": "Đứa trẻ bị sốt cao.",
+    "note": "Cha mẹ báo cáo triệu chứng cho bác sĩ nhi khoa.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1810,
+    "ru": "Мне трудно дышать.",
+    "phonetic": "mnye TRUD-na dy-SHAT'",
+    "meaning": "Tôi khó thở.",
+    "note": "Bệnh nhân mô tả triệu chứng khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1811,
+    "ru": "Вызывайте реанимацию, у него нет пульса!",
+    "phonetic": "vy-zy-VAY-tye rye-a-ni-MA-tsi-yu u nye-VO nyet PUL'-sa",
+    "meaning": "Gọi đội hồi sức, anh ấy không có mạch!",
+    "note": "Hô hoán trong tình huống cấp cứu ngừng tim.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1812,
+    "ru": "Где ближайшая аптека, работающая круглосуточно?",
+    "phonetic": "gdye bli-ZHAY-sha-ya ap-TYE-ka ra-BO-ta-yu-shcha-ya krug-la-SU-tach-na",
+    "meaning": "Nhà thuốc trực 24/24 gần nhất ở đâu?",
+    "note": "Hỏi đường khi cần mua thuốc gấp ngoài giờ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1813,
+    "ru": "У меня закружилась голова, и я упал.",
+    "phonetic": "u mye-NYA za-kru-ZHI-las' ga-la-VA i ya u-PAL",
+    "meaning": "Tôi bị chóng mặt và ngã.",
+    "note": "Bệnh nhân kể lại sự việc với bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1814,
+    "ru": "Пожалуйста, дайте обезболивающее.",
+    "phonetic": "pa-ZHAL-sta DAY-tye a-byez-BO-li-va-yu-shche-ye",
+    "meaning": "Làm ơn cho tôi thuốc giảm đau.",
+    "note": "Yêu cầu thuốc khi đang đau đớn tại phòng khám hoặc bệnh viện.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1815,
+    "ru": "У пострадавшего перелом ноги.",
+    "phonetic": "u pa-stra-DAV-shye-va pye-rye-LOM na-GI",
+    "meaning": "Nạn nhân bị gãy chân.",
+    "note": "Nhân viên cứu hộ báo cáo tình trạng chấn thương.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1816,
+    "ru": "Не двигайте его, у него может быть травма позвоночника.",
+    "phonetic": "nye DVI-gay-tye ye-VO u nye-VO MO-zhet byt' TRAV-ma paz-va-NOCH-ni-ka",
+    "meaning": "Đừng di chuyển anh ấy, có thể bị chấn thương cột sống.",
+    "note": "Cảnh báo người xung quanh tại hiện trường tai nạn.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1817,
+    "ru": "Скорая уже в пути.",
+    "phonetic": "SKO-ra-ya u-ZHE v pu-TI",
+    "meaning": "Xe cấp cứu đang trên đường tới.",
+    "note": "Trấn an người bị nạn hoặc người gọi cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1818,
+    "ru": "Какая у вас группа крови?",
+    "phonetic": "ka-KA-ya u vas GRUP-pa KRO-vi",
+    "meaning": "Nhóm máu của anh/chị là gì?",
+    "note": "Bác sĩ hỏi thông tin trước khi truyền máu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1819,
+    "ru": "У меня приступ астмы, где мой ингалятор?",
+    "phonetic": "u mye-NYA PRI-stup AST-my gdye moy in-ga-LYA-tar",
+    "meaning": "Tôi đang lên cơn hen, ống hít của tôi đâu?",
+    "note": "Người bệnh hen suyễn tìm thuốc khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1820,
+    "ru": "Ему нужна срочная операция.",
+    "phonetic": "ye-MU nuzh-NA SROCH-na-ya a-pye-RA-tsi-ya",
+    "meaning": "Anh ấy cần phẫu thuật khẩn cấp.",
+    "note": "Bác sĩ thông báo tình trạng nghiêm trọng cho người nhà.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1821,
+    "ru": "Не паникуйте, помощь уже близко.",
+    "phonetic": "nye pa-ni-KUY-tye PO-mashch' u-ZHE BLIZ-ka",
+    "meaning": "Đừng hoảng loạn, trợ giúp đang đến.",
+    "note": "Trấn an nạn nhân trong lúc chờ cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1822,
+    "ru": "У неё судороги.",
+    "phonetic": "u nye-YO SU-da-ra-gi",
+    "meaning": "Cô ấy đang bị co giật.",
+    "note": "Báo cáo triệu chứng cho nhân viên y tế.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1823,
+    "ru": "Он отравился грибами.",
+    "phonetic": "on a-tra-VIL-sya gri-BA-mi",
+    "meaning": "Anh ấy bị ngộ độc nấm.",
+    "note": "Kể lại nguyên nhân ngộ độc cho bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1824,
+    "ru": "Промойте рану чистой водой.",
+    "phonetic": "pra-MOY-tye RA-nu CHI-stay va-DOY",
+    "meaning": "Rửa vết thương bằng nước sạch.",
+    "note": "Hướng dẫn sơ cứu vết thương tại chỗ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1825,
+    "ru": "У пациента анафилактический шок.",
+    "phonetic": "u pa-tsi-YEN-ta a-na-fi-lak-TI-chye-skiy shok",
+    "meaning": "Bệnh nhân bị sốc phản vệ.",
+    "note": "Nhân viên y tế báo cáo tình trạng nguy kịch.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1826,
+    "ru": "Мне нужна ваша медицинская страховка.",
+    "phonetic": "mnye nuzh-NA VA-sha mye-di-TSIN-ska-ya stra-KHOV-ka",
+    "meaning": "Tôi cần thẻ bảo hiểm y tế của anh/chị.",
+    "note": "Nhân viên bệnh viện yêu cầu giấy tờ khi nhập viện.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1827,
+    "ru": "Держите руку выше уровня сердца.",
+    "phonetic": "dyer-ZHI-tye RU-ku VY-she U-rav-nya SYER-tsa",
+    "meaning": "Giữ tay cao hơn mức tim.",
+    "note": "Hướng dẫn sơ cứu khi bị chảy máu tay.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1828,
+    "ru": "Он без сознания уже пять минут.",
+    "phonetic": "on byez saz-NA-ni-ya u-ZHE pyat' mi-NUT",
+    "meaning": "Anh ấy bất tỉnh đã năm phút rồi.",
+    "note": "Báo cáo thời gian bất tỉnh cho đội cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1829,
+    "ru": "Вызовите пожарных, здесь пожар!",
+    "phonetic": "VY-za-vi-tye pa-ZHAR-nykh zdyes' pa-ZHAR",
+    "meaning": "Gọi cứu hỏa, ở đây có cháy!",
+    "note": "Hô hoán khẩn cấp khi phát hiện hỏa hoạn.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1830,
+    "ru": "Осторожно, здесь битое стекло!",
+    "phonetic": "a-sta-ROZH-na zdyes' BI-ta-ye styek-LO",
+    "meaning": "Cẩn thận, có mảnh kính vỡ ở đây!",
+    "note": "Cảnh báo an toàn tại hiện trường tai nạn.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1831,
+    "ru": "У меня диабет, мне нужен инсулин.",
+    "phonetic": "u mye-NYA di-a-BYET mnye NU-zhen in-su-LIN",
+    "meaning": "Tôi bị tiểu đường, tôi cần insulin.",
+    "note": "Người bệnh thông báo tình trạng sức khỏe khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1832,
+    "ru": "Проверьте его дыхательные пути.",
+    "phonetic": "pra-VYER'-tye ye-VO dy-KHA-tyel'-ny-ye pu-TI",
+    "meaning": "Kiểm tra đường thở của anh ấy.",
+    "note": "Hướng dẫn sơ cứu người bị ngạt thở.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1833,
+    "ru": "Начинайте делать искусственное дыхание.",
+    "phonetic": "na-chi-NAY-tye DYE-lat' is-KUS-tvyen-na-ye dy-KHA-ni-ye",
+    "meaning": "Bắt đầu hô hấp nhân tạo.",
+    "note": "Chỉ dẫn thực hiện hồi sức cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1834,
+    "ru": "Сколько человек пострадало в аварии?",
+    "phonetic": "SKOL'-ka chye-la-VYEK pa-stra-DA-la v a-VA-ri-i",
+    "meaning": "Có bao nhiêu người bị thương trong vụ tai nạn?",
+    "note": "Cảnh sát hoặc nhân viên cứu hộ hỏi thông tin hiện trường.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1835,
+    "ru": "У неё открытый перелом руки.",
+    "phonetic": "u nye-YO at-KRY-tyy pye-rye-LOM ru-KI",
+    "meaning": "Cô ấy bị gãy hở xương tay.",
+    "note": "Mô tả chấn thương nghiêm trọng cho bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1836,
+    "ru": "Наложите шину на ногу.",
+    "phonetic": "na-la-ZHI-tye SHI-nu na NO-gu",
+    "meaning": "Nẹp chân lại.",
+    "note": "Hướng dẫn sơ cứu người bị gãy xương chân.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1837,
+    "ru": "Пациента нужно срочно госпитализировать.",
+    "phonetic": "pa-tsi-YEN-ta NUZH-na SROCH-na gas-pi-ta-li-ZI-ra-vat'",
+    "meaning": "Bệnh nhân cần nhập viện ngay lập tức.",
+    "note": "Bác sĩ quyết định điều trị khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1838,
+    "ru": "У него аллергическая реакция на укус пчелы.",
+    "phonetic": "u nye-VO a-lyer-GI-chye-ska-ya rye-AK-tsi-ya na u-KUS pchye-LY",
+    "meaning": "Anh ấy bị phản ứng dị ứng do ong đốt.",
+    "note": "Báo cáo tình huống dị ứng khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1839,
+    "ru": "Дайте мне, пожалуйста, рецепт на это лекарство.",
+    "phonetic": "DAY-tye mnye pa-ZHAL-sta rye-TSEPT na E-ta lye-KARS-tva",
+    "meaning": "Làm ơn kê đơn thuốc này cho tôi.",
+    "note": "Yêu cầu bác sĩ tại phòng khám hoặc bệnh viện.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1840,
+    "ru": "Он упал с лестницы и ударился головой.",
+    "phonetic": "on u-PAL s LYES-ni-tsy i u-DA-ril-sya ga-la-VOY",
+    "meaning": "Anh ấy ngã cầu thang và đập đầu.",
+    "note": "Kể lại tai nạn cho nhân viên y tế.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1841,
+    "ru": "Кровотечение не останавливается.",
+    "phonetic": "kra-va-tye-CHE-ni-ye nye a-sta-NAV-li-va-yet-sya",
+    "meaning": "Máu không cầm được.",
+    "note": "Báo cáo tình trạng khẩn cấp khi sơ cứu không hiệu quả.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1842,
+    "ru": "У пациентки начались схватки.",
+    "phonetic": "u pa-tsi-YENT-ki na-cha-LIS' SKHVAT-ki",
+    "meaning": "Sản phụ đã chuyển dạ.",
+    "note": "Thông báo tình huống sinh nở khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1843,
+    "ru": "Нужно вызвать акушерку прямо сейчас!",
+    "phonetic": "NUZH-na VYZ-vat' a-ku-SHER-ku PRYA-ma sey-CHAS",
+    "meaning": "Cần gọi nữ hộ sinh ngay bây giờ!",
+    "note": "Yêu cầu trợ giúp khẩn cấp khi sản phụ chuyển dạ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1844,
+    "ru": "Он получил ожог второй степени.",
+    "phonetic": "on pa-lu-CHIL a-ZHOG fta-ROY STYE-pye-ni",
+    "meaning": "Anh ấy bị bỏng độ hai.",
+    "note": "Mô tả mức độ bỏng cho bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1845,
+    "ru": "Приложите лёд к месту ушиба.",
+    "phonetic": "pri-la-ZHI-tye lyot k MYES-tu u-SHI-ba",
+    "meaning": "Chườm đá lên chỗ bầm tím.",
+    "note": "Hướng dẫn sơ cứu vết bầm.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1846,
+    "ru": "У меня болит живот уже третий день.",
+    "phonetic": "u mye-NYA ba-LIT zhi-VOT u-ZHE TRYE-tiy dyen'",
+    "meaning": "Bụng tôi đau đã ba ngày nay.",
+    "note": "Bệnh nhân mô tả triệu chứng kéo dài với bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1847,
+    "ru": "Тошнота и рвота начались утром.",
+    "phonetic": "tash-na-TA i rva-TA na-cha-LIS' U-tram",
+    "meaning": "Buồn nôn và nôn bắt đầu từ sáng nay.",
+    "note": "Mô tả diễn biến triệu chứng cho bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1848,
+    "ru": "Проверьте его давление и пульс.",
+    "phonetic": "pra-VYER'-tye ye-VO dav-LYE-ni-ye i pul's",
+    "meaning": "Kiểm tra huyết áp và mạch của anh ấy.",
+    "note": "Yêu cầu kiểm tra sinh hiệu cơ bản.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1849,
+    "ru": "Больной находится в критическом состоянии.",
+    "phonetic": "bal'-NOY na-KHO-dit-sya v kri-TI-chyes-kam sas-ta-YA-ni-i",
+    "meaning": "Bệnh nhân đang trong tình trạng nguy kịch.",
+    "note": "Bác sĩ thông báo tình trạng nghiêm trọng cho người nhà.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1850,
+    "ru": "Медсестра, принесите носилки!",
+    "phonetic": "myed-syes-TRA pri-nye-SI-tye na-SIL-ki",
+    "meaning": "Y tá, mang cáng đến đây!",
+    "note": "Ra lệnh khẩn cấp trong bệnh viện.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1851,
+    "ru": "Врач назначил ей курс антибиотиков.",
+    "phonetic": "vrach na-ZNA-chil yey kurs an-ti-bi-O-ti-kaf",
+    "meaning": "Bác sĩ kê cho cô ấy một liệu trình kháng sinh.",
+    "note": "Thông báo về đơn thuốc điều trị.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1852,
+    "ru": "У него была передозировка снотворным.",
+    "phonetic": "u nye-VO by-LA pye-rye-da-zi-ROV-ka sna-TVOR-nym",
+    "meaning": "Anh ấy bị quá liều thuốc ngủ.",
+    "note": "Báo cáo tình trạng ngộ độc thuốc cho bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1853,
+    "ru": "Кто-нибудь знает первую помощь?",
+    "phonetic": "KTO-ni-but' ZNA-yet PYER-vu-yu PO-mashch'",
+    "meaning": "Có ai biết sơ cứu không?",
+    "note": "Kêu gọi trợ giúp tại hiện trường khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1854,
+    "ru": "Пристегните его к каталке.",
+    "phonetic": "pri-styeg-NI-tye ye-VO k ka-TAL-kye",
+    "meaning": "Cố định anh ấy vào xe đẩy cấp cứu.",
+    "note": "Chỉ dẫn nhân viên y tế khi vận chuyển bệnh nhân.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1855,
+    "ru": "Она поранила палец ножом на кухне.",
+    "phonetic": "a-NA pa-RA-ni-la PA-lyets na-ZHOM na KUKH-nye",
+    "meaning": "Cô ấy bị đứt tay do dao trong bếp.",
+    "note": "Kể lại tai nạn nhỏ tại nhà.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1856,
+    "ru": "Нужен дефибриллятор, срочно!",
+    "phonetic": "NU-zhen dye-fi-bri-LYA-tar SROCH-na",
+    "meaning": "Cần máy sốc tim, khẩn cấp!",
+    "note": "Yêu cầu thiết bị cấp cứu ngừng tim.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1857,
+    "ru": "У пострадавшего сильный ожог руки кипятком.",
+    "phonetic": "u pa-stra-DAV-shye-va SIL'-nyy a-ZHOG ru-KI ki-pyat-KOM",
+    "meaning": "Nạn nhân bị bỏng nặng ở tay do nước sôi.",
+    "note": "Mô tả chấn thương bỏng cho nhân viên y tế.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1858,
+    "ru": "Не давайте ему пить, пока не приедет врач.",
+    "phonetic": "nye da-VAY-tye ye-MU pit' pa-KA nye pri-YE-dyet vrach",
+    "meaning": "Đừng cho anh ấy uống gì cho đến khi bác sĩ đến.",
+    "note": "Hướng dẫn xử trí trong khi chờ cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1859,
+    "ru": "У меня приступ паники, помогите успокоиться.",
+    "phonetic": "u mye-NYA PRI-stup PA-ni-ki pa-ma-GI-tye us-pa-KO-it-sya",
+    "meaning": "Tôi đang lên cơn hoảng loạn, giúp tôi bình tĩnh lại.",
+    "note": "Người bệnh yêu cầu trợ giúp tâm lý khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1860,
+    "ru": "Вертолёт скорой помощи уже вылетел.",
+    "phonetic": "vyer-ta-LYOT SKO-ray PO-ma-shchi u-ZHE VY-lye-tyel",
+    "meaning": "Trực thăng cấp cứu đã cất cánh.",
+    "note": "Thông báo tình trạng điều động cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1861,
+    "ru": "Ему нужно немедленно промыть желудок.",
+    "phonetic": "ye-MU NUZH-na nye-MYED-lyen-na pra-MYT' zhy-LU-dak",
+    "meaning": "Anh ấy cần rửa dạ dày ngay lập tức.",
+    "note": "Chỉ định xử trí ngộ độc cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1862,
+    "ru": "У ребёнка сыпь по всему телу.",
+    "phonetic": "u rye-BYON-ka syp' pa fsye-MU TYE-lu",
+    "meaning": "Đứa trẻ bị nổi mẩn khắp người.",
+    "note": "Mô tả triệu chứng dị ứng hoặc bệnh da cho bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1863,
+    "ru": "Он потерял много крови при аварии.",
+    "phonetic": "on pa-tye-RYAL MNO-ga KRO-vi pri a-VA-ri-i",
+    "meaning": "Anh ấy mất nhiều máu trong vụ tai nạn.",
+    "note": "Báo cáo tình trạng nguy kịch cho đội cấp cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1864,
+    "ru": "Больного нужно перевести в реанимацию.",
+    "phonetic": "bal'-NO-va NUZH-na pye-rye-vyes-TI v rye-a-ni-MA-tsi-yu",
+    "meaning": "Bệnh nhân cần được chuyển đến phòng chăm sóc đặc biệt.",
+    "note": "Quyết định điều trị khẩn cấp của bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1865,
+    "ru": "У неё сотрясение мозга.",
+    "phonetic": "u nye-YO sa-trya-SYE-ni-ye MOZ-ga",
+    "meaning": "Cô ấy bị chấn động não.",
+    "note": "Chẩn đoán chấn thương đầu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1866,
+    "ru": "Зафиксируйте шею воротником Шанца.",
+    "phonetic": "za-fik-SI-ruy-tye SHE-yu va-rat-ni-KOM SHAN-tsa",
+    "meaning": "Cố định cổ bằng nẹp cổ.",
+    "note": "Hướng dẫn sơ cứu chấn thương cột sống cổ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1867,
+    "ru": "Дежурный врач сейчас подойдёт.",
+    "phonetic": "dye-ZHUR-nyy vrach sey-CHAS pa-day-DYOT",
+    "meaning": "Bác sĩ trực sẽ đến ngay.",
+    "note": "Nhân viên bệnh viện trấn an bệnh nhân đang chờ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1868,
+    "ru": "У меня аллергия на морепродукты, есть эпипен?",
+    "phonetic": "u mye-NYA a-lyer-GI-ya na mo-rye-pra-DUK-ty yest' e-pi-PEN",
+    "meaning": "Tôi dị ứng hải sản, có bút tiêm epinephrine không?",
+    "note": "Yêu cầu khẩn cấp khi có dấu hiệu dị ứng nặng.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1869,
+    "ru": "Пациент жалуется на острую боль в пояснице.",
+    "phonetic": "pa-tsi-YENT ZHA-lu-yet-sya na OST-ru-yu bol' v pa-yas-NI-tsye",
+    "meaning": "Bệnh nhân than đau nhói vùng thắt lưng.",
+    "note": "Mô tả triệu chứng cho bác sĩ khám bệnh.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1870,
+    "ru": "Сделайте ему укол адреналина.",
+    "phonetic": "ZDYE-lay-tye ye-MU u-KOL a-drye-na-LI-na",
+    "meaning": "Tiêm cho anh ấy một mũi adrenaline.",
+    "note": "Chỉ định xử trí sốc phản vệ khẩn cấp.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1871,
+    "ru": "Он тонул, мы его едва вытащили.",
+    "phonetic": "on ta-NUL my ye-VO yed-VA VY-ta-shchi-li",
+    "meaning": "Anh ấy bị đuối nước, chúng tôi vừa kịp kéo lên.",
+    "note": "Kể lại tình huống cứu người đuối nước.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1872,
+    "ru": "Начните непрямой массаж сердца.",
+    "phonetic": "nach-NI-tye nye-prya-MOY ma-SAZH SYER-tsa",
+    "meaning": "Bắt đầu ép tim ngoài lồng ngực.",
+    "note": "Hướng dẫn thực hiện hồi sức tim phổi (CPR).",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1873,
+    "ru": "У бабушки случился инсульт.",
+    "phonetic": "u BA-bush-ki slu-CHIL-sya in-SUL'T",
+    "meaning": "Bà bị đột quỵ.",
+    "note": "Báo tin khẩn cấp cho người thân hoặc bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1874,
+    "ru": "Левая сторона тела у него онемела.",
+    "phonetic": "LYE-va-ya sta-ra-NA TYE-la u nye-VO a-nye-MYE-la",
+    "meaning": "Nửa người bên trái của anh ấy bị tê liệt.",
+    "note": "Mô tả triệu chứng nghi đột quỵ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1875,
+    "ru": "Срочно нужна донорская кровь второй группы.",
+    "phonetic": "SROCH-na nuzh-NA DO-nar-ska-ya krof' fta-ROY GRUP-py",
+    "meaning": "Chúng tôi cần gấp máu nhóm O từ người hiến.",
+    "note": "Yêu cầu khẩn cấp trong tình huống cấp cứu truyền máu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1876,
+    "ru": "Пристегните кислородную маску.",
+    "phonetic": "pri-styeg-NI-tye kis-la-ROD-nu-yu MAS-ku",
+    "meaning": "Đeo mặt nạ oxy vào.",
+    "note": "Hướng dẫn bệnh nhân khó thở sử dụng oxy.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1877,
+    "ru": "У пациента есть хронические заболевания?",
+    "phonetic": "u pa-tsi-YEN-ta yest' khra-NI-chyes-ki-ye za-ba-lye-VA-ni-ya",
+    "meaning": "Bệnh nhân có bệnh mãn tính nào không?",
+    "note": "Bác sĩ hỏi tiền sử bệnh trước khi điều trị.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1878,
+    "ru": "Он случайно проглотил таблетки ребёнка.",
+    "phonetic": "on slu-CHAY-na pra-gla-TIL tab-LYET-ki rye-BYON-ka",
+    "meaning": "Anh ấy vô tình nuốt phải thuốc của trẻ con.",
+    "note": "Báo cáo tình huống ngộ độc thuốc.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1879,
+    "ru": "Рана выглядит воспалённой, нужен антибиотик.",
+    "phonetic": "RA-na VY-glya-dit vas-pa-LYON-nay NU-zhen an-ti-bi-O-tik",
+    "meaning": "Vết thương có vẻ bị viêm, cần dùng kháng sinh.",
+    "note": "Bác sĩ nhận định và chỉ định điều trị.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1880,
+    "ru": "Приготовьте операционную немедленно.",
+    "phonetic": "pri-ga-TOV'-tye a-pye-ra-tsi-ON-nu-yu nye-MYED-lyen-na",
+    "meaning": "Chuẩn bị phòng mổ ngay lập tức.",
+    "note": "Ra lệnh khẩn cấp trong bệnh viện.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1881,
+    "ru": "У неё выкидыш, нужна срочная помощь.",
+    "phonetic": "u nye-YO VY-ki-dysh nuzh-NA SROCH-na-ya PO-mashch'",
+    "meaning": "Cô ấy bị sảy thai, cần trợ giúp khẩn cấp.",
+    "note": "Báo tin khẩn cấp về tình trạng sản khoa.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1882,
+    "ru": "Он сломал два ребра при падении.",
+    "phonetic": "on sla-MAL dva ryeb-RA pri pa-DYE-ni-i",
+    "meaning": "Anh ấy gãy hai xương sườn khi ngã.",
+    "note": "Mô tả chấn thương do tai nạn.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1883,
+    "ru": "Дайте мне список её текущих лекарств.",
+    "phonetic": "DAY-tye mnye SPI-sak ye-YO tye-KU-shchikh lye-KARSTF",
+    "meaning": "Cho tôi danh sách các loại thuốc cô ấy đang dùng.",
+    "note": "Bác sĩ yêu cầu thông tin trước khi điều trị.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1884,
+    "ru": "У меня был обморок в метро.",
+    "phonetic": "u mye-NYA byl OB-ma-rak v myet-RO",
+    "meaning": "Tôi bị ngất trong tàu điện ngầm.",
+    "note": "Kể lại sự việc cho nhân viên y tế.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1885,
+    "ru": "Врач скорой уже осматривает пострадавшего.",
+    "phonetic": "vrach SKO-ray u-ZHE as-MAT-ri-va-yet pa-stra-DAV-shye-va",
+    "meaning": "Nhân viên cấp cứu đang kiểm tra nạn nhân.",
+    "note": "Báo cáo tiến trình xử lý hiện trường.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1886,
+    "ru": "Наденьте перчатки перед тем, как трогать рану.",
+    "phonetic": "na-DYEN'-tye pyer-CHAT-ki PYE-ryed tyem kak TRO-gat' RA-nu",
+    "meaning": "Đeo găng tay trước khi chạm vào vết thương.",
+    "note": "Hướng dẫn an toàn khi sơ cứu.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1887,
+    "ru": "Пациента укусила бездомная собака.",
+    "phonetic": "pa-tsi-YEN-ta u-ku-SI-la byez-DOM-na-ya sa-BA-ka",
+    "meaning": "Bệnh nhân bị chó hoang cắn.",
+    "note": "Báo cáo nguyên nhân chấn thương cho bác sĩ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1888,
+    "ru": "Нужна прививка от столбняка.",
+    "phonetic": "nuzh-NA pri-VIF-ka at stalb-nya-KA",
+    "meaning": "Anh ấy cần tiêm phòng uốn ván.",
+    "note": "Chỉ định tiêm phòng sau chấn thương hở.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1889,
+    "ru": "Состояние стабилизировалось, но он ещё под наблюдением.",
+    "phonetic": "sas-ta-YA-ni-ye sta-bi-li-ZI-ra-va-las' no on ye-SHCHO pad nab-lyu-DYE-ni-yem",
+    "meaning": "Tình trạng đã ổn định, nhưng vẫn đang được theo dõi.",
+    "note": "Bác sĩ cập nhật tình hình cho người nhà bệnh nhân.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1890,
+    "ru": "Спасибо, что так быстро приехали.",
+    "phonetic": "spa-SI-ba shto tak BYST-ra pri-YE-kha-li",
+    "meaning": "Cảm ơn vì đã đến nhanh như vậy.",
+    "note": "Lời cảm ơn đội cấp cứu sau khi được hỗ trợ.",
+    "category": "emergency_medical"
+  },
+  {
+    "id": 1891,
+    "ru": "Давайте начнём совещание.",
+    "phonetic": "da-VAY-tye nach-NYOM sa-vye-SHCHA-ni-ye",
+    "meaning": "Chúng ta bắt đầu cuộc họp nào.",
+    "note": "Mở đầu một cuộc họp công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1892,
+    "ru": "Какая повестка дня на сегодня?",
+    "phonetic": "ka-KA-ya pa-VYEST-ka dnya na sye-VOD-nya",
+    "meaning": "Chương trình nghị sự hôm nay là gì?",
+    "note": "Hỏi về nội dung cuộc họp.",
+    "category": "business"
+  },
+  {
+    "id": 1893,
+    "ru": "Мы должны уложиться в сроки.",
+    "phonetic": "my dalzh-NY u-la-ZHIT-sya v SRO-ki",
+    "meaning": "Chúng ta phải hoàn thành đúng hạn.",
+    "note": "Nhắc nhở đồng nghiệp về thời hạn công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1894,
+    "ru": "Прибыль компании выросла на пятнадцать процентов.",
+    "phonetic": "PRI-byl' kam-PA-ni-i VY-ras-la na pyat-NAT-sat' pra-TSEN-taf",
+    "meaning": "Lợi nhuận công ty tăng mười lăm phần trăm.",
+    "note": "Báo cáo kết quả kinh doanh trong cuộc họp.",
+    "category": "business"
+  },
+  {
+    "id": 1895,
+    "ru": "Нам нужно подписать контракт до конца недели.",
+    "phonetic": "nam NUZH-na pad-pi-SAT' kan-TRAKT da kan-TSA nye-DYE-li",
+    "meaning": "Chúng ta cần ký hợp đồng trước cuối tuần.",
+    "note": "Nhắc nhở về thời hạn ký kết hợp đồng.",
+    "category": "business"
+  },
+  {
+    "id": 1896,
+    "ru": "Кто отвечает за этот проект?",
+    "phonetic": "kto at-vye-CHA-yet za E-tat pra-YEKT",
+    "meaning": "Ai chịu trách nhiệm cho dự án này?",
+    "note": "Hỏi về phân công công việc trong nhóm.",
+    "category": "business"
+  },
+  {
+    "id": 1897,
+    "ru": "Давайте перенесём встречу на завтра.",
+    "phonetic": "da-VAY-tye pye-rye-nye-SYOM FSTRYE-chu na ZAV-tra",
+    "meaning": "Chúng ta dời cuộc họp sang ngày mai nhé.",
+    "note": "Đề nghị thay đổi lịch họp.",
+    "category": "business"
+  },
+  {
+    "id": 1898,
+    "ru": "Бюджет на маркетинг был сокращён.",
+    "phonetic": "byud-ZHET na MAR-kye-ting byl sa-kra-SHCHYON",
+    "meaning": "Ngân sách marketing đã bị cắt giảm.",
+    "note": "Thông báo tin về tài chính trong cuộc họp.",
+    "category": "business"
+  },
+  {
+    "id": 1899,
+    "ru": "Мы ищем нового поставщика.",
+    "phonetic": "my I-shchem NO-va-va pas-TAF-shchi-ka",
+    "meaning": "Chúng tôi đang tìm nhà cung cấp mới.",
+    "note": "Trao đổi về chuỗi cung ứng với đối tác.",
+    "category": "business"
+  },
+  {
+    "id": 1900,
+    "ru": "Отправьте мне, пожалуйста, презентацию по электронной почте.",
+    "phonetic": "at-PRAF'-tye mnye pa-ZHAL-sta prye-zyen-TA-tsi-yu pa e-lyek-TRON-nay POCH-tye",
+    "meaning": "Làm ơn gửi bài thuyết trình cho tôi qua email.",
+    "note": "Yêu cầu tài liệu từ đồng nghiệp.",
+    "category": "business"
+  },
+  {
+    "id": 1901,
+    "ru": "Переговоры прошли успешно.",
+    "phonetic": "pye-rye-ga-VO-ry prash-LI us-PYESH-na",
+    "meaning": "Cuộc đàm phán diễn ra tốt đẹp.",
+    "note": "Báo cáo kết quả đàm phán cho cấp trên.",
+    "category": "business"
+  },
+  {
+    "id": 1902,
+    "ru": "Клиент недоволен качеством обслуживания.",
+    "phonetic": "kli-YENT nye-da-VO-lyen KA-chyest-vam ap-SLU-zhi-va-ni-ya",
+    "meaning": "Khách hàng không hài lòng với chất lượng dịch vụ.",
+    "note": "Phản hồi từ bộ phận chăm sóc khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1903,
+    "ru": "Нам нужно нанять ещё двух сотрудников.",
+    "phonetic": "nam NUZH-na na-NYAT' ye-SHCHO dvukh sat-RUD-ni-kaf",
+    "meaning": "Chúng ta cần tuyển thêm hai nhân viên.",
+    "note": "Thảo luận về nhân sự trong cuộc họp.",
+    "category": "business"
+  },
+  {
+    "id": 1904,
+    "ru": "Отчёт должен быть готов к пятнице.",
+    "phonetic": "at-CHYOT DOL-zhen byt' ga-TOF k PYAT-ni-tsye",
+    "meaning": "Báo cáo phải hoàn thành trước thứ Sáu.",
+    "note": "Giao việc và nêu hạn chót.",
+    "category": "business"
+  },
+  {
+    "id": 1905,
+    "ru": "Давайте обсудим условия сделки.",
+    "phonetic": "da-VAY-tye ap-SU-dim us-LO-vi-ya ZDYEL-ki",
+    "meaning": "Hãy cùng bàn về điều khoản của thương vụ.",
+    "note": "Mở đầu buổi đàm phán kinh doanh.",
+    "category": "business"
+  },
+  {
+    "id": 1906,
+    "ru": "Я согласен с вашим предложением.",
+    "phonetic": "ya sag-LA-syen s VA-shim pryed-la-ZHE-ni-yem",
+    "meaning": "Tôi đồng ý với đề xuất của anh/chị.",
+    "note": "Phản hồi tích cực trong đàm phán hoặc họp.",
+    "category": "business"
+  },
+  {
+    "id": 1907,
+    "ru": "Компания планирует выйти на новый рынок.",
+    "phonetic": "kam-PA-ni-ya pla-NI-ru-yet VY-yti na NO-vyy RY-nak",
+    "meaning": "Công ty dự định thâm nhập thị trường mới.",
+    "note": "Thông báo chiến lược phát triển.",
+    "category": "business"
+  },
+  {
+    "id": 1908,
+    "ru": "Наши конкуренты снизили цены.",
+    "phonetic": "NA-shi kan-ku-RYEN-ty SNI-zi-li TSE-ny",
+    "meaning": "Đối thủ cạnh tranh đã giảm giá.",
+    "note": "Cập nhật tình hình thị trường cho đội ngũ.",
+    "category": "business"
+  },
+  {
+    "id": 1909,
+    "ru": "Собеседование назначено на десять часов.",
+    "phonetic": "sa-bye-SYE-da-va-ni-ye na-ZNA-chye-na na DYE-syat' chya-SOF",
+    "meaning": "Buổi phỏng vấn được lên lịch lúc mười giờ.",
+    "note": "Thông báo lịch phỏng vấn ứng viên.",
+    "category": "business"
+  },
+  {
+    "id": 1910,
+    "ru": "Ваше резюме произвело хорошее впечатление.",
+    "phonetic": "VA-she rye-zyu-ME pra-iz-vye-LO kha-RO-she-ye fpye-chat-LYE-ni-ye",
+    "meaning": "Hồ sơ của anh/chị để lại ấn tượng tốt.",
+    "note": "Nhà tuyển dụng nhận xét trong buổi phỏng vấn.",
+    "category": "business"
+  },
+  {
+    "id": 1911,
+    "ru": "Мы предлагаем вам должность менеджера по продажам.",
+    "phonetic": "my pryed-la-GA-yem vam DOLZH-nast' MYE-nyed-zhe-ra pa pra-DA-zham",
+    "meaning": "Chúng tôi mời anh/chị nhận vị trí trưởng phòng kinh doanh.",
+    "note": "Nhà tuyển dụng đề nghị công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1912,
+    "ru": "Какая у вас ожидаемая зарплата?",
+    "phonetic": "ka-KA-ya u vas a-zhi-DA-ye-ma-ya zar-PLA-ta",
+    "meaning": "Mức lương mong muốn của anh/chị là bao nhiêu?",
+    "note": "Câu hỏi thường gặp trong phỏng vấn xin việc.",
+    "category": "business"
+  },
+  {
+    "id": 1913,
+    "ru": "Нам нужно оптимизировать расходы.",
+    "phonetic": "nam NUZH-na ap-ti-mi-ZI-ra-vat' ras-KHO-dy",
+    "meaning": "Chúng ta cần tối ưu hóa chi phí.",
+    "note": "Thảo luận về tài chính công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1914,
+    "ru": "Инвесторы заинтересовались нашим стартапом.",
+    "phonetic": "in-VYES-ta-ry za-in-tye-rye-sa-VA-lis' NA-shim star-TA-pam",
+    "meaning": "Các nhà đầu tư đã quan tâm đến startup của chúng tôi.",
+    "note": "Thông báo tin tốt về gọi vốn.",
+    "category": "business"
+  },
+  {
+    "id": 1915,
+    "ru": "Подготовьте, пожалуйста, финансовый отчёт за квартал.",
+    "phonetic": "pad-ga-TOV'-tye pa-ZHAL-sta fi-NAN-sa-vyy at-CHYOT za kvar-TAL",
+    "meaning": "Làm ơn chuẩn bị báo cáo tài chính quý này.",
+    "note": "Giao nhiệm vụ cho kế toán hoặc tài chính.",
+    "category": "business"
+  },
+  {
+    "id": 1916,
+    "ru": "Мы подписали договор о сотрудничестве.",
+    "phonetic": "my pad-pi-SA-li da-ga-VOR a sat-RUD-ni-chyest-vye",
+    "meaning": "Chúng tôi đã ký thỏa thuận hợp tác.",
+    "note": "Thông báo kết quả hợp tác với đối tác.",
+    "category": "business"
+  },
+  {
+    "id": 1917,
+    "ru": "Директор одобрил новый бюджет.",
+    "phonetic": "di-RYEK-tar a-da-BRIL NO-vyy byud-ZHET",
+    "meaning": "Giám đốc đã phê duyệt ngân sách mới.",
+    "note": "Cập nhật quyết định của cấp trên.",
+    "category": "business"
+  },
+  {
+    "id": 1918,
+    "ru": "Продажи в этом месяце превысили план.",
+    "phonetic": "pra-DA-zhi v E-tam MYE-syat-tse prye-VY-si-li plan",
+    "meaning": "Doanh số tháng này vượt kế hoạch.",
+    "note": "Báo cáo kết quả kinh doanh tích cực.",
+    "category": "business"
+  },
+  {
+    "id": 1919,
+    "ru": "Нам нужна более агрессивная маркетинговая стратегия.",
+    "phonetic": "nam nuzh-NA BO-lye-ye a-gryes-SIV-na-ya MAR-kye-tin-ga-va-ya stra-TYE-gi-ya",
+    "meaning": "Chúng ta cần một chiến lược marketing quyết liệt hơn.",
+    "note": "Đề xuất thay đổi chiến lược trong họp.",
+    "category": "business"
+  },
+  {
+    "id": 1920,
+    "ru": "Совет директоров соберётся на следующей неделе.",
+    "phonetic": "sa-VYET di-RYEK-ta-raf sa-bye-RYOT-sya na SLYE-du-yu-shchyey nye-DYE-lye",
+    "meaning": "Hội đồng quản trị sẽ họp vào tuần tới.",
+    "note": "Thông báo lịch họp cấp cao.",
+    "category": "business"
+  },
+  {
+    "id": 1921,
+    "ru": "Пожалуйста, подтвердите своё участие в конференции.",
+    "phonetic": "pa-ZHAL-sta pad-tvyer-DI-tye sva-YO u-CHAS-ti-ye v kan-fye-RYEN-tsi-i",
+    "meaning": "Làm ơn xác nhận việc tham dự hội nghị.",
+    "note": "Yêu cầu xác nhận tham gia sự kiện.",
+    "category": "business"
+  },
+  {
+    "id": 1922,
+    "ru": "Мы должны представить проект инвесторам в четверг.",
+    "phonetic": "my dalzh-NY pryed-STA-vit' pra-YEKT in-VYES-ta-ram v chyet-VYERK",
+    "meaning": "Chúng ta phải trình bày dự án cho nhà đầu tư vào thứ Năm.",
+    "note": "Nhắc nhở về lịch trình bày quan trọng.",
+    "category": "business"
+  },
+  {
+    "id": 1923,
+    "ru": "Договор аренды офиса истекает в декабре.",
+    "phonetic": "da-ga-VOR a-RYEN-dy O-fi-sa is-tye-KA-yet v dye-kab-RYE",
+    "meaning": "Hợp đồng thuê văn phòng hết hạn vào tháng Mười hai.",
+    "note": "Thông báo về thủ tục hành chính công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1924,
+    "ru": "Наша команда работает над новым продуктом.",
+    "phonetic": "NA-sha ka-MAN-da ra-BO-ta-yet nad NO-vym pra-DUK-tam",
+    "meaning": "Đội ngũ chúng tôi đang phát triển sản phẩm mới.",
+    "note": "Cập nhật tiến độ dự án.",
+    "category": "business"
+  },
+  {
+    "id": 1925,
+    "ru": "Клиент запросил скидку на оптовую партию.",
+    "phonetic": "kli-YENT za-pra-SIL SKID-ku na ap-TO-vu-yu PAR-ti-yu",
+    "meaning": "Khách hàng yêu cầu giảm giá cho đơn hàng sỉ.",
+    "note": "Trao đổi về điều khoản bán hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1926,
+    "ru": "Мы не укладываемся в бюджет проекта.",
+    "phonetic": "my nye u-KLA-dy-va-yem-sya v byud-ZHET pra-YEK-ta",
+    "meaning": "Chúng ta đang vượt ngân sách dự án.",
+    "note": "Cảnh báo về tình hình tài chính dự án.",
+    "category": "business"
+  },
+  {
+    "id": 1927,
+    "ru": "Нужно провести анализ рынка перед запуском.",
+    "phonetic": "NUZH-na pra-vyes-TI a-NA-liz RYN-ka PYE-ryed ZA-pus-kam",
+    "meaning": "Chúng ta cần phân tích thị trường trước khi ra mắt.",
+    "note": "Đề xuất bước chuẩn bị trước khi tung sản phẩm.",
+    "category": "business"
+  },
+  {
+    "id": 1928,
+    "ru": "Кто будет вести переговоры с поставщиком?",
+    "phonetic": "kto BU-dyet vyes-TI pye-rye-ga-VO-ry s pas-TAF-shchi-kam",
+    "meaning": "Ai sẽ đàm phán với nhà cung cấp?",
+    "note": "Phân công nhiệm vụ đàm phán.",
+    "category": "business"
+  },
+  {
+    "id": 1929,
+    "ru": "Я подготовил слайды для презентации.",
+    "phonetic": "ya pad-ga-TO-vil SLAY-dy dlya prye-zyen-TA-tsi-i",
+    "meaning": "Tôi đã chuẩn bị slide cho bài thuyết trình.",
+    "note": "Báo cáo tiến độ chuẩn bị công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1930,
+    "ru": "Давайте проведём мозговой штурм по этому вопросу.",
+    "phonetic": "da-VAY-tye pra-vye-DYOM maz-ga-VOY shturm pa E-ta-mu vap-RO-su",
+    "meaning": "Hãy cùng động não về vấn đề này.",
+    "note": "Khởi động buổi thảo luận sáng tạo.",
+    "category": "business"
+  },
+  {
+    "id": 1931,
+    "ru": "Отдел кадров проводит собеседования всю неделю.",
+    "phonetic": "at-DYEL KAD-raf pra-VO-dit sa-bye-SYE-da-va-ni-ya fsyu nye-DYE-lyu",
+    "meaning": "Phòng nhân sự phỏng vấn ứng viên cả tuần này.",
+    "note": "Thông báo lịch trình tuyển dụng.",
+    "category": "business"
+  },
+  {
+    "id": 1932,
+    "ru": "Мы получили предложение о слиянии компаний.",
+    "phonetic": "my pa-lu-CHI-li pryed-la-ZHE-ni-ye a sli-YA-ni-i kam-PA-niy",
+    "meaning": "Chúng tôi nhận được đề xuất sáp nhập.",
+    "note": "Thông báo tin quan trọng về chiến lược công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1933,
+    "ru": "Прибыль за прошлый год превзошла ожидания.",
+    "phonetic": "PRI-byl' za PROSH-lyy got pryev-zash-LA a-zhi-DA-ni-ya",
+    "meaning": "Lợi nhuận năm ngoái vượt kỳ vọng.",
+    "note": "Báo cáo kết quả kinh doanh cuối năm.",
+    "category": "business"
+  },
+  {
+    "id": 1934,
+    "ru": "Наш главный конкурент вышел на международный рынок.",
+    "phonetic": "nash GLAV-nyy kan-ku-RYENT VY-shel na myezh-du-na-ROD-nyy RY-nak",
+    "meaning": "Đối thủ chính của chúng ta đã bước vào thị trường quốc tế.",
+    "note": "Cập nhật tình hình cạnh tranh.",
+    "category": "business"
+  },
+  {
+    "id": 1935,
+    "ru": "Пожалуйста, подпишите договор на последней странице.",
+    "phonetic": "pa-ZHAL-sta pad-pi-SHI-tye da-ga-VOR na pas-LYED-nyey stra-NI-tse",
+    "meaning": "Làm ơn ký hợp đồng ở trang cuối.",
+    "note": "Hướng dẫn ký kết hợp đồng.",
+    "category": "business"
+  },
+  {
+    "id": 1936,
+    "ru": "Мы планируем открыть филиал в другом городе.",
+    "phonetic": "my pla-NI-ru-yem at-KRYT' fi-li-AL v dru-GOM GO-ra-dye",
+    "meaning": "Chúng tôi dự định mở chi nhánh ở thành phố khác.",
+    "note": "Thông báo kế hoạch mở rộng kinh doanh.",
+    "category": "business"
+  },
+  {
+    "id": 1937,
+    "ru": "Клиент попросил перенести срок поставки.",
+    "phonetic": "kli-YENT pa-pra-SIL pye-rye-nyes-TI srok pas-TAF-ki",
+    "meaning": "Khách hàng yêu cầu dời ngày giao hàng.",
+    "note": "Trao đổi về thay đổi lịch giao hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1938,
+    "ru": "Итоговый отчёт превысил ожидания руководства.",
+    "phonetic": "i-TO-ga-vyy at-CHYOT prye-VY-sil a-zhi-DA-ni-ya ru-ka-VOTS-tva",
+    "meaning": "Báo cáo cuối cùng vượt kỳ vọng của ban lãnh đạo.",
+    "note": "Đánh giá kết quả công việc tích cực.",
+    "category": "business"
+  },
+  {
+    "id": 1939,
+    "ru": "Нам нужно провести аудит перед закрытием сделки.",
+    "phonetic": "nam NUZH-na pra-vyes-TI AU-dit PYE-ryed za-KRY-ti-yem ZDYEL-ki",
+    "meaning": "Chúng ta cần kiểm toán trước khi chốt thương vụ.",
+    "note": "Đề xuất bước thẩm định trước giao dịch.",
+    "category": "business"
+  },
+  {
+    "id": 1940,
+    "ru": "Заседание акционеров состоится в понедельник.",
+    "phonetic": "za-sye-DA-ni-ye ak-tsi-a-NYE-raf sas-ta-IT-sya v pa-nye-DYEL'-nik",
+    "meaning": "Đại hội cổ đông sẽ được tổ chức vào thứ Hai.",
+    "note": "Thông báo lịch họp cổ đông.",
+    "category": "business"
+  },
+  {
+    "id": 1941,
+    "ru": "Давайте зафиксируем договорённости в письменном виде.",
+    "phonetic": "da-VAY-tye za-fik-SI-ru-yem da-ga-va-RYON-nas-ti v PIS'-myen-nam VI-dye",
+    "meaning": "Hãy ghi lại các thỏa thuận bằng văn bản.",
+    "note": "Đề nghị lập văn bản sau khi thống nhất.",
+    "category": "business"
+  },
+  {
+    "id": 1942,
+    "ru": "Продукт получил положительные отзывы на рынке.",
+    "phonetic": "pra-DUKT pa-lu-CHIL pa-la-ZHI-tyel'-ny-ye AT-zy-vy na RYN-kye",
+    "meaning": "Sản phẩm nhận được phản hồi tích cực trên thị trường.",
+    "note": "Báo cáo tình hình kinh doanh sản phẩm.",
+    "category": "business"
+  },
+  {
+    "id": 1943,
+    "ru": "Мы должны сократить издержки на производство.",
+    "phonetic": "my dalzh-NY sa-kra-TIT' iz-DYERSH-ki na pra-iz-VOTS-tva",
+    "meaning": "Chúng ta cần giảm chi phí sản xuất.",
+    "note": "Thảo luận về tối ưu chi phí.",
+    "category": "business"
+  },
+  {
+    "id": 1944,
+    "ru": "Он был повышен до должности директора отдела.",
+    "phonetic": "on byl pa-VY-shen da DOLZH-nas-ti di-RYEK-ta-ra at-DYE-la",
+    "meaning": "Anh ấy được thăng chức trưởng phòng.",
+    "note": "Thông báo tin thăng chức nhân sự.",
+    "category": "business"
+  },
+  {
+    "id": 1945,
+    "ru": "Компания объявила о сокращении штата.",
+    "phonetic": "kam-PA-ni-ya ab-ya-VI-la a sa-kra-SHCHE-ni-i SHTA-ta",
+    "meaning": "Công ty thông báo cắt giảm nhân sự.",
+    "note": "Thông báo tin không vui về tái cơ cấu.",
+    "category": "business"
+  },
+  {
+    "id": 1946,
+    "ru": "Нужно согласовать детали контракта с юристами.",
+    "phonetic": "NUZH-na sag-la-sa-VAT' dye-TA-li kan-TRAK-ta s yu-RIS-ta-mi",
+    "meaning": "Chúng ta cần thống nhất chi tiết hợp đồng với luật sư.",
+    "note": "Phối hợp pháp lý trước khi ký kết.",
+    "category": "business"
+  },
+  {
+    "id": 1947,
+    "ru": "Наш стартап привлёк новый раунд инвестиций.",
+    "phonetic": "nash star-TAP priv-LYOK NO-vyy RA-und in-vyes-TI-tsiy",
+    "meaning": "Startup của chúng tôi thu hút được vòng gọi vốn mới.",
+    "note": "Thông báo tin tốt về gọi vốn.",
+    "category": "business"
+  },
+  {
+    "id": 1948,
+    "ru": "Пожалуйста, вышлите счёт-фактуру до конца месяца.",
+    "phonetic": "pa-ZHAL-sta VYSH-li-tye shchyot-fak-TU-ru da kan-TSA MYE-syat-tsa",
+    "meaning": "Làm ơn gửi hóa đơn trước cuối tháng.",
+    "note": "Yêu cầu chứng từ kế toán.",
+    "category": "business"
+  },
+  {
+    "id": 1949,
+    "ru": "Руководство приняло решение о ребрендинге компании.",
+    "phonetic": "ru-ka-VOTS-tva PRI-nya-la rye-SHE-ni-ye a rye-BRYEN-din-gye kam-PA-ni-i",
+    "meaning": "Ban lãnh đạo quyết định tái định vị thương hiệu công ty.",
+    "note": "Thông báo quyết định chiến lược lớn.",
+    "category": "business"
+  },
+  {
+    "id": 1950,
+    "ru": "Мы столкнулись с задержкой поставок.",
+    "phonetic": "my stal-KNU-lis' s za-DYERSH-kay pas-TA-vak",
+    "meaning": "Chúng tôi gặp phải sự chậm trễ trong giao hàng.",
+    "note": "Báo cáo sự cố với đối tác hoặc khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1951,
+    "ru": "Клиент подписал долгосрочный контракт с нами.",
+    "phonetic": "kli-YENT pad-pi-SAL dal-ga-SROCH-nyy kan-TRAKT s NA-mi",
+    "meaning": "Khách hàng đã ký hợp đồng dài hạn với chúng tôi.",
+    "note": "Thông báo tin vui về hợp tác lâu dài.",
+    "category": "business"
+  },
+  {
+    "id": 1952,
+    "ru": "Давайте обсудим стратегию на следующий квартал.",
+    "phonetic": "da-VAY-tye ap-SU-dim stra-TYE-gi-yu na SLYE-du-yu-shchiy kvar-TAL",
+    "meaning": "Hãy bàn về chiến lược cho quý tới.",
+    "note": "Mở đầu buổi họp lập kế hoạch.",
+    "category": "business"
+  },
+  {
+    "id": 1953,
+    "ru": "Отдел продаж не выполнил план в этом месяце.",
+    "phonetic": "at-DYEL pra-DASH nye VY-pal-nil plan v E-tam MYE-syat-tse",
+    "meaning": "Phòng kinh doanh không đạt kế hoạch tháng này.",
+    "note": "Báo cáo kết quả kinh doanh chưa đạt.",
+    "category": "business"
+  },
+  {
+    "id": 1954,
+    "ru": "Мы наняли консультанта для оптимизации процессов.",
+    "phonetic": "my na-NYA-li kan-sul'-TAN-ta dlya ap-ti-mi-ZA-tsi-i pra-TSES-saf",
+    "meaning": "Chúng tôi thuê một chuyên gia tư vấn để tối ưu quy trình.",
+    "note": "Thông báo về việc thuê ngoài chuyên gia.",
+    "category": "business"
+  },
+  {
+    "id": 1955,
+    "ru": "Нужно подготовить коммерческое предложение для нового клиента.",
+    "phonetic": "NUZH-na pad-ga-TO-vit' ka-MYER-chyes-ka-ye pryed-la-ZHE-ni-ye dlya NO-va-va kli-YEN-ta",
+    "meaning": "Chúng ta cần chuẩn bị đề xuất kinh doanh cho khách hàng mới.",
+    "note": "Giao nhiệm vụ chuẩn bị tài liệu bán hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1956,
+    "ru": "Видеоконференция начнётся через пятнадцать минут.",
+    "phonetic": "VI-dye-a-kan-fye-RYEN-tsi-ya nach-NYOT-sya CHE-ryez pyat-NAT-sat' mi-NUT",
+    "meaning": "Cuộc họp video sẽ bắt đầu sau mười lăm phút.",
+    "note": "Thông báo lịch họp trực tuyến.",
+    "category": "business"
+  },
+  {
+    "id": 1957,
+    "ru": "Извините, у меня технические проблемы со связью.",
+    "phonetic": "iz-vi-NI-tye u mye-NYA tyekh-NI-chyes-ki-ye prab-LYE-my sa SVYAZ'-yu",
+    "meaning": "Xin lỗi, tôi đang gặp sự cố kỹ thuật về kết nối.",
+    "note": "Xin lỗi khi gặp trục trặc trong họp online.",
+    "category": "business"
+  },
+  {
+    "id": 1958,
+    "ru": "Вы меня слышите? Экран не отображается.",
+    "phonetic": "vy mye-NYA SLY-shi-tye ek-RAN nye a-ta-bra-ZHA-yet-sya",
+    "meaning": "Bạn có nghe thấy tôi không? Màn hình không hiển thị.",
+    "note": "Kiểm tra kết nối trong cuộc họp video.",
+    "category": "business"
+  },
+  {
+    "id": 1959,
+    "ru": "Мы отправили официальное коммерческое предложение вчера.",
+    "phonetic": "my at-PRA-vi-li a-fi-tsi-AL'-na-ye ka-MYER-chyes-ka-ye pryed-la-ZHE-ni-ye fchye-RA",
+    "meaning": "Chúng tôi đã gửi đề xuất kinh doanh chính thức hôm qua.",
+    "note": "Cập nhật tiến độ làm việc với đối tác.",
+    "category": "business"
+  },
+  {
+    "id": 1960,
+    "ru": "Партнёры настаивают на пересмотре условий сделки.",
+    "phonetic": "part-NYO-ry nas-TA-i-va-yut na pye-rye-SMOT-rye us-LO-viy ZDYEL-ki",
+    "meaning": "Các đối tác nhất quyết muốn sửa đổi điều khoản thương vụ.",
+    "note": "Báo cáo diễn biến đàm phán.",
+    "category": "business"
+  },
+  {
+    "id": 1961,
+    "ru": "Годовой отчёт компании будет опубликован на следующей неделе.",
+    "phonetic": "ga-da-VOY at-CHYOT kam-PA-ni-i BU-dyet a-pub-LI-ka-van na SLYE-du-yu-shchyey nye-DYE-lye",
+    "meaning": "Báo cáo thường niên của công ty sẽ được công bố vào tuần tới.",
+    "note": "Thông báo lịch công bố tài liệu.",
+    "category": "business"
+  },
+  {
+    "id": 1962,
+    "ru": "Мы должны диверсифицировать источники дохода.",
+    "phonetic": "my dalzh-NY di-vyer-si-fi-TSI-ra-vat' is-TOCH-ni-ki da-KHO-da",
+    "meaning": "Chúng ta cần đa dạng hóa nguồn thu.",
+    "note": "Đề xuất chiến lược tài chính.",
+    "category": "business"
+  },
+  {
+    "id": 1963,
+    "ru": "Руководитель проекта запросил дополнительные ресурсы.",
+    "phonetic": "ru-ka-va-DI-tyel' pra-YEK-ta za-pra-SIL da-pal-NI-tyel'-ny-ye rye-SUR-sy",
+    "meaning": "Quản lý dự án yêu cầu thêm nguồn lực.",
+    "note": "Báo cáo nhu cầu nhân lực hoặc ngân sách.",
+    "category": "business"
+  },
+  {
+    "id": 1964,
+    "ru": "Наша команда превысила квартальные показатели.",
+    "phonetic": "NA-sha ka-MAN-da prye-VY-si-la kvar-TAL'-ny-ye pa-ka-ZA-tye-li",
+    "meaning": "Đội của chúng tôi đã vượt chỉ tiêu quý.",
+    "note": "Báo cáo kết quả tích cực trong họp.",
+    "category": "business"
+  },
+  {
+    "id": 1965,
+    "ru": "Договор нужно перевести на английский язык.",
+    "phonetic": "da-ga-VOR NUZH-na pye-rye-vyes-TI na an-GLIY-skiy ya-ZYK",
+    "meaning": "Hợp đồng cần được dịch sang tiếng Anh.",
+    "note": "Yêu cầu công việc dịch thuật tài liệu.",
+    "category": "business"
+  },
+  {
+    "id": 1966,
+    "ru": "Клиент отменил заказ в последнюю минуту.",
+    "phonetic": "kli-YENT at-mye-NIL za-KAZ v pas-LYED-nyu-yu mi-NU-tu",
+    "meaning": "Khách hàng đã hủy đơn hàng vào phút chót.",
+    "note": "Báo cáo sự cố kinh doanh.",
+    "category": "business"
+  },
+  {
+    "id": 1967,
+    "ru": "Мы проводим тендер на выбор нового подрядчика.",
+    "phonetic": "my pra-VO-dim TEN-dyer na VY-bar NO-va-va pad-RYAT-chi-ka",
+    "meaning": "Chúng tôi đang tổ chức đấu thầu để chọn nhà thầu mới.",
+    "note": "Thông báo quy trình đấu thầu.",
+    "category": "business"
+  },
+  {
+    "id": 1968,
+    "ru": "Финансовый директор представил новый бюджетный план.",
+    "phonetic": "fi-NAN-sa-vyy di-RYEK-tar pryed-STA-vil NO-vyy byud-ZHET-nyy plan",
+    "meaning": "Giám đốc tài chính trình bày kế hoạch ngân sách mới.",
+    "note": "Báo cáo tài chính trong cuộc họp cấp cao.",
+    "category": "business"
+  },
+  {
+    "id": 1969,
+    "ru": "Мы подали заявку на патент нашей технологии.",
+    "phonetic": "my PO-da-li za-YAF-ku na pa-TYENT NA-shey tyekh-na-LO-gi-i",
+    "meaning": "Chúng tôi đã nộp đơn xin cấp bằng sáng chế cho công nghệ của mình.",
+    "note": "Thông báo về sở hữu trí tuệ.",
+    "category": "business"
+  },
+  {
+    "id": 1970,
+    "ru": "Переговоры зашли в тупик из-за цены.",
+    "phonetic": "pye-rye-ga-VO-ry zash-LI v tu-PIK iz-ZA TSE-ny",
+    "meaning": "Cuộc đàm phán bế tắc vì vấn đề giá cả.",
+    "note": "Báo cáo tình trạng bế tắc trong đàm phán.",
+    "category": "business"
+  },
+  {
+    "id": 1971,
+    "ru": "Нам нужно пересмотреть условия поставки.",
+    "phonetic": "nam NUZH-na pye-rye-smat-RYET' us-LO-vi-ya pas-TAF-ki",
+    "meaning": "Chúng ta cần sửa đổi điều khoản giao hàng.",
+    "note": "Đề xuất thay đổi hợp đồng.",
+    "category": "business"
+  },
+  {
+    "id": 1972,
+    "ru": "Компания вышла на биржу в прошлом году.",
+    "phonetic": "kam-PA-ni-ya VYSH-la na BIR-zhu v PROSH-lam ga-DU",
+    "meaning": "Công ty đã niêm yết trên sàn chứng khoán năm ngoái.",
+    "note": "Thông tin về lịch sử phát triển công ty.",
+    "category": "business"
+  },
+  {
+    "id": 1973,
+    "ru": "Продажи упали из-за экономического кризиса.",
+    "phonetic": "pra-DA-zhi u-PA-li iz-ZA e-ka-na-MI-chyes-ka-va KRI-zi-sa",
+    "meaning": "Doanh số giảm do khủng hoảng kinh tế.",
+    "note": "Giải thích nguyên nhân kết quả kinh doanh kém.",
+    "category": "business"
+  },
+  {
+    "id": 1974,
+    "ru": "Мы заключили эксклюзивный контракт с дистрибьютором.",
+    "phonetic": "my za-klyu-CHI-li eks-klyu-ZIV-nyy kan-TRAKT s dis-tri-B'YU-ta-ram",
+    "meaning": "Chúng tôi đã ký hợp đồng độc quyền với nhà phân phối.",
+    "note": "Thông báo tin vui về hợp tác kinh doanh.",
+    "category": "business"
+  },
+  {
+    "id": 1975,
+    "ru": "Пожалуйста, оставьте отзыв о нашей продукции.",
+    "phonetic": "pa-ZHAL-sta as-TAF'-tye at-ZYF a NA-shey pra-DUK-tsi-i",
+    "meaning": "Làm ơn để lại đánh giá về sản phẩm của chúng tôi.",
+    "note": "Yêu cầu phản hồi từ khách hàng.",
+    "category": "business"
+  },
+  {
+    "id": 1976,
+    "ru": "Отдел маркетинга запускает новую рекламную кампанию.",
+    "phonetic": "at-DYEL MAR-kye-tin-ga za-pus-KA-yet NO-vu-yu rye-KLAM-nu-yu kam-PA-ni-yu",
+    "meaning": "Phòng marketing đang triển khai chiến dịch quảng cáo mới.",
+    "note": "Thông báo hoạt động marketing sắp tới.",
+    "category": "business"
+  },
+  {
+    "id": 1977,
+    "ru": "Наш бюджет на следующий год ещё не утверждён.",
+    "phonetic": "nash byud-ZHET na SLYE-du-yu-shchiy got ye-SHCHO nye ut-vyer-ZHDYON",
+    "meaning": "Ngân sách năm sau của chúng ta chưa được phê duyệt.",
+    "note": "Cập nhật tình trạng phê duyệt ngân sách.",
+    "category": "business"
+  },
+  {
+    "id": 1978,
+    "ru": "Инвесторы требуют более подробный бизнес-план.",
+    "phonetic": "in-VYES-ta-ry TRYE-bu-yut BO-lye-ye pad-ROB-nyy BIZ-nyes-plan",
+    "meaning": "Nhà đầu tư yêu cầu một kế hoạch kinh doanh chi tiết hơn.",
+    "note": "Phản hồi từ nhà đầu tư về hồ sơ gọi vốn.",
+    "category": "business"
+  },
+  {
+    "id": 1979,
+    "ru": "Мы получили заказ на крупную партию товара.",
+    "phonetic": "my pa-lu-CHI-li za-KAZ na KRUP-nu-yu PAR-ti-yu ta-VA-ra",
+    "meaning": "Chúng tôi nhận được đơn hàng cho một lô hàng lớn.",
+    "note": "Thông báo tin vui về đơn hàng mới.",
+    "category": "business"
+  },
+  {
+    "id": 1980,
+    "ru": "Сотрудники отдела жалуются на переработки.",
+    "phonetic": "sat-RUD-ni-ki at-DYE-la ZHA-lu-yut-sya na pye-rye-ra-BOT-ki",
+    "meaning": "Nhân viên trong phòng phàn nàn về việc làm thêm giờ.",
+    "note": "Phản ánh vấn đề nội bộ với quản lý.",
+    "category": "business"
+  },
+  {
+    "id": 1981,
+    "ru": "Руководство рассматривает возможность слияния с конкурентом.",
+    "phonetic": "ru-ka-VOTS-tva ras-SMAT-ri-va-yet vaz-MOZH-nast' sli-YA-ni-ya s kan-ku-RYEN-tam",
+    "meaning": "Ban lãnh đạo đang xem xét việc sáp nhập với đối thủ cạnh tranh.",
+    "note": "Thông báo tin chiến lược quan trọng, mang tính bảo mật.",
+    "category": "business"
+  },
+  {
+    "id": 1982,
+    "ru": "Мы должны улучшить показатели удовлетворённости клиентов.",
+    "phonetic": "my dalzh-NY u-LUCH-shit' pa-ka-ZA-tye-li u-da-vlyet-va-RYON-nas-ti kli-YEN-taf",
+    "meaning": "Chúng ta cần cải thiện chỉ số hài lòng của khách hàng.",
+    "note": "Đề xuất mục tiêu cải thiện dịch vụ.",
+    "category": "business"
+  },
+  {
+    "id": 1983,
+    "ru": "Юрист проверяет договор на предмет рисков.",
+    "phonetic": "yu-RIST pra-vye-RYA-yet da-ga-VOR na pryed-MYET RIS-kaf",
+    "meaning": "Luật sư đang kiểm tra hợp đồng để tìm rủi ro.",
+    "note": "Cập nhật tiến trình rà soát pháp lý.",
+    "category": "business"
+  },
+  {
+    "id": 1984,
+    "ru": "Командировка в Москву запланирована на следующий вторник.",
+    "phonetic": "ka-man-di-ROF-ka v mask-VU za-pla-NI-ra-va-na na SLYE-du-yu-shchiy FTOR-nik",
+    "meaning": "Chuyến công tác đến Moscow được lên lịch vào thứ Ba tới.",
+    "note": "Thông báo lịch công tác cho nhân viên.",
+    "category": "business"
+  },
+  {
+    "id": 1985,
+    "ru": "Забронируйте, пожалуйста, билеты и гостиницу для меня.",
+    "phonetic": "za-bra-NI-ruy-tye pa-ZHAL-sta bi-LYE-ty i gas-TI-ni-tsu dlya mye-NYA",
+    "meaning": "Làm ơn đặt vé máy bay và khách sạn giúp tôi.",
+    "note": "Yêu cầu trợ lý sắp xếp chuyến công tác.",
+    "category": "business"
+  },
+  {
+    "id": 1986,
+    "ru": "Компания получила крупный государственный заказ.",
+    "phonetic": "kam-PA-ni-ya pa-lu-CHI-la KRUP-nyy ga-su-DARS-tvyen-nyy za-KAZ",
+    "meaning": "Công ty đã nhận được hợp đồng lớn từ chính phủ.",
+    "note": "Thông báo tin vui về hợp đồng quan trọng.",
+    "category": "business"
+  },
+  {
+    "id": 1987,
+    "ru": "Мы работаем над улучшением клиентского сервиса.",
+    "phonetic": "my ra-BO-ta-yem nad u-LUCH-she-ni-yem kli-YENT-ska-va SYER-vi-sa",
+    "meaning": "Chúng tôi đang nỗ lực cải thiện dịch vụ khách hàng.",
+    "note": "Cập nhật tiến độ cải tiến quy trình.",
+    "category": "business"
+  },
+  {
+    "id": 1988,
+    "ru": "Прошу прощения за задержку с ответом на письмо.",
+    "phonetic": "pra-SHU pra-SHCHE-ni-ya za za-DYERSH-ku s at-VYE-tam na pis'-MO",
+    "meaning": "Tôi xin lỗi vì đã chậm trả lời email.",
+    "note": "Lời xin lỗi lịch sự trong giao tiếp email công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1989,
+    "ru": "Наши показатели по итогам года ниже прошлогодних.",
+    "phonetic": "NA-shi pa-ka-ZA-tye-li pa i-TO-gam GO-da NI-zhe prash-la-GOD-nikh",
+    "meaning": "Số liệu cuối năm của chúng ta thấp hơn năm ngoái.",
+    "note": "Báo cáo kết quả kinh doanh không đạt kỳ vọng.",
+    "category": "business"
+  },
+  {
+    "id": 1990,
+    "ru": "Совет директоров одобрил выплату дивидендов.",
+    "phonetic": "sa-VYET di-RYEK-ta-raf a-da-BRIL VY-pla-tu di-vi-DYEN-daf",
+    "meaning": "Hội đồng quản trị đã phê duyệt việc chi trả cổ tức.",
+    "note": "Thông báo quyết định tài chính cho cổ đông.",
+    "category": "business"
+  },
+  {
+    "id": 1991,
+    "ru": "Мы теряем клиентов из-за высокой цены.",
+    "phonetic": "my tye-RYA-yem kli-YEN-taf iz-ZA vy-SO-kay TSE-ny",
+    "meaning": "Chúng ta đang mất khách hàng vì giá quá cao.",
+    "note": "Cảnh báo vấn đề kinh doanh cần giải quyết.",
+    "category": "business"
+  },
+  {
+    "id": 1992,
+    "ru": "Давайте подведём итоги сегодняшней встречи.",
+    "phonetic": "da-VAY-tye pad-vye-DYOM i-TO-gi sye-VOD-nyash-nyey FSTRYE-chi",
+    "meaning": "Hãy tóm tắt lại cuộc họp hôm nay.",
+    "note": "Kết thúc cuộc họp bằng việc tổng kết.",
+    "category": "business"
+  },
+  {
+    "id": 1993,
+    "ru": "Мы должны согласовать бюджет с финансовым отделом.",
+    "phonetic": "my dalzh-NY sag-la-sa-VAT' byud-ZHET s fi-NAN-sa-vym at-DYE-lam",
+    "meaning": "Chúng ta cần thống nhất ngân sách với phòng tài chính.",
+    "note": "Đề xuất phối hợp giữa các phòng ban.",
+    "category": "business"
+  },
+  {
+    "id": 1994,
+    "ru": "Контракт вступает в силу с первого января.",
+    "phonetic": "kan-TRAKT fstu-PA-yet v SI-lu s PYER-va-va yan-va-RYA",
+    "meaning": "Hợp đồng có hiệu lực từ ngày mùng một tháng Giêng.",
+    "note": "Thông báo thời điểm hợp đồng bắt đầu.",
+    "category": "business"
+  },
+  {
+    "id": 1995,
+    "ru": "Наша репутация на рынке значительно улучшилась.",
+    "phonetic": "NA-sha rye-pu-TA-tsi-ya na RYN-kye zna-CHI-tyel'-na u-LUCH-shi-las'",
+    "meaning": "Uy tín của chúng ta trên thị trường đã cải thiện đáng kể.",
+    "note": "Báo cáo kết quả tích cực về thương hiệu.",
+    "category": "business"
+  },
+  {
+    "id": 1996,
+    "ru": "Пожалуйста, приложите все документы к письму.",
+    "phonetic": "pa-ZHAL-sta pri-la-ZHI-tye fsye da-ku-MYEN-ty k pis'-MU",
+    "meaning": "Làm ơn đính kèm tất cả tài liệu vào email.",
+    "note": "Hướng dẫn gửi tài liệu qua email công việc.",
+    "category": "business"
+  },
+  {
+    "id": 1997,
+    "ru": "Мы планируем провести ребрендинг в следующем году.",
+    "phonetic": "my pla-NI-ru-yem pra-vyes-TI rye-BRYEN-dink v SLYE-du-yu-shchyem ga-DU",
+    "meaning": "Chúng tôi dự định tái định vị thương hiệu vào năm sau.",
+    "note": "Thông báo kế hoạch chiến lược dài hạn.",
+    "category": "business"
+  },
+  {
+    "id": 1998,
+    "ru": "Отдел логистики сообщил о задержке груза на таможне.",
+    "phonetic": "at-DYEL la-GIS-ti-ki sa-ap-SHCHIL a za-DYERSH-kye GRU-za na ta-MOZH-nye",
+    "meaning": "Phòng logistics báo cáo hàng bị chậm trễ tại hải quan.",
+    "note": "Báo cáo sự cố trong chuỗi cung ứng.",
+    "category": "business"
+  },
+  {
+    "id": 1999,
+    "ru": "Нам нужна встреча один на один с руководителем.",
+    "phonetic": "nam nuzh-NA FSTRYE-cha a-DIN na a-DIN s ru-ka-va-DI-tye-lyem",
+    "meaning": "Chúng tôi cần một cuộc gặp riêng với quản lý.",
+    "note": "Yêu cầu trao đổi trực tiếp, riêng tư với cấp trên.",
+    "category": "business"
+  },
+  {
+    "id": 2000,
+    "ru": "Спасибо за плодотворное сотрудничество в этом году.",
+    "phonetic": "spa-SI-ba za pla-dat-VOR-na-ye sat-RUD-ni-chyest-va v E-tam ga-DU",
+    "meaning": "Cảm ơn vì sự hợp tác hiệu quả trong năm nay.",
+    "note": "Lời cảm ơn đối tác vào cuối năm hoặc kết thúc dự án.",
+    "category": "business"
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": 2261,
+    "ru": "与时俱进",
+    "phonetic": "yǔ shí jù jìn",
+    "meaning": "tiến cùng thời đại, luôn đổi mới bắt kịp xu thế",
+    "note": "Thường dùng trong văn bản chính trị, báo chí, bài phát biểu trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2262,
+    "ru": "求同存异",
+    "phonetic": "qiú tóng cún yì",
+    "meaning": "gác lại khác biệt, tìm điểm chung để hợp tác",
+    "note": "Dùng trong đàm phán, ngoại giao, hợp tác dù còn bất đồng quan điểm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2263,
+    "ru": "居安思危",
+    "phonetic": "jū ān sī wēi",
+    "meaning": "lúc yên ổn phải nghĩ đến nguy cơ tiềm ẩn",
+    "note": "Luôn cảnh giác, phòng bị dù đang trong hoàn cảnh thuận lợi, dùng trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2264,
+    "ru": "审时度势",
+    "phonetic": "shěn shí duó shì",
+    "meaning": "xem xét thời thế, đánh giá kỹ tình hình",
+    "note": "Trước khi hành động phải phân tích kỹ bối cảnh, hay dùng trong văn viết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2265,
+    "ru": "循序渐进",
+    "phonetic": "xún xù jiàn jìn",
+    "meaning": "tiến từng bước theo trình tự hợp lý",
+    "note": "Học tập, làm việc theo lộ trình, không đốt cháy giai đoạn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2266,
+    "ru": "精益求精",
+    "phonetic": "jīng yì qiú jīng",
+    "meaning": "đã tốt còn muốn tốt hơn nữa",
+    "note": "Không ngừng hoàn thiện, nâng cao chất lượng, thường khen tinh thần cầu tiến.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2267,
+    "ru": "实事求是",
+    "phonetic": "shí shì qiú shì",
+    "meaning": "làm việc dựa trên thực tế, cầu thị khách quan",
+    "note": "Làm việc khách quan, đúng sự thật, không giáo điều, hay dùng trong báo chí.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2268,
+    "ru": "因地制宜",
+    "phonetic": "yīn dì zhì yí",
+    "meaning": "tùy hoàn cảnh, điều kiện mà ứng biến phù hợp",
+    "note": "Áp dụng biện pháp phù hợp với điều kiện thực tế từng nơi, dùng trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2269,
+    "ru": "顾全大局",
+    "phonetic": "gù quán dà jú",
+    "meaning": "vì lợi ích chung mà nhân nhượng",
+    "note": "Đặt lợi ích tổng thể lên trên lợi ích cá nhân hay cục bộ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2270,
+    "ru": "高瞻远瞩",
+    "phonetic": "gāo zhān yuǎn zhǔ",
+    "meaning": "nhìn xa trông rộng, có tầm nhìn chiến lược",
+    "note": "Khen ai đó có tầm nhìn xa, dự đoán trước được tương lai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2271,
+    "ru": "未卜先知",
+    "phonetic": "wèi bǔ xiān zhī",
+    "meaning": "chưa bói đã biết trước, đoán việc như thần",
+    "note": "Đoán trước sự việc cực kỳ chính xác, như có khả năng tiên tri.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2272,
+    "ru": "集思广益",
+    "phonetic": "jí sī guǎng yì",
+    "meaning": "góp ý kiến rộng rãi để có lợi ích lớn hơn",
+    "note": "Huy động trí tuệ tập thể khi ra quyết định, hay dùng trong họp hành.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2273,
+    "ru": "举足轻重",
+    "phonetic": "jǔ zú qīng zhòng",
+    "meaning": "một bước chân cũng ảnh hưởng lớn, vai trò then chốt",
+    "note": "Nói về người/việc có vị trí quyết định, quan trọng bậc nhất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2274,
+    "ru": "明哲保身",
+    "phonetic": "míng zhé bǎo shēn",
+    "meaning": "khôn ngoan giữ mình an toàn, tránh va chạm",
+    "note": "Đôi khi mang nghĩa hơi tiêu cực, chỉ sự thờ ơ, né tránh trách nhiệm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2275,
+    "ru": "息事宁人",
+    "phonetic": "xī shì níng rén",
+    "meaning": "dàn xếp cho êm chuyện, nhường nhịn để tránh mâu thuẫn",
+    "note": "Thỏa hiệp, nhường nhịn để tránh mâu thuẫn lớn thêm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2276,
+    "ru": "大同小异",
+    "phonetic": "dà tóng xiǎo yì",
+    "meaning": "về cơ bản giống nhau, chỉ khác chi tiết nhỏ",
+    "note": "Dùng khi so sánh hai sự vật, sự việc gần giống nhau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2277,
+    "ru": "一分为二",
+    "phonetic": "yī fēn wéi èr",
+    "meaning": "nhìn nhận cả hai mặt của một vấn đề",
+    "note": "Đánh giá sự việc khách quan, không phiến diện, dùng trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2278,
+    "ru": "层出不穷",
+    "phonetic": "céng chū bù qióng",
+    "meaning": "liên tục xuất hiện không ngừng dứt",
+    "note": "Hiện tượng, sự việc nào đó cứ liên tiếp xảy ra không dứt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2279,
+    "ru": "屡见不鲜",
+    "phonetic": "lǚ jiàn bù xiān",
+    "meaning": "gặp nhiều nên không còn lạ nữa",
+    "note": "Hiện tượng phổ biến, gặp hoài không còn mới mẻ, thường dùng trong báo chí.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2280,
+    "ru": "与日俱增",
+    "phonetic": "yǔ rì jù zēng",
+    "meaning": "tăng lên theo từng ngày",
+    "note": "Mức độ, số lượng tăng lên không ngừng theo thời gian.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2281,
+    "ru": "息息相关",
+    "phonetic": "xī xī xiāng guān",
+    "meaning": "liên quan mật thiết, gắn bó chặt chẽ",
+    "note": "Hai sự việc gắn bó chặt chẽ, ảnh hưởng qua lại lẫn nhau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2282,
+    "ru": "相辅相成",
+    "phonetic": "xiāng fǔ xiāng chéng",
+    "meaning": "bổ trợ cho nhau, cùng nhau hoàn thiện",
+    "note": "Hai yếu tố hỗ trợ, làm hoàn thiện lẫn nhau.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2283,
+    "ru": "大势所趋",
+    "phonetic": "dà shì suǒ qū",
+    "meaning": "xu thế tất yếu, không thể tránh khỏi",
+    "note": "Điều không thể tránh khỏi theo chiều hướng phát triển chung của xã hội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2284,
+    "ru": "势在必行",
+    "phonetic": "shì zài bì xíng",
+    "meaning": "buộc phải làm, không thể trì hoãn",
+    "note": "Việc cấp thiết, không còn cách nào khác ngoài thực hiện ngay.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2285,
+    "ru": "一如既往",
+    "phonetic": "yī rú jì wǎng",
+    "meaning": "vẫn như trước nay, không thay đổi",
+    "note": "Giữ nguyên thái độ, cách làm như từ trước đến giờ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2286,
+    "ru": "因势利导",
+    "phonetic": "yīn shì lì dǎo",
+    "meaning": "thuận theo xu thế mà dẫn dắt sự việc",
+    "note": "Biết tận dụng tình thế có lợi để dẫn dắt sự việc theo hướng tốt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2287,
+    "ru": "水到渠成",
+    "phonetic": "shuǐ dào qú chéng",
+    "meaning": "nước chảy tới đâu mương thành tới đó, việc tự thành",
+    "note": "Điều kiện chín muồi thì việc tự nhiên sẽ thành công.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2288,
+    "ru": "学以致用",
+    "phonetic": "xué yǐ zhì yòng",
+    "meaning": "học để áp dụng vào thực tế",
+    "note": "Học phải đi đôi với hành, ứng dụng kiến thức vào cuộc sống.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2289,
+    "ru": "温故知新",
+    "phonetic": "wēn gù zhī xīn",
+    "meaning": "ôn cũ để biết thêm điều mới",
+    "note": "Trích từ Luận Ngữ, khuyên ôn lại kiến thức cũ để hiểu sâu hơn cái mới.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2290,
+    "ru": "循循善诱",
+    "phonetic": "xún xún shàn yòu",
+    "meaning": "dẫn dắt khéo léo, kiên nhẫn từng bước",
+    "note": "Khen người thầy biết hướng dẫn học trò một cách kiên nhẫn, đúng cách.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2291,
+    "ru": "因材施教",
+    "phonetic": "yīn cái shī jiào",
+    "meaning": "dạy học theo năng lực từng người",
+    "note": "Phương pháp giáo dục phù hợp với đặc điểm riêng của từng học sinh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2292,
+    "ru": "孜孜不倦",
+    "phonetic": "zī zī bù juàn",
+    "meaning": "chăm chỉ, miệt mài không biết mệt",
+    "note": "Miệt mài học tập hoặc làm việc không ngừng nghỉ, mang tính khen ngợi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2293,
+    "ru": "废寝忘食",
+    "phonetic": "fèi qǐn wàng shí",
+    "meaning": "quên ăn quên ngủ vì mải học/làm",
+    "note": "Chuyên tâm đến mức quên cả ăn ngủ, thường khen sự chăm chỉ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2294,
+    "ru": "悬梁刺股",
+    "phonetic": "xuán liáng cì gǔ",
+    "meaning": "treo tóc lên xà, lấy dùi đâm đùi để tỉnh ngủ mà học",
+    "note": "Điển tích nổi tiếng về tinh thần khổ học, học cực kỳ chăm chỉ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2295,
+    "ru": "囊萤映雪",
+    "phonetic": "náng yíng yìng xuě",
+    "meaning": "bắt đom đóm, soi ánh tuyết mà đọc sách",
+    "note": "Điển tích ca ngợi tinh thần hiếu học vượt khó khăn nghèo túng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2296,
+    "ru": "凿壁偷光",
+    "phonetic": "záo bì tōu guāng",
+    "meaning": "đục tường trộm ánh sáng để đọc sách",
+    "note": "Điển tích về học trò nghèo hiếu học, dùng khen tinh thần ham học.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2297,
+    "ru": "十年寒窗",
+    "phonetic": "shí nián hán chuāng",
+    "meaning": "mười năm đèn sách vất vả",
+    "note": "Chỉ quá trình học hành gian khổ, kéo dài nhiều năm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2298,
+    "ru": "熟能生巧",
+    "phonetic": "shú néng shēng qiǎo",
+    "meaning": "quen tay hay việc, luyện nhiều thành thạo",
+    "note": "Luyện tập nhiều sẽ trở nên thành thạo, khéo léo hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2299,
+    "ru": "学无止境",
+    "phonetic": "xué wú zhǐ jìng",
+    "meaning": "việc học không có điểm dừng",
+    "note": "Nhắc nhở rằng học tập là hành trình vô tận, luôn phải học hỏi thêm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2300,
+    "ru": "教学相长",
+    "phonetic": "jiào xué xiāng zhǎng",
+    "meaning": "dạy và học cùng nhau tiến bộ",
+    "note": "Thầy và trò cùng nhau tiến bộ trong quá trình dạy và học.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2301,
+    "ru": "融会贯通",
+    "phonetic": "róng huì guàn tōng",
+    "meaning": "hiểu thấu đáo và vận dụng linh hoạt",
+    "note": "Nắm vững kiến thức đến mức có thể liên hệ, vận dụng tổng hợp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2302,
+    "ru": "举一反三",
+    "phonetic": "jǔ yī fǎn sān",
+    "meaning": "biết một suy ra ba, học một hiểu nhiều",
+    "note": "Từ một ví dụ mà suy luận ra nhiều trường hợp khác, khen sự thông minh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2303,
+    "ru": "博览群书",
+    "phonetic": "bó lǎn qún shū",
+    "meaning": "đọc rộng nhiều sách, kiến thức uyên bác",
+    "note": "Khen ai đó có kiến thức uyên bác nhờ đọc nhiều sách.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2304,
+    "ru": "才高八斗",
+    "phonetic": "cái gāo bā dǒu",
+    "meaning": "tài năng, học vấn cao vượt trội",
+    "note": "Khen ai đó cực kỳ tài giỏi, học rộng, thường dùng trong văn viết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2305,
+    "ru": "见多识广",
+    "phonetic": "jiàn duō shí guǎng",
+    "meaning": "từng trải, hiểu biết rộng",
+    "note": "Có nhiều kinh nghiệm và kiến thức nhờ đi nhiều, trải nghiệm nhiều.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2306,
+    "ru": "学富五车",
+    "phonetic": "xué fù wǔ chē",
+    "meaning": "học vấn uyên thâm, sách chất đầy năm xe",
+    "note": "Khen người học rộng, uyên bác, dùng trong văn viết trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2307,
+    "ru": "名落孙山",
+    "phonetic": "míng luò sūn shān",
+    "meaning": "thi trượt, không đỗ đạt",
+    "note": "Chỉ việc thi rớt, không đạt kết quả như mong muốn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2308,
+    "ru": "金榜题名",
+    "phonetic": "jīn bǎng tí míng",
+    "meaning": "thi đỗ, đề tên trên bảng vàng",
+    "note": "Đạt thành tích cao trong kỳ thi, thi đỗ vẻ vang.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2309,
+    "ru": "名列前茅",
+    "phonetic": "míng liè qián máo",
+    "meaning": "đứng trong tốp đầu, xếp hạng cao",
+    "note": "Thuộc nhóm giỏi nhất, xếp hạng cao trong một cuộc thi hay xếp loại.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2310,
+    "ru": "临阵磨枪",
+    "phonetic": "lín zhèn mó qiāng",
+    "meaning": "gần trận mới mài giáo, nước tới chân mới nhảy",
+    "note": "Chuẩn bị cập rập vào phút chót, không chuẩn bị trước.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2311,
+    "ru": "死记硬背",
+    "phonetic": "sǐ jì yìng bèi",
+    "meaning": "học vẹt, học thuộc lòng máy móc",
+    "note": "Học thuộc mà không hiểu bản chất, thường mang ý phê phán.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2312,
+    "ru": "一窍不通",
+    "phonetic": "yī qiào bù tōng",
+    "meaning": "hoàn toàn không hiểu biết gì",
+    "note": "Chỉ việc không biết gì về một lĩnh vực nào đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2313,
+    "ru": "一知半解",
+    "phonetic": "yī zhī bàn jiě",
+    "meaning": "hiểu biết hời hợt, biết nửa vời",
+    "note": "Hiểu biết nông cạn, không sâu sắc về một vấn đề.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2314,
+    "ru": "后来居上",
+    "phonetic": "hòu lái jū shàng",
+    "meaning": "người đến sau lại vượt lên trước",
+    "note": "Khen người học/làm sau nhưng tiến bộ vượt bậc, vượt qua người đi trước.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2315,
+    "ru": "争分夺秒",
+    "phonetic": "zhēng fēn duó miǎo",
+    "meaning": "tranh thủ từng phút từng giây",
+    "note": "Làm việc khẩn trương, tận dụng tối đa thời gian có được.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2316,
+    "ru": "分秒必争",
+    "phonetic": "fēn miǎo bì zhēng",
+    "meaning": "từng giây từng phút đều phải tranh thủ",
+    "note": "Nhấn mạnh sự gấp rút, không được lãng phí một giây nào.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2317,
+    "ru": "迫在眉睫",
+    "phonetic": "pò zài méi jié",
+    "meaning": "cấp bách, sát ngay trước mắt",
+    "note": "Việc cực kỳ khẩn cấp, không thể chậm trễ thêm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2318,
+    "ru": "刻不容缓",
+    "phonetic": "kè bù róng huǎn",
+    "meaning": "không thể chậm trễ dù một khắc",
+    "note": "Việc phải giải quyết ngay lập tức, không được trì hoãn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2319,
+    "ru": "姗姗来迟",
+    "phonetic": "shān shān lái chí",
+    "meaning": "đến muộn một cách thong thả",
+    "note": "Đến trễ so với hẹn, thường mang ý mỉa mai nhẹ nhàng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2320,
+    "ru": "一拖再拖",
+    "phonetic": "yī tuō zài tuō",
+    "meaning": "trì hoãn hết lần này đến lần khác",
+    "note": "Liên tục trì hoãn, chần chừ không dứt khoát, mang ý phê phán.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2321,
+    "ru": "时不我待",
+    "phonetic": "shí bù wǒ dài",
+    "meaning": "thời gian không chờ đợi ai cả",
+    "note": "Nhắc nhở phải tranh thủ thời gian, đừng chần chừ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2322,
+    "ru": "光阴似箭",
+    "phonetic": "guāng yīn sì jiàn",
+    "meaning": "thời gian trôi nhanh như tên bắn",
+    "note": "Than thở về việc thời gian trôi qua rất nhanh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2323,
+    "ru": "日新月异",
+    "phonetic": "rì xīn yuè yì",
+    "meaning": "ngày một đổi mới, phát triển nhanh chóng",
+    "note": "Diễn tả sự thay đổi, phát triển nhanh chóng từng ngày.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2324,
+    "ru": "转眼间",
+    "phonetic": "zhuǎn yǎn jiān",
+    "meaning": "trong nháy mắt, chớp mắt đã qua",
+    "note": "Khoảng thời gian rất ngắn, dùng phổ biến trong khẩu ngữ và văn viết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2325,
+    "ru": "一日千里",
+    "phonetic": "yī rì qiān lǐ",
+    "meaning": "một ngày đi ngàn dặm, tiến bộ cực nhanh",
+    "note": "Tiến bộ hoặc phát triển với tốc độ cực kỳ nhanh chóng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2326,
+    "ru": "千钧一发",
+    "phonetic": "qiān jūn yī fà",
+    "meaning": "ngàn cân treo sợi tóc, cực kỳ nguy cấp",
+    "note": "Tình huống nguy cấp, mong manh, chỉ trong tích tắc quyết định.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2327,
+    "ru": "迫不及待",
+    "phonetic": "pò bù jí dài",
+    "meaning": "nóng lòng không thể chờ thêm được nữa",
+    "note": "Diễn tả sự sốt ruột, muốn làm ngay lập tức.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2328,
+    "ru": "及时雨",
+    "phonetic": "jí shí yǔ",
+    "meaning": "mưa đúng lúc, giúp đỡ kịp thời",
+    "note": "Sự giúp đỡ đến đúng lúc cần thiết nhất, như cơn mưa giải hạn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2329,
+    "ru": "马后炮",
+    "phonetic": "mǎ hòu pào",
+    "meaning": "pháo đi sau ngựa, lời nói muộn màng",
+    "note": "Lời khuyên/nhận xét đưa ra sau khi việc đã xong, không còn tác dụng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2330,
+    "ru": "慢工出细活",
+    "phonetic": "màn gōng chū xì huó",
+    "meaning": "làm chậm mới ra sản phẩm tinh xảo",
+    "note": "Kiên nhẫn làm kỹ lưỡng mới cho ra kết quả tốt, không nên vội vàng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2331,
+    "ru": "欲速则不达",
+    "phonetic": "yù sù zé bù dá",
+    "meaning": "muốn nhanh thì lại không đạt được, dục tốc bất đạt",
+    "note": "Quá vội vàng sẽ làm hỏng việc, cần kiên nhẫn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2332,
+    "ru": "一步一个脚印",
+    "phonetic": "yī bù yī gè jiǎo yìn",
+    "meaning": "mỗi bước đi để lại một dấu chân, làm chắc chắn",
+    "note": "Làm việc chắc chắn, từng bước vững vàng, không nóng vội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2333,
+    "ru": "时过境迁",
+    "phonetic": "shí guò jìng qiān",
+    "meaning": "thời gian trôi, hoàn cảnh đã đổi thay",
+    "note": "Mọi thứ đã khác xưa do thời gian và hoàn cảnh thay đổi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2334,
+    "ru": "白驹过隙",
+    "phonetic": "bái jū guò xì",
+    "meaning": "bóng câu qua cửa sổ, thời gian trôi rất nhanh",
+    "note": "Diễn tả thời gian trôi qua rất nhanh, chớp mắt đã hết, dùng văn viết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2335,
+    "ru": "岁月如梭",
+    "phonetic": "suì yuè rú suō",
+    "meaning": "năm tháng trôi nhanh như thoi đưa",
+    "note": "Thời gian trôi nhanh không ngừng, thường dùng khi hoài niệm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2336,
+    "ru": "昙花一现",
+    "phonetic": "tán huā yī xiàn",
+    "meaning": "hoa quỳnh chỉ nở trong chốc lát, ngắn ngủi",
+    "note": "Sự việc hoặc thành công chỉ tồn tại ngắn ngủi rồi biến mất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2337,
+    "ru": "千载难逢",
+    "phonetic": "qiān zǎi nán féng",
+    "meaning": "ngàn năm khó gặp, cơ hội cực hiếm",
+    "note": "Cơ hội cực kỳ hiếm có, khó có lần thứ hai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2338,
+    "ru": "万事俱备只欠东风",
+    "phonetic": "wàn shì jù bèi zhǐ qiàn dōng fēng",
+    "meaning": "mọi thứ đã sẵn sàng, chỉ còn thiếu yếu tố cuối cùng",
+    "note": "Mọi điều kiện đã chuẩn bị xong, chỉ còn thiếu yếu tố quyết định.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2339,
+    "ru": "光阴荏苒",
+    "phonetic": "guāng yīn rěn rǎn",
+    "meaning": "thời gian lặng lẽ trôi qua",
+    "note": "Thời gian trôi qua một cách êm đềm, không hay biết, dùng văn viết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2340,
+    "ru": "来日方长",
+    "phonetic": "lái rì fāng cháng",
+    "meaning": "ngày sau còn dài, còn nhiều thời gian phía trước",
+    "note": "Còn nhiều thời gian, cơ hội ở phía trước, không cần vội vàng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2341,
+    "ru": "九牛一毛",
+    "phonetic": "jiǔ niú yī máo",
+    "meaning": "một sợi lông trong chín con trâu, phần rất nhỏ",
+    "note": "Phần rất nhỏ, không đáng kể so với tổng thể to lớn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2342,
+    "ru": "微不足道",
+    "phonetic": "wēi bù zú dào",
+    "meaning": "nhỏ bé, không đáng nhắc tới",
+    "note": "Quá nhỏ, không quan trọng, không đáng để ý.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2343,
+    "ru": "屈指可数",
+    "phonetic": "qū zhǐ kě shǔ",
+    "meaning": "đếm được trên đầu ngón tay, rất ít",
+    "note": "Số lượng rất ít, có thể đếm được dễ dàng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2344,
+    "ru": "不计其数",
+    "phonetic": "bù jì qí shù",
+    "meaning": "nhiều đến mức không đếm xuể",
+    "note": "Số lượng cực lớn, không thể đếm hết được.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2345,
+    "ru": "多如牛毛",
+    "phonetic": "duō rú niú máo",
+    "meaning": "nhiều như lông trâu, vô số kể",
+    "note": "Số lượng rất nhiều, vô số, dùng để nhấn mạnh sự phong phú.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2346,
+    "ru": "寥寥无几",
+    "phonetic": "liáo liáo wú jǐ",
+    "meaning": "chỉ còn lác đác vài cái, rất ít",
+    "note": "Số lượng rất ít, thưa thớt, gần như không còn gì.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2347,
+    "ru": "数不胜数",
+    "phonetic": "shǔ bù shèng shǔ",
+    "meaning": "nhiều đến mức đếm không xuể",
+    "note": "Quá nhiều để có thể đếm hết được, tương tự 不计其数.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2348,
+    "ru": "恰到好处",
+    "phonetic": "qià dào hǎo chù",
+    "meaning": "vừa đúng mức, vừa khéo léo",
+    "note": "Mức độ hoặc thời điểm hoàn hảo, không thừa không thiếu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2349,
+    "ru": "适可而止",
+    "phonetic": "shì kě ér zhǐ",
+    "meaning": "vừa đủ thì dừng, biết điểm dừng",
+    "note": "Biết dừng lại đúng lúc, không làm quá mức cần thiết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2350,
+    "ru": "过犹不及",
+    "phonetic": "guò yóu bù jí",
+    "meaning": "thái quá cũng như bất cập",
+    "note": "Làm quá mức cũng tệ hại như làm chưa đủ, cần cân bằng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2351,
+    "ru": "登峰造极",
+    "phonetic": "dēng fēng zào jí",
+    "meaning": "lên đến đỉnh cao tột cùng",
+    "note": "Đạt đến trình độ cao nhất, xuất sắc tột bậc trong lĩnh vực nào đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2352,
+    "ru": "炉火纯青",
+    "phonetic": "lú huǒ chún qīng",
+    "meaning": "lửa lò đã tới độ xanh biếc, kỹ năng điêu luyện",
+    "note": "Kỹ năng đã đạt đến độ điêu luyện, thành thục cao.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2353,
+    "ru": "无以复加",
+    "phonetic": "wú yǐ fù jiā",
+    "meaning": "không thể thêm được nữa, đến mức tối đa",
+    "note": "Đã đạt đến mức tối đa, không thể tăng thêm được nữa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2354,
+    "ru": "一无所有",
+    "phonetic": "yī wú suǒ yǒu",
+    "meaning": "chẳng có gì cả, trắng tay",
+    "note": "Hoàn toàn không có gì trong tay, trắng tay.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2355,
+    "ru": "应有尽有",
+    "phonetic": "yīng yǒu jìn yǒu",
+    "meaning": "có đầy đủ mọi thứ cần có",
+    "note": "Đầy đủ mọi thứ, không thiếu gì cả.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2356,
+    "ru": "一应俱全",
+    "phonetic": "yī yìng jù quán",
+    "meaning": "mọi thứ đều đầy đủ sẵn có",
+    "note": "Tương tự 应有尽有, mọi thứ cần thiết đều có sẵn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2357,
+    "ru": "恰如其分",
+    "phonetic": "qià rú qí fèn",
+    "meaning": "vừa đúng mức độ, thích hợp",
+    "note": "Lời nói hoặc hành động vừa vặn, phù hợp, không quá đà.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2358,
+    "ru": "举世无双",
+    "phonetic": "jǔ shì wú shuāng",
+    "meaning": "cả thế giới không có cái thứ hai",
+    "note": "Độc nhất vô nhị trên toàn thế giới, không gì sánh bằng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2359,
+    "ru": "独一无二",
+    "phonetic": "dú yī wú èr",
+    "meaning": "chỉ có một, không có hai",
+    "note": "Duy nhất, không gì giống hoặc sánh được.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2360,
+    "ru": "无独有偶",
+    "phonetic": "wú dú yǒu ǒu",
+    "meaning": "chẳng phải chỉ có một, lại có trường hợp tương tự",
+    "note": "Trùng hợp có một trường hợp tương tự khác xảy ra.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2361,
+    "ru": "层层叠叠",
+    "phonetic": "céng céng dié dié",
+    "meaning": "lớp lớp chồng chất lên nhau",
+    "note": "Xếp chồng nhiều lớp lên nhau, dùng mô tả hình ảnh hoặc số lượng nhiều.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2362,
+    "ru": "铺天盖地",
+    "phonetic": "pū tiān gài dì",
+    "meaning": "trải khắp trời, che khắp đất",
+    "note": "Bao trùm khắp nơi, tràn ngập, mang tính áp đảo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2363,
+    "ru": "一望无际",
+    "phonetic": "yī wàng wú jì",
+    "meaning": "rộng lớn bao la, nhìn không thấy bờ",
+    "note": "Diễn tả không gian rộng lớn, trải dài đến tận chân trời.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2364,
+    "ru": "九霄云外",
+    "phonetic": "jiǔ xiāo yún wài",
+    "meaning": "ngoài chín tầng mây, rất xa xôi hoặc quên hẳn",
+    "note": "Rất xa xôi, hoặc dùng khi nói quên hẳn điều gì đó (ném ra ngoài chín tầng mây).",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2365,
+    "ru": "微乎其微",
+    "phonetic": "wēi hū qí wēi",
+    "meaning": "vô cùng nhỏ bé, gần như không đáng kể",
+    "note": "Cực kỳ ít ỏi, hầu như không đáng kể.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2366,
+    "ru": "千篇一律",
+    "phonetic": "qiān piān yī lǜ",
+    "meaning": "ngàn bài như một, rập khuôn đơn điệu",
+    "note": "Rập khuôn, đơn điệu, không có gì mới mẻ, khác biệt.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2367,
+    "ru": "二百五",
+    "phonetic": "èr bǎi wǔ",
+    "meaning": "kẻ ngốc nghếch, người hay làm việc dại dột",
+    "note": "Tiếng lóng khẩu ngữ phổ biến khắp Trung Quốc, mang tính trêu chọc/mắng nhẹ, tránh dùng với người lạ hoặc cấp trên.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2368,
+    "ru": "得瑟",
+    "phonetic": "dè se",
+    "meaning": "ra vẻ, khoe khoang, làm màu ta đây giỏi",
+    "note": "Tiếng lóng vùng Đông Bắc, phổ biến toàn quốc qua phim hài, mang sắc thái chê trách nhẹ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2369,
+    "ru": "磨叽",
+    "phonetic": "mó ji",
+    "meaning": "lề mề, chậm chạp, dây dưa không dứt khoát",
+    "note": "Khẩu ngữ vùng Đông Bắc, dùng thân mật, hơi trách móc khi ai đó làm việc quá chậm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2370,
+    "ru": "埋汰",
+    "phonetic": "mái tai",
+    "meaning": "bẩn thỉu, hoặc chê bai/mỉa mai ai đó",
+    "note": "Tiếng lóng Đông Bắc, tùy ngữ cảnh có thể thân mật hoặc xúc phạm nhẹ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2371,
+    "ru": "唠嗑",
+    "phonetic": "lào kē",
+    "meaning": "tám chuyện, buôn chuyện, tán gẫu thoải mái",
+    "note": "Khẩu ngữ vùng Đông Bắc rất thân mật, nay phổ biến toàn quốc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2372,
+    "ru": "犯浑",
+    "phonetic": "fàn hún",
+    "meaning": "làm bậy, hành động thiếu suy nghĩ nhất thời",
+    "note": "Khẩu ngữ thân mật, dùng để trách móc nhẹ khi ai đó hành xử mất lý trí.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2373,
+    "ru": "抬杠",
+    "phonetic": "tái gàng",
+    "meaning": "cãi cùn, cãi lấy được chỉ để hơn thua",
+    "note": "Khẩu ngữ phổ biến toàn quốc, dùng phê bình người thích tranh cãi vô nghĩa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2374,
+    "ru": "打小算盘",
+    "phonetic": "dǎ xiǎo suàn pán",
+    "meaning": "toan tính lợi ích riêng một cách ích kỷ, vụn vặt",
+    "note": "Mang nghĩa chê trách sự tính toán nhỏ nhen, chỉ nghĩ đến lợi ích bản thân.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2375,
+    "ru": "装蒜",
+    "phonetic": "zhuāng suàn",
+    "meaning": "giả bộ không biết, giả ngây thơ",
+    "note": "Khẩu ngữ Bắc Kinh phổ biến, hơi mỉa mai khi vạch trần ai đó giả vờ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2376,
+    "ru": "二皮脸",
+    "phonetic": "èr pí liǎn",
+    "meaning": "mặt dày hai lớp da, trơ trẽn không biết xấu hổ",
+    "note": "Tiếng lóng Bắc Kinh, khá thô, chỉ dùng thân mật hoặc mắng đùa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2377,
+    "ru": "打哈哈",
+    "phonetic": "dǎ hā ha",
+    "meaning": "cười xòa cho qua chuyện, nói đùa né tránh",
+    "note": "Khẩu ngữ phổ biến, sắc thái trung tính, dùng khi ai đó tránh né vấn đề nghiêm túc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2378,
+    "ru": "老油条",
+    "phonetic": "lǎo yóu tiáo",
+    "meaning": "người từng trải, khôn lỏi, lọc lõi trong đối nhân xử thế",
+    "note": "Dùng để nói về người có kinh nghiệm nhưng ranh mãnh, mang sắc thái hơi tiêu cực.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2379,
+    "ru": "吃瓜群众",
+    "phonetic": "chī guā qún zhòng",
+    "meaning": "người ngoài cuộc chỉ đứng xem hóng chuyện thị phi",
+    "note": "Tiếng lóng mạng rất phổ biến, mang tính hài hước tự trào.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2380,
+    "ru": "面瓜",
+    "phonetic": "miàn guā",
+    "meaning": "người nhu nhược, dễ bắt nạt, không có chủ kiến",
+    "note": "Tiếng lóng vùng Đông Bắc, hơi chê bai người thiếu cá tính.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2381,
+    "ru": "局气",
+    "phonetic": "jú qi",
+    "meaning": "người sống có nghĩa khí, đàng hoàng, đáng tin cậy",
+    "note": "Tiếng lóng Bắc Kinh, mang nghĩa khen ngợi tích cực về tính cách.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2382,
+    "ru": "各色",
+    "phonetic": "gè sè",
+    "meaning": "kỳ quặc, khác người, tính cách khó chiều",
+    "note": "Tiếng lóng vùng Đông Bắc, thường mang ý chê nhẹ khi nói ai đó lập dị.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2383,
+    "ru": "不着调",
+    "phonetic": "bù zháo diào",
+    "meaning": "lệch tông, hành động/lời nói không nghiêm túc",
+    "note": "Khẩu ngữ phổ biến, sắc thái phê bình người thiếu chuẩn mực.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2384,
+    "ru": "打退堂鼓",
+    "phonetic": "dǎ tuì táng gǔ",
+    "meaning": "bỏ cuộc giữa chừng, rút lui vì sợ khó",
+    "note": "Khẩu ngữ phổ biến toàn quốc, dùng khi ai đó nản chí bỏ dở việc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2385,
+    "ru": "半吊子",
+    "phonetic": "bàn diào zi",
+    "meaning": "người biết chút ít nhưng không tinh thông, làm việc hời hợt",
+    "note": "Mang nghĩa chê trách khả năng non kém, thiếu chuyên sâu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2386,
+    "ru": "二流子",
+    "phonetic": "èr liú zi",
+    "meaning": "kẻ lêu lổng, lười biếng, không nghề nghiệp đứng đắn",
+    "note": "Tiếng lóng khá nặng, mang tính miệt thị, cần cẩn trọng khi dùng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2387,
+    "ru": "缺心眼",
+    "phonetic": "quē xīn yǎn",
+    "meaning": "người ngờ nghệch, thiếu suy nghĩ thấu đáo",
+    "note": "Khẩu ngữ mang tính trêu chọc hoặc chê nhẹ về sự khờ khạo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2388,
+    "ru": "撒丫子",
+    "phonetic": "sā yā zi",
+    "meaning": "chạy thật nhanh, ba chân bốn cẳng",
+    "note": "Tiếng lóng vùng Bắc Kinh, hài hước, dùng thân mật.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2389,
+    "ru": "一根筋",
+    "phonetic": "yī gēn jīn",
+    "meaning": "người cứng đầu, chỉ nghĩ theo một hướng duy nhất",
+    "note": "Khẩu ngữ phổ biến toàn quốc, có thể khen (kiên định) hoặc chê (cứng nhắc) tùy ngữ cảnh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2390,
+    "ru": "二愣子",
+    "phonetic": "èr lèng zi",
+    "meaning": "gã ngơ ngơ, người liều lĩnh hành động bốc đồng",
+    "note": "Tiếng lóng vùng Đông Bắc, hơi thô, dùng thân mật giữa bạn bè.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2391,
+    "ru": "冒失鬼",
+    "phonetic": "mào shi guǐ",
+    "meaning": "người hấp tấp, vội vàng, hay gây chuyện vì bất cẩn",
+    "note": "Khẩu ngữ thân mật, thường dùng để trêu đùa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2392,
+    "ru": "蔫儿坏",
+    "phonetic": "niān r huài",
+    "meaning": "bề ngoài hiền lành nhưng ngấm ngầm chơi xấu",
+    "note": "Tiếng lóng Bắc Kinh, mang sắc thái vừa hài hước vừa cảnh giác.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2393,
+    "ru": "666",
+    "phonetic": "liù liù liù",
+    "meaning": "khen ngợi ai đó cực giỏi, cực đỉnh (biến âm của 溜 - điêu luyện)",
+    "note": "Tiếng lóng mạng cực phổ biến, dùng trong game, livestream, rất thân mật.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2394,
+    "ru": "永远的神",
+    "phonetic": "yǒng yuǎn de shén",
+    "meaning": "vị thần vĩnh cửu, khen ai/cái gì xuất sắc nhất không gì sánh bằng",
+    "note": "Thường viết tắt \"yyds\" trên mạng xã hội, dùng cho thần tượng, sản phẩm, khoảnh khắc ấn tượng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2395,
+    "ru": "嘴替",
+    "phonetic": "zuǐ tì",
+    "meaning": "người nói hộ đúng điều mình nghĩ nhưng không tiện nói ra",
+    "note": "Tiếng lóng mạng hiện đại, dùng khi thấy ai đó phát ngôn đúng ý mình.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2396,
+    "ru": "栓Q",
+    "phonetic": "shuān Q",
+    "meaning": "cách nói \"cảm ơn\" mỉa mai/hài hước khi thực ra đang bực mình",
+    "note": "Từ giọng địa phương chế lại theo âm \"thank you\", viral trên mạng xã hội, dùng đùa vui.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2397,
+    "ru": "泰裤辣",
+    "phonetic": "tài kù là",
+    "meaning": "quá ngầu, cực kỳ ấn tượng (biến âm hài của 太酷啦)",
+    "note": "Tiếng lóng mạng chế âm từ giọng địa phương, dùng khen ngợi hài hước.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2398,
+    "ru": "city不city",
+    "phonetic": "city bù city",
+    "meaning": "hỏi đùa xem việc gì đó có sành điệu, hiện đại kiểu thành thị không",
+    "note": "Trend mạng xã hội 2024 do người nước ngoài dùng tiếng Trung sáng tạo, lan truyền mạnh trong giới trẻ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2399,
+    "ru": "松弛感",
+    "phonetic": "sōng chí gǎn",
+    "meaning": "cảm giác thư thái, sống ung dung không căng thẳng dù gặp chuyện bất ngờ",
+    "note": "Trào lưu mạng nổi lên gần đây, chỉ lối sống/thái độ bình thản trước áp lực.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2400,
+    "ru": "显眼包",
+    "phonetic": "xiǎn yǎn bāo",
+    "meaning": "người có cá tính hài hước, dễ thu hút sự chú ý theo hướng dễ thương",
+    "note": "Tiếng lóng mạng phổ biến, mang nghĩa khen yêu, không phải chê bai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2401,
+    "ru": "班味",
+    "phonetic": "bān wèi",
+    "meaning": "vẻ mệt mỏi, phờ phạc, mất sức sống do đi làm lâu ngày",
+    "note": "Tiếng lóng mạng chỉ trạng thái kiệt sức, xuống sắc của dân công sở.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2402,
+    "ru": "特种兵式旅游",
+    "phonetic": "tè zhǒng bīng shì lǚ yóu",
+    "meaning": "du lịch tốc độ cao, tham nhiều địa điểm trong thời gian ngắn",
+    "note": "Trào lưu du lịch giới trẻ Trung Quốc, thường là sinh viên tranh thủ kỳ nghỉ ngắn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2403,
+    "ru": "情绪价值",
+    "phonetic": "qíng xù jià zhí",
+    "meaning": "khả năng mang lại cảm xúc tích cực, sự an ủi cho người khác",
+    "note": "Thuật ngữ tâm lý phổ biến trên mạng khi nói về mối quan hệ, tình yêu, công việc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2404,
+    "ru": "双向奔赴",
+    "phonetic": "shuāng xiàng bēn fù",
+    "meaning": "hai bên cùng chủ động nỗ lực hướng về nhau",
+    "note": "Cụm từ mạng lãng mạn, mang nghĩa tích cực về sự đồng lòng trong tình yêu, tình bạn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2405,
+    "ru": "电子榨菜",
+    "phonetic": "diàn zǐ zhà cài",
+    "meaning": "video/nội dung giải trí nhẹ xem trong lúc ăn cơm cho đỡ nhạt miệng",
+    "note": "Tiếng lóng mạng hài hước, ví nội dung giải trí như món ăn kèm bữa cơm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2406,
+    "ru": "挖呀挖",
+    "phonetic": "wā ya wā",
+    "meaning": "chỉ trò đùa/trend gây sốt bất ngờ trên mạng",
+    "note": "Xuất phát từ video viral của một cô giáo mầm non, dùng đùa vui khi nhắc trào lưu mạng nổi đình đám.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2407,
+    "ru": "退退退",
+    "phonetic": "tuì tuì tuì",
+    "meaning": "cách nói đùa để xua đuổi vận xui, điều không may",
+    "note": "Xuất phát từ video viral một phụ nữ đuổi trộm, dùng hài hước khi muốn \"đuổi\" điều xui xẻo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2408,
+    "ru": "一整个爱住",
+    "phonetic": "yī zhěng gè ài zhù",
+    "meaning": "yêu thích, thích thú điều gì đó một cách trọn vẹn",
+    "note": "Cách diễn đạt cường điệu, dễ thương của giới trẻ trên mạng xã hội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2409,
+    "ru": "断亲",
+    "phonetic": "duàn qīn",
+    "meaning": "xu hướng giới trẻ hạn chế hoặc ngừng liên lạc với họ hàng xa",
+    "note": "Hiện tượng xã hội được bàn luận nhiều trên mạng, phản ánh lối sống cá nhân hóa của gen Z.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2410,
+    "ru": "脆皮大学生",
+    "phonetic": "cuì pí dà xué shēng",
+    "meaning": "sinh viên dễ ốm đau, chấn thương vặt do sức khỏe yếu",
+    "note": "Tiếng lóng mạng hài hước tự trào của sinh viên về vấn đề sức khỏe kém, ít vận động.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2411,
+    "ru": "数字游民",
+    "phonetic": "shù zì yóu mín",
+    "meaning": "người làm việc từ xa qua internet, không cố định địa điểm sống",
+    "note": "Thuật ngữ hiện đại chỉ lối sống làm việc tự do, phổ biến trong giới trẻ thích di chuyển.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2412,
+    "ru": "恐怖如斯",
+    "phonetic": "kǒng bù rú sī",
+    "meaning": "kinh khủng đến vậy, diễn đạt sự kinh ngạc tột độ",
+    "note": "Cách nói cường điệu trên mạng khi bày tỏ sự bất ngờ, sốc quá mức tưởng tượng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2413,
+    "ru": "你礼貌吗",
+    "phonetic": "nǐ lǐ mào ma",
+    "meaning": "câu hỏi vặn lại khi ai đó cư xử thô lỗ, bất lịch sự",
+    "note": "Câu nói viral dùng để châm biếm hành vi vô duyên, thiếu lịch sự của người khác.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2414,
+    "ru": "蚌埠住了",
+    "phonetic": "bèng bù zhù le",
+    "meaning": "không kìm được cảm xúc nữa (chơi chữ đồng âm với 绷不住了)",
+    "note": "Tiếng lóng mạng chơi chữ theo tên thành phố Bengbu, rất phổ biến gần đây.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2415,
+    "ru": "尊嘟假嘟",
+    "phonetic": "zūn dū jiǎ dū",
+    "meaning": "hỏi \"thật hay giả vậy\" theo kiểu nói nựng dễ thương",
+    "note": "Tiếng lóng mạng phong cách \"baby talk\" của gen Z, biến âm từ 真的假的, dùng đùa vui.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2416,
+    "ru": "淡淡的忧伤",
+    "phonetic": "dàn dàn de yōu shāng",
+    "meaning": "nỗi buồn man mác, hơi buồn nhưng không nghiêm trọng",
+    "note": "Cụm từ mạng mang tính tự trào, châm biếm nhẹ nhàng về cảm xúc buồn nho nhỏ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2417,
+    "ru": "集美",
+    "phonetic": "jí měi",
+    "meaning": "cách gọi thân mật \"các chị em ơi\" (nói lái của 姐妹)",
+    "note": "Tiếng lóng mạng phổ biến trong cộng đồng làm đẹp, mua sắm online, các KOL hay dùng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2418,
+    "ru": "无语子",
+    "phonetic": "wú yǔ zi",
+    "meaning": "hết nói nổi luôn, bất lực không biết nói gì",
+    "note": "Biến thể dễ thương của \"无语\", thêm hậu tố \"子\" cho đáng yêu, phổ biến trong giới trẻ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2419,
+    "ru": "我真的会谢",
+    "phonetic": "wǒ zhēn de huì xiè",
+    "meaning": "câu nói mỉa mai khi bực bội, khó chịu vì chuyện vô lý",
+    "note": "Cách nói mỉa mai kiểu \"cảm ơn\" ngược, cực kỳ phổ biến trên mạng xã hội Trung Quốc gần đây.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2420,
+    "ru": "很雷",
+    "phonetic": "hěn léi",
+    "meaning": "dở tệ, gây thất vọng hoặc khó chịu (như bị sét đánh)",
+    "note": "Tiếng lóng phổ biến ở Đài Loan, nay dùng rộng rãi trên mạng Hoa ngữ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2421,
+    "ru": "母汤",
+    "phonetic": "mǔ tāng",
+    "meaning": "không được đâu, đừng làm vậy",
+    "note": "Tiếng lóng mạng gốc Đài Loan (nói lái của 不可以/毋通), cách nói dễ thương khi khuyên can ai đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2422,
+    "ru": "好棒棒",
+    "phonetic": "hǎo bàng bàng",
+    "meaning": "khen mỉa mai, châm biếm khi thực ra không phục",
+    "note": "Cách nói mỉa mai phổ biến gốc Đài Loan, cẩn thận vì mang tính châm chọc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2423,
+    "ru": "森77",
+    "phonetic": "sēn qī qī",
+    "meaning": "cực kỳ tức giận theo kiểu dễ thương (đồng âm 生气气)",
+    "note": "Tiếng lóng mạng gốc Đài Loan, dùng đùa vui khi bực mình nhẹ nhàng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2424,
+    "ru": "傻眼猫咪",
+    "phonetic": "shǎ yǎn māo mī",
+    "meaning": "sững sờ, không biết phản ứng ra sao",
+    "note": "Tiếng lóng mạng gốc Đài Loan, hài hước, hình ảnh hóa sự sốc bất ngờ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2425,
+    "ru": "芭乐",
+    "phonetic": "bā lè",
+    "meaning": "giả tạo, sến súa, rẻ tiền, thiếu chân thực",
+    "note": "Tiếng lóng Đài Loan (nghĩa gốc là quả ổi), dùng để chê bai phim/nhạc sáo rỗng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2426,
+    "ru": "87分",
+    "phonetic": "bā qī fēn",
+    "meaning": "chê ai đó ngốc đến mức không thể ngốc hơn",
+    "note": "Tiếng lóng mạng gốc Đài Loan (đồng âm mỉa 白痴), mang tính trêu chọc, cẩn thận khi dùng vì có thể xúc phạm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2427,
+    "ru": "生猛",
+    "phonetic": "shēng měng",
+    "meaning": "sống động, đầy sức sống, tươi mới mạnh mẽ",
+    "note": "Gốc tiếng Quảng Đông (ban đầu chỉ hải sản tươi sống), nay phổ biến trong tiếng Phổ thông.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2428,
+    "ru": "拍拖",
+    "phonetic": "pāi tuō",
+    "meaning": "hẹn hò, yêu đương, đang tìm hiểu nhau",
+    "note": "Gốc tiếng Quảng Đông, đã phổ biến rộng rãi trong tiếng Phổ thông hiện đại.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2429,
+    "ru": "大件事",
+    "phonetic": "dà jiàn shì",
+    "meaning": "chuyện lớn rồi, việc nghiêm trọng rắc rối to",
+    "note": "Gốc tiếng Quảng Đông, dùng khi có chuyện bất ngờ nghiêm trọng xảy ra.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2430,
+    "ru": "醒目",
+    "phonetic": "xǐng mù",
+    "meaning": "lanh lợi, tinh mắt, nhanh nhạy thông minh",
+    "note": "Gốc tiếng Quảng Đông, phổ biến trong tiếng Phổ thông với nghĩa khen ai đó nhạy bén.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2431,
+    "ru": "手信",
+    "phonetic": "shǒu xìn",
+    "meaning": "quà lưu niệm mang về tặng sau chuyến đi xa",
+    "note": "Gốc tiếng Quảng Đông/Hồng Kông, nay dùng phổ biến trong tiếng Phổ thông.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2432,
+    "ru": "埋单",
+    "phonetic": "mái dān",
+    "meaning": "tính tiền, thanh toán hóa đơn",
+    "note": "Gốc tiếng Quảng Đông (biến thể của 买单), cách viết phổ biến trong menu nhà hàng khắp Trung Quốc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2433,
+    "ru": "无厘头",
+    "phonetic": "wú lí tóu",
+    "meaning": "phong cách hài hước phi logic, dở khóc dở cười",
+    "note": "Gốc tiếng Quảng Đông, đặc trưng phim Châu Tinh Trì, nay là từ tiêu chuẩn mô tả phong cách hài kiểu Hồng Kông.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2434,
+    "ru": "撞衫",
+    "phonetic": "zhuàng shān",
+    "meaning": "đụng hàng, vô tình mặc trùng trang phục với người khác",
+    "note": "Gốc tiếng Quảng Đông/Hồng Kông, phổ biến rộng rãi trong tiếng Phổ thông hiện đại.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2435,
+    "ru": "潮人",
+    "phonetic": "cháo rén",
+    "meaning": "người sành điệu, ăn mặc/sống theo xu hướng thời thượng",
+    "note": "Gốc tiếng Quảng Đông, phổ biến trong ngôn ngữ thời trang, giới trẻ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2436,
+    "ru": "靓仔",
+    "phonetic": "liàng zǎi",
+    "meaning": "anh chàng đẹp trai, cách gọi thân mật khen ngợi",
+    "note": "Gốc tiếng Quảng Đông, dùng thân mật, phổ biến ở vùng Hoa Nam và cả nước.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2437,
+    "ru": "八卦",
+    "phonetic": "bā guà",
+    "meaning": "buôn chuyện, thích bàn tán tin đồn đời tư người khác",
+    "note": "Gốc tiếng Quảng Đông/Hồng Kông, nay phổ biến khắp Trung Quốc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2438,
+    "ru": "顶你个肺",
+    "phonetic": "dǐng nǐ gè fèi",
+    "meaning": "cách chửi đùa/than trời khi bực mình, kiểu \"trời ơi là trời\"",
+    "note": "Câu cửa miệng gốc tiếng Quảng Đông qua phim ảnh Hồng Kông, khá thô nên chỉ dùng với người thân thiết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2439,
+    "ru": "死鸡撑饭盖",
+    "phonetic": "sǐ jī chēng fàn gài",
+    "meaning": "cố chấp không chịu nhận thua dù đã rõ ràng thất bại",
+    "note": "Tục ngữ gốc tiếng Quảng Đông, hình ảnh hài hước mỉa mai người cố cãi cùn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2440,
+    "ru": "食过夜粥",
+    "phonetic": "shí guò yè zhōu",
+    "meaning": "ý chỉ người có bản lĩnh, tay nghề thực thụ đã khổ luyện",
+    "note": "Thành ngữ gốc tiếng Quảng Đông (điển tích học viên Vịnh Xuân thức khuya luyện võ), dùng khen ai đó có tay nghề thật sự.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2441,
+    "ru": "好心机",
+    "phonetic": "hǎo xīn jī",
+    "meaning": "khen ngợi ai đó bỏ nhiều tâm huyết, công sức tỉ mỉ",
+    "note": "Gốc tiếng Quảng Đông, phổ biến trên mạng xã hội khi khen đồ handmade, trang điểm...",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2442,
+    "ru": "相睇",
+    "phonetic": "xiāng tǐ",
+    "meaning": "xem mắt, buổi gặp mặt mai mối tìm hiểu bạn đời",
+    "note": "Gốc tiếng Quảng Đông/Hồng Kông, tương đương 相亲, vẫn dùng phổ biến trong cộng đồng nói tiếng Quảng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2443,
+    "ru": "论尽",
+    "phonetic": "lùn jìn",
+    "meaning": "vụng về, lóng ngóng, hay làm rơi vỡ đồ",
+    "note": "Gốc tiếng Quảng Đông, ít dùng ở phía Bắc nhưng phổ biến ở Hoa Nam, Hồng Kông.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2444,
+    "ru": "扮嘢",
+    "phonetic": "bàn yě",
+    "meaning": "làm bộ làm tịch, cố tỏ ra hơn người",
+    "note": "Gốc tiếng Quảng Đông, mang nghĩa chê trách người thích phô trương khoe khoang.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2445,
+    "ru": "大牌档",
+    "phonetic": "dà pái dàng",
+    "meaning": "quán ăn vỉa hè bình dân ngoài trời",
+    "note": "Gốc tiếng Quảng Đông/Hồng Kông, từ quen thuộc chỉ văn hóa ẩm thực đường phố.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2446,
+    "ru": "万事如意",
+    "phonetic": "wàn shì rú yì",
+    "meaning": "chúc mọi việc đều thuận lợi, như mong muốn",
+    "note": "Lời chúc phổ biến dịp Tết, sinh nhật, lễ tết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2447,
+    "ru": "岁岁平安",
+    "phonetic": "suì suì píng ān",
+    "meaning": "chúc bình an mãi mãi qua từng năm",
+    "note": "Câu nói dân gian dùng khi lỡ làm vỡ đồ (đồng âm với 碎碎 - vỡ vụn) để hóa giải xui xẻo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2448,
+    "ru": "步步高升",
+    "phonetic": "bù bù gāo shēng",
+    "meaning": "chúc thăng chức, sự nghiệp ngày càng đi lên",
+    "note": "Lời chúc phổ biến trong công việc, dịp năm mới.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2449,
+    "ru": "阖家欢乐",
+    "phonetic": "hé jiā huān lè",
+    "meaning": "chúc cả nhà vui vẻ, hạnh phúc, đầm ấm",
+    "note": "Lời chúc trang trọng, thường dùng dịp lễ Tết, tiệc gia đình.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2450,
+    "ru": "早日康复",
+    "phonetic": "zǎo rì kāng fù",
+    "meaning": "chúc mau chóng bình phục sức khỏe",
+    "note": "Câu chúc thông dụng khi thăm người ốm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2451,
+    "ru": "苦尽甘来",
+    "phonetic": "kǔ jìn gān lái",
+    "meaning": "sau gian khổ sẽ có ngày hưởng thành quả ngọt ngào",
+    "note": "Lời an ủi, động viên khi ai đó đang trải qua khó khăn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2452,
+    "ru": "天道酬勤",
+    "phonetic": "tiān dào chóu qín",
+    "meaning": "trời sẽ đền đáp xứng đáng cho người chăm chỉ",
+    "note": "Câu khích lệ phổ biến, thường thấy trong lớp học, nơi làm việc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2453,
+    "ru": "活到老学到老",
+    "phonetic": "huó dào lǎo xué dào lǎo",
+    "meaning": "việc học không bao giờ ngừng, dù ở tuổi nào",
+    "note": "Câu tục ngữ dân gian khuyên tinh thần học hỏi suốt đời.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2454,
+    "ru": "三思而后行",
+    "phonetic": "sān sī ér hòu xíng",
+    "meaning": "suy nghĩ kỹ càng rồi mới hành động",
+    "note": "Câu khuyên răn kinh điển, trích từ Luận Ngữ, dùng trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2455,
+    "ru": "己所不欲勿施于人",
+    "phonetic": "jǐ suǒ bù yù wù shī yú rén",
+    "meaning": "điều mình không muốn thì đừng làm cho người khác",
+    "note": "Câu nói nổi tiếng của Khổng Tử, mang tính triết lý, trang trọng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2456,
+    "ru": "吃亏是福",
+    "phonetic": "chī kuī shì fú",
+    "meaning": "biết nhường nhịn, chịu thiệt đôi khi lại là may mắn",
+    "note": "Quan niệm dân gian khuyên người ta bao dung, không tính toán thiệt hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2457,
+    "ru": "退一步海阔天空",
+    "phonetic": "tuì yī bù hǎi kuò tiān kōng",
+    "meaning": "nhường nhịn một chút sẽ thấy mọi việc thông thoáng hơn",
+    "note": "Lời khuyên phổ biến về sự bao dung, nhẫn nhịn trong xung đột.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2458,
+    "ru": "人不可貌相海水不可斗量",
+    "phonetic": "rén bù kě mào xiàng hǎi shuǐ bù kě dǒu liàng",
+    "meaning": "đừng đánh giá người khác chỉ qua vẻ bề ngoài",
+    "note": "Tục ngữ dân gian răn dạy về cách nhìn nhận con người sâu sắc hơn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2459,
+    "ru": "忠言逆耳利于行",
+    "phonetic": "zhōng yán nì ěr lì yú xíng",
+    "meaning": "lời thật tuy khó nghe nhưng có lợi cho hành động",
+    "note": "Câu tục ngữ khuyên nên lắng nghe góp ý chân thành dù không dễ chịu.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2460,
+    "ru": "三人行必有我师",
+    "phonetic": "sān rén xíng bì yǒu wǒ shī",
+    "meaning": "trong ba người cùng đi ắt có người đáng để học hỏi",
+    "note": "Trích Luận Ngữ, khuyên khiêm tốn học hỏi mọi người xung quanh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2461,
+    "ru": "授人以鱼不如授人以渔",
+    "phonetic": "shòu rén yǐ yú bù rú shòu rén yǐ yú",
+    "meaning": "dạy kỹ năng quan trọng hơn cho sẵn kết quả",
+    "note": "Câu nói triết lý về giáo dục, thường dùng trong bối cảnh dạy học, từ thiện.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2462,
+    "ru": "车到山前必有路",
+    "phonetic": "chē dào shān qián bì yǒu lù",
+    "meaning": "đến lúc gặp khó khăn tự khắc sẽ có cách giải quyết",
+    "note": "Câu an ủi dân gian, khuyên đừng quá lo lắng trước khi việc xảy ra.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2463,
+    "ru": "船到桥头自然直",
+    "phonetic": "chuán dào qiáo tóu zì rán zhí",
+    "meaning": "việc khó sẽ tự nhiên được giải quyết khi đến lúc",
+    "note": "Câu an ủi phổ biến ở vùng Hoa Nam/Đài Loan, mang tính lạc quan.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2464,
+    "ru": "留得青山在不怕没柴烧",
+    "phonetic": "liú dé qīng shān zài bù pà méi chái shāo",
+    "meaning": "còn sức khỏe, nền tảng thì không sợ thiếu cơ hội về sau",
+    "note": "Câu khuyên giữ gìn sức khỏe, thực lực để còn cơ hội trong tương lai.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2465,
+    "ru": "家和万事兴",
+    "phonetic": "jiā hé wàn shì xīng",
+    "meaning": "gia đình hòa thuận là nền tảng cho mọi thành công",
+    "note": "Câu chúc/châm ngôn phổ biến, thường treo trong nhà dịp Tết.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2466,
+    "ru": "平安是福",
+    "phonetic": "píng ān shì fú",
+    "meaning": "sự an toàn, yên ổn chính là điều may mắn quý giá nhất",
+    "note": "Lời chúc/châm ngôn dân gian giản dị nhưng sâu sắc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2467,
+    "ru": "知易行难",
+    "phonetic": "zhī yì xíng nán",
+    "meaning": "hiểu lý thuyết dễ nhưng thực hành mới thực sự khó khăn",
+    "note": "Câu triết lý dùng để nhắc nhở về khoảng cách giữa biết và làm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2468,
+    "ru": "有钱能使鬼推磨",
+    "phonetic": "yǒu qián néng shǐ guǐ tuī mò",
+    "meaning": "tiền bạc có thể giải quyết mọi việc, sai khiến được mọi người",
+    "note": "Câu tục ngữ dân gian mỉa mai sức mạnh của đồng tiền trong xã hội.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2469,
+    "ru": "一分钱一分货",
+    "phonetic": "yī fēn qián yī fēn huò",
+    "meaning": "chất lượng tương xứng với giá tiền bỏ ra",
+    "note": "Câu tục ngữ dùng phổ biến khi mua sắm, đánh giá giá trị hàng hóa.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2470,
+    "ru": "好事多磨",
+    "phonetic": "hǎo shì duō mó",
+    "meaning": "những điều tốt đẹp thường phải trải qua nhiều khó khăn mới đạt được",
+    "note": "Câu an ủi khi gặp trở ngại trên đường đến thành công/hạnh phúc.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2471,
+    "ru": "良药苦口利于病",
+    "phonetic": "liáng yào kǔ kǒu lì yú bìng",
+    "meaning": "lời khuyên chân thành dù khó nghe nhưng có ích cho bản thân",
+    "note": "Câu tục ngữ kinh điển, thường đi kèm với 忠言逆耳.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2472,
+    "ru": "身体健康",
+    "phonetic": "shēn tǐ jiàn kāng",
+    "meaning": "chúc sức khỏe dồi dào",
+    "note": "Lời chúc căn bản, dùng trong hầu hết mọi dịp lễ tết, sinh nhật, thăm hỏi.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2473,
+    "ru": "大难不死必有后福",
+    "phonetic": "dà nàn bù sǐ bì yǒu hòu fú",
+    "meaning": "thoát chết trong hoạn nạn lớn ắt sẽ có phúc về sau",
+    "note": "Quan niệm dân gian an ủi người vừa trải qua tai nạn/nguy hiểm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2474,
+    "ru": "福无双至祸不单行",
+    "phonetic": "fú wú shuāng zhì huò bù dān xíng",
+    "meaning": "may mắn hiếm khi liên tiếp, còn xui xẻo thường dồn dập",
+    "note": "Câu than thở phổ biến khi gặp liên tiếp chuyện không may.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2475,
+    "ru": "吉人自有天相",
+    "phonetic": "jí rén zì yǒu tiān xiàng",
+    "meaning": "người lương thiện sẽ được trời đất che chở, gặp may",
+    "note": "Câu an ủi mang tính tâm linh, thường nói với người đang gặp khó khăn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2476,
+    "ru": "时来运转",
+    "phonetic": "shí lái yùn zhuǎn",
+    "meaning": "vận may đang đến, tình thế chuyển biến tốt lên",
+    "note": "Câu nói lạc quan khi thấy dấu hiệu may mắn xuất hiện.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2477,
+    "ru": "否极泰来",
+    "phonetic": "pǐ jí tài lái",
+    "meaning": "sau giai đoạn khó khăn tột cùng, vận may sẽ trở lại",
+    "note": "Thành ngữ triết lý, thường dùng an ủi trong nghịch cảnh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2478,
+    "ru": "因祸得福",
+    "phonetic": "yīn huò dé fú",
+    "meaning": "trong cái rủi có cái may, biến nguy thành cơ",
+    "note": "Câu nói phổ biến khi một chuyện xui xẻo lại dẫn đến kết quả tốt bất ngờ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2479,
+    "ru": "福星高照",
+    "phonetic": "fú xīng gāo zhào",
+    "meaning": "được vận may chiếu rọi, cực kỳ may mắn",
+    "note": "Lời khen/chúc khi ai đó gặp may mắn liên tục.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2480,
+    "ru": "时运不济",
+    "phonetic": "shí yùn bù jì",
+    "meaning": "đang gặp vận rủi, thời điểm không thuận lợi",
+    "note": "Câu than thở khi công việc/cuộc sống gặp trắc trở kéo dài.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2481,
+    "ru": "祸从天降",
+    "phonetic": "huò cóng tiān jiàng",
+    "meaning": "tai họa ập đến bất ngờ, không lường trước được",
+    "note": "Dùng khi mô tả sự việc xui xẻo đến hoàn toàn bất ngờ.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2482,
+    "ru": "在劫难逃",
+    "phonetic": "zài jié nán táo",
+    "meaning": "số phận đã định, không thể tránh khỏi tai họa",
+    "note": "Mang tính bi quan, thường dùng khi cảm thấy bất lực trước hoàn cảnh.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2483,
+    "ru": "九死一生",
+    "phonetic": "jiǔ sǐ yī shēng",
+    "meaning": "trải qua nguy hiểm cực độ, may mắn sống sót",
+    "note": "Dùng mô tả tình huống cực kỳ nguy hiểm, hiểm nghèo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2484,
+    "ru": "死里逃生",
+    "phonetic": "sǐ lǐ táo shēng",
+    "meaning": "vừa thoát khỏi cái chết trong đường tơ kẽ tóc",
+    "note": "Tương tự 九死一生, mô tả may mắn sống sót sau nguy hiểm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2485,
+    "ru": "绝处逢生",
+    "phonetic": "jué chù féng shēng",
+    "meaning": "trong tình thế tuyệt vọng lại tìm được lối thoát",
+    "note": "Dùng khi tưởng chừng hết cách nhưng bất ngờ có giải pháp.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2486,
+    "ru": "孤注一掷",
+    "phonetic": "gū zhù yī zhì",
+    "meaning": "dồn hết mọi thứ vào một lần đánh cược, chấp nhận rủi ro cao",
+    "note": "Dùng khi ai đó mạo hiểm dốc toàn lực cho một cơ hội duy nhất.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2487,
+    "ru": "铤而走险",
+    "phonetic": "tǐng ér zǒu xiǎn",
+    "meaning": "làm điều nguy hiểm, mạo hiểm vì cùng đường",
+    "note": "Thường mang nghĩa hơi tiêu cực, chỉ hành động liều lĩnh bất chấp hậu quả.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2488,
+    "ru": "火中取栗",
+    "phonetic": "huǒ zhōng qǔ lì",
+    "meaning": "mạo hiểm làm việc nguy hiểm để mang lợi ích cho người khác",
+    "note": "Điển tích ngụ ngôn, ý nói bị lợi dụng làm việc nguy hiểm mà mình chịu rủi ro.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2489,
+    "ru": "如履薄冰",
+    "phonetic": "rú lǚ bó bīng",
+    "meaning": "hết sức thận trọng vì tình huống nguy hiểm, dễ gặp rủi ro",
+    "note": "Dùng mô tả sự cẩn trọng cao độ khi làm việc quan trọng, rủi ro cao.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2490,
+    "ru": "万无一失",
+    "phonetic": "wàn wú yī shī",
+    "meaning": "hoàn toàn chắc chắn, không có rủi ro sai sót",
+    "note": "Dùng khi khẳng định kế hoạch/việc gì đó cực kỳ an toàn, chắc chắn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2491,
+    "ru": "十拿九稳",
+    "phonetic": "shí ná jiǔ wěn",
+    "meaning": "rất chắc chắn về khả năng thành công",
+    "note": "Khẩu ngữ phổ biến khi tự tin về kết quả một việc gì đó.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2492,
+    "ru": "稳操胜券",
+    "phonetic": "wěn cāo shèng quàn",
+    "meaning": "tự tin tuyệt đối vào chiến thắng, thành công",
+    "note": "Dùng khi có lợi thế rõ ràng, gần như chắc chắn thắng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2493,
+    "ru": "破财消灾",
+    "phonetic": "pò cái xiāo zāi",
+    "meaning": "mất tiền của coi như để hóa giải tai họa lớn hơn",
+    "note": "Câu an ủi dân gian khi bị mất tiền/của cải, mang tính tâm linh nhẹ nhàng.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2494,
+    "ru": "乐极生悲",
+    "phonetic": "lè jí shēng bēi",
+    "meaning": "niềm vui thái quá lại dẫn đến chuyện không may",
+    "note": "Câu cảnh báo đừng quá phấn khích kẻo gặp xui xẻo.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2495,
+    "ru": "福至心灵",
+    "phonetic": "fú zhì xīn líng",
+    "meaning": "khi vận may đến, đầu óc bỗng trở nên minh mẫn",
+    "note": "Dùng khi ai đó bất ngờ có ý tưởng/quyết định đúng đắn nhờ may mắn.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2496,
+    "ru": "时乖运蹇",
+    "phonetic": "shí guāi yùn jiǎn",
+    "meaning": "vận mệnh không may mắn, gặp nhiều trắc trở",
+    "note": "Cách nói văn viết, trang trọng hơn 时运不济, ít dùng trong khẩu ngữ hàng ngày.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2497,
+    "ru": "冒天下之大不韪",
+    "phonetic": "mào tiān xià zhī dà bù wěi",
+    "meaning": "bất chấp dư luận, đạo lý chung để làm điều rủi ro lớn",
+    "note": "Dùng khi phê phán hành động liều lĩnh bất chấp công luận.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2498,
+    "ru": "富贵险中求",
+    "phonetic": "fù guì xiǎn zhōng qiú",
+    "meaning": "muốn giàu có phải dám chấp nhận rủi ro, mạo hiểm",
+    "note": "Câu nói phổ biến trong kinh doanh, đầu tư, khuyến khích dám nghĩ dám làm.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2499,
+    "ru": "谋事在人成事在天",
+    "phonetic": "móu shì zài rén chéng shì zài tiān",
+    "meaning": "con người chỉ có thể cố gắng, còn kết quả do trời định",
+    "note": "Câu nói triết lý về sự nỗ lực và số phận, dùng khi đã cố hết sức nhưng kết quả không như ý.",
+    "category": "idioms_slang"
+  },
+  {
+    "id": 2500,
+    "ru": "听天由命",
+    "phonetic": "tīng tiān yóu mìng",
+    "meaning": "buông xuôi, để mọi việc diễn ra theo tự nhiên/số phận",
+    "note": "Dùng khi đã hết cách, đành chấp nhận để số phận quyết định.",
+    "category": "idioms_slang"
+  }
+]
