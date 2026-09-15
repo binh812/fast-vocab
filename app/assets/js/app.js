@@ -65,6 +65,33 @@ function getSearchScope(){
 function saveSearchScope(scope){ try{ localStorage.setItem("fv_search_scope", JSON.stringify(scope)); }catch(e){} }
 function isOnboarded(){ try{ return localStorage.getItem("fv_onboarded") === "1"; }catch(e){ return true; } }
 function setOnboarded(){ try{ localStorage.setItem("fv_onboarded", "1"); }catch(e){} }
+function getReviewMode(){ try{ return localStorage.getItem("fv_review_mode") || "flash"; }catch(e){ return "flash"; } }
+function setReviewModeStore(m){ try{ localStorage.setItem("fv_review_mode", m); }catch(e){} }
+
+/* ---------- streak & hoạt động học hằng ngày (toàn app, không theo ngôn ngữ) ---------- */
+function pad2(n){ return n < 10 ? "0"+n : ""+n; }
+function dateKey(d){ return d.getFullYear()+"-"+pad2(d.getMonth()+1)+"-"+pad2(d.getDate()); }
+function todayKey(){ return dateKey(new Date()); }
+function loadActivity(){
+  try{ var raw = localStorage.getItem("fv_activity"); return raw ? JSON.parse(raw) : {}; }catch(e){ return {}; }
+}
+function saveActivity(obj){ try{ localStorage.setItem("fv_activity", JSON.stringify(obj)); }catch(e){} }
+function logActivity(){
+  var act = loadActivity();
+  var k = todayKey();
+  act[k] = (act[k]||0) + 1;
+  saveActivity(act);
+  updateStreakBadge();
+}
+function computeStreak(){
+  var act = loadActivity();
+  var d = new Date();
+  if(!act[todayKey()]) d.setDate(d.getDate()-1); // chưa học hôm nay thì không tính là đứt chuỗi, lùi về hôm qua
+  var streak = 0;
+  while(act[dateKey(d)]){ streak++; d.setDate(d.getDate()-1); }
+  return streak;
+}
+var WEEKDAY_SHORT = ["CN","T2","T3","T4","T5","T6","T7"];
 
 var known = {}, fav = {}, srs = {};
 function known_key(type, lang){ return "fv_known_"+type+"_"+lang; }
@@ -143,6 +170,54 @@ function buildReviewQueue(pool, topic, count){
   return queue.slice(0, count);
 }
 
+/* ---------- sao lưu / khôi phục tiến trình học (qua Storage Access Framework của Android) ---------- */
+function collectBackupData(){
+  var data = {};
+  try{
+    for(var i=0;i<localStorage.length;i++){
+      var k = localStorage.key(i);
+      if(k && k.indexOf("fv_") === 0) data[k] = localStorage.getItem(k);
+    }
+  }catch(e){}
+  return {app:"ngoai-ngu-bo-tui", version:1, exportedAt:new Date().toISOString(), data:data};
+}
+function exportBackup(){
+  try{
+    if(window.Android && Android.exportData){
+      Android.exportData(JSON.stringify(collectBackupData(), null, 2));
+    } else {
+      showToast("Sao lưu chỉ khả dụng khi chạy trên app Android");
+    }
+  }catch(e){ showToast("Không thể sao lưu"); }
+}
+function requestImportBackup(){
+  try{
+    if(window.Android && Android.importData){ Android.importData(); }
+    else { showToast("Khôi phục chỉ khả dụng khi chạy trên app Android"); }
+  }catch(e){ showToast("Không thể khôi phục"); }
+}
+function applyBackupData(jsonText){
+  var obj;
+  try{ obj = JSON.parse(jsonText); }catch(e){ showToast("⚠️ File không hợp lệ"); return; }
+  if(!obj || !obj.data){ showToast("⚠️ File không đúng định dạng bản sao lưu"); return; }
+  var ok = window.confirm(
+    "Khôi phục sẽ GHI ĐÈ toàn bộ tiến trình hiện tại (từ/câu đã thuộc, yêu thích, lịch ôn tập, streak) " +
+    "bằng dữ liệu trong file sao lưu (xuất lúc " + (obj.exportedAt||"?") + "). Tiếp tục?"
+  );
+  if(!ok) return;
+  try{
+    for(var k in obj.data){ if(k.indexOf("fv_") === 0) localStorage.setItem(k, obj.data[k]); }
+  }catch(e){ showToast("⚠️ Lỗi khi ghi dữ liệu khôi phục"); return; }
+  state.lang = getLang(); state.dir = getDir(); state.searchScope = getSearchScope();
+  state.review.mode = getReviewMode();
+  loadUserData(state.lang);
+  refreshHeaderChrome();
+  updateStreakBadge();
+  setTab(state.tab);
+  showToast("✅ Đã khôi phục tiến trình học");
+}
+window.onImportData = function(jsonText){ applyBackupData(jsonText); };
+
 /* ---------- helpers ---------- */
 function esc(s){
   return String(s==null?"":s).replace(/[&<>"']/g, function(c){
@@ -182,7 +257,7 @@ var state = {
   renderedCount: 0,
   batch: 40,
   onboardStep: 0,
-  review: { pool:null, topic:"all", count:20, dir:null, queue:[], idx:0, revealed:false, gained:0 }
+  review: { pool:null, topic:"all", count:20, dir:null, mode:getReviewMode(), queue:[], idx:0, revealed:false, gained:0, quizPicked:null, quizChoices:null }
 };
 loadUserData(state.lang);
 
@@ -261,6 +336,7 @@ function buildShell(){
         '<div class="hdr-mid"><div class="hdr-title" id="hdrTitle"></div>'+
           '<div class="hdr-sub" id="hdrSub"></div></div>'+
         '<div class="hdr-stat" id="hdrStat"></div>'+
+        '<button class="streak-badge" id="streakBadge" title="Tiến trình học"></button>'+
         '<button class="help-btn" id="helpBtn" title="Hướng dẫn dùng app">❓</button>'+
       '</div>'+
       '<div class="tabs" id="tabs">'+
@@ -279,6 +355,9 @@ function buildShell(){
     '</div>'+
     '<div class="modal-back" id="onboardBack" hidden>'+
       '<div class="onboard-sheet" id="onboardSheet"></div>'+
+    '</div>'+
+    '<div class="modal-back" id="dashBack" hidden>'+
+      '<div class="dash-sheet" id="dashSheet"></div>'+
     '</div>';
 
   document.getElementById("tabs").addEventListener("click", function(e){
@@ -295,6 +374,10 @@ function buildShell(){
   document.getElementById("onboardBack").addEventListener("click", function(e){
     if(e.target.id === "onboardBack") closeOnboard();
   });
+  document.getElementById("streakBadge").addEventListener("click", openDashboard);
+  document.getElementById("dashBack").addEventListener("click", function(e){
+    if(e.target.id === "dashBack") closeDashboard();
+  });
 }
 
 function refreshHeaderChrome(){
@@ -302,6 +385,11 @@ function refreshHeaderChrome(){
   document.getElementById("langBtn").textContent = li.flag;
   document.getElementById("hdrTitle").textContent = li.flag + " " + li.name + " Bỏ Túi";
   document.getElementById("hdrSub").textContent = dataFor("words").length + " từ vựng & " + dataFor("sentences").length + " câu giao tiếp";
+  updateStreakBadge();
+}
+function updateStreakBadge(){
+  var el = document.getElementById("streakBadge");
+  if(el) el.textContent = "🔥 " + computeStreak();
 }
 
 function openLangModal(){
@@ -364,6 +452,64 @@ function renderOnboardStep(){
     if(isLast){ closeOnboard(); return; }
     state.onboardStep++; renderOnboardStep();
   });
+}
+
+/* ---------- dashboard tiến trình học ---------- */
+function dashboardLangSummary(){
+  return LANGS.filter(function(l){ return l.ready; }).map(function(l){
+    var pack = packFor(l.code);
+    var kw = Object.keys(loadSet(known_key("words", l.code))).length;
+    var ks = Object.keys(loadSet(known_key("sentences", l.code))).length;
+    var total = pack.words.length + pack.sentences.length;
+    return {code:l.code, flag:l.flag, name:l.name, known:kw+ks, total:total};
+  });
+}
+function openDashboard(){
+  renderDashboard();
+  document.getElementById("dashBack").hidden = false;
+}
+function closeDashboard(){ document.getElementById("dashBack").hidden = true; }
+function renderDashboard(){
+  var sheet = document.getElementById("dashSheet");
+  var streak = computeStreak();
+  var act = loadActivity();
+  var days = [];
+  for(var i=6;i>=0;i--){
+    var d = new Date(); d.setDate(d.getDate()-i);
+    days.push({label: WEEKDAY_SHORT[d.getDay()], count: act[dateKey(d)]||0});
+  }
+  var maxCount = 1;
+  days.forEach(function(x){ if(x.count > maxCount) maxCount = x.count; });
+  var barsHtml = days.map(function(x){
+    var h = Math.round(6 + (x.count/maxCount)*54);
+    return '<div class="dash-bar-col"><div class="dash-bar-val">'+(x.count||"")+'</div><div class="dash-bar" style="height:'+h+'px"></div><div class="dash-bar-label">'+x.label+'</div></div>';
+  }).join("");
+
+  var wDue = reviewCounts("words", "all");
+  var sDue = reviewCounts("sentences", "all");
+  var langRows = dashboardLangSummary().map(function(l){
+    var pct = l.total ? Math.round(l.known/l.total*100) : 0;
+    return '<div class="dash-lang-row"><span>'+l.flag+' '+esc(l.name)+'</span><span>'+l.known+'/'+l.total+' ('+pct+'%)</span></div>';
+  }).join("");
+
+  sheet.innerHTML =
+    '<div class="dash-title">📊 Tiến trình học</div>'+
+    '<div class="dash-streak">🔥 <b>'+streak+'</b> ngày liên tục học</div>'+
+    '<div class="dash-bars">'+barsHtml+'</div>'+
+    '<div class="dash-section-title">Đến hạn ôn hôm nay</div>'+
+    '<div class="review-due-info">📖 Từ vựng: <b>'+wDue.due+'</b> · 💬 Câu giao tiếp: <b>'+sDue.due+'</b></div>'+
+    '<div class="dash-section-title">Đã thuộc theo ngôn ngữ</div>'+
+    langRows+
+    '<div class="dash-section-title">Dữ liệu &amp; sao lưu</div>'+
+    '<div class="dash-backup-row">'+
+      '<button class="onboard-btn ghost" id="dashExport">⬇️ Sao lưu</button>'+
+      '<button class="onboard-btn ghost" id="dashImport">⬆️ Khôi phục</button>'+
+    '</div>'+
+    '<button class="onboard-btn primary" id="dashClose" style="width:100%; margin-top:12px;">Đóng</button>';
+
+  document.getElementById("dashExport").addEventListener("click", exportBackup);
+  document.getElementById("dashImport").addEventListener("click", requestImportBackup);
+  document.getElementById("dashClose").addEventListener("click", closeDashboard);
 }
 
 function selectLang(code){
@@ -659,11 +805,12 @@ function onMainClick(e){
   cardEl.classList.toggle("open");
 }
 
-/* ---------- Review (flashcards) ---------- */
+/* ---------- Review (flashcards + trắc nghiệm, đều dùng chung lịch spaced repetition) ---------- */
 function renderReviewSetup(){
   var wrap = document.getElementById("reviewWrap");
   var pool = state.review.pool || "words";
   var topic = state.review.topic || "all";
+  var mode = state.review.mode || "flash";
   var cats = catsFor(pool);
   var li = langInfo(state.lang);
   var dir = state.review.dir || state.dir;
@@ -673,6 +820,10 @@ function renderReviewSetup(){
 
   wrap.innerHTML =
     '<div class="review-setup">'+
+      '<div class="rv-mode-row">'+
+        '<div class="dir-btn'+(mode==="flash"?" active":"")+'" data-mode="flash">🗂️ Thẻ ghi nhớ</div>'+
+        '<div class="dir-btn'+(mode==="quiz"?" active":"")+'" data-mode="quiz">🎯 Trắc nghiệm</div>'+
+      '</div>'+
       '<div class="row">'+
         '<select id="rvPool">'+
           '<option value="words"'+(pool==="words"?" selected":"")+'>📖 Từ vựng</option>'+
@@ -692,6 +843,12 @@ function renderReviewSetup(){
       '<div class="hdr-sub" style="color:#6b7280;margin-top:10px;">Ôn theo lịch lặp ngắt quãng: ưu tiên thẻ đến hạn/mới, thẻ nhớ tốt sẽ giãn cách xa hơn. Bấm vào thẻ hoặc nút loa để nghe phát âm.</div>'+
     '</div>';
 
+  wrap.querySelector(".rv-mode-row").addEventListener("click", function(e){
+    var b = e.target.closest("[data-mode]"); if(!b) return;
+    state.review.mode = b.getAttribute("data-mode");
+    setReviewModeStore(state.review.mode);
+    renderReviewSetup();
+  });
   document.getElementById("rvPool").addEventListener("change", function(e){
     state.review.pool = e.target.value; state.review.topic = "all"; renderReviewSetup();
   });
@@ -710,9 +867,46 @@ function startReview(){
   if(queue.length === 0){ showToast("Không có thẻ nào trong chủ đề này"); return; }
   state.review.queue = queue;
   state.review.idx = 0;
-  state.review.revealed = false;
   state.review.gained = 0;
+  prepReviewCardState();
   renderReviewCard();
+}
+
+function prepReviewCardState(){
+  var rv = state.review;
+  rv.revealed = false;
+  rv.quizPicked = null;
+  rv.quizChoices = null;
+  if(rv.mode === "quiz" && rv.idx < rv.queue.length){
+    var it = rv.queue[rv.idx];
+    var fwd = rv.dir !== "rev";
+    rv.quizChoices = buildQuizChoices(rv.pool, it, fwd);
+  }
+}
+
+/* trắc nghiệm: 1 đáp án đúng + 3 đáp án nhiễu lấy từ cùng chủ đề (hoặc cả kho nếu chủ đề quá ít mục) */
+function buildDistractors(pool, it, field, count){
+  var data = dataFor(pool);
+  var sameCat = data.filter(function(x){ return x.category === it.category && x.id !== it.id; });
+  var source = sameCat.length >= count ? sameCat : data.filter(function(x){ return x.id !== it.id; });
+  var shuffled = shuffle(source);
+  var seen = {}; seen[String(it[field]||"").toLowerCase()] = true;
+  var out = [];
+  for(var i=0;i<shuffled.length && out.length<count;i++){
+    var val = shuffled[i][field];
+    var key = String(val||"").toLowerCase();
+    if(!val || seen[key]) continue;
+    seen[key] = true;
+    out.push(val);
+  }
+  return out;
+}
+function buildQuizChoices(pool, it, fwd){
+  var field = fwd ? "meaning" : "ru";
+  var correct = fwd ? it.meaning : it.ru;
+  var options = buildDistractors(pool, it, field, 3).map(function(v){ return {text:v, correct:false}; });
+  options.push({text:correct, correct:true});
+  return shuffle(options);
 }
 
 function renderReviewCard(){
@@ -730,6 +924,13 @@ function renderReviewCard(){
     updateHdrStat();
     return;
   }
+  if(rv.mode === "quiz"){ renderQuizCard(); }
+  else { renderFlashCard(); }
+}
+
+function renderFlashCard(){
+  var wrap = document.getElementById("reviewWrap");
+  var rv = state.review;
   var type = rv.pool;
   var it = rv.queue[rv.idx];
   var fwd = rv.dir !== "rev";
@@ -777,12 +978,56 @@ function renderReviewCard(){
     gradeRowEl.addEventListener("click", function(e){
       var b = e.target.closest(".grade-btn"); if(!b) return;
       e.stopPropagation();
-      gradeCard(parseInt(b.getAttribute("data-q"), 10));
+      recordGrade(parseInt(b.getAttribute("data-q"), 10));
+      nextReviewCard();
     });
   }
 }
 
-function gradeCard(quality){
+function renderQuizCard(){
+  var wrap = document.getElementById("reviewWrap");
+  var rv = state.review;
+  var it = rv.queue[rv.idx];
+  var fwd = rv.dir !== "rev";
+  var question = fwd ? it.ru : it.meaning;
+  var answered = rv.quizPicked != null;
+
+  var optsHtml = rv.quizChoices.map(function(opt, idx){
+    var cls = "quiz-opt";
+    if(answered){
+      if(opt.correct) cls += " correct";
+      else if(idx === rv.quizPicked) cls += " wrong";
+    }
+    return '<button class="'+cls+'" data-idx="'+idx+'"'+(answered?" disabled":"")+'>'+esc(opt.text)+'</button>';
+  }).join("");
+
+  wrap.innerHTML =
+    '<div class="review-stage">'+
+      '<div class="review-progress">Câu '+(rv.idx+1)+' / '+rv.queue.length+'</div>'+
+      '<div class="quiz-card">'+
+        '<button class="rc-btn rc-speak quiz-speak" id="quizSpeak">🔊</button>'+
+        '<div class="quiz-q">'+esc(question)+'</div>'+
+        (fwd ? '<div class="phon">['+esc(it.phonetic||"")+']</div>' : '')+
+      '</div>'+
+      '<div class="quiz-opts" id="quizOpts">'+optsHtml+'</div>'+
+      (answered ? '<button class="big-btn" id="quizNext">Tiếp theo ›</button>' : '')+
+    '</div>';
+
+  document.getElementById("quizSpeak").addEventListener("click", function(){ speak(it.ru); });
+  if(!answered){
+    document.getElementById("quizOpts").addEventListener("click", function(e){
+      var b = e.target.closest(".quiz-opt"); if(!b) return;
+      var idx = parseInt(b.getAttribute("data-idx"), 10);
+      rv.quizPicked = idx;
+      recordGrade(rv.quizChoices[idx].correct ? 4 : 1);
+      renderReviewCard();
+    });
+  } else {
+    document.getElementById("quizNext").addEventListener("click", nextReviewCard);
+  }
+}
+
+function recordGrade(quality){
   var rv = state.review;
   var type = rv.pool;
   var it = rv.queue[rv.idx];
@@ -790,28 +1035,33 @@ function gradeCard(quality){
   sm2(rec, quality);
   srs[type][it.id] = rec;
   persistSrs(type);
+  logActivity();
 
   if(quality < 3){
     if(known[type][it.id]){ delete known[type][it.id]; persistKnown(type); }
   } else if(rec.reps >= 2){
     if(!known[type][it.id]){ known[type][it.id] = true; persistKnown(type); rv.gained++; }
   }
-  nextReviewCard();
 }
 
 function nextReviewCard(){
   var rv = state.review;
-  rv.idx++; rv.revealed = false;
+  rv.idx++;
+  prepReviewCardState();
   renderReviewCard();
 }
 
 /* ---------- điều hướng nút Back của hệ thống ---------- */
 window.onNativeBack = function(){
-  // 1. đang mở bảng hướng dẫn dùng app -> đóng lại
+  // 1. đang mở bảng Tiến trình học -> đóng lại
+  var dashModal = document.getElementById("dashBack");
+  if(dashModal && !dashModal.hidden){ closeDashboard(); return; }
+
+  // 1c. đang mở bảng hướng dẫn dùng app -> đóng lại
   var onboardModal = document.getElementById("onboardBack");
   if(onboardModal && !onboardModal.hidden){ closeOnboard(); return; }
 
-  // 1b. đang mở bảng chọn ngôn ngữ -> đóng lại
+  // 1d. đang mở bảng chọn ngôn ngữ -> đóng lại
   var modal = document.getElementById("langModalBack");
   if(modal && !modal.hidden){ closeLangModal(); return; }
 

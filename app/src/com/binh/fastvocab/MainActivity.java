@@ -2,6 +2,7 @@ package com.binh.fastvocab;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.UtteranceProgressListener;
@@ -11,15 +12,27 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Locale;
 
+import org.json.JSONObject;
+
 public class MainActivity extends Activity implements TextToSpeech.OnInitListener {
+    private static final int REQ_EXPORT_BACKUP = 1001;
+    private static final int REQ_IMPORT_BACKUP = 1002;
+
     private WebView web;
     private TextToSpeech tts;
     private boolean ttsReady = false;
     private boolean langAvailable = false;
     private String currentLangCode = "ru";
+    private String pendingExportJson;
 
     private void js(final String code) {
         runOnUiThread(new Runnable() {
@@ -119,6 +132,62 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         js("window.onNativeBack && onNativeBack()");
     }
 
+    private void startExportPicker() {
+        String stamp = new SimpleDateFormat("yyyy-MM-dd_HHmm", Locale.US).format(new Date());
+        Intent intent = new Intent(Intent.ACTION_CREATE_DOCUMENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        intent.setType("application/json");
+        intent.putExtra(Intent.EXTRA_TITLE, "ngoai-ngu-bo-tui-backup-" + stamp + ".json");
+        try {
+            startActivityForResult(intent, REQ_EXPORT_BACKUP);
+        } catch (Exception e) {
+            Toast.makeText(this, "Không mở được trình chọn nơi lưu file", Toast.LENGTH_LONG).show();
+        }
+    }
+
+    private void startImportPicker() {
+        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        intent.setType("*/*");
+        try {
+            startActivityForResult(intent, REQ_IMPORT_BACKUP);
+        } catch (Exception e) {
+            Toast.makeText(this, "Không mở được trình chọn file", Toast.LENGTH_LONG).show();
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode != RESULT_OK || data == null || data.getData() == null) return;
+        Uri uri = data.getData();
+
+        if (requestCode == REQ_EXPORT_BACKUP) {
+            try {
+                OutputStream out = getContentResolver().openOutputStream(uri);
+                out.write(pendingExportJson.getBytes(StandardCharsets.UTF_8));
+                out.close();
+                Toast.makeText(this, "✅ Đã lưu bản sao lưu", Toast.LENGTH_SHORT).show();
+            } catch (Exception e) {
+                Toast.makeText(this, "Không thể lưu bản sao lưu: " + e.getMessage(), Toast.LENGTH_LONG).show();
+            }
+            pendingExportJson = null;
+        } else if (requestCode == REQ_IMPORT_BACKUP) {
+            try {
+                BufferedReader r = new BufferedReader(new InputStreamReader(
+                    getContentResolver().openInputStream(uri), StandardCharsets.UTF_8));
+                StringBuilder sb = new StringBuilder();
+                String line;
+                while ((line = r.readLine()) != null) sb.append(line).append("\n");
+                r.close();
+                final String jsonText = JSONObject.quote(sb.toString());
+                js("window.onImportData && onImportData(" + jsonText + ")");
+            } catch (Exception e) {
+                Toast.makeText(this, "Không đọc được file: " + e.getMessage(), Toast.LENGTH_LONG).show();
+            }
+        }
+    }
+
     public class Bridge {
         @JavascriptInterface
         public void speak(String text) { speakInternal(text, 0.92f); }
@@ -150,6 +219,21 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         public void toast(final String msg) {
             runOnUiThread(new Runnable() {
                 @Override public void run() { Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show(); }
+            });
+        }
+
+        @JavascriptInterface
+        public void exportData(final String json) {
+            pendingExportJson = json;
+            runOnUiThread(new Runnable() {
+                @Override public void run() { startExportPicker(); }
+            });
+        }
+
+        @JavascriptInterface
+        public void importData() {
+            runOnUiThread(new Runnable() {
+                @Override public void run() { startImportPicker(); }
             });
         }
     }

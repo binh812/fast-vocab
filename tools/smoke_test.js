@@ -14,12 +14,17 @@ const { window } = dom;
 // giả lập cầu nối native Android
 let lastSpoken = null;
 let exitCalled = 0;
+let exportCalled = 0;
+let exportedJson = null;
+let importCalled = 0;
 window.Android = {
   speak: (t) => { lastSpoken = t; },
   speakSlow: (t) => { lastSpoken = t; },
   setLang: () => {},
   isLangAvailable: () => true,
   exitApp: () => { exitCalled++; },
+  exportData: (json) => { exportCalled++; exportedJson = json; },
+  importData: () => { importCalled++; },
 };
 
 function loadScript(relPath){
@@ -171,6 +176,45 @@ try {
   check("grade buttons show next-interval preview text", gradeBtns[2].querySelector("span").textContent.indexOf("ngày") !== -1);
   doc.querySelector('.grade-btn.grade-good').click(); // đây là chỗ từng bị crash do state.review.pool chưa được set
   check("review advances to card 2 after grading", doc.querySelector(".review-progress").textContent.indexOf("2 /") !== -1);
+
+  // 9b. chế độ Trắc nghiệm (dùng chung lịch spaced repetition với thẻ ghi nhớ)
+  window.onNativeBack(); // thoát phiên ôn tập dở dang -> quay lại màn hình cài đặt
+  check("back exits in-progress review session to setup screen", !!doc.getElementById("rvStart"));
+  doc.querySelector('.rv-mode-row [data-mode="quiz"]').click();
+  check("quiz mode toggle activates", doc.querySelector('.rv-mode-row [data-mode="quiz"]').classList.contains("active"));
+  doc.getElementById("rvStart").click();
+  check("quiz mode shows 4 answer options", doc.querySelectorAll(".quiz-opt").length === 4);
+  check("quiz next button hidden before answering", !doc.getElementById("quizNext"));
+  doc.querySelector(".quiz-opt").click();
+  check("quiz option shows correct/wrong feedback after picking", doc.querySelectorAll(".quiz-opt.correct, .quiz-opt.wrong").length >= 1);
+  check("quiz shows next button after answering", !!doc.getElementById("quizNext"));
+  doc.getElementById("quizNext").click();
+  check("quiz advances to question 2 after tapping next", doc.querySelector(".review-progress").textContent.indexOf("2 /") !== -1);
+  window.onNativeBack();
+  doc.querySelector('.rv-mode-row [data-mode="flash"]').click(); // đưa về mặc định thẻ ghi nhớ
+
+  // 9c. dashboard tiến trình học (streak, biểu đồ 7 ngày, tiến độ theo ngôn ngữ, sao lưu/khôi phục)
+  doc.getElementById("streakBadge").click();
+  check("dashboard opens via streak badge", doc.getElementById("dashBack").hidden === false);
+  check("dashboard shows a streak count after reviewing today", /🔥 [1-9]/.test(doc.querySelector(".dash-streak").textContent));
+  check("dashboard shows 7-day activity bar chart", doc.querySelectorAll(".dash-bar-col").length === 7);
+  check("dashboard shows progress for all 4 languages", doc.querySelectorAll(".dash-lang-row").length === 4);
+
+  doc.getElementById("dashExport").click();
+  check("export button calls Android.exportData with a JSON payload", exportCalled === 1 && exportedJson && exportedJson.indexOf('"data"') !== -1);
+
+  window.confirm = () => true; // giả lập người dùng đồng ý ghi đè khi khôi phục
+  const backupPayload = JSON.stringify({app:"ngoai-ngu-bo-tui", version:1, exportedAt:"test", data:{fv_lang:"fr"}});
+  window.onImportData(backupPayload);
+  check("importing a backup applies its data (switches language)", window.localStorage.getItem("fv_lang") === "fr");
+  check("hdrTitle reflects the language restored from backup", doc.getElementById("hdrTitle").textContent.indexOf("Tiếng Pháp") !== -1);
+
+  doc.getElementById("dashClose").click();
+  check("dashboard closes via close button", doc.getElementById("dashBack").hidden === true);
+
+  doc.getElementById("streakBadge").click();
+  window.onNativeBack();
+  check("back button closes dashboard instead of exiting", doc.getElementById("dashBack").hidden === true && exitCalled === 0);
 
   // 10. bảng chọn ngôn ngữ
   doc.querySelector('.tab[data-tab="words"]').click();
