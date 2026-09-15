@@ -216,6 +216,29 @@ body{
 .quiz-opt.wrong{background:#FBE3E7; border-color:var(--red); color:var(--red);}
 .quiz-opt[disabled]{opacity:.9;}
 
+/* Chế độ Nghe - Gõ lại (dictation) trong Ôn tập */
+.dict-card{
+  background:#fff; border-radius:18px; box-shadow:var(--shadow); border:1px solid var(--line);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; padding:26px 18px;
+  text-align:center;
+}
+.dict-speak{width:auto; padding:0 20px; height:48px; font-size:15px; font-weight:800; gap:8px;}
+.dict-input{
+  margin-top:16px; width:100%; padding:14px; border-radius:12px; border:1px solid var(--line);
+  font-size:16px; text-align:center; background:#fff; color:var(--ink);
+}
+.dict-input:focus{outline:none; border-color:var(--navy);}
+.dict-feedback{margin-top:16px; font-size:16px; font-weight:800; text-align:center;}
+.dict-exact{color:var(--green);}
+.dict-close{color:#B4650A;}
+.dict-wrong{color:var(--red);}
+.dict-answer{
+  margin-top:10px; background:var(--cream); border-radius:12px; padding:14px; text-align:center;
+}
+.dict-answer .lbl{font-size:11px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.3px;}
+.dict-answer .ru{font-size:20px; font-weight:800; color:var(--navy-dark); margin-top:4px;}
+.dict-answer .meaning{font-size:14px; color:var(--ink); margin-top:4px;}
+
 /* Language picker modal */
 .modal-back{
   position:fixed; inset:0; background:rgba(11,29,58,.45); display:flex; align-items:flex-end;
@@ -273,6 +296,32 @@ body{
   padding:7px 0; border-bottom:1px solid var(--line);
 }
 .dash-backup-row{display:flex; gap:10px;}
+
+.badge-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:8px;}
+.badge-chip{
+  background:var(--cream); border-radius:12px; padding:10px 6px; text-align:center;
+  opacity:.4; filter:grayscale(1);
+}
+.badge-chip.earned{opacity:1; filter:none; background:#FFF7DD;}
+.badge-icon{font-size:22px;}
+.badge-name{font-size:10px; font-weight:700; color:var(--ink); margin-top:4px; line-height:1.25;}
+
+.dash-reminder-row{display:flex; align-items:center; gap:12px;}
+.switch{position:relative; display:inline-block; width:44px; height:26px; flex:0 0 auto;}
+.switch input{opacity:0; width:0; height:0;}
+.switch-slider{
+  position:absolute; inset:0; background:var(--line); border-radius:26px; cursor:pointer; transition:.2s;
+}
+.switch-slider::before{
+  content:""; position:absolute; width:20px; height:20px; left:3px; top:3px; background:#fff;
+  border-radius:50%; transition:.2s; box-shadow:0 1px 3px rgba(0,0,0,.25);
+}
+.switch input:checked + .switch-slider{background:var(--navy);}
+.switch input:checked + .switch-slider::before{transform:translateX(18px);}
+.dash-reminder-row input[type="time"]{
+  flex:1; padding:9px 10px; border-radius:10px; border:1px solid var(--line); font-size:14px; background:#fff; color:var(--ink);
+}
+.dash-reminder-row input[type="time"][disabled]{opacity:.5;}
 
 /* Toast */
 .toast{

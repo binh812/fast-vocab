@@ -2,7 +2,9 @@ package com.binh.fastvocab;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.UtteranceProgressListener;
@@ -26,6 +28,7 @@ import org.json.JSONObject;
 public class MainActivity extends Activity implements TextToSpeech.OnInitListener {
     private static final int REQ_EXPORT_BACKUP = 1001;
     private static final int REQ_IMPORT_BACKUP = 1002;
+    private static final int REQ_NOTIF_PERM = 1003;
 
     private WebView web;
     private TextToSpeech tts;
@@ -33,6 +36,8 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
     private boolean langAvailable = false;
     private String currentLangCode = "ru";
     private String pendingExportJson;
+    private Integer pendingReminderHour;
+    private Integer pendingReminderMinute;
 
     private void js(final String code) {
         runOnUiThread(new Runnable() {
@@ -188,6 +193,40 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         }
     }
 
+    // Dùng chuỗi literal thay vì hằng số Manifest.permission.POST_NOTIFICATIONS: ecj (trình biên dịch
+    // dùng trong pipeline build thủ công này) không đọc được field đó từ android.jar (lỗi riêng của
+    // ecj với field này, các field permission khác vẫn biên dịch bình thường) - giá trị chuỗi giống hệt hằng số thật.
+    private static final String PERM_POST_NOTIFICATIONS = "android.permission.POST_NOTIFICATIONS";
+
+    private void ensureNotifPermissionThenSchedule(int hour, int minute) {
+        if (Build.VERSION.SDK_INT >= 33
+                && checkSelfPermission(PERM_POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+            pendingReminderHour = hour;
+            pendingReminderMinute = minute;
+            requestPermissions(new String[]{PERM_POST_NOTIFICATIONS}, REQ_NOTIF_PERM);
+            return;
+        }
+        ReminderUtil.save(this, true, hour, minute);
+        ReminderUtil.schedule(this, hour, minute);
+        Toast.makeText(this, String.format(Locale.US, "🔔 Đã bật nhắc học lúc %02d:%02d", hour, minute), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode != REQ_NOTIF_PERM) return;
+        boolean granted = grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED;
+        if (granted && pendingReminderHour != null && pendingReminderMinute != null) {
+            ReminderUtil.save(this, true, pendingReminderHour, pendingReminderMinute);
+            ReminderUtil.schedule(this, pendingReminderHour, pendingReminderMinute);
+            Toast.makeText(this, "🔔 Đã bật nhắc học", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Cần cấp quyền thông báo để bật nhắc học hằng ngày", Toast.LENGTH_LONG).show();
+        }
+        pendingReminderHour = null;
+        pendingReminderMinute = null;
+    }
+
     public class Bridge {
         @JavascriptInterface
         public void speak(String text) { speakInternal(text, 0.92f); }
@@ -235,6 +274,32 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
             runOnUiThread(new Runnable() {
                 @Override public void run() { startImportPicker(); }
             });
+        }
+
+        @JavascriptInterface
+        public void setReminder(final int hour, final int minute) {
+            runOnUiThread(new Runnable() {
+                @Override public void run() { ensureNotifPermissionThenSchedule(hour, minute); }
+            });
+        }
+
+        @JavascriptInterface
+        public void cancelReminder() {
+            runOnUiThread(new Runnable() {
+                @Override public void run() {
+                    ReminderUtil.save(MainActivity.this, false, ReminderUtil.getHour(MainActivity.this), ReminderUtil.getMinute(MainActivity.this));
+                    ReminderUtil.cancel(MainActivity.this);
+                    Toast.makeText(MainActivity.this, "Đã tắt nhắc học", Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
+
+        @JavascriptInterface
+        public String getReminderStatus() {
+            boolean enabled = ReminderUtil.isEnabled(MainActivity.this);
+            int hour = ReminderUtil.getHour(MainActivity.this);
+            int minute = ReminderUtil.getMinute(MainActivity.this);
+            return "{\"enabled\":" + enabled + ",\"hour\":" + hour + ",\"minute\":" + minute + "}";
         }
     }
 }

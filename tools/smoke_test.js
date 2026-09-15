@@ -17,6 +17,7 @@ let exitCalled = 0;
 let exportCalled = 0;
 let exportedJson = null;
 let importCalled = 0;
+let reminderState = {enabled:false, hour:20, minute:0};
 window.Android = {
   speak: (t) => { lastSpoken = t; },
   speakSlow: (t) => { lastSpoken = t; },
@@ -25,6 +26,9 @@ window.Android = {
   exitApp: () => { exitCalled++; },
   exportData: (json) => { exportCalled++; exportedJson = json; },
   importData: () => { importCalled++; },
+  setReminder: (h, m) => { reminderState = {enabled:true, hour:h, minute:m}; },
+  cancelReminder: () => { reminderState.enabled = false; },
+  getReminderStatus: () => JSON.stringify(reminderState),
 };
 
 function loadScript(relPath){
@@ -193,12 +197,54 @@ try {
   window.onNativeBack();
   doc.querySelector('.rv-mode-row [data-mode="flash"]').click(); // đưa về mặc định thẻ ghi nhớ
 
+  // 9d. chế độ Nghe - Gõ lại (dictation)
+  doc.querySelector('.rv-mode-row [data-mode="dictation"]').click();
+  check("dictation mode toggle activates", doc.querySelector('.rv-mode-row [data-mode="dictation"]').classList.contains("active"));
+  doc.getElementById("rvStart").click();
+  check("dictation mode shows input field", !!doc.getElementById("dictInput"));
+  check("dictation auto-speaks the card on show", !!lastSpoken);
+
+  let dictAnswer = lastSpoken; // renderDictationCard() tự phát âm it.ru ngay khi thẻ hiện ra
+  doc.getElementById("dictInput").value = dictAnswer;
+  doc.getElementById("dictSubmit").click();
+  check("dictation shows exact-match feedback when typed text matches the audio", doc.querySelectorAll(".dict-feedback.dict-exact").length === 1);
+  check("dictation reveals the correct answer after submitting", !!doc.querySelector(".dict-answer .ru"));
+  doc.getElementById("dictNext").click();
+  check("dictation advances to question 2 after tapping next", doc.querySelector(".review-progress").textContent.indexOf("2 /") !== -1);
+
+  doc.getElementById("dictInput").value = "zzz_definitely_wrong_zzz";
+  doc.getElementById("dictSubmit").click();
+  check("dictation shows wrong feedback for an unrelated answer", doc.querySelectorAll(".dict-feedback.dict-wrong").length === 1);
+  doc.getElementById("dictNext").click();
+
+  window.onNativeBack();
+  doc.querySelector('.rv-mode-row [data-mode="flash"]').click(); // đưa về mặc định thẻ ghi nhớ
+
   // 9c. dashboard tiến trình học (streak, biểu đồ 7 ngày, tiến độ theo ngôn ngữ, sao lưu/khôi phục)
   doc.getElementById("streakBadge").click();
   check("dashboard opens via streak badge", doc.getElementById("dashBack").hidden === false);
   check("dashboard shows a streak count after reviewing today", /🔥 [1-9]/.test(doc.querySelector(".dash-streak").textContent));
   check("dashboard shows 7-day activity bar chart", doc.querySelectorAll(".dash-bar-col").length === 7);
   check("dashboard shows progress for all 4 languages", doc.querySelectorAll(".dash-lang-row").length === 4);
+
+  check("dashboard shows all 9 defined achievement badges", doc.querySelectorAll(".badge-chip").length === 9);
+  let badgeTitle = Array.from(doc.querySelectorAll(".dash-section-title")).find(el => el.textContent.indexOf("Thành tích") !== -1);
+  check("badge section title shows earned count out of 9", !!badgeTitle && /\(\d+\/9\)/.test(badgeTitle.textContent));
+
+  check("reminder toggle reflects initial disabled state", !doc.getElementById("reminderToggle").checked);
+  check("reminder time input starts disabled", doc.getElementById("reminderTime").disabled);
+  doc.getElementById("reminderToggle").checked = true;
+  doc.getElementById("reminderToggle").dispatchEvent(new window.Event("change", {bubbles:true}));
+  check("enabling reminder toggle calls Android.setReminder", reminderState.enabled === true);
+  check("reminder time input becomes enabled after turning on", !doc.getElementById("reminderTime").disabled);
+
+  doc.getElementById("reminderTime").value = "07:30";
+  doc.getElementById("reminderTime").dispatchEvent(new window.Event("change", {bubbles:true}));
+  check("changing reminder time calls Android.setReminder with new time", reminderState.hour === 7 && reminderState.minute === 30);
+
+  doc.getElementById("reminderToggle").checked = false;
+  doc.getElementById("reminderToggle").dispatchEvent(new window.Event("change", {bubbles:true}));
+  check("disabling reminder toggle calls Android.cancelReminder", reminderState.enabled === false);
 
   doc.getElementById("dashExport").click();
   check("export button calls Android.exportData with a JSON payload", exportCalled === 1 && exportedJson && exportedJson.indexOf('"data"') !== -1);

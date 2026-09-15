@@ -218,6 +218,26 @@ function applyBackupData(jsonText){
 }
 window.onImportData = function(jsonText){ applyBackupData(jsonText); };
 
+/* ---------- nhắc học hằng ngày (thông báo native, trạng thái lưu ở SharedPreferences bên Android) ---------- */
+function getReminderStatus(){
+  try{
+    if(window.Android && Android.getReminderStatus){
+      var o = JSON.parse(Android.getReminderStatus());
+      return {enabled: !!o.enabled, hour: o.hour!=null?o.hour:20, minute: o.minute!=null?o.minute:0};
+    }
+  }catch(e){}
+  return {enabled:false, hour:20, minute:0};
+}
+function setReminder(hour, minute){
+  try{
+    if(window.Android && Android.setReminder){ Android.setReminder(hour, minute); }
+    else { showToast("Nhắc học chỉ khả dụng khi chạy trên app Android"); }
+  }catch(e){}
+}
+function cancelReminder(){
+  try{ if(window.Android && Android.cancelReminder){ Android.cancelReminder(); } }catch(e){}
+}
+
 /* ---------- helpers ---------- */
 function esc(s){
   return String(s==null?"":s).replace(/[&<>"']/g, function(c){
@@ -232,6 +252,31 @@ function shuffle(a){
 function cmp(a, b, locale){
   try{ return String(a||"").localeCompare(String(b||""), locale); }
   catch(e){ return String(a||"") < String(b||"") ? -1 : 1; }
+}
+/* so khớp gần đúng cho chế độ Nghe - Gõ lại: bỏ dấu phụ/dấu câu, chấp nhận sai lệch nhẹ */
+function normalizeText(s){
+  var t = String(s||"").toLowerCase();
+  try{ t = t.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }catch(e){}
+  return t.replace(/[.,!?;:'"()\-—–]/g, "").replace(/\s+/g, " ").trim();
+}
+function levenshtein(a, b){
+  var m = a.length, n = b.length;
+  var dp = [];
+  for(var i=0;i<=m;i++){ dp.push([i]); }
+  for(var j=0;j<=n;j++){ dp[0][j] = j; }
+  for(var i=1;i<=m;i++){
+    for(var j=1;j<=n;j++){
+      dp[i][j] = a[i-1]===b[j-1] ? dp[i-1][j-1] : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+    }
+  }
+  return dp[m][n];
+}
+function isCloseMatch(input, target){
+  var a = normalizeText(input), b = normalizeText(target);
+  if(!a) return false;
+  if(a === b) return true;
+  var threshold = Math.max(1, Math.floor(b.length * 0.15));
+  return levenshtein(a, b) <= threshold;
 }
 function speak(text){ try{ if(window.Android && Android.speak) Android.speak(text); }catch(e){} }
 function speakSlow(text){ try{ if(window.Android && Android.speakSlow) Android.speakSlow(text); }catch(e){} }
@@ -257,7 +302,7 @@ var state = {
   renderedCount: 0,
   batch: 40,
   onboardStep: 0,
-  review: { pool:null, topic:"all", count:20, dir:null, mode:getReviewMode(), queue:[], idx:0, revealed:false, gained:0, quizPicked:null, quizChoices:null }
+  review: { pool:null, topic:"all", count:20, dir:null, mode:getReviewMode(), queue:[], idx:0, revealed:false, gained:0, quizPicked:null, quizChoices:null, dictResult:null }
 };
 loadUserData(state.lang);
 
@@ -464,6 +509,28 @@ function dashboardLangSummary(){
     return {code:l.code, flag:l.flag, name:l.name, known:kw+ks, total:total};
   });
 }
+
+/* ---------- huy hiệu thành tích (tính trực tiếp từ dữ liệu sẵn có, không cần lưu thêm) ---------- */
+var BADGE_DEFS = [
+  {icon:"🔥", name:"3 ngày liên tục",  check:function(ctx){ return ctx.streak >= 3; }},
+  {icon:"🔥", name:"7 ngày liên tục",  check:function(ctx){ return ctx.streak >= 7; }},
+  {icon:"🔥", name:"30 ngày liên tục", check:function(ctx){ return ctx.streak >= 30; }},
+  {icon:"⭐", name:"Thuộc 50 mục (ngôn ngữ này)",  check:function(ctx){ return ctx.knownCurrentLang >= 50; }},
+  {icon:"🌟", name:"Thuộc 200 mục (ngôn ngữ này)", check:function(ctx){ return ctx.knownCurrentLang >= 200; }},
+  {icon:"💎", name:"Thuộc 500 mục (ngôn ngữ này)", check:function(ctx){ return ctx.knownCurrentLang >= 500; }},
+  {icon:"🏋️", name:"100 lượt ôn tập", check:function(ctx){ return ctx.totalReviews >= 100; }},
+  {icon:"🏆", name:"500 lượt ôn tập", check:function(ctx){ return ctx.totalReviews >= 500; }},
+  {icon:"🌐", name:"Bắt đầu cả 4 ngôn ngữ", check:function(ctx){ return ctx.langsStarted >= 4; }}
+];
+function badgeContext(){
+  var act = loadActivity();
+  var totalReviews = 0;
+  for(var k in act) totalReviews += act[k];
+  var kw = Object.keys(known.words).length + Object.keys(known.sentences).length;
+  var langsStarted = dashboardLangSummary().filter(function(l){ return l.known >= 10; }).length;
+  return {streak: computeStreak(), totalReviews: totalReviews, knownCurrentLang: kw, langsStarted: langsStarted};
+}
+
 function openDashboard(){
   renderDashboard();
   document.getElementById("dashBack").hidden = false;
@@ -492,6 +559,17 @@ function renderDashboard(){
     return '<div class="dash-lang-row"><span>'+l.flag+' '+esc(l.name)+'</span><span>'+l.known+'/'+l.total+' ('+pct+'%)</span></div>';
   }).join("");
 
+  var ctx = badgeContext();
+  var earnedCount = 0;
+  var badgesHtml = BADGE_DEFS.map(function(b){
+    var earned = b.check(ctx);
+    if(earned) earnedCount++;
+    return '<div class="badge-chip'+(earned?" earned":"")+'"><div class="badge-icon">'+b.icon+'</div><div class="badge-name">'+esc(b.name)+'</div></div>';
+  }).join("");
+
+  var rs = getReminderStatus();
+  var timeVal = pad2(rs.hour)+":"+pad2(rs.minute);
+
   sheet.innerHTML =
     '<div class="dash-title">📊 Tiến trình học</div>'+
     '<div class="dash-streak">🔥 <b>'+streak+'</b> ngày liên tục học</div>'+
@@ -500,6 +578,13 @@ function renderDashboard(){
     '<div class="review-due-info">📖 Từ vựng: <b>'+wDue.due+'</b> · 💬 Câu giao tiếp: <b>'+sDue.due+'</b></div>'+
     '<div class="dash-section-title">Đã thuộc theo ngôn ngữ</div>'+
     langRows+
+    '<div class="dash-section-title">🏅 Thành tích ('+earnedCount+'/'+BADGE_DEFS.length+')</div>'+
+    '<div class="badge-grid">'+badgesHtml+'</div>'+
+    '<div class="dash-section-title">Nhắc học hằng ngày</div>'+
+    '<div class="dash-reminder-row">'+
+      '<label class="switch"><input type="checkbox" id="reminderToggle"'+(rs.enabled?" checked":"")+'><span class="switch-slider"></span></label>'+
+      '<input type="time" id="reminderTime" value="'+timeVal+'"'+(rs.enabled?"":" disabled")+'>'+
+    '</div>'+
     '<div class="dash-section-title">Dữ liệu &amp; sao lưu</div>'+
     '<div class="dash-backup-row">'+
       '<button class="onboard-btn ghost" id="dashExport">⬇️ Sao lưu</button>'+
@@ -510,6 +595,23 @@ function renderDashboard(){
   document.getElementById("dashExport").addEventListener("click", exportBackup);
   document.getElementById("dashImport").addEventListener("click", requestImportBackup);
   document.getElementById("dashClose").addEventListener("click", closeDashboard);
+
+  document.getElementById("reminderToggle").addEventListener("change", function(e){
+    var timeInput = document.getElementById("reminderTime");
+    var parts = timeInput.value.split(":");
+    if(e.target.checked){
+      timeInput.disabled = false;
+      setReminder(parseInt(parts[0],10)||20, parseInt(parts[1],10)||0);
+    } else {
+      timeInput.disabled = true;
+      cancelReminder();
+    }
+  });
+  document.getElementById("reminderTime").addEventListener("change", function(e){
+    if(!document.getElementById("reminderToggle").checked) return;
+    var parts = e.target.value.split(":");
+    setReminder(parseInt(parts[0],10)||20, parseInt(parts[1],10)||0);
+  });
 }
 
 function selectLang(code){
@@ -823,6 +925,7 @@ function renderReviewSetup(){
       '<div class="rv-mode-row">'+
         '<div class="dir-btn'+(mode==="flash"?" active":"")+'" data-mode="flash">🗂️ Thẻ ghi nhớ</div>'+
         '<div class="dir-btn'+(mode==="quiz"?" active":"")+'" data-mode="quiz">🎯 Trắc nghiệm</div>'+
+        '<div class="dir-btn'+(mode==="dictation"?" active":"")+'" data-mode="dictation">⌨️ Nghe - Gõ lại</div>'+
       '</div>'+
       '<div class="row">'+
         '<select id="rvPool">'+
@@ -877,6 +980,7 @@ function prepReviewCardState(){
   rv.revealed = false;
   rv.quizPicked = null;
   rv.quizChoices = null;
+  rv.dictResult = null;
   if(rv.mode === "quiz" && rv.idx < rv.queue.length){
     var it = rv.queue[rv.idx];
     var fwd = rv.dir !== "rev";
@@ -925,6 +1029,7 @@ function renderReviewCard(){
     return;
   }
   if(rv.mode === "quiz"){ renderQuizCard(); }
+  else if(rv.mode === "dictation"){ renderDictationCard(); }
   else { renderFlashCard(); }
 }
 
@@ -1024,6 +1129,60 @@ function renderQuizCard(){
     });
   } else {
     document.getElementById("quizNext").addEventListener("click", nextReviewCard);
+  }
+}
+
+/* nghe TTS rồi gõ lại: so khớp gần đúng, tự chấm vào lịch SRS (5=đúng hệt, 4=gần đúng, 1=sai) */
+function renderDictationCard(){
+  var wrap = document.getElementById("reviewWrap");
+  var rv = state.review;
+  var it = rv.queue[rv.idx];
+  var answered = rv.dictResult != null;
+
+  var feedbackHtml = "";
+  if(answered){
+    var label = rv.dictResult === "exact" ? "✅ Chính xác!" : rv.dictResult === "close" ? "🟡 Gần đúng" : "❌ Chưa đúng";
+    var cls = rv.dictResult === "exact" ? "dict-exact" : rv.dictResult === "close" ? "dict-close" : "dict-wrong";
+    feedbackHtml =
+      '<div class="dict-feedback '+cls+'">'+label+'</div>'+
+      '<div class="dict-answer">'+
+        '<div class="lbl">Đáp án đúng</div>'+
+        '<div class="ru">'+esc(it.ru)+'</div>'+
+        '<div class="phon">['+esc(it.phonetic||"")+']</div>'+
+        '<div class="meaning">'+esc(it.meaning)+'</div>'+
+      '</div>';
+  }
+
+  wrap.innerHTML =
+    '<div class="review-stage">'+
+      '<div class="review-progress">Câu '+(rv.idx+1)+' / '+rv.queue.length+'</div>'+
+      '<div class="dict-card">'+
+        '<button class="rc-btn rc-speak dict-speak" id="dictSpeak">🔊 Nghe</button>'+
+        '<div class="hdr-sub" style="margin-top:8px;color:#6b7280;">Nghe rồi gõ lại đúng chính tả</div>'+
+      '</div>'+
+      (!answered
+        ? '<input type="text" id="dictInput" class="dict-input" placeholder="Gõ lại những gì bạn nghe..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">'+
+          '<button class="big-btn" id="dictSubmit">✔️ Kiểm tra</button>'
+        : feedbackHtml + '<button class="big-btn" id="dictNext">Tiếp theo ›</button>')+
+    '</div>';
+
+  document.getElementById("dictSpeak").addEventListener("click", function(){ speak(it.ru); });
+
+  if(!answered){
+    speak(it.ru); // tự phát âm ngay khi thẻ mới hiện ra
+    var input = document.getElementById("dictInput");
+    input.focus();
+    var submit = function(){
+      var exact = normalizeText(input.value) === normalizeText(it.ru);
+      var close = !exact && isCloseMatch(input.value, it.ru);
+      rv.dictResult = exact ? "exact" : close ? "close" : "wrong";
+      recordGrade(exact ? 5 : close ? 4 : 1);
+      renderReviewCard();
+    };
+    document.getElementById("dictSubmit").addEventListener("click", submit);
+    input.addEventListener("keydown", function(e){ if(e.key === "Enter") submit(); });
+  } else {
+    document.getElementById("dictNext").addEventListener("click", nextReviewCard);
   }
 }
 
