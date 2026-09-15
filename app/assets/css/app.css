@@ -38,6 +38,11 @@ body{
 .hdr-title{font-size:17px; font-weight:800; letter-spacing:.2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .hdr-sub{font-size:11.5px; opacity:.75; margin-top:1px;}
 .hdr-stat{flex:0 0 auto; font-size:11px; background:rgba(255,255,255,.14); padding:4px 9px; border-radius:20px; white-space:nowrap;}
+.help-btn{
+  flex:0 0 auto; width:32px; height:32px; border-radius:10px; border:none;
+  background:rgba(255,255,255,.14); color:#fff; font-size:14px; font-weight:800;
+  display:flex; align-items:center; justify-content:center;
+}
 
 .tabs{display:flex; gap:5px; margin-top:12px;}
 .tab{
@@ -168,11 +173,26 @@ body{
 .flash .tapline{color:var(--muted); font-size:13px; margin-top:16px;}
 .review-controls{display:flex; gap:10px; margin-top:14px;}
 .rc-btn{flex:1; padding:13px; border-radius:12px; border:none; font-size:14px; font-weight:800;}
-.rc-no{background:#FBE3E7; color:var(--red);}
-.rc-yes{background:#DFF3E8; color:var(--green);}
 .rc-speak{flex:0 0 52px; background:var(--cream); color:var(--navy); font-size:19px;}
 .review-done{padding:30px 20px; text-align:center; max-width:480px; margin:0 auto;}
 .review-done .big{font-size:40px;}
+.review-due-info{
+  text-align:center; font-size:12.5px; color:var(--muted); background:var(--cream);
+  border-radius:10px; padding:8px; margin-bottom:12px;
+}
+.review-due-info b{color:var(--navy-dark);}
+
+/* Chấm điểm ôn tập kiểu spaced repetition (SM-2) */
+.grade-row{display:flex; gap:8px; margin-top:10px;}
+.grade-btn{
+  flex:1; padding:10px 4px; border-radius:12px; border:none; font-size:13px; font-weight:800;
+  display:flex; flex-direction:column; align-items:center; gap:2px;
+}
+.grade-btn span{font-size:10.5px; font-weight:600; opacity:.85;}
+.grade-again{background:#FBE3E7; color:var(--red);}
+.grade-hard{background:#FDEBD3; color:#B4650A;}
+.grade-good{background:#DFF3E8; color:var(--green);}
+.grade-easy{background:#DCEBFF; color:var(--navy);}
 
 /* Language picker modal */
 .modal-back{
@@ -194,6 +214,23 @@ body{
 .lang-name{flex:1; font-size:14.5px; font-weight:700; color:var(--ink);}
 .lang-check{color:var(--green); font-weight:800;}
 .lang-soon{font-size:11px; color:var(--muted); background:var(--cream); padding:3px 8px; border-radius:20px;}
+
+/* Onboarding (hướng dẫn dùng app) */
+.onboard-sheet{
+  background:#fff; width:100%; max-width:480px; border-radius:18px 18px 0 0;
+  padding:28px calc(20px + var(--safe-r)) calc(20px + var(--safe-b)) calc(20px + var(--safe-l));
+  box-shadow:0 -4px 20px rgba(0,0,0,.2); text-align:center;
+}
+.onboard-icon{font-size:44px;}
+.onboard-title{font-size:17px; font-weight:800; color:var(--navy-dark); margin-top:10px;}
+.onboard-desc{font-size:13.5px; color:var(--muted); line-height:1.55; margin-top:8px;}
+.onboard-dots{display:flex; justify-content:center; gap:6px; margin-top:18px;}
+.onboard-dot{width:7px; height:7px; border-radius:50%; background:var(--line);}
+.onboard-dot.active{background:var(--navy); width:18px; border-radius:4px;}
+.onboard-actions{display:flex; gap:10px; margin-top:18px;}
+.onboard-btn{flex:1; padding:12px; border-radius:12px; border:none; font-size:14px; font-weight:800;}
+.onboard-btn.ghost{background:var(--cream); color:var(--muted);}
+.onboard-btn.primary{background:var(--navy); color:#fff;}
 
 /* Toast */
 .toast{

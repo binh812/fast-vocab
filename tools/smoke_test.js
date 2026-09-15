@@ -70,6 +70,23 @@ try {
   loadScript("js/app.js");
   const doc = window.document;
 
+  // 0. onboarding tự mở ở lần chạy đầu tiên (chưa có cờ fv_onboarded)
+  check("onboarding modal auto-opens on first boot", doc.getElementById("onboardBack").hidden === false);
+  check("onboarding shows first slide title", doc.querySelector(".onboard-title").textContent.indexOf("Chọn ngôn ngữ") !== -1);
+  check("onboarding first dot is active", doc.querySelectorAll(".onboard-dot")[0].classList.contains("active"));
+  doc.getElementById("obNext").click();
+  doc.getElementById("obNext").click();
+  check("onboarding advances through slides (dot 3 active)", doc.querySelectorAll(".onboard-dot")[2].classList.contains("active"));
+  doc.getElementById("obNext").click();
+  check("onboarding last slide shows start button", doc.getElementById("obNext").textContent.indexOf("Bắt đầu học") !== -1);
+  doc.getElementById("obNext").click();
+  check("onboarding closes after last slide and marks onboarded", doc.getElementById("onboardBack").hidden === true && window.localStorage.getItem("fv_onboarded") === "1");
+
+  doc.getElementById("helpBtn").click();
+  check("help button reopens onboarding", doc.getElementById("onboardBack").hidden === false);
+  window.onNativeBack();
+  check("back button closes onboarding instead of exiting", doc.getElementById("onboardBack").hidden === true && exitCalled === 0);
+
   // 1. boot -> lưới chủ đề
   let tiles = doc.querySelectorAll(".topic-tile");
   check("topic grid renders tiles on boot", tiles.length === 3 + 15);
@@ -139,16 +156,21 @@ try {
   doc.querySelector('.tab[data-tab="sentences"]').click();
   check("sentences tab shows topic grid (3 quick + 13 cats)", doc.querySelectorAll(".topic-tile").length === 3 + 13);
 
-  // 9. ôn tập flashcard - đúng luồng người dùng thực (không đổi dropdown mặc định)
+  // 9. ôn tập flashcard (spaced repetition) - đúng luồng người dùng thực (không đổi dropdown mặc định)
   doc.querySelector('.tab[data-tab="review"]').click();
+  check("review setup shows due/new card counts", doc.querySelector(".review-due-info").textContent.indexOf("thẻ cần ôn hôm nay") !== -1);
   let rvStart = doc.getElementById("rvStart");
   check("review setup renders start button", !!rvStart);
   rvStart.click();
   check("review starts and shows a flashcard", !!doc.getElementById("flashCard"));
+  check("grade buttons hidden before revealing answer", doc.querySelectorAll(".grade-row").length === 0);
   doc.getElementById("flashCard").click();
   check("flashcard reveals on click", doc.getElementById("flashCard").classList.contains("show"));
-  doc.getElementById("rvYes").click(); // đây là chỗ từng bị crash do state.review.pool chưa được set
-  check("review advances to card 2 after marking known", doc.querySelector(".review-progress").textContent.indexOf("2 /") !== -1);
+  let gradeBtns = doc.querySelectorAll(".grade-btn");
+  check("4 SM-2 grade buttons appear after reveal (Quên/Khó/Tốt/Dễ)", gradeBtns.length === 4);
+  check("grade buttons show next-interval preview text", gradeBtns[2].querySelector("span").textContent.indexOf("ngày") !== -1);
+  doc.querySelector('.grade-btn.grade-good').click(); // đây là chỗ từng bị crash do state.review.pool chưa được set
+  check("review advances to card 2 after grading", doc.querySelector(".review-progress").textContent.indexOf("2 /") !== -1);
 
   // 10. bảng chọn ngôn ngữ
   doc.querySelector('.tab[data-tab="words"]').click();

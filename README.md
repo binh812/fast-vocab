@@ -17,10 +17,11 @@ bash build.sh
 - 🔁 **Hai chiều tra cứu**: <Ngôn ngữ đích> → Việt (mặc định) hoặc Việt → <Ngôn ngữ đích> — đổi bằng nút gạt trong thanh công cụ, áp dụng cho cả danh sách (sắp xếp theo bảng chữ cái của ngôn ngữ đang hiển thị chính) lẫn chế độ Ôn tập flashcard.
 - 🔊 **Phát âm bằng giọng đọc hệ thống (Text-to-Speech)**, tự đổi locale theo ngôn ngữ đang chọn — không cần tải file âm thanh, có chế độ đọc chậm để nghe rõ từng âm.
 - ✅ Đánh dấu ★ yêu thích và ✓ đã thuộc, lưu riêng theo từng ngôn ngữ.
-- 🔁 Chế độ **Ôn tập** kiểu flashcard: chọn kho từ/câu + chủ đề + chiều tra cứu + số lượng thẻ, ưu tiên ôn thẻ chưa thuộc trước.
+- 🔁 Chế độ **Ôn tập** kiểu flashcard dùng **lịch lặp ngắt quãng (spaced repetition, thuật toán SM-2)**: mỗi thẻ có lịch ôn riêng (độ khó, khoảng cách ngày, ngày đến hạn) lưu theo từng ngôn ngữ; chấm điểm sau khi lật thẻ bằng 4 mức **Quên / Khó / Tốt / Dễ** — mỗi nút hiện sẵn khoảng cách đến lần ôn tiếp theo. Thẻ nhớ tốt giãn cách ra vài ngày/tuần/tháng, thẻ hay quên quay lại ngay hôm sau. Màn hình thiết lập hiện sẵn số thẻ đến hạn hôm nay + số thẻ mới theo chủ đề đã chọn.
 - 📱💻 **Responsive**: bố cục tự thích ứng điện thoại/tablet, dọc/ngang (lưới chủ đề và danh sách tự co giãn số cột, có tôn trọng vùng an toàn màn hình notch khi xoay ngang).
-- ⬅️ Nút Back hệ thống lùi từng lớp điều hướng trong app (đóng bảng ngôn ngữ → thoát ôn tập → thu gọn thẻ → xoá ô tìm kiếm toàn cục → về lưới chủ đề → về tab Từ vựng → mới thoát app), không thoát app đột ngột.
-- Dữ liệu và tiến trình học lưu offline trên máy (localStorage trong WebView) — dùng được không cần mạng.
+- 🧭 **Hướng dẫn dùng app (onboarding)**: 4 màn hình giới thiệu nhanh (đổi ngôn ngữ, duyệt chủ đề, tìm kiếm toàn cục, ôn tập thông minh) tự hiện ở lần mở đầu tiên; có thể xem lại bất cứ lúc nào qua nút ❓ ở góc header.
+- ⬅️ Nút Back hệ thống lùi từng lớp điều hướng trong app (đóng bảng hướng dẫn/ngôn ngữ → thoát ôn tập → thu gọn thẻ → xoá ô tìm kiếm toàn cục → về lưới chủ đề → về tab Từ vựng → mới thoát app), không thoát app đột ngột.
+- Dữ liệu và tiến trình học (yêu thích, đã thuộc, lịch ôn tập spaced repetition) lưu offline trên máy (localStorage trong WebView) — dùng được không cần mạng.
 
 ## Kiến trúc
 Theo đúng pattern các app khác trong máy: một Activity native (`MainActivity.java`) mở `WebView` load giao diện từ `app/assets/index.html` + `css/app.css` + `js/app.js`. Cầu nối `Android.speak()/speakSlow()/setLang()/exitApp()` gọi API Android thật; `setLang(code)` đổi locale TTS động (ru/en/fr/zh...) nên việc thêm ngôn ngữ mới không cần sửa code Java. Nút Back của hệ thống được JS quyết định qua `window.onNativeBack()`, chỉ gọi `Android.exitApp()` khi thực sự không còn gì để lùi trong app.
@@ -46,7 +47,7 @@ Với dữ liệu ở quy mô nhỏ hơn (chỉ vài chục mục trùng), có t
 cd tools && npm install jsdom   # chỉ cần 1 lần
 node smoke_test.js
 ```
-Script dùng jsdom giả lập WebView, click qua toàn bộ luồng chính (chọn chủ đề, tìm kiếm, đổi chiều tra cứu, ôn tập flashcard, đổi ngôn ngữ, nút Back) để bắt lỗi JS/CSS trước khi build APK thật. Đã từng bắt được 2 lỗi thật theo cách này: crash khi ôn tập không đổi dropdown mặc định, và lớp phủ bảng chọn ngôn ngữ bị đè CSS nên luôn hiện chặn hết thao tác.
+Script dùng jsdom giả lập WebView, click qua toàn bộ luồng chính (onboarding, chọn chủ đề, tìm kiếm toàn cục, đổi chiều tra cứu, ôn tập flashcard spaced repetition, đổi ngôn ngữ, nút Back) để bắt lỗi JS/CSS trước khi build APK thật. Đã từng bắt được 2 lỗi thật theo cách này: crash khi ôn tập không đổi dropdown mặc định, và lớp phủ bảng chọn ngôn ngữ bị đè CSS nên luôn hiện chặn hết thao tác.
 
 ## Cài lên máy
 Sau khi build xong, mở trình quản lý tệp trên điện thoại và bấm cài `NgoaiNguBoTui.apk` (cho phép "cài nguồn không xác định" nếu được hỏi), hoặc:

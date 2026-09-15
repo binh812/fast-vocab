@@ -31,6 +31,17 @@ var SENT_CATS = {
 };
 var POS_MAP = {n:"DT", v:"ĐT", adj:"TT", adv:"TRT", pron:"ĐgT", prep:"GT", conj:"LT", num:"ST", interj:"TH", phrase:"CỤM"};
 
+var ONBOARD_SLIDES = [
+  {icon:"🌐", title:"Chọn ngôn ngữ & chiều tra cứu",
+   desc:"Bấm vào lá cờ ở góc trên bên trái để đổi ngôn ngữ (Nga/Anh/Pháp/Trung). Mỗi ngôn ngữ có 2 chiều tra cứu — đổi bằng nút gạt trong thanh công cụ."},
+  {icon:"🗂️", title:"Duyệt theo chủ đề",
+   desc:"Tab Từ vựng và Câu giao tiếp chia theo chủ đề thực tế. Bấm 🔊 để nghe phát âm, ★ để đánh dấu yêu thích, ✓ khi đã thuộc — bấm vào thẻ để xem cách dùng và ví dụ."},
+  {icon:"🔎", title:"Tìm kiếm toàn cục",
+   desc:"Tab Tìm kiếm tra cứu xuyên suốt từ vựng, câu giao tiếp và thành ngữ cùng lúc. Tích chọn phạm vi muốn tìm — app sẽ nhớ lựa chọn này cho lần sau."},
+  {icon:"🔁", title:"Ôn tập theo lịch lặp thông minh",
+   desc:"Tab Ôn tập dùng lịch lặp ngắt quãng (spaced repetition): thẻ bạn nhớ tốt sẽ giãn ra vài ngày/tuần mới ôn lại, thẻ hay quên sẽ quay lại sớm hơn — hiệu quả hơn nhiều so với ôn ngẫu nhiên."}
+];
+
 /* ---------- storage (namespaced theo ngôn ngữ) ---------- */
 function loadSet(key){
   try{ var raw = localStorage.getItem(key); if(!raw) return {}; var arr = JSON.parse(raw);
@@ -52,16 +63,85 @@ function getSearchScope(){
   }catch(e){ return {words:true, sentences:true, idioms:true}; }
 }
 function saveSearchScope(scope){ try{ localStorage.setItem("fv_search_scope", JSON.stringify(scope)); }catch(e){} }
+function isOnboarded(){ try{ return localStorage.getItem("fv_onboarded") === "1"; }catch(e){ return true; } }
+function setOnboarded(){ try{ localStorage.setItem("fv_onboarded", "1"); }catch(e){} }
 
-var known = {}, fav = {};
+var known = {}, fav = {}, srs = {};
 function known_key(type, lang){ return "fv_known_"+type+"_"+lang; }
 function fav_key(type, lang){ return "fv_fav_"+type+"_"+lang; }
+function srs_key(type, lang){ return "fv_srs_"+type+"_"+lang; }
+function loadSrsSet(key){
+  try{ var raw = localStorage.getItem(key); if(!raw) return {}; return JSON.parse(raw); }catch(e){ return {}; }
+}
+function saveSrsSet(key, obj){ try{ localStorage.setItem(key, JSON.stringify(obj)); }catch(e){} }
 function loadUserData(lang){
   known = { words: loadSet(known_key("words", lang)), sentences: loadSet(known_key("sentences", lang)) };
   fav   = { words: loadSet(fav_key("words", lang)),   sentences: loadSet(fav_key("sentences", lang)) };
+  srs   = { words: loadSrsSet(srs_key("words", lang)), sentences: loadSrsSet(srs_key("sentences", lang)) };
 }
 function persistKnown(type){ saveSet(known_key(type, state.lang), known[type]); }
 function persistFav(type){ saveSet(fav_key(type, state.lang), fav[type]); }
+function persistSrs(type){ saveSrsSet(srs_key(type, state.lang), srs[type]); }
+
+/* ---------- spaced repetition (SM-2 rút gọn) ---------- */
+// quality: 1 = Quên, 3 = Khó, 4 = Tốt, 5 = Dễ
+function sm2(rec, quality){
+  if(quality < 3){
+    rec.reps = 0;
+    rec.interval = 1;
+  } else {
+    if(rec.reps === 0) rec.interval = 1;
+    else if(rec.reps === 1) rec.interval = 6;
+    else rec.interval = Math.round(rec.interval * rec.ease);
+    rec.reps += 1;
+  }
+  rec.ease = Math.max(1.3, rec.ease + (0.1 - (5-quality)*(0.08+(5-quality)*0.02)));
+  rec.due = Date.now() + rec.interval*24*60*60*1000;
+  return rec;
+}
+function newSrsRecord(){ return {ease:2.5, interval:0, reps:0, due:0}; }
+function previewInterval(rec, quality){
+  var copy = {ease:rec.ease, interval:rec.interval, reps:rec.reps, due:rec.due};
+  sm2(copy, quality);
+  return copy.interval;
+}
+function fmtDays(d){
+  if(d <= 1) return "1 ngày";
+  if(d < 30) return d + " ngày";
+  if(d < 365) return Math.round(d/30) + " tháng";
+  return Math.round(d/365) + " năm";
+}
+function reviewCounts(pool, topic){
+  var items = filteredItems(pool, topic, "all");
+  var srsPool = srs[pool];
+  var now = Date.now();
+  var due = 0, fresh = 0;
+  items.forEach(function(it){
+    var rec = srsPool[it.id];
+    if(!rec) fresh++;
+    else if(rec.due <= now) due++;
+  });
+  return {due:due, fresh:fresh, total:items.length};
+}
+function buildReviewQueue(pool, topic, count){
+  var items = filteredItems(pool, topic, "all");
+  var srsPool = srs[pool];
+  var now = Date.now();
+  var overdue = [], fresh = [], later = [];
+  items.forEach(function(it){
+    var rec = srsPool[it.id];
+    if(!rec) fresh.push(it);
+    else if(rec.due <= now) overdue.push({it:it, due:rec.due});
+    else later.push({it:it, due:rec.due});
+  });
+  overdue.sort(function(a,b){ return a.due - b.due; });
+  later.sort(function(a,b){ return a.due - b.due; });
+  var queue = overdue.map(function(x){return x.it;}).concat(shuffle(fresh));
+  if(queue.length < count){
+    queue = queue.concat(later.map(function(x){return x.it;}));
+  }
+  return queue.slice(0, count);
+}
 
 /* ---------- helpers ---------- */
 function esc(s){
@@ -101,6 +181,7 @@ var state = {
   searchScope: getSearchScope(), // {words, sentences, idioms} - phạm vi tìm kiếm, nhớ trạng thái qua localStorage
   renderedCount: 0,
   batch: 40,
+  onboardStep: 0,
   review: { pool:null, topic:"all", count:20, dir:null, queue:[], idx:0, revealed:false, gained:0 }
 };
 loadUserData(state.lang);
@@ -180,6 +261,7 @@ function buildShell(){
         '<div class="hdr-mid"><div class="hdr-title" id="hdrTitle"></div>'+
           '<div class="hdr-sub" id="hdrSub"></div></div>'+
         '<div class="hdr-stat" id="hdrStat"></div>'+
+        '<button class="help-btn" id="helpBtn" title="Hướng dẫn dùng app">❓</button>'+
       '</div>'+
       '<div class="tabs" id="tabs">'+
         '<div class="tab" data-tab="words">Từ vựng</div>'+
@@ -194,6 +276,9 @@ function buildShell(){
     '<div class="toast" id="toast"></div>'+
     '<div class="modal-back" id="langModalBack" hidden>'+
       '<div class="lang-sheet" id="langSheet"></div>'+
+    '</div>'+
+    '<div class="modal-back" id="onboardBack" hidden>'+
+      '<div class="onboard-sheet" id="onboardSheet"></div>'+
     '</div>';
 
   document.getElementById("tabs").addEventListener("click", function(e){
@@ -205,6 +290,10 @@ function buildShell(){
   document.getElementById("langBtn").addEventListener("click", openLangModal);
   document.getElementById("langModalBack").addEventListener("click", function(e){
     if(e.target.id === "langModalBack") closeLangModal();
+  });
+  document.getElementById("helpBtn").addEventListener("click", openOnboard);
+  document.getElementById("onboardBack").addEventListener("click", function(e){
+    if(e.target.id === "onboardBack") closeOnboard();
   });
 }
 
@@ -237,6 +326,45 @@ function openLangModal(){
   document.getElementById("langModalBack").hidden = false;
 }
 function closeLangModal(){ document.getElementById("langModalBack").hidden = true; }
+
+/* ---------- onboarding (hướng dẫn dùng app) ---------- */
+function openOnboard(){
+  state.onboardStep = 0;
+  renderOnboardStep();
+  document.getElementById("onboardBack").hidden = false;
+}
+function closeOnboard(){
+  document.getElementById("onboardBack").hidden = true;
+  setOnboarded();
+}
+function renderOnboardStep(){
+  var sheet = document.getElementById("onboardSheet");
+  var i = state.onboardStep;
+  var slide = ONBOARD_SLIDES[i];
+  var isLast = i === ONBOARD_SLIDES.length - 1;
+  var dots = ONBOARD_SLIDES.map(function(_, idx){
+    return '<span class="onboard-dot'+(idx===i?" active":"")+'"></span>';
+  }).join("");
+
+  sheet.innerHTML =
+    '<div class="onboard-icon">'+slide.icon+'</div>'+
+    '<div class="onboard-title">'+esc(slide.title)+'</div>'+
+    '<div class="onboard-desc">'+esc(slide.desc)+'</div>'+
+    '<div class="onboard-dots">'+dots+'</div>'+
+    '<div class="onboard-actions">'+
+      (i > 0 ? '<button class="onboard-btn ghost" id="obPrev">‹ Trước</button>' : '<button class="onboard-btn ghost" id="obSkip">Bỏ qua</button>')+
+      '<button class="onboard-btn primary" id="obNext">'+(isLast ? "Bắt đầu học! 🚀" : "Tiếp theo ›")+'</button>'+
+    '</div>';
+
+  var prevBtn = document.getElementById("obPrev");
+  if(prevBtn) prevBtn.addEventListener("click", function(){ state.onboardStep--; renderOnboardStep(); });
+  var skipBtn = document.getElementById("obSkip");
+  if(skipBtn) skipBtn.addEventListener("click", closeOnboard);
+  document.getElementById("obNext").addEventListener("click", function(){
+    if(isLast){ closeOnboard(); return; }
+    state.onboardStep++; renderOnboardStep();
+  });
+}
 
 function selectLang(code){
   if(code === state.lang) return;
@@ -535,11 +663,13 @@ function onMainClick(e){
 function renderReviewSetup(){
   var wrap = document.getElementById("reviewWrap");
   var pool = state.review.pool || "words";
+  var topic = state.review.topic || "all";
   var cats = catsFor(pool);
   var li = langInfo(state.lang);
   var dir = state.review.dir || state.dir;
+  var counts = reviewCounts(pool, topic);
   var catOpts = '<option value="all">Tất cả chủ đề</option>';
-  for(var k in cats) catOpts += '<option value="'+k+'"'+(state.review.topic===k?" selected":"")+'>'+cats[k].icon+' '+esc(cats[k].name)+'</option>';
+  for(var k in cats) catOpts += '<option value="'+k+'"'+(topic===k?" selected":"")+'>'+cats[k].icon+' '+esc(cats[k].name)+'</option>';
 
   wrap.innerHTML =
     '<div class="review-setup">'+
@@ -557,16 +687,17 @@ function renderReviewSetup(){
       '<div class="row"><select id="rvCount">'+
         [10,20,40,80].map(function(n){ return '<option value="'+n+'"'+(state.review.count===n?" selected":"")+'>'+n+' thẻ / phiên</option>'; }).join("")+
       '</select></div>'+
+      '<div class="review-due-info">🔴 <b>'+counts.due+'</b> thẻ cần ôn hôm nay · 🆕 <b>'+counts.fresh+'</b> thẻ mới · tổng '+counts.total+'</div>'+
       '<button class="big-btn" id="rvStart">▶️ Bắt đầu ôn tập</button>'+
-      '<div class="hdr-sub" style="color:#6b7280;margin-top:10px;">Ưu tiên các thẻ bạn chưa đánh dấu "đã thuộc". Bấm vào thẻ hoặc nút loa để nghe phát âm.</div>'+
+      '<div class="hdr-sub" style="color:#6b7280;margin-top:10px;">Ôn theo lịch lặp ngắt quãng: ưu tiên thẻ đến hạn/mới, thẻ nhớ tốt sẽ giãn cách xa hơn. Bấm vào thẻ hoặc nút loa để nghe phát âm.</div>'+
     '</div>';
 
   document.getElementById("rvPool").addEventListener("change", function(e){
     state.review.pool = e.target.value; state.review.topic = "all"; renderReviewSetup();
   });
-  document.getElementById("rvCat").addEventListener("change", function(e){ state.review.topic = e.target.value; });
+  document.getElementById("rvCat").addEventListener("change", function(e){ state.review.topic = e.target.value; renderReviewSetup(); });
   document.getElementById("rvDir").addEventListener("change", function(e){ state.review.dir = e.target.value; });
-  document.getElementById("rvCount").addEventListener("change", function(e){ state.review.count = parseInt(e.target.value,10); });
+  document.getElementById("rvCount").addEventListener("change", function(e){ state.review.count = parseInt(e.target.value,10); renderReviewSetup(); });
   document.getElementById("rvStart").addEventListener("click", startReview);
 }
 
@@ -575,11 +706,8 @@ function startReview(){
   var topic = state.review.topic = state.review.topic || "all";
   var count = state.review.count = state.review.count || 20;
   if(!state.review.dir) state.review.dir = state.dir;
-  var items = filteredItems(pool, topic, "all");
-  if(items.length === 0){ showToast("Không có thẻ nào trong chủ đề này"); return; }
-  var unknownItems = shuffle(items.filter(function(it){ return !known[pool][it.id]; }));
-  var knownItems = shuffle(items.filter(function(it){ return known[pool][it.id]; }));
-  var queue = unknownItems.concat(knownItems).slice(0, count);
+  var queue = buildReviewQueue(pool, topic, count);
+  if(queue.length === 0){ showToast("Không có thẻ nào trong chủ đề này"); return; }
   state.review.queue = queue;
   state.review.idx = 0;
   state.review.revealed = false;
@@ -616,6 +744,16 @@ function renderReviewCard(){
       (fwd ? '' : '<div class="phon">['+esc(it.phonetic||"")+']</div>')+
       '<div class="phon" style="margin-top:8px;">'+esc(it.note||"")+'</div>';
 
+  var rec = srs[type][it.id] || newSrsRecord();
+  var gradeRow = rv.revealed
+    ? '<div class="grade-row">'+
+        '<button class="grade-btn grade-again" data-q="1">Quên<span>'+fmtDays(previewInterval(rec,1))+'</span></button>'+
+        '<button class="grade-btn grade-hard" data-q="3">Khó<span>'+fmtDays(previewInterval(rec,3))+'</span></button>'+
+        '<button class="grade-btn grade-good" data-q="4">Tốt<span>'+fmtDays(previewInterval(rec,4))+'</span></button>'+
+        '<button class="grade-btn grade-easy" data-q="5">Dễ<span>'+fmtDays(previewInterval(rec,5))+'</span></button>'+
+      '</div>'
+    : '';
+
   wrap.innerHTML =
     '<div class="review-stage">'+
       '<div class="review-progress">Thẻ '+(rv.idx+1)+' / '+rv.queue.length+'</div>'+
@@ -626,25 +764,39 @@ function renderReviewCard(){
       '</div>'+
       '<div class="review-controls">'+
         '<button class="rc-btn rc-speak" id="rvSpeak">🔊</button>'+
-        '<button class="rc-btn rc-no" id="rvNo">Chưa thuộc</button>'+
-        '<button class="rc-btn rc-yes" id="rvYes">Đã thuộc</button>'+
       '</div>'+
+      gradeRow+
     '</div>';
 
   document.getElementById("flashCard").addEventListener("click", function(){
     rv.revealed = !rv.revealed; renderReviewCard();
   });
   document.getElementById("rvSpeak").addEventListener("click", function(e){ e.stopPropagation(); speak(it.ru); });
-  document.getElementById("rvNo").addEventListener("click", function(e){
-    e.stopPropagation();
+  var gradeRowEl = wrap.querySelector(".grade-row");
+  if(gradeRowEl){
+    gradeRowEl.addEventListener("click", function(e){
+      var b = e.target.closest(".grade-btn"); if(!b) return;
+      e.stopPropagation();
+      gradeCard(parseInt(b.getAttribute("data-q"), 10));
+    });
+  }
+}
+
+function gradeCard(quality){
+  var rv = state.review;
+  var type = rv.pool;
+  var it = rv.queue[rv.idx];
+  var rec = srs[type][it.id] || newSrsRecord();
+  sm2(rec, quality);
+  srs[type][it.id] = rec;
+  persistSrs(type);
+
+  if(quality < 3){
     if(known[type][it.id]){ delete known[type][it.id]; persistKnown(type); }
-    nextReviewCard();
-  });
-  document.getElementById("rvYes").addEventListener("click", function(e){
-    e.stopPropagation();
+  } else if(rec.reps >= 2){
     if(!known[type][it.id]){ known[type][it.id] = true; persistKnown(type); rv.gained++; }
-    nextReviewCard();
-  });
+  }
+  nextReviewCard();
 }
 
 function nextReviewCard(){
@@ -655,7 +807,11 @@ function nextReviewCard(){
 
 /* ---------- điều hướng nút Back của hệ thống ---------- */
 window.onNativeBack = function(){
-  // 1. đang mở bảng chọn ngôn ngữ -> đóng lại
+  // 1. đang mở bảng hướng dẫn dùng app -> đóng lại
+  var onboardModal = document.getElementById("onboardBack");
+  if(onboardModal && !onboardModal.hidden){ closeOnboard(); return; }
+
+  // 1b. đang mở bảng chọn ngôn ngữ -> đóng lại
   var modal = document.getElementById("langModalBack");
   if(modal && !modal.hidden){ closeLangModal(); return; }
 
@@ -701,6 +857,7 @@ buildShell();
 refreshHeaderChrome();
 setTab("words");
 setNativeLang(state.lang);
+if(!isOnboarded()) openOnboard();
 
 window.onTtsReady = function(ok){
   if(!ok) showToast("⚠️ Thiết bị chưa có giọng đọc " + langInfo(state.lang).name.toLowerCase() + " cho Text-to-Speech");
