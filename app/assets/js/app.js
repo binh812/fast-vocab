@@ -832,6 +832,7 @@ function selectLang(code){
 function setTab(tab){
   state.tab = tab; state.view = "topics"; state.topic = "all"; state.status = "all";
   stopSequence();
+  stopLessonVideo();
   Array.prototype.forEach.call(document.querySelectorAll(".tab"), function(el){
     el.classList.toggle("active", el.getAttribute("data-tab") === tab);
   });
@@ -1243,6 +1244,7 @@ function playSequence(steps, onStep, onEnd){
 
 function renderBuilder(){
   stopSequence();
+  stopLessonVideo();
   var v = state.builder.view;
   if(v === "lesson" && currentLesson()) renderBuilderLesson();
   else if(v === "practice" && currentLesson() && state.builder.practice) renderBuilderPractice();
@@ -1421,7 +1423,10 @@ function renderBuilderLesson(){
           '<div class="bd-note">💡 ' + esc(l.note) + '</div>'+
         '</div>'+
       '</div>'+
-      (window.LessonVideo ? '<button class="bd-video-btn" id="bdVideo">📺 Xem video bài giảng <span>~' + Math.round(LessonVideo.plan(l, state.lang).duration / 10) * 10 + ' giây</span></button>' : '')+
+      (window.LessonVideo
+        ? '<section class="bd-sec bd-video-sec"><div class="bd-sec-title"><span>📺</span>Video bài giảng <small>~' + Math.round(LessonVideo.plan(l, state.lang).duration / 10) * 10 + ' giây</small></div>'+
+          '<div class="lv-player" id="bdVideo"></div></section>'
+        : '')+
       '<div class="bd-nav" id="bdNav">' + nav.map(function(n){ return '<button data-go="' + n[0] + '">' + n[1] + '</button>'; }).join("") + '</div>'+
       secs.join("")+
       '<button class="big-btn bd-practice-btn" id="bdPractice">🎯 Luyện tập bài này</button>'+
@@ -1431,7 +1436,7 @@ function renderBuilderLesson(){
   document.getElementById("bdBack").addEventListener("click", function(){ state.builder.view = "list"; renderBuilder(); });
   document.getElementById("bdPractice").addEventListener("click", startBuilderPractice);
   var vb = document.getElementById("bdVideo");
-  if(vb) vb.addEventListener("click", function(){ openLessonVideo(l); });
+  if(vb) mountLessonVideo(vb, l);
   document.getElementById("bdNav").addEventListener("click", function(e){
     var b = e.target.closest("[data-go]"); if(!b) return;
     var target = document.getElementById(b.getAttribute("data-go"));
@@ -1699,7 +1704,7 @@ function renderBuilderPracticeDone(){
   updateHdrStat();
 }
 
-/* ---------- video bài giảng trong app (js/lesson_video.js — cùng kịch bản/hình với file MP4 xuất ra) ---------- */
+/* ---------- video bài giảng, phát ngay trong trang bài học (js/lesson_video.js — cùng kịch bản/hình với file MP4) ---------- */
 var lvPlayer = null;
 function speakCue(c){
   try{
@@ -1708,54 +1713,68 @@ function speakCue(c){
   }catch(e){}
 }
 function stopSpeech(){ try{ if(window.Android && Android.stopSpeak) Android.stopSpeak(); }catch(e){} }
-function openLessonVideo(l){
-  stopSequence();
-  var ov = document.createElement("div");
-  ov.className = "lv-overlay";
-  ov.id = "lvOverlay";
-  ov.innerHTML =
-    '<div class="lv-fit"><div class="lv-host" id="lvHost"></div></div>'+
+function stopLessonVideo(){
+  var p = lvPlayer;
+  if(!p) return;
+  cancelAnimationFrame(p.raf);
+  if(p.playing) stopSpeech();
+  window.removeEventListener("resize", p.fit);
+  document.body.classList.remove("lv-full-open");
+  if(p.placeholder && p.box.parentNode) p.box.parentNode.removeChild(p.box); // đang phóng to ngoài <body>
+  lvPlayer = null;
+}
+function mountLessonVideo(box, l){
+  stopLessonVideo();
+  box.innerHTML =
+    '<div class="lv-fit"><div class="lv-host"></div><button class="lv-bigplay" title="Phát video">▶</button></div>'+
     '<div class="lv-controls">'+
-      '<button id="lvClose" title="Đóng">✕</button>'+
-      '<button id="lvPrev" title="Cảnh trước">⏮</button>'+
-      '<button id="lvPlay" class="main" title="Phát / tạm dừng">⏸</button>'+
-      '<button id="lvNext" title="Cảnh sau">⏭</button>'+
-      '<input type="range" id="lvSeek" min="0" max="1000" value="0">'+
-      '<span id="lvTime">0:00</span>'+
+      '<button data-c="play" class="main" title="Phát / tạm dừng">▶</button>'+
+      '<button data-c="prev" title="Cảnh trước">⏮</button>'+
+      '<button data-c="next" title="Cảnh sau">⏭</button>'+
+      '<input type="range" min="0" max="1000" value="0">'+
+      '<span class="lv-time">0:00</span>'+
+      '<button data-c="full" title="Toàn màn hình">⛶</button>'+
     '</div>';
-  document.body.appendChild(ov);
-  var host = document.getElementById("lvHost");
-  // thời lượng trong app là ước lượng theo TTS của máy -> nới 15% để câu sau không cắt ngang câu trước
-  var V = LessonVideo.mount(host, l, state.lang, {slack:1.1, tutor: tutorActive() ? "3d" : "2d"});
-  var p = lvPlayer = {V:V, t:0, playing:true, last:0, nextCue:0, raf:0, overlay:ov};
-  if(V.tutorMode === "3d") Tutor.attach(V.tutorEl, null, function(){});
+  var host = box.querySelector(".lv-host"), fitEl = box.querySelector(".lv-fit");
+  var playBtn = box.querySelector('[data-c="play"]'), big = box.querySelector(".lv-bigplay");
+  var seekEl = box.querySelector('input[type="range"]'), timeEl = box.querySelector(".lv-time");
+  // gia sư trong video dùng bản 2D để không "giành" gia sư 3D đang hiện ở thanh trên của trang.
+  // Thời lượng trong app là ước lượng theo TTS của máy -> nới 10% để câu sau không cắt ngang câu trước
+  var V = LessonVideo.mount(host, l, state.lang, {slack:1.1, tutor:"2d"});
+  var intro = V.scenes[0];
+  var poster = (intro.marks.pivot || intro.at) + 1.0; // ảnh xem trước: lúc thẻ từ trụ đã hiện
+  var p = lvPlayer = {V:V, t:poster, playing:false, last:0, nextCue:0, raf:0, box:box, started:false};
 
-  function fit(){
-    var fitEl = ov.querySelector(".lv-fit");
-    var sc = Math.min(fitEl.clientWidth / 540, fitEl.clientHeight / 960);
+  p.fit = function(){
+    var full = box.classList.contains("lv-full");
+    var w = fitEl.clientWidth || box.clientWidth || 360;
+    var ctrlH = box.querySelector(".lv-controls").offsetHeight || 52;
+    var maxH = full ? (window.innerHeight - ctrlH) : Math.min(window.innerHeight * 0.62, 620);
+    var sc = Math.min(w / 540, maxH / 960);
+    // toàn màn hình: khung chiếm hết chiều cao, video căn giữa cả 2 chiều
+    var boxH = full ? maxH : 960 * sc;
+    fitEl.style.height = Math.round(boxH) + "px";
     host.style.transform = "scale(" + sc + ")";
-    host.style.width = "540px"; host.style.height = "960px";
-    host.style.marginLeft = ((fitEl.clientWidth - 540 * sc) / 2) + "px";
-    host.style.marginTop = ((fitEl.clientHeight - 960 * sc) / 2) + "px";
-  }
-  fit();
-  p.onResize = fit;
-  window.addEventListener("resize", fit);
-
+    host.style.marginLeft = Math.max(0, (w - 540 * sc) / 2) + "px";
+    host.style.marginTop = Math.max(0, (boxH - 960 * sc) / 2) + "px";
+  };
   function fmt(sec){ sec = Math.max(0, Math.floor(sec)); return Math.floor(sec / 60) + ":" + pad2(sec % 60); }
   function render(){
     V.seek(p.t);
-    document.getElementById("lvSeek").value = Math.round(p.t / V.duration * 1000);
-    document.getElementById("lvTime").textContent = fmt(p.t) + " / " + fmt(V.duration);
+    seekEl.value = Math.round(p.t / V.duration * 1000);
+    timeEl.textContent = fmt(p.t) + " / " + fmt(V.duration);
   }
   // câu đọc vừa bắt đầu trong 0.8s trước vẫn được đọc (tua tới đầu cảnh hơi lố vẫn nghe đủ câu)
   function syncCue(){ p.nextCue = 0; while(p.nextCue < V.cues.length && V.cues[p.nextCue].at < p.t - 0.8) p.nextCue++; }
-  function jump(t){ p.t = Math.max(0, Math.min(V.duration, t)); stopSpeech(); syncCue(); render(); }
+  function jump(t){ p.t = Math.max(0, Math.min(V.duration, t)); if(p.playing) stopSpeech(); syncCue(); render(); }
   function setPlaying(on){
     p.playing = on;
-    document.getElementById("lvPlay").textContent = on ? "⏸" : "▶️";
-    if(!on) stopSpeech();
-    else { if(p.t >= V.duration - 0.05) jump(0); p.last = 0; syncCue(); }
+    playBtn.textContent = on ? "⏸" : "▶";
+    big.style.display = on ? "none" : "";
+    if(!on){ stopSpeech(); return; }
+    if(!p.started){ p.started = true; p.t = 0; logActivity(); } // lần đầu bấm phát: xem từ đầu (ảnh xem trước nằm giữa cảnh mở đầu)
+    if(p.t >= V.duration - 0.05) p.t = 0;
+    p.last = 0; syncCue(); render();
   }
   function frame(ms){
     p.raf = requestAnimationFrame(frame);
@@ -1768,30 +1787,43 @@ function openLessonVideo(l){
     render();
   }
   function sceneIndex(){ var si = 0; V.scenes.forEach(function(s, i){ if(p.t >= s.at - 0.01) si = i; }); return si; }
-  document.getElementById("lvClose").addEventListener("click", closeLessonVideo);
-  document.getElementById("lvPlay").addEventListener("click", function(){ setPlaying(!p.playing); });
-  document.getElementById("lvPrev").addEventListener("click", function(){
-    var si = sceneIndex();
-    jump((p.t - V.scenes[si].at > 1.5 ? V.scenes[si].at : V.scenes[Math.max(0, si - 1)].at) + 0.6);
+  p.setFull = function(on){
+    // đưa trình phát ra thẳng <body> khi phóng to: mục chứa video có hiệu ứng transform nên position:fixed
+    // bên trong sẽ bám theo mục đó thay vì phủ cả màn hình
+    if(on && !p.placeholder){
+      p.placeholder = document.createElement("div");
+      box.parentNode.insertBefore(p.placeholder, box);
+      document.body.appendChild(box);
+    } else if(!on && p.placeholder){
+      p.placeholder.parentNode.insertBefore(box, p.placeholder);
+      p.placeholder.parentNode.removeChild(p.placeholder);
+      p.placeholder = null;
+    }
+    box.classList.toggle("lv-full", on);
+    document.body.classList.toggle("lv-full-open", on);
+    box.querySelector('[data-c="full"]').textContent = on ? "✕" : "⛶";
+    p.fit();
+  };
+  big.addEventListener("click", function(){ setPlaying(true); });
+  fitEl.addEventListener("click", function(e){ if(e.target !== big && p.started) setPlaying(!p.playing); });
+  box.querySelector(".lv-controls").addEventListener("click", function(e){
+    var b = e.target.closest("[data-c]"); if(!b) return;
+    var c = b.getAttribute("data-c");
+    if(c === "play") setPlaying(!p.playing);
+    else if(c === "full") p.setFull(!box.classList.contains("lv-full"));
+    else {
+      if(!p.started){ p.started = true; p.t = 0; }
+      var si = sceneIndex();
+      // +0.6s: tới lúc nội dung cảnh đã hiện ra
+      if(c === "next") jump(si + 1 < V.scenes.length ? V.scenes[si + 1].at + 0.6 : V.duration);
+      else jump((p.t - V.scenes[si].at > 1.5 ? V.scenes[si].at : V.scenes[Math.max(0, si - 1)].at) + 0.6);
+    }
   });
-  document.getElementById("lvNext").addEventListener("click", function(){
-    var si = sceneIndex();
-    jump(si + 1 < V.scenes.length ? V.scenes[si + 1].at + 0.6 : V.duration); // +0.6s: tới lúc nội dung cảnh đã hiện
-  });
-  document.getElementById("lvSeek").addEventListener("input", function(e){ jump(e.target.value / 1000 * V.duration); });
+  seekEl.addEventListener("input", function(e){ if(!p.started){ p.started = true; } jump(e.target.value / 1000 * V.duration); });
+  window.addEventListener("resize", p.fit);
+  p.fit();
   render();
   p.raf = requestAnimationFrame(frame);
-  logActivity();
-}
-function closeLessonVideo(){
-  var p = lvPlayer;
-  if(!p) return;
-  cancelAnimationFrame(p.raf);
-  stopSpeech();
-  window.removeEventListener("resize", p.onResize);
-  if(p.overlay.parentNode) p.overlay.parentNode.removeChild(p.overlay);
-  lvPlayer = null;
-  if(window.Tutor){ Tutor.releaseDrive(); refreshTutor(); } // trả gia sư về chỗ cũ trong app
 }
 
 /* pháo giấy khi xong bài (CSS thuần, tự dọn sau 2.5s) */
@@ -2137,8 +2169,8 @@ function nextReviewCard(){
 
 /* ---------- điều hướng nút Back của hệ thống ---------- */
 window.onNativeBack = function(){
-  // 0. đang xem video bài giảng -> đóng video
-  if(lvPlayer){ closeLessonVideo(); return; }
+  // 0. video bài giảng đang phóng toàn màn hình -> thu về trong trang
+  if(lvPlayer && lvPlayer.box.classList.contains("lv-full")){ lvPlayer.setFull(false); return; }
 
   // 1. đang mở bảng Tiến trình học -> đóng lại
   var dashModal = document.getElementById("dashBack");

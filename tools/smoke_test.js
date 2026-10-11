@@ -206,16 +206,21 @@ try {
   check("tapping a node speaks it", lastSpoken === L1.branches[0].steps[2].t);
   doc.querySelector("#bdMore .bd-ex").click();
   check("tapping an extra example speaks it", lastSpoken === L1.more[0].t);
-  // video bài giảng trong app
-  doc.getElementById("bdVideo").click();
-  check("lesson video opens in a fullscreen player", !!doc.getElementById("lvOverlay"));
-  check("video uses the 2D tutor when WebGL is unavailable", !!doc.querySelector("#lvHost .lv-tutor svg"));
-  const t0 = doc.getElementById("lvTime").textContent;
-  doc.getElementById("lvNext").click();
-  check("next-scene button jumps forward in the video", doc.getElementById("lvTime").textContent !== t0);
-  check("video shows the pivot of the lesson", doc.querySelector("#lvHost .lv-pivot").textContent.indexOf(L1.pivot.t) !== -1);
+  // video bài giảng phát ngay trong trang bài học
+  const vbox = doc.getElementById("bdVideo");
+  check("lesson video player is embedded in the lesson page", !!vbox && !!vbox.querySelector(".lv-stage"));
+  check("video shows a poster frame with the pivot before playing", vbox.querySelector(".lv-pivot").style.opacity > 0.5 && !!vbox.querySelector(".lv-bigplay"));
+  check("video uses the 2D tutor (3D tutor stays in the page bar)", !!vbox.querySelector(".lv-tutor svg"));
+  vbox.querySelector(".lv-bigplay").click();
+  check("big play button starts playback from the beginning", vbox.querySelector('[data-c="play"]').textContent === "⏸" && /^0:00/.test(vbox.querySelector(".lv-time").textContent));
+  vbox.querySelector('[data-c="next"]').click();
+  check("next-scene button jumps forward", !/^0:0[0-2]/.test(vbox.querySelector(".lv-time").textContent));
+  vbox.querySelector('[data-c="full"]').click();
+  check("fullscreen button expands the player", vbox.classList.contains("lv-full"));
   window.onNativeBack();
-  check("back button closes the video player", !doc.getElementById("lvOverlay"));
+  check("back button shrinks fullscreen video back into the page", !vbox.classList.contains("lv-full") && !!doc.querySelector(".bd-pivot"));
+  vbox.querySelector('[data-c="play"]').click();
+  check("play button pauses the video", vbox.querySelector('[data-c="play"]').textContent === "▶");
 
   doc.getElementById("bdPlay").click();
   check("'watch step by step' animation dims nodes then lights the first one", doc.querySelectorAll(".bd-node.dim").length === 8 && doc.querySelectorAll(".bd-node.lit").length === 1);

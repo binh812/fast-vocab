@@ -66,7 +66,7 @@ node smoke_test.js
 Script dùng jsdom giả lập WebView, click qua toàn bộ luồng chính (onboarding, chọn chủ đề, tìm kiếm toàn cục, đổi chiều tra cứu, ôn tập flashcard spaced repetition, đổi ngôn ngữ, nút Back) để bắt lỗi JS/CSS trước khi build APK thật. Đã từng bắt được 2 lỗi thật theo cách này: crash khi ôn tập không đổi dropdown mặc định, và lớp phủ bảng chọn ngôn ngữ bị đè CSS nên luôn hiện chặn hết thao tác.
 
 ## Video bài giảng Ghép câu (video-as-code)
-Mỗi bài Ghép câu có nút **"📺 Xem video bài giảng"**: trình phát toàn màn hình (khung dọc 9:16, tự co giãn theo màn hình), gia sư thuyết minh bằng tiếng Việt xen câu mẫu bằng giọng ngôn ngữ đích, có phụ đề + phiên âm, các cảnh: mở đầu (từ trụ) → công thức câu → ghép từng bước 3 nhánh → lỗi hay gặp → hội thoại mẫu → mẹo nhớ. Kịch bản dựng tự động từ dữ liệu bài học (`app/assets/js/lesson_video.js`), tua được tới bất kỳ thời điểm nào; trong app dùng giọng TTS của máy (lời giảng cần máy có giọng tiếng Việt, không có thì vẫn có phụ đề).
+Mỗi bài Ghép câu có mục **"📺 Video bài giảng"** phát ngay trong trang bài (ngay dưới thẻ từ trụ, có ảnh xem trước + nút ▶; nút ⛶ để phóng toàn màn hình, nút Back để thu lại; rời trang thì tự dừng) — khung dọc 9:16 tự co giãn theo màn hình, gia sư thuyết minh bằng tiếng Việt xen câu mẫu bằng giọng ngôn ngữ đích, có phụ đề + phiên âm, các cảnh: mở đầu (từ trụ) → công thức câu → ghép từng bước 3 nhánh → lỗi hay gặp → hội thoại mẫu → mẹo nhớ. Kịch bản dựng tự động từ dữ liệu bài học (`app/assets/js/lesson_video.js`), tua được tới bất kỳ thời điểm nào; trong app dùng giọng TTS của máy (lời giảng cần máy có giọng tiếng Việt, không có thì vẫn có phụ đề).
 
 Cùng kịch bản đó xuất được thành **file MP4** (1080×1920, để chia sẻ Zalo/YouTube):
 ```

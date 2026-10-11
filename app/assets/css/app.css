@@ -840,20 +840,22 @@ body{
 .lv-sub-t .lv-hl{color:#FFE45C;}
 .lv-sub-ph{font-size:16px; font-style:italic; opacity:.85; margin-top:2px;}
 
-/* trình phát video bài giảng trong app */
-.bd-video-btn{
-  width:100%; margin-top:12px; border:none; border-radius:14px; padding:13px 14px; font-size:15px; font-weight:800; color:#fff;
-  background:linear-gradient(135deg,#E0312F,#8E44AD); box-shadow:var(--shadow); display:flex; align-items:center; justify-content:center; gap:8px;
+/* trình phát video bài giảng, nằm ngay trong trang bài học (nút ⛶ để phóng toàn màn hình) */
+.bd-sec-title small{font-size:11.5px; font-weight:700; color:var(--muted); margin-left:2px;}
+.lv-player{background:#05070d; border-radius:16px; overflow:hidden; box-shadow:var(--shadow);}
+.lv-fit{position:relative; overflow:hidden; cursor:pointer;}
+.lv-host{position:absolute; left:0; top:0; width:540px; height:960px; transform-origin:0 0;}
+.lv-bigplay{
+  position:absolute; left:50%; top:46%; transform:translate(-50%,-50%); width:76px; height:76px; border-radius:50%; border:none;
+  background:rgba(224,49,47,.92); color:#fff; font-size:30px; padding-left:6px; box-shadow:0 8px 26px rgba(0,0,0,.45); animation:pivotGlow 2.4s ease-in-out infinite;
 }
-.bd-video-btn span{font-size:12px; font-weight:700; background:rgba(255,255,255,.2); border-radius:10px; padding:2px 8px;}
-.lv-overlay{position:fixed; inset:0; z-index:90; background:#05070d; display:flex; flex-direction:column;}
-.lv-fit{flex:1; min-height:0; overflow:hidden; position:relative;}
-.lv-host{transform-origin:0 0; border-radius:14px; overflow:hidden;}
-.lv-controls{
-  flex:0 0 auto; display:flex; align-items:center; gap:8px; color:#fff;
-  padding:8px calc(12px + var(--safe-r)) calc(10px + var(--safe-b)) calc(12px + var(--safe-l));
-}
-.lv-controls button{width:40px; height:40px; border:none; border-radius:12px; background:rgba(255,255,255,.12); color:#fff; font-size:16px; flex:0 0 auto;}
+.lv-controls{display:flex; align-items:center; gap:7px; color:#fff; padding:8px 10px;}
+.lv-controls button{width:38px; height:38px; border:none; border-radius:11px; background:rgba(255,255,255,.12); color:#fff; font-size:15px; flex:0 0 auto;}
 .lv-controls button.main{background:#E0312F;}
-.lv-controls input[type=range]{flex:1; min-width:60px; accent-color:#FFE45C;}
-.lv-controls span{font-size:12px; font-variant-numeric:tabular-nums; opacity:.85; flex:0 0 auto;}
+.lv-controls input[type=range]{flex:1; min-width:40px; accent-color:#FFE45C;}
+.lv-controls .lv-time{font-size:11.5px; font-variant-numeric:tabular-nums; opacity:.85; flex:0 0 auto;}
+.lv-player.lv-full{position:fixed; inset:0; z-index:90; border-radius:0; display:flex; flex-direction:column;}
+.lv-player.lv-full .lv-fit{flex:1;}
+.lv-player.lv-full .lv-controls{padding-bottom:calc(10px + var(--safe-b)); padding-left:calc(12px + var(--safe-l)); padding-right:calc(12px + var(--safe-r));}
+body.lv-full-open .tutor-float{display:none;}
+@media (max-width:360px){ .lv-controls{gap:5px; padding:7px;} .lv-controls button{width:34px; height:34px;} }
