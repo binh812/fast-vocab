@@ -10,9 +10,10 @@ SDK="$HOME/sdk/android.jar"
 KS="$HOME/.fastvocab.keystore"
 OUT="$ROOT/NgoaiNguBoTui.apk"
 
-echo "[1/7] Dọn build cũ..."
+echo "[1/7] Dọn build cũ + cập nhật data/meta.js (số từ/câu mỗi ngôn ngữ)..."
 rm -rf "$BUILD"
 mkdir -p "$BUILD/classes" "$BUILD/dex"
+python3 "$ROOT/datagen/gen_meta.py" >/dev/null
 
 echo "[2/7] aapt2 compile resources..."
 aapt2 compile --dir "$APP/res" -o "$BUILD/res.zip"

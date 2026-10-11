@@ -35,9 +35,11 @@ var ONBOARD_SLIDES = [
   {icon:"🌐", title:"Chọn ngôn ngữ & chiều tra cứu",
    desc:"Bấm vào lá cờ ở góc trên bên trái để đổi ngôn ngữ (Nga/Anh/Pháp/Trung). Mỗi ngôn ngữ có 2 chiều tra cứu — đổi bằng nút gạt trong thanh công cụ."},
   {icon:"🗂️", title:"Duyệt theo chủ đề",
-   desc:"Tab Từ vựng và Câu giao tiếp chia theo chủ đề thực tế. Bấm 🔊 để nghe phát âm, ★ để đánh dấu yêu thích, ✓ khi đã thuộc — bấm vào thẻ để xem cách dùng và ví dụ."},
+   desc:"Tab Từ vựng và Câu chia theo chủ đề thực tế. Bấm 🔊 để nghe phát âm, ★ để đánh dấu yêu thích, ✓ khi đã thuộc — bấm vào thẻ để xem cách dùng và ví dụ."},
   {icon:"🔎", title:"Tìm kiếm toàn cục",
    desc:"Tab Tìm kiếm tra cứu xuyên suốt từ vựng, câu giao tiếp và thành ngữ cùng lúc. Tích chọn phạm vi muốn tìm — app sẽ nhớ lựa chọn này cho lần sau."},
+  {icon:"🧩", title:"Ghép câu từng bước",
+   desc:"Tab Ghép câu học theo phương pháp từ trụ → cụm từ → câu hoàn chỉnh (vd: nói → không nói → Tôi không nói), rồi luyện xếp các ô chữ thành câu. 36 bài từ cơ bản đến nâng cao."},
   {icon:"🔁", title:"Ôn tập theo lịch lặp thông minh",
    desc:"Tab Ôn tập dùng lịch lặp ngắt quãng (spaced repetition): thẻ bạn nhớ tốt sẽ giãn ra vài ngày/tuần mới ôn lại, thẻ hay quên sẽ quay lại sớm hơn — hiệu quả hơn nhiều so với ôn ngẫu nhiên."}
 ];
@@ -69,6 +71,25 @@ function getReviewMode(){ try{ return localStorage.getItem("fv_review_mode") || 
 function getTutorPref(){ try{ return localStorage.getItem("fv_tutor") !== "0"; }catch(e){ return true; } }
 function setTutorPref(on){ try{ localStorage.setItem("fv_tutor", on ? "1" : "0"); }catch(e){} }
 function setReviewModeStore(m){ try{ localStorage.setItem("fv_review_mode", m); }catch(e){} }
+function getThemePref(){ try{ return localStorage.getItem("fv_theme") || "auto"; }catch(e){ return "auto"; } }
+function setThemePref(v){ try{ localStorage.setItem("fv_theme", v); }catch(e){} }
+function getTextZoom(){ try{ return parseInt(localStorage.getItem("fv_text_zoom"), 10) || 100; }catch(e){ return 100; } }
+function setTextZoomPref(v){ try{ localStorage.setItem("fv_text_zoom", String(v)); }catch(e){} }
+
+/* ---------- giao diện sáng/tối + cỡ chữ ---------- */
+function systemPrefersDark(){
+  try{ if(window.Android && Android.isSystemDark) return !!Android.isSystemDark(); }catch(e){}
+  try{ return !!(window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches); }catch(e){ return false; }
+}
+function applyTheme(){
+  var pref = getThemePref();
+  var dark = pref === "dark" || (pref === "auto" && systemPrefersDark());
+  document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+  try{ if(window.Android && Android.setSystemBarsDark) Android.setSystemBarsDark(dark); }catch(e){}
+}
+function applyTextZoom(){
+  try{ if(window.Android && Android.setTextZoom) Android.setTextZoom(getTextZoom()); }catch(e){}
+}
 
 /* ---------- streak & hoạt động học hằng ngày (toàn app, không theo ngôn ngữ) ---------- */
 function pad2(n){ return n < 10 ? "0"+n : ""+n; }
@@ -118,6 +139,7 @@ function sm2(rec, quality){
   if(quality < 3){
     rec.reps = 0;
     rec.interval = 1;
+    rec.lapses = (rec.lapses || 0) + 1;
   } else {
     if(rec.reps === 0) rec.interval = 1;
     else if(rec.reps === 1) rec.interval = 6;
@@ -140,8 +162,18 @@ function fmtDays(d){
   if(d < 365) return Math.round(d/30) + " tháng";
   return Math.round(d/365) + " năm";
 }
+/* topic đặc biệt "__hard": các thẻ từng bị chấm "Quên", nhiều lần quên nhất lên trước */
+var HARD_TOPIC = "__hard";
+function hardItems(pool){
+  var srsPool = srs[pool];
+  return dataFor(pool).filter(function(it){ return srsPool[it.id] && srsPool[it.id].lapses > 0; })
+    .sort(function(a, b){ return srsPool[b.id].lapses - srsPool[a.id].lapses; });
+}
+function reviewItems(pool, topic){
+  return topic === HARD_TOPIC ? hardItems(pool) : filteredItems(pool, topic, "all");
+}
 function reviewCounts(pool, topic){
-  var items = filteredItems(pool, topic, "all");
+  var items = reviewItems(pool, topic);
   var srsPool = srs[pool];
   var now = Date.now();
   var due = 0, fresh = 0;
@@ -153,7 +185,8 @@ function reviewCounts(pool, topic){
   return {due:due, fresh:fresh, total:items.length};
 }
 function buildReviewQueue(pool, topic, count){
-  var items = filteredItems(pool, topic, "all");
+  var items = reviewItems(pool, topic);
+  if(topic === HARD_TOPIC) return items.slice(0, count); // luyện riêng thẻ hay quên, không đợi đến hạn
   var srsPool = srs[pool];
   var now = Date.now();
   var overdue = [], fresh = [], later = [];
@@ -212,11 +245,15 @@ function applyBackupData(jsonText){
   }catch(e){ showToast("⚠️ Lỗi khi ghi dữ liệu khôi phục"); return; }
   state.lang = getLang(); state.dir = getDir(); state.searchScope = getSearchScope();
   state.review.mode = getReviewMode();
-  loadUserData(state.lang);
-  refreshHeaderChrome();
-  updateStreakBadge();
-  setTab(state.tab);
-  showToast("✅ Đã khôi phục tiến trình học");
+  state.tutorOn = getTutorPref();
+  applyTheme(); applyTextZoom();
+  ensurePack(state.lang, function(){
+    loadUserData(state.lang);
+    setNativeLang(state.lang);
+    refreshHeaderChrome();
+    setTab(state.tab);
+    showToast("✅ Đã khôi phục tiến trình học");
+  });
 }
 window.onImportData = function(jsonText){ applyBackupData(jsonText); };
 
@@ -257,7 +294,7 @@ function cmp(a, b, locale){
 }
 /* so khớp gần đúng cho chế độ Nghe - Gõ lại: bỏ dấu phụ/dấu câu, chấp nhận sai lệch nhẹ */
 function normalizeText(s){
-  var t = String(s||"").toLowerCase();
+  var t = String(s||"").toLowerCase().replace(/đ/g, "d");
   try{ t = t.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }catch(e){}
   return t.replace(/[.,!?;:'"()\-—–]/g, "").replace(/\s+/g, " ").trim();
 }
@@ -280,35 +317,67 @@ function isCloseMatch(input, target){
   var threshold = Math.max(1, Math.floor(b.length * 0.15));
   return levenshtein(a, b) <= threshold;
 }
+/* chấm Nghe - Gõ lại: "exact" | "close" | "wrong". Tiếng Trung chấp nhận cả Pinyin (không cần dấu thanh, không cần cách) */
+function dictationVerdict(input, it){
+  if(normalizeText(input) === normalizeText(it.ru)) return "exact";
+  if(state.lang === "zh" && it.phonetic){
+    var a = normalizeText(input).replace(/\s/g, ""), b = normalizeText(it.phonetic).replace(/\s/g, "");
+    if(a && a === b) return "exact";
+    if(a && levenshtein(a, b) <= Math.max(1, Math.floor(b.length * 0.15))) return "close";
+  }
+  return isCloseMatch(input, it.ru) ? "close" : "wrong";
+}
 function speak(text){
   tutorTalk(text);
   try{ if(window.Android && Android.speak) Android.speak(text); }catch(e){}
 }
 
-/* ---------- gia sư 3D (js/tutor.js) chỉ hiện ở tab Ôn tập ---------- */
-var tutorReactAt = 0;
+/* ---------- gia sư 3D (js/tutor.js) ----------
+   Tab Ôn tập & Ghép câu: thanh lớn phía trên có khung thoại cố định.
+   Các tab khác: avatar nhỏ nổi ở góc dưới, khung thoại tự ẩn sau vài giây, chạm vào để nhận mẹo học. */
+var tutorReactAt = 0, tutorBubbleTimer = 0;
 function tutorActive(){
-  return state.tab === "review" && state.tutorOn && !!window.Tutor && Tutor.isSupported();
+  return state.tutorOn && !!window.Tutor && Tutor.isSupported();
 }
+function tutorMode(){ return (state.tab === "review" || state.tab === "builder") ? "bar" : "float"; }
+function tutorBubbleEl(){ return document.getElementById(tutorMode() === "bar" ? "tutorBubble" : "tutorFloatBubble"); }
 function refreshTutor(){
-  var bar = document.getElementById("tutorBar");
-  if(!bar) return;
+  var bar = document.getElementById("tutorBar"), fl = document.getElementById("tutorFloat");
+  if(!bar || !fl) return;
   if(!tutorActive()){
-    bar.hidden = true;
+    bar.hidden = true; fl.hidden = true;
     if(window.Tutor) Tutor.stop();
     return;
   }
-  bar.hidden = false;
-  Tutor.attach(document.getElementById("tutorStage"), document.getElementById("tutorBubble"), function(ok){
-    if(!ok){ bar.hidden = true; return; }
+  var mode = tutorMode();
+  bar.hidden = mode !== "bar";
+  fl.hidden = mode !== "float";
+  Tutor.setLowPower(mode === "float"); // avatar nhỏ: vẽ ít khung hình hơn cho đỡ tốn pin
+  Tutor.attach(document.getElementById(mode === "bar" ? "tutorStage" : "tutorFloatStage"), tutorBubbleEl(), function(ok){
+    if(!ok){ bar.hidden = true; fl.hidden = true; return; }
     if(tutorActive()) Tutor.start();
   });
 }
 function tutorSay(text, emotion, ms){
   if(!tutorActive()) return;
-  Tutor.say(text);
+  var el = tutorBubbleEl();
+  Tutor.say(text, el);
   if(emotion) Tutor.react(emotion, ms);
+  if(tutorMode() === "float" && el){
+    el.classList.add("show");
+    clearTimeout(tutorBubbleTimer);
+    tutorBubbleTimer = setTimeout(function(){ el.classList.remove("show"); }, 3800);
+  }
 }
+var TUTOR_TIPS = [
+  "Mẹo: ôn 10 phút mỗi ngày hiệu quả hơn học dồn 1 tiếng 💡",
+  "Bấm 🐢 để nghe chậm từng âm nhé!",
+  "Thử tab Ghép câu: học từ trụ → cụm từ → câu hoàn chỉnh 🧩",
+  "Nói to theo sau khi nghe — miệng nhớ lâu hơn mắt đấy 🗣️",
+  "Thẻ nào hay quên sẽ vào nhóm ⚠️ Thẻ hay quên ở tab Ôn tập.",
+  "Tìm kiếm gõ không dấu cũng được, ví dụ: xin chao 🔎",
+  "Bấm 🔥 ở góc trên để xem tiến trình và huy hiệu của bạn!"
+];
 // ước lượng thời gian đọc để miệng vẫn mấp máy khi engine TTS không báo trạng thái start/done
 function tutorTalk(text){
   if(tutorActive()) Tutor.talkFor(Math.min(4000, 400 + String(text||"").length*90));
@@ -318,7 +387,8 @@ var TUTOR_LINES = {
   great: ["Xuất sắc! 🎉", "Chuẩn luôn! 🌟", "Tuyệt vời! 👏"],
   good:  ["Tốt lắm! 👍", "Đúng rồi! 😄", "Giỏi quá!"],
   ok:    ["Ổn rồi, ôn thêm chút nữa nhé 🙂", "Gần nhớ rồi đấy!"],
-  sad:   ["Không sao, mình sẽ gặp lại từ này sớm thôi 💪", "Sai một chút thôi, cố lên nhé!", "Từ này khó đấy, lần sau sẽ nhớ!"]
+  sad:   ["Không sao, mình sẽ gặp lại từ này sớm thôi 💪", "Sai một chút thôi, cố lên nhé!", "Từ này khó đấy, lần sau sẽ nhớ!"],
+  known: ["Thêm 1 mục đã thuộc! 🎉", "Giỏi lắm, nhớ thêm được rồi! 👏", "Tiến bộ rồi đấy! ⭐"]
 };
 function tutorReactToGrade(quality){
   tutorReactAt = Date.now();
@@ -341,7 +411,11 @@ document.addEventListener("visibilitychange", function(){
   if(!window.Tutor) return;
   if(document.hidden) Tutor.stop(); else if(tutorActive()) Tutor.start();
 });
-function speakSlow(text){ try{ if(window.Android && Android.speakSlow) Android.speakSlow(text); }catch(e){} }
+function speakSlow(text){
+  tutorTalk(text + text); // đọc chậm -> miệng mấp máy lâu hơn
+  try{ if(window.Android && Android.speakSlow) Android.speakSlow(text); }catch(e){}
+}
+function buzz(){ try{ if(navigator.vibrate) navigator.vibrate(60); }catch(e){} }
 function setNativeLang(code){ try{ if(window.Android && Android.setLang) Android.setLang(code); }catch(e){} }
 function showToast(msg){
   var t = document.getElementById("toast");
@@ -364,13 +438,39 @@ var state = {
   renderedCount: 0,
   batch: 40,
   onboardStep: 0,
-  tutorOn: getTutorPref(),   // gia sư 3D ở tab Ôn tập
+  tutorOn: getTutorPref(),   // gia sư 3D
+  builder: { view:"list", lessonId:null, practice:null }, // tab Ghép câu: list | lesson | practice
   review: { pool:null, topic:"all", count:20, dir:null, mode:getReviewMode(), queue:[], idx:0, revealed:false, gained:0, quizPicked:null, quizChoices:null, dictResult:null }
 };
 loadUserData(state.lang);
 
 /* ---------- data access ---------- */
-function packFor(lang){ return (window.LANG_PACKS && window.LANG_PACKS[lang]) || {words:[], sentences:[]}; }
+function packFor(lang){
+  var p = (window.LANG_PACKS && window.LANG_PACKS[lang]) || {};
+  return {words: p.words || [], sentences: p.sentences || [], builder: p.builder || []};
+}
+function packLoaded(lang){
+  var p = window.LANG_PACKS && window.LANG_PACKS[lang];
+  return !!(p && p.words && p.sentences);
+}
+/* nạp data/<mã>/words.js + sentences.js + builder.js khi cần (lúc mở app chỉ tải ngôn ngữ đang dùng) */
+var packWaiters = {};
+function ensurePack(lang, cb){
+  if(packLoaded(lang)){ cb(); return; }
+  if(packWaiters[lang]){ packWaiters[lang].push(cb); return; }
+  packWaiters[lang] = [cb];
+  var files = ["words", "sentences", "builder"], left = files.length;
+  files.forEach(function(f){
+    var s = document.createElement("script");
+    s.src = "data/" + lang + "/" + f + ".js";
+    s.onload = s.onerror = function(){
+      if(--left > 0) return;
+      var q = packWaiters[lang]; delete packWaiters[lang];
+      q.forEach(function(fn){ fn(); });
+    };
+    document.head.appendChild(s);
+  });
+}
 function dataFor(type){ return packFor(state.lang)[type] || []; }
 function catsFor(type){ return type==="words" ? WORD_CATS : SENT_CATS; }
 
@@ -401,13 +501,13 @@ function filteredItems(type, topic, status){
 }
 
 function matchesSearch(it, q){
-  var hay = (it.ru + " " + (it.phonetic||"") + " " + (it.meaning||"")).toLowerCase();
-  return hay.indexOf(q) !== -1;
+  if(it._norm === undefined) it._norm = normalizeText(it.ru + " " + (it.phonetic||"") + " " + (it.meaning||""));
+  return it._norm.indexOf(q) !== -1;
 }
 
 /* tìm kiếm toàn cục: gộp từ vựng + câu giao tiếp + thành ngữ theo phạm vi đã chọn */
 function searchResults(){
-  var q = state.globalSearch.trim().toLowerCase();
+  var q = normalizeText(state.globalSearch);
   if(!q) return [];
   var scope = state.searchScope;
   var out = [];
@@ -449,16 +549,21 @@ function buildShell(){
       '</div>'+
       '<div class="tabs" id="tabs">'+
         '<div class="tab" data-tab="words">Từ vựng</div>'+
-        '<div class="tab" data-tab="sentences">Câu giao tiếp</div>'+
+        '<div class="tab" data-tab="sentences">Câu</div>'+
+        '<div class="tab" data-tab="builder">Ghép câu</div>'+
         '<div class="tab" data-tab="search">Tìm kiếm</div>'+
         '<div class="tab" data-tab="review">Ôn tập</div>'+
       '</div>'+
     '</div>'+
     '<div class="toolbar" id="toolbar"></div>'+
-    '<div class="main" id="main"></div>'+
     '<div class="tutor-bar" id="tutorBar" hidden>'+
       '<div class="tutor-stage" id="tutorStage"></div>'+
       '<div class="tutor-bubble" id="tutorBubble"></div>'+
+    '</div>'+
+    '<div class="main" id="main"></div>'+
+    '<div class="tutor-float" id="tutorFloat" hidden>'+
+      '<div class="tutor-float-bubble" id="tutorFloatBubble"></div>'+
+      '<div class="tutor-stage tutor-float-stage" id="tutorFloatStage"></div>'+
     '</div>'+
     '<div class="review-wrap" id="reviewWrap" style="display:none;"></div>'+
     '<div class="toast" id="toast"></div>'+
@@ -487,6 +592,9 @@ function buildShell(){
     if(e.target.id === "onboardBack") closeOnboard();
   });
   document.getElementById("streakBadge").addEventListener("click", openDashboard);
+  document.getElementById("tutorFloatStage").addEventListener("click", function(){
+    tutorSay(pick(TUTOR_TIPS), "happy", 1200);
+  });
   document.getElementById("dashBack").addEventListener("click", function(e){
     if(e.target.id === "dashBack") closeDashboard();
   });
@@ -569,10 +677,11 @@ function renderOnboardStep(){
 /* ---------- dashboard tiến trình học ---------- */
 function dashboardLangSummary(){
   return LANGS.filter(function(l){ return l.ready; }).map(function(l){
+    var meta = window.LANG_META && window.LANG_META[l.code];
     var pack = packFor(l.code);
     var kw = Object.keys(loadSet(known_key("words", l.code))).length;
     var ks = Object.keys(loadSet(known_key("sentences", l.code))).length;
-    var total = pack.words.length + pack.sentences.length;
+    var total = meta ? meta.words + meta.sentences : pack.words.length + pack.sentences.length;
     return {code:l.code, flag:l.flag, name:l.name, known:kw+ks, total:total};
   });
 }
@@ -652,6 +761,18 @@ function renderDashboard(){
       '<label class="switch"><input type="checkbox" id="reminderToggle"'+(rs.enabled?" checked":"")+'><span class="switch-slider"></span></label>'+
       '<input type="time" id="reminderTime" value="'+timeVal+'"'+(rs.enabled?"":" disabled")+'>'+
     '</div>'+
+    '<div class="dash-section-title">Cài đặt hiển thị</div>'+
+    '<div class="set-row"><span>Giao diện</span><div class="seg" id="setTheme">'+
+      [["auto","Tự động"],["light","☀️ Sáng"],["dark","🌙 Tối"]].map(function(o){
+        return '<button class="seg-btn'+(getThemePref()===o[0]?" active":"")+'" data-v="'+o[0]+'">'+o[1]+'</button>';
+      }).join("")+'</div></div>'+
+    '<div class="set-row"><span>Cỡ chữ</span><div class="seg" id="setZoom">'+
+      [[90,"A-"],[100,"A"],[115,"A+"],[130,"A++"]].map(function(o){
+        return '<button class="seg-btn'+(getTextZoom()===o[0]?" active":"")+'" data-v="'+o[0]+'">'+o[1]+'</button>';
+      }).join("")+'</div></div>'+
+    (window.Tutor && Tutor.isSupported()
+      ? '<div class="set-row"><span>🧑‍🏫 Gia sư 3D</span><label class="switch"><input type="checkbox" id="setTutor"'+(state.tutorOn?" checked":"")+'><span class="switch-slider"></span></label></div>'
+      : '')+
     '<div class="dash-section-title">Dữ liệu &amp; sao lưu</div>'+
     '<div class="dash-backup-row">'+
       '<button class="onboard-btn ghost" id="dashExport">⬇️ Sao lưu</button>'+
@@ -659,6 +780,18 @@ function renderDashboard(){
     '</div>'+
     '<button class="onboard-btn primary" id="dashClose" style="width:100%; margin-top:12px;">Đóng</button>';
 
+  document.getElementById("setTheme").addEventListener("click", function(e){
+    var b = e.target.closest(".seg-btn"); if(!b) return;
+    setThemePref(b.getAttribute("data-v")); applyTheme(); renderDashboard();
+  });
+  document.getElementById("setZoom").addEventListener("click", function(e){
+    var b = e.target.closest(".seg-btn"); if(!b) return;
+    setTextZoomPref(parseInt(b.getAttribute("data-v"), 10)); applyTextZoom(); renderDashboard();
+  });
+  var setTutor = document.getElementById("setTutor");
+  if(setTutor) setTutor.addEventListener("change", function(e){
+    state.tutorOn = e.target.checked; setTutorPref(state.tutorOn); refreshTutor();
+  });
   document.getElementById("dashExport").addEventListener("click", exportBackup);
   document.getElementById("dashImport").addEventListener("click", requestImportBackup);
   document.getElementById("dashClose").addEventListener("click", closeDashboard);
@@ -683,11 +816,14 @@ function renderDashboard(){
 
 function selectLang(code){
   if(code === state.lang) return;
-  state.lang = code; setLangStore(code);
-  loadUserData(code);
-  setNativeLang(code);
-  refreshHeaderChrome();
-  setTab(state.tab);
+  if(!packLoaded(code)) showToast("⏳ Đang tải dữ liệu " + langInfo(code).name.toLowerCase() + "...");
+  ensurePack(code, function(){
+    state.lang = code; setLangStore(code);
+    loadUserData(code);
+    setNativeLang(code);
+    refreshHeaderChrome();
+    setTab(state.tab);
+  });
 }
 
 function setTab(tab){
@@ -701,6 +837,10 @@ function setTab(tab){
   if(tab === "review"){
     mainEl.style.display = "none"; toolbar.style.display = "none"; reviewWrap.style.display = "flex";
     renderReviewSetup();
+  } else if(tab === "builder"){
+    mainEl.style.display = "block"; toolbar.style.display = "none"; reviewWrap.style.display = "none";
+    state.builder.view = "list";
+    renderBuilder();
   } else {
     mainEl.style.display = "block"; toolbar.style.display = "block"; reviewWrap.style.display = "none";
     renderToolbar(); renderMain();
@@ -712,6 +852,7 @@ function setTab(tab){
 function updateHdrStat(){
   var el = document.getElementById("hdrStat");
   if(state.tab === "review" || state.tab === "search"){ el.textContent = ""; return; }
+  if(state.tab === "builder"){ el.textContent = builderDoneCount() + "/" + builderLessons().length + " bài"; return; }
   var type = state.tab;
   var total = dataFor(type).length;
   var k = Object.keys(known[type]).length;
@@ -780,11 +921,22 @@ function renderSearchMain(){
   currentFiltered = searchResults();
   state.renderedCount = 0;
   var list = document.getElementById("cardList");
+  tutorSearchFeedback(currentFiltered.length);
   if(currentFiltered.length === 0){
-    list.innerHTML = '<div class="empty">Không tìm thấy kết quả nào 🤔</div>';
+    list.innerHTML = '<div class="empty">Không tìm thấy kết quả nào 🤔<br><small>Gõ không dấu cũng được, ví dụ: xin chao</small></div>';
     return;
   }
   appendBatch();
+}
+var searchTutorTimer = 0;
+function tutorSearchFeedback(n){
+  // chờ người dùng gõ xong mới nói, tránh khung thoại nhảy liên tục theo từng phím
+  clearTimeout(searchTutorTimer);
+  searchTutorTimer = setTimeout(function(){
+    if(state.tab !== "search" || !state.globalSearch.trim()) return;
+    if(n) tutorSay("Tìm thấy " + n + " kết quả 🔎", "happy", 900);
+    else tutorSay("Không tìm thấy, thử gõ cách khác nhé 🤔", "think", 1500);
+  }, 700);
 }
 
 function renderTopicGrid(){
@@ -884,7 +1036,7 @@ function appendBatch(){
 }
 
 function onListScroll(e){
-  if(state.tab === "review") return;
+  if(state.tab === "review" || state.tab === "builder") return;
   if(state.tab !== "search" && state.view !== "list") return;
   var main = e.target;
   if(main.scrollTop + main.clientHeight > main.scrollHeight - 300){
@@ -902,7 +1054,9 @@ function cardHtml(type, it, showTag){
   var phonLine = '<div class="phon">['+esc(it.phonetic||"")+']</div>';
   var detail = type==="words"
     ? '<div class="lbl">Cách dùng</div><div>'+esc(it.usage||"")+'</div>'+
-      '<div class="lbl">Ví dụ</div><div class="ex-ru">'+esc(it.example_ru||"")+'</div><div class="ex-vi">'+esc(it.example_vi||"")+'</div>'
+      '<div class="lbl">Ví dụ</div><div class="ex-row"><div class="ex-ru">'+esc(it.example_ru||"")+'</div>'+
+      (it.example_ru ? '<button class="ex-speak" data-act="speak-ex" title="Nghe câu ví dụ">🔊</button>' : '')+'</div>'+
+      '<div class="ex-vi">'+esc(it.example_vi||"")+'</div>'
     : '<div class="lbl">Ghi chú</div><div>'+esc(it.note||"")+'</div>';
   var tagLine = "";
   if(showTag){
@@ -943,6 +1097,8 @@ function onMainClick(e){
     else { state.topic = key; state.status = "all"; }
     state.view = "list";
     renderMain();
+    var unit = state.tab === "words" ? "từ" : "câu";
+    tutorSay(topicLabel(state.tab, state.topic) + ": " + currentFiltered.length + " " + unit + ". Chạm 🔊 để nghe nhé!", "happy", 1000);
     return;
   }
 
@@ -958,13 +1114,19 @@ function onMainClick(e){
     var act = actBtn.getAttribute("data-act");
     if(act === "speak"){ speak(it.ru); }
     else if(act === "slow"){ speakSlow(it.ru); }
+    else if(act === "speak-ex"){ speak(it.example_ru); }
     else if(act === "fav"){
-      if(fav[type][id]) delete fav[type][id]; else fav[type][id] = true;
+      if(fav[type][id]) delete fav[type][id]; else { fav[type][id] = true; tutorSay("Đã lưu vào Yêu thích ⭐", "happy", 900); }
       persistFav(type);
       actBtn.classList.toggle("on");
     }
     else if(act === "known"){
-      if(known[type][id]) delete known[type][id]; else known[type][id] = true;
+      if(known[type][id]) delete known[type][id];
+      else {
+        known[type][id] = true;
+        logActivity(); // tự đánh dấu đã thuộc lúc duyệt cũng tính là có học hôm nay
+        tutorSay(pick(TUTOR_LINES.known), "happy", 1200);
+      }
       persistKnown(type);
       actBtn.classList.toggle("known");
       updateHdrStat();
@@ -973,6 +1135,295 @@ function onMainClick(e){
     return;
   }
   cardEl.classList.toggle("open");
+}
+
+/* ---------- Ghép câu từng bước ----------
+   Phương pháp như sách "Ghép câu từng bước": mỗi bài có 1 TỪ TRỤ (vd "không" = 不/не/ne...pas),
+   ghép với 1 từ -> cụm từ -> câu hoàn chỉnh (nói -> không nói -> Tôi không nói.), 3 nhánh/bài,
+   sau đó luyện xếp các ô chữ thành câu. Dữ liệu: data/<mã>/builder.js (datagen/merge_builder.py). */
+var BUILDER_LEVELS = [
+  {from:1,  to:12, name:"🌱 Cơ bản"},
+  {from:13, to:24, name:"🌿 Mở rộng"},
+  {from:25, to:36, name:"🌳 Nâng cao"}
+];
+function builderLessons(){ return packFor(state.lang).builder; }
+function currentLesson(){
+  var id = state.builder.lessonId, ls = builderLessons();
+  for(var i=0;i<ls.length;i++) if(ls[i].id === id) return ls[i];
+  return null;
+}
+function loadBuilderProgress(){
+  try{ return JSON.parse(localStorage.getItem("fv_builder_" + state.lang)) || {}; }catch(e){ return {}; }
+}
+function saveBuilderProgress(prog){ try{ localStorage.setItem("fv_builder_" + state.lang, JSON.stringify(prog)); }catch(e){} }
+function lessonDoneBranches(prog, id){ return (prog[id] || []).length; } // prog[id] = các nhánh đã tự ghép đúng
+function builderDoneCount(){
+  var prog = loadBuilderProgress();
+  return builderLessons().filter(function(l){ return lessonDoneBranches(prog, l.id) >= l.branches.length; }).length;
+}
+
+/* tô màu phần từ trụ trong câu (như chữ đỏ trong sách). Với ngôn ngữ có dấu cách thì chỉ khớp
+   nguyên từ, để "is" không bị tô trong "this", "là" không bị tô trong "làm". */
+function isLetter(ch){
+  try{ return /\p{L}/u.test(ch); }catch(e){ return /[A-Za-zÀ-ɏЀ-ӿ]/.test(ch); }
+}
+function highlightText(text, hl, wholeWord){
+  text = String(text || "");
+  var parts = (hl || []).filter(Boolean).slice().sort(function(a, b){ return b.length - a.length; });
+  if(!parts.length) return esc(text);
+  var out = "", i = 0, lower = text.toLowerCase();
+  while(i < text.length){
+    var hit = null;
+    for(var k=0;k<parts.length;k++){
+      var w = parts[k];
+      if(lower.substr(i, w.length) !== w.toLowerCase()) continue;
+      // chỉ xét ranh giới ở phía từ trụ là chữ cái: "'s", "parce qu'", "s'" dính liền chữ bên cạnh là đúng
+      if(wholeWord && isLetter(w[0]) && i > 0 && isLetter(text[i-1])) continue;
+      if(wholeWord && isLetter(w[w.length-1]) && i + w.length < text.length && isLetter(text[i + w.length])) continue;
+      hit = text.substr(i, w.length); break;
+    }
+    if(hit){ out += '<span class="hl">' + esc(hit) + '</span>'; i += hit.length; }
+    else { out += esc(text[i]); i++; }
+  }
+  return out;
+}
+
+function renderBuilder(){
+  var v = state.builder.view;
+  if(v === "lesson" && currentLesson()) renderBuilderLesson();
+  else if(v === "practice" && currentLesson() && state.builder.practice) renderBuilderPractice();
+  else { state.builder.view = "list"; renderBuilderList(); }
+  updateHdrStat();
+}
+
+function renderBuilderList(){
+  var main = document.getElementById("main");
+  var lessons = builderLessons();
+  if(!lessons.length){
+    main.innerHTML = '<div class="empty">Chưa có bài Ghép câu cho ngôn ngữ này.</div>';
+    return;
+  }
+  var prog = loadBuilderProgress();
+  var html =
+    '<div class="bd-intro">'+
+      '<div class="bd-intro-title">🧩 Ghép câu từng bước</div>'+
+      '<div class="bd-intro-desc">Mỗi bài lấy 1 <span class="hl">từ trụ</span>, ghép với từ khác thành cụm từ rồi mở rộng thành câu hoàn chỉnh: '+
+      '<i>nói → <span class="hl">không</span> nói → Tôi <span class="hl">không</span> nói.</i> Học xong bấm "Luyện ghép câu" để tự xếp lại.</div>'+
+    '</div>';
+  BUILDER_LEVELS.forEach(function(lv){
+    var group = lessons.filter(function(l){ return l.id >= lv.from && l.id <= lv.to; });
+    if(!group.length) return;
+    html += '<div class="bd-level">' + lv.name + '</div><div class="bd-grid">';
+    group.forEach(function(l){
+      var d = lessonDoneBranches(prog, l.id), n = l.branches.length;
+      html += '<div class="bd-tile' + (d >= n ? " done" : "") + '" data-lesson="' + l.id + '">'+
+        '<div class="bd-tile-no">Bài ' + l.id + (d >= n ? " ✓" : "") + '</div>'+
+        '<div class="bd-tile-pivot">' + esc(l.pivot.t) + '</div>'+
+        '<div class="bd-tile-vi">' + esc(l.vi) + '</div>'+
+        '<div class="bd-dots">' + l.branches.map(function(_, i){ return '<span' + (i < d ? ' class="on"' : '') + '></span>'; }).join("") + '</div>'+
+      '</div>';
+    });
+    html += '</div>';
+  });
+  main.innerHTML = '<div class="bd-wrap">' + html + '</div>';
+  main.scrollTop = 0;
+  Array.prototype.forEach.call(main.querySelectorAll(".bd-tile"), function(el){
+    el.addEventListener("click", function(){ openBuilderLesson(parseInt(el.getAttribute("data-lesson"), 10)); });
+  });
+}
+
+function openBuilderLesson(id){
+  state.builder.lessonId = id;
+  state.builder.view = "lesson";
+  renderBuilder();
+  var l = currentLesson();
+  if(l) tutorSay("Bài " + l.id + " · " + l.vi + ": " + l.note, "happy", 1200);
+}
+
+function bdNodeHtml(stp, cls, viWords){
+  var spaced = state.lang !== "zh";
+  return '<div class="bd-node ' + cls + '" data-say="' + esc(stp.t) + '">'+
+    '<div class="bd-t">' + highlightText(stp.t, stp.hl, spaced) + '</div>'+
+    '<div class="bd-ph">' + esc(stp.ph) + '</div>'+
+    (stp.vph ? '<div class="bd-vph">' + esc(stp.vph) + '</div>' : '')+
+    '<div class="bd-vi">' + highlightText(stp.vi, viWords, true) + '</div>'+
+  '</div>';
+}
+
+function renderBuilderLesson(){
+  var main = document.getElementById("main");
+  var l = currentLesson();
+  var viWords = l.vi.split(" / ");
+  var html =
+    '<div class="bd-wrap">'+
+      '<div class="list-head"><button class="back-btn" id="bdBack">‹ Danh sách bài</button>'+
+        '<div class="list-head-title">Bài ' + l.id + ' · ' + esc(l.vi) + '</div></div>'+
+      '<div class="bd-top">'+
+        '<div class="bd-pivot" data-say="' + esc(l.pivot.t) + '">'+
+          '<div class="bd-pivot-vi">' + esc(l.vi) + '</div>'+
+          '<div class="bd-pivot-t">' + esc(l.pivot.t) + '</div>'+
+          '<div class="bd-ph">' + esc(l.pivot.ph) + '</div>'+
+          (l.pivot.vph ? '<div class="bd-vph">' + esc(l.pivot.vph) + '</div>' : '')+
+        '</div>'+
+        '<div class="bd-note">💡 ' + esc(l.note) + '</div>'+
+      '</div>'+
+      l.branches.map(function(b){
+        return '<div class="bd-branch">'+
+          bdNodeHtml(b.steps[0], "s1", viWords) + '<div class="bd-arrow">→</div>'+
+          bdNodeHtml(b.steps[1], "s2", viWords) + '<div class="bd-arrow">→</div>'+
+          bdNodeHtml(b.steps[2], "s3", viWords)+
+        '</div>';
+      }).join("")+
+      '<div class="bd-hint">👆 Chạm vào từng ô để nghe phát âm</div>'+
+      '<button class="big-btn" id="bdPractice">🧩 Luyện ghép câu</button>'+
+    '</div>';
+  main.innerHTML = html;
+  main.scrollTop = 0;
+  document.getElementById("bdBack").addEventListener("click", function(){ state.builder.view = "list"; renderBuilder(); });
+  document.getElementById("bdPractice").addEventListener("click", startBuilderPractice);
+  Array.prototype.forEach.call(main.querySelectorAll("[data-say]"), function(el){
+    el.addEventListener("click", function(){
+      speak(el.getAttribute("data-say"));
+      el.classList.remove("ping"); void el.offsetWidth; el.classList.add("ping");
+    });
+  });
+}
+
+function startBuilderPractice(){
+  var l = currentLesson();
+  state.builder.practice = {
+    items: l.branches.map(function(b, bi){ return {bi: bi, step: b.steps[2]}; }),
+    idx: 0, correct: 0
+  };
+  prepBuilderItem();
+  state.builder.view = "practice";
+  renderBuilder();
+}
+
+function prepBuilderItem(){
+  var pr = state.builder.practice, l = currentLesson();
+  var it = pr.items[pr.idx];
+  if(!it) return;
+  var toks = it.step.tokens;
+  // thêm 1 ô "nhiễu" lấy từ câu khác trong cùng bài để không đoán quá dễ
+  var others = [];
+  l.branches.forEach(function(b, bi){
+    if(bi === it.bi) return;
+    b.steps[2].tokens.forEach(function(t){ if(toks.indexOf(t) === -1 && others.indexOf(t) === -1) others.push(t); });
+  });
+  var tiles = toks.map(function(t){ return {t: t}; });
+  if(others.length) tiles.push({t: pick(others), extra: true});
+  var tries = 0;
+  do { pr.tiles = shuffle(tiles); tries++; }
+  while(tries < 6 && pr.tiles.map(function(x){ return x.t; }).join("|").indexOf(toks.join("|")) === 0);
+  pr.picked = [];
+  pr.result = null;   // null | "ok" | "wrong"
+  pr.firstTry = true;
+  tutorSay("Ghép thành câu: “" + it.step.vi + "” 🧩", "think", 1200);
+}
+
+function renderBuilderPractice(){
+  var main = document.getElementById("main");
+  var pr = state.builder.practice, l = currentLesson();
+  var spaced = state.lang !== "zh";
+
+  if(pr.idx >= pr.items.length){
+    var stars = "★".repeat(pr.correct) + "☆".repeat(pr.items.length - pr.correct);
+    var next = builderLessons().filter(function(x){ return x.id === l.id + 1; })[0];
+    main.innerHTML =
+      '<div class="bd-wrap"><div class="review-done">'+
+        '<div class="big">🎉</div>'+
+        '<div style="font-size:17px;font-weight:800;margin-top:8px;">Xong bài ' + l.id + '!</div>'+
+        '<div class="bd-stars">' + stars + '</div>'+
+        '<div style="color:var(--muted);margin-top:4px;">Ghép đúng ngay lần đầu ' + pr.correct + '/' + pr.items.length + ' câu</div>'+
+        '<button class="big-btn" id="bdAgain">↺ Luyện lại</button>'+
+        (next ? '<button class="big-btn bd-next-lesson" id="bdNextLesson">Bài ' + next.id + ': ' + esc(next.vi) + ' ›</button>' : '')+
+        '<button class="onboard-btn ghost" id="bdBackLesson" style="width:100%;margin-top:10px;">‹ Về bài học</button>'+
+      '</div></div>';
+    document.getElementById("bdAgain").addEventListener("click", startBuilderPractice);
+    document.getElementById("bdBackLesson").addEventListener("click", function(){ state.builder.view = "lesson"; renderBuilder(); });
+    if(next) document.getElementById("bdNextLesson").addEventListener("click", function(){ openBuilderLesson(next.id); });
+    tutorSay(pr.correct === pr.items.length ? "Hoàn hảo! Bạn ghép đúng hết 🥳" : "Xong bài rồi! Luyện lại để được 3 sao nhé 💪", "celebrate", 2200);
+    return;
+  }
+
+  var it = pr.items[pr.idx];
+  var answerHtml = pr.picked.map(function(ti){
+    return '<button class="bd-word in-answer" data-ti="' + ti + '"' + (pr.result ? " disabled" : "") + '>' + esc(pr.tiles[ti].t) + '</button>';
+  }).join("");
+  var bankHtml = pr.tiles.map(function(x, ti){
+    var used = pr.picked.indexOf(ti) !== -1;
+    return '<button class="bd-word' + (used ? " used" : "") + '" data-ti="' + ti + '"' + (used ? " disabled" : "") + '>' + esc(x.t) + '</button>';
+  }).join("");
+  var correctHtml = '<div class="bd-correct"><div class="bd-t">' + highlightText(it.step.t, it.step.hl, spaced) + '</div>'+
+    '<div class="bd-ph">' + esc(it.step.ph) + '</div>' + (it.step.vph ? '<div class="bd-vph">' + esc(it.step.vph) + '</div>' : '') + '</div>';
+
+  main.innerHTML =
+    '<div class="bd-wrap bd-practice">'+
+      '<div class="list-head"><button class="back-btn" id="bdBack">‹ Bài ' + l.id + '</button>'+
+        '<div class="list-head-title">Luyện ghép câu ' + (pr.idx + 1) + '/' + pr.items.length + '</div></div>'+
+      '<div class="bd-prompt"><div class="lbl">Ghép thành câu có nghĩa:</div><div class="bd-prompt-vi">' + esc(it.step.vi) + '</div></div>'+
+      '<div class="bd-answer' + (pr.result ? " " + pr.result : "") + '" id="bdAnswer">'+
+        (answerHtml || '<span class="bd-placeholder">Chạm các ô bên dưới theo đúng thứ tự</span>')+
+      '</div>'+
+      (pr.result === "ok" ? '<div class="bd-feedback ok">✅ Chính xác!</div>' + correctHtml : '')+
+      (pr.result === "wrong" ? '<div class="bd-feedback wrong">❌ Chưa đúng — câu đúng là:</div>' + correctHtml : '')+
+      (pr.result ? '' : '<div class="bd-bank" id="bdBank">' + bankHtml + '</div>')+
+      '<div class="bd-actions">'+
+        (pr.result === null
+          ? '<button class="onboard-btn ghost" id="bdHint">🔊 Nghe gợi ý</button>'+
+            '<button class="onboard-btn primary" id="bdCheck"' + (pr.picked.length ? "" : " disabled") + '>Kiểm tra</button>'
+          : (pr.result === "wrong" ? '<button class="onboard-btn ghost" id="bdRetry">↺ Thử lại</button>' : '')+
+            '<button class="onboard-btn primary" id="bdNext">Tiếp theo ›</button>')+
+      '</div>'+
+    '</div>';
+
+  document.getElementById("bdBack").addEventListener("click", function(){ state.builder.view = "lesson"; renderBuilder(); });
+  if(pr.result === null){
+    document.getElementById("bdBank").addEventListener("click", function(e){
+      var b = e.target.closest(".bd-word"); if(!b || b.disabled) return;
+      pr.picked.push(parseInt(b.getAttribute("data-ti"), 10));
+      renderBuilderPractice();
+    });
+    document.getElementById("bdAnswer").addEventListener("click", function(e){
+      var b = e.target.closest(".bd-word"); if(!b) return;
+      var ti = parseInt(b.getAttribute("data-ti"), 10);
+      pr.picked.splice(pr.picked.indexOf(ti), 1);
+      renderBuilderPractice();
+    });
+    document.getElementById("bdHint").addEventListener("click", function(){ speak(it.step.t); });
+    document.getElementById("bdCheck").addEventListener("click", checkBuilderAnswer);
+  } else {
+    document.getElementById("bdNext").addEventListener("click", function(){
+      pr.idx++;
+      prepBuilderItem();
+      renderBuilderPractice();
+    });
+    var retry = document.getElementById("bdRetry");
+    if(retry) retry.addEventListener("click", function(){ pr.picked = []; pr.result = null; renderBuilderPractice(); });
+  }
+}
+
+function checkBuilderAnswer(){
+  var pr = state.builder.practice, l = currentLesson();
+  var it = pr.items[pr.idx];
+  var built = pr.picked.map(function(ti){ return pr.tiles[ti].t; });
+  var ok = built.join("\u0001") === it.step.tokens.join("\u0001");
+  pr.result = ok ? "ok" : "wrong";
+  if(ok){
+    if(pr.firstTry) pr.correct++;
+    var prog = loadBuilderProgress();
+    var done = prog[l.id] || [];
+    if(done.indexOf(it.bi) === -1){ done.push(it.bi); prog[l.id] = done; saveBuilderProgress(prog); }
+    logActivity();
+    speak(it.step.t);
+    tutorSay(pick(TUTOR_LINES.great), "happy");
+  } else {
+    pr.firstTry = false;
+    buzz();
+    tutorSay("Gần đúng rồi! Xem lại thứ tự các từ nhé 💪", "sad");
+  }
+  renderBuilderPractice();
 }
 
 /* ---------- Review (flashcards + trắc nghiệm, đều dùng chung lịch spaced repetition) ---------- */
@@ -986,6 +1437,8 @@ function renderReviewSetup(){
   var dir = state.review.dir || state.dir;
   var counts = reviewCounts(pool, topic);
   var catOpts = '<option value="all">Tất cả chủ đề</option>';
+  var hardCount = hardItems(pool).length;
+  if(hardCount) catOpts += '<option value="'+HARD_TOPIC+'"'+(topic===HARD_TOPIC?" selected":"")+'>⚠️ Thẻ hay quên ('+hardCount+')</option>';
   for(var k in cats) catOpts += '<option value="'+k+'"'+(topic===k?" selected":"")+'>'+cats[k].icon+' '+esc(cats[k].name)+'</option>';
 
   wrap.innerHTML =
@@ -1129,7 +1582,8 @@ function renderFlashCard(){
     ? '<div class="meaning">'+esc(fwd ? it.meaning : it.ru)+'</div>'+
       (fwd ? '' : '<div class="phon">['+esc(it.phonetic||"")+']</div>')+
       '<div class="phon" style="margin-top:8px;">'+esc(it.usage||"")+'</div>'+
-      '<div class="ex-ru" style="margin-top:8px;">'+esc(it.example_ru||"")+'</div>'+
+      '<div class="ex-row" style="margin-top:8px;justify-content:center;"><div class="ex-ru">'+esc(it.example_ru||"")+'</div>'+
+        (it.example_ru ? '<button class="ex-speak" id="rvExSpeak" title="Nghe câu ví dụ">🔊</button>' : '')+'</div>'+
       '<div class="ex-vi">'+esc(it.example_vi||"")+'</div>'
     : '<div class="meaning">'+esc(fwd ? it.meaning : it.ru)+'</div>'+
       (fwd ? '' : '<div class="phon">['+esc(it.phonetic||"")+']</div>')+
@@ -1163,6 +1617,8 @@ function renderFlashCard(){
     rv.revealed = !rv.revealed; renderReviewCard();
   });
   document.getElementById("rvSpeak").addEventListener("click", function(e){ e.stopPropagation(); speak(it.ru); });
+  var exBtn = document.getElementById("rvExSpeak");
+  if(exBtn) exBtn.addEventListener("click", function(e){ e.stopPropagation(); speak(it.example_ru); });
   var gradeRowEl = wrap.querySelector(".grade-row");
   if(gradeRowEl){
     gradeRowEl.addEventListener("click", function(e){
@@ -1210,6 +1666,7 @@ function renderQuizCard(){
       var idx = parseInt(b.getAttribute("data-idx"), 10);
       rv.quizPicked = idx;
       recordGrade(rv.quizChoices[idx].correct ? 4 : 1);
+      if(!rv.quizChoices[idx].correct) buzz();
       renderReviewCard();
     });
   } else {
@@ -1246,7 +1703,7 @@ function renderDictationCard(){
         '<div class="hdr-sub" style="margin-top:8px;color:#6b7280;">Nghe rồi gõ lại đúng chính tả</div>'+
       '</div>'+
       (!answered
-        ? '<input type="text" id="dictInput" class="dict-input" placeholder="Gõ lại những gì bạn nghe..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">'+
+        ? '<input type="text" id="dictInput" class="dict-input" placeholder="'+(state.lang === "zh" ? "Gõ chữ Hán hoặc Pinyin (không cần dấu)..." : "Gõ lại những gì bạn nghe...")+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">'+
           '<button class="big-btn" id="dictSubmit">✔️ Kiểm tra</button>'
         : feedbackHtml + '<button class="big-btn" id="dictNext">Tiếp theo ›</button>')+
     '</div>';
@@ -1258,10 +1715,9 @@ function renderDictationCard(){
     var input = document.getElementById("dictInput");
     input.focus();
     var submit = function(){
-      var exact = normalizeText(input.value) === normalizeText(it.ru);
-      var close = !exact && isCloseMatch(input.value, it.ru);
-      rv.dictResult = exact ? "exact" : close ? "close" : "wrong";
-      recordGrade(exact ? 5 : close ? 4 : 1);
+      rv.dictResult = dictationVerdict(input.value, it);
+      recordGrade(rv.dictResult === "exact" ? 5 : rv.dictResult === "close" ? 4 : 1);
+      if(rv.dictResult === "wrong") buzz();
       renderReviewCard();
     };
     document.getElementById("dictSubmit").addEventListener("click", submit);
@@ -1317,6 +1773,13 @@ window.onNativeBack = function(){
     return;
   }
 
+  // 2b. đang trong 1 bài / bài luyện của tab Ghép câu -> lùi 1 cấp
+  if(state.tab === "builder" && state.builder.view !== "list"){
+    state.builder.view = state.builder.view === "practice" ? "lesson" : "list";
+    renderBuilder();
+    return;
+  }
+
   // 3. có thẻ đang mở rộng chi tiết -> thu gọn lại
   var openCard = document.querySelector(".card.open");
   if(openCard){ openCard.classList.remove("open"); return; }
@@ -1348,11 +1811,23 @@ window.onNativeBack = function(){
 };
 
 /* ---------- boot ---------- */
+applyTheme();
+applyTextZoom();
 buildShell();
-refreshHeaderChrome();
-setTab("words");
-setNativeLang(state.lang);
-if(!isOnboarded()) openOnboard();
+document.getElementById("main").innerHTML = '<div class="empty">⏳ Đang tải dữ liệu...</div>';
+ensurePack(state.lang, function(){
+  loadUserData(state.lang);
+  refreshHeaderChrome();
+  setTab("words");
+  setNativeLang(state.lang);
+  if(!isOnboarded()) openOnboard();
+  else tutorSay("Chào bạn! 👋 Chạm vào mình bất cứ lúc nào để nhận mẹo học nhé.", "happy", 1500);
+});
+try{
+  if(window.matchMedia) matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function(){
+    if(getThemePref() === "auto") applyTheme();
+  });
+}catch(e){}
 
 window.onTtsReady = function(ok){
   if(!ok) showToast("⚠️ Thiết bị chưa có giọng đọc " + langInfo(state.lang).name.toLowerCase() + " cho Text-to-Speech");

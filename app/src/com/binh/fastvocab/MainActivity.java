@@ -3,6 +3,8 @@ package com.binh.fastvocab;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
+import android.view.View;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -292,6 +294,37 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
                     ReminderUtil.save(MainActivity.this, false, ReminderUtil.getHour(MainActivity.this), ReminderUtil.getMinute(MainActivity.this));
                     ReminderUtil.cancel(MainActivity.this);
                     Toast.makeText(MainActivity.this, "Đã tắt nhắc học", Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
+
+        /** Hệ thống đang bật chế độ tối? (WebView không phải lúc nào cũng báo đúng prefers-color-scheme) */
+        @JavascriptInterface
+        public boolean isSystemDark() {
+            int mode = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+            return mode == Configuration.UI_MODE_NIGHT_YES;
+        }
+
+        /** Cỡ chữ trong app (%), chỉnh từ Cài đặt hiển thị trong dashboard */
+        @JavascriptInterface
+        public void setTextZoom(final int percent) {
+            runOnUiThread(new Runnable() {
+                @Override public void run() { web.getSettings().setTextZoom(Math.max(80, Math.min(160, percent))); }
+            });
+        }
+
+        /** Đổi màu thanh điều hướng/trạng thái cho hợp giao diện sáng/tối */
+        @JavascriptInterface
+        public void setSystemBarsDark(final boolean dark) {
+            runOnUiThread(new Runnable() {
+                @Override public void run() {
+                    getWindow().setStatusBarColor(dark ? 0xFF0A1222 : 0xFF1B3A6B);
+                    getWindow().setNavigationBarColor(dark ? 0xFF0F1420 : 0xFFF5F3EE);
+                    View decor = getWindow().getDecorView();
+                    int flags = decor.getSystemUiVisibility();
+                    if (dark) flags &= ~View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
+                    else flags |= View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
+                    decor.setSystemUiVisibility(flags);
                 }
             });
         }

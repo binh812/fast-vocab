@@ -64,6 +64,9 @@ try {
   loadScript("data/fr/sentences.js");
   loadScript("data/zh/words.js");
   loadScript("data/zh/sentences.js");
+  // app chỉ tự tải gói của ngôn ngữ đang dùng (thẻ <script> động, jsdom không chạy); nạp sẵn cả 4 gói + meta
+  for (const l of ["ru", "en", "fr", "zh"]) loadScript(`data/${l}/builder.js`);
+  loadScript("data/meta.js");
   // Số lượng thực tế dao động theo từng ngôn ngữ (mỗi đợt agent tự khử trùng lặp khác nhau),
   // nên chỉ kiểm tra "đủ lớn" (>= 85% mục tiêu ~3000 từ / ~2500 câu) thay vì số tuyệt đối.
   for (const lang of ["ru", "en", "fr", "zh"]) {
@@ -87,7 +90,9 @@ try {
   doc.getElementById("obNext").click();
   doc.getElementById("obNext").click();
   check("onboarding advances through slides (dot 3 active)", doc.querySelectorAll(".onboard-dot")[2].classList.contains("active"));
-  doc.getElementById("obNext").click();
+  // bấm tới trang cuối (số trang onboarding có thể thay đổi khi thêm tính năng)
+  for (let i = 0; i < 10 && doc.getElementById("obNext").textContent.indexOf("Bắt đầu học") === -1; i++) doc.getElementById("obNext").click();
+  check(`onboarding has a slide for every main feature (${doc.querySelectorAll(".onboard-dot").length} slides)`, doc.querySelectorAll(".onboard-dot").length >= 5);
   check("onboarding last slide shows start button", doc.getElementById("obNext").textContent.indexOf("Bắt đầu học") !== -1);
   doc.getElementById("obNext").click();
   check("onboarding closes after last slide and marks onboarded", doc.getElementById("onboardBack").hidden === true && window.localStorage.getItem("fv_onboarded") === "1");
@@ -124,6 +129,12 @@ try {
   let searchCards = doc.querySelectorAll("#cardList .card");
   check("global search finds results for 'привет'", searchCards.length >= 1);
   check("search result cards carry a source tag (Từ vựng/Câu giao tiếp)", !!searchCards[0].querySelector(".card-tag"));
+  globalSearchInput.value = "xin chao";
+  globalSearchInput.dispatchEvent(new window.Event("input", { bubbles: true }));
+  check("search without Vietnamese diacritics still matches ('xin chao' -> 'Xin chào')", doc.querySelectorAll("#cardList .card").length >= 1);
+  globalSearchInput.value = "привет";
+  globalSearchInput.dispatchEvent(new window.Event("input", { bubbles: true }));
+  searchCards = doc.querySelectorAll("#cardList .card");
 
   // 4b. tắt phạm vi "Từ vựng" -> kết quả phải giảm (không còn lẫn từ vựng)
   // (renderSearchToolbar() build lại toàn bộ DOM của các chip sau mỗi lần bấm, nên phải
@@ -145,6 +156,8 @@ try {
   let knownBtn = firstCard.querySelector('[data-act="known"]');
   knownBtn.click();
   check("known button toggles 'known' class", knownBtn.classList.contains("known"));
+  const todayAct = JSON.parse(window.localStorage.getItem("fv_activity") || "{}");
+  check("marking an item known while browsing counts as study activity (streak)", Object.values(todayAct).some(v => v >= 1));
   firstCard.click();
   check("card expands detail on click", firstCard.classList.contains("open"));
 
@@ -161,10 +174,54 @@ try {
   doc.querySelector('.dir-btn[data-dir="rev"]').click();
   let primaryText = doc.querySelector("#cardList .card .primary").textContent;
   check("direction toggle re-renders primary field", primaryText.trim().length > 0);
+  const wordCard = doc.querySelector("#cardList .card");
+  wordCard.click();
+  wordCard.querySelector('[data-act="speak-ex"]').click();
+  const wordItem = window.LANG_PACKS.ru.words.find(w => w.id === parseInt(wordCard.getAttribute("data-id"), 10));
+  check("example sentence has its own speak button", lastSpoken === wordItem.example_ru);
+  wordCard.click();
 
   // 8. tab câu giao tiếp
   doc.querySelector('.tab[data-tab="sentences"]').click();
   check("sentences tab shows topic grid (3 quick + 13 cats)", doc.querySelectorAll(".topic-tile").length === 3 + 13);
+
+  // 8b. tab Ghép câu từng bước
+  doc.querySelector('.tab[data-tab="builder"]').click();
+  check("builder tab lists 36 lessons", doc.querySelectorAll(".bd-tile").length === 36);
+  check("builder lessons grouped into 3 levels", doc.querySelectorAll(".bd-level").length === 3);
+  doc.querySelector('.bd-tile[data-lesson="1"]').click();
+  const L1 = window.LANG_PACKS.ru.builder[0];
+  check("lesson view shows pivot word", doc.querySelector(".bd-pivot-t").textContent === L1.pivot.t);
+  check("lesson view shows 3 branches of word -> phrase -> sentence", doc.querySelectorAll(".bd-branch").length === 3 && doc.querySelectorAll(".bd-branch .bd-node").length === 9);
+  check("pivot is highlighted inside phrases/sentences", doc.querySelectorAll(".bd-branch .bd-t .hl").length >= 6);
+  doc.querySelectorAll(".bd-branch .bd-node")[2].click();
+  check("tapping a node speaks it", lastSpoken === L1.branches[0].steps[2].t);
+
+  doc.getElementById("bdPractice").click();
+  check("practice shows word tiles (tokens + 1 distractor)", doc.querySelectorAll("#bdBank .bd-word").length === L1.branches[0].steps[2].tokens.length + 1);
+  check("check button disabled until a tile is picked", doc.getElementById("bdCheck").disabled);
+  function pickTokens(tokens){
+    for (const t of tokens) {
+      const tile = Array.from(doc.querySelectorAll("#bdBank .bd-word")).find(b => !b.disabled && b.textContent === t);
+      tile.click();
+    }
+  }
+  pickTokens(L1.branches[0].steps[2].tokens);
+  check("picked tiles move into the answer area", doc.querySelectorAll("#bdAnswer .bd-word").length === L1.branches[0].steps[2].tokens.length);
+  doc.getElementById("bdCheck").click();
+  check("correct order is accepted", !!doc.querySelector(".bd-feedback.ok"));
+  check("builder progress saved per language", JSON.parse(window.localStorage.getItem("fv_builder_ru") || "{}")["1"].length === 1);
+  doc.getElementById("bdNext").click();
+  pickTokens(L1.branches[1].steps[2].tokens.slice().reverse());
+  doc.getElementById("bdCheck").click();
+  check("wrong order is rejected and shows the correct sentence", !!doc.querySelector(".bd-feedback.wrong") && !!doc.querySelector(".bd-correct"));
+  doc.getElementById("bdRetry").click();
+  check("retry clears the answer", doc.querySelectorAll("#bdAnswer .bd-word").length === 0);
+  window.onNativeBack();
+  check("back from practice returns to lesson view", !!doc.querySelector(".bd-pivot"));
+  window.onNativeBack();
+  check("back from lesson returns to lesson list (with progress dot)", doc.querySelectorAll('.bd-tile[data-lesson="1"] .bd-dots span.on').length === 1);
+  check("header shows lessons done count on builder tab", /\d+\/36 bài/.test(doc.getElementById("hdrStat").textContent));
 
   // 9. ôn tập flashcard (spaced repetition) - đúng luồng người dùng thực (không đổi dropdown mặc định)
   doc.querySelector('.tab[data-tab="review"]').click();
@@ -184,6 +241,7 @@ try {
 
   // 9a. gia sư 3D: jsdom không có WebGL -> app phải tự ẩn gia sư, không lỗi, không hiện nút bật/tắt
   check("tutor bar stays hidden when WebGL is unavailable", doc.getElementById("tutorBar").hidden === true);
+  check("floating tutor also hidden when WebGL is unavailable", doc.getElementById("tutorFloat").hidden === true);
   window.onNativeBack();
   check("tutor toggle not offered when WebGL is unavailable", !doc.getElementById("tutorToggle"));
 
@@ -255,6 +313,15 @@ try {
   window.onNativeBack();
   doc.querySelector('.rv-mode-row [data-mode="flash"]').click(); // đưa về mặc định thẻ ghi nhớ
 
+  const hardOpt = doc.querySelector('#rvCat option[value="__hard"]');
+  check("cards answered wrong appear in a '⚠️ Thẻ hay quên' review group", !!hardOpt);
+  const rvCat = doc.getElementById("rvCat");
+  rvCat.value = "__hard"; rvCat.dispatchEvent(new window.Event("change", {bubbles:true}));
+  doc.getElementById("rvStart").click();
+  check("reviewing the hard-cards group starts a session", !!doc.getElementById("flashCard"));
+  window.onNativeBack();
+  doc.getElementById("rvCat").value = "all"; doc.getElementById("rvCat").dispatchEvent(new window.Event("change", {bubbles:true}));
+
   // 9c. dashboard tiến trình học (streak, biểu đồ 7 ngày, tiến độ theo ngôn ngữ, sao lưu/khôi phục)
   doc.getElementById("streakBadge").click();
   check("dashboard opens via streak badge", doc.getElementById("dashBack").hidden === false);
@@ -280,6 +347,12 @@ try {
   doc.getElementById("reminderToggle").checked = false;
   doc.getElementById("reminderToggle").dispatchEvent(new window.Event("change", {bubbles:true}));
   check("disabling reminder toggle calls Android.cancelReminder", reminderState.enabled === false);
+  doc.querySelector('#setTheme [data-v="dark"]').click();
+  check("dark theme setting applies data-theme=dark", window.document.documentElement.getAttribute("data-theme") === "dark");
+  doc.querySelector('#setTheme [data-v="light"]').click();
+  check("light theme setting applies data-theme=light", window.document.documentElement.getAttribute("data-theme") === "light");
+  doc.querySelector('#setZoom [data-v="115"]').click();
+  check("text size setting is saved", window.localStorage.getItem("fv_text_zoom") === "115");
 
   doc.getElementById("dashExport").click();
   check("export button calls Android.exportData with a JSON payload", exportCalled === 1 && exportedJson && exportedJson.indexOf('"data"') !== -1);
@@ -319,6 +392,17 @@ try {
   let zhPhon = zhCard.querySelector(".phon").textContent;
   check("Chinese word list shows Han characters as primary text", /[一-鿿]/.test(zhPrimary));
   check("Chinese card shows pinyin phonetic (latin letters), not Han", /[a-zA-ZüÜ]/.test(zhPhon) && !/[一-鿿]/.test(zhPhon));
+  doc.querySelector('.tab[data-tab="review"]').click();
+  doc.querySelector('.rv-mode-row [data-mode="dictation"]').click();
+  doc.getElementById("rvStart").click();
+  const zhItem = window.LANG_PACKS.zh.words.find(w => w.ru === lastSpoken);
+  const plainPinyin = zhItem.phonetic.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-zA-Z]/g, "").toLowerCase();
+  doc.getElementById("dictInput").value = plainPinyin;
+  doc.getElementById("dictSubmit").click();
+  check(`Chinese dictation accepts toneless pinyin ('${plainPinyin}' for ${zhItem.ru})`, !!doc.querySelector(".dict-feedback.dict-exact"));
+  window.onNativeBack();
+  doc.querySelector('.rv-mode-row [data-mode="flash"]').click();
+  doc.querySelector('.tab[data-tab="words"]').click();
 
   doc.getElementById("langBtn").click();
   let enRow = doc.querySelector('.lang-row[data-lang="en"]');

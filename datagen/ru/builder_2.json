@@ -1,0 +1,1924 @@
+[
+ {
+  "id": 19,
+  "vi": "đang",
+  "note": "Tiếng Nga không có thì tiếp diễn riêng: dùng động từ thể chưa hoàn thành (imperfective) ở thì hiện tại, thường thêm сейчас (bây giờ) để nhấn mạnh 'đang'.",
+  "pivot": {
+   "t": "сейчас",
+   "ph": "sey-CHAS"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "работаю",
+      "ph": "ra-BO-ta-yu",
+      "vi": "làm việc",
+      "hl": []
+     },
+     {
+      "t": "сейчас работаю",
+      "ph": "sey-CHAS ra-BO-ta-yu",
+      "vi": "đang làm việc",
+      "hl": [
+       "сейчас"
+      ]
+     },
+     {
+      "t": "Я сейчас работаю.",
+      "ph": "YA sey-CHAS ra-BO-ta-yu",
+      "vi": "Tôi đang làm việc.",
+      "hl": [
+       "сейчас"
+      ],
+      "tokens": [
+       "Я",
+       "сейчас",
+       "работаю"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "едем",
+      "ph": "YE-dyem",
+      "vi": "đi (bằng xe)",
+      "hl": []
+     },
+     {
+      "t": "сейчас едем",
+      "ph": "sey-CHAS YE-dyem",
+      "vi": "đang đi",
+      "hl": [
+       "сейчас"
+      ]
+     },
+     {
+      "t": "Мы сейчас едем в отель.",
+      "ph": "MY sey-CHAS YE-dyem v a-TEL'",
+      "vi": "Chúng tôi đang đi về khách sạn.",
+      "hl": [
+       "сейчас"
+      ],
+      "tokens": [
+       "Мы",
+       "сейчас",
+       "едем",
+       "в",
+       "отель"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "спит",
+      "ph": "SPIT",
+      "vi": "ngủ",
+      "hl": []
+     },
+     {
+      "t": "сейчас спит",
+      "ph": "sey-CHAS SPIT",
+      "vi": "đang ngủ",
+      "hl": [
+       "сейчас"
+      ]
+     },
+     {
+      "t": "Ребёнок сейчас спит.",
+      "ph": "ri-BYO-nak sey-CHAS SPIT",
+      "vi": "Em bé đang ngủ.",
+      "hl": [
+       "сейчас"
+      ],
+      "tokens": [
+       "Ребёнок",
+       "сейчас",
+       "спит"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "vi": "rồi",
+  "note": "'Rồi' (đã xong) dịch bằng уже (đã, rồi) đi với động từ thì quá khứ thể hoàn thành (perfective) như поел, купил; động từ quá khứ chia theo giống: поел (nam) / поела (nữ).",
+  "pivot": {
+   "t": "уже",
+   "ph": "u-ZHE"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "поел",
+      "ph": "pa-YEL",
+      "vi": "đã ăn",
+      "hl": []
+     },
+     {
+      "t": "уже поел",
+      "ph": "u-ZHE pa-YEL",
+      "vi": "ăn rồi",
+      "hl": [
+       "уже"
+      ]
+     },
+     {
+      "t": "Я уже поел.",
+      "ph": "YA u-ZHE pa-YEL",
+      "vi": "Tôi ăn rồi.",
+      "hl": [
+       "уже"
+      ],
+      "tokens": [
+       "Я",
+       "уже",
+       "поел"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "пришли",
+      "ph": "prish-LI",
+      "vi": "đã đến",
+      "hl": []
+     },
+     {
+      "t": "уже пришли",
+      "ph": "u-ZHE prish-LI",
+      "vi": "đến rồi",
+      "hl": [
+       "уже"
+      ]
+     },
+     {
+      "t": "Мы уже пришли.",
+      "ph": "MY u-ZHE prish-LI",
+      "vi": "Chúng ta đến nơi rồi.",
+      "hl": [
+       "уже"
+      ],
+      "tokens": [
+       "Мы",
+       "уже",
+       "пришли"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "купил",
+      "ph": "ku-PIL",
+      "vi": "đã mua",
+      "hl": []
+     },
+     {
+      "t": "уже купил",
+      "ph": "u-ZHE ku-PIL",
+      "vi": "mua rồi",
+      "hl": [
+       "уже"
+      ]
+     },
+     {
+      "t": "Я уже купил билеты.",
+      "ph": "YA u-ZHE ku-PIL bi-LYE-ty",
+      "vi": "Tôi mua vé rồi.",
+      "hl": [
+       "уже"
+      ],
+      "tokens": [
+       "Я",
+       "уже",
+       "купил",
+       "билеты"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "vi": "chưa",
+  "note": "'Chưa' là ещё не (vẫn chưa) đặt trước động từ hoặc tính từ; câu hỏi 'đã ... chưa?' dùng уже ...? và trả lời Ещё нет (chưa).",
+  "pivot": {
+   "t": "ещё не",
+   "ph": "ye-SHCHO ne"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "был",
+      "ph": "BYL",
+      "vi": "đã ở, đã đến",
+      "hl": []
+     },
+     {
+      "t": "ещё не был",
+      "ph": "ye-SHCHO NYE byl",
+      "vi": "chưa từng đến",
+      "hl": [
+       "ещё не"
+      ]
+     },
+     {
+      "t": "Я ещё не был в Москве.",
+      "ph": "YA ye-SHCHO NYE byl v mask-VYE",
+      "vi": "Tôi chưa từng đến Moskva.",
+      "hl": [
+       "ещё не"
+      ],
+      "tokens": [
+       "Я",
+       "ещё",
+       "не",
+       "был",
+       "в",
+       "Москве"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "готов",
+      "ph": "ga-TOF",
+      "vi": "sẵn sàng, xong",
+      "hl": []
+     },
+     {
+      "t": "ещё не готов",
+      "ph": "ye-SHCHO ne ga-TOF",
+      "vi": "chưa xong",
+      "hl": [
+       "ещё не"
+      ]
+     },
+     {
+      "t": "Ужин ещё не готов.",
+      "ph": "U-zhin ye-SHCHO ne ga-TOF",
+      "vi": "Bữa tối chưa xong.",
+      "hl": [
+       "ещё не"
+      ],
+      "tokens": [
+       "Ужин",
+       "ещё",
+       "не",
+       "готов"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "решили",
+      "ph": "ri-SHI-li",
+      "vi": "đã quyết định",
+      "hl": []
+     },
+     {
+      "t": "ещё не решили",
+      "ph": "ye-SHCHO ne ri-SHI-li",
+      "vi": "chưa quyết định",
+      "hl": [
+       "ещё не"
+      ]
+     },
+     {
+      "t": "Вы ещё не решили?",
+      "ph": "VY ye-SHCHO ne ri-SHI-li",
+      "vi": "Anh chị chưa chọn xong à?",
+      "hl": [
+       "ещё не"
+      ],
+      "tokens": [
+       "Вы",
+       "ещё",
+       "не",
+       "решили"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "vi": "rất",
+  "note": "Очень (rất) đứng trước tính từ hoặc trạng từ, không đổi hình thức; tính từ vẫn hợp giống với danh từ (дорогой отель).",
+  "pivot": {
+   "t": "очень",
+   "ph": "O-chen"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "вкусно",
+      "ph": "FKUS-na",
+      "vi": "ngon",
+      "hl": []
+     },
+     {
+      "t": "очень вкусно",
+      "ph": "O-chen FKUS-na",
+      "vi": "rất ngon",
+      "hl": [
+       "очень"
+      ]
+     },
+     {
+      "t": "Это очень вкусно.",
+      "ph": "E-ta O-chen FKUS-na",
+      "vi": "Cái này rất ngon.",
+      "hl": [
+       "очень"
+      ],
+      "tokens": [
+       "Это",
+       "очень",
+       "вкусно"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "красиво",
+      "ph": "kra-SI-va",
+      "vi": "đẹp",
+      "hl": []
+     },
+     {
+      "t": "очень красиво",
+      "ph": "O-chen kra-SI-va",
+      "vi": "rất đẹp",
+      "hl": [
+       "очень"
+      ]
+     },
+     {
+      "t": "Здесь очень красиво.",
+      "ph": "ZDES' O-chen kra-SI-va",
+      "vi": "Ở đây rất đẹp.",
+      "hl": [
+       "очень"
+      ],
+      "tokens": [
+       "Здесь",
+       "очень",
+       "красиво"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "дорогой",
+      "ph": "da-ra-GOY",
+      "vi": "đắt",
+      "hl": []
+     },
+     {
+      "t": "очень дорогой",
+      "ph": "O-chen da-ra-GOY",
+      "vi": "rất đắt",
+      "hl": [
+       "очень"
+      ]
+     },
+     {
+      "t": "Этот отель очень дорогой.",
+      "ph": "E-tat a-TEL' O-chen da-ra-GOY",
+      "vi": "Khách sạn này rất đắt.",
+      "hl": [
+       "очень"
+      ],
+      "tokens": [
+       "Этот",
+       "отель",
+       "очень",
+       "дорогой"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "vi": "quá",
+  "note": "'Quá' (vượt mức) là слишком, đứng trước tính từ/trạng từ; khác với очень (rất), слишком mang ý chê, không mong muốn.",
+  "pivot": {
+   "t": "слишком",
+   "ph": "SLISH-kam"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "дорого",
+      "ph": "DO-ra-ga",
+      "vi": "đắt",
+      "hl": []
+     },
+     {
+      "t": "слишком дорого",
+      "ph": "SLISH-kam DO-ra-ga",
+      "vi": "đắt quá",
+      "hl": [
+       "слишком"
+      ]
+     },
+     {
+      "t": "Это слишком дорого.",
+      "ph": "E-ta SLISH-kam DO-ra-ga",
+      "vi": "Cái này đắt quá.",
+      "hl": [
+       "слишком"
+      ],
+      "tokens": [
+       "Это",
+       "слишком",
+       "дорого"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "быстро",
+      "ph": "BYS-tra",
+      "vi": "nhanh",
+      "hl": []
+     },
+     {
+      "t": "слишком быстро",
+      "ph": "SLISH-kam BYS-tra",
+      "vi": "nhanh quá",
+      "hl": [
+       "слишком"
+      ]
+     },
+     {
+      "t": "Вы говорите слишком быстро.",
+      "ph": "VY ga-va-RI-te SLISH-kam BYS-tra",
+      "vi": "Anh nói nhanh quá.",
+      "hl": [
+       "слишком"
+      ],
+      "tokens": [
+       "Вы",
+       "говорите",
+       "слишком",
+       "быстро"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "жарко",
+      "ph": "ZHAR-ka",
+      "vi": "nóng",
+      "hl": []
+     },
+     {
+      "t": "слишком жарко",
+      "ph": "SLISH-kam ZHAR-ka",
+      "vi": "nóng quá",
+      "hl": [
+       "слишком"
+      ]
+     },
+     {
+      "t": "Сегодня слишком жарко.",
+      "ph": "si-VOD-nya SLISH-kam ZHAR-ka",
+      "vi": "Hôm nay nóng quá.",
+      "hl": [
+       "слишком"
+      ],
+      "tokens": [
+       "Сегодня",
+       "слишком",
+       "жарко"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "vi": "hơn",
+  "note": "So sánh hơn thường thêm đuôi -ее vào tính từ (быстрый → быстрее), một số từ bất quy tắc (хорошо → лучше, дёшево → дешевле, много → больше); vật so sánh để ở cách sở hữu (быстрее автобуса) hoặc sau чем.",
+  "pivot": {
+   "t": "больше",
+   "ph": "BOL'-she"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "быстро",
+      "ph": "BYS-tra",
+      "vi": "nhanh",
+      "hl": []
+     },
+     {
+      "t": "быстрее автобуса",
+      "ph": "byst-RYE-ye af-TO-bu-sa",
+      "vi": "nhanh hơn xe buýt",
+      "hl": [
+       "быстрее"
+      ]
+     },
+     {
+      "t": "Поезд быстрее автобуса.",
+      "ph": "PO-ist byst-RYE-ye af-TO-bu-sa",
+      "vi": "Tàu hỏa nhanh hơn xe buýt.",
+      "hl": [
+       "быстрее"
+      ],
+      "tokens": [
+       "Поезд",
+       "быстрее",
+       "автобуса"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "дёшево",
+      "ph": "DYO-she-va",
+      "vi": "rẻ",
+      "hl": []
+     },
+     {
+      "t": "что-нибудь дешевле",
+      "ph": "SHTO-ni-bud' di-SHEV-lye",
+      "vi": "cái gì rẻ hơn",
+      "hl": [
+       "дешевле"
+      ]
+     },
+     {
+      "t": "Есть что-нибудь дешевле?",
+      "ph": "YEST' SHTO-ni-bud' di-SHEV-lye",
+      "vi": "Có cái nào rẻ hơn không?",
+      "hl": [
+       "дешевле"
+      ],
+      "tokens": [
+       "Есть",
+       "что-нибудь",
+       "дешевле"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "нравится",
+      "ph": "NRA-vit-sa",
+      "vi": "thích",
+      "hl": []
+     },
+     {
+      "t": "больше нравится",
+      "ph": "BOL'-she NRA-vit-sa",
+      "vi": "thích hơn",
+      "hl": [
+       "больше"
+      ]
+     },
+     {
+      "t": "Мне больше нравится чай.",
+      "ph": "MNYE BOL'-she NRA-vit-sa CHAY",
+      "vi": "Tôi thích trà hơn.",
+      "hl": [
+       "больше"
+      ],
+      "tokens": [
+       "Мне",
+       "больше",
+       "нравится",
+       "чай"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "vi": "nhất",
+  "note": "So sánh nhất dùng самый + tính từ, và самый phải hợp giống, số, cách với danh từ: самый (đực), самая (cái), самое (trung).",
+  "pivot": {
+   "t": "самый",
+   "ph": "SA-miy"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "вкусный",
+      "ph": "FKUS-niy",
+      "vi": "ngon",
+      "hl": []
+     },
+     {
+      "t": "самый вкусный",
+      "ph": "SA-miy FKUS-niy",
+      "vi": "ngon nhất",
+      "hl": [
+       "самый"
+      ]
+     },
+     {
+      "t": "Это самый вкусный суп.",
+      "ph": "E-ta SA-miy FKUS-niy SUP",
+      "vi": "Đây là món súp ngon nhất.",
+      "hl": [
+       "самый"
+      ],
+      "tokens": [
+       "Это",
+       "самый",
+       "вкусный",
+       "суп"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "дешёвая",
+      "ph": "di-SHO-va-ya",
+      "vi": "rẻ",
+      "hl": []
+     },
+     {
+      "t": "самая дешёвая",
+      "ph": "SA-ma-ya di-SHO-va-ya",
+      "vi": "rẻ nhất",
+      "hl": [
+       "самая"
+      ]
+     },
+     {
+      "t": "Мне нужна самая дешёвая комната.",
+      "ph": "MNYE nuzh-NA SA-ma-ya di-SHO-va-ya KOM-na-ta",
+      "vi": "Tôi cần phòng rẻ nhất.",
+      "hl": [
+       "самая"
+      ],
+      "tokens": [
+       "Мне",
+       "нужна",
+       "самая",
+       "дешёвая",
+       "комната"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "красивое",
+      "ph": "kra-SI-va-ye",
+      "vi": "đẹp",
+      "hl": []
+     },
+     {
+      "t": "самое красивое",
+      "ph": "SA-ma-ye kra-SI-va-ye",
+      "vi": "đẹp nhất",
+      "hl": [
+       "самое"
+      ]
+     },
+     {
+      "t": "Это самое красивое место.",
+      "ph": "E-ta SA-ma-ye kra-SI-va-ye MYES-ta",
+      "vi": "Đây là nơi đẹp nhất.",
+      "hl": [
+       "самое"
+      ],
+      "tokens": [
+       "Это",
+       "самое",
+       "красивое",
+       "место"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "vi": "cũng",
+  "note": "Тоже (cũng) đứng sau chủ ngữ, trước động từ hoặc vị ngữ, không biến đổi: Я тоже... = Tôi cũng...",
+  "pivot": {
+   "t": "тоже",
+   "ph": "TO-zhe"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "хочу",
+      "ph": "ha-CHU",
+      "vi": "muốn",
+      "hl": []
+     },
+     {
+      "t": "тоже хочу",
+      "ph": "TO-zhe ha-CHU",
+      "vi": "cũng muốn",
+      "hl": [
+       "тоже"
+      ]
+     },
+     {
+      "t": "Я тоже хочу кофе.",
+      "ph": "YA TO-zhe ha-CHU KO-fe",
+      "vi": "Tôi cũng muốn uống cà phê.",
+      "hl": [
+       "тоже"
+      ],
+      "tokens": [
+       "Я",
+       "тоже",
+       "хочу",
+       "кофе"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "студент",
+      "ph": "stu-DYENT",
+      "vi": "sinh viên",
+      "hl": []
+     },
+     {
+      "t": "тоже студент",
+      "ph": "TO-zhe stu-DYENT",
+      "vi": "cũng là sinh viên",
+      "hl": [
+       "тоже"
+      ]
+     },
+     {
+      "t": "Мой друг тоже студент.",
+      "ph": "MOY DRUK TO-zhe stu-DYENT",
+      "vi": "Bạn tôi cũng là sinh viên.",
+      "hl": [
+       "тоже"
+      ],
+      "tokens": [
+       "Мой",
+       "друг",
+       "тоже",
+       "студент"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "устал",
+      "ph": "us-TAL",
+      "vi": "mệt",
+      "hl": []
+     },
+     {
+      "t": "тоже устал",
+      "ph": "TO-zhe us-TAL",
+      "vi": "cũng mệt",
+      "hl": [
+       "тоже"
+      ]
+     },
+     {
+      "t": "Я тоже устал.",
+      "ph": "YA TO-zhe us-TAL",
+      "vi": "Tôi cũng mệt.",
+      "hl": [
+       "тоже"
+      ],
+      "tokens": [
+       "Я",
+       "тоже",
+       "устал"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "vi": "và",
+  "note": "И (và) nối hai từ hoặc hai vế cùng loại, không cần dấu phẩy khi nối hai từ; hai danh từ nối bằng и làm chủ ngữ thì động từ/tính từ đi kèm chia số nhiều (нужны).",
+  "pivot": {
+   "t": "и",
+   "ph": "I"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "чай",
+      "ph": "CHAY",
+      "vi": "trà",
+      "hl": []
+     },
+     {
+      "t": "чай и кофе",
+      "ph": "CHAY i KO-fe",
+      "vi": "trà và cà phê",
+      "hl": [
+       "и"
+      ]
+     },
+     {
+      "t": "Я люблю чай и кофе.",
+      "ph": "YA lyub-LYU CHAY i KO-fe",
+      "vi": "Tôi thích trà và cà phê.",
+      "hl": [
+       "и"
+      ],
+      "tokens": [
+       "Я",
+       "люблю",
+       "чай",
+       "и",
+       "кофе"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "мама",
+      "ph": "MA-ma",
+      "vi": "mẹ",
+      "hl": []
+     },
+     {
+      "t": "мама и папа",
+      "ph": "MA-ma i PA-pa",
+      "vi": "mẹ và bố",
+      "hl": [
+       "и"
+      ]
+     },
+     {
+      "t": "Это мои мама и папа.",
+      "ph": "E-ta ma-I MA-ma i PA-pa",
+      "vi": "Đây là mẹ và bố của tôi.",
+      "hl": [
+       "и"
+      ],
+      "tokens": [
+       "Это",
+       "мои",
+       "мама",
+       "и",
+       "папа"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "хлеб",
+      "ph": "KHLYEP",
+      "vi": "bánh mì",
+      "hl": []
+     },
+     {
+      "t": "хлеб и вода",
+      "ph": "KHLYEP i va-DA",
+      "vi": "bánh mì và nước",
+      "hl": [
+       "и"
+      ]
+     },
+     {
+      "t": "Нам нужны хлеб и вода.",
+      "ph": "NAM nuzh-NY KHLYEP i va-DA",
+      "vi": "Chúng ta cần bánh mì và nước.",
+      "hl": [
+       "и"
+      ],
+      "tokens": [
+       "Нам",
+       "нужны",
+       "хлеб",
+       "и",
+       "вода"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "vi": "nhưng",
+  "note": "Но (nhưng) nối hai ý trái ngược; trong tiếng Nga bắt buộc có dấu phẩy trước но.",
+  "pivot": {
+   "t": "но",
+   "ph": "NO"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "дорого",
+      "ph": "DO-ra-ga",
+      "vi": "đắt",
+      "hl": []
+     },
+     {
+      "t": "но дорого",
+      "ph": "no DO-ra-ga",
+      "vi": "nhưng đắt",
+      "hl": [
+       "но"
+      ]
+     },
+     {
+      "t": "Здесь вкусно, но дорого.",
+      "ph": "ZDES' FKUS-na no DO-ra-ga",
+      "vi": "Ở đây ngon nhưng đắt.",
+      "hl": [
+       "но"
+      ],
+      "tokens": [
+       "Здесь",
+       "вкусно,",
+       "но",
+       "дорого"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "уютный",
+      "ph": "u-YUT-niy",
+      "vi": "ấm cúng",
+      "hl": []
+     },
+     {
+      "t": "но уютный",
+      "ph": "no u-YUT-niy",
+      "vi": "nhưng ấm cúng",
+      "hl": [
+       "но"
+      ]
+     },
+     {
+      "t": "Номер маленький, но уютный.",
+      "ph": "NO-mir MA-lin'-kiy no u-YUT-niy",
+      "vi": "Phòng nhỏ nhưng ấm cúng.",
+      "hl": [
+       "но"
+      ],
+      "tokens": [
+       "Номер",
+       "маленький,",
+       "но",
+       "уютный"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "понимаю",
+      "ph": "pa-ni-MA-yu",
+      "vi": "hiểu",
+      "hl": []
+     },
+     {
+      "t": "но понимаю",
+      "ph": "no pa-ni-MA-yu",
+      "vi": "nhưng hiểu",
+      "hl": [
+       "но"
+      ]
+     },
+     {
+      "t": "Я плохо говорю, но понимаю.",
+      "ph": "YA PLO-kha ga-va-RYU no pa-ni-MA-yu",
+      "vi": "Tôi nói kém nhưng hiểu được.",
+      "hl": [
+       "но"
+      ],
+      "tokens": [
+       "Я",
+       "плохо",
+       "говорю,",
+       "но",
+       "понимаю"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "vi": "nếu",
+  "note": "Если (nếu) mở đầu mệnh đề điều kiện, luôn ngăn cách bằng dấu phẩy; 'thì' là то nhưng thường lược bỏ. Điều kiện ở tương lai dùng thì tương lai (будет дождь, опоздаю).",
+  "pivot": {
+   "t": "если",
+   "ph": "YES-li"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "дождь",
+      "ph": "DOZHT'",
+      "vi": "mưa",
+      "hl": []
+     },
+     {
+      "t": "если будет дождь",
+      "ph": "YES-li BU-dit DOZHT'",
+      "vi": "nếu trời mưa",
+      "hl": [
+       "если"
+      ]
+     },
+     {
+      "t": "Мы останемся дома, если будет дождь.",
+      "ph": "MY as-TA-nim-sya DO-ma YES-li BU-dit DOZHT'",
+      "vi": "Nếu trời mưa thì chúng ta sẽ ở nhà.",
+      "hl": [
+       "если"
+      ],
+      "tokens": [
+       "Мы",
+       "останемся",
+       "дома,",
+       "если",
+       "будет",
+       "дождь"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "можно",
+      "ph": "MOZH-na",
+      "vi": "được, có thể",
+      "hl": []
+     },
+     {
+      "t": "если можно",
+      "ph": "YES-li MOZH-na",
+      "vi": "nếu được",
+      "hl": [
+       "если"
+      ]
+     },
+     {
+      "t": "Дайте счёт, если можно.",
+      "ph": "DAY-te SHCHOT YES-li MOZH-na",
+      "vi": "Nếu được thì cho tôi hóa đơn.",
+      "hl": [
+       "если"
+      ],
+      "tokens": [
+       "Дайте",
+       "счёт,",
+       "если",
+       "можно"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "опоздаю",
+      "ph": "a-paz-DA-yu",
+      "vi": "đến muộn",
+      "hl": []
+     },
+     {
+      "t": "если опоздаю",
+      "ph": "YES-li a-paz-DA-yu",
+      "vi": "nếu tôi đến muộn",
+      "hl": [
+       "если"
+      ]
+     },
+     {
+      "t": "Я позвоню, если опоздаю.",
+      "ph": "YA pa-zva-NYU YES-li a-paz-DA-yu",
+      "vi": "Nếu tôi đến muộn thì tôi sẽ gọi.",
+      "hl": [
+       "если"
+      ],
+      "tokens": [
+       "Я",
+       "позвоню,",
+       "если",
+       "опоздаю"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "vi": "này / kia",
+  "note": "Этот (này) và тот (kia) đứng trước danh từ và hợp giống: этот/эта/это, тот/та/то; riêng это đứng một mình nghĩa là 'đây là, cái này'.",
+  "pivot": {
+   "t": "этот",
+   "ph": "E-tat"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "автобус",
+      "ph": "af-TO-bus",
+      "vi": "xe buýt",
+      "hl": []
+     },
+     {
+      "t": "этот автобус",
+      "ph": "E-tat af-TO-bus",
+      "vi": "xe buýt này",
+      "hl": [
+       "этот"
+      ]
+     },
+     {
+      "t": "Куда идёт этот автобус?",
+      "ph": "ku-DA i-DYOT E-tat af-TO-bus",
+      "vi": "Xe buýt này đi đâu?",
+      "hl": [
+       "этот"
+      ],
+      "tokens": [
+       "Куда",
+       "идёт",
+       "этот",
+       "автобус"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "платье",
+      "ph": "PLAT-ye",
+      "vi": "cái váy",
+      "hl": []
+     },
+     {
+      "t": "это платье",
+      "ph": "E-ta PLAT-ye",
+      "vi": "cái váy này",
+      "hl": [
+       "это"
+      ]
+     },
+     {
+      "t": "Сколько стоит это платье?",
+      "ph": "SKOL'-ka STO-it E-ta PLAT-ye",
+      "vi": "Cái váy này giá bao nhiêu?",
+      "hl": [
+       "это"
+      ],
+      "tokens": [
+       "Сколько",
+       "стоит",
+       "это",
+       "платье"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "торт",
+      "ph": "TORT",
+      "vi": "bánh ngọt",
+      "hl": []
+     },
+     {
+      "t": "тот торт",
+      "ph": "TOT TORT",
+      "vi": "cái bánh kia",
+      "hl": [
+       "тот"
+      ]
+     },
+     {
+      "t": "Дайте мне тот торт.",
+      "ph": "DAY-te MNYE TOT TORT",
+      "vi": "Cho tôi cái bánh kia.",
+      "hl": [
+       "тот"
+      ],
+      "tokens": [
+       "Дайте",
+       "мне",
+       "тот",
+       "торт"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "vi": "của",
+  "note": "'Của tôi/bạn' dùng đại từ sở hữu đứng trước danh từ và hợp giống: мой/моя/моё, твой, ваш/ваша; 'của người khác' thì đặt danh từ ở cách sở hữu sau (машина брата).",
+  "pivot": {
+   "t": "мой",
+   "ph": "MOY"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "паспорт",
+      "ph": "PAS-part",
+      "vi": "hộ chiếu",
+      "hl": []
+     },
+     {
+      "t": "мой паспорт",
+      "ph": "MOY PAS-part",
+      "vi": "hộ chiếu của tôi",
+      "hl": [
+       "мой"
+      ]
+     },
+     {
+      "t": "Где мой паспорт?",
+      "ph": "GDYE MOY PAS-part",
+      "vi": "Hộ chiếu của tôi đâu?",
+      "hl": [
+       "мой"
+      ],
+      "tokens": [
+       "Где",
+       "мой",
+       "паспорт"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "сумка",
+      "ph": "SUM-ka",
+      "vi": "cái túi",
+      "hl": []
+     },
+     {
+      "t": "ваша сумка",
+      "ph": "VA-sha SUM-ka",
+      "vi": "túi của anh chị",
+      "hl": [
+       "ваша"
+      ]
+     },
+     {
+      "t": "Это ваша сумка?",
+      "ph": "E-ta VA-sha SUM-ka",
+      "vi": "Đây là túi của anh chị phải không?",
+      "hl": [
+       "ваша"
+      ],
+      "tokens": [
+       "Это",
+       "ваша",
+       "сумка"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "номер",
+      "ph": "NO-mir",
+      "vi": "số",
+      "hl": []
+     },
+     {
+      "t": "твой номер",
+      "ph": "TVOY NO-mir",
+      "vi": "số của bạn",
+      "hl": [
+       "твой"
+      ]
+     },
+     {
+      "t": "Какой твой номер телефона?",
+      "ph": "ka-KOY TVOY NO-mir ti-li-FO-na",
+      "vi": "Số điện thoại của bạn là gì?",
+      "hl": [
+       "твой"
+      ],
+      "tokens": [
+       "Какой",
+       "твой",
+       "номер",
+       "телефона"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "vi": "ở / tại",
+  "note": "'Ở, tại' là в (trong) hoặc на (trên, ở nơi mở/sự kiện như вокзал, работа), danh từ sau đó chuyển sang cách giới từ, thường đuôi -е (гостиница → в гостинице).",
+  "pivot": {
+   "t": "в",
+   "ph": "V"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "гостинице",
+      "ph": "ga-STI-ni-tse",
+      "vi": "khách sạn",
+      "hl": []
+     },
+     {
+      "t": "в гостинице",
+      "ph": "v ga-STI-ni-tse",
+      "vi": "ở khách sạn",
+      "hl": [
+       "в"
+      ]
+     },
+     {
+      "t": "Я живу в гостинице.",
+      "ph": "YA zhi-VU v ga-STI-ni-tse",
+      "vi": "Tôi ở khách sạn.",
+      "hl": [
+       "в"
+      ],
+      "tokens": [
+       "Я",
+       "живу",
+       "в",
+       "гостинице"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "вокзале",
+      "ph": "vag-ZA-le",
+      "vi": "nhà ga",
+      "hl": []
+     },
+     {
+      "t": "на вокзале",
+      "ph": "na vag-ZA-le",
+      "vi": "ở nhà ga",
+      "hl": [
+       "на"
+      ]
+     },
+     {
+      "t": "Мы встретимся на вокзале.",
+      "ph": "MY VSTRYE-tim-sya na vag-ZA-le",
+      "vi": "Chúng ta sẽ gặp nhau ở nhà ga.",
+      "hl": [
+       "на"
+      ],
+      "tokens": [
+       "Мы",
+       "встретимся",
+       "на",
+       "вокзале"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "работе",
+      "ph": "ra-BO-te",
+      "vi": "chỗ làm",
+      "hl": []
+     },
+     {
+      "t": "на работе",
+      "ph": "na ra-BO-te",
+      "vi": "ở chỗ làm",
+      "hl": [
+       "на"
+      ]
+     },
+     {
+      "t": "Папа сейчас на работе.",
+      "ph": "PA-pa sey-CHAS na ra-BO-te",
+      "vi": "Bố đang ở chỗ làm.",
+      "hl": [
+       "на"
+      ],
+      "tokens": [
+       "Папа",
+       "сейчас",
+       "на",
+       "работе"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "vi": "với",
+  "note": "'Với, cùng' là с (trước một số cụm phụ âm thành со) + danh từ/đại từ ở cách công cụ: друг → с другом, я → со мной, молоко → с молоком.",
+  "pivot": {
+   "t": "с",
+   "ph": "S"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "другом",
+      "ph": "DRU-gam",
+      "vi": "bạn",
+      "hl": []
+     },
+     {
+      "t": "с другом",
+      "ph": "z DRU-gam",
+      "vi": "với bạn",
+      "hl": [
+       "с"
+      ]
+     },
+     {
+      "t": "Я путешествую с другом.",
+      "ph": "YA pu-ti-SHEST-vu-yu z DRU-gam",
+      "vi": "Tôi đi du lịch với bạn.",
+      "hl": [
+       "с"
+      ],
+      "tokens": [
+       "Я",
+       "путешествую",
+       "с",
+       "другом"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "мной",
+      "ph": "MNOY",
+      "vi": "tôi",
+      "hl": []
+     },
+     {
+      "t": "со мной",
+      "ph": "sa MNOY",
+      "vi": "với tôi",
+      "hl": [
+       "со"
+      ]
+     },
+     {
+      "t": "Пойдёмте со мной.",
+      "ph": "pa-DYOM-te sa MNOY",
+      "vi": "Hãy đi với tôi.",
+      "hl": [
+       "со"
+      ],
+      "tokens": [
+       "Пойдёмте",
+       "со",
+       "мной"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "молоком",
+      "ph": "ma-la-KOM",
+      "vi": "sữa",
+      "hl": []
+     },
+     {
+      "t": "с молоком",
+      "ph": "s ma-la-KOM",
+      "vi": "với sữa",
+      "hl": [
+       "с"
+      ]
+     },
+     {
+      "t": "Мне кофе с молоком.",
+      "ph": "MNYE KO-fe s ma-la-KOM",
+      "vi": "Cho tôi cà phê sữa.",
+      "hl": [
+       "с"
+      ],
+      "tokens": [
+       "Мне",
+       "кофе",
+       "с",
+       "молоком"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "vi": "cho",
+  "note": "'Cho ai' có hai cách: для + cách sở hữu (dành cho: для мамы) hoặc đại từ/danh từ ở cách tặng cách sau động từ 'đưa' дать (дать вам = đưa cho anh).",
+  "pivot": {
+   "t": "для",
+   "ph": "DLYA"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "мамы",
+      "ph": "MA-my",
+      "vi": "mẹ",
+      "hl": []
+     },
+     {
+      "t": "для мамы",
+      "ph": "DLYA MA-my",
+      "vi": "cho mẹ",
+      "hl": [
+       "для"
+      ]
+     },
+     {
+      "t": "Это подарок для мамы.",
+      "ph": "E-ta pa-DA-rak DLYA MA-my",
+      "vi": "Đây là quà cho mẹ.",
+      "hl": [
+       "для"
+      ],
+      "tokens": [
+       "Это",
+       "подарок",
+       "для",
+       "мамы"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "детей",
+      "ph": "di-TYEY",
+      "vi": "trẻ em",
+      "hl": []
+     },
+     {
+      "t": "для детей",
+      "ph": "DLYA di-TYEY",
+      "vi": "cho trẻ em",
+      "hl": [
+       "для"
+      ]
+     },
+     {
+      "t": "Есть меню для детей?",
+      "ph": "YEST' mi-NYU DLYA di-TYEY",
+      "vi": "Có thực đơn cho trẻ em không?",
+      "hl": [
+       "для"
+      ],
+      "tokens": [
+       "Есть",
+       "меню",
+       "для",
+       "детей"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "вам",
+      "ph": "VAM",
+      "vi": "anh, chị (cách tặng)",
+      "hl": []
+     },
+     {
+      "t": "дать вам",
+      "ph": "DAT' VAM",
+      "vi": "đưa cho anh",
+      "hl": [
+       "дать"
+      ]
+     },
+     {
+      "t": "Я могу дать вам карту.",
+      "ph": "YA ma-GU DAT' VAM KAR-tu",
+      "vi": "Tôi có thể đưa cho anh tấm bản đồ.",
+      "hl": [
+       "дать"
+      ],
+      "tokens": [
+       "Я",
+       "могу",
+       "дать",
+       "вам",
+       "карту"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "vi": "phải",
+  "note": "'Phải' có ba cách: мне надо/нужно + động từ nguyên mẫu (người ở cách tặng: мне, вам) hoặc я должен (chủ ngữ ở cách chủ, должен hợp giống: должна cho nữ).",
+  "pivot": {
+   "t": "надо",
+   "ph": "NA-da"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "идти",
+      "ph": "it-TI",
+      "vi": "đi",
+      "hl": []
+     },
+     {
+      "t": "надо идти",
+      "ph": "NA-da it-TI",
+      "vi": "phải đi",
+      "hl": [
+       "надо"
+      ]
+     },
+     {
+      "t": "Мне надо идти.",
+      "ph": "MNYE NA-da it-TI",
+      "vi": "Tôi phải đi rồi.",
+      "hl": [
+       "надо"
+      ],
+      "tokens": [
+       "Мне",
+       "надо",
+       "идти"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "заплатить",
+      "ph": "za-pla-TIT'",
+      "vi": "trả tiền",
+      "hl": []
+     },
+     {
+      "t": "должен заплатить",
+      "ph": "DOL-zhen za-pla-TIT'",
+      "vi": "phải trả tiền",
+      "hl": [
+       "должен"
+      ]
+     },
+     {
+      "t": "Я должен заплатить заранее?",
+      "ph": "YA DOL-zhen za-pla-TIT' za-RA-ni-ye",
+      "vi": "Tôi phải trả tiền trước à?",
+      "hl": [
+       "должен"
+      ],
+      "tokens": [
+       "Я",
+       "должен",
+       "заплатить",
+       "заранее"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "подождать",
+      "ph": "pa-dazh-DAT'",
+      "vi": "chờ",
+      "hl": []
+     },
+     {
+      "t": "нужно подождать",
+      "ph": "NUZH-na pa-dazh-DAT'",
+      "vi": "phải chờ",
+      "hl": [
+       "нужно"
+      ]
+     },
+     {
+      "t": "Вам нужно подождать немного.",
+      "ph": "VAM NUZH-na pa-dazh-DAT' nim-NO-ga",
+      "vi": "Anh phải chờ một chút.",
+      "hl": [
+       "нужно"
+      ],
+      "tokens": [
+       "Вам",
+       "нужно",
+       "подождать",
+       "немного"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "vi": "thử",
+  "note": "'Thử' là попробовать + danh từ (nếm thử) hoặc + động từ (thử làm); thử quần áo dùng động từ riêng примерить.",
+  "pivot": {
+   "t": "попробовать",
+   "ph": "pa-PRO-ba-vat'"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "борщ",
+      "ph": "BORSHCH",
+      "vi": "món borscht",
+      "hl": []
+     },
+     {
+      "t": "попробовать борщ",
+      "ph": "pa-PRO-ba-vat' BORSHCH",
+      "vi": "thử món borscht",
+      "hl": [
+       "попробовать"
+      ]
+     },
+     {
+      "t": "Я хочу попробовать борщ.",
+      "ph": "YA ha-CHU pa-PRO-ba-vat' BORSHCH",
+      "vi": "Tôi muốn ăn thử món borscht.",
+      "hl": [
+       "попробовать"
+      ],
+      "tokens": [
+       "Я",
+       "хочу",
+       "попробовать",
+       "борщ"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "куртку",
+      "ph": "KURT-ku",
+      "vi": "áo khoác",
+      "hl": []
+     },
+     {
+      "t": "примерить эту куртку",
+      "ph": "pri-MYE-rit' E-tu KURT-ku",
+      "vi": "thử cái áo khoác này",
+      "hl": [
+       "примерить"
+      ]
+     },
+     {
+      "t": "Можно примерить эту куртку?",
+      "ph": "MOZH-na pri-MYE-rit' E-tu KURT-ku",
+      "vi": "Tôi mặc thử cái áo khoác này được không?",
+      "hl": [
+       "примерить"
+      ],
+      "tokens": [
+       "Можно",
+       "примерить",
+       "эту",
+       "куртку"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "позвонить",
+      "ph": "pa-zva-NIT'",
+      "vi": "gọi điện",
+      "hl": []
+     },
+     {
+      "t": "попробую позвонить",
+      "ph": "pa-PRO-bu-yu pa-zva-NIT'",
+      "vi": "thử gọi điện",
+      "hl": [
+       "попробую"
+      ]
+     },
+     {
+      "t": "Я попробую позвонить ему.",
+      "ph": "YA pa-PRO-bu-yu pa-zva-NIT' ye-MU",
+      "vi": "Tôi sẽ thử gọi cho anh ấy.",
+      "hl": [
+       "попробую"
+      ],
+      "tokens": [
+       "Я",
+       "попробую",
+       "позвонить",
+       "ему"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

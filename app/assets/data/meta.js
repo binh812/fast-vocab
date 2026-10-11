@@ -1,0 +1,1 @@
+window.LANG_META = {"en":{"words":2880,"sentences":2422,"builder":36},"fr":{"words":2739,"sentences":2478,"builder":36},"ru":{"words":2873,"sentences":2459,"builder":36},"zh":{"words":2717,"sentences":2478,"builder":36}};

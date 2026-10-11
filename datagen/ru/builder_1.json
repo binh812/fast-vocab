@@ -1,0 +1,1926 @@
+[
+ {
+  "id": 1,
+  "vi": "không",
+  "note": "'не' đứng ngay trước động từ để phủ định (не говорю = không nói); khi trả lời 'không' thì dùng 'нет'.",
+  "pivot": {
+   "t": "не",
+   "ph": "nye"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "говорю",
+      "ph": "ga-va-RYU",
+      "vi": "(tôi) nói",
+      "hl": []
+     },
+     {
+      "t": "не говорю",
+      "ph": "nye ga-va-RYU",
+      "vi": "không nói",
+      "hl": [
+       "не"
+      ]
+     },
+     {
+      "t": "Я не говорю по-русски.",
+      "ph": "ya nye ga-va-RYU pa-RUS-ki",
+      "vi": "Tôi không nói tiếng Nga.",
+      "hl": [
+       "не"
+      ],
+      "tokens": [
+       "Я",
+       "не",
+       "говорю",
+       "по-русски"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "понимаю",
+      "ph": "pa-ni-MA-yu",
+      "vi": "(tôi) hiểu",
+      "hl": []
+     },
+     {
+      "t": "не понимаю",
+      "ph": "nye pa-ni-MA-yu",
+      "vi": "không hiểu",
+      "hl": [
+       "не"
+      ]
+     },
+     {
+      "t": "Я совсем не понимаю.",
+      "ph": "ya sav-SYEM nye pa-ni-MA-yu",
+      "vi": "Tôi hoàn toàn không hiểu.",
+      "hl": [
+       "не"
+      ],
+      "tokens": [
+       "Я",
+       "совсем",
+       "не",
+       "понимаю"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "знаю",
+      "ph": "ZNA-yu",
+      "vi": "(tôi) biết",
+      "hl": []
+     },
+     {
+      "t": "не знаю",
+      "ph": "nye ZNA-yu",
+      "vi": "không biết",
+      "hl": [
+       "не"
+      ]
+     },
+     {
+      "t": "Я не знаю дорогу.",
+      "ph": "ya nye ZNA-yu da-RO-gu",
+      "vi": "Tôi không biết đường.",
+      "hl": [
+       "не"
+      ],
+      "tokens": [
+       "Я",
+       "не",
+       "знаю",
+       "дорогу"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "vi": "có",
+  "note": "Tiếng Nga nói 'có' bằng cấu trúc 'у + sở hữu cách + есть' (у меня есть = tôi có, nghĩa đen 'ở tôi có'), vật sở hữu ở chủ cách; phủ định: 'у меня нет' + sở hữu cách.",
+  "pivot": {
+   "t": "у меня есть",
+   "ph": "u mi-NYA yest"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "билет",
+      "ph": "bi-LYET",
+      "vi": "vé",
+      "hl": []
+     },
+     {
+      "t": "у меня есть билет",
+      "ph": "u mi-NYA yest bi-LYET",
+      "vi": "tôi có vé",
+      "hl": [
+       "у меня есть"
+      ]
+     },
+     {
+      "t": "Теперь у меня есть билет.",
+      "ph": "ti-PYER u mi-NYA yest bi-LYET",
+      "vi": "Giờ tôi có vé rồi.",
+      "hl": [
+       "у меня есть"
+      ],
+      "tokens": [
+       "Теперь",
+       "у",
+       "меня",
+       "есть",
+       "билет"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "время",
+      "ph": "VRYE-mya",
+      "vi": "thời gian",
+      "hl": []
+     },
+     {
+      "t": "у меня есть время",
+      "ph": "u mi-NYA yest VRYE-mya",
+      "vi": "tôi có thời gian",
+      "hl": [
+       "у меня есть"
+      ]
+     },
+     {
+      "t": "Сегодня у меня есть время.",
+      "ph": "si-VOD-nya u mi-NYA yest VRYE-mya",
+      "vi": "Hôm nay tôi có thời gian.",
+      "hl": [
+       "у меня есть"
+      ],
+      "tokens": [
+       "Сегодня",
+       "у",
+       "меня",
+       "есть",
+       "время"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "вопрос",
+      "ph": "va-PROS",
+      "vi": "câu hỏi",
+      "hl": []
+     },
+     {
+      "t": "у меня есть вопрос",
+      "ph": "u mi-NYA yest va-PROS",
+      "vi": "tôi có câu hỏi",
+      "hl": [
+       "у меня есть"
+      ]
+     },
+     {
+      "t": "А у меня есть вопрос.",
+      "ph": "a u mi-NYA yest va-PROS",
+      "vi": "À, tôi có một câu hỏi.",
+      "hl": [
+       "у меня есть"
+      ],
+      "tokens": [
+       "А",
+       "у",
+       "меня",
+       "есть",
+       "вопрос"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "vi": "là",
+  "note": "Ở thì hiện tại tiếng Nga lược bỏ động từ 'là' (Я студент = Tôi là sinh viên); 'это' = 'đây là / đó là', dùng để giới thiệu người hoặc chỉ vật.",
+  "pivot": {
+   "t": "это",
+   "ph": "E-ta"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "друг",
+      "ph": "DRUK",
+      "vi": "bạn",
+      "hl": []
+     },
+     {
+      "t": "это мой друг",
+      "ph": "E-ta moy DRUK",
+      "vi": "đây là bạn tôi",
+      "hl": [
+       "это"
+      ]
+     },
+     {
+      "t": "А это мой друг Иван.",
+      "ph": "a E-ta moy DRUK i-VAN",
+      "vi": "Còn đây là bạn tôi, Ivan.",
+      "hl": [
+       "это"
+      ],
+      "tokens": [
+       "А",
+       "это",
+       "мой",
+       "друг",
+       "Иван"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "сумка",
+      "ph": "SUM-ka",
+      "vi": "cái túi",
+      "hl": []
+     },
+     {
+      "t": "это моя сумка",
+      "ph": "E-ta ma-YA SUM-ka",
+      "vi": "đây là túi của tôi",
+      "hl": [
+       "это"
+      ]
+     },
+     {
+      "t": "Вот это моя сумка.",
+      "ph": "vot E-ta ma-YA SUM-ka",
+      "vi": "Đây chính là túi của tôi.",
+      "hl": [
+       "это"
+      ],
+      "tokens": [
+       "Вот",
+       "это",
+       "моя",
+       "сумка"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "площадь",
+      "ph": "PLO-shchad",
+      "vi": "quảng trường",
+      "hl": []
+     },
+     {
+      "t": "это Красная площадь",
+      "ph": "E-ta KRAS-na-ya PLO-shchad",
+      "vi": "đây là Quảng trường Đỏ",
+      "hl": [
+       "это"
+      ]
+     },
+     {
+      "t": "А это Красная площадь?",
+      "ph": "a E-ta KRAS-na-ya PLO-shchad",
+      "vi": "Còn đây là Quảng trường Đỏ à?",
+      "hl": [
+       "это"
+      ],
+      "tokens": [
+       "А",
+       "это",
+       "Красная",
+       "площадь"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "vi": "muốn",
+  "note": "'хотеть' chia: я хочу, ты хочешь, мы хотим; theo sau là động từ nguyên mẫu (muốn làm gì) hoặc danh từ đối cách (muốn cái gì). Lịch sự hơn: 'я хотел(а) бы'.",
+  "pivot": {
+   "t": "хочу",
+   "ph": "kha-CHU"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "кофе",
+      "ph": "KO-fe",
+      "vi": "cà phê",
+      "hl": []
+     },
+     {
+      "t": "хочу кофе",
+      "ph": "kha-CHU KO-fe",
+      "vi": "muốn cà phê",
+      "hl": [
+       "хочу"
+      ]
+     },
+     {
+      "t": "Я хочу кофе с молоком.",
+      "ph": "ya kha-CHU KO-fe s ma-la-KOM",
+      "vi": "Tôi muốn cà phê sữa.",
+      "hl": [
+       "хочу"
+      ],
+      "tokens": [
+       "Я",
+       "хочу",
+       "кофе",
+       "с",
+       "молоком"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "спать",
+      "ph": "SPAT",
+      "vi": "ngủ",
+      "hl": []
+     },
+     {
+      "t": "хочу спать",
+      "ph": "kha-CHU SPAT",
+      "vi": "muốn ngủ",
+      "hl": [
+       "хочу"
+      ]
+     },
+     {
+      "t": "Я очень хочу спать.",
+      "ph": "ya O-chen kha-CHU SPAT",
+      "vi": "Tôi buồn ngủ quá.",
+      "hl": [
+       "хочу"
+      ],
+      "tokens": [
+       "Я",
+       "очень",
+       "хочу",
+       "спать"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "купить",
+      "ph": "ku-PIT",
+      "vi": "mua",
+      "hl": []
+     },
+     {
+      "t": "хочу купить",
+      "ph": "kha-CHU ku-PIT",
+      "vi": "muốn mua",
+      "hl": [
+       "хочу"
+      ]
+     },
+     {
+      "t": "Я хочу купить сувенир.",
+      "ph": "ya kha-CHU ku-PIT su-vi-NIR",
+      "vi": "Tôi muốn mua quà lưu niệm.",
+      "hl": [
+       "хочу"
+      ],
+      "tokens": [
+       "Я",
+       "хочу",
+       "купить",
+       "сувенир"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "vi": "thích",
+  "note": "'нравится' dùng với người thích ở tặng cách (мне нравится = tôi thích), vật được thích làm chủ ngữ (số nhiều: нравятся); 'люблю' (rất thích/yêu) + đối cách hoặc động từ nguyên mẫu.",
+  "pivot": {
+   "t": "нравится",
+   "ph": "NRA-vit-sya"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "Москва",
+      "ph": "mask-VA",
+      "vi": "Moscow",
+      "hl": []
+     },
+     {
+      "t": "нравится Москва",
+      "ph": "NRA-vit-sya mask-VA",
+      "vi": "thích Moscow",
+      "hl": [
+       "нравится"
+      ]
+     },
+     {
+      "t": "Мне очень нравится Москва.",
+      "ph": "mnye O-chen NRA-vit-sya mask-VA",
+      "vi": "Tôi rất thích Moscow.",
+      "hl": [
+       "нравится"
+      ],
+      "tokens": [
+       "Мне",
+       "очень",
+       "нравится",
+       "Москва"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "борщ",
+      "ph": "BORSHCH",
+      "vi": "súp borsch",
+      "hl": []
+     },
+     {
+      "t": "нравится борщ",
+      "ph": "NRA-vit-sya BORSHCH",
+      "vi": "thích súp borsch",
+      "hl": [
+       "нравится"
+      ]
+     },
+     {
+      "t": "Тебе нравится борщ?",
+      "ph": "ti-BYE NRA-vit-sya BORSHCH",
+      "vi": "Bạn có thích súp borsch không?",
+      "hl": [
+       "нравится"
+      ],
+      "tokens": [
+       "Тебе",
+       "нравится",
+       "борщ"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "гулять",
+      "ph": "gu-LYAT",
+      "vi": "đi dạo",
+      "hl": []
+     },
+     {
+      "t": "люблю гулять",
+      "ph": "lyub-LYU gu-LYAT",
+      "vi": "thích đi dạo",
+      "hl": [
+       "люблю"
+      ]
+     },
+     {
+      "t": "Я люблю гулять по городу.",
+      "ph": "ya lyub-LYU gu-LYAT pa GO-ra-du",
+      "vi": "Tôi thích đi dạo quanh thành phố.",
+      "hl": [
+       "люблю"
+      ],
+      "tokens": [
+       "Я",
+       "люблю",
+       "гулять",
+       "по",
+       "городу"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "vi": "cần",
+  "note": "Người cần ở tặng cách (мне, тебе) + 'нужно' + động từ nguyên mẫu; khi cần một vật thì 'нужен / нужна / нужно / нужны' hợp giống và số với vật đó (нужен врач, нужна помощь).",
+  "pivot": {
+   "t": "нужно",
+   "ph": "NUZH-na"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "помощь",
+      "ph": "PO-mashch",
+      "vi": "sự giúp đỡ",
+      "hl": []
+     },
+     {
+      "t": "нужна помощь",
+      "ph": "nuzh-NA PO-mashch",
+      "vi": "cần giúp đỡ",
+      "hl": [
+       "нужна"
+      ]
+     },
+     {
+      "t": "Мне нужна помощь.",
+      "ph": "mnye nuzh-NA PO-mashch",
+      "vi": "Tôi cần giúp đỡ.",
+      "hl": [
+       "нужна"
+      ],
+      "tokens": [
+       "Мне",
+       "нужна",
+       "помощь"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "врач",
+      "ph": "VRACH",
+      "vi": "bác sĩ",
+      "hl": []
+     },
+     {
+      "t": "нужен врач",
+      "ph": "NU-zhen VRACH",
+      "vi": "cần bác sĩ",
+      "hl": [
+       "нужен"
+      ]
+     },
+     {
+      "t": "Мне срочно нужен врач.",
+      "ph": "mnye SROCH-na NU-zhen VRACH",
+      "vi": "Tôi cần bác sĩ gấp.",
+      "hl": [
+       "нужен"
+      ],
+      "tokens": [
+       "Мне",
+       "срочно",
+       "нужен",
+       "врач"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "купить",
+      "ph": "ku-PIT",
+      "vi": "mua",
+      "hl": []
+     },
+     {
+      "t": "нужно купить",
+      "ph": "NUZH-na ku-PIT",
+      "vi": "cần mua",
+      "hl": [
+       "нужно"
+      ]
+     },
+     {
+      "t": "Мне нужно купить воду.",
+      "ph": "mnye NUZH-na ku-PIT VO-du",
+      "vi": "Tôi cần mua nước.",
+      "hl": [
+       "нужно"
+      ],
+      "tokens": [
+       "Мне",
+       "нужно",
+       "купить",
+       "воду"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "vi": "có thể",
+  "note": "'можно' (không cần chủ ngữ) + nguyên mẫu = được phép/có thể làm gì, hay dùng để xin phép; 'мочь' (я могу, вы можете) = có khả năng làm gì. Phủ định của 'можно' là 'нельзя' (không được).",
+  "pivot": {
+   "t": "можно",
+   "ph": "MOZH-na"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "курить",
+      "ph": "ku-RIT",
+      "vi": "hút thuốc",
+      "hl": []
+     },
+     {
+      "t": "можно курить",
+      "ph": "MOZH-na ku-RIT",
+      "vi": "được hút thuốc",
+      "hl": [
+       "можно"
+      ]
+     },
+     {
+      "t": "Здесь можно курить?",
+      "ph": "zdyes MOZH-na ku-RIT",
+      "vi": "Ở đây có được hút thuốc không?",
+      "hl": [
+       "можно"
+      ],
+      "tokens": [
+       "Здесь",
+       "можно",
+       "курить"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "помочь",
+      "ph": "pa-MOCH",
+      "vi": "giúp",
+      "hl": []
+     },
+     {
+      "t": "могу помочь",
+      "ph": "ma-GU pa-MOCH",
+      "vi": "có thể giúp",
+      "hl": [
+       "могу"
+      ]
+     },
+     {
+      "t": "Чем я могу помочь?",
+      "ph": "chem ya ma-GU pa-MOCH",
+      "vi": "Tôi có thể giúp gì được ạ?",
+      "hl": [
+       "могу"
+      ],
+      "tokens": [
+       "Чем",
+       "я",
+       "могу",
+       "помочь"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "заплатить",
+      "ph": "za-pla-TIT",
+      "vi": "trả tiền",
+      "hl": []
+     },
+     {
+      "t": "можно заплатить",
+      "ph": "MOZH-na za-pla-TIT",
+      "vi": "có thể trả tiền",
+      "hl": [
+       "можно"
+      ]
+     },
+     {
+      "t": "Тут можно заплатить картой?",
+      "ph": "tut MOZH-na za-pla-TIT KAR-tay",
+      "vi": "Ở đây trả bằng thẻ được không?",
+      "hl": [
+       "можно"
+      ],
+      "tokens": [
+       "Тут",
+       "можно",
+       "заплатить",
+       "картой"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "vi": "đi",
+  "note": "'идти' (я иду) = đi bộ, 'ехать' (я еду) = đi bằng xe; nơi đến dùng 'в/на' + đối cách (в музей), phương tiện dùng 'на' + giới cách (на метро); 'пойдём' = mình đi nào.",
+  "pivot": {
+   "t": "идти",
+   "ph": "it-TI"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "домой",
+      "ph": "da-MOY",
+      "vi": "về nhà",
+      "hl": []
+     },
+     {
+      "t": "иду домой",
+      "ph": "i-DU da-MOY",
+      "vi": "đi về nhà",
+      "hl": [
+       "иду"
+      ]
+     },
+     {
+      "t": "Я иду домой.",
+      "ph": "ya i-DU da-MOY",
+      "vi": "Tôi đang đi về nhà.",
+      "hl": [
+       "иду"
+      ],
+      "tokens": [
+       "Я",
+       "иду",
+       "домой"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "метро",
+      "ph": "mit-RO",
+      "vi": "tàu điện ngầm",
+      "hl": []
+     },
+     {
+      "t": "еду на метро",
+      "ph": "YE-du na mit-RO",
+      "vi": "đi bằng tàu điện ngầm",
+      "hl": [
+       "еду"
+      ]
+     },
+     {
+      "t": "Я еду на метро.",
+      "ph": "ya YE-du na mit-RO",
+      "vi": "Tôi đi bằng tàu điện ngầm.",
+      "hl": [
+       "еду"
+      ],
+      "tokens": [
+       "Я",
+       "еду",
+       "на",
+       "метро"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "музей",
+      "ph": "mu-ZYEY",
+      "vi": "bảo tàng",
+      "hl": []
+     },
+     {
+      "t": "пойдём в музей",
+      "ph": "pa-DYOM v mu-ZYEY",
+      "vi": "đi bảo tàng nào",
+      "hl": [
+       "пойдём"
+      ]
+     },
+     {
+      "t": "Завтра пойдём в музей.",
+      "ph": "ZAF-tra pa-DYOM v mu-ZYEY",
+      "vi": "Mai chúng ta đi bảo tàng nhé.",
+      "hl": [
+       "пойдём"
+      ],
+      "tokens": [
+       "Завтра",
+       "пойдём",
+       "в",
+       "музей"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "vi": "ở đâu",
+  "note": "'где' hỏi vị trí, không cần động từ 'là/ở' (Где метро? = Tàu điện ngầm ở đâu?); hỏi đi đâu dùng 'куда', từ đâu đến dùng 'откуда'.",
+  "pivot": {
+   "t": "где",
+   "ph": "gdye"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "метро",
+      "ph": "mit-RO",
+      "vi": "tàu điện ngầm",
+      "hl": []
+     },
+     {
+      "t": "где метро",
+      "ph": "gdye mit-RO",
+      "vi": "tàu điện ngầm ở đâu",
+      "hl": [
+       "где"
+      ]
+     },
+     {
+      "t": "А где метро?",
+      "ph": "a gdye mit-RO",
+      "vi": "Thế ga tàu điện ngầm ở đâu?",
+      "hl": [
+       "где"
+      ],
+      "tokens": [
+       "А",
+       "где",
+       "метро"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "ты",
+      "ph": "ty",
+      "vi": "bạn",
+      "hl": []
+     },
+     {
+      "t": "ты где",
+      "ph": "ty GDYE",
+      "vi": "bạn ở đâu",
+      "hl": [
+       "где"
+      ]
+     },
+     {
+      "t": "А ты где сейчас?",
+      "ph": "a ty gdye si-CHAS",
+      "vi": "Thế bây giờ bạn đang ở đâu?",
+      "hl": [
+       "где"
+      ],
+      "tokens": [
+       "А",
+       "ты",
+       "где",
+       "сейчас"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "живёте",
+      "ph": "zhi-VYO-te",
+      "vi": "(anh/chị) sống",
+      "hl": []
+     },
+     {
+      "t": "где живёте",
+      "ph": "gdye zhi-VYO-te",
+      "vi": "sống ở đâu",
+      "hl": [
+       "где"
+      ]
+     },
+     {
+      "t": "Вы где живёте?",
+      "ph": "vy gdye zhi-VYO-te",
+      "vi": "Anh/chị sống ở đâu?",
+      "hl": [
+       "где"
+      ],
+      "tokens": [
+       "Вы",
+       "где",
+       "живёте"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "vi": "bao nhiêu",
+  "note": "'сколько' + sở hữu cách (сколько времени, сколько лет); hỏi giá: 'Сколько стоит...?' (với vật số nhiều: 'сколько стоят').",
+  "pivot": {
+   "t": "сколько",
+   "ph": "SKOL-ka"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "стоит",
+      "ph": "STO-it",
+      "vi": "có giá",
+      "hl": []
+     },
+     {
+      "t": "сколько стоит",
+      "ph": "SKOL-ka STO-it",
+      "vi": "giá bao nhiêu",
+      "hl": [
+       "сколько"
+      ]
+     },
+     {
+      "t": "А сколько стоит билет?",
+      "ph": "a SKOL-ka STO-it bi-LYET",
+      "vi": "Vé giá bao nhiêu vậy?",
+      "hl": [
+       "сколько"
+      ],
+      "tokens": [
+       "А",
+       "сколько",
+       "стоит",
+       "билет"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "времени",
+      "ph": "VRYE-mi-ni",
+      "vi": "thời gian (giờ)",
+      "hl": []
+     },
+     {
+      "t": "сколько времени",
+      "ph": "SKOL-ka VRYE-mi-ni",
+      "vi": "mấy giờ",
+      "hl": [
+       "сколько"
+      ]
+     },
+     {
+      "t": "Сейчас сколько времени?",
+      "ph": "si-CHAS SKOL-ka VRYE-mi-ni",
+      "vi": "Bây giờ là mấy giờ?",
+      "hl": [
+       "сколько"
+      ],
+      "tokens": [
+       "Сейчас",
+       "сколько",
+       "времени"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "лет",
+      "ph": "LYET",
+      "vi": "năm (tuổi)",
+      "hl": []
+     },
+     {
+      "t": "сколько лет",
+      "ph": "SKOL-ka LYET",
+      "vi": "bao nhiêu tuổi",
+      "hl": [
+       "сколько"
+      ]
+     },
+     {
+      "t": "Тебе сколько лет?",
+      "ph": "ti-BYE SKOL-ka LYET",
+      "vi": "Bạn bao nhiêu tuổi?",
+      "hl": [
+       "сколько"
+      ],
+      "tokens": [
+       "Тебе",
+       "сколько",
+       "лет"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "vi": "cái gì",
+  "note": "'что' (đọc 'shto') = cái gì, đứng đầu câu hỏi hoặc sau chủ ngữ trong văn nói; 'что это?' = đây là gì, 'что делать?' = làm gì.",
+  "pivot": {
+   "t": "что",
+   "ph": "shto"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "это",
+      "ph": "E-ta",
+      "vi": "cái này",
+      "hl": []
+     },
+     {
+      "t": "что это",
+      "ph": "shto E-ta",
+      "vi": "cái này là gì",
+      "hl": [
+       "что"
+      ]
+     },
+     {
+      "t": "А что это такое?",
+      "ph": "a shto E-ta ta-KO-ye",
+      "vi": "Cái này là cái gì vậy?",
+      "hl": [
+       "что"
+      ],
+      "tokens": [
+       "А",
+       "что",
+       "это",
+       "такое"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "будете",
+      "ph": "BU-di-te",
+      "vi": "(anh/chị) sẽ dùng",
+      "hl": []
+     },
+     {
+      "t": "что будете",
+      "ph": "shto BU-di-te",
+      "vi": "dùng gì",
+      "hl": [
+       "что"
+      ]
+     },
+     {
+      "t": "А вы что будете?",
+      "ph": "a vy shto BU-di-te",
+      "vi": "Còn anh/chị dùng gì ạ?",
+      "hl": [
+       "что"
+      ],
+      "tokens": [
+       "А",
+       "вы",
+       "что",
+       "будете"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "значит",
+      "ph": "ZNA-chit",
+      "vi": "có nghĩa",
+      "hl": []
+     },
+     {
+      "t": "что значит",
+      "ph": "shto ZNA-chit",
+      "vi": "nghĩa là gì",
+      "hl": [
+       "что"
+      ]
+     },
+     {
+      "t": "А что значит это слово?",
+      "ph": "a shto ZNA-chit E-ta SLO-va",
+      "vi": "Từ này nghĩa là gì vậy?",
+      "hl": [
+       "что"
+      ],
+      "tokens": [
+       "А",
+       "что",
+       "значит",
+       "это",
+       "слово"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "vi": "ai",
+  "note": "'кто' hỏi người, động từ theo sau chia ngôi thứ ba số ít (Кто говорит?); 'кто это?' = đây là ai; các dạng khác: кого (ai – đối cách), кому (cho ai).",
+  "pivot": {
+   "t": "кто",
+   "ph": "kto"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "это",
+      "ph": "E-ta",
+      "vi": "đây",
+      "hl": []
+     },
+     {
+      "t": "кто это",
+      "ph": "kto E-ta",
+      "vi": "đây là ai",
+      "hl": [
+       "кто"
+      ]
+     },
+     {
+      "t": "А кто это?",
+      "ph": "a kto E-ta",
+      "vi": "Còn đây là ai?",
+      "hl": [
+       "кто"
+      ],
+      "tokens": [
+       "А",
+       "кто",
+       "это"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "профессии",
+      "ph": "pra-FYE-si-i",
+      "vi": "nghề nghiệp",
+      "hl": []
+     },
+     {
+      "t": "кто по профессии",
+      "ph": "kto pa pra-FYE-si-i",
+      "vi": "làm nghề gì",
+      "hl": [
+       "кто"
+      ]
+     },
+     {
+      "t": "Вы кто по профессии?",
+      "ph": "vy kto pa pra-FYE-si-i",
+      "vi": "Anh/chị làm nghề gì?",
+      "hl": [
+       "кто"
+      ],
+      "tokens": [
+       "Вы",
+       "кто",
+       "по",
+       "профессии"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "последний",
+      "ph": "pas-LYED-niy",
+      "vi": "cuối cùng",
+      "hl": []
+     },
+     {
+      "t": "кто последний",
+      "ph": "kto pas-LYED-niy",
+      "vi": "ai là người cuối",
+      "hl": [
+       "кто"
+      ]
+     },
+     {
+      "t": "А кто последний?",
+      "ph": "a kto pas-LYED-niy",
+      "vi": "Ai là người cuối hàng ạ?",
+      "hl": [
+       "кто"
+      ],
+      "tokens": [
+       "А",
+       "кто",
+       "последний"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "vi": "khi nào",
+  "note": "'когда' = khi nào; hỏi giờ cụ thể dùng 'во сколько?' (lúc mấy giờ); trả lời: 'в пять часов' (lúc 5 giờ).",
+  "pivot": {
+   "t": "когда",
+   "ph": "kag-DA"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "приедем",
+      "ph": "pri-YE-dim",
+      "vi": "(chúng ta) đến nơi",
+      "hl": []
+     },
+     {
+      "t": "когда приедем",
+      "ph": "kag-DA pri-YE-dim",
+      "vi": "khi nào đến nơi",
+      "hl": [
+       "когда"
+      ]
+     },
+     {
+      "t": "Мы когда приедем?",
+      "ph": "my kag-DA pri-YE-dim",
+      "vi": "Khi nào chúng ta đến nơi?",
+      "hl": [
+       "когда"
+      ],
+      "tokens": [
+       "Мы",
+       "когда",
+       "приедем"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "вернёшься",
+      "ph": "vir-NYOSH-sya",
+      "vi": "(bạn) quay về",
+      "hl": []
+     },
+     {
+      "t": "когда вернёшься",
+      "ph": "kag-DA vir-NYOSH-sya",
+      "vi": "khi nào về",
+      "hl": [
+       "когда"
+      ]
+     },
+     {
+      "t": "Ты когда вернёшься?",
+      "ph": "ty kag-DA vir-NYOSH-sya",
+      "vi": "Khi nào bạn về?",
+      "hl": [
+       "когда"
+      ],
+      "tokens": [
+       "Ты",
+       "когда",
+       "вернёшься"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "завтрак",
+      "ph": "ZAF-trak",
+      "vi": "bữa sáng",
+      "hl": []
+     },
+     {
+      "t": "завтрак во сколько",
+      "ph": "ZAF-trak va SKOL-ka",
+      "vi": "bữa sáng lúc mấy giờ",
+      "hl": [
+       "во сколько"
+      ]
+     },
+     {
+      "t": "А завтрак во сколько?",
+      "ph": "a ZAF-trak va SKOL-ka",
+      "vi": "Bữa sáng lúc mấy giờ ạ?",
+      "hl": [
+       "во сколько"
+      ],
+      "tokens": [
+       "А",
+       "завтрак",
+       "во",
+       "сколько"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "vi": "tại sao / vì",
+  "note": "'почему' = tại sao; trả lời bằng 'потому что' (vì) + mệnh đề (trong câu ghép, trước 'потому что' có dấu phẩy); 'из-за' + sở hữu cách = vì/do (thường là nguyên nhân xấu).",
+  "pivot": {
+   "t": "почему",
+   "ph": "pa-chi-MU"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "закрыто",
+      "ph": "za-KRY-ta",
+      "vi": "đóng cửa",
+      "hl": []
+     },
+     {
+      "t": "почему закрыто",
+      "ph": "pa-chi-MU za-KRY-ta",
+      "vi": "sao lại đóng cửa",
+      "hl": [
+       "почему"
+      ]
+     },
+     {
+      "t": "А почему закрыто?",
+      "ph": "a pa-chi-MU za-KRY-ta",
+      "vi": "Sao lại đóng cửa vậy?",
+      "hl": [
+       "почему"
+      ],
+      "tokens": [
+       "А",
+       "почему",
+       "закрыто"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "устал",
+      "ph": "u-STAL",
+      "vi": "(đã) mệt",
+      "hl": []
+     },
+     {
+      "t": "потому что устал",
+      "ph": "pa-ta-MU shta u-STAL",
+      "vi": "vì mệt",
+      "hl": [
+       "потому что"
+      ]
+     },
+     {
+      "t": "Просто потому что устал.",
+      "ph": "PROS-ta pa-ta-MU shta u-STAL",
+      "vi": "Đơn giản là vì mệt thôi.",
+      "hl": [
+       "потому что"
+      ],
+      "tokens": [
+       "Просто",
+       "потому",
+       "что",
+       "устал"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "дождя",
+      "ph": "dazh-DYA",
+      "vi": "mưa",
+      "hl": []
+     },
+     {
+      "t": "из-за дождя",
+      "ph": "iz-za dazh-DYA",
+      "vi": "vì trời mưa",
+      "hl": [
+       "из-за"
+      ]
+     },
+     {
+      "t": "Мы дома из-за дождя.",
+      "ph": "my DO-ma iz-za dazh-DYA",
+      "vi": "Chúng tôi ở nhà vì trời mưa.",
+      "hl": [
+       "из-за"
+      ],
+      "tokens": [
+       "Мы",
+       "дома",
+       "из-за",
+       "дождя"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "vi": "làm ơn",
+  "note": "Cách nhờ lịch sự: 'Вы не могли бы + động từ nguyên mẫu?' (Anh/chị làm ơn... được không?); cách thông dụng khác là mệnh lệnh + 'пожалуйста' (Помогите, пожалуйста! — luôn có dấu phẩy).",
+  "pivot": {
+   "t": "не могли бы",
+   "ph": "nye MOG-li by"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "показать",
+      "ph": "pa-ka-ZAT",
+      "vi": "chỉ",
+      "hl": []
+     },
+     {
+      "t": "не могли бы показать",
+      "ph": "nye MOG-li by pa-ka-ZAT",
+      "vi": "làm ơn chỉ",
+      "hl": [
+       "не могли бы"
+      ]
+     },
+     {
+      "t": "Вы не могли бы показать дорогу?",
+      "ph": "vy nye MOG-li by pa-ka-ZAT da-RO-gu",
+      "vi": "Làm ơn chỉ đường giúp tôi được không?",
+      "hl": [
+       "не могли бы"
+      ],
+      "tokens": [
+       "Вы",
+       "не",
+       "могли",
+       "бы",
+       "показать",
+       "дорогу"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "повторить",
+      "ph": "paf-ta-RIT",
+      "vi": "nhắc lại",
+      "hl": []
+     },
+     {
+      "t": "не могли бы повторить",
+      "ph": "nye MOG-li by paf-ta-RIT",
+      "vi": "làm ơn nhắc lại",
+      "hl": [
+       "не могли бы"
+      ]
+     },
+     {
+      "t": "Вы не могли бы повторить?",
+      "ph": "vy nye MOG-li by paf-ta-RIT",
+      "vi": "Anh/chị làm ơn nhắc lại được không?",
+      "hl": [
+       "не могли бы"
+      ],
+      "tokens": [
+       "Вы",
+       "не",
+       "могли",
+       "бы",
+       "повторить"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "вызвать",
+      "ph": "VYZ-vat",
+      "vi": "gọi (xe)",
+      "hl": []
+     },
+     {
+      "t": "не могли бы вызвать",
+      "ph": "nye MOG-li by VYZ-vat",
+      "vi": "làm ơn gọi",
+      "hl": [
+       "не могли бы"
+      ]
+     },
+     {
+      "t": "Вы не могли бы вызвать такси?",
+      "ph": "vy nye MOG-li by VYZ-vat tak-SI",
+      "vi": "Làm ơn gọi giúp tôi taxi được không?",
+      "hl": [
+       "не могли бы"
+      ],
+      "tokens": [
+       "Вы",
+       "не",
+       "могли",
+       "бы",
+       "вызвать",
+       "такси"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "vi": "đừng",
+  "note": "'Đừng' = 'не' + động từ mệnh lệnh, thường ở thể chưa hoàn thành (не опаздывай, не волнуйтесь); dạng lịch sự/số nhiều thêm '-те'. Riêng lời nhắc 'đừng quên' dùng thể hoàn thành: не забудь(те).",
+  "pivot": {
+   "t": "не",
+   "ph": "nye"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "волнуйтесь",
+      "ph": "val-NUY-tes",
+      "vi": "(hãy) lo lắng",
+      "hl": []
+     },
+     {
+      "t": "не волнуйтесь",
+      "ph": "nye val-NUY-tes",
+      "vi": "đừng lo",
+      "hl": [
+       "не"
+      ]
+     },
+     {
+      "t": "Вы не волнуйтесь.",
+      "ph": "vy nye val-NUY-tes",
+      "vi": "Anh/chị đừng lo.",
+      "hl": [
+       "не"
+      ],
+      "tokens": [
+       "Вы",
+       "не",
+       "волнуйтесь"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "забудь",
+      "ph": "za-BUT",
+      "vi": "(hãy) quên",
+      "hl": []
+     },
+     {
+      "t": "не забудь",
+      "ph": "nye za-BUT",
+      "vi": "đừng quên",
+      "hl": [
+       "не"
+      ]
+     },
+     {
+      "t": "Только не забудь паспорт!",
+      "ph": "TOL-ka nye za-BUT PAS-part",
+      "vi": "Nhớ đừng quên hộ chiếu nhé!",
+      "hl": [
+       "не"
+      ],
+      "tokens": [
+       "Только",
+       "не",
+       "забудь",
+       "паспорт"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "опаздывай",
+      "ph": "a-PAZ-dy-vay",
+      "vi": "(hãy) đến muộn",
+      "hl": []
+     },
+     {
+      "t": "не опаздывай",
+      "ph": "nye a-PAZ-dy-vay",
+      "vi": "đừng đến muộn",
+      "hl": [
+       "не"
+      ]
+     },
+     {
+      "t": "Завтра не опаздывай!",
+      "ph": "ZAF-tra nye a-PAZ-dy-vay",
+      "vi": "Ngày mai đừng đến muộn nhé!",
+      "hl": [
+       "не"
+      ],
+      "tokens": [
+       "Завтра",
+       "не",
+       "опаздывай"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "vi": "đã",
+  "note": "Tiếng Nga không có từ riêng cho 'đã': thì quá khứ tạo bằng đuôi động từ -л (nam), -ла (nữ), -ли (số nhiều), ví dụ я поел / я поела; 'уже' = 'đã ... rồi', hay đi kèm để nhấn mạnh.",
+  "pivot": {
+   "t": "уже",
+   "ph": "u-ZHE"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "поел",
+      "ph": "pa-YEL",
+      "vi": "(đã) ăn",
+      "hl": []
+     },
+     {
+      "t": "уже поел",
+      "ph": "u-ZHE pa-YEL",
+      "vi": "đã ăn rồi",
+      "hl": [
+       "уже"
+      ]
+     },
+     {
+      "t": "Я уже поел.",
+      "ph": "ya u-ZHE pa-YEL",
+      "vi": "Tôi ăn rồi.",
+      "hl": [
+       "уже"
+      ],
+      "tokens": [
+       "Я",
+       "уже",
+       "поел"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "был",
+      "ph": "BYL",
+      "vi": "(đã) ở / đến",
+      "hl": []
+     },
+     {
+      "t": "уже был",
+      "ph": "u-ZHE BYL",
+      "vi": "đã từng đến",
+      "hl": [
+       "уже"
+      ]
+     },
+     {
+      "t": "Я уже был в Москве.",
+      "ph": "ya u-ZHE byl v mask-VYE",
+      "vi": "Tôi đã từng đến Moscow rồi.",
+      "hl": [
+       "уже"
+      ],
+      "tokens": [
+       "Я",
+       "уже",
+       "был",
+       "в",
+       "Москве"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "купила",
+      "ph": "ku-PI-la",
+      "vi": "(cô ấy đã) mua",
+      "hl": []
+     },
+     {
+      "t": "уже купила",
+      "ph": "u-ZHE ku-PI-la",
+      "vi": "đã mua rồi",
+      "hl": [
+       "уже"
+      ]
+     },
+     {
+      "t": "Она уже купила билеты.",
+      "ph": "a-NA u-ZHE ku-PI-la bi-LYE-ty",
+      "vi": "Cô ấy đã mua vé rồi.",
+      "hl": [
+       "уже"
+      ],
+      "tokens": [
+       "Она",
+       "уже",
+       "купила",
+       "билеты"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "vi": "sẽ",
+  "note": "Tương lai = 'быть' chia (я буду, ты будешь, мы будем) + động từ chưa hoàn thành ở nguyên mẫu; động từ hoàn thành chia như hiện tại sẽ mang nghĩa tương lai (Я позвоню = Tôi sẽ gọi).",
+  "pivot": {
+   "t": "буду",
+   "ph": "BU-du"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "ждать",
+      "ph": "ZHDAT",
+      "vi": "đợi",
+      "hl": []
+     },
+     {
+      "t": "буду ждать",
+      "ph": "BU-du ZHDAT",
+      "vi": "sẽ đợi",
+      "hl": [
+       "буду"
+      ]
+     },
+     {
+      "t": "Я буду ждать здесь.",
+      "ph": "ya BU-du ZHDAT zdyes",
+      "vi": "Tôi sẽ đợi ở đây.",
+      "hl": [
+       "буду"
+      ],
+      "tokens": [
+       "Я",
+       "буду",
+       "ждать",
+       "здесь"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "дома",
+      "ph": "DO-ma",
+      "vi": "ở nhà",
+      "hl": []
+     },
+     {
+      "t": "буду дома",
+      "ph": "BU-du DO-ma",
+      "vi": "sẽ ở nhà",
+      "hl": [
+       "буду"
+      ]
+     },
+     {
+      "t": "Завтра я буду дома.",
+      "ph": "ZAF-tra ya BU-du DO-ma",
+      "vi": "Ngày mai tôi sẽ ở nhà.",
+      "hl": [
+       "буду"
+      ],
+      "tokens": [
+       "Завтра",
+       "я",
+       "буду",
+       "дома"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "жить",
+      "ph": "ZHIT",
+      "vi": "sống / ở",
+      "hl": []
+     },
+     {
+      "t": "будем жить",
+      "ph": "BU-dim ZHIT",
+      "vi": "sẽ ở",
+      "hl": [
+       "будем"
+      ]
+     },
+     {
+      "t": "Мы будем жить в центре.",
+      "ph": "my BU-dim zhit f TSEN-tre",
+      "vi": "Chúng tôi sẽ ở khu trung tâm.",
+      "hl": [
+       "будем"
+      ],
+      "tokens": [
+       "Мы",
+       "будем",
+       "жить",
+       "в",
+       "центре"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

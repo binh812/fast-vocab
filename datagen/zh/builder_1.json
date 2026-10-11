@@ -1,0 +1,2108 @@
+[
+ {
+  "id": 1,
+  "vi": "không",
+  "note": "不 đứng trước động từ hoặc tính từ để phủ định (không làm gì, không như thế nào); với 有 và việc trong quá khứ thì dùng 没 (没有). 不 đọc thành \"bú\" khi đứng trước thanh 4.",
+  "pivot": {
+   "t": "不",
+   "ph": "bù",
+   "vph": "pu"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "说",
+      "ph": "shuō",
+      "vph": "sua",
+      "vi": "nói",
+      "hl": []
+     },
+     {
+      "t": "不说",
+      "ph": "bù shuō",
+      "vph": "pu sua",
+      "vi": "không nói",
+      "hl": [
+       "不"
+      ]
+     },
+     {
+      "t": "我不说。",
+      "ph": "Wǒ bù shuō.",
+      "vph": "Ủa pu sua.",
+      "vi": "Tôi không nói.",
+      "hl": [
+       "不"
+      ],
+      "tokens": [
+       "我",
+       "不",
+       "说"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "去",
+      "ph": "qù",
+      "vph": "chuy",
+      "vi": "đi",
+      "hl": []
+     },
+     {
+      "t": "不去",
+      "ph": "bú qù",
+      "vph": "pú chuy",
+      "vi": "không đi",
+      "hl": [
+       "不"
+      ]
+     },
+     {
+      "t": "我今天不去。",
+      "ph": "Wǒ jīntiān bú qù.",
+      "vph": "Ủa chin thiên pú chuy.",
+      "vi": "Hôm nay tôi không đi.",
+      "hl": [
+       "不"
+      ],
+      "tokens": [
+       "我",
+       "今天",
+       "不",
+       "去"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "辣",
+      "ph": "là",
+      "vph": "la",
+      "vi": "cay",
+      "hl": []
+     },
+     {
+      "t": "不辣",
+      "ph": "bú là",
+      "vph": "pú la",
+      "vi": "không cay",
+      "hl": [
+       "不"
+      ]
+     },
+     {
+      "t": "这个菜不辣。",
+      "ph": "Zhège cài bú là.",
+      "vph": "Chưa cưa chai pú la.",
+      "vi": "Món này không cay.",
+      "hl": [
+       "不"
+      ],
+      "tokens": [
+       "这个",
+       "菜",
+       "不",
+       "辣"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "vi": "có",
+  "note": "有 + danh từ diễn tả sở hữu hoặc tồn tại (có cái gì). Phủ định của 有 luôn là 没有, không dùng 不有.",
+  "pivot": {
+   "t": "有",
+   "ph": "yǒu",
+   "vph": "dẩu"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "护照",
+      "ph": "hùzhào",
+      "vph": "hu chao",
+      "vi": "hộ chiếu",
+      "hl": []
+     },
+     {
+      "t": "有护照",
+      "ph": "yǒu hùzhào",
+      "vph": "dẩu hu chao",
+      "vi": "có hộ chiếu",
+      "hl": [
+       "有"
+      ]
+     },
+     {
+      "t": "我有护照。",
+      "ph": "Wǒ yǒu hùzhào.",
+      "vph": "Ủa dẩu hu chao.",
+      "vi": "Tôi có hộ chiếu.",
+      "hl": [
+       "有"
+      ],
+      "tokens": [
+       "我",
+       "有",
+       "护照"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "时间",
+      "ph": "shíjiān",
+      "vph": "sứ chiên",
+      "vi": "thời gian",
+      "hl": []
+     },
+     {
+      "t": "有时间",
+      "ph": "yǒu shíjiān",
+      "vph": "dẩu sứ chiên",
+      "vi": "có thời gian",
+      "hl": [
+       "有"
+      ]
+     },
+     {
+      "t": "你明天有时间吗？",
+      "ph": "Nǐ míngtiān yǒu shíjiān ma?",
+      "vph": "Nỉ mính thiên dẩu sứ chiên ma?",
+      "vi": "Ngày mai bạn có rảnh không?",
+      "hl": [
+       "有"
+      ],
+      "tokens": [
+       "你",
+       "明天",
+       "有",
+       "时间",
+       "吗"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "房间",
+      "ph": "fángjiān",
+      "vph": "pháng chiên",
+      "vi": "phòng",
+      "hl": []
+     },
+     {
+      "t": "有房间",
+      "ph": "yǒu fángjiān",
+      "vph": "dẩu pháng chiên",
+      "vi": "có phòng",
+      "hl": [
+       "有"
+      ]
+     },
+     {
+      "t": "今天还有房间吗？",
+      "ph": "Jīntiān hái yǒu fángjiān ma?",
+      "vph": "Chin thiên hái dẩu pháng chiên ma?",
+      "vi": "Hôm nay còn phòng không?",
+      "hl": [
+       "有"
+      ],
+      "tokens": [
+       "今天",
+       "还",
+       "有",
+       "房间",
+       "吗"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "vi": "là",
+  "note": "是 nối hai danh từ theo mẫu A 是 B (A là B). Phủ định là 不是; không dùng 是 trước tính từ (nói 我很忙, không nói 我是忙).",
+  "pivot": {
+   "t": "是",
+   "ph": "shì",
+   "vph": "sư"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "学生",
+      "ph": "xuésheng",
+      "vph": "xuế sâng",
+      "vi": "học sinh",
+      "hl": []
+     },
+     {
+      "t": "是学生",
+      "ph": "shì xuésheng",
+      "vph": "sư xuế sâng",
+      "vi": "là học sinh",
+      "hl": [
+       "是"
+      ]
+     },
+     {
+      "t": "我是学生。",
+      "ph": "Wǒ shì xuésheng.",
+      "vph": "Ủa sư xuế sâng.",
+      "vi": "Tôi là học sinh.",
+      "hl": [
+       "是"
+      ],
+      "tokens": [
+       "我",
+       "是",
+       "学生"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "朋友",
+      "ph": "péngyou",
+      "vph": "pấng dâu",
+      "vi": "bạn bè",
+      "hl": []
+     },
+     {
+      "t": "是朋友",
+      "ph": "shì péngyou",
+      "vph": "sư pấng dâu",
+      "vi": "là bạn",
+      "hl": [
+       "是"
+      ]
+     },
+     {
+      "t": "我们是朋友。",
+      "ph": "Wǒmen shì péngyou.",
+      "vph": "Ủa mân sư pấng dâu.",
+      "vi": "Chúng ta là bạn.",
+      "hl": [
+       "是"
+      ],
+      "tokens": [
+       "我们",
+       "是",
+       "朋友"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "中国人",
+      "ph": "Zhōngguórén",
+      "vph": "Chung cúa rấn",
+      "vi": "người Trung Quốc",
+      "hl": []
+     },
+     {
+      "t": "是中国人",
+      "ph": "shì Zhōngguórén",
+      "vph": "sư Chung cúa rấn",
+      "vi": "là người Trung Quốc",
+      "hl": [
+       "是"
+      ]
+     },
+     {
+      "t": "你是中国人吗？",
+      "ph": "Nǐ shì Zhōngguórén ma?",
+      "vph": "Nỉ sư Chung cúa rấn ma?",
+      "vi": "Bạn là người Trung Quốc phải không?",
+      "hl": [
+       "是"
+      ],
+      "tokens": [
+       "你",
+       "是",
+       "中国人",
+       "吗"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "vi": "muốn",
+  "note": "想 + động từ diễn tả mong muốn (muốn làm gì). 要 mạnh hơn, mang nghĩa \"muốn/cần\" và cũng dùng với danh từ (我要这个 - tôi lấy cái này).",
+  "pivot": {
+   "t": "想",
+   "ph": "xiǎng",
+   "vph": "xẻng"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "吃",
+      "ph": "chī",
+      "vph": "chư",
+      "vi": "ăn",
+      "hl": []
+     },
+     {
+      "t": "想吃",
+      "ph": "xiǎng chī",
+      "vph": "xẻng chư",
+      "vi": "muốn ăn",
+      "hl": [
+       "想"
+      ]
+     },
+     {
+      "t": "我想吃饭。",
+      "ph": "Wǒ xiǎng chī fàn.",
+      "vph": "Ủa xẻng chư phan.",
+      "vi": "Tôi muốn ăn cơm.",
+      "hl": [
+       "想"
+      ],
+      "tokens": [
+       "我",
+       "想",
+       "吃饭"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "喝",
+      "ph": "hē",
+      "vph": "khưa",
+      "vi": "uống",
+      "hl": []
+     },
+     {
+      "t": "想喝",
+      "ph": "xiǎng hē",
+      "vph": "xẻng khưa",
+      "vi": "muốn uống",
+      "hl": [
+       "想"
+      ]
+     },
+     {
+      "t": "我想喝咖啡。",
+      "ph": "Wǒ xiǎng hē kāfēi.",
+      "vph": "Ủa xẻng khưa kha phây.",
+      "vi": "Tôi muốn uống cà phê.",
+      "hl": [
+       "想"
+      ],
+      "tokens": [
+       "我",
+       "想",
+       "喝",
+       "咖啡"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "回家",
+      "ph": "huí jiā",
+      "vph": "khuấy chia",
+      "vi": "về nhà",
+      "hl": []
+     },
+     {
+      "t": "想回家",
+      "ph": "xiǎng huí jiā",
+      "vph": "xẻng khuấy chia",
+      "vi": "muốn về nhà",
+      "hl": [
+       "想"
+      ]
+     },
+     {
+      "t": "我现在想回家。",
+      "ph": "Wǒ xiànzài xiǎng huí jiā.",
+      "vph": "Ủa xiên chai xẻng khuấy chia.",
+      "vi": "Bây giờ tôi muốn về nhà.",
+      "hl": [
+       "想"
+      ],
+      "tokens": [
+       "我",
+       "现在",
+       "想",
+       "回家"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "vi": "thích",
+  "note": "喜欢 đứng trước danh từ hoặc động từ (thích cái gì / thích làm gì). Thêm 很 để nhấn mạnh: 很喜欢 (rất thích); phủ định là 不喜欢.",
+  "pivot": {
+   "t": "喜欢",
+   "ph": "xǐhuan",
+   "vph": "xỉ hoan"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "喝茶",
+      "ph": "hē chá",
+      "vph": "khưa chá",
+      "vi": "uống trà",
+      "hl": []
+     },
+     {
+      "t": "喜欢喝茶",
+      "ph": "xǐhuan hē chá",
+      "vph": "xỉ hoan khưa chá",
+      "vi": "thích uống trà",
+      "hl": [
+       "喜欢"
+      ]
+     },
+     {
+      "t": "我喜欢喝茶。",
+      "ph": "Wǒ xǐhuan hē chá.",
+      "vph": "Ủa xỉ hoan khưa chá.",
+      "vi": "Tôi thích uống trà.",
+      "hl": [
+       "喜欢"
+      ],
+      "tokens": [
+       "我",
+       "喜欢",
+       "喝",
+       "茶"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "中国菜",
+      "ph": "Zhōngguó cài",
+      "vph": "Chung cúa chai",
+      "vi": "món ăn Trung Quốc",
+      "hl": []
+     },
+     {
+      "t": "喜欢中国菜",
+      "ph": "xǐhuan Zhōngguó cài",
+      "vph": "xỉ hoan Chung cúa chai",
+      "vi": "thích món Trung Quốc",
+      "hl": [
+       "喜欢"
+      ]
+     },
+     {
+      "t": "你喜欢中国菜吗？",
+      "ph": "Nǐ xǐhuan Zhōngguó cài ma?",
+      "vph": "Nỉ xỉ hoan Chung cúa chai ma?",
+      "vi": "Bạn có thích món Trung Quốc không?",
+      "hl": [
+       "喜欢"
+      ],
+      "tokens": [
+       "你",
+       "喜欢",
+       "中国菜",
+       "吗"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "旅游",
+      "ph": "lǚyóu",
+      "vph": "lủy dấu",
+      "vi": "du lịch",
+      "hl": []
+     },
+     {
+      "t": "喜欢旅游",
+      "ph": "xǐhuan lǚyóu",
+      "vph": "xỉ hoan lủy dấu",
+      "vi": "thích du lịch",
+      "hl": [
+       "喜欢"
+      ]
+     },
+     {
+      "t": "我很喜欢旅游。",
+      "ph": "Wǒ hěn xǐhuan lǚyóu.",
+      "vph": "Ủa hẩn xỉ hoan lủy dấu.",
+      "vi": "Tôi rất thích du lịch.",
+      "hl": [
+       "喜欢"
+      ],
+      "tokens": [
+       "我",
+       "很",
+       "喜欢",
+       "旅游"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "vi": "cần",
+  "note": "需要 + danh từ/động từ diễn tả nhu cầu (cần cái gì / cần làm gì). Phủ định là 不需要 hoặc 不用 (không cần).",
+  "pivot": {
+   "t": "需要",
+   "ph": "xūyào",
+   "vph": "xuy dao"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "换钱",
+      "ph": "huàn qián",
+      "vph": "hoan chién",
+      "vi": "đổi tiền",
+      "hl": []
+     },
+     {
+      "t": "需要换钱",
+      "ph": "xūyào huàn qián",
+      "vph": "xuy dao hoan chién",
+      "vi": "cần đổi tiền",
+      "hl": [
+       "需要"
+      ]
+     },
+     {
+      "t": "我需要换钱。",
+      "ph": "Wǒ xūyào huàn qián.",
+      "vph": "Ủa xuy dao hoan chién.",
+      "vi": "Tôi cần đổi tiền.",
+      "hl": [
+       "需要"
+      ],
+      "tokens": [
+       "我",
+       "需要",
+       "换钱"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "帮助",
+      "ph": "bāngzhù",
+      "vph": "pang chu",
+      "vi": "sự giúp đỡ",
+      "hl": []
+     },
+     {
+      "t": "需要帮助",
+      "ph": "xūyào bāngzhù",
+      "vph": "xuy dao pang chu",
+      "vi": "cần giúp đỡ",
+      "hl": [
+       "需要"
+      ]
+     },
+     {
+      "t": "你需要帮助吗？",
+      "ph": "Nǐ xūyào bāngzhù ma?",
+      "vph": "Nỉ xuy dao pang chu ma?",
+      "vi": "Bạn có cần giúp không?",
+      "hl": [
+       "需要"
+      ],
+      "tokens": [
+       "你",
+       "需要",
+       "帮助",
+       "吗"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "休息",
+      "ph": "xiūxi",
+      "vph": "xiêu xi",
+      "vi": "nghỉ ngơi",
+      "hl": []
+     },
+     {
+      "t": "需要休息",
+      "ph": "xūyào xiūxi",
+      "vph": "xuy dao xiêu xi",
+      "vi": "cần nghỉ ngơi",
+      "hl": [
+       "需要"
+      ]
+     },
+     {
+      "t": "你需要休息一下。",
+      "ph": "Nǐ xūyào xiūxi yíxià.",
+      "vph": "Nỉ xuy dao xiêu xi í xa.",
+      "vi": "Bạn cần nghỉ ngơi một chút.",
+      "hl": [
+       "需要"
+      ],
+      "tokens": [
+       "你",
+       "需要",
+       "休息",
+       "一下"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "vi": "có thể",
+  "note": "可以 + động từ diễn tả sự cho phép hoặc khả năng (có thể làm gì, được không). 能 thiên về năng lực/điều kiện, 会 là kỹ năng học được (biết làm).",
+  "pivot": {
+   "t": "可以",
+   "ph": "kěyǐ",
+   "vph": "khửa ỷ"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "进来",
+      "ph": "jìnlái",
+      "vph": "chin lái",
+      "vi": "vào",
+      "hl": []
+     },
+     {
+      "t": "可以进来",
+      "ph": "kěyǐ jìnlái",
+      "vph": "khửa ỷ chin lái",
+      "vi": "có thể vào",
+      "hl": [
+       "可以"
+      ]
+     },
+     {
+      "t": "我可以进来吗？",
+      "ph": "Wǒ kěyǐ jìnlái ma?",
+      "vph": "Ủa khửa ỷ chin lái ma?",
+      "vi": "Tôi vào được không?",
+      "hl": [
+       "可以"
+      ],
+      "tokens": [
+       "我",
+       "可以",
+       "进来",
+       "吗"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "拍照",
+      "ph": "pāizhào",
+      "vph": "pai chao",
+      "vi": "chụp ảnh",
+      "hl": []
+     },
+     {
+      "t": "可以拍照",
+      "ph": "kěyǐ pāizhào",
+      "vph": "khửa ỷ pai chao",
+      "vi": "có thể chụp ảnh",
+      "hl": [
+       "可以"
+      ]
+     },
+     {
+      "t": "这里可以拍照吗？",
+      "ph": "Zhèlǐ kěyǐ pāizhào ma?",
+      "vph": "Chưa lỉ khửa ỷ pai chao ma?",
+      "vi": "Ở đây có được chụp ảnh không?",
+      "hl": [
+       "可以"
+      ],
+      "tokens": [
+       "这里",
+       "可以",
+       "拍照",
+       "吗"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "刷卡",
+      "ph": "shuākǎ",
+      "vph": "soa khả",
+      "vi": "quẹt thẻ",
+      "hl": []
+     },
+     {
+      "t": "可以刷卡",
+      "ph": "kěyǐ shuākǎ",
+      "vph": "khửa ỷ soa khả",
+      "vi": "có thể quẹt thẻ",
+      "hl": [
+       "可以"
+      ]
+     },
+     {
+      "t": "请问可以刷卡吗？",
+      "ph": "Qǐngwèn kěyǐ shuākǎ ma?",
+      "vph": "Chỉnh uân khửa ỷ soa khả ma?",
+      "vi": "Xin hỏi có quẹt thẻ được không?",
+      "hl": [
+       "可以"
+      ],
+      "tokens": [
+       "请问",
+       "可以",
+       "刷卡",
+       "吗"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "vi": "đi",
+  "note": "去 + địa điểm (đi đâu). Muốn nói đi bằng gì thì đặt phương tiện trước: 坐/骑 + phương tiện + 去 (坐地铁去 - đi bằng tàu điện ngầm).",
+  "pivot": {
+   "t": "去",
+   "ph": "qù",
+   "vph": "chuy"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "北京",
+      "ph": "Běijīng",
+      "vph": "Pẩy chinh",
+      "vi": "Bắc Kinh",
+      "hl": []
+     },
+     {
+      "t": "去北京",
+      "ph": "qù Běijīng",
+      "vph": "chuy Pẩy chinh",
+      "vi": "đi Bắc Kinh",
+      "hl": [
+       "去"
+      ]
+     },
+     {
+      "t": "我明天去北京。",
+      "ph": "Wǒ míngtiān qù Běijīng.",
+      "vph": "Ủa mính thiên chuy Pẩy chinh.",
+      "vi": "Ngày mai tôi đi Bắc Kinh.",
+      "hl": [
+       "去"
+      ],
+      "tokens": [
+       "我",
+       "明天",
+       "去",
+       "北京"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "机场",
+      "ph": "jīchǎng",
+      "vph": "chi chảng",
+      "vi": "sân bay",
+      "hl": []
+     },
+     {
+      "t": "去机场",
+      "ph": "qù jīchǎng",
+      "vph": "chuy chi chảng",
+      "vi": "đi sân bay",
+      "hl": [
+       "去"
+      ]
+     },
+     {
+      "t": "我要去机场。",
+      "ph": "Wǒ yào qù jīchǎng.",
+      "vph": "Ủa dao chuy chi chảng.",
+      "vi": "Tôi muốn đi sân bay.",
+      "hl": [
+       "去"
+      ],
+      "tokens": [
+       "我",
+       "要",
+       "去",
+       "机场"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "地铁",
+      "ph": "dìtiě",
+      "vph": "ti thiể",
+      "vi": "tàu điện ngầm",
+      "hl": []
+     },
+     {
+      "t": "坐地铁去",
+      "ph": "zuò dìtiě qù",
+      "vph": "chua ti thiể chuy",
+      "vi": "đi bằng tàu điện ngầm",
+      "hl": [
+       "去"
+      ]
+     },
+     {
+      "t": "我们坐地铁去吧。",
+      "ph": "Wǒmen zuò dìtiě qù ba.",
+      "vph": "Ủa mân chua ti thiể chuy pa.",
+      "vi": "Chúng ta đi bằng tàu điện ngầm nhé.",
+      "hl": [
+       "去"
+      ],
+      "tokens": [
+       "我们",
+       "坐",
+       "地铁",
+       "去",
+       "吧"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "vi": "ở đâu",
+  "note": "Mẫu câu: X + 在哪儿？(X ở đâu?). 哪儿 là cách nói miền Bắc; miền Nam và Đài Loan hay nói 在哪里 (zài nǎlǐ).",
+  "pivot": {
+   "t": "在哪儿",
+   "ph": "zài nǎr",
+   "vph": "chai nả"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "厕所",
+      "ph": "cèsuǒ",
+      "vph": "xưa sủa",
+      "vi": "nhà vệ sinh",
+      "hl": []
+     },
+     {
+      "t": "厕所在哪儿",
+      "ph": "cèsuǒ zài nǎr",
+      "vph": "xưa sủa chai nả",
+      "vi": "nhà vệ sinh ở đâu",
+      "hl": [
+       "在哪儿"
+      ]
+     },
+     {
+      "t": "请问厕所在哪儿？",
+      "ph": "Qǐngwèn cèsuǒ zài nǎr?",
+      "vph": "Chỉnh uân xưa sủa chai nả?",
+      "vi": "Xin hỏi nhà vệ sinh ở đâu?",
+      "hl": [
+       "在哪儿"
+      ],
+      "tokens": [
+       "请问",
+       "厕所",
+       "在",
+       "哪儿"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "地铁站",
+      "ph": "dìtiězhàn",
+      "vph": "ti thiể chan",
+      "vi": "ga tàu điện ngầm",
+      "hl": []
+     },
+     {
+      "t": "地铁站在哪儿",
+      "ph": "dìtiězhàn zài nǎr",
+      "vph": "ti thiể chan chai nả",
+      "vi": "ga tàu điện ngầm ở đâu",
+      "hl": [
+       "在哪儿"
+      ]
+     },
+     {
+      "t": "最近的地铁站在哪儿？",
+      "ph": "Zuì jìn de dìtiězhàn zài nǎr?",
+      "vph": "Chuây chin tơ ti thiể chan chai nả?",
+      "vi": "Ga tàu điện ngầm gần nhất ở đâu?",
+      "hl": [
+       "在哪儿"
+      ],
+      "tokens": [
+       "最",
+       "近",
+       "的",
+       "地铁站",
+       "在",
+       "哪儿"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "现在",
+      "ph": "xiànzài",
+      "vph": "xiên chai",
+      "vi": "bây giờ",
+      "hl": []
+     },
+     {
+      "t": "现在在哪儿",
+      "ph": "xiànzài zài nǎr",
+      "vph": "xiên chai chai nả",
+      "vi": "bây giờ ở đâu",
+      "hl": [
+       "在哪儿"
+      ]
+     },
+     {
+      "t": "你现在在哪儿？",
+      "ph": "Nǐ xiànzài zài nǎr?",
+      "vph": "Nỉ xiên chai chai nả?",
+      "vi": "Bây giờ bạn đang ở đâu?",
+      "hl": [
+       "在哪儿"
+      ],
+      "tokens": [
+       "你",
+       "现在",
+       "在",
+       "哪儿"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "vi": "bao nhiêu",
+  "note": "多少 hỏi số lượng hoặc giá (多少钱 - bao nhiêu tiền). Với số nhỏ (thường dưới 10) dùng 几 + lượng từ: 几个人 (mấy người).",
+  "pivot": {
+   "t": "多少",
+   "ph": "duōshao",
+   "vph": "tua sảo"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "钱",
+      "ph": "qián",
+      "vph": "chién",
+      "vi": "tiền",
+      "hl": []
+     },
+     {
+      "t": "多少钱",
+      "ph": "duōshao qián",
+      "vph": "tua sảo chién",
+      "vi": "bao nhiêu tiền",
+      "hl": [
+       "多少"
+      ]
+     },
+     {
+      "t": "这个多少钱？",
+      "ph": "Zhège duōshao qián?",
+      "vph": "Chưa cưa tua sảo chién?",
+      "vi": "Cái này bao nhiêu tiền?",
+      "hl": [
+       "多少"
+      ],
+      "tokens": [
+       "这个",
+       "多少",
+       "钱"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "人",
+      "ph": "rén",
+      "vph": "rấn",
+      "vi": "người",
+      "hl": []
+     },
+     {
+      "t": "多少人",
+      "ph": "duōshao rén",
+      "vph": "tua sảo rấn",
+      "vi": "bao nhiêu người",
+      "hl": [
+       "多少"
+      ]
+     },
+     {
+      "t": "你们有多少人？",
+      "ph": "Nǐmen yǒu duōshao rén?",
+      "vph": "Nỉ mân dẩu tua sảo rấn?",
+      "vi": "Các bạn có bao nhiêu người?",
+      "hl": [
+       "多少"
+      ],
+      "tokens": [
+       "你们",
+       "有",
+       "多少",
+       "人"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "一斤",
+      "ph": "yì jīn",
+      "vph": "i chin",
+      "vi": "một cân (nửa ký)",
+      "hl": []
+     },
+     {
+      "t": "一斤多少钱",
+      "ph": "yì jīn duōshao qián",
+      "vph": "i chin tua sảo chién",
+      "vi": "bao nhiêu tiền một cân",
+      "hl": [
+       "多少"
+      ]
+     },
+     {
+      "t": "苹果一斤多少钱？",
+      "ph": "Píngguǒ yì jīn duōshao qián?",
+      "vph": "Pính của i chin tua sảo chién?",
+      "vi": "Táo bao nhiêu tiền một cân?",
+      "hl": [
+       "多少"
+      ],
+      "tokens": [
+       "苹果",
+       "一",
+       "斤",
+       "多少",
+       "钱"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "vi": "cái gì",
+  "note": "什么 đứng đúng vị trí của thứ được hỏi, không đảo lên đầu câu như tiếng Anh (你吃什么 - bạn ăn gì). Có thể đứng trước danh từ: 什么名字 (tên gì).",
+  "pivot": {
+   "t": "什么",
+   "ph": "shénme",
+   "vph": "sấn mơ"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "是",
+      "ph": "shì",
+      "vph": "sư",
+      "vi": "là",
+      "hl": []
+     },
+     {
+      "t": "是什么",
+      "ph": "shì shénme",
+      "vph": "sư sấn mơ",
+      "vi": "là gì",
+      "hl": [
+       "什么"
+      ]
+     },
+     {
+      "t": "这是什么？",
+      "ph": "Zhè shì shénme?",
+      "vph": "Chưa sư sấn mơ?",
+      "vi": "Đây là cái gì?",
+      "hl": [
+       "什么"
+      ],
+      "tokens": [
+       "这",
+       "是",
+       "什么"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "吃",
+      "ph": "chī",
+      "vph": "chư",
+      "vi": "ăn",
+      "hl": []
+     },
+     {
+      "t": "吃什么",
+      "ph": "chī shénme",
+      "vph": "chư sấn mơ",
+      "vi": "ăn gì",
+      "hl": [
+       "什么"
+      ]
+     },
+     {
+      "t": "你想吃什么？",
+      "ph": "Nǐ xiǎng chī shénme?",
+      "vph": "Nỉ xẻng chư sấn mơ?",
+      "vi": "Bạn muốn ăn gì?",
+      "hl": [
+       "什么"
+      ],
+      "tokens": [
+       "你",
+       "想",
+       "吃",
+       "什么"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "名字",
+      "ph": "míngzi",
+      "vph": "mính chư",
+      "vi": "tên",
+      "hl": []
+     },
+     {
+      "t": "什么名字",
+      "ph": "shénme míngzi",
+      "vph": "sấn mơ mính chư",
+      "vi": "tên gì",
+      "hl": [
+       "什么"
+      ]
+     },
+     {
+      "t": "你叫什么名字？",
+      "ph": "Nǐ jiào shénme míngzi?",
+      "vph": "Nỉ cheo sấn mơ mính chư?",
+      "vi": "Bạn tên là gì?",
+      "hl": [
+       "什么"
+      ],
+      "tokens": [
+       "你",
+       "叫",
+       "什么",
+       "名字"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "vi": "ai",
+  "note": "谁 đứng ở vị trí của người được hỏi (他是谁 - anh ấy là ai; 谁去 - ai đi). 谁的 + danh từ = của ai. Có thể đọc shéi hoặc shuí.",
+  "pivot": {
+   "t": "谁",
+   "ph": "shéi",
+   "vph": "suấy"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "是",
+      "ph": "shì",
+      "vph": "sư",
+      "vi": "là",
+      "hl": []
+     },
+     {
+      "t": "是谁",
+      "ph": "shì shéi",
+      "vph": "sư suấy",
+      "vi": "là ai",
+      "hl": [
+       "谁"
+      ]
+     },
+     {
+      "t": "他是谁？",
+      "ph": "Tā shì shéi?",
+      "vph": "Tha sư suấy?",
+      "vi": "Anh ấy là ai?",
+      "hl": [
+       "谁"
+      ],
+      "tokens": [
+       "他",
+       "是",
+       "谁"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "找",
+      "ph": "zhǎo",
+      "vph": "chảo",
+      "vi": "tìm",
+      "hl": []
+     },
+     {
+      "t": "找谁",
+      "ph": "zhǎo shéi",
+      "vph": "chảo suấy",
+      "vi": "tìm ai",
+      "hl": [
+       "谁"
+      ]
+     },
+     {
+      "t": "请问您找谁？",
+      "ph": "Qǐngwèn nín zhǎo shéi?",
+      "vph": "Chỉnh uân nín chảo suấy?",
+      "vi": "Xin hỏi ông/bà tìm ai?",
+      "hl": [
+       "谁"
+      ],
+      "tokens": [
+       "请问",
+       "您",
+       "找",
+       "谁"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "包",
+      "ph": "bāo",
+      "vph": "pao",
+      "vi": "cái túi",
+      "hl": []
+     },
+     {
+      "t": "谁的包",
+      "ph": "shéi de bāo",
+      "vph": "suấy tơ pao",
+      "vi": "túi của ai",
+      "hl": [
+       "谁"
+      ]
+     },
+     {
+      "t": "这是谁的包？",
+      "ph": "Zhè shì shéi de bāo?",
+      "vph": "Chưa sư suấy tơ pao?",
+      "vi": "Đây là túi của ai?",
+      "hl": [
+       "谁"
+      ],
+      "tokens": [
+       "这",
+       "是",
+       "谁",
+       "的",
+       "包"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "vi": "khi nào",
+  "note": "什么时候 đặt sau chủ ngữ, trước động từ (你什么时候来 - khi nào bạn đến). Hỏi giờ cụ thể dùng 几点 (mấy giờ).",
+  "pivot": {
+   "t": "什么时候",
+   "ph": "shénme shíhou",
+   "vph": "sấn mơ sứ hâu"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "来",
+      "ph": "lái",
+      "vph": "lái",
+      "vi": "đến",
+      "hl": []
+     },
+     {
+      "t": "什么时候来",
+      "ph": "shénme shíhou lái",
+      "vph": "sấn mơ sứ hâu lái",
+      "vi": "khi nào đến",
+      "hl": [
+       "什么时候"
+      ]
+     },
+     {
+      "t": "你什么时候来？",
+      "ph": "Nǐ shénme shíhou lái?",
+      "vph": "Nỉ sấn mơ sứ hâu lái?",
+      "vi": "Khi nào bạn đến?",
+      "hl": [
+       "什么时候"
+      ],
+      "tokens": [
+       "你",
+       "什么时候",
+       "来"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "出发",
+      "ph": "chūfā",
+      "vph": "chu pha",
+      "vi": "xuất phát",
+      "hl": []
+     },
+     {
+      "t": "什么时候出发",
+      "ph": "shénme shíhou chūfā",
+      "vph": "sấn mơ sứ hâu chu pha",
+      "vi": "khi nào xuất phát",
+      "hl": [
+       "什么时候"
+      ]
+     },
+     {
+      "t": "我们什么时候出发？",
+      "ph": "Wǒmen shénme shíhou chūfā?",
+      "vph": "Ủa mân sấn mơ sứ hâu chu pha?",
+      "vi": "Khi nào chúng ta xuất phát?",
+      "hl": [
+       "什么时候"
+      ],
+      "tokens": [
+       "我们",
+       "什么时候",
+       "出发"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "开门",
+      "ph": "kāimén",
+      "vph": "khai mấn",
+      "vi": "mở cửa",
+      "hl": []
+     },
+     {
+      "t": "几点开门",
+      "ph": "jǐ diǎn kāimén",
+      "vph": "chí tiẻn khai mấn",
+      "vi": "mấy giờ mở cửa",
+      "hl": [
+       "几点"
+      ]
+     },
+     {
+      "t": "博物馆几点开门？",
+      "ph": "Bówùguǎn jǐ diǎn kāimén?",
+      "vph": "Púa u quản chí tiẻn khai mấn?",
+      "vi": "Bảo tàng mấy giờ mở cửa?",
+      "hl": [
+       "几点"
+      ],
+      "tokens": [
+       "博物馆",
+       "几点",
+       "开门"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "vi": "tại sao / vì",
+  "note": "为什么 hỏi lý do, đặt sau chủ ngữ (你为什么… - tại sao bạn…). Trả lời bằng 因为 (vì), thường đi cặp 因为…所以… (vì… nên…).",
+  "pivot": {
+   "t": "为什么",
+   "ph": "wèishénme",
+   "vph": "uây sấn mơ"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "迟到",
+      "ph": "chídào",
+      "vph": "chứ tao",
+      "vi": "đến muộn",
+      "hl": []
+     },
+     {
+      "t": "为什么迟到",
+      "ph": "wèishénme chídào",
+      "vph": "uây sấn mơ chứ tao",
+      "vi": "tại sao đến muộn",
+      "hl": [
+       "为什么"
+      ]
+     },
+     {
+      "t": "你为什么迟到？",
+      "ph": "Nǐ wèishénme chídào?",
+      "vph": "Nỉ uây sấn mơ chứ tao?",
+      "vi": "Tại sao bạn đến muộn?",
+      "hl": [
+       "为什么"
+      ],
+      "tokens": [
+       "你",
+       "为什么",
+       "迟到"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "学中文",
+      "ph": "xué Zhōngwén",
+      "vph": "xuế Chung uấn",
+      "vi": "học tiếng Trung",
+      "hl": []
+     },
+     {
+      "t": "为什么学中文",
+      "ph": "wèishénme xué Zhōngwén",
+      "vph": "uây sấn mơ xuế Chung uấn",
+      "vi": "tại sao học tiếng Trung",
+      "hl": [
+       "为什么"
+      ]
+     },
+     {
+      "t": "你为什么学中文？",
+      "ph": "Nǐ wèishénme xué Zhōngwén?",
+      "vph": "Nỉ uây sấn mơ xuế Chung uấn?",
+      "vi": "Tại sao bạn học tiếng Trung?",
+      "hl": [
+       "为什么"
+      ],
+      "tokens": [
+       "你",
+       "为什么",
+       "学",
+       "中文"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "堵车",
+      "ph": "dǔchē",
+      "vph": "tủ chưa",
+      "vi": "kẹt xe",
+      "hl": []
+     },
+     {
+      "t": "因为堵车",
+      "ph": "yīnwèi dǔchē",
+      "vph": "in uây tủ chưa",
+      "vi": "vì kẹt xe",
+      "hl": [
+       "因为"
+      ]
+     },
+     {
+      "t": "因为堵车，所以我迟到了。",
+      "ph": "Yīnwèi dǔchē, suǒyǐ wǒ chídào le.",
+      "vph": "In uây tủ chưa, súa ỷ ủa chứ tao lơ.",
+      "vi": "Vì kẹt xe nên tôi đến muộn.",
+      "hl": [
+       "因为"
+      ],
+      "tokens": [
+       "因为",
+       "堵车",
+       "所以",
+       "我",
+       "迟到",
+       "了"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "vi": "làm ơn",
+  "note": "请 + động từ dùng để mời hoặc nhờ lịch sự (mời…, làm ơn…). Khi hỏi đường, hỏi thông tin thì mở đầu bằng 请问 (xin hỏi).",
+  "pivot": {
+   "t": "请",
+   "ph": "qǐng",
+   "vph": "chỉnh"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "进",
+      "ph": "jìn",
+      "vph": "chin",
+      "vi": "vào",
+      "hl": []
+     },
+     {
+      "t": "请进",
+      "ph": "qǐng jìn",
+      "vph": "chỉnh chin",
+      "vi": "mời vào",
+      "hl": [
+       "请"
+      ]
+     },
+     {
+      "t": "请进来坐吧。",
+      "ph": "Qǐng jìnlái zuò ba.",
+      "vph": "Chỉnh chin lái chua pa.",
+      "vi": "Mời vào ngồi đi.",
+      "hl": [
+       "请"
+      ],
+      "tokens": [
+       "请",
+       "进来",
+       "坐",
+       "吧"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "写",
+      "ph": "xiě",
+      "vph": "xỉa",
+      "vi": "viết",
+      "hl": []
+     },
+     {
+      "t": "请写",
+      "ph": "qǐng xiě",
+      "vph": "chỉnh xỉa",
+      "vi": "làm ơn viết",
+      "hl": [
+       "请"
+      ]
+     },
+     {
+      "t": "请写在这儿。",
+      "ph": "Qǐng xiě zài zhèr.",
+      "vph": "Chỉnh xỉa chai chưa.",
+      "vi": "Làm ơn viết vào đây.",
+      "hl": [
+       "请"
+      ],
+      "tokens": [
+       "请",
+       "写",
+       "在",
+       "这儿"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "帮我",
+      "ph": "bāng wǒ",
+      "vph": "pang ủa",
+      "vi": "giúp tôi",
+      "hl": []
+     },
+     {
+      "t": "请帮我",
+      "ph": "qǐng bāng wǒ",
+      "vph": "chỉnh pang ủa",
+      "vi": "làm ơn giúp tôi",
+      "hl": [
+       "请"
+      ]
+     },
+     {
+      "t": "请帮我拍张照。",
+      "ph": "Qǐng bāng wǒ pāi zhāng zhào.",
+      "vph": "Chỉnh pang ủa pai chang chao.",
+      "vi": "Làm ơn chụp giúp tôi một tấm ảnh.",
+      "hl": [
+       "请"
+      ],
+      "tokens": [
+       "请",
+       "帮",
+       "我",
+       "拍",
+       "张",
+       "照"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "vi": "đừng",
+  "note": "别 + động từ là mệnh lệnh phủ định (đừng làm gì). 不要 có nghĩa tương tự nhưng trang trọng hơn một chút.",
+  "pivot": {
+   "t": "别",
+   "ph": "bié",
+   "vph": "piế"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "担心",
+      "ph": "dānxīn",
+      "vph": "tan xin",
+      "vi": "lo lắng",
+      "hl": []
+     },
+     {
+      "t": "别担心",
+      "ph": "bié dānxīn",
+      "vph": "piế tan xin",
+      "vi": "đừng lo",
+      "hl": [
+       "别"
+      ]
+     },
+     {
+      "t": "你别担心。",
+      "ph": "Nǐ bié dānxīn.",
+      "vph": "Nỉ piế tan xin.",
+      "vi": "Bạn đừng lo.",
+      "hl": [
+       "别"
+      ],
+      "tokens": [
+       "你",
+       "别",
+       "担心"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "走",
+      "ph": "zǒu",
+      "vph": "chẩu",
+      "vi": "đi",
+      "hl": []
+     },
+     {
+      "t": "别走",
+      "ph": "bié zǒu",
+      "vph": "piế chẩu",
+      "vi": "đừng đi",
+      "hl": [
+       "别"
+      ]
+     },
+     {
+      "t": "你先别走。",
+      "ph": "Nǐ xiān bié zǒu.",
+      "vph": "Nỉ xiên piế chẩu.",
+      "vi": "Bạn khoan hãy đi.",
+      "hl": [
+       "别"
+      ],
+      "tokens": [
+       "你",
+       "先",
+       "别",
+       "走"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "忘",
+      "ph": "wàng",
+      "vph": "oang",
+      "vi": "quên",
+      "hl": []
+     },
+     {
+      "t": "别忘",
+      "ph": "bié wàng",
+      "vph": "piế oang",
+      "vi": "đừng quên",
+      "hl": [
+       "别"
+      ]
+     },
+     {
+      "t": "别忘了带护照。",
+      "ph": "Bié wàng le dài hùzhào.",
+      "vph": "Piế oang lơ tai hu chao.",
+      "vi": "Đừng quên mang hộ chiếu.",
+      "hl": [
+       "别"
+      ],
+      "tokens": [
+       "别",
+       "忘",
+       "了",
+       "带",
+       "护照"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "vi": "đã",
+  "note": "了 đặt sau động từ hoặc cuối câu để chỉ hành động đã xảy ra/đã hoàn thành; thường đi với 已经 (đã). Phủ định quá khứ dùng 没 + động từ và bỏ 了; 过 diễn tả trải nghiệm (đã từng).",
+  "pivot": {
+   "t": "了",
+   "ph": "le",
+   "vph": "lơ"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "吃",
+      "ph": "chī",
+      "vph": "chư",
+      "vi": "ăn",
+      "hl": []
+     },
+     {
+      "t": "吃了",
+      "ph": "chī le",
+      "vph": "chư lơ",
+      "vi": "đã ăn",
+      "hl": [
+       "了"
+      ]
+     },
+     {
+      "t": "我已经吃了。",
+      "ph": "Wǒ yǐjīng chī le.",
+      "vph": "Ủa ỷ chinh chư lơ.",
+      "vi": "Tôi đã ăn rồi.",
+      "hl": [
+       "了"
+      ],
+      "tokens": [
+       "我",
+       "已经",
+       "吃",
+       "了"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "到",
+      "ph": "dào",
+      "vph": "tao",
+      "vi": "đến",
+      "hl": []
+     },
+     {
+      "t": "到了",
+      "ph": "dào le",
+      "vph": "tao lơ",
+      "vi": "đã đến",
+      "hl": [
+       "了"
+      ]
+     },
+     {
+      "t": "飞机到了。",
+      "ph": "Fēijī dào le.",
+      "vph": "Phây chi tao lơ.",
+      "vi": "Máy bay đã đến rồi.",
+      "hl": [
+       "了"
+      ],
+      "tokens": [
+       "飞机",
+       "到",
+       "了"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "买",
+      "ph": "mǎi",
+      "vph": "mải",
+      "vi": "mua",
+      "hl": []
+     },
+     {
+      "t": "买了",
+      "ph": "mǎi le",
+      "vph": "mải lơ",
+      "vi": "đã mua",
+      "hl": [
+       "了"
+      ]
+     },
+     {
+      "t": "我买了两张票。",
+      "ph": "Wǒ mǎi le liǎng zhāng piào.",
+      "vph": "Ủa mải lơ lẻng chang peo.",
+      "vi": "Tôi đã mua hai vé.",
+      "hl": [
+       "了"
+      ],
+      "tokens": [
+       "我",
+       "买",
+       "了",
+       "两",
+       "张",
+       "票"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "vi": "sẽ",
+  "note": "会 + động từ diễn tả dự đoán hoặc việc sẽ xảy ra (sẽ làm gì). 要 nhấn mạnh dự định sắp làm, 将 dùng trong văn viết trang trọng.",
+  "pivot": {
+   "t": "会",
+   "ph": "huì",
+   "vph": "huây"
+  },
+  "branches": [
+   {
+    "steps": [
+     {
+      "t": "来",
+      "ph": "lái",
+      "vph": "lái",
+      "vi": "đến",
+      "hl": []
+     },
+     {
+      "t": "会来",
+      "ph": "huì lái",
+      "vph": "huây lái",
+      "vi": "sẽ đến",
+      "hl": [
+       "会"
+      ]
+     },
+     {
+      "t": "他明天会来。",
+      "ph": "Tā míngtiān huì lái.",
+      "vph": "Tha mính thiên huây lái.",
+      "vi": "Ngày mai anh ấy sẽ đến.",
+      "hl": [
+       "会"
+      ],
+      "tokens": [
+       "他",
+       "明天",
+       "会",
+       "来"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "下雨",
+      "ph": "xià yǔ",
+      "vph": "xa dủy",
+      "vi": "mưa",
+      "hl": []
+     },
+     {
+      "t": "会下雨",
+      "ph": "huì xià yǔ",
+      "vph": "huây xa dủy",
+      "vi": "sẽ mưa",
+      "hl": [
+       "会"
+      ]
+     },
+     {
+      "t": "明天会下雨吗？",
+      "ph": "Míngtiān huì xià yǔ ma?",
+      "vph": "Mính thiên huây xa dủy ma?",
+      "vi": "Ngày mai trời có mưa không?",
+      "hl": [
+       "会"
+      ],
+      "tokens": [
+       "明天",
+       "会",
+       "下雨",
+       "吗"
+      ]
+     }
+    ]
+   },
+   {
+    "steps": [
+     {
+      "t": "回来",
+      "ph": "huílai",
+      "vph": "khuấy lai",
+      "vi": "quay lại",
+      "hl": []
+     },
+     {
+      "t": "会回来",
+      "ph": "huì huílai",
+      "vph": "huây khuấy lai",
+      "vi": "sẽ quay lại",
+      "hl": [
+       "会"
+      ]
+     },
+     {
+      "t": "我很快就会回来。",
+      "ph": "Wǒ hěn kuài jiù huì huílai.",
+      "vph": "Ủa hẩn khoai chiêu huây khuấy lai.",
+      "vi": "Tôi sẽ quay lại ngay.",
+      "hl": [
+       "会"
+      ],
+      "tokens": [
+       "我",
+       "很快",
+       "就",
+       "会",
+       "回来"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

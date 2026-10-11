@@ -6,7 +6,7 @@
 
 var supported = null, threeQueue = null;
 var renderer = null, scene, camera, ch = null, stageEl = null, bubbleEl = null;
-var running = false, rafId = 0, lastT = 0;
+var running = false, rafId = 0, lastT = 0, lowPower = false, lastRender = 0;
 var st = {
   talking:false, talkUntil:0, energy:0, mouth:0.12,
   emotion:"neutral", emotionStart:0, emotionUntil:0,
@@ -189,6 +189,9 @@ function frame(ms){
   var dt = lastT ? Math.min(0.05, t - lastT) : 0.016;
   lastT = t;
   update(dt, t);
+  // avatar nhỏ nổi ở góc: chỉ vẽ ~24 hình/giây cho đỡ tốn pin (chuyển động vẫn tính theo thời gian thực)
+  if(lowPower && t - lastRender < 1/24) return;
+  lastRender = t;
   var w = Math.round((stageEl.clientWidth || 120) * renderer.getPixelRatio());
   if(renderer.domElement.width !== w) resize();
   renderer.render(scene, camera);
@@ -247,9 +250,10 @@ window.Tutor = {
   attach: attach,
   start: start,
   stop: stop,
-  say: function(text){
-    // lời chào có thể được gửi trước khi attach() xong (đang nạp three.js) -> tự tìm khung thoại
-    var el = bubbleEl || document.getElementById("tutorBubble");
+  say: function(text, target){
+    // khung thoại có thể được chỉ định (thanh lớn hoặc avatar nổi); lời chào có thể được gửi
+    // trước khi attach() xong (đang nạp three.js) nên mặc định tự tìm khung thoại
+    var el = target || bubbleEl || document.getElementById("tutorBubble");
     if(!el) return;
     el.textContent = text;
     el.classList.remove("pop");
@@ -261,6 +265,7 @@ window.Tutor = {
     st.emotionStart = now();
     st.emotionUntil = st.emotionStart + (ms || 1800)/1000;
   },
+  setLowPower: function(on){ lowPower = !!on; },
   setTalking: function(on){ st.talking = on; if(!on) st.talkUntil = 0; },
   talkFor: function(ms){ st.talkUntil = now() + ms/1000; },
   wordPulse: function(){ st.energy = 1; },
