@@ -72,6 +72,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         if ("en".equals(code)) return Locale.US;
         if ("fr".equals(code)) return Locale.FRANCE;
         if ("zh".equals(code)) return Locale.SIMPLIFIED_CHINESE;
+        if ("vi".equals(code)) return new Locale("vi", "VN");
         return new Locale("ru", "RU");
     }
 
@@ -120,9 +121,27 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
                     } catch (Exception e) { /* ignore */ }
                     return;
                 }
+                // video bài giảng có thể vừa đổi sang giọng khác (speakAs) -> trả về giọng của ngôn ngữ đang học
+                tts.setLanguage(localeFor(currentLangCode));
                 tts.setSpeechRate(rate);
                 HashMap<String, String> params = new HashMap<String, String>();
                 params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, "u" + System.currentTimeMillis());
+                tts.speak(text, TextToSpeech.QUEUE_FLUSH, params);
+            }
+        });
+    }
+
+    /** Đọc bằng giọng của ngôn ngữ chỉ định (video bài giảng: lời giảng tiếng Việt xen câu mẫu ngoại ngữ).
+     *  Máy chưa có giọng đó thì bỏ qua lặng lẽ — video vẫn có phụ đề. */
+    private void speakAsInternal(final String text, final String code) {
+        if (!ttsReady || tts == null) return;
+        runOnUiThread(new Runnable() {
+            @Override public void run() {
+                int r = tts.setLanguage(localeFor(code));
+                if (r == TextToSpeech.LANG_MISSING_DATA || r == TextToSpeech.LANG_NOT_SUPPORTED) return;
+                tts.setSpeechRate("vi".equals(code) ? 1.0f : 0.92f);
+                HashMap<String, String> params = new HashMap<String, String>();
+                params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, "v" + System.currentTimeMillis());
                 tts.speak(text, TextToSpeech.QUEUE_FLUSH, params);
             }
         });
@@ -237,6 +256,9 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
 
         @JavascriptInterface
         public void speakSlow(String text) { speakInternal(text, 0.62f); }
+
+        @JavascriptInterface
+        public void speakAs(String text, String code) { speakAsInternal(text, code); }
 
         @JavascriptInterface
         public void stopSpeak() { if (tts != null) { try { tts.stop(); } catch (Exception e) {} } }

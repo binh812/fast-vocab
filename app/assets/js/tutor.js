@@ -7,6 +7,7 @@
 var supported = null, threeQueue = null;
 var renderer = null, scene, camera, ch = null, stageEl = null, bubbleEl = null;
 var running = false, rafId = 0, lastT = 0, lowPower = false, lastRender = 0;
+var drivenEmotion = null, lastDriveT = null; // chế độ video: thời gian do timeline quyết định
 var st = {
   talking:false, talkUntil:0, energy:0, mouth:0.12,
   emotion:"neutral", emotionStart:0, emotionUntil:0,
@@ -208,7 +209,8 @@ function attach(stage, bubble, cb){
     if(!ok){ supported = false; cb(false); return; }
     try{
       var T = window.THREE;
-      renderer = new T.WebGLRenderer({antialias:true, alpha:true});
+      // preserveDrawingBuffer: để chụp được từng khung hình khi xuất video MP4
+      renderer = new T.WebGLRenderer({antialias:true, alpha:true, preserveDrawingBuffer:true});
       renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
       renderer.outputEncoding = T.sRGBEncoding;
       scene = new T.Scene();
@@ -266,6 +268,23 @@ window.Tutor = {
     st.emotionUntil = st.emotionStart + (ms || 1800)/1000;
   },
   setLowPower: function(on){ lowPower = !!on; },
+  /* video bài giảng: vẽ đúng trạng thái ở giây t của timeline (tua được, render từng khung ra MP4) */
+  drive: function(t, talking, emotion){
+    stop();
+    st.talking = !!talking;
+    if(emotion !== drivenEmotion){
+      drivenEmotion = emotion;
+      st.emotion = emotion || "neutral"; st.emotionStart = t; st.emotionUntil = t + 1e6;
+    }
+    var dt = lastDriveT == null ? 1/30 : Math.max(0, Math.min(0.1, t - lastDriveT));
+    lastDriveT = t;
+    update(dt, t);
+    if(renderer && stageEl){ resize(); renderer.render(scene, camera); }
+  },
+  releaseDrive: function(){
+    drivenEmotion = null; lastDriveT = null;
+    st.talking = false; st.emotion = "neutral"; st.emotionUntil = 0;
+  },
   setTalking: function(on){ st.talking = on; if(!on) st.talkUntil = 0; },
   talkFor: function(ms){ st.talkUntil = now() + ms/1000; },
   wordPulse: function(){ st.energy = 1; },

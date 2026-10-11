@@ -41,6 +41,7 @@ const SCREENS = [
   { name: "13-dashboard",    js: `tab("words"); q("#streakBadge").click()` },
   { name: "14-onboarding",   js: `tab("words"); q("#helpBtn").click()` },
   { name: "15-lang-picker",  js: `tab("words"); q("#langBtn").click()` },
+  { name: "17-lesson-video",  js: `tab("builder"); q('.bd-tile[data-lesson="1"]').click(); q("#bdVideo").click(); q("#lvNext").click(); q("#lvNext").click(); q("#lvPlay").click()` },
   { name: "16-dark-builder", js: `localStorage.setItem("fv_theme","dark"); document.documentElement.setAttribute("data-theme","dark"); tab("builder"); q('.bd-tile[data-lesson="4"]').click()` },
 ];
 

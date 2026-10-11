@@ -65,6 +65,16 @@ node smoke_test.js
 ```
 Script dùng jsdom giả lập WebView, click qua toàn bộ luồng chính (onboarding, chọn chủ đề, tìm kiếm toàn cục, đổi chiều tra cứu, ôn tập flashcard spaced repetition, đổi ngôn ngữ, nút Back) để bắt lỗi JS/CSS trước khi build APK thật. Đã từng bắt được 2 lỗi thật theo cách này: crash khi ôn tập không đổi dropdown mặc định, và lớp phủ bảng chọn ngôn ngữ bị đè CSS nên luôn hiện chặn hết thao tác.
 
+## Video bài giảng Ghép câu (video-as-code)
+Mỗi bài Ghép câu có nút **"📺 Xem video bài giảng"**: trình phát toàn màn hình (khung dọc 9:16, tự co giãn theo màn hình), gia sư thuyết minh bằng tiếng Việt xen câu mẫu bằng giọng ngôn ngữ đích, có phụ đề + phiên âm, các cảnh: mở đầu (từ trụ) → công thức câu → ghép từng bước 3 nhánh → lỗi hay gặp → hội thoại mẫu → mẹo nhớ. Kịch bản dựng tự động từ dữ liệu bài học (`app/assets/js/lesson_video.js`), tua được tới bất kỳ thời điểm nào; trong app dùng giọng TTS của máy (lời giảng cần máy có giọng tiếng Việt, không có thì vẫn có phụ đề).
+
+Cùng kịch bản đó xuất được thành **file MP4** (1080×1920, để chia sẻ Zalo/YouTube):
+```
+pkg install ffmpeg && pip install edge-tts      # cùng Chromium ở mục dưới
+node tools/render_lesson_video.js zh 1 GhepCau_TiengTrung_Bai1.mp4 [--fps 24] [--tutor3d] [--preview <thư mục>]
+```
+Giọng đọc neural từ edge-tts (cần mạng lúc render, có cache ở `build/video_cache`, tự cắt khoảng lặng), Chromium headless chụp từng khung, FFmpeg ghép hình + đặt từng câu đọc đúng thời điểm. Một video ~80–120 giây render mất ~7 phút trên điện thoại. Chromium trên Termux không vẽ được WebGL ổn định (GPU process crash) nên MP4 dùng gia sư bản 2D (SVG, cùng tạo hình); chạy trên PC thêm `--tutor3d` để dùng gia sư 3D. `--preview` chỉ chụp vài khung mỗi cảnh để chỉnh thiết kế nhanh.
+
 ## Soát giao diện nhiều kích thước màn hình
 ```
 pkg install x11-repo && pkg install chromium   # chỉ cần 1 lần

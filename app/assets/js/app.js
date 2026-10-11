@@ -1421,6 +1421,7 @@ function renderBuilderLesson(){
           '<div class="bd-note">💡 ' + esc(l.note) + '</div>'+
         '</div>'+
       '</div>'+
+      (window.LessonVideo ? '<button class="bd-video-btn" id="bdVideo">📺 Xem video bài giảng <span>~' + Math.round(LessonVideo.plan(l, state.lang).duration / 10) * 10 + ' giây</span></button>' : '')+
       '<div class="bd-nav" id="bdNav">' + nav.map(function(n){ return '<button data-go="' + n[0] + '">' + n[1] + '</button>'; }).join("") + '</div>'+
       secs.join("")+
       '<button class="big-btn bd-practice-btn" id="bdPractice">🎯 Luyện tập bài này</button>'+
@@ -1429,6 +1430,8 @@ function renderBuilderLesson(){
 
   document.getElementById("bdBack").addEventListener("click", function(){ state.builder.view = "list"; renderBuilder(); });
   document.getElementById("bdPractice").addEventListener("click", startBuilderPractice);
+  var vb = document.getElementById("bdVideo");
+  if(vb) vb.addEventListener("click", function(){ openLessonVideo(l); });
   document.getElementById("bdNav").addEventListener("click", function(e){
     var b = e.target.closest("[data-go]"); if(!b) return;
     var target = document.getElementById(b.getAttribute("data-go"));
@@ -1694,6 +1697,101 @@ function renderBuilderPracticeDone(){
   if(stars) confetti();
   tutorSay(stars === 3 ? "Hoàn hảo! 3 sao luôn 🥳" : stars ? "Xong bài rồi! Luyện lại để được 3 sao nhé 💪" : "Không sao, xem lại bài rồi thử lần nữa nhé!", stars ? "celebrate" : "sad", 2200);
   updateHdrStat();
+}
+
+/* ---------- video bài giảng trong app (js/lesson_video.js — cùng kịch bản/hình với file MP4 xuất ra) ---------- */
+var lvPlayer = null;
+function speakCue(c){
+  try{
+    if(window.Android && Android.speakAs) Android.speakAs(c.text, c.lang);
+    else if(c.lang !== "vi") speak(c.text);
+  }catch(e){}
+}
+function stopSpeech(){ try{ if(window.Android && Android.stopSpeak) Android.stopSpeak(); }catch(e){} }
+function openLessonVideo(l){
+  stopSequence();
+  var ov = document.createElement("div");
+  ov.className = "lv-overlay";
+  ov.id = "lvOverlay";
+  ov.innerHTML =
+    '<div class="lv-fit"><div class="lv-host" id="lvHost"></div></div>'+
+    '<div class="lv-controls">'+
+      '<button id="lvClose" title="Đóng">✕</button>'+
+      '<button id="lvPrev" title="Cảnh trước">⏮</button>'+
+      '<button id="lvPlay" class="main" title="Phát / tạm dừng">⏸</button>'+
+      '<button id="lvNext" title="Cảnh sau">⏭</button>'+
+      '<input type="range" id="lvSeek" min="0" max="1000" value="0">'+
+      '<span id="lvTime">0:00</span>'+
+    '</div>';
+  document.body.appendChild(ov);
+  var host = document.getElementById("lvHost");
+  // thời lượng trong app là ước lượng theo TTS của máy -> nới 15% để câu sau không cắt ngang câu trước
+  var V = LessonVideo.mount(host, l, state.lang, {slack:1.1, tutor: tutorActive() ? "3d" : "2d"});
+  var p = lvPlayer = {V:V, t:0, playing:true, last:0, nextCue:0, raf:0, overlay:ov};
+  if(V.tutorMode === "3d") Tutor.attach(V.tutorEl, null, function(){});
+
+  function fit(){
+    var fitEl = ov.querySelector(".lv-fit");
+    var sc = Math.min(fitEl.clientWidth / 540, fitEl.clientHeight / 960);
+    host.style.transform = "scale(" + sc + ")";
+    host.style.width = "540px"; host.style.height = "960px";
+    host.style.marginLeft = ((fitEl.clientWidth - 540 * sc) / 2) + "px";
+    host.style.marginTop = ((fitEl.clientHeight - 960 * sc) / 2) + "px";
+  }
+  fit();
+  p.onResize = fit;
+  window.addEventListener("resize", fit);
+
+  function fmt(sec){ sec = Math.max(0, Math.floor(sec)); return Math.floor(sec / 60) + ":" + pad2(sec % 60); }
+  function render(){
+    V.seek(p.t);
+    document.getElementById("lvSeek").value = Math.round(p.t / V.duration * 1000);
+    document.getElementById("lvTime").textContent = fmt(p.t) + " / " + fmt(V.duration);
+  }
+  // câu đọc vừa bắt đầu trong 0.8s trước vẫn được đọc (tua tới đầu cảnh hơi lố vẫn nghe đủ câu)
+  function syncCue(){ p.nextCue = 0; while(p.nextCue < V.cues.length && V.cues[p.nextCue].at < p.t - 0.8) p.nextCue++; }
+  function jump(t){ p.t = Math.max(0, Math.min(V.duration, t)); stopSpeech(); syncCue(); render(); }
+  function setPlaying(on){
+    p.playing = on;
+    document.getElementById("lvPlay").textContent = on ? "⏸" : "▶️";
+    if(!on) stopSpeech();
+    else { if(p.t >= V.duration - 0.05) jump(0); p.last = 0; syncCue(); }
+  }
+  function frame(ms){
+    p.raf = requestAnimationFrame(frame);
+    if(!p.playing){ p.last = 0; return; }
+    var now = ms / 1000;
+    if(p.last) p.t += Math.min(0.1, now - p.last);
+    p.last = now;
+    while(p.nextCue < V.cues.length && V.cues[p.nextCue].at <= p.t){ speakCue(V.cues[p.nextCue]); p.nextCue++; }
+    if(p.t >= V.duration){ p.t = V.duration; setPlaying(false); }
+    render();
+  }
+  function sceneIndex(){ var si = 0; V.scenes.forEach(function(s, i){ if(p.t >= s.at - 0.01) si = i; }); return si; }
+  document.getElementById("lvClose").addEventListener("click", closeLessonVideo);
+  document.getElementById("lvPlay").addEventListener("click", function(){ setPlaying(!p.playing); });
+  document.getElementById("lvPrev").addEventListener("click", function(){
+    var si = sceneIndex();
+    jump((p.t - V.scenes[si].at > 1.5 ? V.scenes[si].at : V.scenes[Math.max(0, si - 1)].at) + 0.6);
+  });
+  document.getElementById("lvNext").addEventListener("click", function(){
+    var si = sceneIndex();
+    jump(si + 1 < V.scenes.length ? V.scenes[si + 1].at + 0.6 : V.duration); // +0.6s: tới lúc nội dung cảnh đã hiện
+  });
+  document.getElementById("lvSeek").addEventListener("input", function(e){ jump(e.target.value / 1000 * V.duration); });
+  render();
+  p.raf = requestAnimationFrame(frame);
+  logActivity();
+}
+function closeLessonVideo(){
+  var p = lvPlayer;
+  if(!p) return;
+  cancelAnimationFrame(p.raf);
+  stopSpeech();
+  window.removeEventListener("resize", p.onResize);
+  if(p.overlay.parentNode) p.overlay.parentNode.removeChild(p.overlay);
+  lvPlayer = null;
+  if(window.Tutor){ Tutor.releaseDrive(); refreshTutor(); } // trả gia sư về chỗ cũ trong app
 }
 
 /* pháo giấy khi xong bài (CSS thuần, tự dọn sau 2.5s) */
@@ -2039,6 +2137,9 @@ function nextReviewCard(){
 
 /* ---------- điều hướng nút Back của hệ thống ---------- */
 window.onNativeBack = function(){
+  // 0. đang xem video bài giảng -> đóng video
+  if(lvPlayer){ closeLessonVideo(); return; }
+
   // 1. đang mở bảng Tiến trình học -> đóng lại
   var dashModal = document.getElementById("dashBack");
   if(dashModal && !dashModal.hidden){ closeDashboard(); return; }

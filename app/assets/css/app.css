@@ -782,3 +782,78 @@ body{
   .bd-intro{padding:10px 14px;}
   .bd-intro-desc{font-size:12.5px;}
 }
+
+/* ===================== Video bài giảng (js/lesson_video.js) — sân khấu 540x960 ===================== */
+.lv-stage{position:relative; width:540px; height:960px; overflow:hidden; color:#fff; font-family:-apple-system,Roboto,"Segoe UI",Helvetica,Arial,sans-serif; background:#0B1D3A;}
+.lv-bgs,.lv-bg{position:absolute; inset:0;}
+.lv-bg{opacity:0;}
+.lv-bgs::after{content:""; position:absolute; inset:0; background:radial-gradient(circle at 80% 10%, rgba(255,255,255,.18), transparent 45%), radial-gradient(circle at 10% 90%, rgba(0,0,0,.25), transparent 50%);}
+.lv-top{position:absolute; left:22px; right:22px; top:22px; display:flex; justify-content:space-between; font-size:17px; font-weight:800; letter-spacing:.2px; text-shadow:0 1px 3px rgba(0,0,0,.3);}
+.lv-prog{position:absolute; left:22px; right:22px; top:56px; height:6px; border-radius:6px; background:rgba(255,255,255,.22); overflow:hidden;}
+.lv-prog i{display:block; height:100%; width:0; background:#FFE45C; border-radius:6px;}
+.lv-layer{position:absolute; inset:0;}
+.lv-el{position:absolute; transform:translate(-50%,-50%); will-change:transform,opacity; text-align:center;}
+.lv-kicker{font-size:22px; font-weight:800; letter-spacing:4px; background:rgba(255,255,255,.18); border-radius:30px; padding:8px 22px;}
+.lv-big{font-size:64px; font-weight:900; text-shadow:0 4px 16px rgba(0,0,0,.25); white-space:nowrap;}
+.lv-pivot{background:#fff; color:#0B1D3A; border-radius:30px; padding:22px 44px; min-width:220px; border:6px solid #FFE45C; box-shadow:0 18px 40px rgba(0,0,0,.3);}
+.lv-pivot .lv-t{font-size:84px; font-weight:900; color:#E0312F; line-height:1.1;}
+.lv-ph{font-size:22px; font-style:italic; color:#64748b; margin-top:4px;}
+.lv-vph{font-size:20px; font-weight:800; color:#2B5FE8; margin-top:2px;}
+.lv-vi{font-size:22px; font-weight:800; color:#0B1D3A; margin-top:6px;}
+.lv-note{width:450px; font-size:20px; line-height:1.5; font-weight:600; background:rgba(0,0,0,.22); border-radius:20px; padding:14px 18px; text-align:left;}
+.lv-tip{background:#FFF7DD; color:#5c4a00; font-size:22px; text-align:center; box-shadow:0 12px 30px rgba(0,0,0,.25);}
+.lv-head{font-size:28px; font-weight:900; text-shadow:0 2px 8px rgba(0,0,0,.25); white-space:nowrap;}
+.lv-fb{min-width:260px; white-space:nowrap; border-radius:18px; padding:10px 26px; font-size:27px; font-weight:900; box-shadow:0 10px 24px rgba(0,0,0,.25); background:#64748b;}
+.lv-fb small{display:block; font-size:13px; letter-spacing:2px; opacity:.85;}
+.lv-fb-S{background:#2B5FE8;} .lv-fb-V{background:#1E8E5A;} .lv-fb-O{background:#8E44AD;} .lv-fb-A{background:#D97706;} .lv-fb-Q{background:#0E7490;}
+.lv-fb-P{background:#E0312F; border:4px solid #FFE45C; font-size:40px;}
+.lv-plus{font-size:34px; font-weight:900; opacity:.85;}
+.lv-card{width:420px; background:#fff; color:#0B1D3A; border-radius:24px; padding:14px 18px; box-shadow:0 14px 34px rgba(0,0,0,.28);}
+.lv-card .lv-t{font-size:40px; font-weight:900; line-height:1.2;}
+.lv-card.s3{width:470px; border:5px solid #FFE45C;}
+.lv-card.s3 .lv-t{font-size:38px;}
+.lv-hl{color:#E0312F;}
+.lv-chip{background:#E0312F; color:#fff; font-size:36px; font-weight:900; border-radius:16px; padding:8px 18px; border:4px solid #FFE45C; box-shadow:0 10px 24px rgba(0,0,0,.3);}
+.lv-arrow{font-size:40px; font-weight:900; opacity:.9;}
+.lv-how{width:470px; font-size:18px; line-height:1.45; font-weight:600; background:rgba(0,0,0,.25); border-radius:16px; padding:10px 14px; text-align:left;}
+.lv-wrong{border:5px solid #ff8a8a;}
+.lv-wrong .lv-t{color:#b91c1c;}
+.lv-wrong s{text-decoration-thickness:4px;}
+.lv-right{border:5px solid #3ECF8E;}
+.lv-right .lv-t{color:#15803d;}
+.lv-tag{font-size:18px; font-weight:900; letter-spacing:1px; margin-bottom:4px;}
+.lv-bubble{width:330px; background:#fff; color:#0B1D3A; border-radius:24px 24px 24px 6px; padding:12px 16px 12px 58px; text-align:left; box-shadow:0 12px 28px rgba(0,0,0,.25);}
+.lv-bubble.b{background:#E3F0FF; border-radius:24px 24px 6px 24px;}
+.lv-bubble .lv-t{font-size:28px; font-weight:900; line-height:1.25;}
+.lv-bubble .lv-ph,.lv-bubble .lv-vph{font-size:16px;}
+.lv-bubble .lv-vi{font-size:18px;}
+.lv-who{position:absolute; left:12px; top:12px; font-size:32px;}
+.lv-cta{font-size:28px; font-weight:900; background:#fff; color:#E0312F; border-radius:40px; padding:16px 30px; box-shadow:0 14px 34px rgba(0,0,0,.3); white-space:nowrap;}
+.lv-bottom{position:absolute; left:16px; right:16px; bottom:22px; height:170px; display:flex; align-items:center; gap:12px;}
+.lv-tutor{flex:0 0 150px; width:150px; height:150px; border-radius:50%; overflow:hidden; background:radial-gradient(circle at 50% 38%, #fff 0%, #e4ecf8 60%, #cdd9ee 100%); border:5px solid rgba(255,255,255,.85); box-shadow:0 10px 26px rgba(0,0,0,.3);}
+.lv-tutor canvas{width:100%; height:100%; display:block;}
+.lv-sub{flex:1; min-height:84px; background:rgba(11,29,58,.82); border-radius:20px; padding:12px 16px; display:flex; flex-direction:column; justify-content:center; box-shadow:0 10px 26px rgba(0,0,0,.25);}
+.lv-sub:empty{visibility:hidden;}
+.lv-sub-vi{font-size:20px; font-weight:700; line-height:1.4;}
+.lv-sub-vi.small{font-size:17px; opacity:.9; margin-top:2px;}
+.lv-sub-t{font-size:30px; font-weight:900; line-height:1.2;}
+.lv-sub-t .lv-hl{color:#FFE45C;}
+.lv-sub-ph{font-size:16px; font-style:italic; opacity:.85; margin-top:2px;}
+
+/* trình phát video bài giảng trong app */
+.bd-video-btn{
+  width:100%; margin-top:12px; border:none; border-radius:14px; padding:13px 14px; font-size:15px; font-weight:800; color:#fff;
+  background:linear-gradient(135deg,#E0312F,#8E44AD); box-shadow:var(--shadow); display:flex; align-items:center; justify-content:center; gap:8px;
+}
+.bd-video-btn span{font-size:12px; font-weight:700; background:rgba(255,255,255,.2); border-radius:10px; padding:2px 8px;}
+.lv-overlay{position:fixed; inset:0; z-index:90; background:#05070d; display:flex; flex-direction:column;}
+.lv-fit{flex:1; min-height:0; overflow:hidden; position:relative;}
+.lv-host{transform-origin:0 0; border-radius:14px; overflow:hidden;}
+.lv-controls{
+  flex:0 0 auto; display:flex; align-items:center; gap:8px; color:#fff;
+  padding:8px calc(12px + var(--safe-r)) calc(10px + var(--safe-b)) calc(12px + var(--safe-l));
+}
+.lv-controls button{width:40px; height:40px; border:none; border-radius:12px; background:rgba(255,255,255,.12); color:#fff; font-size:16px; flex:0 0 auto;}
+.lv-controls button.main{background:#E0312F;}
+.lv-controls input[type=range]{flex:1; min-width:60px; accent-color:#FFE45C;}
+.lv-controls span{font-size:12px; font-variant-numeric:tabular-nums; opacity:.85; flex:0 0 auto;}

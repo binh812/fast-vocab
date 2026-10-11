@@ -80,6 +80,7 @@ try {
 
   window.localStorage.clear();
   loadScript("js/tutor.js");
+  loadScript("js/lesson_video.js");
   loadScript("js/app.js");
   const doc = window.document;
 
@@ -205,6 +206,17 @@ try {
   check("tapping a node speaks it", lastSpoken === L1.branches[0].steps[2].t);
   doc.querySelector("#bdMore .bd-ex").click();
   check("tapping an extra example speaks it", lastSpoken === L1.more[0].t);
+  // video bài giảng trong app
+  doc.getElementById("bdVideo").click();
+  check("lesson video opens in a fullscreen player", !!doc.getElementById("lvOverlay"));
+  check("video uses the 2D tutor when WebGL is unavailable", !!doc.querySelector("#lvHost .lv-tutor svg"));
+  const t0 = doc.getElementById("lvTime").textContent;
+  doc.getElementById("lvNext").click();
+  check("next-scene button jumps forward in the video", doc.getElementById("lvTime").textContent !== t0);
+  check("video shows the pivot of the lesson", doc.querySelector("#lvHost .lv-pivot").textContent.indexOf(L1.pivot.t) !== -1);
+  window.onNativeBack();
+  check("back button closes the video player", !doc.getElementById("lvOverlay"));
+
   doc.getElementById("bdPlay").click();
   check("'watch step by step' animation dims nodes then lights the first one", doc.querySelectorAll(".bd-node.dim").length === 8 && doc.querySelectorAll(".bd-node.lit").length === 1);
   doc.getElementById("bdPlay").click();
