@@ -607,7 +607,7 @@ function refreshHeaderChrome(){
   var li = langInfo(state.lang);
   document.getElementById("langBtn").textContent = li.flag;
   document.getElementById("hdrTitle").textContent = li.flag + " " + li.name + " Bỏ Túi";
-  document.getElementById("hdrSub").textContent = dataFor("words").length + " từ vựng & " + dataFor("sentences").length + " câu giao tiếp";
+  document.getElementById("hdrSub").textContent = dataFor("words").length + " từ · " + dataFor("sentences").length + " câu · " + builderLessons().length + " bài ghép câu";
   updateStreakBadge();
 }
 function updateStreakBadge(){
@@ -1341,7 +1341,9 @@ function renderBuilderLesson(){
       '<div class="bd-formula">' + l.formula.map(function(b, i){
         return (i ? '<span class="bd-plus">+</span>' : '') +
           '<span class="fb fb-' + esc(b.k) + '"' + (b.k === "P" ? ' data-say="' + esc(b.t) + '"' : '') + '>'+
-            '<small>' + esc(FORMULA_NAMES[b.k] || "") + '</small>' + esc(b.t) + '</span>';
+            // nhãn nhỏ chỉ hiện khi khác chữ trong khối (tránh "CHỦ NGỮ / Chủ ngữ")
+            (String(b.t).replace(/[()]/g, "").toLowerCase() !== String(FORMULA_NAMES[b.k] || "").toLowerCase()
+              ? '<small>' + esc(FORMULA_NAMES[b.k] || "") + '</small>' : '') + esc(b.t) + '</span>';
       }).join("") + '</div>'+
       '<div class="bd-legend">Ô <b class="hl">đỏ</b> là từ trụ của bài. Ô trong ngoặc ( ) có thể bỏ.</div>', idx++));
   }

@@ -65,6 +65,14 @@ node smoke_test.js
 ```
 Script dùng jsdom giả lập WebView, click qua toàn bộ luồng chính (onboarding, chọn chủ đề, tìm kiếm toàn cục, đổi chiều tra cứu, ôn tập flashcard spaced repetition, đổi ngôn ngữ, nút Back) để bắt lỗi JS/CSS trước khi build APK thật. Đã từng bắt được 2 lỗi thật theo cách này: crash khi ôn tập không đổi dropdown mặc định, và lớp phủ bảng chọn ngôn ngữ bị đè CSS nên luôn hiện chặn hết thao tác.
 
+## Soát giao diện nhiều kích thước màn hình
+```
+pkg install x11-repo && pkg install chromium   # chỉ cần 1 lần
+node tools/screens.js <thư mục ảnh> [lọc màn hình] [lọc kích thước]
+python3 tools/contact_sheet.py <thư mục ảnh> <thư mục bảng tổng hợp>
+```
+`screens.js` mở app trong Chromium headless, bấm qua 16 màn hình chính (lưới chủ đề, danh sách, tìm kiếm, các màn Ghép câu, ôn tập 3 chế độ, dashboard, onboarding, chế độ tối...) ở 8 kích thước: điện thoại nhỏ 320px, điện thoại dọc/ngang, màn ngoài máy gập, máy gập mở dọc/ngang, tablet dọc/ngang; báo phần tử tràn ngang và lỗi JS. `contact_sheet.py` ghép ảnh mỗi màn hình thành 1 bảng để so sánh nhanh. Bố cục: màn ≤400px thu gọn header; màn thấp (xoay ngang) header 1 hàng, ô chủ đề nằm ngang, màn ôn tập chia 2 cột (thẻ | nút/đáp án); màn ≥640×640 (máy gập mở, tablet) chữ to hơn và hộp thoại nổi giữa màn hình; màn ≥1000px giới hạn bề rộng nội dung.
+
 ## Cài lên máy
 Sau khi build xong, mở trình quản lý tệp trên điện thoại và bấm cài `NgoaiNguBoTui.apk` (cho phép "cài nguồn không xác định" nếu được hỏi), hoặc:
 ```

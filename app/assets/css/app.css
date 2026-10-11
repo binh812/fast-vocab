@@ -619,3 +619,166 @@ body{
 :root[data-theme="dark"] .bd-pivot{background:rgba(255,107,107,.12);}
 :root[data-theme="dark"] .bd-msg.b .bd-bubble{background:#1f3352;}
 :root[data-theme="dark"] .bd-tip{background:rgba(255,210,76,.1); color:#ffe08a; border-color:rgba(255,210,76,.4);}
+
+/* =====================================================================
+   RESPONSIVE: điện thoại nhỏ, màn ngoài máy gập, xoay ngang, máy gập mở, tablet
+   (kiểm tra bằng tools/screens.js ở 8 kích thước)
+   ===================================================================== */
+
+/* --- chung --- */
+.hdr-stat:empty{display:none;}
+.hdr-mid{min-width:0;}
+.hdr-sub{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+/* lưới chủ đề luôn ít nhất 2 cột (màn 320px trước đây rớt còn 1 cột ô rất to) */
+.topic-grid{grid-template-columns:repeat(auto-fill, minmax(min(148px, calc(50% - 6px)), 1fr));}
+/* màn hình ôn tập: phần thiết lập dài phải cuộn được (trước đây nút "Bắt đầu" bị che khi xoay ngang) */
+.review-wrap{overflow-y:auto; -webkit-overflow-scrolling:touch;}
+.review-setup{padding-bottom:calc(24px + var(--safe-b));}
+/* thẻ lật: nội dung dài hơn thẻ thì cuộn, không bị cắt mất phần trên (lỗi căn giữa của flex) */
+.flash{justify-content:flex-start;}
+.flash > :first-child{margin-top:auto;}
+.flash > :last-child{margin-bottom:auto;}
+.review-controls{justify-content:center;}
+.review-controls .rc-speak{flex:0 0 auto; width:auto; padding:10px 22px;}
+.rv-mode-row .dir-btn{display:flex; align-items:center; justify-content:center; line-height:1.25;}
+
+/* --- màn rất hẹp: điện thoại nhỏ 320px, màn ngoài máy gập ~344px --- */
+@media (max-width:400px){
+  .hdr{padding-left:calc(10px + var(--safe-l)); padding-right:calc(10px + var(--safe-r));}
+  .hdr-top{gap:7px;}
+  .lang-btn{width:34px; height:34px; font-size:17px;}
+  .hdr-title{font-size:15px;}
+  .hdr-sub{display:none;}
+  .hdr-stat{font-size:10px; padding:3px 7px;}
+  .streak-badge{padding:0 7px; height:30px; font-size:11.5px;}
+  .help-btn{width:30px; height:30px;}
+  .tabs{gap:3px;}
+  .tab{font-size:11px; padding:8px 1px; border-radius:9px;}
+  .dir-btn{font-size:11.5px; padding:7px 4px;}
+  .topic-tile{padding:12px 6px;}
+  .topic-icon{font-size:22px;}
+  .topic-name{font-size:11.5px;}
+  .rv-mode-row{gap:5px;}
+  .rv-mode-row .dir-btn{font-size:11px; padding:7px 3px;}
+  .grade-btn{font-size:12px; padding:9px 2px;}
+  .bd-actions .onboard-btn{font-size:12.5px; padding:11px 4px;}
+  .bd-hero{padding:9px;}
+  .bd-pivot{min-width:88px; padding:8px;}
+}
+@media (max-width:360px){
+  .hdr-stat{display:none;} /* tiến độ vẫn xem được trong dashboard 🔥 */
+}
+
+/* --- xoay ngang / màn thấp (điện thoại ngang, máy gập mở ngang thấp) --- */
+@media (max-height:560px){
+  .hdr{padding-top:6px; padding-bottom:6px;}
+  .hdr-sub{display:none;}
+  .lang-btn,.help-btn{width:32px; height:32px;}
+  .streak-badge{height:30px;}
+  .hdr-title{font-size:15px;}
+  .tabs{margin-top:6px;}
+  .tab{padding:6px 2px;}
+  .toolbar{padding-top:6px; padding-bottom:6px;}
+  .dir-row{margin-top:4px;}
+  .dir-btn{padding:5px 6px;}
+  .search{padding:6px 10px;}
+  .chips{padding-top:6px;}
+  /* ô chủ đề nằm ngang: icon bên trái, đỡ tốn chiều cao */
+  .topic-grid{grid-template-columns:repeat(auto-fill, minmax(190px, 1fr)); gap:8px; padding-top:8px;}
+  .topic-tile{display:grid; grid-template-columns:auto 1fr auto; align-items:center; column-gap:10px; text-align:left; padding:9px 12px;}
+  .topic-icon{font-size:22px; grid-row:1;}
+  .topic-name{margin-top:0;}
+  .topic-count{margin-top:0;}
+  .list-head{padding-top:8px;}
+  .tutor-stage{width:72px; height:72px;}
+  .tutor-bar{padding-top:6px;}
+  .tutor-bubble{padding:7px 10px; font-size:12.5px; min-height:0;}
+  .tutor-float-stage{width:58px; height:58px;}
+  .review-setup{padding-top:10px;}
+  .review-setup .row{margin-bottom:7px;}
+  .review-setup select{padding:7px 10px;}
+  .big-btn{padding:10px;}
+  /* hộp thoại: dùng hết chiều cao có thể và cuộn bên trong */
+  .lang-sheet,.onboard-sheet,.dash-sheet{max-height:94vh; overflow-y:auto;}
+  .onboard-sheet{padding-top:14px;}
+  .onboard-icon{font-size:30px;}
+  .onboard-dots,.onboard-actions{margin-top:10px;}
+}
+/* điện thoại ngang: header 1 hàng (tiêu đề + các tab cạnh nhau) để nhường chỗ cho nội dung */
+@media (max-height:560px) and (min-width:700px){
+  .hdr{display:flex; align-items:center; gap:12px;}
+  .hdr-top{flex:0 1 auto; min-width:0;}
+  .hdr-mid{max-width:190px;}
+  .tabs{flex:1 1 auto; margin-top:0; order:0;}
+}
+/* ôn tập khi xoay ngang: thẻ bên trái, nút bấm / đáp án bên phải */
+@media (orientation:landscape) and (max-height:560px){
+  .review-stage{
+    display:grid; grid-template-columns:minmax(0, 1.25fr) minmax(230px, 1fr); grid-auto-rows:min-content;
+    column-gap:16px; row-gap:8px; align-content:start; overflow:visible; max-width:980px; padding-top:8px;
+  }
+  .review-stage > .review-progress{grid-column:1 / -1; margin-bottom:0;}
+  .review-stage > .flash,
+  .review-stage > .quiz-card,
+  .review-stage > .dict-card{grid-column:1; grid-row:2 / span 6; min-height:210px; align-self:stretch;}
+  .review-stage > :not(.review-progress):not(.flash):not(.quiz-card):not(.dict-card){grid-column:2; margin-top:0;}
+  .grade-row{display:grid; grid-template-columns:1fr 1fr;}
+  .quiz-opts{margin-top:0;}
+  .quiz-opt{padding:10px 12px;}
+  .flash{padding:14px;}
+  .flash .ru{font-size:22px;}
+  .dict-input{margin-top:0;}
+}
+
+/* --- máy gập mở / tablet: màn rộng và cao -> chữ to hơn, nội dung không trải quá rộng --- */
+@media (min-width:640px) and (min-height:640px){
+  .hdr-title{font-size:19px;}
+  .tab{font-size:14px; padding:10px 4px;}
+  .dir-btn{font-size:13.5px; padding:9px 8px;}
+  .topic-icon{font-size:30px;}
+  .topic-name{font-size:14px;}
+  .topic-count{font-size:12px;}
+  .primary{font-size:20px;}
+  .secondary{font-size:15.5px;}
+  .flash .ru{font-size:36px;}
+  .flash .phon{font-size:17px;}
+  .flash .meaning{font-size:21px;}
+  .flash .reveal{font-size:15px;}
+  .quiz-q{font-size:30px;}
+  .quiz-opt{font-size:16.5px; padding:15px 16px;}
+  .dict-answer .ru{font-size:24px;}
+  .grade-btn{font-size:15px; padding:13px 6px;}
+  .review-setup{max-width:560px;}
+  .review-setup select{font-size:15.5px; padding:12px;}
+  .review-stage{max-width:640px;}
+  .bd-wrap{max-width:900px;}
+  .bd-t{font-size:17px;}
+  .bd-node.s1 .bd-t{font-size:19px;}
+  .bd-vi,.bd-note,.bd-points li,.bd-compare,.bd-tip{font-size:14.5px;}
+  .bd-pivot-t{font-size:32px;}
+  .bd-word{font-size:18px; padding:12px 16px;}
+  .bd-prompt-vi{font-size:21px;}
+  .tutor-stage{width:132px; height:132px;}
+  .tutor-bubble{font-size:15px;}
+  .tutor-float-stage{width:84px; height:84px;}
+  /* hộp thoại nổi giữa màn hình thay vì trượt từ đáy */
+  .modal-back{align-items:center;}
+  .lang-sheet,.onboard-sheet,.dash-sheet{border-radius:20px; max-width:560px; max-height:88vh; overflow-y:auto;}
+}
+/* màn rất rộng (tablet ngang, máy gập mở ngang): giới hạn bề rộng nội dung, căn giữa */
+@media (min-width:1000px){
+  .toolbar > *, .chips, .list-head{max-width:1180px; margin-left:auto; margin-right:auto;}
+  .topic-grid{max-width:1180px; margin:0 auto;}
+  .list{max-width:1180px; margin:0 auto;}
+}
+
+/* tinh chỉnh sau khi soát ảnh chụp */
+.bd-chat{max-width:640px;}
+@media (max-height:560px){
+  .dash-bars{height:64px; margin-top:10px;}
+  .bd-pivot{min-width:90px; padding:7px 10px;}
+  .bd-pivot-t{font-size:22px;}
+  .bd-hero{padding:9px;}
+  .bd-intro{padding:10px 14px;}
+  .bd-intro-desc{font-size:12.5px;}
+}
