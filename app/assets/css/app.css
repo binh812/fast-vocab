@@ -153,6 +153,35 @@ body{
   background:#fff; color:var(--navy);
 }
 
+/* Gia sư 3D (tab Ôn tập) */
+.tutor-bar{
+  display:flex; align-items:center; gap:12px; flex:0 0 auto; width:100%; max-width:560px; margin:0 auto;
+  padding:10px calc(14px + var(--safe-r)) 0 calc(14px + var(--safe-l));
+}
+.tutor-bar[hidden]{display:none;}
+.tutor-stage{
+  width:116px; height:116px; flex:0 0 auto; border-radius:50%; overflow:hidden;
+  background:radial-gradient(circle at 50% 38%, #ffffff 0%, #e4ecf8 60%, #cdd9ee 100%);
+  box-shadow:var(--shadow), inset 0 -6px 14px rgba(27,58,107,.12);
+}
+.tutor-stage canvas{width:100%; height:100%; display:block;}
+.tutor-bubble{
+  position:relative; flex:1; min-height:44px; background:#fff; border:1px solid var(--line); border-radius:14px;
+  padding:10px 12px; font-size:13.5px; font-weight:600; line-height:1.45; color:var(--ink); box-shadow:var(--shadow);
+}
+.tutor-bubble::before{
+  content:""; position:absolute; left:-7px; top:50%; margin-top:-6px; width:11px; height:11px; background:#fff;
+  border-left:1px solid var(--line); border-bottom:1px solid var(--line); transform:rotate(45deg);
+}
+.tutor-bubble:empty{visibility:hidden;}
+.tutor-bubble.pop{animation:tutorPop .28s ease-out;}
+@keyframes tutorPop{from{transform:scale(.93); opacity:.3;} to{transform:scale(1); opacity:1;}}
+.tutor-toggle{display:inline-block; margin:0 0 12px; cursor:pointer;}
+@media (max-height:520px){
+  .tutor-stage{width:80px; height:80px;}
+  .tutor-bar{padding-top:6px;}
+}
+
 /* Review (flashcard) */
 .review-wrap{flex:1; display:flex; flex-direction:column; overflow:hidden;}
 .review-setup{padding:16px calc(16px + var(--safe-r)) 16px calc(16px + var(--safe-l)); max-width:480px; margin:0 auto; width:100%;}

@@ -66,6 +66,8 @@ function saveSearchScope(scope){ try{ localStorage.setItem("fv_search_scope", JS
 function isOnboarded(){ try{ return localStorage.getItem("fv_onboarded") === "1"; }catch(e){ return true; } }
 function setOnboarded(){ try{ localStorage.setItem("fv_onboarded", "1"); }catch(e){} }
 function getReviewMode(){ try{ return localStorage.getItem("fv_review_mode") || "flash"; }catch(e){ return "flash"; } }
+function getTutorPref(){ try{ return localStorage.getItem("fv_tutor") !== "0"; }catch(e){ return true; } }
+function setTutorPref(on){ try{ localStorage.setItem("fv_tutor", on ? "1" : "0"); }catch(e){} }
 function setReviewModeStore(m){ try{ localStorage.setItem("fv_review_mode", m); }catch(e){} }
 
 /* ---------- streak & hoạt động học hằng ngày (toàn app, không theo ngôn ngữ) ---------- */
@@ -278,7 +280,67 @@ function isCloseMatch(input, target){
   var threshold = Math.max(1, Math.floor(b.length * 0.15));
   return levenshtein(a, b) <= threshold;
 }
-function speak(text){ try{ if(window.Android && Android.speak) Android.speak(text); }catch(e){} }
+function speak(text){
+  tutorTalk(text);
+  try{ if(window.Android && Android.speak) Android.speak(text); }catch(e){}
+}
+
+/* ---------- gia sư 3D (js/tutor.js) chỉ hiện ở tab Ôn tập ---------- */
+var tutorReactAt = 0;
+function tutorActive(){
+  return state.tab === "review" && state.tutorOn && !!window.Tutor && Tutor.isSupported();
+}
+function refreshTutor(){
+  var bar = document.getElementById("tutorBar");
+  if(!bar) return;
+  if(!tutorActive()){
+    bar.hidden = true;
+    if(window.Tutor) Tutor.stop();
+    return;
+  }
+  bar.hidden = false;
+  Tutor.attach(document.getElementById("tutorStage"), document.getElementById("tutorBubble"), function(ok){
+    if(!ok){ bar.hidden = true; return; }
+    if(tutorActive()) Tutor.start();
+  });
+}
+function tutorSay(text, emotion, ms){
+  if(!tutorActive()) return;
+  Tutor.say(text);
+  if(emotion) Tutor.react(emotion, ms);
+}
+// ước lượng thời gian đọc để miệng vẫn mấp máy khi engine TTS không báo trạng thái start/done
+function tutorTalk(text){
+  if(tutorActive()) Tutor.talkFor(Math.min(4000, 400 + String(text||"").length*90));
+}
+function pick(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
+var TUTOR_LINES = {
+  great: ["Xuất sắc! 🎉", "Chuẩn luôn! 🌟", "Tuyệt vời! 👏"],
+  good:  ["Tốt lắm! 👍", "Đúng rồi! 😄", "Giỏi quá!"],
+  ok:    ["Ổn rồi, ôn thêm chút nữa nhé 🙂", "Gần nhớ rồi đấy!"],
+  sad:   ["Không sao, mình sẽ gặp lại từ này sớm thôi 💪", "Sai một chút thôi, cố lên nhé!", "Từ này khó đấy, lần sau sẽ nhớ!"]
+};
+function tutorReactToGrade(quality){
+  tutorReactAt = Date.now();
+  if(quality >= 5) tutorSay(pick(TUTOR_LINES.great), "happy");
+  else if(quality >= 4) tutorSay(pick(TUTOR_LINES.good), "happy");
+  else if(quality >= 3) tutorSay(pick(TUTOR_LINES.ok), "neutral");
+  else tutorSay(pick(TUTOR_LINES.sad), "sad");
+}
+function tutorPromptForCard(){
+  // vừa khen/động viên ở thẻ trước (chế độ thẻ ghi nhớ chuyển thẻ ngay) -> giữ lời đó thêm 1 nhịp
+  if(Date.now() - tutorReactAt < 1500) return;
+  var rv = state.review;
+  if(rv.mode === "quiz") tutorSay("Chọn đáp án đúng nhé! 🎯", "think", 1500);
+  else if(rv.mode === "dictation") tutorSay("Nghe kỹ rồi gõ lại nhé 👂", "think", 1500);
+  else tutorSay((rv.pool === "sentences" ? "Câu này" : "Từ này") + " nghĩa là gì nhỉ? 🤔 Chạm thẻ để lật.", "think", 1500);
+}
+window.onTtsState = function(s){ if(window.Tutor) Tutor.setTalking(s === "start"); };
+window.onTtsWord = function(){ if(window.Tutor) Tutor.wordPulse(); };
+document.addEventListener("visibilitychange", function(){
+  if(!window.Tutor) return;
+  if(document.hidden) Tutor.stop(); else if(tutorActive()) Tutor.start();
+});
 function speakSlow(text){ try{ if(window.Android && Android.speakSlow) Android.speakSlow(text); }catch(e){} }
 function setNativeLang(code){ try{ if(window.Android && Android.setLang) Android.setLang(code); }catch(e){} }
 function showToast(msg){
@@ -302,6 +364,7 @@ var state = {
   renderedCount: 0,
   batch: 40,
   onboardStep: 0,
+  tutorOn: getTutorPref(),   // gia sư 3D ở tab Ôn tập
   review: { pool:null, topic:"all", count:20, dir:null, mode:getReviewMode(), queue:[], idx:0, revealed:false, gained:0, quizPicked:null, quizChoices:null, dictResult:null }
 };
 loadUserData(state.lang);
@@ -393,6 +456,10 @@ function buildShell(){
     '</div>'+
     '<div class="toolbar" id="toolbar"></div>'+
     '<div class="main" id="main"></div>'+
+    '<div class="tutor-bar" id="tutorBar" hidden>'+
+      '<div class="tutor-stage" id="tutorStage"></div>'+
+      '<div class="tutor-bubble" id="tutorBubble"></div>'+
+    '</div>'+
     '<div class="review-wrap" id="reviewWrap" style="display:none;"></div>'+
     '<div class="toast" id="toast"></div>'+
     '<div class="modal-back" id="langModalBack" hidden>'+
@@ -639,6 +706,7 @@ function setTab(tab){
     renderToolbar(); renderMain();
   }
   updateHdrStat();
+  refreshTutor();
 }
 
 function updateHdrStat(){
@@ -942,6 +1010,9 @@ function renderReviewSetup(){
         [10,20,40,80].map(function(n){ return '<option value="'+n+'"'+(state.review.count===n?" selected":"")+'>'+n+' thẻ / phiên</option>'; }).join("")+
       '</select></div>'+
       '<div class="review-due-info">🔴 <b>'+counts.due+'</b> thẻ cần ôn hôm nay · 🆕 <b>'+counts.fresh+'</b> thẻ mới · tổng '+counts.total+'</div>'+
+      (window.Tutor && Tutor.isSupported()
+        ? '<div class="chip tutor-toggle'+(state.tutorOn?" active":"")+'" id="tutorToggle">🧑‍🏫 Gia sư 3D: '+(state.tutorOn?"Bật":"Tắt")+'</div>'
+        : '')+
       '<button class="big-btn" id="rvStart">▶️ Bắt đầu ôn tập</button>'+
       '<div class="hdr-sub" style="color:#6b7280;margin-top:10px;">Ôn theo lịch lặp ngắt quãng: ưu tiên thẻ đến hạn/mới, thẻ nhớ tốt sẽ giãn cách xa hơn. Bấm vào thẻ hoặc nút loa để nghe phát âm.</div>'+
     '</div>';
@@ -959,6 +1030,16 @@ function renderReviewSetup(){
   document.getElementById("rvDir").addEventListener("change", function(e){ state.review.dir = e.target.value; });
   document.getElementById("rvCount").addEventListener("change", function(e){ state.review.count = parseInt(e.target.value,10); renderReviewSetup(); });
   document.getElementById("rvStart").addEventListener("click", startReview);
+  var tt = document.getElementById("tutorToggle");
+  if(tt) tt.addEventListener("click", function(){
+    state.tutorOn = !state.tutorOn;
+    setTutorPref(state.tutorOn);
+    refreshTutor();
+    renderReviewSetup();
+  });
+  tutorSay(counts.due + counts.fresh > 0
+    ? "Chào bạn! 👋 Hôm nay có " + counts.due + " thẻ cần ôn và " + counts.fresh + " thẻ mới. Mình bắt đầu nhé?"
+    : "Chào bạn! 👋 Chủ đề này đã ôn xong, chọn chủ đề khác hoặc ôn trước nhé.");
 }
 
 function startReview(){
@@ -971,6 +1052,7 @@ function startReview(){
   state.review.queue = queue;
   state.review.idx = 0;
   state.review.gained = 0;
+  state.review.tutorKey = null;
   prepReviewCardState();
   renderReviewCard();
 }
@@ -1026,8 +1108,11 @@ function renderReviewCard(){
       '</div>';
     document.getElementById("rvAgain").addEventListener("click", function(){ renderReviewSetup(); });
     updateHdrStat();
+    tutorSay("Hoàn thành rồi! Bạn giỏi quá 🥳", "celebrate", 2200);
     return;
   }
+  var tutorKey = rv.idx + "|" + rv.mode;
+  if(rv.tutorKey !== tutorKey){ rv.tutorKey = tutorKey; tutorPromptForCard(); }
   if(rv.mode === "quiz"){ renderQuizCard(); }
   else if(rv.mode === "dictation"){ renderDictationCard(); }
   else { renderFlashCard(); }
@@ -1195,6 +1280,7 @@ function recordGrade(quality){
   srs[type][it.id] = rec;
   persistSrs(type);
   logActivity();
+  tutorReactToGrade(quality);
 
   if(quality < 3){
     if(known[type][it.id]){ delete known[type][it.id]; persistKnown(type); }

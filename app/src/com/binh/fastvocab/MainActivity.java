@@ -94,6 +94,8 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
                 @Override public void onStart(String id) { js("window.onTtsState&&onTtsState('start')"); }
                 @Override public void onDone(String id) { js("window.onTtsState&&onTtsState('done')"); }
                 @Override public void onError(String id) { js("window.onTtsState&&onTtsState('error')"); }
+                // báo mỗi từ đang đọc -> gia sư 3D nhấn khẩu hình theo nhịp từ (engine nào không hỗ trợ thì JS tự ước lượng)
+                @Override public void onRangeStart(String id, int start, int end, int frame) { js("window.onTtsWord&&onTtsWord()"); }
             });
             applyLang(currentLangCode);
         } else {

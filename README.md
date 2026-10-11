@@ -22,6 +22,7 @@ bash build.sh
   - 🎯 **Trắc nghiệm**: chọn 1 trong 4 đáp án (3 đáp án nhiễu lấy từ cùng chủ đề), phản hồi đúng/sai ngay.
   - ⌨️ **Nghe - Gõ lại**: nghe phát âm rồi gõ lại đúng chính tả, chấm nhẹ nhàng (chấp nhận sai lệch nhỏ/sai dấu).
   Cả 3 kiểu đều tự động cập nhật lịch ôn. Mỗi thẻ có lịch ôn riêng (độ khó, khoảng cách ngày, ngày đến hạn) lưu theo từng ngôn ngữ; thẻ nhớ tốt giãn cách ra vài ngày/tuần/tháng, thẻ hay quên quay lại ngay hôm sau. Màn hình thiết lập hiện sẵn số thẻ đến hạn hôm nay + số thẻ mới theo chủ đề đã chọn.
+- 🧑‍🏫 **Gia sư 3D** ở tab Ôn tập: nhân vật 3D (dựng hoàn toàn bằng khối hình three.js, chạy offline, không dùng model tải ngoài) mấp máy miệng theo giọng đọc TTS, chào và báo số thẻ cần ôn, nhắc cách làm ở mỗi thẻ, khen/nhún nhảy khi trả lời đúng, nghiêng đầu động viên khi sai, xoay vòng ăn mừng khi hết phiên. Bật/tắt bằng nút "Gia sư 3D" ở màn hình thiết lập ôn tập; tự ẩn nếu máy không hỗ trợ WebGL. three.js chỉ được nạp khi gia sư hiện lần đầu nên không làm chậm lúc mở app.
 - 📊 **Dashboard tiến trình** (bấm huy hiệu 🔥 ở header): số ngày học liên tục (streak), biểu đồ hoạt động 7 ngày gần nhất, số thẻ đến hạn ôn hôm nay, % từ/câu đã thuộc theo từng ngôn ngữ trong số 4 ngôn ngữ, và **9 huy hiệu thành tích** (streak, số mục đã thuộc, số lượt ôn tập, học đủ 4 ngôn ngữ...).
 - 🔔 **Nhắc học hằng ngày**: bật/tắt và chọn giờ nhắc ngay trong dashboard — thông báo hệ thống nhắc ôn tập mỗi ngày, vẫn hoạt động sau khi khởi động lại máy.
 - 💾 **Sao lưu / khôi phục tiến trình** ngay trong dashboard: xuất toàn bộ dữ liệu học (yêu thích, đã thuộc, lịch ôn SRS, streak...) ra 1 file `.json` chọn nơi lưu tuỳ ý, và khôi phục lại từ file đó bất cứ lúc nào (có xác nhận trước khi ghi đè) — phòng trường hợp gỡ cài đặt hoặc đổi máy.
@@ -48,6 +49,8 @@ Mỗi ngôn ngữ có thư mục riêng `datagen/<mã>/` (ru/en/fr/zh) chứa c�
 **Khử trùng lặp ở quy mô lớn:** khi mỗi đợt soạn thêm hàng nghìn mục (nhiều agent chạy song song không biết nhau đang viết gì), tỉ lệ trùng lặp có thể lên 10-35% tuỳ chủ đề — quá nhiều để soạn tay từng bản thay thế như ở quy mô nhỏ. `datagen/dedupe_chunks.py <mã> <words|sentences>` xử lý việc này tự động: xoá thẳng các mục trùng "ru" (giữ mục id nhỏ nhất), báo cáo số lượng xoá theo từng category. Sau khi xoá, nếu 1 category hụt nhiều so với mục tiêu, soạn thêm 1 đợt "bù" (backfill) riêng cho đúng category đó rồi dedupe lại — nhưng đợt bù thường tự đụng lại ~50-70% nội dung cũ (các chủ đề hẹp như khách sạn/hải quan/mua sắm gần như đã "bão hoà" vốn từ thông dụng), nên chỉ nên bù 1 lần rồi chấp nhận kết quả ~90-96% mục tiêu thay vì cố ép đúng số tuyệt đối.
 
 Với dữ liệu ở quy mô nhỏ hơn (chỉ vài chục mục trùng), có thể soạn tay bản thay thế bằng script kiểu `datagen/patch_<mã>_dupes.py` — xem code các script đó để tham khảo, dù cách này không còn thực tế ở quy mô nghìn mục.
+
+**Gia sư 3D:** `app/assets/js/tutor.js` dựng nhân vật từ khối hình cơ bản của three.js (r149, bản UMD lưu kèm ở `app/assets/vendor/three.min.js`, giấy phép MIT) và tự xử lý chuyển động (chớp mắt, lắc lư, cảm xúc). Khẩu hình dựa vào sự kiện TTS từ native: `onTtsState` (bắt đầu/kết thúc đọc) và `onTtsWord` (mỗi từ, qua `UtteranceProgressListener.onRangeStart`); engine nào không báo thì JS tự ước lượng thời gian đọc theo độ dài câu.
 
 ## Kiểm thử nhanh giao diện (không cần cài lên máy)
 ```

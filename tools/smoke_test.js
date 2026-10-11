@@ -76,6 +76,7 @@ try {
   }
 
   window.localStorage.clear();
+  loadScript("js/tutor.js");
   loadScript("js/app.js");
   const doc = window.document;
 
@@ -180,6 +181,40 @@ try {
   check("grade buttons show next-interval preview text", gradeBtns[2].querySelector("span").textContent.indexOf("ngày") !== -1);
   doc.querySelector('.grade-btn.grade-good').click(); // đây là chỗ từng bị crash do state.review.pool chưa được set
   check("review advances to card 2 after grading", doc.querySelector(".review-progress").textContent.indexOf("2 /") !== -1);
+
+  // 9a. gia sư 3D: jsdom không có WebGL -> app phải tự ẩn gia sư, không lỗi, không hiện nút bật/tắt
+  check("tutor bar stays hidden when WebGL is unavailable", doc.getElementById("tutorBar").hidden === true);
+  window.onNativeBack();
+  check("tutor toggle not offered when WebGL is unavailable", !doc.getElementById("tutorToggle"));
+
+  // dựng nhân vật bằng three.js thật và chạy logic chuyển động (không cần WebGL để render)
+  loadScript("vendor/three.min.js");
+  const T = window.THREE;
+  const tutorCh = window.Tutor._buildForTest(T);
+  const tst = window.Tutor._state;
+  let meshCount = 0;
+  tutorCh.root.traverse(o => { if (o.isMesh) meshCount++; });
+  check(`tutor character builds from three.js primitives (${meshCount} meshes)`, meshCount >= 20);
+  const nowS = () => window.performance.now() / 1000;
+  function runFrames(n){ for (let i = 0; i < n; i++) window.Tutor._update(0.016, nowS() + i*0.016); }
+  runFrames(30);
+  const closedMouth = tutorCh.inner.scale.y;
+  window.Tutor.setTalking(true); window.Tutor.wordPulse();
+  let maxOpen = 0;
+  for (let i = 0; i < 60; i++){ window.Tutor._update(0.016, nowS() + i*0.016); maxOpen = Math.max(maxOpen, tutorCh.inner.scale.y); }
+  check("tutor mouth opens while TTS is speaking", maxOpen > closedMouth + 0.2);
+  window.Tutor.setTalking(false); runFrames(40);
+  check("tutor mouth closes again after speaking", tutorCh.inner.scale.y < 0.2);
+  window.Tutor.react("happy", 1500); runFrames(10);
+  check("happy reaction squints eyes (smiling eyes)", tutorCh.eyes[0].scale.y <= 0.55 && tutorCh.smile.rotation.z === Math.PI);
+  window.Tutor.react("sad", 1500); runFrames(10);
+  check("sad reaction flips mouth into a frown", tutorCh.smile.rotation.z === 0);
+  window.Tutor.react("celebrate", 2000);
+  window.Tutor._update(0.016, tst.emotionStart + 0.4);
+  check("celebrate reaction spins the character", tutorCh.root.rotation.y > 1);
+  window.Tutor._update(0.016, tst.emotionUntil + 0.1);
+  check("emotion returns to neutral after it expires", tst.emotion === "neutral");
+  doc.getElementById("rvStart").click(); // mở lại 1 phiên ôn tập để bước 9b có phiên đang chạy mà thoát ra
 
   // 9b. chế độ Trắc nghiệm (dùng chung lịch spaced repetition với thẻ ghi nhớ)
   window.onNativeBack(); // thoát phiên ôn tập dở dang -> quay lại màn hình cài đặt
