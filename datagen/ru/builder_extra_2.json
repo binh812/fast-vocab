@@ -1,0 +1,3004 @@
+[
+ {
+  "id": 19,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "сейчас"
+   },
+   {
+    "k": "V",
+    "t": "Động từ (hiện tại)"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ / Nơi chốn)"
+   }
+  ],
+  "points": [
+   "Tiếng Nga không có thì tiếp diễn riêng: thì hiện tại của động từ chưa hoàn thành vừa là 'làm' vừa là 'đang làm'.",
+   "Thêm сейчас (bây giờ) để nhấn mạnh hành động đang diễn ra ngay lúc nói (\"Я сейчас работаю\").",
+   "Сейчас thường đứng sau chủ ngữ, trước động từ, nhưng cũng có thể đứng đầu câu (\"Сейчас идёт дождь\").",
+   "Động từ phải chia theo chủ ngữ: я работаю, мы едем, он спит."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Я сейчас работать.",
+    "right": "Я сейчас работаю.",
+    "why": "Không để động từ ở dạng nguyên mẫu sau chủ ngữ; phải chia theo ngôi: я работаю."
+   },
+   {
+    "wrong": "Ребёнок сейчас спать.",
+    "right": "Ребёнок сейчас спит.",
+    "why": "Chủ ngữ ngôi thứ ba số ít thì động từ chia là спит, không dùng nguyên mẫu спать."
+   }
+  ],
+  "compare": "Giống tiếng Việt, сейчас đứng trước động từ ở đúng chỗ của 'đang'; khác ở chỗ động từ tiếng Nga phải chia theo chủ ngữ, và kể cả không có сейчас câu vẫn có thể mang nghĩa 'đang'.",
+  "tip": "Thấy 'đang' thì nghĩ ngay 'xây-CHÁT' (сейчас) — ngay bây giờ, ngay lúc này!",
+  "how": [
+   "Lấy động từ работаю (tôi làm việc), thêm сейчас phía trước → сейчас работаю, rồi đặt chủ ngữ Я lên đầu → Я сейчас работаю.",
+   "Thêm сейчас trước động từ едем → сейчас едем, đặt chủ ngữ Мы lên đầu và nơi đến в отель ở cuối → Мы сейчас едем в отель.",
+   "Thêm сейчас trước động từ спит → сейчас спит, rồi đặt chủ ngữ Ребёнок lên đầu → Ребёнок сейчас спит."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Что ты сейчас делаешь?",
+    "ph": "SHTO ty sey-CHAS DYE-la-yesh",
+    "vi": "Bạn đang làm gì thế?",
+    "hl": [
+     "сейчас"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Я сейчас обедаю.",
+    "ph": "YA sey-CHAS a-BYE-da-yu",
+    "vi": "Tôi đang ăn trưa.",
+    "hl": [
+     "сейчас"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "А где Анна?",
+    "ph": "a GDYE AN-na",
+    "vi": "Còn Anna đâu?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Она сейчас в магазине.",
+    "ph": "a-NA sey-CHAS v ma-ga-ZI-ne",
+    "vi": "Cô ấy đang ở cửa hàng.",
+    "hl": [
+     "сейчас"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Я сейчас читаю.",
+    "ph": "YA sey-CHAS chi-TA-yu",
+    "vi": "Tôi đang đọc sách.",
+    "hl": [
+     "сейчас"
+    ],
+    "tokens": [
+     "Я",
+     "сейчас",
+     "читаю"
+    ]
+   },
+   {
+    "t": "Сейчас идёт дождь.",
+    "ph": "sey-CHAS i-DYOT DOZHT'",
+    "vi": "Trời đang mưa.",
+    "hl": [
+     "Сейчас"
+    ],
+    "tokens": [
+     "Сейчас",
+     "идёт",
+     "дождь"
+    ]
+   },
+   {
+    "t": "Мы сейчас ждём такси.",
+    "ph": "MY sey-CHAS ZHDYOM tak-SI",
+    "vi": "Chúng tôi đang chờ taxi.",
+    "hl": [
+     "сейчас"
+    ],
+    "tokens": [
+     "Мы",
+     "сейчас",
+     "ждём",
+     "такси"
+    ]
+   },
+   {
+    "t": "Он сейчас говорит по телефону.",
+    "ph": "ON sey-CHAS ga-va-RIT pa ti-li-FO-nu",
+    "vi": "Anh ấy đang nói chuyện điện thoại.",
+    "hl": [
+     "сейчас"
+    ],
+    "tokens": [
+     "Он",
+     "сейчас",
+     "говорит",
+     "по",
+     "телефону"
+    ]
+   },
+   {
+    "t": "Мама сейчас готовит ужин.",
+    "ph": "MA-ma sey-CHAS ga-TO-vit U-zhin",
+    "vi": "Mẹ đang nấu bữa tối.",
+    "hl": [
+     "сейчас"
+    ],
+    "tokens": [
+     "Мама",
+     "сейчас",
+     "готовит",
+     "ужин"
+    ]
+   },
+   {
+    "t": "Извините, я сейчас очень занят.",
+    "ph": "iz-vi-NI-te YA sey-CHAS O-chen ZA-nyat",
+    "vi": "Xin lỗi, bây giờ tôi đang rất bận.",
+    "hl": [
+     "сейчас"
+    ],
+    "tokens": [
+     "Извините,",
+     "я",
+     "сейчас",
+     "очень",
+     "занят"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "уже"
+   },
+   {
+    "k": "V",
+    "t": "Động từ quá khứ"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Уже nghĩa là 'đã, rồi', đứng trước động từ: \"Я уже поел\" = Tôi ăn rồi.",
+   "Động từ thường ở thì quá khứ thể hoàn thành (поел, купил, пришли) để chỉ việc đã xong.",
+   "Động từ quá khứ đổi đuôi theo chủ ngữ: он купил, она купила, мы купили.",
+   "Hỏi 'đã... chưa?' chỉ cần lên giọng: \"Вы уже поели?\"; trả lời 'chưa' là \"Ещё нет\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Она уже купил билеты.",
+    "right": "Она уже купила билеты.",
+    "why": "Chủ ngữ là nữ thì động từ quá khứ phải thêm -а: купила."
+   },
+   {
+    "wrong": "Мы уже пришёл.",
+    "right": "Мы уже пришли.",
+    "why": "Chủ ngữ số nhiều (мы, вы, они) thì động từ quá khứ có đuôi -ли."
+   }
+  ],
+  "compare": "Tiếng Việt đặt 'rồi' cuối câu (Tôi ăn rồi), còn tiếng Nga đặt уже trước động từ (Я уже поел); động từ quá khứ còn phải đổi đuôi theo giống và số.",
+  "tip": "'Rồi' ở cuối câu tiếng Việt → nhảy lên thành уже ('u-GIÊ') đứng ngay trước động từ.",
+  "how": [
+   "Thêm уже trước động từ quá khứ поел → уже поел, rồi đặt chủ ngữ Я lên đầu → Я уже поел.",
+   "Thêm уже trước động từ số nhiều пришли → уже пришли, rồi đặt chủ ngữ Мы lên đầu → Мы уже пришли.",
+   "Thêm уже trước купил → уже купил, đặt Я lên đầu và tân ngữ билеты ở cuối → Я уже купил билеты."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Вы уже поели?",
+    "ph": "VY u-ZHE pa-YE-li",
+    "vi": "Anh ăn chưa?",
+    "hl": [
+     "уже"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Да, я уже поел. А вы?",
+    "ph": "DA YA u-ZHE pa-YEL a VY",
+    "vi": "Rồi, tôi ăn rồi. Còn anh?",
+    "hl": [
+     "уже"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Ещё нет. Я очень голодный.",
+    "ph": "ye-SHCHO NYET YA O-chen ga-LOD-niy",
+    "vi": "Chưa. Tôi đói lắm.",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Ресторан уже открыт.",
+    "ph": "ris-ta-RAN u-ZHE at-KRYT",
+    "vi": "Nhà hàng mở cửa rồi đấy.",
+    "hl": [
+     "уже"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Он уже спит.",
+    "ph": "ON u-ZHE SPIT",
+    "vi": "Anh ấy ngủ rồi.",
+    "hl": [
+     "уже"
+    ],
+    "tokens": [
+     "Он",
+     "уже",
+     "спит"
+    ]
+   },
+   {
+    "t": "Такси уже приехало.",
+    "ph": "tak-SI u-ZHE pri-YE-kha-la",
+    "vi": "Taxi đến rồi.",
+    "hl": [
+     "уже"
+    ],
+    "tokens": [
+     "Такси",
+     "уже",
+     "приехало"
+    ]
+   },
+   {
+    "t": "Она уже купила подарок.",
+    "ph": "a-NA u-ZHE ku-PI-la pa-DA-rak",
+    "vi": "Cô ấy mua quà rồi.",
+    "hl": [
+     "уже"
+    ],
+    "tokens": [
+     "Она",
+     "уже",
+     "купила",
+     "подарок"
+    ]
+   },
+   {
+    "t": "Магазин уже закрылся.",
+    "ph": "ma-ga-ZIN u-ZHE za-KRYL-sya",
+    "vi": "Cửa hàng đóng cửa rồi.",
+    "hl": [
+     "уже"
+    ],
+    "tokens": [
+     "Магазин",
+     "уже",
+     "закрылся"
+    ]
+   },
+   {
+    "t": "Вы уже заказали ужин?",
+    "ph": "VY u-ZHE za-ka-ZA-li U-zhin",
+    "vi": "Anh chị gọi món bữa tối chưa?",
+    "hl": [
+     "уже"
+    ],
+    "tokens": [
+     "Вы",
+     "уже",
+     "заказали",
+     "ужин"
+    ]
+   },
+   {
+    "t": "Мы уже были в Петербурге.",
+    "ph": "MY u-ZHE BY-li f pi-tir-BUR-ge",
+    "vi": "Chúng tôi từng đến Petersburg rồi.",
+    "hl": [
+     "уже"
+    ],
+    "tokens": [
+     "Мы",
+     "уже",
+     "были",
+     "в",
+     "Петербурге"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "ещё не"
+   },
+   {
+    "k": "V",
+    "t": "Động từ / Tính từ"
+   },
+   {
+    "k": "O",
+    "t": "(Bổ ngữ)"
+   }
+  ],
+  "points": [
+   "'Chưa' = ещё не (vẫn chưa), đặt ngay trước động từ hoặc tính từ: \"Ужин ещё не готов\".",
+   "Trả lời ngắn 'Chưa' thì nói \"Ещё нет\", không dùng ещё не đứng một mình.",
+   "Hỏi 'đã... chưa?' dùng уже: \"Вы уже поели?\" — trả lời Да, уже hoặc Ещё нет.",
+   "Với был, trọng âm chuyển lên не: не был đọc là NYE byl."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Я не ещё поел.",
+    "right": "Я ещё не поел.",
+    "why": "Trật tự cố định là ещё не, không đảo thành не ещё."
+   },
+   {
+    "wrong": "Ещё не.",
+    "right": "Ещё нет.",
+    "why": "Khi trả lời trống không 'Chưa' phải dùng Ещё нет; ещё не luôn cần động từ hoặc tính từ theo sau."
+   }
+  ],
+  "compare": "Giống tiếng Việt: 'chưa' đứng trước động từ (chưa đến → ещё не был); khác ở chỗ tiếng Nga dùng hai từ ещё (vẫn) + не (không), và câu trả lời ngắn đổi thành Ещё нет.",
+  "tip": "Ещё не = 'vẫn không' = 'chưa'. Trả lời cụt lủn thì đổi не thành нет: Ещё нет!",
+  "how": [
+   "Thêm ещё не trước động từ quá khứ был → ещё не был, đặt Я lên đầu và nơi chốn в Москве ở cuối → Я ещё не был в Москве.",
+   "Thêm ещё не trước tính từ ngắn готов → ещё не готов, rồi đặt chủ ngữ Ужин lên đầu → Ужин ещё не готов.",
+   "Thêm ещё не trước động từ решили → ещё не решили, đặt Вы lên đầu và lên giọng hỏi → Вы ещё не решили?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Вы уже заказали?",
+    "ph": "VY u-ZHE za-ka-ZA-li",
+    "vi": "Anh chị gọi món chưa?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Ещё нет. Мы ещё не решили.",
+    "ph": "ye-SHCHO NYET MY ye-SHCHO ne ri-SHI-li",
+    "vi": "Chưa. Chúng tôi chưa chọn xong.",
+    "hl": [
+     "ещё не"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Хорошо. Вы ещё не были у нас?",
+    "ph": "kha-ra-SHO VY ye-SHCHO NYE by-li u NAS",
+    "vi": "Vâng. Anh chị chưa đến quán chúng tôi lần nào à?",
+    "hl": [
+     "ещё не"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Нет, мы здесь первый раз.",
+    "ph": "NYET MY ZDES' PYER-viy RAS",
+    "vi": "Chưa, đây là lần đầu chúng tôi đến.",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Он ещё не пришёл.",
+    "ph": "ON ye-SHCHO ne pri-SHOL",
+    "vi": "Anh ấy chưa đến.",
+    "hl": [
+     "ещё не"
+    ],
+    "tokens": [
+     "Он",
+     "ещё",
+     "не",
+     "пришёл"
+    ]
+   },
+   {
+    "t": "Я ещё не знаю.",
+    "ph": "YA ye-SHCHO ne ZNA-yu",
+    "vi": "Tôi chưa biết.",
+    "hl": [
+     "ещё не"
+    ],
+    "tokens": [
+     "Я",
+     "ещё",
+     "не",
+     "знаю"
+    ]
+   },
+   {
+    "t": "Номер ещё не готов.",
+    "ph": "NO-mir ye-SHCHO ne ga-TOF",
+    "vi": "Phòng chưa sẵn sàng.",
+    "hl": [
+     "ещё не"
+    ],
+    "tokens": [
+     "Номер",
+     "ещё",
+     "не",
+     "готов"
+    ]
+   },
+   {
+    "t": "Мы ещё не купили билеты.",
+    "ph": "MY ye-SHCHO ne ku-PI-li bi-LYE-ty",
+    "vi": "Chúng tôi chưa mua vé.",
+    "hl": [
+     "ещё не"
+    ],
+    "tokens": [
+     "Мы",
+     "ещё",
+     "не",
+     "купили",
+     "билеты"
+    ]
+   },
+   {
+    "t": "Она ещё не видела Красную площадь.",
+    "ph": "a-NA ye-SHCHO ne VI-de-la KRAS-nu-yu PLO-shchat'",
+    "vi": "Cô ấy chưa từng thấy Quảng trường Đỏ.",
+    "hl": [
+     "ещё не"
+    ],
+    "tokens": [
+     "Она",
+     "ещё",
+     "не",
+     "видела",
+     "Красную",
+     "площадь"
+    ]
+   },
+   {
+    "t": "Поезд ещё не ушёл, мы успеем.",
+    "ph": "PO-ist ye-SHCHO ne u-SHOL MY us-PYE-yem",
+    "vi": "Tàu chưa chạy, chúng ta kịp mà.",
+    "hl": [
+     "ещё не"
+    ],
+    "tokens": [
+     "Поезд",
+     "ещё",
+     "не",
+     "ушёл,",
+     "мы",
+     "успеем"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "очень"
+   },
+   {
+    "k": "A",
+    "t": "Tính từ / Trạng từ"
+   }
+  ],
+  "points": [
+   "Очень đứng trước tính từ hoặc trạng từ: очень вкусно, очень красивый.",
+   "Очень không đổi hình thức, nhưng tính từ sau nó phải hợp giống với danh từ (очень дорогой отель, очень дорогая сумка).",
+   "Trạng từ đuôi -о (вкусно, красиво) dùng sau Это / Здесь để nhận xét chung.",
+   "Очень còn đứng trước động từ: \"Я очень люблю чай\" = Tôi rất thích trà."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Это вкусно очень.",
+    "right": "Это очень вкусно.",
+    "why": "Очень luôn đứng trước tính từ, không đặt sau như 'ngon lắm' trong tiếng Việt."
+   },
+   {
+    "wrong": "Эта сумка очень дорогой.",
+    "right": "Эта сумка очень дорогая.",
+    "why": "Сумка là danh từ giống cái nên tính từ phải có đuôi -ая."
+   }
+  ],
+  "compare": "Giống 'rất' tiếng Việt: đứng trước tính từ (rất ngon = очень вкусно); khác với 'lắm' đứng sau — tiếng Nga luôn đặt очень phía trước.",
+  "tip": "Очень đọc 'Ô-chần' — 'Ô' lên vì quá đẹp, quá ngon! Và luôn 'Ô' trước từ mình khen.",
+  "how": [
+   "Thêm очень trước trạng từ вкусно → очень вкусно, rồi đặt Это lên đầu → Это очень вкусно.",
+   "Thêm очень trước trạng từ красиво → очень красиво, rồi đặt Здесь (ở đây) lên đầu → Здесь очень красиво.",
+   "Thêm очень trước tính từ giống đực дорогой → очень дорогой, rồi đặt chủ ngữ Этот отель lên đầu → Этот отель очень дорогой."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Как вам Москва?",
+    "ph": "KAK VAM mask-VA",
+    "vi": "Anh thấy Moskva thế nào?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Очень красивый город!",
+    "ph": "O-chen kra-SI-viy GO-rat",
+    "vi": "Thành phố rất đẹp!",
+    "hl": [
+     "Очень"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "А погода?",
+    "ph": "a pa-GO-da",
+    "vi": "Còn thời tiết?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Очень холодно, но мне нравится.",
+    "ph": "O-chen KHO-lad-na no MNYE NRA-vit-sa",
+    "vi": "Rất lạnh, nhưng tôi thích.",
+    "hl": [
+     "Очень"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Чай очень горячий.",
+    "ph": "CHAY O-chen ga-RYA-chiy",
+    "vi": "Trà rất nóng.",
+    "hl": [
+     "очень"
+    ],
+    "tokens": [
+     "Чай",
+     "очень",
+     "горячий"
+    ]
+   },
+   {
+    "t": "Вы очень добрый.",
+    "ph": "VY O-chen DOB-riy",
+    "vi": "Anh rất tốt bụng.",
+    "hl": [
+     "очень"
+    ],
+    "tokens": [
+     "Вы",
+     "очень",
+     "добрый"
+    ]
+   },
+   {
+    "t": "Я очень устал.",
+    "ph": "YA O-chen us-TAL",
+    "vi": "Tôi rất mệt.",
+    "hl": [
+     "очень"
+    ],
+    "tokens": [
+     "Я",
+     "очень",
+     "устал"
+    ]
+   },
+   {
+    "t": "Эта улица очень длинная.",
+    "ph": "E-ta U-li-tsa O-chen DLIN-na-ya",
+    "vi": "Con phố này rất dài.",
+    "hl": [
+     "очень"
+    ],
+    "tokens": [
+     "Эта",
+     "улица",
+     "очень",
+     "длинная"
+    ]
+   },
+   {
+    "t": "Мне очень нравится этот город.",
+    "ph": "MNYE O-chen NRA-vit-sa E-tat GO-rat",
+    "vi": "Tôi rất thích thành phố này.",
+    "hl": [
+     "очень"
+    ],
+    "tokens": [
+     "Мне",
+     "очень",
+     "нравится",
+     "этот",
+     "город"
+    ]
+   },
+   {
+    "t": "Спасибо, вы нам очень помогли.",
+    "ph": "spa-SI-ba VY NAM O-chen pa-mag-LI",
+    "vi": "Cảm ơn, anh đã giúp chúng tôi rất nhiều.",
+    "hl": [
+     "очень"
+    ],
+    "tokens": [
+     "Спасибо,",
+     "вы",
+     "нам",
+     "очень",
+     "помогли"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "formula": [
+   {
+    "k": "S",
+    "t": "(Chủ ngữ)"
+   },
+   {
+    "k": "P",
+    "t": "слишком"
+   },
+   {
+    "k": "A",
+    "t": "Tính từ / Trạng từ"
+   }
+  ],
+  "points": [
+   "Слишком = quá (vượt mức mong muốn), đứng trước tính từ hoặc trạng từ: слишком дорого.",
+   "Слишком mang ý chê, không hài lòng; khen 'ngon quá!' thì dùng очень: \"Очень вкусно!\".",
+   "'Quá nhiều' là слишком много: \"Здесь слишком много людей\".",
+   "Câu về thời tiết, cảm giác không cần chủ ngữ: \"Слишком жарко\" = Nóng quá."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Это слишком вкусно!",
+    "right": "Это очень вкусно!",
+    "why": "Khen 'ngon quá' không dùng слишком, vì слишком nghĩa là 'quá mức, không tốt'."
+   },
+   {
+    "wrong": "Это дорого слишком.",
+    "right": "Это слишком дорого.",
+    "why": "Слишком phải đứng trước tính từ/trạng từ, không đặt sau như 'đắt quá' tiếng Việt."
+   }
+  ],
+  "compare": "Tiếng Việt đặt 'quá' sau tính từ (đắt quá), tiếng Nga đặt слишком trước (слишком дорого); 'quá' tiếng Việt có thể là lời khen, còn слишком gần như luôn là lời chê.",
+  "tip": "Слишком đọc 'SLÍT-cầm' — nghe như 'xin lỗi, quá mức rồi'! Chê thì слишком, khen thì очень.",
+  "how": [
+   "Thêm слишком trước trạng từ дорого → слишком дорого, rồi đặt Это lên đầu → Это слишком дорого.",
+   "Thêm слишком trước trạng từ быстро → слишком быстро, rồi đặt chủ ngữ và động từ Вы говорите lên trước → Вы говорите слишком быстро.",
+   "Thêm слишком trước trạng từ жарко → слишком жарко, rồi đặt Сегодня (hôm nay) lên đầu → Сегодня слишком жарко."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Сколько стоит эта сумка?",
+    "ph": "SKOL'-ka STO-it E-ta SUM-ka",
+    "vi": "Cái túi này bao nhiêu tiền?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Пять тысяч рублей.",
+    "ph": "PYAT' TY-syach rub-LYEY",
+    "vi": "Năm nghìn rúp.",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "Это слишком дорого для меня.",
+    "ph": "E-ta SLISH-kam DO-ra-ga DLYA mi-NYA",
+    "vi": "Đắt quá đối với tôi.",
+    "hl": [
+     "слишком"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Вот эта не слишком дорогая.",
+    "ph": "VOT E-ta ne SLISH-kam da-ra-GA-ya",
+    "vi": "Cái này thì không đắt quá đâu.",
+    "hl": [
+     "слишком"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Суп слишком солёный.",
+    "ph": "SUP SLISH-kam sa-LYO-niy",
+    "vi": "Súp mặn quá.",
+    "hl": [
+     "слишком"
+    ],
+    "tokens": [
+     "Суп",
+     "слишком",
+     "солёный"
+    ]
+   },
+   {
+    "t": "Здесь слишком шумно.",
+    "ph": "ZDES' SLISH-kam SHUM-na",
+    "vi": "Ở đây ồn quá.",
+    "hl": [
+     "слишком"
+    ],
+    "tokens": [
+     "Здесь",
+     "слишком",
+     "шумно"
+    ]
+   },
+   {
+    "t": "Музыка слишком громкая.",
+    "ph": "MU-zy-ka SLISH-kam GROM-ka-ya",
+    "vi": "Nhạc to quá.",
+    "hl": [
+     "слишком"
+    ],
+    "tokens": [
+     "Музыка",
+     "слишком",
+     "громкая"
+    ]
+   },
+   {
+    "t": "Эти туфли слишком маленькие.",
+    "ph": "E-ti TUF-li SLISH-kam MA-lin'-ki-ye",
+    "vi": "Đôi giày này nhỏ quá.",
+    "hl": [
+     "слишком"
+    ],
+    "tokens": [
+     "Эти",
+     "туфли",
+     "слишком",
+     "маленькие"
+    ]
+   },
+   {
+    "t": "Сегодня я слишком устал.",
+    "ph": "si-VOD-nya YA SLISH-kam us-TAL",
+    "vi": "Hôm nay tôi mệt quá.",
+    "hl": [
+     "слишком"
+    ],
+    "tokens": [
+     "Сегодня",
+     "я",
+     "слишком",
+     "устал"
+    ]
+   },
+   {
+    "t": "В автобусе слишком много людей.",
+    "ph": "f af-TO-bu-se SLISH-kam MNO-ga lyu-DYEY",
+    "vi": "Trên xe buýt đông người quá.",
+    "hl": [
+     "слишком"
+    ],
+    "tokens": [
+     "В",
+     "автобусе",
+     "слишком",
+     "много",
+     "людей"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "больше / -ее"
+   },
+   {
+    "k": "O",
+    "t": "(чем) Vật được so sánh"
+   }
+  ],
+  "points": [
+   "So sánh hơn của tính từ: thêm đuôi -ее vào gốc (быстрый → быстрее, интересный → интереснее).",
+   "Một số từ bất quy tắc cần học thuộc: хорошо → лучше, плохо → хуже, дёшево → дешевле, дорого → дороже, много → больше.",
+   "Vật bị so sánh đặt ngay sau ở cách sở hữu (быстрее автобуса) hoặc sau чем, có dấu phẩy (быстрее, чем автобус).",
+   "Больше còn nghĩa 'nhiều hơn / thích hơn' khi đứng trước động từ: \"Мне больше нравится чай\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Поезд больше быстро автобуса.",
+    "right": "Поезд быстрее автобуса.",
+    "why": "Không ghép больше + tính từ như 'nhanh hơn' tiếng Việt; dùng luôn dạng so sánh быстрее."
+   },
+   {
+    "wrong": "Это более хорошо.",
+    "right": "Это лучше.",
+    "why": "Хорошо là từ bất quy tắc: 'tốt hơn' là лучше."
+   }
+  ],
+  "compare": "Tiếng Việt thêm 'hơn' sau tính từ (nhanh hơn), tiếng Nga đổi luôn đuôi tính từ (быстрее); vật so sánh đứng ngay sau ở cách sở hữu mà không cần từ 'hơn' riêng.",
+  "tip": "Học thuộc nhóm bất quy tắc 'Lút-Hu-Đề': лучше (tốt hơn), хуже (tệ hơn), дешевле (rẻ hơn) — còn lại cứ gắn -ее!",
+  "how": [
+   "Đổi быстро thành dạng so sánh быстрее, thêm vật so sánh ở cách sở hữu автобуса → быстрее автобуса, rồi đặt Поезд lên đầu → Поезд быстрее автобуса.",
+   "Đổi дёшево thành dạng bất quy tắc дешевле, thêm что-нибудь (cái gì đó) phía trước → что-нибудь дешевле, rồi mở đầu bằng Есть để hỏi → Есть что-нибудь дешевле?",
+   "Thêm больше trước нравится → больше нравится (thích hơn), rồi đặt Мне lên đầu và thứ được thích чай ở cuối → Мне больше нравится чай."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Как лучше ехать в центр?",
+    "ph": "KAK LUCH-she YE-khat' f TSENTR",
+    "vi": "Đi vào trung tâm bằng gì thì tốt hơn?",
+    "hl": [
+     "лучше"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "На метро, это быстрее и дешевле.",
+    "ph": "na mit-RO E-ta byst-RYE-ye i di-SHEV-lye",
+    "vi": "Đi tàu điện ngầm, vừa nhanh hơn vừa rẻ hơn.",
+    "hl": [
+     "быстрее",
+     "дешевле"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Я больше люблю такси.",
+    "ph": "YA BOL'-she lyub-LYU tak-SI",
+    "vi": "Tôi thích đi taxi hơn.",
+    "hl": [
+     "больше"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Такси удобнее, но дороже.",
+    "ph": "tak-SI u-DOB-nye-ye no da-RO-zhe",
+    "vi": "Taxi tiện hơn nhưng đắt hơn.",
+    "hl": [
+     "удобнее",
+     "дороже"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Этот номер больше.",
+    "ph": "E-tat NO-mir BOL'-she",
+    "vi": "Phòng này rộng hơn.",
+    "hl": [
+     "больше"
+    ],
+    "tokens": [
+     "Этот",
+     "номер",
+     "больше"
+    ]
+   },
+   {
+    "t": "Мой брат старше меня.",
+    "ph": "MOY BRAT STAR-she mi-NYA",
+    "vi": "Anh trai tôi lớn tuổi hơn tôi.",
+    "hl": [
+     "старше"
+    ],
+    "tokens": [
+     "Мой",
+     "брат",
+     "старше",
+     "меня"
+    ]
+   },
+   {
+    "t": "Говорите, пожалуйста, медленнее.",
+    "ph": "ga-va-RI-te pa-ZHA-lus-ta MYED-li-nye-ye",
+    "vi": "Làm ơn nói chậm hơn.",
+    "hl": [
+     "медленнее"
+    ],
+    "tokens": [
+     "Говорите,",
+     "пожалуйста,",
+     "медленнее"
+    ]
+   },
+   {
+    "t": "Сегодня теплее, чем вчера.",
+    "ph": "si-VOD-nya tip-LYE-ye chem fchi-RA",
+    "vi": "Hôm nay ấm hơn hôm qua.",
+    "hl": [
+     "теплее"
+    ],
+    "tokens": [
+     "Сегодня",
+     "теплее,",
+     "чем",
+     "вчера"
+    ]
+   },
+   {
+    "t": "Здесь дешевле, чем в центре.",
+    "ph": "ZDES' di-SHEV-lye chem f TSENT-re",
+    "vi": "Ở đây rẻ hơn ở trung tâm.",
+    "hl": [
+     "дешевле"
+    ],
+    "tokens": [
+     "Здесь",
+     "дешевле,",
+     "чем",
+     "в",
+     "центре"
+    ]
+   },
+   {
+    "t": "Летом в Сочи жарче, чем в Москве.",
+    "ph": "LYE-tam f SO-chi ZHAR-che chem v mask-VYE",
+    "vi": "Mùa hè ở Sochi nóng hơn ở Moskva.",
+    "hl": [
+     "жарче"
+    ],
+    "tokens": [
+     "Летом",
+     "в",
+     "Сочи",
+     "жарче,",
+     "чем",
+     "в",
+     "Москве"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "formula": [
+   {
+    "k": "P",
+    "t": "самый / самая / самое"
+   },
+   {
+    "k": "A",
+    "t": "Tính từ (cùng giống)"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ"
+   }
+  ],
+  "points": [
+   "So sánh nhất = самый + tính từ: самый вкусный (ngon nhất).",
+   "Самый và tính từ đều hợp giống, số với danh từ: самый (đực), самая (cái), самое (trung), самые (số nhiều).",
+   "Cụm самый + tính từ đứng trước danh từ: самая дешёвая комната (phòng rẻ nhất).",
+   "'... nhất ở đâu' thêm в + cách giới từ: \"самый большой город в России\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Это самый красивое место.",
+    "right": "Это самое красивое место.",
+    "why": "Место là danh từ giống trung nên самый cũng phải đổi thành самое."
+   },
+   {
+    "wrong": "Это вкусный самый суп.",
+    "right": "Это самый вкусный суп.",
+    "why": "Самый đứng trước tính từ, không đặt sau như 'ngon nhất' tiếng Việt."
+   }
+  ],
+  "compare": "Tiếng Việt đặt danh từ trước rồi mới đến 'ngon nhất' (món súp ngon nhất), tiếng Nga đặt самый + tính từ trước danh từ (самый вкусный суп) và phải hợp giống.",
+  "tip": "Самый đọc 'XA-mưi' — 'nhất' phải đứng trước! Đuôi của самый luôn 'bắt chước' đuôi tính từ: -ый/-ая/-ое.",
+  "how": [
+   "Thêm самый trước tính từ giống đực вкусный → самый вкусный, rồi đặt Это lên đầu và danh từ суп ở cuối → Это самый вкусный суп.",
+   "Thêm самая (giống cái) trước дешёвая → самая дешёвая, rồi mở đầu bằng Мне нужна và đặt комната ở cuối → Мне нужна самая дешёвая комната.",
+   "Thêm самое (giống trung) trước красивое → самое красивое, rồi đặt Это lên đầu và место ở cuối → Это самое красивое место."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Какой ресторан здесь самый хороший?",
+    "ph": "ka-KOY ris-ta-RAN ZDES' SA-miy kha-RO-shiy",
+    "vi": "Nhà hàng nào ở đây ngon nhất?",
+    "hl": [
+     "самый"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Вот этот. Он самый популярный.",
+    "ph": "VOT E-tat ON SA-miy pa-pu-LYAR-niy",
+    "vi": "Quán này đây. Nó nổi tiếng nhất.",
+    "hl": [
+     "самый"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "А какое блюдо самое вкусное?",
+    "ph": "a ka-KO-ye BLYU-da SA-ma-ye FKUS-na-ye",
+    "vi": "Còn món nào ngon nhất?",
+    "hl": [
+     "самое"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Пельмени, конечно.",
+    "ph": "pil'-MYE-ni ka-NYESH-na",
+    "vi": "Pelmeni, tất nhiên rồi.",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Это самая длинная река.",
+    "ph": "E-ta SA-ma-ya DLIN-na-ya ri-KA",
+    "vi": "Đây là con sông dài nhất.",
+    "hl": [
+     "самая"
+    ],
+    "tokens": [
+     "Это",
+     "самая",
+     "длинная",
+     "река"
+    ]
+   },
+   {
+    "t": "Он самый умный в классе.",
+    "ph": "ON SA-miy UM-niy f KLA-se",
+    "vi": "Cậu ấy thông minh nhất lớp.",
+    "hl": [
+     "самый"
+    ],
+    "tokens": [
+     "Он",
+     "самый",
+     "умный",
+     "в",
+     "классе"
+    ]
+   },
+   {
+    "t": "Где самый близкий банкомат?",
+    "ph": "GDYE SA-miy BLIS-kiy ban-ka-MAT",
+    "vi": "Cây ATM gần nhất ở đâu?",
+    "hl": [
+     "самый"
+    ],
+    "tokens": [
+     "Где",
+     "самый",
+     "близкий",
+     "банкомат"
+    ]
+   },
+   {
+    "t": "Мы купили самые дешёвые билеты.",
+    "ph": "MY ku-PI-li SA-my-ye di-SHO-vy-ye bi-LYE-ty",
+    "vi": "Chúng tôi đã mua vé rẻ nhất.",
+    "hl": [
+     "самые"
+    ],
+    "tokens": [
+     "Мы",
+     "купили",
+     "самые",
+     "дешёвые",
+     "билеты"
+    ]
+   },
+   {
+    "t": "Сегодня самый холодный день года.",
+    "ph": "si-VOD-nya SA-miy kha-LOD-niy DYEN' GO-da",
+    "vi": "Hôm nay là ngày lạnh nhất trong năm.",
+    "hl": [
+     "самый"
+    ],
+    "tokens": [
+     "Сегодня",
+     "самый",
+     "холодный",
+     "день",
+     "года"
+    ]
+   },
+   {
+    "t": "Это самое старое здание в городе.",
+    "ph": "E-ta SA-ma-ye STA-ra-ye ZDA-ni-ye v GO-ra-de",
+    "vi": "Đây là tòa nhà cổ nhất trong thành phố.",
+    "hl": [
+     "самое"
+    ],
+    "tokens": [
+     "Это",
+     "самое",
+     "старое",
+     "здание",
+     "в",
+     "городе"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "тоже"
+   },
+   {
+    "k": "V",
+    "t": "Động từ / Vị ngữ"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Тоже (cũng) đứng ngay sau chủ ngữ, trước động từ hoặc vị ngữ: \"Я тоже хочу\".",
+   "Тоже không biến đổi theo giống, số hay ngôi.",
+   "Trả lời ngắn 'Tôi cũng vậy' chỉ cần nói \"Я тоже\".",
+   "Câu 'Tôi cũng là sinh viên' không cần động từ 'là': \"Я тоже студент\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Я тоже есть студент.",
+    "right": "Я тоже студент.",
+    "why": "Ở thì hiện tại tiếng Nga bỏ động từ 'là', không dịch 'là' thành есть."
+   },
+   {
+    "wrong": "Тоже я хочу кофе.",
+    "right": "Я тоже хочу кофе.",
+    "why": "Тоже đứng sau chủ ngữ giống 'cũng' tiếng Việt, không đặt ở đầu câu."
+   }
+  ],
+  "compare": "Rất giống tiếng Việt: тоже nằm đúng chỗ của 'cũng' (Tôi cũng muốn = Я тоже хочу); khác ở chỗ tiếng Nga bỏ chữ 'là'.",
+  "tip": "Тоже đọc 'TÔ-giê' và nằm đúng chỗ chữ 'cũng' — dịch từng chữ mà vẫn đúng: Tôi cũng mệt = Я тоже устал!",
+  "how": [
+   "Thêm тоже trước động từ хочу → тоже хочу, đặt Я lên đầu và кофе ở cuối → Я тоже хочу кофе.",
+   "Thêm тоже trước danh từ студент → тоже студент, rồi đặt chủ ngữ Мой друг lên đầu (không cần 'là') → Мой друг тоже студент.",
+   "Thêm тоже trước устал → тоже устал, rồi đặt chủ ngữ Я lên đầu → Я тоже устал."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Я иду в кафе.",
+    "ph": "YA i-DU f ka-FE",
+    "vi": "Tôi đi quán cà phê đây.",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Я тоже! Пойдём вместе.",
+    "ph": "YA TO-zhe pa-DYOM VMYES-te",
+    "vi": "Tôi cũng vậy! Đi cùng nhau đi.",
+    "hl": [
+     "тоже"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Ты будешь капучино?",
+    "ph": "TY BU-dish' ka-pu-CHI-na",
+    "vi": "Bạn uống cappuccino không?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Да, и мой брат тоже будет.",
+    "ph": "DA i MOY BRAT TO-zhe BU-dit",
+    "vi": "Có, em trai tôi cũng uống.",
+    "hl": [
+     "тоже"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Мне тоже холодно.",
+    "ph": "MNYE TO-zhe KHO-lad-na",
+    "vi": "Tôi cũng thấy lạnh.",
+    "hl": [
+     "тоже"
+    ],
+    "tokens": [
+     "Мне",
+     "тоже",
+     "холодно"
+    ]
+   },
+   {
+    "t": "Мы тоже из Вьетнама.",
+    "ph": "MY TO-zhe iz vyet-NA-ma",
+    "vi": "Chúng tôi cũng đến từ Việt Nam.",
+    "hl": [
+     "тоже"
+    ],
+    "tokens": [
+     "Мы",
+     "тоже",
+     "из",
+     "Вьетнама"
+    ]
+   },
+   {
+    "t": "Моя сестра тоже врач.",
+    "ph": "ma-YA sist-RA TO-zhe VRACH",
+    "vi": "Chị tôi cũng là bác sĩ.",
+    "hl": [
+     "тоже"
+    ],
+    "tokens": [
+     "Моя",
+     "сестра",
+     "тоже",
+     "врач"
+    ]
+   },
+   {
+    "t": "Она тоже говорит по-русски.",
+    "ph": "a-NA TO-zhe ga-va-RIT pa-RUS-ki",
+    "vi": "Cô ấy cũng nói tiếng Nga.",
+    "hl": [
+     "тоже"
+    ],
+    "tokens": [
+     "Она",
+     "тоже",
+     "говорит",
+     "по-русски"
+    ]
+   },
+   {
+    "t": "Я тоже люблю русскую кухню.",
+    "ph": "YA TO-zhe lyub-LYU RUS-ku-yu KUKH-nyu",
+    "vi": "Tôi cũng thích ẩm thực Nga.",
+    "hl": [
+     "тоже"
+    ],
+    "tokens": [
+     "Я",
+     "тоже",
+     "люблю",
+     "русскую",
+     "кухню"
+    ]
+   },
+   {
+    "t": "Мы тоже хотим поехать на экскурсию.",
+    "ph": "MY TO-zhe kha-TIM pa-YE-khat' na eks-KUR-si-yu",
+    "vi": "Chúng tôi cũng muốn đi tham quan.",
+    "hl": [
+     "тоже"
+    ],
+    "tokens": [
+     "Мы",
+     "тоже",
+     "хотим",
+     "поехать",
+     "на",
+     "экскурсию"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "formula": [
+   {
+    "k": "O",
+    "t": "Từ / Vế 1"
+   },
+   {
+    "k": "P",
+    "t": "и"
+   },
+   {
+    "k": "O",
+    "t": "Từ / Vế 2"
+   }
+  ],
+  "points": [
+   "И nối hai từ hoặc hai vế cùng loại, giống 'và': чай и кофе.",
+   "Khi и nối hai từ đơn thì không có dấu phẩy trước и.",
+   "Hai danh từ nối bằng и làm chủ ngữ thì động từ/tính từ đi kèm chia số nhiều: \"Нам нужны хлеб и вода\".",
+   "И còn nối hai động từ cùng chủ ngữ: \"Мы гуляли и фотографировали\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Я люблю чай, и кофе.",
+    "right": "Я люблю чай и кофе.",
+    "why": "Khi и nối hai từ đơn thì không đặt dấu phẩy trước и."
+   },
+   {
+    "wrong": "Это мой мама и папа.",
+    "right": "Это мои мама и папа.",
+    "why": "Nói về hai người (mẹ và bố) thì đại từ sở hữu phải ở số nhiều: мои."
+   }
+  ],
+  "compare": "Giống hệt 'và' tiếng Việt: и đứng giữa hai từ cần nối (trà và cà phê = чай и кофе); khác ở chỗ từ đi kèm phải chia số nhiều (мои, нужны).",
+  "tip": "И chỉ có một chữ cái, đọc 'i' — gọn như chữ 'và' viết tắt trong tin nhắn!",
+  "how": [
+   "Bắt đầu từ чай, thêm и кофе → чай и кофе, rồi đặt Я люблю lên trước → Я люблю чай и кофе.",
+   "Bắt đầu từ мама, thêm и папа → мама и папа, rồi đặt Это мои (đây là ... của tôi, số nhiều) lên trước → Это мои мама и папа.",
+   "Bắt đầu từ хлеб, thêm и вода → хлеб и вода, rồi đặt Нам нужны (số nhiều vì có hai thứ) lên trước → Нам нужны хлеб и вода."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Что вы будете заказывать?",
+    "ph": "SHTO vy BU-di-te za-KA-zy-vat'",
+    "vi": "Anh chị gọi món gì ạ?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Борщ и салат, пожалуйста.",
+    "ph": "BORSHCH i sa-LAT pa-ZHA-lus-ta",
+    "vi": "Cho tôi súp borscht và salad.",
+    "hl": [
+     "и"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "А пить?",
+    "ph": "a PIT'",
+    "vi": "Còn đồ uống?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Чай и воду без газа.",
+    "ph": "CHAY i VO-du bis GA-za",
+    "vi": "Trà và nước không ga.",
+    "hl": [
+     "и"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Анна и Иван дома.",
+    "ph": "AN-na i i-VAN DO-ma",
+    "vi": "Anna và Ivan đang ở nhà.",
+    "hl": [
+     "и"
+    ],
+    "tokens": [
+     "Анна",
+     "и",
+     "Иван",
+     "дома"
+    ]
+   },
+   {
+    "t": "Здесь тихо и чисто.",
+    "ph": "ZDES' TI-kha i CHIS-ta",
+    "vi": "Ở đây yên tĩnh và sạch sẽ.",
+    "hl": [
+     "и"
+    ],
+    "tokens": [
+     "Здесь",
+     "тихо",
+     "и",
+     "чисто"
+    ]
+   },
+   {
+    "t": "Купите хлеб и молоко.",
+    "ph": "ku-PI-te KHLYEP i ma-la-KO",
+    "vi": "Hãy mua bánh mì và sữa.",
+    "hl": [
+     "и"
+    ],
+    "tokens": [
+     "Купите",
+     "хлеб",
+     "и",
+     "молоко"
+    ]
+   },
+   {
+    "t": "Мы гуляли и фотографировали.",
+    "ph": "MY gu-LYA-li i fa-ta-gra-FI-ra-va-li",
+    "vi": "Chúng tôi đi dạo và chụp ảnh.",
+    "hl": [
+     "и"
+    ],
+    "tokens": [
+     "Мы",
+     "гуляли",
+     "и",
+     "фотографировали"
+    ]
+   },
+   {
+    "t": "Я говорю по-английски и по-русски.",
+    "ph": "YA ga-va-RYU pa-ang-LIY-ski i pa-RUS-ki",
+    "vi": "Tôi nói tiếng Anh và tiếng Nga.",
+    "hl": [
+     "и"
+    ],
+    "tokens": [
+     "Я",
+     "говорю",
+     "по-английски",
+     "и",
+     "по-русски"
+    ]
+   },
+   {
+    "t": "Я принял душ и пошёл спать.",
+    "ph": "YA PRI-nyal DUSH i pa-SHOL SPAT'",
+    "vi": "Tôi tắm xong rồi đi ngủ.",
+    "hl": [
+     "и"
+    ],
+    "tokens": [
+     "Я",
+     "принял",
+     "душ",
+     "и",
+     "пошёл",
+     "спать"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "formula": [
+   {
+    "k": "O",
+    "t": "Vế 1,"
+   },
+   {
+    "k": "P",
+    "t": "но"
+   },
+   {
+    "k": "O",
+    "t": "Vế 2 (ý trái ngược)"
+   }
+  ],
+  "points": [
+   "Но nối hai ý trái ngược, giống 'nhưng': вкусно, но дорого.",
+   "Trước но luôn có dấu phẩy, kể cả khi chỉ nối hai tính từ hoặc trạng từ.",
+   "Vế sau но có thể rút gọn, không cần lặp lại chủ ngữ: \"Я плохо говорю, но понимаю\".",
+   "Đừng nhầm но (nhưng) với а (còn): а chỉ đối chiếu nhẹ hai sự việc (\"Я пью чай, а он кофе\")."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Здесь вкусно но дорого.",
+    "right": "Здесь вкусно, но дорого.",
+    "why": "Tiếng Nga bắt buộc có dấu phẩy trước но."
+   },
+   {
+    "wrong": "Я русский, но он вьетнамец.",
+    "right": "Я русский, а он вьетнамец.",
+    "why": "Khi chỉ đối chiếu hai người hay hai sự việc (nghĩa 'còn') thì dùng а, không dùng но."
+   }
+  ],
+  "compare": "Vị trí giống 'nhưng' tiếng Việt, nằm giữa hai vế (ngon nhưng đắt = вкусно, но дорого); khác ở chỗ tiếng Nga bắt buộc phải có dấu phẩy trước но.",
+  "tip": "Но đọc 'nô' giống 'no' tiếng Anh — báo hiệu ý ngược lại sắp tới; và nó luôn 'dắt theo' một dấu phẩy phía trước!",
+  "how": [
+   "Thêm но trước дорого → но дорого, rồi đặt vế Здесь вкусно kèm dấu phẩy lên trước → Здесь вкусно, но дорого.",
+   "Thêm но trước уютный → но уютный, rồi đặt vế Номер маленький kèm dấu phẩy lên trước → Номер маленький, но уютный.",
+   "Thêm но trước понимаю → но понимаю, rồi đặt vế Я плохо говорю kèm dấu phẩy lên trước → Я плохо говорю, но понимаю."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Вы говорите по-русски?",
+    "ph": "VY ga-va-RI-te pa-RUS-ki",
+    "vi": "Anh nói được tiếng Nga không?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Немного, но плохо.",
+    "ph": "nim-NO-ga no PLO-kha",
+    "vi": "Một chút, nhưng kém lắm.",
+    "hl": [
+     "но"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Не страшно. Русский трудный, но интересный.",
+    "ph": "ne STRASH-na RUS-kiy TRUD-niy no in-ti-RYES-niy",
+    "vi": "Không sao. Tiếng Nga khó nhưng thú vị.",
+    "hl": [
+     "но"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Да, очень интересный!",
+    "ph": "DA O-chen in-ti-RYES-niy",
+    "vi": "Đúng, rất thú vị!",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Я хочу, но не могу.",
+    "ph": "YA kha-CHU no ne ma-GU",
+    "vi": "Tôi muốn nhưng không thể.",
+    "hl": [
+     "но"
+    ],
+    "tokens": [
+     "Я",
+     "хочу,",
+     "но",
+     "не",
+     "могу"
+    ]
+   },
+   {
+    "t": "Отель старый, но чистый.",
+    "ph": "a-TEL' STA-riy no CHIS-tiy",
+    "vi": "Khách sạn cũ nhưng sạch.",
+    "hl": [
+     "но"
+    ],
+    "tokens": [
+     "Отель",
+     "старый,",
+     "но",
+     "чистый"
+    ]
+   },
+   {
+    "t": "Извините, но я занят.",
+    "ph": "iz-vi-NI-te no YA ZA-nyat",
+    "vi": "Xin lỗi, nhưng tôi đang bận.",
+    "hl": [
+     "но"
+    ],
+    "tokens": [
+     "Извините,",
+     "но",
+     "я",
+     "занят"
+    ]
+   },
+   {
+    "t": "Погода хорошая, но холодно.",
+    "ph": "pa-GO-da kha-RO-sha-ya no KHO-lad-na",
+    "vi": "Thời tiết đẹp nhưng lạnh.",
+    "hl": [
+     "но"
+    ],
+    "tokens": [
+     "Погода",
+     "хорошая,",
+     "но",
+     "холодно"
+    ]
+   },
+   {
+    "t": "Мы опоздали, но поезд ещё стоял.",
+    "ph": "MY a-paz-DA-li no PO-ist ye-SHCHO sta-YAL",
+    "vi": "Chúng tôi đến muộn nhưng tàu vẫn còn đỗ.",
+    "hl": [
+     "но"
+    ],
+    "tokens": [
+     "Мы",
+     "опоздали,",
+     "но",
+     "поезд",
+     "ещё",
+     "стоял"
+    ]
+   },
+   {
+    "t": "Билеты дорогие, но концерт того стоит.",
+    "ph": "bi-LYE-ty da-ra-GI-ye no kan-TSERT ta-VO STO-it",
+    "vi": "Vé đắt nhưng buổi hòa nhạc rất đáng tiền.",
+    "hl": [
+     "но"
+    ],
+    "tokens": [
+     "Билеты",
+     "дорогие,",
+     "но",
+     "концерт",
+     "того",
+     "стоит"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "formula": [
+   {
+    "k": "P",
+    "t": "если"
+   },
+   {
+    "k": "O",
+    "t": "Điều kiện,"
+   },
+   {
+    "k": "O",
+    "t": "(то) Kết quả"
+   }
+  ],
+  "points": [
+   "Если (nếu) mở đầu mệnh đề điều kiện; mệnh đề này có thể đứng đầu hoặc cuối câu.",
+   "Luôn có dấu phẩy ngăn cách mệnh đề если với mệnh đề chính.",
+   "'Thì' là то, có thể dùng khi если đứng đầu câu nhưng thường được lược bỏ: \"Если будет дождь, (то) мы останемся дома\".",
+   "Điều kiện ở tương lai thì động từ sau если cũng chia ở tương lai (если будет дождь, если опоздаю)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Если есть дождь, мы останемся дома.",
+    "right": "Если будет дождь, мы останемся дома.",
+    "why": "Nói về tương lai thì mệnh đề если cũng phải ở thì tương lai (будет)."
+   },
+   {
+    "wrong": "Я позвоню если опоздаю.",
+    "right": "Я позвоню, если опоздаю.",
+    "why": "Phải có dấu phẩy trước если khi nó nối hai mệnh đề."
+   }
+  ],
+  "compare": "Giống 'nếu... thì...' tiếng Việt; khác ở chỗ 'thì' (то) thường bị lược bỏ, bắt buộc có dấu phẩy, và chuyện tương lai phải chia tương lai ở cả hai vế.",
+  "tip": "Если đọc 'DÉ-xli'. Mẹo: 'nếu' đi đâu, dấu phẩy theo đó — если không bao giờ đi một mình!",
+  "how": [
+   "Từ дождь, thêm если будет (nếu sẽ có) phía trước → если будет дождь, rồi đặt vế kết quả Мы останемся дома kèm dấu phẩy lên trước → Мы останемся дома, если будет дождь.",
+   "Thêm если trước можно → если можно (nếu được), rồi đặt lời đề nghị Дайте счёт kèm dấu phẩy lên trước → Дайте счёт, если можно.",
+   "Thêm если trước động từ tương lai опоздаю → если опоздаю, rồi đặt vế Я позвоню kèm dấu phẩy lên trước → Я позвоню, если опоздаю."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Если будет время, пойдём в музей?",
+    "ph": "YES-li BU-dit VRYE-mya pa-DYOM v mu-ZYEY",
+    "vi": "Nếu có thời gian thì mình đi bảo tàng nhé?",
+    "hl": [
+     "Если"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Да, если не будет дождя.",
+    "ph": "DA YES-li ne BU-dit dazh-DYA",
+    "vi": "Ừ, nếu trời không mưa.",
+    "hl": [
+     "если"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Отлично! Я куплю билеты.",
+    "ph": "at-LICH-na YA kup-LYU bi-LYE-ty",
+    "vi": "Tuyệt! Tôi sẽ mua vé.",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Если хотите, я помогу.",
+    "ph": "YES-li kha-TI-te YA pa-ma-GU",
+    "vi": "Nếu anh muốn, tôi sẽ giúp.",
+    "hl": [
+     "Если"
+    ],
+    "tokens": [
+     "Если",
+     "хотите,",
+     "я",
+     "помогу"
+    ]
+   },
+   {
+    "t": "Если можно, говорите медленнее.",
+    "ph": "YES-li MOZH-na ga-va-RI-te MYED-li-nye-ye",
+    "vi": "Nếu được thì anh nói chậm hơn nhé.",
+    "hl": [
+     "Если"
+    ],
+    "tokens": [
+     "Если",
+     "можно,",
+     "говорите",
+     "медленнее"
+    ]
+   },
+   {
+    "t": "Если будет холодно, возьми куртку.",
+    "ph": "YES-li BU-dit KHO-lad-na vaz'-MI KURT-ku",
+    "vi": "Nếu trời lạnh thì mang theo áo khoác.",
+    "hl": [
+     "Если"
+    ],
+    "tokens": [
+     "Если",
+     "будет",
+     "холодно,",
+     "возьми",
+     "куртку"
+    ]
+   },
+   {
+    "t": "Если вы устали, давайте отдохнём.",
+    "ph": "YES-li vy us-TA-li da-VAY-te at-dakh-NYOM",
+    "vi": "Nếu anh mệt thì chúng ta nghỉ một chút.",
+    "hl": [
+     "Если"
+    ],
+    "tokens": [
+     "Если",
+     "вы",
+     "устали,",
+     "давайте",
+     "отдохнём"
+    ]
+   },
+   {
+    "t": "Мы пойдём на пляж, если будет солнце.",
+    "ph": "MY pa-DYOM na PLYASH YES-li BU-dit SON-tse",
+    "vi": "Chúng ta sẽ ra biển nếu trời nắng.",
+    "hl": [
+     "если"
+    ],
+    "tokens": [
+     "Мы",
+     "пойдём",
+     "на",
+     "пляж,",
+     "если",
+     "будет",
+     "солнце"
+    ]
+   },
+   {
+    "t": "Если поезд опоздает, мы возьмём такси.",
+    "ph": "YES-li PO-ist a-paz-DA-yet MY vaz'-MYOM tak-SI",
+    "vi": "Nếu tàu đến muộn, chúng ta sẽ đi taxi.",
+    "hl": [
+     "Если"
+    ],
+    "tokens": [
+     "Если",
+     "поезд",
+     "опоздает,",
+     "мы",
+     "возьмём",
+     "такси"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "formula": [
+   {
+    "k": "P",
+    "t": "этот / эта / это (тот)"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ"
+   },
+   {
+    "k": "V",
+    "t": "(Vị ngữ)"
+   }
+  ],
+  "points": [
+   "Этот (này) đứng trước danh từ và hợp giống: этот автобус (đực), эта сумка (cái), это платье (trung), эти билеты (số nhiều).",
+   "Тот (kia) cũng đổi theo giống: тот, та, то, те.",
+   "Это đứng một mình đầu câu nghĩa là 'đây là / cái này': \"Это мой паспорт\".",
+   "Sau động từ, этот/тот đổi cách theo danh từ: \"Я возьму эту сумку\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Сколько стоит этот платье?",
+    "right": "Сколько стоит это платье?",
+    "why": "Платье là danh từ giống trung nên phải dùng это, không phải этот."
+   },
+   {
+    "wrong": "Автобус этот идёт в центр?",
+    "right": "Этот автобус идёт в центр?",
+    "why": "Этот đứng trước danh từ, không đặt sau như 'xe buýt này' tiếng Việt."
+   }
+  ],
+  "compare": "Tiếng Việt đặt 'này/kia' sau danh từ (xe buýt này), tiếng Nga đặt этот/тот trước danh từ (этот автобус) và phải hợp giống.",
+  "tip": "Этот = 'này' ở gần, тот = 'kia' ở xa — bỏ chữ 'э' đi là đẩy đồ vật ra xa!",
+  "how": [
+   "Thêm этот (giống đực) trước автобус → этот автобус, rồi đặt Куда идёт (đi đâu) lên trước → Куда идёт этот автобус?",
+   "Thêm это (giống trung) trước платье → это платье, rồi đặt Сколько стоит (giá bao nhiêu) lên trước → Сколько стоит это платье?",
+   "Thêm тот (kia, giống đực) trước торт → тот торт, rồi đặt Дайте мне (cho tôi) lên trước → Дайте мне тот торт."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Это место свободно?",
+    "ph": "E-ta MYES-ta sa-BOD-na",
+    "vi": "Chỗ này còn trống không?",
+    "hl": [
+     "Это"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Нет, это место занято. Но то свободно.",
+    "ph": "NYET E-ta MYES-ta ZA-nya-ta no TO sa-BOD-na",
+    "vi": "Không, chỗ này có người rồi. Nhưng chỗ kia trống.",
+    "hl": [
+     "это",
+     "то"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Спасибо! А этот рюкзак ваш?",
+    "ph": "spa-SI-ba a E-tat ryuk-ZAK VASH",
+    "vi": "Cảm ơn! Thế cái ba lô này của anh à?",
+    "hl": [
+     "этот"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Да, мой. Сейчас уберу.",
+    "ph": "DA MOY sey-CHAS u-bi-RU",
+    "vi": "Vâng, của tôi. Để tôi cất ngay.",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Я возьму эту сумку.",
+    "ph": "YA vaz'-MU E-tu SUM-ku",
+    "vi": "Tôi lấy cái túi này.",
+    "hl": [
+     "эту"
+    ],
+    "tokens": [
+     "Я",
+     "возьму",
+     "эту",
+     "сумку"
+    ]
+   },
+   {
+    "t": "Тот дом очень старый.",
+    "ph": "TOT DOM O-chen STA-riy",
+    "vi": "Ngôi nhà kia rất cũ.",
+    "hl": [
+     "Тот"
+    ],
+    "tokens": [
+     "Тот",
+     "дом",
+     "очень",
+     "старый"
+    ]
+   },
+   {
+    "t": "Эти билеты на завтра.",
+    "ph": "E-ti bi-LYE-ty na ZAF-tra",
+    "vi": "Những vé này là cho ngày mai.",
+    "hl": [
+     "Эти"
+    ],
+    "tokens": [
+     "Эти",
+     "билеты",
+     "на",
+     "завтра"
+    ]
+   },
+   {
+    "t": "Эта комната очень светлая.",
+    "ph": "E-ta KOM-na-ta O-chen SVYET-la-ya",
+    "vi": "Căn phòng này rất sáng.",
+    "hl": [
+     "Эта"
+    ],
+    "tokens": [
+     "Эта",
+     "комната",
+     "очень",
+     "светлая"
+    ]
+   },
+   {
+    "t": "Как называется эта улица?",
+    "ph": "KAK na-zy-VA-yet-sya E-ta U-li-tsa",
+    "vi": "Con phố này tên là gì?",
+    "hl": [
+     "эта"
+    ],
+    "tokens": [
+     "Как",
+     "называется",
+     "эта",
+     "улица"
+    ]
+   },
+   {
+    "t": "Вы видите ту большую церковь?",
+    "ph": "VY VI-di-te TU bal'-SHU-yu TSER-kaf'",
+    "vi": "Anh có thấy nhà thờ lớn kia không?",
+    "hl": [
+     "ту"
+    ],
+    "tokens": [
+     "Вы",
+     "видите",
+     "ту",
+     "большую",
+     "церковь"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "formula": [
+   {
+    "k": "P",
+    "t": "мой / ваш / твой"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ"
+   }
+  ],
+  "points": [
+   "Đại từ sở hữu đứng trước danh từ: мой паспорт = hộ chiếu của tôi.",
+   "Nó hợp giống với vật được sở hữu, không phải người sở hữu: мой паспорт, моя сумка, моё место, мои вещи.",
+   "Ваш/ваша (của anh chị, lịch sự) và твой/твоя (của bạn, thân mật) cũng đổi đuôi như vậy.",
+   "'Của người khác' thì đặt người đó ở cách sở hữu sau danh từ: машина брата (xe của anh trai)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Где паспорт я?",
+    "right": "Где мой паспорт?",
+    "why": "Không dịch 'của tôi' bằng я đặt sau; dùng мой đứng trước danh từ."
+   },
+   {
+    "wrong": "Это мой сумка.",
+    "right": "Это моя сумка.",
+    "why": "Сумка là danh từ giống cái nên phải dùng моя."
+   }
+  ],
+  "compare": "Tiếng Việt đặt 'của tôi' sau danh từ (hộ chiếu của tôi), tiếng Nga đặt мой trước (мой паспорт) và không cần từ 'của'.",
+  "tip": "Мой đọc 'MOI' như 'mới' — đồ của tôi luôn mới! Đuôi đổi theo đồ vật: мой / моя / моё.",
+  "how": [
+   "Thêm мой trước паспорт (giống đực) → мой паспорт, rồi đặt Где (ở đâu) lên đầu → Где мой паспорт?",
+   "Thêm ваша (giống cái, lịch sự) trước сумка → ваша сумка, rồi đặt Это lên đầu và lên giọng hỏi → Это ваша сумка?",
+   "Thêm твой trước номер → твой номер, đặt Какой (gì, nào) lên đầu và телефона ở cuối → Какой твой номер телефона?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Извините, это ваше место?",
+    "ph": "iz-vi-NI-te E-ta VA-she MYES-ta",
+    "vi": "Xin lỗi, đây là chỗ của anh à?",
+    "hl": [
+     "ваше"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Нет, моё место у окна.",
+    "ph": "NYET ma-YO MYES-ta u ak-NA",
+    "vi": "Không, chỗ của tôi ở cạnh cửa sổ.",
+    "hl": [
+     "моё"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Хорошо. А это ваш чемодан?",
+    "ph": "kha-ra-SHO a E-ta VASH chi-ma-DAN",
+    "vi": "Vâng. Còn đây là va li của anh à?",
+    "hl": [
+     "ваш"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Да, мой. Спасибо!",
+    "ph": "DA MOY spa-SI-ba",
+    "vi": "Vâng, của tôi. Cảm ơn!",
+    "hl": [
+     "мой"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Это моя жена.",
+    "ph": "E-ta ma-YA zhi-NA",
+    "vi": "Đây là vợ tôi.",
+    "hl": [
+     "моя"
+    ],
+    "tokens": [
+     "Это",
+     "моя",
+     "жена"
+    ]
+   },
+   {
+    "t": "Где ваш багаж?",
+    "ph": "GDYE VASH ba-GASH",
+    "vi": "Hành lý của anh đâu?",
+    "hl": [
+     "ваш"
+    ],
+    "tokens": [
+     "Где",
+     "ваш",
+     "багаж"
+    ]
+   },
+   {
+    "t": "Мой телефон не работает.",
+    "ph": "MOY ti-li-FON ne ra-BO-ta-yet",
+    "vi": "Điện thoại của tôi bị hỏng.",
+    "hl": [
+     "Мой"
+    ],
+    "tokens": [
+     "Мой",
+     "телефон",
+     "не",
+     "работает"
+    ]
+   },
+   {
+    "t": "Твоя сестра очень красивая.",
+    "ph": "tva-YA sist-RA O-chen kra-SI-va-ya",
+    "vi": "Em gái bạn rất xinh.",
+    "hl": [
+     "Твоя"
+    ],
+    "tokens": [
+     "Твоя",
+     "сестра",
+     "очень",
+     "красивая"
+    ]
+   },
+   {
+    "t": "Мои друзья живут в Москве.",
+    "ph": "ma-I druz'-YA zhi-VUT v mask-VYE",
+    "vi": "Bạn bè tôi sống ở Moskva.",
+    "hl": [
+     "Мои"
+    ],
+    "tokens": [
+     "Мои",
+     "друзья",
+     "живут",
+     "в",
+     "Москве"
+    ]
+   },
+   {
+    "t": "Это машина моего брата.",
+    "ph": "E-ta ma-SHI-na ma-ye-VO BRA-ta",
+    "vi": "Đây là xe của anh trai tôi.",
+    "hl": [
+     "моего"
+    ],
+    "tokens": [
+     "Это",
+     "машина",
+     "моего",
+     "брата"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "Động từ"
+   },
+   {
+    "k": "P",
+    "t": "в / на"
+   },
+   {
+    "k": "O",
+    "t": "Nơi chốn (đuôi -е)"
+   }
+  ],
+  "points": [
+   "'Ở, tại' dùng в cho nơi kín, có ranh giới: в гостинице, в Москве, в магазине.",
+   "Dùng на cho nơi mở hoặc sự kiện, hoạt động: на вокзале, на работе, на концерте, на улице.",
+   "Danh từ sau в/на chuyển sang cách giới từ, thường đổi đuôi thành -е: Москва → в Москве, банк → в банке.",
+   "Hỏi 'ở đâu' dùng Где: \"Где вы живёте?\" — trả lời bằng в hoặc на."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Я живу в гостиница.",
+    "right": "Я живу в гостинице.",
+    "why": "Sau в chỉ nơi chốn, danh từ phải đổi đuôi sang cách giới từ (-е)."
+   },
+   {
+    "wrong": "Он сейчас в работе.",
+    "right": "Он сейчас на работе.",
+    "why": "Работа (chỗ làm) đi với на, không đi với в — cần học thuộc những từ đi với на."
+   }
+  ],
+  "compare": "Tiếng Việt chỉ cần 'ở' + nơi chốn (ở khách sạn), còn tiếng Nga phải chọn в hay на và đổi đuôi danh từ (в гостинице).",
+  "tip": "В = 'vào trong' (trong nhà, trong thành phố); на = 'nằm trên' (sân ga, đường phố, buổi hòa nhạc).",
+  "how": [
+   "Đổi гостиница sang cách giới từ гостинице, thêm в phía trước → в гостинице, rồi đặt Я живу lên trước → Я живу в гостинице.",
+   "Đổi вокзал thành вокзале, thêm на (nơi công cộng mở) → на вокзале, rồi đặt Мы встретимся lên trước → Мы встретимся на вокзале.",
+   "Đổi работа thành работе, thêm на → на работе, rồi đặt Папа сейчас lên trước → Папа сейчас на работе."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Где ты сейчас?",
+    "ph": "GDYE ty sey-CHAS",
+    "vi": "Bạn đang ở đâu?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Я в кафе на Арбате.",
+    "ph": "YA f ka-FE na ar-BA-te",
+    "vi": "Tôi ở quán cà phê trên phố Arbat.",
+    "hl": [
+     "в",
+     "на"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Отлично, я рядом, в магазине.",
+    "ph": "at-LICH-na YA RYA-dam v ma-ga-ZI-ne",
+    "vi": "Tuyệt, tôi ở gần đó, trong cửa hàng.",
+    "hl": [
+     "в"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Тогда встретимся на площади.",
+    "ph": "tag-DA VSTRYE-tim-sya na PLO-shcha-di",
+    "vi": "Vậy hẹn gặp ở quảng trường nhé.",
+    "hl": [
+     "на"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Мама на кухне.",
+    "ph": "MA-ma na KUKH-nye",
+    "vi": "Mẹ ở trong bếp.",
+    "hl": [
+     "на"
+    ],
+    "tokens": [
+     "Мама",
+     "на",
+     "кухне"
+    ]
+   },
+   {
+    "t": "Он работает в банке.",
+    "ph": "ON ra-BO-ta-yet v BAN-ke",
+    "vi": "Anh ấy làm việc ở ngân hàng.",
+    "hl": [
+     "в"
+    ],
+    "tokens": [
+     "Он",
+     "работает",
+     "в",
+     "банке"
+    ]
+   },
+   {
+    "t": "Дети играют на улице.",
+    "ph": "DYE-ti ig-RA-yut na U-li-tse",
+    "vi": "Bọn trẻ chơi ngoài đường.",
+    "hl": [
+     "на"
+    ],
+    "tokens": [
+     "Дети",
+     "играют",
+     "на",
+     "улице"
+    ]
+   },
+   {
+    "t": "Мы обедали в ресторане.",
+    "ph": "MY a-BYE-da-li v ris-ta-RA-ne",
+    "vi": "Chúng tôi ăn trưa ở nhà hàng.",
+    "hl": [
+     "в"
+    ],
+    "tokens": [
+     "Мы",
+     "обедали",
+     "в",
+     "ресторане"
+    ]
+   },
+   {
+    "t": "Вчера я был на концерте.",
+    "ph": "fchi-RA YA BYL na kan-TSER-te",
+    "vi": "Hôm qua tôi đi xem hòa nhạc.",
+    "hl": [
+     "на"
+    ],
+    "tokens": [
+     "Вчера",
+     "я",
+     "был",
+     "на",
+     "концерте"
+    ]
+   },
+   {
+    "t": "Моя сестра учится в университете.",
+    "ph": "ma-YA sist-RA U-chit-sya v u-ni-vir-si-TYE-te",
+    "vi": "Em gái tôi học ở trường đại học.",
+    "hl": [
+     "в"
+    ],
+    "tokens": [
+     "Моя",
+     "сестра",
+     "учится",
+     "в",
+     "университете"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "Động từ"
+   },
+   {
+    "k": "P",
+    "t": "с / со"
+   },
+   {
+    "k": "O",
+    "t": "Người / Vật (cách công cụ)"
+   }
+  ],
+  "points": [
+   "'Với, cùng' = с + danh từ/đại từ ở cách công cụ: с другом, с мамой.",
+   "Đuôi cách công cụ: giống đực/trung thêm -ом/-ем (друг → другом), giống cái đổi thành -ой (мама → мамой).",
+   "Đại từ đổi dạng: я → со мной, ты → с тобой, он → с ним, она → с ней, мы → с нами, вы → с вами.",
+   "Với đồ ăn uống, с nghĩa là 'có kèm': кофе с молоком (cà phê sữa), чай с лимоном (trà chanh)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Пойдёмте с я.",
+    "right": "Пойдёмте со мной.",
+    "why": "Đại từ sau с phải ở cách công cụ: я → мной, và с đổi thành со cho dễ đọc."
+   },
+   {
+    "wrong": "Я путешествую с друг.",
+    "right": "Я путешествую с другом.",
+    "why": "Danh từ sau с phải thêm đuôi cách công cụ: друг → другом."
+   }
+  ],
+  "compare": "Vị trí giống 'với' tiếng Việt, đứng trước người/vật đi kèm (với bạn = с другом); khác ở chỗ danh từ sau с phải đổi đuôi.",
+  "tip": "Nhớ qua món quen: 'cà phê sữa' = кофе с молоком — sau с là đuôi -ом / -ой!",
+  "how": [
+   "Đổi друг sang cách công cụ другом, thêm с → с другом, rồi đặt Я путешествую lên trước → Я путешествую с другом.",
+   "Đổi я thành мной, thêm со (с thêm o cho dễ đọc) → со мной, rồi đặt Пойдёмте (hãy đi) lên trước → Пойдёмте со мной.",
+   "Đổi молоко thành молоком, thêm с → с молоком, rồi đặt Мне кофе (cho tôi cà phê) lên trước → Мне кофе с молоком."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Ты едешь один?",
+    "ph": "TY YE-dish' a-DIN",
+    "vi": "Bạn đi một mình à?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Нет, с женой и детьми.",
+    "ph": "NYET z zhi-NOY i dit'-MI",
+    "vi": "Không, đi với vợ và các con.",
+    "hl": [
+     "с"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Можно с вами?",
+    "ph": "MOZH-na s VA-mi",
+    "vi": "Tôi đi cùng được không?",
+    "hl": [
+     "с"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Конечно, поехали с нами!",
+    "ph": "ka-NYESH-na pa-YE-kha-li s NA-mi",
+    "vi": "Tất nhiên, đi với chúng tôi nào!",
+    "hl": [
+     "с"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Чай с лимоном, пожалуйста.",
+    "ph": "CHAY s li-MO-nam pa-ZHA-lus-ta",
+    "vi": "Cho tôi trà chanh.",
+    "hl": [
+     "с"
+    ],
+    "tokens": [
+     "Чай",
+     "с",
+     "лимоном,",
+     "пожалуйста"
+    ]
+   },
+   {
+    "t": "Я живу с родителями.",
+    "ph": "YA zhi-VU s ra-DI-ti-lya-mi",
+    "vi": "Tôi sống với bố mẹ.",
+    "hl": [
+     "с"
+    ],
+    "tokens": [
+     "Я",
+     "живу",
+     "с",
+     "родителями"
+    ]
+   },
+   {
+    "t": "Мы ужинали с друзьями.",
+    "ph": "MY U-zhi-na-li z druz'-YA-mi",
+    "vi": "Chúng tôi ăn tối với bạn bè.",
+    "hl": [
+     "с"
+    ],
+    "tokens": [
+     "Мы",
+     "ужинали",
+     "с",
+     "друзьями"
+    ]
+   },
+   {
+    "t": "Можно поговорить с вами?",
+    "ph": "MOZH-na pa-ga-va-RIT' s VA-mi",
+    "vi": "Tôi nói chuyện với anh được không?",
+    "hl": [
+     "с"
+    ],
+    "tokens": [
+     "Можно",
+     "поговорить",
+     "с",
+     "вами"
+    ]
+   },
+   {
+    "t": "Я хочу номер с балконом.",
+    "ph": "YA kha-CHU NO-mir z bal-KO-nam",
+    "vi": "Tôi muốn phòng có ban công.",
+    "hl": [
+     "с"
+    ],
+    "tokens": [
+     "Я",
+     "хочу",
+     "номер",
+     "с",
+     "балконом"
+    ]
+   },
+   {
+    "t": "Она приехала в Москву с сестрой.",
+    "ph": "a-NA pri-YE-kha-la v mask-VU s sist-ROY",
+    "vi": "Cô ấy đến Moskva cùng em gái.",
+    "hl": [
+     "с"
+    ],
+    "tokens": [
+     "Она",
+     "приехала",
+     "в",
+     "Москву",
+     "с",
+     "сестрой"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "formula": [
+   {
+    "k": "O",
+    "t": "Vật"
+   },
+   {
+    "k": "P",
+    "t": "для"
+   },
+   {
+    "k": "O",
+    "t": "Người nhận (cách sở hữu)"
+   }
+  ],
+  "points": [
+   "'Dành cho ai/cái gì' = для + cách sở hữu: для мамы, для детей.",
+   "Đại từ sau для cũng đổi dạng: я → для меня, ты → для тебя, мы → для нас, вы → для вас.",
+   "'Đưa, cho ai' sau động từ дать không dùng для mà đặt người nhận ở cách tặng: дать вам, дать маме.",
+   "Для còn chỉ mục đích, công dụng: \"сумка для ноутбука\" = túi đựng laptop."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Это подарок для мама.",
+    "right": "Это подарок для мамы.",
+    "why": "Danh từ sau для phải ở cách sở hữu: мама → мамы."
+   },
+   {
+    "wrong": "Я дам для вас карту.",
+    "right": "Я дам вам карту.",
+    "why": "Với động từ 'đưa, cho' (дать) người nhận dùng cách tặng (вам), không dùng для."
+   }
+  ],
+  "compare": "Giống 'cho / dành cho' tiếng Việt, đứng trước người nhận (quà cho mẹ = подарок для мамы); khác ở chỗ danh từ phải đổi đuôi, và sau 'đưa' tiếng Nga bỏ luôn giới từ (дать вам).",
+  "tip": "Quà tặng, đồ dành riêng thì для; đưa tận tay (дать) thì chỉ cần đổi đuôi người nhận: вам, маме.",
+  "how": [
+   "Đổi мама sang cách sở hữu мамы, thêm для → для мамы, rồi đặt Это подарок (đây là quà) lên trước → Это подарок для мамы.",
+   "Đổi дети sang cách sở hữu детей, thêm для → для детей, rồi đặt Есть меню (có thực đơn) lên trước để hỏi → Есть меню для детей?",
+   "Đặt вам (cho anh, cách tặng) sau động từ дать → дать вам, rồi thêm Я могу phía trước và карту ở cuối → Я могу дать вам карту."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Я ищу подарок для друга.",
+    "ph": "YA i-SHCHU pa-DA-rak DLYA DRU-ga",
+    "vi": "Tôi đang tìm quà cho bạn.",
+    "hl": [
+     "для"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Может быть, эта матрёшка?",
+    "ph": "MO-zhet BYT' E-ta mat-RYOSH-ka",
+    "vi": "Có lẽ con búp bê matryoshka này?",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "Отлично! А что-нибудь для сына?",
+    "ph": "at-LICH-na a SHTO-ni-bud' DLYA SY-na",
+    "vi": "Tuyệt! Còn có gì cho con trai tôi không?",
+    "hl": [
+     "для"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Да, вот эта игрушка.",
+    "ph": "DA VOT E-ta ig-RUSH-ka",
+    "vi": "Có, món đồ chơi này đây.",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Это для меня?",
+    "ph": "E-ta DLYA mi-NYA",
+    "vi": "Cái này cho tôi à?",
+    "hl": [
+     "для"
+    ],
+    "tokens": [
+     "Это",
+     "для",
+     "меня"
+    ]
+   },
+   {
+    "t": "Этот стол для нас?",
+    "ph": "E-tat STOL DLYA NAS",
+    "vi": "Bàn này dành cho chúng tôi à?",
+    "hl": [
+     "для"
+    ],
+    "tokens": [
+     "Этот",
+     "стол",
+     "для",
+     "нас"
+    ]
+   },
+   {
+    "t": "Я купил цветы для жены.",
+    "ph": "YA ku-PIL tsvi-TY DLYA zhi-NY",
+    "vi": "Tôi mua hoa cho vợ.",
+    "hl": [
+     "для"
+    ],
+    "tokens": [
+     "Я",
+     "купил",
+     "цветы",
+     "для",
+     "жены"
+    ]
+   },
+   {
+    "t": "У вас есть крем для лица?",
+    "ph": "u VAS YEST' KRYEM DLYA li-TSA",
+    "vi": "Anh chị có kem dưỡng da mặt không?",
+    "hl": [
+     "для"
+    ],
+    "tokens": [
+     "У",
+     "вас",
+     "есть",
+     "крем",
+     "для",
+     "лица"
+    ]
+   },
+   {
+    "t": "Мне нужна сумка для ноутбука.",
+    "ph": "MNYE nuzh-NA SUM-ka DLYA na-ut-BU-ka",
+    "vi": "Tôi cần một cái túi đựng laptop.",
+    "hl": [
+     "для"
+    ],
+    "tokens": [
+     "Мне",
+     "нужна",
+     "сумка",
+     "для",
+     "ноутбука"
+    ]
+   },
+   {
+    "t": "Мы забронировали номер для всей семьи.",
+    "ph": "MY za-bra-NI-ra-va-li NO-mir DLYA VSYEY sim'-YI",
+    "vi": "Chúng tôi đã đặt phòng cho cả gia đình.",
+    "hl": [
+     "для"
+    ],
+    "tokens": [
+     "Мы",
+     "забронировали",
+     "номер",
+     "для",
+     "всей",
+     "семьи"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Người (cách tặng: мне, вам)"
+   },
+   {
+    "k": "P",
+    "t": "надо / нужно"
+   },
+   {
+    "k": "V",
+    "t": "Động từ nguyên mẫu"
+   },
+   {
+    "k": "O",
+    "t": "(Bổ ngữ)"
+   }
+  ],
+  "points": [
+   "Мне надо / нужно + động từ nguyên mẫu = tôi phải/cần làm gì; người ở cách tặng: мне, тебе, нам, вам.",
+   "Надо và нужно không đổi hình thức và dùng như nhau trong văn nói.",
+   "Cách khác: Я должен + nguyên mẫu (chủ ngữ ở cách chủ); должен hợp giống: должна (nữ), должны (số nhiều).",
+   "'Không cần' là не надо / не нужно: \"Вам не надо платить\" = Anh không cần trả tiền."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Я надо идти.",
+    "right": "Мне надо идти.",
+    "why": "Với надо/нужно người phải ở cách tặng (мне), không dùng я."
+   },
+   {
+    "wrong": "Она должен работать.",
+    "right": "Она должна работать.",
+    "why": "Должен phải hợp giống với chủ ngữ: chủ ngữ nữ thì dùng должна."
+   }
+  ],
+  "compare": "Tiếng Việt nói 'Tôi phải đi', còn tiếng Nga nói kiểu 'Với tôi cần đi' (Мне надо идти) — người làm ở cách tặng; chỉ với должен thì trật tự mới giống tiếng Việt (Я должен...).",
+  "tip": "'Phải' thì nhớ Мне надо chứ không phải Я надо — 'MNIÊ NA-đa', nghe như 'mê nạp đạn' rồi phải đi!",
+  "how": [
+   "Thêm надо trước động từ nguyên mẫu идти → надо идти, rồi đặt Мне (cách tặng của я) lên đầu → Мне надо идти.",
+   "Thêm должен trước заплатить → должен заплатить, đặt Я lên đầu và заранее (trước) ở cuối, lên giọng hỏi → Я должен заплатить заранее?",
+   "Thêm нужно trước подождать → нужно подождать, đặt Вам lên đầu và немного ở cuối → Вам нужно подождать немного."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Мне надо в аптеку. Где она?",
+    "ph": "MNYE NA-da v ap-TYE-ku GDYE a-NA",
+    "vi": "Tôi phải đi hiệu thuốc. Nó ở đâu?",
+    "hl": [
+     "надо"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Вам нужно идти прямо, потом налево.",
+    "ph": "VAM NUZH-na it-TI PRYA-ma pa-TOM na-LYE-va",
+    "vi": "Anh cần đi thẳng, rồi rẽ trái.",
+    "hl": [
+     "нужно"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Далеко?",
+    "ph": "da-li-KO",
+    "vi": "Có xa không?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Нет, но вам надо спешить.",
+    "ph": "NYET no VAM NA-da spi-SHIT'",
+    "vi": "Không xa, nhưng anh phải nhanh lên.",
+    "hl": [
+     "надо"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Мне надо позвонить.",
+    "ph": "MNYE NA-da pa-zva-NIT'",
+    "vi": "Tôi phải gọi điện.",
+    "hl": [
+     "надо"
+    ],
+    "tokens": [
+     "Мне",
+     "надо",
+     "позвонить"
+    ]
+   },
+   {
+    "t": "Тебе нужно отдохнуть.",
+    "ph": "ti-BYE NUZH-na at-dakh-NUT'",
+    "vi": "Bạn cần nghỉ ngơi.",
+    "hl": [
+     "нужно"
+    ],
+    "tokens": [
+     "Тебе",
+     "нужно",
+     "отдохнуть"
+    ]
+   },
+   {
+    "t": "Нам надо купить воду.",
+    "ph": "NAM NA-da ku-PIT' VO-du",
+    "vi": "Chúng ta phải mua nước.",
+    "hl": [
+     "надо"
+    ],
+    "tokens": [
+     "Нам",
+     "надо",
+     "купить",
+     "воду"
+    ]
+   },
+   {
+    "t": "Она должна работать завтра.",
+    "ph": "a-NA dalzh-NA ra-BO-tat' ZAF-tra",
+    "vi": "Ngày mai cô ấy phải làm việc.",
+    "hl": [
+     "должна"
+    ],
+    "tokens": [
+     "Она",
+     "должна",
+     "работать",
+     "завтра"
+    ]
+   },
+   {
+    "t": "Вам не надо платить за вход.",
+    "ph": "VAM ne NA-da pla-TIT' za FKHOT",
+    "vi": "Anh không cần trả tiền vào cửa.",
+    "hl": [
+     "надо"
+    ],
+    "tokens": [
+     "Вам",
+     "не",
+     "надо",
+     "платить",
+     "за",
+     "вход"
+    ]
+   },
+   {
+    "t": "Мы должны быть в аэропорту в шесть.",
+    "ph": "MY dalzh-NY BYT' v a-e-ra-par-TU f SHEST'",
+    "vi": "Chúng ta phải có mặt ở sân bay lúc sáu giờ.",
+    "hl": [
+     "должны"
+    ],
+    "tokens": [
+     "Мы",
+     "должны",
+     "быть",
+     "в",
+     "аэропорту",
+     "в",
+     "шесть"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "(Muốn / Có thể)"
+   },
+   {
+    "k": "P",
+    "t": "попробовать"
+   },
+   {
+    "k": "O",
+    "t": "Món ăn / Động từ"
+   }
+  ],
+  "points": [
+   "Попробовать + danh từ ở cách đối cách = nếm thử: попробовать борщ.",
+   "Попробовать + động từ nguyên mẫu = thử làm gì: \"Я попробую позвонить\".",
+   "Chia ở tương lai: я попробую, мы попробуем, вы попробуете; mời ai thử thì nói \"Попробуйте!\".",
+   "Thử quần áo, giày dép dùng động từ riêng примерить: \"Можно примерить?\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Можно попробовать эту куртку?",
+    "right": "Можно примерить эту куртку?",
+    "why": "Thử đồ để mặc dùng примерить; попробовать chỉ dùng cho đồ ăn uống hoặc thử làm việc gì."
+   },
+   {
+    "wrong": "Я попробовать позвонить ему.",
+    "right": "Я попробую позвонить ему.",
+    "why": "Sau chủ ngữ phải chia động từ: я попробую, không để nguyên mẫu."
+   }
+  ],
+  "compare": "Tiếng Việt dùng 'thử' cho mọi thứ (ăn thử, mặc thử, làm thử), tiếng Nga tách ra: попробовать cho ăn uống và thử làm việc, còn примерить cho quần áo.",
+  "tip": "Ăn thử, làm thử: 'pa-PRÔ-ba' (попробовать); mặc thử: 'pri-MIÊ-rit' (примерить) — ăn bằng miệng, mặc bằng người!",
+  "how": [
+   "Thêm попробовать trước món ăn борщ → попробовать борщ, rồi đặt Я хочу lên trước → Я хочу попробовать борщ.",
+   "Vì là quần áo nên dùng примерить: thêm примерить эту trước куртку → примерить эту куртку, rồi mở đầu bằng Можно để xin phép → Можно примерить эту куртку?",
+   "Chia попробовать ở ngôi 'tôi' thành попробую, thêm trước позвонить → попробую позвонить, rồi đặt Я lên đầu và ему ở cuối → Я попробую позвонить ему."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Хотите попробовать пельмени?",
+    "ph": "kha-TI-te pa-PRO-ba-vat' pil'-MYE-ni",
+    "vi": "Anh muốn ăn thử pelmeni không?",
+    "hl": [
+     "попробовать"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Да, с удовольствием!",
+    "ph": "DA s u-da-VOL'-stvi-yem",
+    "vi": "Có, rất sẵn lòng!",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "Попробуйте со сметаной.",
+    "ph": "pa-PRO-buy-te sa smi-TA-noy",
+    "vi": "Anh ăn thử với kem chua nhé.",
+    "hl": [
+     "Попробуйте"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Очень вкусно! Я попробую приготовить дома.",
+    "ph": "O-chen FKUS-na YA pa-PRO-bu-yu pri-ga-TO-vit' DO-ma",
+    "vi": "Ngon quá! Tôi sẽ thử nấu ở nhà.",
+    "hl": [
+     "попробую"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Попробуйте этот торт!",
+    "ph": "pa-PRO-buy-te E-tat TORT",
+    "vi": "Anh ăn thử bánh này đi!",
+    "hl": [
+     "Попробуйте"
+    ],
+    "tokens": [
+     "Попробуйте",
+     "этот",
+     "торт"
+    ]
+   },
+   {
+    "t": "Можно попробовать вино?",
+    "ph": "MOZH-na pa-PRO-ba-vat' vi-NO",
+    "vi": "Tôi uống thử rượu vang được không?",
+    "hl": [
+     "попробовать"
+    ],
+    "tokens": [
+     "Можно",
+     "попробовать",
+     "вино"
+    ]
+   },
+   {
+    "t": "Ты должен попробовать квас.",
+    "ph": "TY DOL-zhen pa-PRO-ba-vat' KVAS",
+    "vi": "Bạn nhất định phải uống thử kvas.",
+    "hl": [
+     "попробовать"
+    ],
+    "tokens": [
+     "Ты",
+     "должен",
+     "попробовать",
+     "квас"
+    ]
+   },
+   {
+    "t": "Я попробую говорить по-русски.",
+    "ph": "YA pa-PRO-bu-yu ga-va-RIT' pa-RUS-ki",
+    "vi": "Tôi sẽ thử nói tiếng Nga.",
+    "hl": [
+     "попробую"
+    ],
+    "tokens": [
+     "Я",
+     "попробую",
+     "говорить",
+     "по-русски"
+    ]
+   },
+   {
+    "t": "Мы попробуем найти другой отель.",
+    "ph": "MY pa-PRO-bu-yem nay-TI dru-GOY a-TEL'",
+    "vi": "Chúng tôi sẽ thử tìm khách sạn khác.",
+    "hl": [
+     "попробуем"
+    ],
+    "tokens": [
+     "Мы",
+     "попробуем",
+     "найти",
+     "другой",
+     "отель"
+    ]
+   },
+   {
+    "t": "Давайте попробуем местную кухню сегодня вечером.",
+    "ph": "da-VAY-te pa-PRO-bu-yem MYES-nu-yu KUKH-nyu si-VOD-nya VYE-che-ram",
+    "vi": "Tối nay chúng ta ăn thử món địa phương nhé.",
+    "hl": [
+     "попробуем"
+    ],
+    "tokens": [
+     "Давайте",
+     "попробуем",
+     "местную",
+     "кухню",
+     "сегодня",
+     "вечером"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,3146 @@
+[
+ {
+  "id": 1,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "don't / doesn't"
+   },
+   {
+    "k": "V",
+    "t": "Động từ nguyên mẫu"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Dùng don't sau I, you, we, they: \"I don't know.\"",
+   "Dùng doesn't sau he, she, it hoặc danh từ số ít: \"He doesn't eat fish.\"",
+   "Sau don't/doesn't, động từ luôn ở dạng nguyên mẫu, không thêm -s: \"She doesn't like\" chứ không phải \"doesn't likes\".",
+   "Với to be thì không dùng don't mà chỉ thêm not: \"I am not hungry.\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "I not speak English.",
+    "right": "I don't speak English.",
+    "why": "Tiếng Việt chỉ cần thêm \"không\", nhưng tiếng Anh phải có trợ động từ don't đứng trước động từ."
+   },
+   {
+    "wrong": "She doesn't speaks French.",
+    "right": "She doesn't speak French.",
+    "why": "Đã có doesn't thì động từ phía sau giữ nguyên mẫu, không thêm -s."
+   }
+  ],
+  "compare": "Giống tiếng Việt, từ phủ định đứng ngay trước động từ (không ăn = don't eat). Khác ở chỗ tiếng Anh phải đổi don't thành doesn't khi chủ ngữ là he, she, it.",
+  "tip": "He, she, it là \"ba người khó tính\": họ đòi doesn't, còn lại cứ dùng don't.",
+  "how": [
+   "Thêm don't trước động từ speak → don't speak, rồi đặt I lên đầu và French ở cuối → I don't speak French.",
+   "Thêm don't trước eat → don't eat, rồi thêm chủ ngữ I phía trước và tân ngữ meat phía sau → I don't eat meat.",
+   "The wifi là số ít (như it) nên dùng doesn't trước work → doesn't work, rồi đặt The wifi lên đầu → The wifi doesn't work."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Do you want some coffee?",
+    "ph": "DU YU UAN XAM CO-PHI",
+    "vi": "Bạn uống chút cà phê không?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "No, thanks. I don't drink coffee.",
+    "ph": "NÔU THENKS AI DOUNT ĐRINK CO-PHI",
+    "vi": "Không, cảm ơn. Tôi không uống cà phê.",
+    "hl": [
+     "don't"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Does your wife like tea?",
+    "ph": "DÁT DO UAIF LAIK TI",
+    "vi": "Vợ bạn có thích trà không?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "No, she doesn't like tea.",
+    "ph": "NÔU SHI ĐA-DƠNT LAIK TI",
+    "vi": "Không, cô ấy không thích trà.",
+    "hl": [
+     "doesn't"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "I don't know.",
+    "ph": "AI DOUNT NÂU",
+    "vi": "Tôi không biết.",
+    "hl": [
+     "don't"
+    ],
+    "tokens": [
+     "I",
+     "don't",
+     "know"
+    ]
+   },
+   {
+    "t": "We don't have time.",
+    "ph": "UY DOUNT HEV TAIM",
+    "vi": "Chúng tôi không có thời gian.",
+    "hl": [
+     "don't"
+    ],
+    "tokens": [
+     "We",
+     "don't",
+     "have",
+     "time"
+    ]
+   },
+   {
+    "t": "He doesn't eat fish.",
+    "ph": "HI ĐA-DƠNT IT PHISH",
+    "vi": "Anh ấy không ăn cá.",
+    "hl": [
+     "doesn't"
+    ],
+    "tokens": [
+     "He",
+     "doesn't",
+     "eat",
+     "fish"
+    ]
+   },
+   {
+    "t": "They don't live here now.",
+    "ph": "ĐÂY DOUNT LIV HIA NAO",
+    "vi": "Bây giờ họ không sống ở đây.",
+    "hl": [
+     "don't"
+    ],
+    "tokens": [
+     "They",
+     "don't",
+     "live",
+     "here",
+     "now"
+    ]
+   },
+   {
+    "t": "This bus doesn't go to the airport.",
+    "ph": "ĐIS BÁT ĐA-DƠNT GÔU TU ĐƠ E-PO",
+    "vi": "Xe buýt này không đi sân bay.",
+    "hl": [
+     "doesn't"
+    ],
+    "tokens": [
+     "This",
+     "bus",
+     "doesn't",
+     "go",
+     "to",
+     "the",
+     "airport"
+    ]
+   },
+   {
+    "t": "My mother doesn't understand English very well.",
+    "ph": "MAI MA-ĐƠ ĐA-DƠNT AN-ĐƠ-STEN INH-GLISH VE-RI UEL",
+    "vi": "Mẹ tôi không hiểu tiếng Anh lắm.",
+    "hl": [
+     "doesn't"
+    ],
+    "tokens": [
+     "My",
+     "mother",
+     "doesn't",
+     "understand",
+     "English",
+     "very",
+     "well"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "have / has"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ"
+   }
+  ],
+  "points": [
+   "I, you, we, they đi với have: \"We have two bags.\"",
+   "He, she, it hoặc danh từ số ít đi với has: \"The room has a balcony.\"",
+   "Câu hỏi dùng Do/Does + chủ ngữ + have; sau Does vẫn giữ have: \"Does she have a car?\"",
+   "Phủ định dùng don't have / doesn't have: \"I don't have cash.\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "The hotel have a pool.",
+    "right": "The hotel has a pool.",
+    "why": "Chủ ngữ số ít (the hotel = it) phải dùng has."
+   },
+   {
+    "wrong": "Does he has a ticket?",
+    "right": "Does he have a ticket?",
+    "why": "Sau does, động từ trở về nguyên mẫu have."
+   }
+  ],
+  "compare": "Giống tiếng Việt, have đứng sau chủ ngữ và trước đồ vật như chữ \"có\". Khác là have phải đổi thành has với he, she, it, còn \"ở đây có ...\" thì tiếng Anh lại nói There is ...",
+  "tip": "has có chữ s giống she: he, she, it đều \"có s\" nên dùng has.",
+  "how": [
+   "Thêm a trước ticket rồi đặt have phía trước → have a ticket, sau đó thêm I lên đầu → I have a ticket.",
+   "Ghép have với a map → have a map, rồi biến thành câu hỏi bằng Do you ở đầu → Do you have a map?",
+   "The hotel là số ít nên dùng has → has a pool, rồi đặt The hotel lên đầu → The hotel has a pool."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Do you have a room for tonight?",
+    "ph": "DU YU HEV Ơ RUM PHO TU-NAIT",
+    "vi": "Anh còn phòng cho tối nay không?",
+    "hl": [
+     "have"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Yes, we have one room.",
+    "ph": "YÉS UY HEV UAN RUM",
+    "vi": "Có, chúng tôi còn một phòng.",
+    "hl": [
+     "have"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Does it have wifi?",
+    "ph": "DÁT IT HEV UAI-PHAI",
+    "vi": "Phòng có wifi không?",
+    "hl": [
+     "have"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Yes, every room has free wifi.",
+    "ph": "YÉS E-VRI RUM HEZ PHRI UAI-PHAI",
+    "vi": "Có, phòng nào cũng có wifi miễn phí.",
+    "hl": [
+     "has"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "I have a question.",
+    "ph": "AI HEV Ơ QUÉT-CHẦN",
+    "vi": "Tôi có một câu hỏi.",
+    "hl": [
+     "have"
+    ],
+    "tokens": [
+     "I",
+     "have",
+     "a",
+     "question"
+    ]
+   },
+   {
+    "t": "She has two children.",
+    "ph": "SHI HEZ TU CHIL-ĐRẦN",
+    "vi": "Cô ấy có hai đứa con.",
+    "hl": [
+     "has"
+    ],
+    "tokens": [
+     "She",
+     "has",
+     "two",
+     "children"
+    ]
+   },
+   {
+    "t": "We have a big family.",
+    "ph": "UY HEV Ơ BÍC PHE-MI-LI",
+    "vi": "Chúng tôi có một gia đình lớn.",
+    "hl": [
+     "have"
+    ],
+    "tokens": [
+     "We",
+     "have",
+     "a",
+     "big",
+     "family"
+    ]
+   },
+   {
+    "t": "Do you have a smaller size?",
+    "ph": "DU YU HEV Ơ XMO-LƠ XAIZ",
+    "vi": "Bạn có cỡ nhỏ hơn không?",
+    "hl": [
+     "have"
+    ],
+    "tokens": [
+     "Do",
+     "you",
+     "have",
+     "a",
+     "smaller",
+     "size"
+    ]
+   },
+   {
+    "t": "This room has a nice view.",
+    "ph": "ĐIS RUM HEZ Ơ NAIS VIU",
+    "vi": "Phòng này có tầm nhìn đẹp.",
+    "hl": [
+     "has"
+    ],
+    "tokens": [
+     "This",
+     "room",
+     "has",
+     "a",
+     "nice",
+     "view"
+    ]
+   },
+   {
+    "t": "Does the restaurant have a menu in English?",
+    "ph": "DÁT ĐƠ RÉS-TƠ-RÔNT HEV Ơ ME-NIU IN INH-GLISH",
+    "vi": "Nhà hàng có thực đơn tiếng Anh không?",
+    "hl": [
+     "have"
+    ],
+    "tokens": [
+     "Does",
+     "the",
+     "restaurant",
+     "have",
+     "a",
+     "menu",
+     "in",
+     "English"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "am / is / are"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ / Tính từ"
+   }
+  ],
+  "points": [
+   "I đi với am; he, she, it và danh từ số ít đi với is; you, we, they và danh từ số nhiều đi với are.",
+   "Sau to be có thể là danh từ (\"She is a doctor.\") hoặc tính từ (\"The room is clean.\").",
+   "Câu hỏi đảo to be lên trước chủ ngữ: \"Are you tired?\"",
+   "Văn nói hay viết tắt: I'm, you're, he's, it's."
+  ],
+  "mistakes": [
+   {
+    "wrong": "I hungry.",
+    "right": "I am hungry.",
+    "why": "Tiếng Việt nói \"Tôi đói\" không cần \"là\", nhưng tiếng Anh bắt buộc có am/is/are trước tính từ."
+   },
+   {
+    "wrong": "She are a teacher.",
+    "right": "She is a teacher.",
+    "why": "She là ngôi thứ ba số ít nên dùng is."
+   }
+  ],
+  "compare": "Giống chữ \"là\" khi giới thiệu (\"Tôi là Lan\" = \"I am Lan\"). Khác là trước tính từ tiếng Việt bỏ \"là\" (\"Tôi mệt\") nhưng tiếng Anh vẫn phải có to be (\"I am tired\").",
+  "tip": "Nhớ cặp đôi: I đi với am, he/she/it đi với is, còn lại đi với are; câu thiếu to be là câu \"mất chân\".",
+  "how": [
+   "Thêm am trước a student → am a student, rồi đặt I lên đầu → I am a student.",
+   "name là danh từ số ít nên đi với is → name is, rồi thêm My ở đầu và tên Lan ở cuối → My name is Lan.",
+   "We đi với are nên ghép are friends, rồi đặt We lên đầu và now ở cuối → We are friends now."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Hello, I am Minh. Are you a tourist?",
+    "ph": "HE-LÔU AI EM MINH A YU Ơ TUA-RỊT",
+    "vi": "Xin chào, tôi là Minh. Bạn là khách du lịch à?",
+    "hl": [
+     "am",
+     "Are"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Yes, I am from Japan.",
+    "ph": "YÉS AI EM PHRÓM JƠ-PEN",
+    "vi": "Vâng, tôi đến từ Nhật Bản.",
+    "hl": [
+     "am"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Is this your first time in Vietnam?",
+    "ph": "IZ ĐIS DO PHƠST TAIM IN VIỆT-NAM",
+    "vi": "Đây là lần đầu bạn đến Việt Nam à?",
+    "hl": [
+     "Is"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Yes, and the food is great!",
+    "ph": "YÉS EN ĐƠ PHUT IZ GRÂYT",
+    "vi": "Vâng, và đồ ăn ở đây rất ngon!",
+    "hl": [
+     "is"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Are you tired?",
+    "ph": "A YU TAI-ƠĐ",
+    "vi": "Bạn có mệt không?",
+    "hl": [
+     "Are"
+    ],
+    "tokens": [
+     "Are",
+     "you",
+     "tired"
+    ]
+   },
+   {
+    "t": "He is my brother.",
+    "ph": "HI IZ MAI BRA-ĐƠ",
+    "vi": "Anh ấy là anh trai tôi.",
+    "hl": [
+     "is"
+    ],
+    "tokens": [
+     "He",
+     "is",
+     "my",
+     "brother"
+    ]
+   },
+   {
+    "t": "The coffee is too hot.",
+    "ph": "ĐƠ CO-PHI IZ TU HÓT",
+    "vi": "Cà phê nóng quá.",
+    "hl": [
+     "is"
+    ],
+    "tokens": [
+     "The",
+     "coffee",
+     "is",
+     "too",
+     "hot"
+    ]
+   },
+   {
+    "t": "Is this seat free?",
+    "ph": "IZ ĐIS XÍT PHRI",
+    "vi": "Chỗ này còn trống không?",
+    "hl": [
+     "Is"
+    ],
+    "tokens": [
+     "Is",
+     "this",
+     "seat",
+     "free"
+    ]
+   },
+   {
+    "t": "The rooms are very clean.",
+    "ph": "ĐƠ RUMZ A VE-RI CLIN",
+    "vi": "Các phòng rất sạch.",
+    "hl": [
+     "are"
+    ],
+    "tokens": [
+     "The",
+     "rooms",
+     "are",
+     "very",
+     "clean"
+    ]
+   },
+   {
+    "t": "My hotel is near the beach.",
+    "ph": "MAI HÔU-TEL IZ NIA ĐƠ BICH",
+    "vi": "Khách sạn của tôi ở gần biển.",
+    "hl": [
+     "is"
+    ],
+    "tokens": [
+     "My",
+     "hotel",
+     "is",
+     "near",
+     "the",
+     "beach"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "want (to)"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ / Động từ"
+   }
+  ],
+  "points": [
+   "want + danh từ nghĩa là muốn có cái gì: \"I want water.\"",
+   "want to + động từ nguyên mẫu nghĩa là muốn làm gì: \"I want to sleep.\"",
+   "He, she, it dùng wants; câu hỏi dùng Do/Does + chủ ngữ + want ...?",
+   "Khi gọi món hay nhờ vả, nói I'd like ... nghe lịch sự hơn I want ..."
+  ],
+  "mistakes": [
+   {
+    "wrong": "I want go home.",
+    "right": "I want to go home.",
+    "why": "Muốn làm gì thì phải có to giữa want và động từ."
+   },
+   {
+    "wrong": "She want a taxi.",
+    "right": "She wants a taxi.",
+    "why": "Chủ ngữ she cần thêm -s: wants."
+   }
+  ],
+  "compare": "Giống tiếng Việt, want đứng trước thứ mình muốn như chữ \"muốn\". Khác là trước động từ tiếng Anh phải chen thêm to (muốn đi = want to go).",
+  "tip": "Muốn LÀM gì thì nhớ \"want TO\": to là cây cầu nối sang hành động.",
+  "how": [
+   "Đặt want trước coffee → want coffee, rồi thêm I ở đầu và and bread ở cuối → I want coffee and bread.",
+   "Thêm want to trước động từ go → want to go, rồi thêm I phía trước và home phía sau → I want to go home.",
+   "Ghép want to với buy → want to buy, rồi mở đầu câu hỏi bằng Do you và thêm this ở cuối → Do you want to buy this?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "What do you want for dinner?",
+    "ph": "UÓT DU YU UAN PHO ĐI-NƠ",
+    "vi": "Tối nay bạn muốn ăn gì?",
+    "hl": [
+     "want"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "I want to try pho.",
+    "ph": "AI UAN TU TRAI PHỞ",
+    "vi": "Tôi muốn thử phở.",
+    "hl": [
+     "want to"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Do you want to walk there?",
+    "ph": "DU YU UAN TU UOK ĐE",
+    "vi": "Bạn có muốn đi bộ đến đó không?",
+    "hl": [
+     "want to"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "No, I want a taxi. I'm tired.",
+    "ph": "NÔU AI UAN Ơ TÉC-XI AIM TAI-ƠĐ",
+    "vi": "Không, tôi muốn đi taxi. Tôi mệt rồi.",
+    "hl": [
+     "want"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "I want some water.",
+    "ph": "AI UAN XAM UO-TƠ",
+    "vi": "Tôi muốn uống chút nước.",
+    "hl": [
+     "want"
+    ],
+    "tokens": [
+     "I",
+     "want",
+     "some",
+     "water"
+    ]
+   },
+   {
+    "t": "She wants a new phone.",
+    "ph": "SHI UANTS Ơ NIU PHÔUN",
+    "vi": "Cô ấy muốn một chiếc điện thoại mới.",
+    "hl": [
+     "wants"
+    ],
+    "tokens": [
+     "She",
+     "wants",
+     "a",
+     "new",
+     "phone"
+    ]
+   },
+   {
+    "t": "We want to sleep now.",
+    "ph": "UY UAN TU SLIP NAO",
+    "vi": "Chúng tôi muốn đi ngủ bây giờ.",
+    "hl": [
+     "want to"
+    ],
+    "tokens": [
+     "We",
+     "want",
+     "to",
+     "sleep",
+     "now"
+    ]
+   },
+   {
+    "t": "Do you want some tea?",
+    "ph": "DU YU UAN XAM TI",
+    "vi": "Bạn có muốn uống chút trà không?",
+    "hl": [
+     "want"
+    ],
+    "tokens": [
+     "Do",
+     "you",
+     "want",
+     "some",
+     "tea"
+    ]
+   },
+   {
+    "t": "I want to book a room for two.",
+    "ph": "AI UAN TU BÚC Ơ RUM PHO TU",
+    "vi": "Tôi muốn đặt một phòng cho hai người.",
+    "hl": [
+     "want to"
+    ],
+    "tokens": [
+     "I",
+     "want",
+     "to",
+     "book",
+     "a",
+     "room",
+     "for",
+     "two"
+    ]
+   },
+   {
+    "t": "My son wants to learn English this summer.",
+    "ph": "MAI XAN UANTS TU LƠN INH-GLISH ĐIS XA-MƠ",
+    "vi": "Con trai tôi muốn học tiếng Anh vào mùa hè này.",
+    "hl": [
+     "wants to"
+    ],
+    "tokens": [
+     "My",
+     "son",
+     "wants",
+     "to",
+     "learn",
+     "English",
+     "this",
+     "summer"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "like / likes"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ / V-ing"
+   }
+  ],
+  "points": [
+   "like + danh từ nghĩa là thích cái gì: \"I like coffee.\"",
+   "like + V-ing để nói thích làm gì: \"I like reading.\"",
+   "He, she, it dùng likes; phủ định dùng don't like / doesn't like.",
+   "Would you like ...? là lời mời lịch sự, nghĩa là \"Bạn có muốn ... không?\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "I very like music.",
+    "right": "I like music very much.",
+    "why": "Tiếng Việt nói \"rất thích\" nhưng tiếng Anh đặt very much ở cuối câu."
+   },
+   {
+    "wrong": "He like cats.",
+    "right": "He likes cats.",
+    "why": "Chủ ngữ he cần thêm -s: likes."
+   }
+  ],
+  "compare": "Giống tiếng Việt, like đứng ngay sau chủ ngữ như chữ \"thích\". Khác là chữ \"rất\" không đứng trước like mà biến thành very much ở cuối câu.",
+  "tip": "Rất thích = like ... very much: chữ \"rất\" chạy ra cuối câu.",
+  "how": [
+   "Đặt like trước music → like music, rồi thêm I ở đầu và very much ở cuối → I like music very much.",
+   "Dùng like + V-ing → like swimming, rồi thêm I phía trước và in the sea phía sau → I like swimming in the sea.",
+   "My sister là ngôi thứ ba số ít nên dùng likes → likes cats, rồi đặt My sister lên đầu → My sister likes cats."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Do you like Vietnamese food?",
+    "ph": "DU YU LAIK VIỆT-NA-MIZ PHUT",
+    "vi": "Bạn có thích đồ ăn Việt Nam không?",
+    "hl": [
+     "like"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Yes, I like it a lot!",
+    "ph": "YÉS AI LAIK IT Ơ LÓT",
+    "vi": "Có, tôi thích lắm!",
+    "hl": [
+     "like"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Do you like spicy food?",
+    "ph": "DU YU LAIK SPAI-XI PHUT",
+    "vi": "Bạn có thích đồ cay không?",
+    "hl": [
+     "like"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Not really. My wife likes it.",
+    "ph": "NÓT RIA-LI MAI UAIF LAIKS IT",
+    "vi": "Không hẳn. Vợ tôi thì thích.",
+    "hl": [
+     "likes"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "I like this song.",
+    "ph": "AI LAIK ĐIS XONG",
+    "vi": "Tôi thích bài hát này.",
+    "hl": [
+     "like"
+    ],
+    "tokens": [
+     "I",
+     "like",
+     "this",
+     "song"
+    ]
+   },
+   {
+    "t": "She likes green tea.",
+    "ph": "SHI LAIKS GRIN TI",
+    "vi": "Cô ấy thích trà xanh.",
+    "hl": [
+     "likes"
+    ],
+    "tokens": [
+     "She",
+     "likes",
+     "green",
+     "tea"
+    ]
+   },
+   {
+    "t": "We like walking at night.",
+    "ph": "UY LAIK UO-KINH ÉT NAIT",
+    "vi": "Chúng tôi thích đi dạo buổi tối.",
+    "hl": [
+     "like"
+    ],
+    "tokens": [
+     "We",
+     "like",
+     "walking",
+     "at",
+     "night"
+    ]
+   },
+   {
+    "t": "He doesn't like cold weather.",
+    "ph": "HI ĐA-DƠNT LAIK CÔULĐ UE-ĐƠ",
+    "vi": "Anh ấy không thích thời tiết lạnh.",
+    "hl": [
+     "like"
+    ],
+    "tokens": [
+     "He",
+     "doesn't",
+     "like",
+     "cold",
+     "weather"
+    ]
+   },
+   {
+    "t": "Do your children like ice cream?",
+    "ph": "DU DO CHIL-ĐRẦN LAIK AIS CRIM",
+    "vi": "Con bạn có thích kem không?",
+    "hl": [
+     "like"
+    ],
+    "tokens": [
+     "Do",
+     "your",
+     "children",
+     "like",
+     "ice",
+     "cream"
+    ]
+   },
+   {
+    "t": "I like cooking for my friends on weekends.",
+    "ph": "AI LAIK CÚ-KINH PHO MAI PHRENĐZ ON UYK-ENZ",
+    "vi": "Tôi thích nấu ăn cho bạn bè vào cuối tuần.",
+    "hl": [
+     "like"
+    ],
+    "tokens": [
+     "I",
+     "like",
+     "cooking",
+     "for",
+     "my",
+     "friends",
+     "on",
+     "weekends"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "need (to)"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ / Động từ"
+   }
+  ],
+  "points": [
+   "need + danh từ nghĩa là cần cái gì: \"I need a doctor.\"",
+   "need to + động từ nguyên mẫu nghĩa là cần làm gì: \"We need to hurry.\"",
+   "He, she, it dùng needs; don't need to nghĩa là không cần phải làm gì.",
+   "Câu hỏi Do you need ...? hay dùng khi muốn giúp ai đó."
+  ],
+  "mistakes": [
+   {
+    "wrong": "I need go to the bank.",
+    "right": "I need to go to the bank.",
+    "why": "Cần làm gì thì phải có to trước động từ."
+   },
+   {
+    "wrong": "She need a doctor.",
+    "right": "She needs a doctor.",
+    "why": "Chủ ngữ she cần thêm -s: needs."
+   }
+  ],
+  "compare": "Giống tiếng Việt, need đứng trước thứ cần như chữ \"cần\". Khác là trước động từ phải thêm to (cần đổi = need to change).",
+  "tip": "need và want là anh em sinh đôi: gặp động từ phía sau thì cả hai đều cần to.",
+  "how": [
+   "Đặt need trước help → need help, rồi mở đầu câu hỏi bằng Do you → Do you need help?",
+   "Thêm a trước taxi rồi ghép với need → need a taxi, sau đó đặt We lên đầu → We need a taxi.",
+   "Thêm need to trước động từ change → need to change, rồi thêm I phía trước và money phía sau → I need to change money."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Excuse me, do you need help?",
+    "ph": "IX-KIUZ MI DU YU NIT HEL-P",
+    "vi": "Xin lỗi, bạn cần giúp gì không?",
+    "hl": [
+     "need"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Yes, I need to find this hotel.",
+    "ph": "YÉS AI NIT TU PHAIN ĐIS HÔU-TEL",
+    "vi": "Vâng, tôi cần tìm khách sạn này.",
+    "hl": [
+     "need to"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "It is far. You need a taxi.",
+    "ph": "IT IZ PHA YU NIT Ơ TÉC-XI",
+    "vi": "Xa lắm. Bạn cần đi taxi.",
+    "hl": [
+     "need"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Thank you so much!",
+    "ph": "THENK YU XÔU MÂCH",
+    "vi": "Cảm ơn bạn nhiều lắm!",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "I need a doctor.",
+    "ph": "AI NIT Ơ ĐÓC-TƠ",
+    "vi": "Tôi cần bác sĩ.",
+    "hl": [
+     "need"
+    ],
+    "tokens": [
+     "I",
+     "need",
+     "a",
+     "doctor"
+    ]
+   },
+   {
+    "t": "We need more time.",
+    "ph": "UY NIT MO TAIM",
+    "vi": "Chúng tôi cần thêm thời gian.",
+    "hl": [
+     "need"
+    ],
+    "tokens": [
+     "We",
+     "need",
+     "more",
+     "time"
+    ]
+   },
+   {
+    "t": "She needs a new passport.",
+    "ph": "SHI NIĐZ Ơ NIU PÁT-SPOT",
+    "vi": "Cô ấy cần hộ chiếu mới.",
+    "hl": [
+     "needs"
+    ],
+    "tokens": [
+     "She",
+     "needs",
+     "a",
+     "new",
+     "passport"
+    ]
+   },
+   {
+    "t": "You don't need to pay now.",
+    "ph": "YU DOUNT NIT TU PÂY NAO",
+    "vi": "Bạn không cần trả tiền bây giờ.",
+    "hl": [
+     "need to"
+    ],
+    "tokens": [
+     "You",
+     "don't",
+     "need",
+     "to",
+     "pay",
+     "now"
+    ]
+   },
+   {
+    "t": "I need to charge my phone.",
+    "ph": "AI NIT TU CHA-ĐƠ MAI PHÔUN",
+    "vi": "Tôi cần sạc điện thoại.",
+    "hl": [
+     "need to"
+    ],
+    "tokens": [
+     "I",
+     "need",
+     "to",
+     "charge",
+     "my",
+     "phone"
+    ]
+   },
+   {
+    "t": "We need to check out before noon.",
+    "ph": "UY NIT TU CHÉC AOT BI-PHO NUN",
+    "vi": "Chúng tôi cần trả phòng trước buổi trưa.",
+    "hl": [
+     "need to"
+    ],
+    "tokens": [
+     "We",
+     "need",
+     "to",
+     "check",
+     "out",
+     "before",
+     "noon"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "can / can't"
+   },
+   {
+    "k": "V",
+    "t": "Động từ nguyên mẫu"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "can + động từ nguyên mẫu, dùng giống nhau cho mọi chủ ngữ, không thêm -s: \"He can swim.\"",
+   "Phủ định là can't (cannot): \"I can't sleep.\"",
+   "Can I ...? để xin phép, Can you ...? để nhờ vả: \"Can I sit here?\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "She cans speak English.",
+    "right": "She can speak English.",
+    "why": "can không bao giờ thêm -s, kể cả với he, she, it."
+   },
+   {
+    "wrong": "I can to swim.",
+    "right": "I can swim.",
+    "why": "Sau can dùng động từ nguyên mẫu, không có to."
+   }
+  ],
+  "compare": "Giống chữ \"có thể\" đứng trước động từ (có thể trả = can pay). Khác là tiếng Việt hỏi \"... được không?\" ở cuối câu, còn tiếng Anh đưa Can lên đầu câu.",
+  "tip": "can là từ \"lười\": không thêm -s, không cần to, ai dùng cũng như nhau.",
+  "how": [
+   "Thêm can trước động từ speak → can speak, rồi đặt She lên đầu và English ở cuối → She can speak English.",
+   "Thêm can trước pay → can pay, rồi thêm I phía trước và by card phía sau → I can pay by card.",
+   "Dùng dạng phủ định can't trước find → can't find, rồi thêm I ở đầu và my phone ở cuối → I can't find my phone."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Can I help you?",
+    "ph": "KEN AI HEL-P YU",
+    "vi": "Tôi giúp gì được cho bạn?",
+    "hl": [
+     "Can"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Yes. Can I pay by card here?",
+    "ph": "YÉS KEN AI PÂY BAI CA-ĐƠ HIA",
+    "vi": "Vâng. Ở đây tôi trả bằng thẻ được không?",
+    "hl": [
+     "Can"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Sorry, you can't. Only cash.",
+    "ph": "XO-RI YU KÁNT ÔUN-LI KÉSH",
+    "vi": "Xin lỗi, không được ạ. Chỉ nhận tiền mặt.",
+    "hl": [
+     "can't"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "OK, I can pay in cash.",
+    "ph": "ÔU-KÂY AI KEN PÂY IN KÉSH",
+    "vi": "Được, vậy tôi trả tiền mặt.",
+    "hl": [
+     "can"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "I can swim.",
+    "ph": "AI KEN XUYM",
+    "vi": "Tôi biết bơi.",
+    "hl": [
+     "can"
+    ],
+    "tokens": [
+     "I",
+     "can",
+     "swim"
+    ]
+   },
+   {
+    "t": "Can I sit here?",
+    "ph": "KEN AI XÍT HIA",
+    "vi": "Tôi ngồi đây được không?",
+    "hl": [
+     "Can"
+    ],
+    "tokens": [
+     "Can",
+     "I",
+     "sit",
+     "here"
+    ]
+   },
+   {
+    "t": "He can't come today.",
+    "ph": "HI KÁNT CAM TU-ĐÂY",
+    "vi": "Hôm nay anh ấy không đến được.",
+    "hl": [
+     "can't"
+    ],
+    "tokens": [
+     "He",
+     "can't",
+     "come",
+     "today"
+    ]
+   },
+   {
+    "t": "Can you speak more slowly?",
+    "ph": "KEN YU SPIK MO SLÔU-LI",
+    "vi": "Bạn nói chậm hơn được không?",
+    "hl": [
+     "Can"
+    ],
+    "tokens": [
+     "Can",
+     "you",
+     "speak",
+     "more",
+     "slowly"
+    ]
+   },
+   {
+    "t": "We can meet at the hotel.",
+    "ph": "UY KEN MIT ÉT ĐƠ HÔU-TEL",
+    "vi": "Chúng ta có thể gặp nhau ở khách sạn.",
+    "hl": [
+     "can"
+    ],
+    "tokens": [
+     "We",
+     "can",
+     "meet",
+     "at",
+     "the",
+     "hotel"
+    ]
+   },
+   {
+    "t": "You can't smoke inside the restaurant.",
+    "ph": "YU KÁNT XMÔUK IN-XAI ĐƠ RÉS-TƠ-RÔNT",
+    "vi": "Bạn không được hút thuốc trong nhà hàng.",
+    "hl": [
+     "can't"
+    ],
+    "tokens": [
+     "You",
+     "can't",
+     "smoke",
+     "inside",
+     "the",
+     "restaurant"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 8,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "go"
+   },
+   {
+    "k": "X",
+    "t": "(Giới từ)"
+   },
+   {
+    "k": "O",
+    "t": "Nơi chốn / Phương tiện / V-ing"
+   }
+  ],
+  "points": [
+   "go to + nơi chốn: \"go to the airport\"; riêng home, here, there thì không có to: \"go home\".",
+   "go by + phương tiện, không có a/the: \"go by train\"; đi bộ là \"go on foot\" hoặc \"walk\".",
+   "go + V-ing cho các hoạt động: go shopping, go swimming.",
+   "Quá khứ của go là went: \"We went to Hue.\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "I want to go to home.",
+    "right": "I want to go home.",
+    "why": "home đứng ngay sau go, không thêm to."
+   },
+   {
+    "wrong": "We go by the bus.",
+    "right": "We go by bus.",
+    "why": "Sau by chỉ phương tiện thì không dùng the."
+   }
+  ],
+  "compare": "Giống tiếng Việt, go đứng trước nơi chốn như chữ \"đi\". Khác là tiếng Việt nói thẳng \"đi biển\", \"đi xe buýt\", còn tiếng Anh cần giới từ: go to the beach, go by bus.",
+  "tip": "Đi ĐẾN đâu dùng to, đi BẰNG gì dùng by, đi LÀM gì thì thêm -ing.",
+  "how": [
+   "Thêm to the trước beach → go to the beach, rồi mở đầu bằng Let's để rủ rê → Let's go to the beach.",
+   "Dùng by trước phương tiện bus → go by bus, rồi thêm We can ở đầu → We can go by bus.",
+   "Ghép go với shopping (V-ing) → go shopping, rồi thêm We phía trước và on Sunday phía sau → We go shopping on Sunday."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Where do you want to go today?",
+    "ph": "UE DU YU UAN TU GÔU TU-ĐÂY",
+    "vi": "Hôm nay bạn muốn đi đâu?",
+    "hl": [
+     "go"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Let's go to the old town.",
+    "ph": "LÉTS GÔU TU ĐƠ ÔULĐ TAON",
+    "vi": "Mình đi phố cổ đi.",
+    "hl": [
+     "go to"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Can we go by taxi?",
+    "ph": "KEN UY GÔU BAI TÉC-XI",
+    "vi": "Mình đi taxi được không?",
+    "hl": [
+     "go by"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "It's close. We can go on foot.",
+    "ph": "ITS CLÔUZ UY KEN GÔU ON PHÚT",
+    "vi": "Gần lắm. Mình đi bộ được mà.",
+    "hl": [
+     "go"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Let's go home.",
+    "ph": "LÉTS GÔU HÔUM",
+    "vi": "Mình về nhà thôi.",
+    "hl": [
+     "go"
+    ],
+    "tokens": [
+     "Let's",
+     "go",
+     "home"
+    ]
+   },
+   {
+    "t": "I go to work by bike.",
+    "ph": "AI GÔU TU UƠK BAI BAIK",
+    "vi": "Tôi đi làm bằng xe đạp.",
+    "hl": [
+     "go to"
+    ],
+    "tokens": [
+     "I",
+     "go",
+     "to",
+     "work",
+     "by",
+     "bike"
+    ]
+   },
+   {
+    "t": "They go swimming every morning.",
+    "ph": "ĐÂY GÔU XUY-MINH E-VRI MO-NINH",
+    "vi": "Sáng nào họ cũng đi bơi.",
+    "hl": [
+     "go"
+    ],
+    "tokens": [
+     "They",
+     "go",
+     "swimming",
+     "every",
+     "morning"
+    ]
+   },
+   {
+    "t": "Do you go to school by bus?",
+    "ph": "DU YU GÔU TU XCUL BAI BÁT",
+    "vi": "Bạn đi học bằng xe buýt à?",
+    "hl": [
+     "go to"
+    ],
+    "tokens": [
+     "Do",
+     "you",
+     "go",
+     "to",
+     "school",
+     "by",
+     "bus"
+    ]
+   },
+   {
+    "t": "We went to Da Nang last summer.",
+    "ph": "UY UENT TU ĐA NẴNG LÁT XA-MƠ",
+    "vi": "Mùa hè năm ngoái chúng tôi đi Đà Nẵng.",
+    "hl": [
+     "went to"
+    ],
+    "tokens": [
+     "We",
+     "went",
+     "to",
+     "Da",
+     "Nang",
+     "last",
+     "summer"
+    ]
+   },
+   {
+    "t": "I want to go camping with my friends.",
+    "ph": "AI UAN TU GÔU KEM-PINH UYĐ MAI PHRENĐZ",
+    "vi": "Tôi muốn đi cắm trại với bạn bè.",
+    "hl": [
+     "go"
+    ],
+    "tokens": [
+     "I",
+     "want",
+     "to",
+     "go",
+     "camping",
+     "with",
+     "my",
+     "friends"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 9,
+  "formula": [
+   {
+    "k": "P",
+    "t": "Where"
+   },
+   {
+    "k": "X",
+    "t": "is / are / do"
+   },
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "(Động từ)"
+   }
+  ],
+  "points": [
+   "Where is + danh từ số ít: \"Where is the bank?\"",
+   "Where are + danh từ số nhiều hoặc you, they: \"Where are my keys?\"",
+   "Hỏi ai làm gì ở đâu dùng Where do/does + chủ ngữ + động từ: \"Where do you live?\"",
+   "Trong câu hỏi gián tiếp (Do you know ...?), chủ ngữ đứng trước động từ: \"where the bank is\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "The toilet where?",
+    "right": "Where is the toilet?",
+    "why": "Tiếng Việt để \"ở đâu\" cuối câu, nhưng tiếng Anh đưa Where lên đầu và cần is."
+   },
+   {
+    "wrong": "Do you know where is the station?",
+    "right": "Do you know where the station is?",
+    "why": "Trong câu hỏi gián tiếp, is phải đứng sau chủ ngữ."
+   }
+  ],
+  "compare": "Tiếng Việt đặt \"ở đâu\" cuối câu (\"Nhà vệ sinh ở đâu?\"), còn tiếng Anh đặt Where ở đầu câu. Riêng câu hỏi gián tiếp thì trật tự lại giống tiếng Việt: where the station is.",
+  "tip": "Hỏi thẳng: Where đứng đầu, is theo sau; hỏi vòng (Do you know): is chạy về cuối.",
+  "how": [
+   "Ghép Where is với the toilet → where is the toilet, rồi thêm on this floor ở cuối → Where is the toilet on this floor?",
+   "Đặt chủ ngữ the station trước is → where the station is, rồi mở đầu bằng Do you know → Do you know where the station is?",
+   "Dùng where are you với động từ staying → where are you staying, rồi thêm tonight ở cuối → Where are you staying tonight?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Excuse me, where is the bus stop?",
+    "ph": "IX-KIUZ MI UE IZ ĐƠ BÁT STÓP",
+    "vi": "Xin lỗi, trạm xe buýt ở đâu ạ?",
+    "hl": [
+     "where is"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "It's over there, near the bank.",
+    "ph": "ITS ÔU-VƠ ĐE NIA ĐƠ BENK",
+    "vi": "Ở đằng kia, gần ngân hàng.",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "And where are the taxis?",
+    "ph": "EN UE A ĐƠ TÉC-XIZ",
+    "vi": "Còn taxi thì ở đâu?",
+    "hl": [
+     "where are"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "They are in front of the hotel.",
+    "ph": "ĐÂY A IN PHRÂNT ÓV ĐƠ HÔU-TEL",
+    "vi": "Ở trước khách sạn.",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Where is my bag?",
+    "ph": "UE IZ MAI BÉC",
+    "vi": "Túi của tôi đâu rồi?",
+    "hl": [
+     "Where is"
+    ],
+    "tokens": [
+     "Where",
+     "is",
+     "my",
+     "bag"
+    ]
+   },
+   {
+    "t": "Where are you from?",
+    "ph": "UE A YU PHRÓM",
+    "vi": "Bạn từ đâu đến?",
+    "hl": [
+     "Where are"
+    ],
+    "tokens": [
+     "Where",
+     "are",
+     "you",
+     "from"
+    ]
+   },
+   {
+    "t": "Where do you live?",
+    "ph": "UE DU YU LIV",
+    "vi": "Bạn sống ở đâu?",
+    "hl": [
+     "Where"
+    ],
+    "tokens": [
+     "Where",
+     "do",
+     "you",
+     "live"
+    ]
+   },
+   {
+    "t": "Where can I buy a SIM card?",
+    "ph": "UE KEN AI BAI Ơ XIM CA-ĐƠ",
+    "vi": "Tôi có thể mua thẻ SIM ở đâu?",
+    "hl": [
+     "Where"
+    ],
+    "tokens": [
+     "Where",
+     "can",
+     "I",
+     "buy",
+     "a",
+     "SIM",
+     "card"
+    ]
+   },
+   {
+    "t": "Where did you put the keys?",
+    "ph": "UE DID YU PÚT ĐƠ KIZ",
+    "vi": "Bạn để chìa khóa ở đâu?",
+    "hl": [
+     "Where"
+    ],
+    "tokens": [
+     "Where",
+     "did",
+     "you",
+     "put",
+     "the",
+     "keys"
+    ]
+   },
+   {
+    "t": "Do you know where the post office is?",
+    "ph": "DU YU NÂU UE ĐƠ PÔUST Ó-PHÍT IZ",
+    "vi": "Bạn có biết bưu điện ở đâu không?",
+    "hl": [
+     "where"
+    ],
+    "tokens": [
+     "Do",
+     "you",
+     "know",
+     "where",
+     "the",
+     "post",
+     "office",
+     "is"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "formula": [
+   {
+    "k": "P",
+    "t": "How much / How many"
+   },
+   {
+    "k": "O",
+    "t": "(Danh từ)"
+   },
+   {
+    "k": "X",
+    "t": "Trợ động từ"
+   },
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   }
+  ],
+  "points": [
+   "How much is/are ...? để hỏi giá: \"How much are these shoes?\"",
+   "How much + danh từ không đếm được (money, water, time).",
+   "How many + danh từ số nhiều đếm được (days, people, bags).",
+   "Trả lời giá bằng It's + số tiền: \"It's fifty thousand dong.\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "How many money do you need?",
+    "right": "How much money do you need?",
+    "why": "money không đếm được nên phải dùng how much."
+   },
+   {
+    "wrong": "This shirt how much?",
+    "right": "How much is this shirt?",
+    "why": "Tiếng Việt để \"bao nhiêu\" cuối câu, tiếng Anh đưa How much lên đầu và thêm is."
+   }
+  ],
+  "compare": "Tiếng Việt chỉ có một từ \"bao nhiêu\" đặt cuối câu, còn tiếng Anh tách thành How much và How many, và luôn đặt ở đầu câu.",
+  "tip": "Đếm được từng cái (ngày, người) thì dùng many; phải đong đo (tiền, nước) thì dùng much.",
+  "how": [
+   "Ghép How much is với this → how much is this, rồi thêm shirt ở cuối → How much is this shirt?",
+   "days đếm được nên dùng how many days, rồi thêm will you stay → How many days will you stay?",
+   "money không đếm được nên dùng how much money, rồi thêm do you need → How much money do you need?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "How much is this hat?",
+    "ph": "HAO MÂCH IZ ĐIS HÉT",
+    "vi": "Cái mũ này bao nhiêu tiền?",
+    "hl": [
+     "How much"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "It's one hundred thousand dong.",
+    "ph": "ITS UAN HĂN-ĐRỜT THAO-DỜN ĐÔNG",
+    "vi": "Một trăm nghìn đồng.",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "How much for two hats?",
+    "ph": "HAO MÂCH PHO TU HÉTS",
+    "vi": "Hai cái thì bao nhiêu?",
+    "hl": [
+     "How much"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Two for one hundred fifty thousand.",
+    "ph": "TU PHO UAN HĂN-ĐRỜT PHÍP-TI THAO-DỜN",
+    "vi": "Hai cái một trăm năm mươi nghìn.",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "How much is it?",
+    "ph": "HAO MÂCH IZ IT",
+    "vi": "Cái này bao nhiêu tiền?",
+    "hl": [
+     "How much"
+    ],
+    "tokens": [
+     "How",
+     "much",
+     "is",
+     "it"
+    ]
+   },
+   {
+    "t": "How many people are there?",
+    "ph": "HAO ME-NI PI-PỒL A ĐE",
+    "vi": "Có bao nhiêu người?",
+    "hl": [
+     "How many"
+    ],
+    "tokens": [
+     "How",
+     "many",
+     "people",
+     "are",
+     "there"
+    ]
+   },
+   {
+    "t": "How much are these bananas?",
+    "ph": "HAO MÂCH A ĐIZ BƠ-NA-NƠZ",
+    "vi": "Chỗ chuối này bao nhiêu tiền?",
+    "hl": [
+     "How much"
+    ],
+    "tokens": [
+     "How",
+     "much",
+     "are",
+     "these",
+     "bananas"
+    ]
+   },
+   {
+    "t": "How much water do we need?",
+    "ph": "HAO MÂCH UO-TƠ DU UY NIT",
+    "vi": "Chúng ta cần bao nhiêu nước?",
+    "hl": [
+     "How much"
+    ],
+    "tokens": [
+     "How",
+     "much",
+     "water",
+     "do",
+     "we",
+     "need"
+    ]
+   },
+   {
+    "t": "How many rooms does the hotel have?",
+    "ph": "HAO ME-NI RUMZ DÁT ĐƠ HÔU-TEL HEV",
+    "vi": "Khách sạn có bao nhiêu phòng?",
+    "hl": [
+     "How many"
+    ],
+    "tokens": [
+     "How",
+     "many",
+     "rooms",
+     "does",
+     "the",
+     "hotel",
+     "have"
+    ]
+   },
+   {
+    "t": "How much is a taxi to the airport?",
+    "ph": "HAO MÂCH IZ Ơ TÉC-XI TU ĐƠ E-PO",
+    "vi": "Đi taxi ra sân bay hết bao nhiêu tiền?",
+    "hl": [
+     "How much"
+    ],
+    "tokens": [
+     "How",
+     "much",
+     "is",
+     "a",
+     "taxi",
+     "to",
+     "the",
+     "airport"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "formula": [
+   {
+    "k": "P",
+    "t": "What"
+   },
+   {
+    "k": "X",
+    "t": "is / do / does"
+   },
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "(Động từ)"
+   }
+  ],
+  "points": [
+   "What is + danh từ? để hỏi cái gì: \"What is your job?\"",
+   "What do/does + chủ ngữ + động từ? để hỏi làm gì: \"What do you need?\"",
+   "What + danh từ để hỏi loại nào: \"What color?\", \"What time?\"",
+   "what to + động từ nghĩa là \"nên làm gì\": \"I don't know what to say.\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "You want what?",
+    "right": "What do you want?",
+    "why": "Tiếng Việt để \"gì\" cuối câu, tiếng Anh đưa What lên đầu và thêm do."
+   },
+   {
+    "wrong": "What you are doing?",
+    "right": "What are you doing?",
+    "why": "Sau What phải đảo trợ động từ are lên trước chủ ngữ."
+   }
+  ],
+  "compare": "Tiếng Việt đặt \"gì\" ở cuối câu (\"Bạn muốn gì?\"), còn tiếng Anh luôn đưa What lên đầu rồi đảo trợ động từ lên trước chủ ngữ.",
+  "tip": "Câu hỏi What như đoàn tàu: What là đầu tàu, rồi đến do/is, sau đó mới đến người.",
+  "how": [
+   "Ghép What is với this → what is this, rồi thêm in English ở cuối → What is this in English?",
+   "Đặt What do you trước want → what do you want, rồi thêm to eat ở cuối → What do you want to eat?",
+   "Ghép what to với do → what to do, rồi đặt I don't know phía trước → I don't know what to do."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "What are you doing?",
+    "ph": "UÓT A YU DU-INH",
+    "vi": "Bạn đang làm gì vậy?",
+    "hl": [
+     "What"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "I am reading the menu.",
+    "ph": "AI EM RI-ĐINH ĐƠ ME-NIU",
+    "vi": "Tôi đang xem thực đơn.",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "What do you want to order?",
+    "ph": "UÓT DU YU UAN TU O-ĐƠ",
+    "vi": "Bạn muốn gọi món gì?",
+    "hl": [
+     "What"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "I don't know what to choose.",
+    "ph": "AI DOUNT NÂU UÓT TU CHUZ",
+    "vi": "Tôi không biết nên chọn món gì.",
+    "hl": [
+     "what"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "What is your name?",
+    "ph": "UÓT IZ DO NEIM",
+    "vi": "Bạn tên là gì?",
+    "hl": [
+     "What"
+    ],
+    "tokens": [
+     "What",
+     "is",
+     "your",
+     "name"
+    ]
+   },
+   {
+    "t": "What time is it?",
+    "ph": "UÓT TAIM IZ IT",
+    "vi": "Mấy giờ rồi?",
+    "hl": [
+     "What"
+    ],
+    "tokens": [
+     "What",
+     "time",
+     "is",
+     "it"
+    ]
+   },
+   {
+    "t": "What did you buy?",
+    "ph": "UÓT DID YU BAI",
+    "vi": "Bạn đã mua gì?",
+    "hl": [
+     "What"
+    ],
+    "tokens": [
+     "What",
+     "did",
+     "you",
+     "buy"
+    ]
+   },
+   {
+    "t": "What does this word mean?",
+    "ph": "UÓT DÁT ĐIS UƠĐ MIN",
+    "vi": "Từ này nghĩa là gì?",
+    "hl": [
+     "What"
+    ],
+    "tokens": [
+     "What",
+     "does",
+     "this",
+     "word",
+     "mean"
+    ]
+   },
+   {
+    "t": "What do you do on weekends?",
+    "ph": "UÓT DU YU DU ON UYK-ENZ",
+    "vi": "Cuối tuần bạn làm gì?",
+    "hl": [
+     "What"
+    ],
+    "tokens": [
+     "What",
+     "do",
+     "you",
+     "do",
+     "on",
+     "weekends"
+    ]
+   },
+   {
+    "t": "What is the best way to the airport?",
+    "ph": "UÓT IZ ĐƠ BÉST UÂY TU ĐƠ E-PO",
+    "vi": "Đường nào đến sân bay là tốt nhất?",
+    "hl": [
+     "What"
+    ],
+    "tokens": [
+     "What",
+     "is",
+     "the",
+     "best",
+     "way",
+     "to",
+     "the",
+     "airport"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "formula": [
+   {
+    "k": "P",
+    "t": "Who"
+   },
+   {
+    "k": "V",
+    "t": "Động từ / is"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Who is + người? để hỏi người đó là ai: \"Who is she?\"",
+   "Khi Who làm chủ ngữ thì đi thẳng với động từ, không cần do: \"Who lives here?\"",
+   "Ở thì hiện tại, động từ sau Who chia như với he/she: \"Who knows?\", \"Who wants tea?\"",
+   "who đứng giữa câu để nối hai ý: \"Do you know who called me?\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "Who does speak English?",
+    "right": "Who speaks English?",
+    "why": "Who là chủ ngữ nên không cần does, chỉ chia động từ thêm -s."
+   },
+   {
+    "wrong": "That man is who?",
+    "right": "Who is that man?",
+    "why": "Tiếng Anh đưa Who lên đầu câu, không để cuối như tiếng Việt."
+   }
+  ],
+  "compare": "Tiếng Việt để \"ai\" đúng vào vị trí người cần hỏi (\"Ai nói?\", \"Đó là ai?\"), còn tiếng Anh luôn đưa Who lên đầu câu.",
+  "tip": "Who hỏi người làm: Who + động từ thêm -s, cứ như đang nói về một người \"he\".",
+  "how": [
+   "Ghép Who is với that → who is that, rồi thêm man ở cuối → Who is that man?",
+   "Who là chủ ngữ nên đi thẳng với động từ thêm -s → who speaks, rồi thêm English here → Who speaks English here?",
+   "Ghép who với called → who called, thêm me ở cuối và đặt Do you know phía trước → Do you know who called me?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Who is at the door?",
+    "ph": "HU IZ ÉT ĐƠ ĐO",
+    "vi": "Ai ở ngoài cửa vậy?",
+    "hl": [
+     "Who"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "It's the hotel staff.",
+    "ph": "ITS ĐƠ HÔU-TEL STÁPH",
+    "vi": "Nhân viên khách sạn đấy.",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "Who ordered room service?",
+    "ph": "HU O-ĐƠĐ RUM XƠ-VÍT",
+    "vi": "Ai gọi dịch vụ phòng vậy?",
+    "hl": [
+     "Who"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "I did. I'm hungry!",
+    "ph": "AI DID AIM HĂNG-GRI",
+    "vi": "Em gọi đó. Em đói rồi!",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Who is she?",
+    "ph": "HU IZ SHI",
+    "vi": "Cô ấy là ai?",
+    "hl": [
+     "Who"
+    ],
+    "tokens": [
+     "Who",
+     "is",
+     "she"
+    ]
+   },
+   {
+    "t": "Who wants tea?",
+    "ph": "HU UANTS TI",
+    "vi": "Ai muốn uống trà?",
+    "hl": [
+     "Who"
+    ],
+    "tokens": [
+     "Who",
+     "wants",
+     "tea"
+    ]
+   },
+   {
+    "t": "Who is your teacher?",
+    "ph": "HU IZ DO TI-CHƠ",
+    "vi": "Giáo viên của bạn là ai?",
+    "hl": [
+     "Who"
+    ],
+    "tokens": [
+     "Who",
+     "is",
+     "your",
+     "teacher"
+    ]
+   },
+   {
+    "t": "Who lives in this house?",
+    "ph": "HU LIVZ IN ĐIS HAOS",
+    "vi": "Ai sống trong ngôi nhà này?",
+    "hl": [
+     "Who"
+    ],
+    "tokens": [
+     "Who",
+     "lives",
+     "in",
+     "this",
+     "house"
+    ]
+   },
+   {
+    "t": "Who did you meet yesterday?",
+    "ph": "HU DID YU MIT YÉT-TƠ-ĐÂY",
+    "vi": "Hôm qua bạn đã gặp ai?",
+    "hl": [
+     "Who"
+    ],
+    "tokens": [
+     "Who",
+     "did",
+     "you",
+     "meet",
+     "yesterday"
+    ]
+   },
+   {
+    "t": "I know who took my umbrella.",
+    "ph": "AI NÂU HU TÚC MAI ÂM-BRE-LƠ",
+    "vi": "Tôi biết ai đã lấy ô của tôi.",
+    "hl": [
+     "who"
+    ],
+    "tokens": [
+     "I",
+     "know",
+     "who",
+     "took",
+     "my",
+     "umbrella"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "formula": [
+   {
+    "k": "P",
+    "t": "When"
+   },
+   {
+    "k": "X",
+    "t": "Trợ động từ"
+   },
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "Động từ"
+   }
+  ],
+  "points": [
+   "When + do/does/did + chủ ngữ + động từ? để hỏi khi nào: \"When does the bus come?\"",
+   "When is + sự kiện? để hỏi thời điểm: \"When is your birthday?\"",
+   "Hỏi giờ cụ thể thì dùng What time: \"What time is breakfast?\"",
+   "when ở giữa câu nghĩa là \"khi\", và sau nó dùng thì hiện tại dù nói về tương lai: \"Call me when you arrive.\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "You leave when?",
+    "right": "When do you leave?",
+    "why": "When phải đứng đầu câu và cần trợ động từ do."
+   },
+   {
+    "wrong": "Call me when you will arrive.",
+    "right": "Call me when you arrive.",
+    "why": "Sau when (nghĩa là khi) dùng thì hiện tại, không dùng will."
+   }
+  ],
+  "compare": "Tiếng Việt \"khi nào\" có thể đứng đầu hoặc cuối câu (\"Khi nào đi?\", \"Đi khi nào?\"), còn tiếng Anh thì When luôn đứng đầu câu hỏi.",
+  "tip": "Hỏi ngày tháng thì dùng When; hỏi kim đồng hồ thì dùng What time.",
+  "how": [
+   "Đặt When do we trước leave → when do we leave, rồi thêm tomorrow ở cuối → When do we leave tomorrow?",
+   "Hỏi giờ thì dùng what time, rồi thêm does the shop open → What time does the shop open?",
+   "Ghép when với you arrive → when you arrive, rồi đặt Call me phía trước → Call me when you arrive."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "When does the train leave?",
+    "ph": "UEN DÁT ĐƠ TRÂYN LIV",
+    "vi": "Khi nào tàu chạy?",
+    "hl": [
+     "When"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "At nine o'clock.",
+    "ph": "ÉT NAIN Ơ-CLÓC",
+    "vi": "Lúc chín giờ.",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "What time does it arrive in Hue?",
+    "ph": "UÓT TAIM DÁT IT Ơ-RAIV IN HUẾ",
+    "vi": "Mấy giờ tàu đến Huế?",
+    "hl": [
+     "What time"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "At five. I will call you when I arrive.",
+    "ph": "ÉT PHAIV AI UYL CÔL YU UEN AI Ơ-RAIV",
+    "vi": "Lúc năm giờ. Đến nơi tôi sẽ gọi cho bạn.",
+    "hl": [
+     "when"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "When is your birthday?",
+    "ph": "UEN IZ DO BƠTH-ĐÂY",
+    "vi": "Sinh nhật bạn là khi nào?",
+    "hl": [
+     "When"
+    ],
+    "tokens": [
+     "When",
+     "is",
+     "your",
+     "birthday"
+    ]
+   },
+   {
+    "t": "What time is breakfast?",
+    "ph": "UÓT TAIM IZ BRÉC-PHỚT",
+    "vi": "Mấy giờ ăn sáng?",
+    "hl": [
+     "What time"
+    ],
+    "tokens": [
+     "What",
+     "time",
+     "is",
+     "breakfast"
+    ]
+   },
+   {
+    "t": "When do you finish work?",
+    "ph": "UEN DU YU PHI-NISH UƠK",
+    "vi": "Khi nào bạn tan làm?",
+    "hl": [
+     "When"
+    ],
+    "tokens": [
+     "When",
+     "do",
+     "you",
+     "finish",
+     "work"
+    ]
+   },
+   {
+    "t": "When did you come to Vietnam?",
+    "ph": "UEN DID YU CAM TU VIỆT-NAM",
+    "vi": "Bạn đến Việt Nam khi nào?",
+    "hl": [
+     "When"
+    ],
+    "tokens": [
+     "When",
+     "did",
+     "you",
+     "come",
+     "to",
+     "Vietnam"
+    ]
+   },
+   {
+    "t": "I was happy when I saw you.",
+    "ph": "AI UÓZ HE-PI UEN AI XO YU",
+    "vi": "Tôi rất vui khi gặp bạn.",
+    "hl": [
+     "when"
+    ],
+    "tokens": [
+     "I",
+     "was",
+     "happy",
+     "when",
+     "I",
+     "saw",
+     "you"
+    ]
+   },
+   {
+    "t": "Please tell me when the bus comes.",
+    "ph": "PLIZ TEL MI UEN ĐƠ BÁT CAMZ",
+    "vi": "Làm ơn báo tôi khi xe buýt đến.",
+    "hl": [
+     "when"
+    ],
+    "tokens": [
+     "Please",
+     "tell",
+     "me",
+     "when",
+     "the",
+     "bus",
+     "comes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 14,
+  "formula": [
+   {
+    "k": "P",
+    "t": "Why"
+   },
+   {
+    "k": "X",
+    "t": "Trợ động từ + Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "because (of)"
+   },
+   {
+    "k": "O",
+    "t": "Lý do"
+   }
+  ],
+  "points": [
+   "Why + trợ động từ + chủ ngữ? để hỏi lý do: \"Why do you study English?\"",
+   "because + mệnh đề (có chủ ngữ và động từ): \"because I'm tired\".",
+   "because of + danh từ: \"because of the traffic\".",
+   "Why don't we ...? là cách rủ rê: \"Why don't we take a taxi?\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "Why you are late?",
+    "right": "Why are you late?",
+    "why": "Sau Why phải đảo are lên trước chủ ngữ."
+   },
+   {
+    "wrong": "I'm late because the traffic.",
+    "right": "I'm late because of the traffic.",
+    "why": "Trước danh từ phải dùng because of, không dùng because một mình."
+   }
+  ],
+  "compare": "Giống tiếng Việt, because đứng trước lý do như chữ \"vì\". Khác là sau Why phải đảo trợ động từ lên trước chủ ngữ, và trước danh từ phải dùng because of.",
+  "tip": "Lý do là cả một câu thì dùng because; chỉ là một danh từ thì dùng because of.",
+  "how": [
+   "Ghép Why are you với late → why are you late, rồi thêm today ở cuối → Why are you late today?",
+   "Đặt because trước mệnh đề I'm tired → because I'm tired, rồi thêm I want to sleep phía trước → I want to sleep because I'm tired.",
+   "rain là danh từ nên dùng because of the rain, rồi đặt The flight is late phía trước → The flight is late because of the rain."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Why are you so happy?",
+    "ph": "UAI A YU XÔU HE-PI",
+    "vi": "Sao bạn vui thế?",
+    "hl": [
+     "Why"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Because I got a new job!",
+    "ph": "BI-CÔZ AI GÓT Ơ NIU JÓP",
+    "vi": "Vì tôi vừa có việc mới!",
+    "hl": [
+     "Because"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Why don't we celebrate tonight?",
+    "ph": "UAI DOUNT UY XE-LƠ-BRÂYT TU-NAIT",
+    "vi": "Sao tối nay mình không ăn mừng nhỉ?",
+    "hl": [
+     "Why"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Good idea! Let's go.",
+    "ph": "GÚT AI-ĐIA LÉTS GÔU",
+    "vi": "Ý hay đấy! Đi thôi.",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Why are you sad?",
+    "ph": "UAI A YU XÉT",
+    "vi": "Sao bạn buồn vậy?",
+    "hl": [
+     "Why"
+    ],
+    "tokens": [
+     "Why",
+     "are",
+     "you",
+     "sad"
+    ]
+   },
+   {
+    "t": "Why is the shop closed?",
+    "ph": "UAI IZ ĐƠ SHÓP CLÔUZĐ",
+    "vi": "Sao cửa hàng đóng cửa vậy?",
+    "hl": [
+     "Why"
+    ],
+    "tokens": [
+     "Why",
+     "is",
+     "the",
+     "shop",
+     "closed"
+    ]
+   },
+   {
+    "t": "Why don't we take a taxi?",
+    "ph": "UAI DOUNT UY TÂYK Ơ TÉC-XI",
+    "vi": "Sao mình không đi taxi nhỉ?",
+    "hl": [
+     "Why"
+    ],
+    "tokens": [
+     "Why",
+     "don't",
+     "we",
+     "take",
+     "a",
+     "taxi"
+    ]
+   },
+   {
+    "t": "Why do you want to learn English?",
+    "ph": "UAI DU YU UAN TU LƠN INH-GLISH",
+    "vi": "Tại sao bạn muốn học tiếng Anh?",
+    "hl": [
+     "Why"
+    ],
+    "tokens": [
+     "Why",
+     "do",
+     "you",
+     "want",
+     "to",
+     "learn",
+     "English"
+    ]
+   },
+   {
+    "t": "I stayed home because I was sick.",
+    "ph": "AI STÂYĐ HÔUM BI-CÔZ AI UÓZ XÍC",
+    "vi": "Tôi ở nhà vì tôi bị ốm.",
+    "hl": [
+     "because"
+    ],
+    "tokens": [
+     "I",
+     "stayed",
+     "home",
+     "because",
+     "I",
+     "was",
+     "sick"
+    ]
+   },
+   {
+    "t": "We are late because of the traffic.",
+    "ph": "UY A LÂYT BI-CÔZ ÓV ĐƠ TRE-PHÍC",
+    "vi": "Chúng tôi đến muộn vì kẹt xe.",
+    "hl": [
+     "because of"
+    ],
+    "tokens": [
+     "We",
+     "are",
+     "late",
+     "because",
+     "of",
+     "the",
+     "traffic"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 15,
+  "formula": [
+   {
+    "k": "X",
+    "t": "(Can / Could you)"
+   },
+   {
+    "k": "P",
+    "t": "please"
+   },
+   {
+    "k": "V",
+    "t": "Động từ"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Please đặt đầu câu mệnh lệnh cho lịch sự: \"Please sit down.\"",
+   "Please cũng có thể đứng cuối câu, trước nó có dấu phẩy: \"Water, please.\"",
+   "Can/Could you please + động từ? là cách nhờ rất lịch sự; Could lịch sự hơn Can.",
+   "Sau please luôn là động từ nguyên mẫu."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Please you help me.",
+    "right": "Please help me.",
+    "why": "Câu mệnh lệnh với please không có chủ ngữ you."
+   },
+   {
+    "wrong": "Can you please to wait?",
+    "right": "Can you please wait?",
+    "why": "Sau please dùng động từ nguyên mẫu, không có to."
+   }
+  ],
+  "compare": "Giống chữ \"làm ơn\" đặt trước lời nhờ. Khác là tiếng Việt hay thêm \"giúp tôi\", \"nhé\", còn tiếng Anh chỉ cần please ở đầu hoặc cuối câu là đủ lịch sự.",
+  "tip": "please là \"câu thần chú\": đặt đầu câu hay cuối câu đều linh nghiệm.",
+  "how": [
+   "Đặt please trước động từ call → please call, rồi thêm a taxi for me ở cuối → Please call a taxi for me.",
+   "Ghép please với wait → please wait, rồi mở đầu bằng Can you và thêm here ở cuối → Can you please wait here?",
+   "Ghép please với repeat → please repeat, đặt Could you phía trước và that ở cuối → Could you please repeat that?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Two coffees, please.",
+    "ph": "TU CO-PHIZ PLIZ",
+    "vi": "Cho tôi hai cà phê nhé.",
+    "hl": [
+     "please"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Hot or iced?",
+    "ph": "HÓT O AIST",
+    "vi": "Nóng hay đá ạ?",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "Iced, please. And the bill, please.",
+    "ph": "AIST PLIZ EN ĐƠ BIL PLIZ",
+    "vi": "Đá nhé. Và cho tôi tính tiền luôn.",
+    "hl": [
+     "please"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Please wait a moment.",
+    "ph": "PLIZ UÂYT Ơ MÔU-MỜNT",
+    "vi": "Xin vui lòng đợi một chút.",
+    "hl": [
+     "Please"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Please sit down.",
+    "ph": "PLIZ XÍT ĐAO",
+    "vi": "Mời bạn ngồi.",
+    "hl": [
+     "Please"
+    ],
+    "tokens": [
+     "Please",
+     "sit",
+     "down"
+    ]
+   },
+   {
+    "t": "Please help me.",
+    "ph": "PLIZ HEL-P MI",
+    "vi": "Làm ơn giúp tôi.",
+    "hl": [
+     "Please"
+    ],
+    "tokens": [
+     "Please",
+     "help",
+     "me"
+    ]
+   },
+   {
+    "t": "Please speak slowly.",
+    "ph": "PLIZ SPIK SLÔU-LI",
+    "vi": "Làm ơn nói chậm thôi.",
+    "hl": [
+     "Please"
+    ],
+    "tokens": [
+     "Please",
+     "speak",
+     "slowly"
+    ]
+   },
+   {
+    "t": "Please close the window.",
+    "ph": "PLIZ CLÔUZ ĐƠ UYN-ĐÔU",
+    "vi": "Làm ơn đóng cửa sổ lại.",
+    "hl": [
+     "Please"
+    ],
+    "tokens": [
+     "Please",
+     "close",
+     "the",
+     "window"
+    ]
+   },
+   {
+    "t": "Can you please turn on the light?",
+    "ph": "KEN YU PLIZ TƠN ON ĐƠ LAIT",
+    "vi": "Bạn bật đèn giúp tôi được không?",
+    "hl": [
+     "please"
+    ],
+    "tokens": [
+     "Can",
+     "you",
+     "please",
+     "turn",
+     "on",
+     "the",
+     "light"
+    ]
+   },
+   {
+    "t": "Could you please take a photo of us?",
+    "ph": "CÚD YU PLIZ TÂYK Ơ PHÔU-TÔU ÓV ÁT",
+    "vi": "Bạn chụp giúp chúng tôi một tấm ảnh được không?",
+    "hl": [
+     "please"
+    ],
+    "tokens": [
+     "Could",
+     "you",
+     "please",
+     "take",
+     "a",
+     "photo",
+     "of",
+     "us"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 16,
+  "formula": [
+   {
+    "k": "X",
+    "t": "(Please)"
+   },
+   {
+    "k": "P",
+    "t": "Don't"
+   },
+   {
+    "k": "V",
+    "t": "Động từ nguyên mẫu"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Don't + động từ nguyên mẫu ở đầu câu để bảo ai đừng làm gì: \"Don't run.\"",
+   "Câu mệnh lệnh không có chủ ngữ: nói \"Don't worry\" chứ không nói \"You don't worry\".",
+   "Thêm Please trước Don't cho nhẹ nhàng hơn: \"Please don't smoke.\"",
+   "Với tính từ thì dùng Don't be: \"Don't be late.\""
+  ],
+  "mistakes": [
+   {
+    "wrong": "Don't late.",
+    "right": "Don't be late.",
+    "why": "late là tính từ nên cần be sau Don't."
+   },
+   {
+    "wrong": "Not touch the paintings.",
+    "right": "Don't touch the paintings.",
+    "why": "Tiếng Anh không dùng Not một mình để cấm, phải dùng Don't."
+   }
+  ],
+  "compare": "Giống tiếng Việt, Don't đứng đầu câu ngay trước động từ như chữ \"Đừng\". Khác là trước tính từ tiếng Việt nói \"Đừng buồn\" nhưng tiếng Anh phải thêm be: Don't be sad.",
+  "tip": "Đừng + tính từ thì nhớ chen be vào giữa: Don't BE sad, Don't BE late.",
+  "how": [
+   "Đặt Don't trước động từ worry → don't worry, rồi thêm about me ở cuối → Don't worry about me.",
+   "Ghép don't với touch → don't touch, thêm the paintings phía sau và Please lên đầu → Please don't touch the paintings.",
+   "Đặt Don't trước forget → don't forget, rồi thêm your passport ở cuối → Don't forget your passport."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Don't forget your umbrella.",
+    "ph": "DOUNT PHƠ-GÉT DO ÂM-BRE-LƠ",
+    "vi": "Đừng quên ô nhé.",
+    "hl": [
+     "Don't"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Is it going to rain?",
+    "ph": "IZ IT GÔU-INH TU RÂYN",
+    "vi": "Trời sắp mưa à?",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "Yes. And don't come home late.",
+    "ph": "YÉS EN DOUNT CAM HÔUM LÂYT",
+    "vi": "Ừ. Và đừng về nhà muộn nhé.",
+    "hl": [
+     "don't"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "OK, don't worry!",
+    "ph": "ÔU-KÂY DOUNT UA-RI",
+    "vi": "Được rồi, đừng lo!",
+    "hl": [
+     "don't"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Don't run here.",
+    "ph": "DOUNT RAN HIA",
+    "vi": "Đừng chạy ở đây.",
+    "hl": [
+     "Don't"
+    ],
+    "tokens": [
+     "Don't",
+     "run",
+     "here"
+    ]
+   },
+   {
+    "t": "Don't be late.",
+    "ph": "DOUNT BI LÂYT",
+    "vi": "Đừng đến muộn.",
+    "hl": [
+     "Don't"
+    ],
+    "tokens": [
+     "Don't",
+     "be",
+     "late"
+    ]
+   },
+   {
+    "t": "Don't eat too much.",
+    "ph": "DOUNT IT TU MÂCH",
+    "vi": "Đừng ăn nhiều quá.",
+    "hl": [
+     "Don't"
+    ],
+    "tokens": [
+     "Don't",
+     "eat",
+     "too",
+     "much"
+    ]
+   },
+   {
+    "t": "Please don't smoke here.",
+    "ph": "PLIZ DOUNT XMÔUK HIA",
+    "vi": "Làm ơn đừng hút thuốc ở đây.",
+    "hl": [
+     "don't"
+    ],
+    "tokens": [
+     "Please",
+     "don't",
+     "smoke",
+     "here"
+    ]
+   },
+   {
+    "t": "Don't drink the tap water.",
+    "ph": "DOUNT ĐRINK ĐƠ TÉP UO-TƠ",
+    "vi": "Đừng uống nước máy.",
+    "hl": [
+     "Don't"
+    ],
+    "tokens": [
+     "Don't",
+     "drink",
+     "the",
+     "tap",
+     "water"
+    ]
+   },
+   {
+    "t": "Don't leave your bag on the bus.",
+    "ph": "DOUNT LIV DO BÉC ON ĐƠ BÁT",
+    "vi": "Đừng để quên túi trên xe buýt.",
+    "hl": [
+     "Don't"
+    ],
+    "tokens": [
+     "Don't",
+     "leave",
+     "your",
+     "bag",
+     "on",
+     "the",
+     "bus"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 17,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "V-ed / did"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   },
+   {
+    "k": "X",
+    "t": "Thời gian quá khứ"
+   }
+  ],
+  "points": [
+   "Động từ có quy tắc thì thêm -ed: visit → visited, cook → cooked.",
+   "Động từ bất quy tắc phải học thuộc: go → went, eat → ate, buy → bought.",
+   "Câu hỏi và phủ định dùng did/didn't + động từ nguyên mẫu: \"Did you sleep well?\", \"I didn't see it.\"",
+   "Thường đi kèm từ chỉ thời gian quá khứ: yesterday, last week, two days ago."
+  ],
+  "mistakes": [
+   {
+    "wrong": "I go to Hanoi last year.",
+    "right": "I went to Hanoi last year.",
+    "why": "Tiếng Việt không đổi dạng động từ, nhưng tiếng Anh phải chia quá khứ: go → went."
+   },
+   {
+    "wrong": "Did you went there?",
+    "right": "Did you go there?",
+    "why": "Đã có did thì động từ phía sau trở về nguyên mẫu."
+   }
+  ],
+  "compare": "Tiếng Việt chỉ thêm \"đã\" hoặc từ chỉ thời gian, động từ giữ nguyên; còn tiếng Anh phải đổi chính động từ (thêm -ed hoặc dùng dạng bất quy tắc).",
+  "tip": "did đã \"gánh\" phần quá khứ thì động từ sau được nghỉ: Did you go, không phải Did you went.",
+  "how": [
+   "Thêm -ed vào visit → visited, ghép với Hanoi → visited Hanoi, rồi thêm I phía trước và last year phía sau → I visited Hanoi last year.",
+   "go là động từ bất quy tắc nên đổi thành went → went to the market, rồi thêm We ở đầu và yesterday ở cuối → We went to the market yesterday.",
+   "Câu hỏi quá khứ dùng did + nguyên mẫu → did you eat, rồi thêm What ở đầu và today ở cuối → What did you eat today?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Did you sleep well?",
+    "ph": "DID YU SLIP UEL",
+    "vi": "Bạn ngủ có ngon không?",
+    "hl": [
+     "Did"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Yes, I slept very well.",
+    "ph": "YÉS AI SLÉPT VE-RI UEL",
+    "vi": "Có, tôi ngủ rất ngon.",
+    "hl": [
+     "slept"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "What did you do yesterday?",
+    "ph": "UÓT DID YU DU YÉT-TƠ-ĐÂY",
+    "vi": "Hôm qua bạn đã làm gì?",
+    "hl": [
+     "did"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "I visited the old museum.",
+    "ph": "AI VI-DI-TƠĐ ĐƠ ÔULĐ MIU-DI-ƠM",
+    "vi": "Tôi đã đi thăm bảo tàng cổ.",
+    "hl": [
+     "visited"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "I cooked dinner.",
+    "ph": "AI CÚCT ĐI-NƠ",
+    "vi": "Tôi đã nấu bữa tối.",
+    "hl": [
+     "cooked"
+    ],
+    "tokens": [
+     "I",
+     "cooked",
+     "dinner"
+    ]
+   },
+   {
+    "t": "She bought a new dress.",
+    "ph": "SHI BÓT Ơ NIU ĐRÉT",
+    "vi": "Cô ấy đã mua một chiếc váy mới.",
+    "hl": [
+     "bought"
+    ],
+    "tokens": [
+     "She",
+     "bought",
+     "a",
+     "new",
+     "dress"
+    ]
+   },
+   {
+    "t": "We arrived late last night.",
+    "ph": "UY Ơ-RAIVĐ LÂYT LÁT NAIT",
+    "vi": "Tối qua chúng tôi đến muộn.",
+    "hl": [
+     "arrived"
+    ],
+    "tokens": [
+     "We",
+     "arrived",
+     "late",
+     "last",
+     "night"
+    ]
+   },
+   {
+    "t": "I didn't see the sign.",
+    "ph": "AI DI-ĐƠNT XI ĐƠ XAIN",
+    "vi": "Tôi đã không nhìn thấy biển báo.",
+    "hl": [
+     "didn't"
+    ],
+    "tokens": [
+     "I",
+     "didn't",
+     "see",
+     "the",
+     "sign"
+    ]
+   },
+   {
+    "t": "Did you call your mother?",
+    "ph": "DID YU CÔL DO MA-ĐƠ",
+    "vi": "Bạn đã gọi cho mẹ chưa?",
+    "hl": [
+     "Did"
+    ],
+    "tokens": [
+     "Did",
+     "you",
+     "call",
+     "your",
+     "mother"
+    ]
+   },
+   {
+    "t": "They stayed in Da Lat for three days.",
+    "ph": "ĐÂY STÂYĐ IN ĐA LÁT PHO THRI ĐÂYZ",
+    "vi": "Họ đã ở Đà Lạt ba ngày.",
+    "hl": [
+     "stayed"
+    ],
+    "tokens": [
+     "They",
+     "stayed",
+     "in",
+     "Da",
+     "Lat",
+     "for",
+     "three",
+     "days"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "will / be going to"
+   },
+   {
+    "k": "V",
+    "t": "Động từ nguyên mẫu"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "will + động từ nguyên mẫu cho quyết định ngay lúc nói hoặc lời hứa: \"I will help you.\"",
+   "will còn dùng để dự đoán: \"It will be hot tomorrow.\"",
+   "be going to + động từ cho kế hoạch đã định trước: \"We are going to fly to Da Nang.\"",
+   "Phủ định là won't (= will not); văn nói hay rút gọn I'll, you'll."
+  ],
+  "mistakes": [
+   {
+    "wrong": "I will to call you.",
+    "right": "I will call you.",
+    "why": "Sau will dùng động từ nguyên mẫu, không có to."
+   },
+   {
+    "wrong": "We going to visit Hue.",
+    "right": "We are going to visit Hue.",
+    "why": "going to cần có am/is/are đứng trước."
+   }
+  ],
+  "compare": "Giống chữ \"sẽ\" đứng trước động từ (sẽ gọi = will call). Khác là tiếng Anh tách hai cách: will cho việc quyết định ngay, be going to cho dự định có sẵn.",
+  "tip": "Quyết ngay lúc nói thì dùng will; đã lên lịch từ trước thì dùng going to.",
+  "how": [
+   "Đặt will trước call → will call, rồi thêm I ở đầu và you tomorrow ở cuối → I will call you tomorrow.",
+   "Ghép will với rain → will rain, thêm it phía trước và I think ở đầu → I think it will rain.",
+   "Dự định có sẵn dùng going to visit, thêm We are phía trước và Hue ở cuối → We are going to visit Hue."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "What are you going to do this weekend?",
+    "ph": "UÓT A YU GÔU-INH TU DU ĐIS UYK-EN",
+    "vi": "Cuối tuần này bạn định làm gì?",
+    "hl": [
+     "going to"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "I am going to visit my parents.",
+    "ph": "AI EM GÔU-INH TU VI-DÍT MAI PE-RỜNTS",
+    "vi": "Tôi định về thăm bố mẹ.",
+    "hl": [
+     "going to"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Will you take the train?",
+    "ph": "UYL YU TÂYK ĐƠ TRÂYN",
+    "vi": "Bạn sẽ đi tàu à?",
+    "hl": [
+     "Will"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "No, I will take the bus.",
+    "ph": "NÔU AI UYL TÂYK ĐƠ BÁT",
+    "vi": "Không, tôi sẽ đi xe buýt.",
+    "hl": [
+     "will"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "I will be back soon.",
+    "ph": "AI UYL BI BÉC XUN",
+    "vi": "Tôi sẽ quay lại ngay.",
+    "hl": [
+     "will"
+    ],
+    "tokens": [
+     "I",
+     "will",
+     "be",
+     "back",
+     "soon"
+    ]
+   },
+   {
+    "t": "It will be cold tonight.",
+    "ph": "IT UYL BI CÔULĐ TU-NAIT",
+    "vi": "Tối nay trời sẽ lạnh.",
+    "hl": [
+     "will"
+    ],
+    "tokens": [
+     "It",
+     "will",
+     "be",
+     "cold",
+     "tonight"
+    ]
+   },
+   {
+    "t": "I won't tell anyone.",
+    "ph": "AI UÔNT TEL E-NI-UAN",
+    "vi": "Tôi sẽ không nói với ai đâu.",
+    "hl": [
+     "won't"
+    ],
+    "tokens": [
+     "I",
+     "won't",
+     "tell",
+     "anyone"
+    ]
+   },
+   {
+    "t": "Will you come to my party?",
+    "ph": "UYL YU CAM TU MAI PA-TI",
+    "vi": "Bạn sẽ đến bữa tiệc của tôi chứ?",
+    "hl": [
+     "Will"
+    ],
+    "tokens": [
+     "Will",
+     "you",
+     "come",
+     "to",
+     "my",
+     "party"
+    ]
+   },
+   {
+    "t": "She is going to start a new job.",
+    "ph": "SHI IZ GÔU-INH TU STAT Ơ NIU JÓP",
+    "vi": "Cô ấy sắp bắt đầu công việc mới.",
+    "hl": [
+     "going to"
+    ],
+    "tokens": [
+     "She",
+     "is",
+     "going",
+     "to",
+     "start",
+     "a",
+     "new",
+     "job"
+    ]
+   },
+   {
+    "t": "We will send the documents by email tomorrow.",
+    "ph": "UY UYL XEN ĐƠ ĐÓC-KIU-MỜNTS BAI I-MÂYL TU-MO-RÔU",
+    "vi": "Ngày mai chúng tôi sẽ gửi tài liệu qua email.",
+    "hl": [
+     "will"
+    ],
+    "tokens": [
+     "We",
+     "will",
+     "send",
+     "the",
+     "documents",
+     "by",
+     "email",
+     "tomorrow"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,372 @@
+[
+{"id":1,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"P","t":"不"},{"k":"V","t":"Động từ / Tính từ"},{"k":"O","t":"(Tân ngữ)"}],
+"points":["不 đứng ngay trước động từ hoặc tính từ để phủ định (\"不去\" - không đi, \"不辣\" - không cay).","不 dùng cho hiện tại, tương lai, thói quen và ý muốn; việc đã xảy ra trong quá khứ thì dùng 没 (\"我昨天没去\").","Riêng 有 không bao giờ đi với 不: \"không có\" luôn là 没有.","不 vốn đọc thanh 4 (bù), nhưng đứng trước một chữ thanh 4 thì đổi thành thanh 2 (bú): \"不去 bú qù\", \"不贵 bú guì\"."],
+"mistakes":[{"wrong":"我不有钱。","right":"我没有钱。","why":"有 chỉ phủ định bằng 没, không bao giờ nói 不有."},{"wrong":"我昨天不去。","right":"我昨天没去。","why":"Việc đã qua (hôm qua không đi) phải dùng 没, 不 dùng cho hiện tại và tương lai."}],
+"compare":"Giống tiếng Việt: 不 đứng trước động từ/tính từ như chữ \"không\" (不去 = không đi, 不辣 = không cay). Khác: tiếng Việt dùng \"không\" cho cả quá khứ, còn tiếng Trung việc đã xảy ra phải đổi sang 没.",
+"tip":"不 gặp thanh 4 thì \"bú\" lên thanh 2: 不去 bú qù, 不是 bú shì, 不要 bú yào.",
+"how":["Lấy động từ 说 (nói), thêm 不 phía trước → 不说, rồi đặt chủ ngữ 我 lên đầu → 我不说。","Thêm 不 trước 去 → 不去 (不 đọc bú vì 去 thanh 4), rồi đặt chủ ngữ 我 và thời gian 今天 phía trước → 我今天不去。","Thêm 不 trước tính từ 辣 → 不辣, rồi đặt chủ ngữ 这个菜 lên đầu (không cần 是) → 这个菜不辣。"],
+"dialog":[
+{"who":"A","t":"你喝酒吗？","ph":"Nǐ hē jiǔ ma?","vph":"Nỉ khưa chiểu ma?","vi":"Bạn có uống rượu không?","hl":[]},
+{"who":"B","t":"我不喝酒。","ph":"Wǒ bù hē jiǔ.","vph":"Ủa pu khưa chiểu.","vi":"Tôi không uống rượu.","hl":["不"]},
+{"who":"A","t":"那喝茶吧？","ph":"Nà hē chá ba?","vph":"Na khưa chá pa?","vi":"Vậy uống trà nhé?","hl":[]},
+{"who":"B","t":"好，我不要糖。","ph":"Hǎo, wǒ bú yào táng.","vph":"Hảo, ủa pú dao tháng.","vi":"Được, tôi không cần đường.","hl":["不"]}
+],
+"more":[
+{"t":"今天不冷。","ph":"Jīntiān bù lěng.","vph":"Chin thiên pu lẩng.","vi":"Hôm nay không lạnh.","hl":["不"],"tokens":["今天","不","冷"]},
+{"t":"这个不贵。","ph":"Zhège bú guì.","vph":"Chưa cưa pú quây.","vi":"Cái này không đắt.","hl":["不"],"tokens":["这个","不","贵"]},
+{"t":"我不吃肉。","ph":"Wǒ bù chī ròu.","vph":"Ủa pu chư râu.","vi":"Tôi không ăn thịt.","hl":["不"],"tokens":["我","不","吃","肉"]},
+{"t":"我不会说英语。","ph":"Wǒ bú huì shuō Yīngyǔ.","vph":"Ủa pú huây sua Inh dủy.","vi":"Tôi không biết nói tiếng Anh.","hl":["不"],"tokens":["我","不","会","说","英语"]},
+{"t":"他不喜欢喝咖啡。","ph":"Tā bù xǐhuan hē kāfēi.","vph":"Tha pu xỉ hoan khưa kha phây.","vi":"Anh ấy không thích uống cà phê.","hl":["不"],"tokens":["他","不","喜欢","喝","咖啡"]},
+{"t":"这家酒店的房间不太大。","ph":"Zhè jiā jiǔdiàn de fángjiān bú tài dà.","vph":"Chưa chia chiểu tiên tơ pháng chiên pú thai ta.","vi":"Phòng của khách sạn này không lớn lắm.","hl":["不"],"tokens":["这","家","酒店","的","房间","不","太","大"]}
+]},
+{"id":2,
+"formula":[{"k":"S","t":"Chủ ngữ / Nơi chốn"},{"k":"P","t":"有"},{"k":"O","t":"Danh từ"},{"k":"Q","t":"(吗)"}],
+"points":["有 + danh từ diễn tả sở hữu: ai có cái gì (\"我有护照\" - tôi có hộ chiếu).","Nơi chốn/thời gian + 有 + vật diễn tả sự tồn tại: ở đâu có gì (\"这儿有超市\" - ở đây có siêu thị).","Phủ định của 有 luôn là 没有 (hoặc nói gọn 没), không bao giờ là 不有.","Muốn hỏi thì thêm 吗 cuối câu hoặc dùng 有没有 (\"你有没有时间？\")."],
+"mistakes":[{"wrong":"我不有时间。","right":"我没有时间。","why":"有 chỉ phủ định bằng 没, nói 不有 là sai."},{"wrong":"在这儿有银行吗？","right":"这儿有银行吗？","why":"Câu tồn tại bắt đầu thẳng bằng nơi chốn, không dịch chữ \"ở\" thành 在 ở đầu câu."}],
+"compare":"Giống tiếng Việt: 有 = \"có\", đứng trước danh từ, và \"nơi chốn + có + vật\" cũng cùng trật tự (这儿有… = ở đây có…). Khác: \"không có\" là 没有 chứ không phải 不有, và đầu câu không cần chữ \"ở\" (在).",
+"tip":"有 chỉ \"chơi\" với 没: không có = 没有, đừng bao giờ ghép 不有.",
+"how":["Đặt 有 trước danh từ 护照 → 有护照, rồi thêm chủ ngữ 我 lên đầu → 我有护照。","Ghép 有 + 时间 → 有时间 (có thời gian = rảnh), thêm 你明天 phía trước và 吗 cuối câu để hỏi → 你明天有时间吗？","Ghép 有 + 房间 → 有房间, thêm 还 (còn) trước 有, 今天 lên đầu và 吗 cuối câu → 今天还有房间吗？"],
+"dialog":[
+{"who":"A","t":"请问，附近有银行吗？","ph":"Qǐngwèn, fùjìn yǒu yínháng ma?","vph":"Chỉnh uân, phu chin dẩu dín háng ma?","vi":"Xin hỏi, gần đây có ngân hàng không?","hl":["有"]},
+{"who":"B","t":"有，前面就有一个。","ph":"Yǒu, qiánmiàn jiù yǒu yí ge.","vph":"Dẩu, chiến miên chiêu dẩu í cưa.","vi":"Có, ngay phía trước có một cái.","hl":["有"]},
+{"who":"A","t":"那儿可以换钱吗？","ph":"Nàr kěyǐ huàn qián ma?","vph":"Na khửa ỷ hoan chién ma?","vi":"Ở đó đổi tiền được không?","hl":[]},
+{"who":"B","t":"可以，不过今天人很多。","ph":"Kěyǐ, búguò jīntiān rén hěn duō.","vph":"Khửa ỷ, pú cua chin thiên rấn hẩn tua.","vi":"Được, nhưng hôm nay đông người lắm.","hl":[]}
+],
+"more":[
+{"t":"你有微信吗？","ph":"Nǐ yǒu Wēixìn ma?","vph":"Nỉ dẩu Uây xin ma?","vi":"Bạn có WeChat không?","hl":["有"],"tokens":["你","有","微信","吗"]},
+{"t":"我没有零钱。","ph":"Wǒ méiyǒu língqián.","vph":"Ủa mấy dẩu lính chién.","vi":"Tôi không có tiền lẻ.","hl":["有"],"tokens":["我","没有","零钱"]},
+{"t":"我有一个哥哥。","ph":"Wǒ yǒu yí ge gēge.","vph":"Ủa dẩu í cưa cưa cưa.","vi":"Tôi có một anh trai.","hl":["有"],"tokens":["我","有","一","个","哥哥"]},
+{"t":"这儿有洗手间吗？","ph":"Zhèr yǒu xǐshǒujiān ma?","vph":"Chưa dẩu xỉ sẩu chiên ma?","vi":"Ở đây có nhà vệ sinh không?","hl":["有"],"tokens":["这儿","有","洗手间","吗"]},
+{"t":"酒店附近有超市吗？","ph":"Jiǔdiàn fùjìn yǒu chāoshì ma?","vph":"Chiểu tiên phu chin dẩu chao sư ma?","vi":"Gần khách sạn có siêu thị không?","hl":["有"],"tokens":["酒店","附近","有","超市","吗"]},
+{"t":"你们有没有大一点的房间？","ph":"Nǐmen yǒu méiyǒu dà yìdiǎn de fángjiān?","vph":"Nỉ mân dẩu mấy dẩu ta i tiẻn tơ pháng chiên?","vi":"Các bạn có phòng rộng hơn một chút không?","hl":["有没有"],"tokens":["你们","有","没有","大","一点","的","房间"]}
+]},
+{"id":3,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"P","t":"是"},{"k":"O","t":"Danh từ"},{"k":"Q","t":"(吗)"}],
+"points":["是 nối hai danh từ theo mẫu A 是 B (\"我是学生\" - tôi là học sinh).","Không dùng 是 trước tính từ; với tính từ thì dùng 很 (\"我很忙\", không nói \"我是忙\").","Phủ định của 是 luôn là 不是 (đọc bú shì), không dùng 没是.","Muốn hỏi thì thêm 吗 cuối câu, hoặc dùng 是不是 (\"你是不是老师？\")."],
+"mistakes":[{"wrong":"我是很忙。","right":"我很忙。","why":"Trước tính từ không dùng 是; tiếng Việt nói \"tôi bận\" thì tiếng Trung cũng chỉ cần 很 + tính từ."},{"wrong":"我没是老师。","right":"我不是老师。","why":"是 luôn phủ định bằng 不, không dùng 没."}],
+"compare":"Giống tiếng Việt: 是 = \"là\", mẫu A 是 B cùng trật tự (我是学生 = tôi là học sinh). Khác: tiếng Việt đôi khi nói \"tôi là bận\" cho nhấn mạnh, còn tiếng Trung tuyệt đối không đặt 是 trước tính từ.",
+"tip":"是 chỉ làm \"dấu bằng\" giữa hai danh từ: danh từ = danh từ; gặp tính từ thì đổi 是 thành 很.",
+"how":["Đặt 是 trước danh từ 学生 → 是学生, rồi thêm chủ ngữ 我 lên đầu → 我是学生。","Ghép 是 + 朋友 → 是朋友, rồi đặt chủ ngữ số nhiều 我们 lên đầu → 我们是朋友。","Ghép 是 + 中国人 → 是中国人, thêm 你 phía trước và 吗 cuối câu để hỏi → 你是中国人吗？"],
+"dialog":[
+{"who":"A","t":"你好，你是新同事吗？","ph":"Nǐ hǎo, nǐ shì xīn tóngshì ma?","vph":"Nỉ hảo, nỉ sư xin thúng sư ma?","vi":"Chào bạn, bạn là đồng nghiệp mới phải không?","hl":["是"]},
+{"who":"B","t":"是，我是越南人。","ph":"Shì, wǒ shì Yuènánrén.","vph":"Sư, ủa sư Duê nán rấn.","vi":"Vâng, tôi là người Việt Nam.","hl":["是"]},
+{"who":"A","t":"欢迎！我是你的经理。","ph":"Huānyíng! Wǒ shì nǐ de jīnglǐ.","vph":"Hoan dính! Ủa sư nỉ tơ chinh lỉ.","vi":"Chào mừng! Tôi là quản lý của bạn.","hl":["是"]}
+],
+"more":[
+{"t":"他是老师。","ph":"Tā shì lǎoshī.","vph":"Tha sư lảo sư.","vi":"Anh ấy là giáo viên.","hl":["是"],"tokens":["他","是","老师"]},
+{"t":"今天是星期五。","ph":"Jīntiān shì xīngqīwǔ.","vph":"Chin thiên sư xinh chi ủ.","vi":"Hôm nay là thứ Sáu.","hl":["是"],"tokens":["今天","是","星期五"]},
+{"t":"我不是日本人。","ph":"Wǒ bú shì Rìběnrén.","vph":"Ủa pú sư Rư pẩn rấn.","vi":"Tôi không phải người Nhật.","hl":["是"],"tokens":["我","不","是","日本人"]},
+{"t":"这是我的护照。","ph":"Zhè shì wǒ de hùzhào.","vph":"Chưa sư ủa tơ hu chao.","vi":"Đây là hộ chiếu của tôi.","hl":["是"],"tokens":["这","是","我","的","护照"]},
+{"t":"那是你的行李吗？","ph":"Nà shì nǐ de xíngli ma?","vph":"Na sư nỉ tơ xính lỉ ma?","vi":"Kia là hành lý của bạn phải không?","hl":["是"],"tokens":["那","是","你","的","行李","吗"]},
+{"t":"她是我们公司的经理。","ph":"Tā shì wǒmen gōngsī de jīnglǐ.","vph":"Tha sư ủa mân cung xư tơ chinh lỉ.","vi":"Chị ấy là quản lý công ty chúng tôi.","hl":["是"],"tokens":["她","是","我们","公司","的","经理"]}
+]},
+{"id":4,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"X","t":"(Thời gian)"},{"k":"P","t":"想"},{"k":"V","t":"Động từ"},{"k":"O","t":"(Tân ngữ)"}],
+"points":["想 + động từ diễn tả mong muốn: muốn làm gì (\"我想喝咖啡\" - tôi muốn uống cà phê).","Từ chỉ thời gian đặt sau chủ ngữ, trước 想 (\"我现在想回家\").","Phủ định là 不想 (không muốn), không dùng 没想.","想 + người hoặc nơi chốn còn có nghĩa \"nhớ\" (\"我想你\" - anh nhớ em, \"我想家\" - tôi nhớ nhà)."],
+"mistakes":[{"wrong":"我想咖啡。","right":"我想喝咖啡。","why":"想 (muốn) cần một động từ phía sau; muốn gọi món thì dùng 要: 我要咖啡."},{"wrong":"我没想去。","right":"我不想去。","why":"\"Không muốn\" là 不想; 没想 nghĩa là \"đã không nghĩ tới\"."}],
+"compare":"Giống tiếng Việt: 想 đứng trước động từ như \"muốn\" (想吃 = muốn ăn). Khác: tiếng Việt nói \"muốn cà phê\" được, còn tiếng Trung phải nói 想喝咖啡 hoặc 要咖啡.",
+"tip":"想 vốn là \"nghĩ\": muốn làm gì thì phải \"nghĩ tới\" một hành động — nên 想 luôn kéo theo một động từ.",
+"how":["Đặt 想 trước động từ 吃 → 想吃, rồi thêm chủ ngữ 我 phía trước và tân ngữ 饭 phía sau → 我想吃饭。","Ghép 想 + 喝 → 想喝, rồi đặt 我 lên đầu và thứ muốn uống 咖啡 ở cuối → 我想喝咖啡。","Ghép 想 + 回家 → 想回家, rồi thêm 我 và từ chỉ thời gian 现在 trước 想 → 我现在想回家。"],
+"dialog":[
+{"who":"A","t":"晚上你想去哪儿？","ph":"Wǎnshang nǐ xiǎng qù nǎr?","vph":"Oản sang nỉ xẻng chuy nả?","vi":"Tối nay bạn muốn đi đâu?","hl":["想"]},
+{"who":"B","t":"我想去吃火锅。","ph":"Wǒ xiǎng qù chī huǒguō.","vph":"Ủa xẻng chuy chư hủa cua.","vi":"Tôi muốn đi ăn lẩu.","hl":["想"]},
+{"who":"A","t":"好啊，我也想去！","ph":"Hǎo a, wǒ yě xiǎng qù!","vph":"Hảo a, ủa dể xẻng chuy!","vi":"Hay đấy, tôi cũng muốn đi!","hl":["想"]}
+],
+"more":[
+{"t":"我想睡觉。","ph":"Wǒ xiǎng shuìjiào.","vph":"Ủa xẻng suây cheo.","vi":"Tôi muốn đi ngủ.","hl":["想"],"tokens":["我","想","睡觉"]},
+{"t":"你想喝什么？","ph":"Nǐ xiǎng hē shénme?","vph":"Nỉ xẻng khưa sấn mơ?","vi":"Bạn muốn uống gì?","hl":["想"],"tokens":["你","想","喝","什么"]},
+{"t":"我不想等了。","ph":"Wǒ bù xiǎng děng le.","vph":"Ủa pu xẻng tẩng lơ.","vi":"Tôi không muốn đợi nữa.","hl":["想"],"tokens":["我","不","想","等","了"]},
+{"t":"我想买一张地图。","ph":"Wǒ xiǎng mǎi yì zhāng dìtú.","vph":"Ủa xẻng mải i chang ti thú.","vi":"Tôi muốn mua một tấm bản đồ.","hl":["想"],"tokens":["我","想","买","一","张","地图"]},
+{"t":"我们想去长城看看。","ph":"Wǒmen xiǎng qù Chángchéng kànkan.","vph":"Ủa mân xẻng chuy Cháng chấng khan khan.","vi":"Chúng tôi muốn đi Vạn Lý Trường Thành xem thử.","hl":["想"],"tokens":["我们","想","去","长城","看看"]},
+{"t":"明年我想去中国工作。","ph":"Míngnián wǒ xiǎng qù Zhōngguó gōngzuò.","vph":"Mính niên ủa xẻng chuy Chung cúa cung chua.","vi":"Năm sau tôi muốn sang Trung Quốc làm việc.","hl":["想"],"tokens":["明年","我","想","去","中国","工作"]}
+]},
+{"id":5,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"A","t":"(很 / 非常)"},{"k":"P","t":"喜欢"},{"k":"O","t":"Danh từ / Động từ"}],
+"points":["喜欢 đứng trước thứ được thích, có thể là danh từ hoặc động từ (\"喜欢猫\" - thích mèo, \"喜欢旅游\" - thích du lịch).","Từ chỉ mức độ như 很, 非常, 最 đặt ngay trước 喜欢 (\"我很喜欢\").","Phủ định là 不喜欢; sở thích là trạng thái nên không dùng 没.","Hỏi bằng 喜欢…吗？ hoặc 喜不喜欢…？ (\"你喜不喜欢喝茶？\")."],
+"mistakes":[{"wrong":"我喜欢中国菜很多。","right":"我很喜欢中国菜。","why":"\"Thích … lắm\" không dịch thành 很多 ở cuối câu; mức độ 很/非常 phải đứng trước 喜欢."},{"wrong":"我没喜欢吃辣。","right":"我不喜欢吃辣。","why":"Sở thích là trạng thái, phủ định bằng 不 chứ không dùng 没."}],
+"compare":"Giống tiếng Việt: 喜欢 đứng trước thứ mình thích (喜欢旅游 = thích du lịch). Khác: tiếng Việt hay đặt \"lắm/quá\" cuối câu, còn tiếng Trung 很/非常 phải đứng ngay trước 喜欢.",
+"tip":"Nhớ thứ tự \"mức độ → 喜欢 → thứ được thích\": 很喜欢 + X, giống \"rất thích X\".",
+"how":["Đặt 喜欢 trước cụm động từ 喝茶 → 喜欢喝茶, rồi thêm chủ ngữ 我 lên đầu → 我喜欢喝茶。","Ghép 喜欢 + danh từ 中国菜 → 喜欢中国菜, thêm 你 ở đầu và 吗 ở cuối để hỏi → 你喜欢中国菜吗？","Ghép 喜欢 + 旅游 → 喜欢旅游, rồi thêm 很 trước 喜欢 để nhấn mạnh và chủ ngữ 我 lên đầu → 我很喜欢旅游。"],
+"dialog":[
+{"who":"A","t":"你喜欢北京吗？","ph":"Nǐ xǐhuan Běijīng ma?","vph":"Nỉ xỉ hoan Pẩy chinh ma?","vi":"Bạn có thích Bắc Kinh không?","hl":["喜欢"]},
+{"who":"B","t":"很喜欢！我最喜欢这儿的烤鸭。","ph":"Hěn xǐhuan! Wǒ zuì xǐhuan zhèr de kǎoyā.","vph":"Hẩn xỉ hoan! Ủa chuây xỉ hoan chưa tơ khảo da.","vi":"Thích lắm! Tôi thích nhất là vịt quay ở đây.","hl":["喜欢"]},
+{"who":"A","t":"我也喜欢，明天一起去吃吧。","ph":"Wǒ yě xǐhuan, míngtiān yìqǐ qù chī ba.","vph":"Ủa dể xỉ hoan, mính thiên i chỉ chuy chư pa.","vi":"Tôi cũng thích, mai cùng đi ăn nhé.","hl":["喜欢"]}
+],
+"more":[
+{"t":"我喜欢猫。","ph":"Wǒ xǐhuan māo.","vph":"Ủa xỉ hoan mao.","vi":"Tôi thích mèo.","hl":["喜欢"],"tokens":["我","喜欢","猫"]},
+{"t":"你喜欢什么颜色？","ph":"Nǐ xǐhuan shénme yánsè?","vph":"Nỉ xỉ hoan sấn mơ dán xưa?","vi":"Bạn thích màu gì?","hl":["喜欢"],"tokens":["你","喜欢","什么","颜色"]},
+{"t":"她不喜欢吃辣。","ph":"Tā bù xǐhuan chī là.","vph":"Tha pu xỉ hoan chư la.","vi":"Cô ấy không thích ăn cay.","hl":["喜欢"],"tokens":["她","不","喜欢","吃","辣"]},
+{"t":"我非常喜欢这个城市。","ph":"Wǒ fēicháng xǐhuan zhège chéngshì.","vph":"Ủa phây cháng xỉ hoan chưa cưa chấng sư.","vi":"Tôi cực kỳ thích thành phố này.","hl":["喜欢"],"tokens":["我","非常","喜欢","这个","城市"]},
+{"t":"我爸爸喜欢早上跑步。","ph":"Wǒ bàba xǐhuan zǎoshang pǎobù.","vph":"Ủa pa pa xỉ hoan chảo sang pảo pu.","vi":"Bố tôi thích chạy bộ buổi sáng.","hl":["喜欢"],"tokens":["我","爸爸","喜欢","早上","跑步"]},
+{"t":"周末你喜欢在家看电影吗？","ph":"Zhōumò nǐ xǐhuan zài jiā kàn diànyǐng ma?","vph":"Châu mua nỉ xỉ hoan chai chia khan tiên dỉnh ma?","vi":"Cuối tuần bạn có thích ở nhà xem phim không?","hl":["喜欢"],"tokens":["周末","你","喜欢","在","家","看","电影","吗"]}
+]},
+{"id":6,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"P","t":"需要"},{"k":"O","t":"Danh từ / Động từ"},{"k":"Q","t":"(吗)"}],
+"points":["需要 + danh từ hoặc động từ diễn tả nhu cầu: cần cái gì, cần làm gì (\"需要帮助\", \"需要换钱\").","Phủ định là 不需要; trong giao tiếp người ta hay nói gọn 不用 hoặc 不用了 (không cần đâu).","Hỏi bằng 需要…吗？ hoặc 需要不需要…？ (\"你需要发票吗？\").","需要 + thời gian/tiền còn dùng để nói \"mất bao lâu, tốn bao nhiêu\" (\"需要两个小时\" - mất hai tiếng)."],
+"mistakes":[{"wrong":"我没需要帮助。","right":"我不需要帮助。","why":"Nhu cầu hiện tại phủ định bằng 不 (hoặc nói gọn 不用了), không dùng 没."}],
+"compare":"Giống tiếng Việt: 需要 = \"cần\", đứng trước danh từ hoặc động từ (需要换钱 = cần đổi tiền). Khác: khi từ chối lời mời giúp, người Trung hay nói gọn 不用了 thay vì 不需要.",
+"tip":"Nhân viên hỏi 需要…吗？ — cần thì gật \"需要\", không cần thì cười \"不用了，谢谢！\".",
+"how":["Đặt 需要 trước cụm động từ 换钱 → 需要换钱, rồi thêm chủ ngữ 我 lên đầu → 我需要换钱。","Ghép 需要 + danh từ 帮助 → 需要帮助, thêm 你 ở đầu và 吗 ở cuối để hỏi → 你需要帮助吗？","Ghép 需要 + 休息 → 需要休息, thêm 你 phía trước và 一下 (một chút) sau động từ → 你需要休息一下。"],
+"dialog":[
+{"who":"A","t":"您好，需要帮忙吗？","ph":"Nín hǎo, xūyào bāngmáng ma?","vph":"Nín hảo, xuy dao pang máng ma?","vi":"Chào anh, anh có cần giúp gì không?","hl":["需要"]},
+{"who":"B","t":"我需要一张地铁地图。","ph":"Wǒ xūyào yì zhāng dìtiě dìtú.","vph":"Ủa xuy dao i chang ti thiể ti thú.","vi":"Tôi cần một tấm bản đồ tàu điện ngầm.","hl":["需要"]},
+{"who":"A","t":"给您。还需要别的吗？","ph":"Gěi nín. Hái xūyào bié de ma?","vph":"Cẩy nín. Hái xuy dao piế tơ ma?","vi":"Của anh đây. Anh còn cần gì nữa không?","hl":["需要"]},
+{"who":"B","t":"不用了，谢谢！","ph":"Búyòng le, xièxie!","vph":"Pú dung lơ, xiê xiê!","vi":"Không cần nữa, cảm ơn!","hl":[]}
+],
+"more":[
+{"t":"你需要发票吗？","ph":"Nǐ xūyào fāpiào ma?","vph":"Nỉ xuy dao pha peo ma?","vi":"Bạn có cần hóa đơn không?","hl":["需要"],"tokens":["你","需要","发票","吗"]},
+{"t":"我需要一杯水。","ph":"Wǒ xūyào yì bēi shuǐ.","vph":"Ủa xuy dao i pây suẩy.","vi":"Tôi cần một cốc nước.","hl":["需要"],"tokens":["我","需要","一","杯","水"]},
+{"t":"我们不需要导游。","ph":"Wǒmen bù xūyào dǎoyóu.","vph":"Ủa mân pu xuy dao tảo dấu.","vi":"Chúng tôi không cần hướng dẫn viên.","hl":["需要"],"tokens":["我们","不","需要","导游"]},
+{"t":"办签证需要什么？","ph":"Bàn qiānzhèng xūyào shénme?","vph":"Pan chiên châng xuy dao sấn mơ?","vi":"Làm visa cần những gì?","hl":["需要"],"tokens":["办","签证","需要","什么"]},
+{"t":"去机场需要多长时间？","ph":"Qù jīchǎng xūyào duō cháng shíjiān?","vph":"Chuy chi chảng xuy dao tua cháng sứ chiên?","vi":"Đi sân bay mất bao lâu?","hl":["需要"],"tokens":["去","机场","需要","多","长","时间"]},
+{"t":"这个药需要每天吃两次。","ph":"Zhège yào xūyào měi tiān chī liǎng cì.","vph":"Chưa cưa dao xuy dao mẩy thiên chư lẻng chư.","vi":"Thuốc này cần uống mỗi ngày hai lần.","hl":["需要"],"tokens":["这个","药","需要","每","天","吃","两","次"]}
+]},
+{"id":7,
+"formula":[{"k":"S","t":"Chủ ngữ / Nơi chốn"},{"k":"P","t":"可以"},{"k":"V","t":"Động từ"},{"k":"Q","t":"(吗)"}],
+"points":["可以 + động từ diễn tả sự cho phép hoặc khả năng: được làm gì, có thể làm gì (\"可以拍照\").","Xin phép theo mẫu: (Chủ ngữ) + 可以 + động từ + 吗？; trả lời đồng ý là 可以, từ chối là 不行 hoặc 不可以.","Biển cấm thường dùng 不可以 / 不能 + động từ (\"这里不可以抽烟\").","Kỹ năng học được (biết bơi, biết nói tiếng Trung) dùng 会, không dùng 可以."],
+"mistakes":[{"wrong":"我可以游泳，我学过。","right":"我会游泳，我学过。","why":"\"Biết bơi\" là kỹ năng học được nên dùng 会; 可以 chỉ sự cho phép hoặc điều kiện."},{"wrong":"可以我坐这儿吗？","right":"我可以坐这儿吗？","why":"Chủ ngữ đứng trước 可以, không đưa 可以 lên đầu câu."}],
+"compare":"Giống tiếng Việt: 可以 + động từ như \"có thể/được\" (可以拍照 = được chụp ảnh). Khác: tiếng Việt hay để \"được không\" cuối câu, còn tiếng Trung đặt 可以 trước động từ rồi thêm 吗 ở cuối.",
+"tip":"Công thức xin phép vạn năng: 我可以 + việc muốn làm + 吗？ — đi đâu cũng dùng được.",
+"how":["Đặt 可以 trước 进来 → 可以进来, thêm 我 lên đầu và 吗 cuối câu để xin phép → 我可以进来吗？","Ghép 可以 + 拍照 → 可以拍照, đặt nơi chốn 这里 lên đầu và 吗 cuối câu → 这里可以拍照吗？","Ghép 可以 + 刷卡 → 可以刷卡, mở đầu lịch sự bằng 请问 và kết bằng 吗 → 请问可以刷卡吗？"],
+"dialog":[
+{"who":"A","t":"服务员，可以点菜吗？","ph":"Fúwùyuán, kěyǐ diǎn cài ma?","vph":"Phú u doén, khửa ỷ tiẻn chai ma?","vi":"Phục vụ ơi, gọi món được chưa?","hl":["可以"]},
+{"who":"B","t":"可以，这是菜单。","ph":"Kěyǐ, zhè shì càidān.","vph":"Khửa ỷ, chưa sư chai tan.","vi":"Được ạ, đây là thực đơn.","hl":["可以"]},
+{"who":"A","t":"我可以用微信付钱吗？","ph":"Wǒ kěyǐ yòng Wēixìn fù qián ma?","vph":"Ủa khửa ỷ dung Uây xin phu chién ma?","vi":"Tôi trả bằng WeChat được không?","hl":["可以"]},
+{"who":"B","t":"当然可以。","ph":"Dāngrán kěyǐ.","vph":"Tang rán khửa ỷ.","vi":"Tất nhiên là được.","hl":["可以"]}
+],
+"more":[
+{"t":"我可以试试吗？","ph":"Wǒ kěyǐ shìshi ma?","vph":"Ủa khửa ỷ sư sư ma?","vi":"Tôi thử được không?","hl":["可以"],"tokens":["我","可以","试试","吗"]},
+{"t":"我们可以坐这儿吗？","ph":"Wǒmen kěyǐ zuò zhèr ma?","vph":"Ủa mân khửa ỷ chua chưa ma?","vi":"Chúng tôi ngồi đây được không?","hl":["可以"],"tokens":["我们","可以","坐","这儿","吗"]},
+{"t":"这里不可以抽烟。","ph":"Zhèlǐ bù kěyǐ chōuyān.","vph":"Chưa lỉ pu khửa ỷ châu dan.","vi":"Ở đây không được hút thuốc.","hl":["可以"],"tokens":["这里","不","可以","抽烟"]},
+{"t":"你可以说慢一点吗？","ph":"Nǐ kěyǐ shuō màn yìdiǎn ma?","vph":"Nỉ khửa ỷ sua man i tiẻn ma?","vi":"Bạn nói chậm một chút được không?","hl":["可以"],"tokens":["你","可以","说","慢","一点","吗"]},
+{"t":"行李可以放在前台吗？","ph":"Xíngli kěyǐ fàng zài qiántái ma?","vph":"Xính lỉ khửa ỷ phang chai chiến thái ma?","vi":"Hành lý có thể gửi ở quầy lễ tân không?","hl":["可以"],"tokens":["行李","可以","放","在","前台","吗"]},
+{"t":"明天早上可以晚一点退房吗？","ph":"Míngtiān zǎoshang kěyǐ wǎn yìdiǎn tuìfáng ma?","vph":"Mính thiên chảo sang khửa ỷ oản i tiẻn thuây pháng ma?","vi":"Sáng mai có thể trả phòng muộn một chút không?","hl":["可以"],"tokens":["明天","早上","可以","晚","一点","退房","吗"]}
+]},
+{"id":8,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"X","t":"(Thời gian)"},{"k":"X","t":"(坐 + Phương tiện)"},{"k":"P","t":"去"},{"k":"O","t":"Nơi chốn"}],
+"points":["去 + nơi chốn trực tiếp, không cần thêm \"đến\" (\"去北京\" - đi Bắc Kinh).","Thời gian đặt sau chủ ngữ, trước 去 (\"我明天去北京\").","Phương tiện đặt trước 去: 坐/骑 + phương tiện + 去 (\"坐地铁去\" - đi bằng tàu điện ngầm).","Đi đâu để làm gì: 去 + nơi chốn + động từ (\"去超市买东西\" - đi siêu thị mua đồ)."],
+"mistakes":[{"wrong":"我去北京明天。","right":"我明天去北京。","why":"Thời gian phải đứng trước động từ, không để cuối câu như \"Tôi đi Bắc Kinh ngày mai\"."},{"wrong":"我去北京坐飞机。","right":"我坐飞机去北京。","why":"Phương tiện đứng trước 去 (坐飞机去…), ngược với tiếng Việt \"đi … bằng máy bay\"."}],
+"compare":"Giống tiếng Việt: 去 + địa điểm như \"đi + nơi\" (去北京 = đi Bắc Kinh). Khác: thời gian và phương tiện phải đứng TRƯỚC 去, không để cuối câu như tiếng Việt.",
+"tip":"Thứ tự vàng: Ai – Khi nào – Bằng gì – 去 – Đâu: 我明天坐飞机去北京。",
+"how":["Đặt 去 trước địa danh 北京 → 去北京, rồi thêm 我 và thời gian 明天 trước 去 → 我明天去北京。","Ghép 去 + 机场 → 去机场, thêm 要 (muốn/sắp) trước 去 và chủ ngữ 我 lên đầu → 我要去机场。","Từ 地铁, thêm 坐 phía trước và 去 phía sau → 坐地铁去 (đi bằng tàu điện ngầm), rồi thêm 我们 ở đầu và 吧 ở cuối để rủ → 我们坐地铁去吧。"],
+"dialog":[
+{"who":"A","t":"你周末去哪儿？","ph":"Nǐ zhōumò qù nǎr?","vph":"Nỉ châu mua chuy nả?","vi":"Cuối tuần bạn đi đâu?","hl":["去"]},
+{"who":"B","t":"我去上海看朋友。","ph":"Wǒ qù Shànghǎi kàn péngyou.","vph":"Ủa chuy Sang hải khan pấng dâu.","vi":"Tôi đi Thượng Hải thăm bạn.","hl":["去"]},
+{"who":"A","t":"你怎么去？","ph":"Nǐ zěnme qù?","vph":"Nỉ chẩn mơ chuy?","vi":"Bạn đi bằng gì?","hl":["去"]},
+{"who":"B","t":"坐高铁去，很快。","ph":"Zuò gāotiě qù, hěn kuài.","vph":"Chua cao thiể chuy, hẩn khoai.","vi":"Đi tàu cao tốc, nhanh lắm.","hl":["去"]}
+],
+"more":[
+{"t":"他去银行了。","ph":"Tā qù yínháng le.","vph":"Tha chuy dín háng lơ.","vi":"Anh ấy đi ngân hàng rồi.","hl":["去"],"tokens":["他","去","银行","了"]},
+{"t":"我们去吃饭吧。","ph":"Wǒmen qù chī fàn ba.","vph":"Ủa mân chuy chư phan pa.","vi":"Chúng ta đi ăn cơm nhé.","hl":["去"],"tokens":["我们","去","吃饭","吧"]},
+{"t":"你去过越南吗？","ph":"Nǐ qù guo Yuènán ma?","vph":"Nỉ chuy cua Duê nán ma?","vi":"Bạn đã từng đến Việt Nam chưa?","hl":["去"],"tokens":["你","去","过","越南","吗"]},
+{"t":"我下午打车去酒店。","ph":"Wǒ xiàwǔ dǎchē qù jiǔdiàn.","vph":"Ủa xa ủ tả chưa chuy chiểu tiên.","vi":"Chiều nay tôi đi taxi về khách sạn.","hl":["去"],"tokens":["我","下午","打车","去","酒店"]},
+{"t":"我想去超市买水果。","ph":"Wǒ xiǎng qù chāoshì mǎi shuǐguǒ.","vph":"Ủa xẻng chuy chao sư mải suẩy của.","vi":"Tôi muốn đi siêu thị mua trái cây.","hl":["去"],"tokens":["我","想","去","超市","买","水果"]},
+{"t":"明天我们一起坐火车去西安。","ph":"Míngtiān wǒmen yìqǐ zuò huǒchē qù Xī'ān.","vph":"Mính thiên ủa mân i chỉ chua hủa chưa chuy Xi an.","vi":"Ngày mai chúng ta cùng đi tàu hỏa đến Tây An.","hl":["去"],"tokens":["明天","我们","一起","坐","火车","去","西安"]}
+]},
+{"id":9,
+"formula":[{"k":"X","t":"(请问)"},{"k":"S","t":"Người / Đồ vật / Địa điểm"},{"k":"P","t":"在哪儿"}],
+"points":["Mẫu câu: X + 在哪儿？ để hỏi người/vật/nơi nào đó ở đâu (\"厕所在哪儿？\").","在哪儿 nằm cuối câu, không đảo lên đầu và không cần thêm 是.","Câu đã có 哪儿 là câu hỏi rồi, không thêm 吗 ở cuối.","Hỏi làm gì ở đâu thì 在哪儿 đứng trước động từ (\"你在哪儿工作？\" - bạn làm việc ở đâu)."],
+"mistakes":[{"wrong":"在哪儿是厕所？","right":"厕所在哪儿？","why":"Không đảo \"ở đâu\" lên đầu như tiếng Anh và không thêm 是; chỉ cần X + 在哪儿."},{"wrong":"厕所在哪儿吗？","right":"厕所在哪儿？","why":"Đã có từ để hỏi 哪儿 thì không thêm 吗 nữa."}],
+"compare":"Giống hệt tiếng Việt: \"Nhà vệ sinh ở đâu?\" = 厕所在哪儿？, 在 = ở, 哪儿 = đâu, cùng trật tự. Khác: hỏi \"làm gì ở đâu\" thì 在哪儿 đứng TRƯỚC động từ (在哪儿买 = mua ở đâu), ngược với tiếng Việt.",
+"tip":"Dịch từng chữ là đúng: \"… ở đâu?\" = …在哪儿？ — chỉ cần nhớ đừng thêm 吗.",
+"how":["Đặt 在哪儿 ngay sau 厕所 → 厕所在哪儿, rồi mở đầu lịch sự bằng 请问 → 请问厕所在哪儿？","Ghép 地铁站 + 在哪儿 → 地铁站在哪儿, rồi thêm 最近的 (gần nhất) trước danh từ → 最近的地铁站在哪儿？","Ghép 现在 + 在哪儿 → 现在在哪儿, rồi đặt chủ ngữ 你 lên đầu → 你现在在哪儿？"],
+"dialog":[
+{"who":"A","t":"不好意思，出租车站在哪儿？","ph":"Bù hǎoyìsi, chūzūchē zhàn zài nǎr?","vph":"Pu hảo i xư, chu chu chưa chan chai nả?","vi":"Xin lỗi, bến taxi ở đâu ạ?","hl":["在哪儿"]},
+{"who":"B","t":"在一号门外面。","ph":"Zài yī hào mén wàimian.","vph":"Chai i hao mấn oai miên.","vi":"Ở bên ngoài cổng số 1.","hl":[]},
+{"who":"A","t":"换钱的地方在哪儿？","ph":"Huàn qián de dìfang zài nǎr?","vph":"Hoan chién tơ ti phang chai nả?","vi":"Chỗ đổi tiền ở đâu?","hl":["在哪儿"]},
+{"who":"B","t":"就在二楼。","ph":"Jiù zài èr lóu.","vph":"Chiêu chai ơ lấu.","vi":"Ngay trên tầng hai.","hl":[]}
+],
+"more":[
+{"t":"出口在哪儿？","ph":"Chūkǒu zài nǎr?","vph":"Chu khẩu chai nả?","vi":"Lối ra ở đâu?","hl":["在哪儿"],"tokens":["出口","在","哪儿"]},
+{"t":"你家在哪儿？","ph":"Nǐ jiā zài nǎr?","vph":"Nỉ chia chai nả?","vi":"Nhà bạn ở đâu?","hl":["在哪儿"],"tokens":["你","家","在","哪儿"]},
+{"t":"我的手机在哪儿？","ph":"Wǒ de shǒujī zài nǎr?","vph":"Ủa tơ sẩu chi chai nả?","vi":"Điện thoại của tôi đâu rồi?","hl":["在哪儿"],"tokens":["我","的","手机","在","哪儿"]},
+{"t":"你在哪儿工作？","ph":"Nǐ zài nǎr gōngzuò?","vph":"Nỉ chai nả cung chua?","vi":"Bạn làm việc ở đâu?","hl":["在哪儿"],"tokens":["你","在","哪儿","工作"]},
+{"t":"请问售票处在哪儿？","ph":"Qǐngwèn shòupiàochù zài nǎr?","vph":"Chỉnh uân sâu peo chu chai nả?","vi":"Xin hỏi quầy bán vé ở đâu?","hl":["在哪儿"],"tokens":["请问","售票处","在","哪儿"]},
+{"t":"这个周末的音乐会在哪儿举行？","ph":"Zhège zhōumò de yīnyuèhuì zài nǎr jǔxíng?","vph":"Chưa cưa châu mua tơ in duê huây chai nả chủy xính?","vi":"Buổi hòa nhạc cuối tuần này tổ chức ở đâu?","hl":["在哪儿"],"tokens":["这个","周末","的","音乐会","在","哪儿","举行"]}
+]},
+{"id":10,
+"formula":[{"k":"S","t":"Món hàng / Chủ ngữ"},{"k":"X","t":"(Đơn vị)"},{"k":"P","t":"多少"},{"k":"O","t":"Danh từ (钱, 人…)"}],
+"points":["多少 + danh từ để hỏi số lượng hoặc giá, không cần lượng từ ở giữa (\"多少钱\", \"多少人\").","Hỏi giá theo mẫu: Món hàng + (đơn vị) + 多少钱？ (\"苹果一斤多少钱？\").","Với số nhỏ (thường dưới 10) người ta hay dùng 几 + lượng từ (\"几个人\" - mấy người).","Câu đã có 多少 là câu hỏi, không thêm 吗 và không cần 是 khi hỏi giá."],
+"mistakes":[{"wrong":"这个是多少钱吗？","right":"这个多少钱？","why":"Hỏi giá không cần 是, và đã có 多少 thì không thêm 吗."},{"wrong":"多少钱这个？","right":"这个多少钱？","why":"Món hàng đứng trước, 多少钱 ở cuối, giống \"Cái này bao nhiêu tiền?\"."}],
+"compare":"Giống tiếng Việt: 这个多少钱 = \"cái này bao nhiêu tiền\", cùng trật tự. Khác: tiếng Việt hay nói \"bao nhiêu một cân\", còn tiếng Trung đưa đơn vị lên trước: 一斤多少钱.",
+"tip":"多少 = 多 (nhiều) + 少 (ít): hỏi \"nhiều hay ít?\" chính là hỏi \"bao nhiêu?\".",
+"how":["Đặt 多少 trước 钱 → 多少钱, rồi thêm 这个 lên đầu để hỏi giá → 这个多少钱？","Ghép 多少 + 人 → 多少人, rồi thêm 你们有 phía trước → 你们有多少人？","Đặt đơn vị 一斤 trước 多少钱 → 一斤多少钱, rồi thêm tên hàng 苹果 lên đầu → 苹果一斤多少钱？"],
+"dialog":[
+{"who":"A","t":"老板，这件衣服多少钱？","ph":"Lǎobǎn, zhè jiàn yīfu duōshao qián?","vph":"Lảo pản, chưa chiên i phu tua sảo chién?","vi":"Ông chủ ơi, cái áo này bao nhiêu tiền?","hl":["多少"]},
+{"who":"B","t":"两百块。你要多少件？","ph":"Liǎng bǎi kuài. Nǐ yào duōshao jiàn?","vph":"Lẻng pải khoai. Nỉ dao tua sảo chiên?","vi":"Hai trăm tệ. Anh lấy bao nhiêu cái?","hl":["多少"]},
+{"who":"A","t":"我要三件，便宜一点吧？","ph":"Wǒ yào sān jiàn, piányi yìdiǎn ba?","vph":"Ủa dao xan chiên, pién i i tiẻn pa?","vi":"Tôi lấy ba cái, bớt chút nhé?","hl":[]},
+{"who":"B","t":"好，一共五百块。","ph":"Hǎo, yígòng wǔbǎi kuài.","vph":"Hảo, í cung ủ pải khoai.","vi":"Được, tổng cộng năm trăm tệ.","hl":[]}
+],
+"more":[
+{"t":"一共多少钱？","ph":"Yígòng duōshao qián?","vph":"Í cung tua sảo chién?","vi":"Tổng cộng bao nhiêu tiền?","hl":["多少"],"tokens":["一共","多少","钱"]},
+{"t":"这本书多少钱？","ph":"Zhè běn shū duōshao qián?","vph":"Chưa pẩn su tua sảo chién?","vi":"Quyển sách này bao nhiêu tiền?","hl":["多少"],"tokens":["这","本","书","多少","钱"]},
+{"t":"房费一晚多少钱？","ph":"Fángfèi yì wǎn duōshao qián?","vph":"Pháng phây i oản tua sảo chién?","vi":"Tiền phòng một đêm bao nhiêu?","hl":["多少"],"tokens":["房费","一","晚","多少","钱"]},
+{"t":"你的电话号码是多少？","ph":"Nǐ de diànhuà hàomǎ shì duōshao?","vph":"Nỉ tơ tiên hoa hao mả sư tua sảo?","vi":"Số điện thoại của bạn là bao nhiêu?","hl":["多少"],"tokens":["你","的","电话","号码","是","多少"]},
+{"t":"你们公司有多少员工？","ph":"Nǐmen gōngsī yǒu duōshao yuángōng?","vph":"Nỉ mân cung xư dẩu tua sảo doén cung?","vi":"Công ty các bạn có bao nhiêu nhân viên?","hl":["多少"],"tokens":["你们","公司","有","多少","员工"]},
+{"t":"坐出租车到机场要多少钱？","ph":"Zuò chūzūchē dào jīchǎng yào duōshao qián?","vph":"Chua chu chu chưa tao chi chảng dao tua sảo chién?","vi":"Đi taxi ra sân bay hết bao nhiêu tiền?","hl":["多少"],"tokens":["坐","出租车","到","机场","要","多少","钱"]}
+]},
+{"id":11,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"V","t":"Động từ"},{"k":"P","t":"什么"},{"k":"O","t":"(Danh từ)"}],
+"points":["什么 đứng đúng vị trí của thứ được hỏi, không đảo lên đầu câu (\"你吃什么？\" - bạn ăn gì?).","什么 + danh từ nghĩa là \"… gì\": 什么名字 (tên gì), 什么颜色 (màu gì).","Câu đã có 什么 là câu hỏi, không thêm 吗 ở cuối.","Trả lời chỉ cần thay 什么 bằng thông tin, giữ nguyên phần còn lại (\"你吃什么？\" → \"我吃面条。\")."],
+"mistakes":[{"wrong":"你想吃什么吗？","right":"你想吃什么？","why":"Đã có 什么 là câu hỏi rồi, thêm 吗 là thừa và sai."},{"wrong":"什么你想喝？","right":"你想喝什么？","why":"什么 không đảo lên đầu như \"What\" tiếng Anh; giữ đúng chỗ như chữ \"gì\" trong tiếng Việt."}],
+"compare":"Giống tiếng Việt: 什么 đứng đúng chỗ chữ \"gì\" (你吃什么 = bạn ăn gì). Khác: \"tên gì, màu gì\" thì 什么 lại đứng TRƯỚC danh từ (什么名字), ngược với tiếng Việt.",
+"tip":"Hỏi \"gì\" thì thay đúng chữ \"gì\" bằng 什么, câu giữ nguyên — chỉ nhớ: \"… gì\" đi với danh từ thì lật 什么 lên trước.",
+"how":["Đặt 什么 sau động từ 是 → 是什么, rồi thêm 这 lên đầu → 这是什么？","Ghép 吃 + 什么 → 吃什么, rồi thêm 你想 phía trước → 你想吃什么？","Đặt 什么 trước danh từ 名字 → 什么名字, rồi thêm 你叫 phía trước → 你叫什么名字？"],
+"dialog":[
+{"who":"A","t":"你在看什么？","ph":"Nǐ zài kàn shénme?","vph":"Nỉ chai khan sấn mơ?","vi":"Bạn đang xem gì vậy?","hl":["什么"]},
+{"who":"B","t":"菜单。这个菜叫什么？","ph":"Càidān. Zhège cài jiào shénme?","vph":"Chai tan. Chưa cưa chai cheo sấn mơ?","vi":"Thực đơn. Món này tên là gì?","hl":["什么"]},
+{"who":"A","t":"宫保鸡丁，很好吃。","ph":"Gōngbǎo jīdīng, hěn hǎochī.","vph":"Cung pảo chi tinh, hẩn hảo chư.","vi":"Gà xào Cung Bảo, ngon lắm.","hl":[]}
+],
+"more":[
+{"t":"那是什么？","ph":"Nà shì shénme?","vph":"Na sư sấn mơ?","vi":"Kia là cái gì?","hl":["什么"],"tokens":["那","是","什么"]},
+{"t":"你说什么？","ph":"Nǐ shuō shénme?","vph":"Nỉ sua sấn mơ?","vi":"Bạn nói gì cơ?","hl":["什么"],"tokens":["你","说","什么"]},
+{"t":"你买了什么？","ph":"Nǐ mǎi le shénme?","vph":"Nỉ mải lơ sấn mơ?","vi":"Bạn đã mua gì?","hl":["什么"],"tokens":["你","买","了","什么"]},
+{"t":"你做什么工作？","ph":"Nǐ zuò shénme gōngzuò?","vph":"Nỉ chua sấn mơ cung chua?","vi":"Bạn làm nghề gì?","hl":["什么"],"tokens":["你","做","什么","工作"]},
+{"t":"今天是什么日子？","ph":"Jīntiān shì shénme rìzi?","vph":"Chin thiên sư sấn mơ rư chư?","vi":"Hôm nay là ngày gì vậy?","hl":["什么"],"tokens":["今天","是","什么","日子"]},
+{"t":"你周末喜欢做什么？","ph":"Nǐ zhōumò xǐhuan zuò shénme?","vph":"Nỉ châu mua xỉ hoan chua sấn mơ?","vi":"Cuối tuần bạn thích làm gì?","hl":["什么"],"tokens":["你","周末","喜欢","做","什么"]}
+]},
+{"id":12,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"V","t":"Động từ"},{"k":"P","t":"谁"},{"k":"O","t":"(的 + Danh từ)"}],
+"points":["谁 thay đúng vào vị trí của người được hỏi, làm chủ ngữ hoặc tân ngữ đều được (\"谁去？\" - ai đi?, \"你找谁？\" - bạn tìm ai?).","\"Của ai\" là 谁的 + danh từ, 谁的 đứng TRƯỚC đồ vật (\"谁的包\").","Câu đã có 谁 là câu hỏi, không thêm 吗.","谁 có hai cách đọc: shéi (khẩu ngữ, phổ biến) và shuí."],
+"mistakes":[{"wrong":"这是包谁的？","right":"这是谁的包？","why":"Tiếng Việt nói \"túi của ai\", nhưng tiếng Trung 谁的 phải đứng trước danh từ."},{"wrong":"他是谁吗？","right":"他是谁？","why":"Đã có 谁 thì không thêm 吗."}],
+"compare":"Giống tiếng Việt: 谁 nằm đúng chỗ chữ \"ai\" (他是谁 = anh ấy là ai, 谁去 = ai đi). Khác: \"túi của ai\" phải đảo thành 谁的包 (của ai + túi).",
+"tip":"\"Của ai\" lật ngược thành \"ai của\": 谁的 + đồ vật — người luôn đứng trước, đồ vật theo sau.",
+"how":["Đặt 谁 sau động từ 是 → 是谁, rồi thêm chủ ngữ 他 lên đầu → 他是谁？","Ghép 找 + 谁 → 找谁, thêm 您 phía trước và 请问 mở đầu cho lịch sự → 请问您找谁？","Ghép 谁 + 的 + 包 → 谁的包 (túi của ai), rồi thêm 这是 lên đầu → 这是谁的包？"],
+"dialog":[
+{"who":"A","t":"门口那个人是谁？","ph":"Ménkǒu nàge rén shì shéi?","vph":"Mấn khẩu na cưa rấn sư suấy?","vi":"Người đứng ở cửa kia là ai vậy?","hl":["谁"]},
+{"who":"B","t":"他是新来的经理。","ph":"Tā shì xīn lái de jīnglǐ.","vph":"Tha sư xin lái tơ chinh lỉ.","vi":"Anh ấy là quản lý mới đến.","hl":[]},
+{"who":"A","t":"这把伞是谁的？","ph":"Zhè bǎ sǎn shì shéi de?","vph":"Chưa pá xản sư suấy tơ?","vi":"Cái ô này của ai?","hl":["谁"]},
+{"who":"B","t":"好像是他的。","ph":"Hǎoxiàng shì tā de.","vph":"Hảo xeng sư tha tơ.","vi":"Hình như là của anh ấy.","hl":[]}
+],
+"more":[
+{"t":"谁来了？","ph":"Shéi lái le?","vph":"Suấy lái lơ?","vi":"Ai đến vậy?","hl":["谁"],"tokens":["谁","来","了"]},
+{"t":"你在等谁？","ph":"Nǐ zài děng shéi?","vph":"Nỉ chai tẩng suấy?","vi":"Bạn đang đợi ai?","hl":["谁"],"tokens":["你","在","等","谁"]},
+{"t":"谁会说英语？","ph":"Shéi huì shuō Yīngyǔ?","vph":"Suấy huây sua Inh dủy?","vi":"Ai biết nói tiếng Anh?","hl":["谁"],"tokens":["谁","会","说","英语"]},
+{"t":"你和谁一起去？","ph":"Nǐ hé shéi yìqǐ qù?","vph":"Nỉ khứa suấy i chỉ chuy?","vi":"Bạn đi cùng với ai?","hl":["谁"],"tokens":["你","和","谁","一起","去"]},
+{"t":"那辆车是谁的？","ph":"Nà liàng chē shì shéi de?","vph":"Na leng chưa sư suấy tơ?","vi":"Chiếc xe kia là của ai?","hl":["谁"],"tokens":["那","辆","车","是","谁","的"]},
+{"t":"昨天谁给你打电话了？","ph":"Zuótiān shéi gěi nǐ dǎ diànhuà le?","vph":"Chúa thiên suấy cấy nỉ tả tiên hoa lơ?","vi":"Hôm qua ai gọi điện cho bạn vậy?","hl":["谁"],"tokens":["昨天","谁","给","你","打","电话","了"]}
+]},
+{"id":13,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"P","t":"什么时候"},{"k":"V","t":"Động từ"},{"k":"O","t":"(Tân ngữ)"}],
+"points":["什么时候 (khi nào) đặt sau chủ ngữ, trước động từ (\"你什么时候来？\").","Không đặt 什么时候 ở cuối câu như kiểu \"đến khi nào\".","Hỏi giờ cụ thể thì dùng 几点 (mấy giờ), cũng đặt trước động từ (\"几点开门？\").","Câu đã có 什么时候 không thêm 吗; trả lời chỉ cần thay thời gian vào đúng chỗ đó (\"我明天来\")."],
+"mistakes":[{"wrong":"你来什么时候？","right":"你什么时候来？","why":"Tiếng Việt có thể nói \"bạn đến khi nào\", nhưng tiếng Trung từ hỏi thời gian phải đứng trước động từ."},{"wrong":"你什么时候来吗？","right":"你什么时候来？","why":"Đã có từ để hỏi 什么时候 thì không thêm 吗."}],
+"compare":"Giống tiếng Việt \"Khi nào bạn đến?\" — từ hỏi đứng trước hành động. Khác: tiếng Việt có thể đẩy \"khi nào\" xuống cuối (\"đến khi nào\"), còn tiếng Trung 什么时候 luôn đứng sau chủ ngữ, trước động từ.",
+"tip":"什么时候 = 什么 (gì) + 时候 (lúc) = \"lúc nào\"; và \"lúc nào\" luôn chen ngay trước hành động.",
+"how":["Đặt 什么时候 trước động từ 来 → 什么时候来, rồi thêm chủ ngữ 你 lên đầu → 你什么时候来？","Ghép 什么时候 + 出发 → 什么时候出发, rồi đặt chủ ngữ 我们 lên đầu → 我们什么时候出发？","Hỏi giờ cụ thể thì dùng 几点: ghép 几点 + 开门 → 几点开门, rồi thêm 博物馆 lên đầu → 博物馆几点开门？"],
+"dialog":[
+{"who":"A","t":"你什么时候回国？","ph":"Nǐ shénme shíhou huí guó?","vph":"Nỉ sấn mơ sứ hâu khuấy cúa?","vi":"Khi nào bạn về nước?","hl":["什么时候"]},
+{"who":"B","t":"下个星期五。你什么时候有空？","ph":"Xià ge xīngqīwǔ. Nǐ shénme shíhou yǒu kòng?","vph":"Xa cưa xinh chi ủ. Nỉ sấn mơ sứ hâu dẩu khung?","vi":"Thứ Sáu tuần sau. Khi nào bạn rảnh?","hl":["什么时候"]},
+{"who":"A","t":"明天晚上，我请你吃饭！","ph":"Míngtiān wǎnshang, wǒ qǐng nǐ chī fàn!","vph":"Mính thiên oản sang, ủa chỉnh nỉ chư phan!","vi":"Tối mai, mình mời bạn ăn cơm!","hl":[]}
+],
+"more":[
+{"t":"他什么时候回来？","ph":"Tā shénme shíhou huílai?","vph":"Tha sấn mơ sứ hâu khuấy lai?","vi":"Khi nào anh ấy quay lại?","hl":["什么时候"],"tokens":["他","什么时候","回来"]},
+{"t":"你什么时候下班？","ph":"Nǐ shénme shíhou xiàbān?","vph":"Nỉ sấn mơ sứ hâu xa pan?","vi":"Khi nào bạn tan làm?","hl":["什么时候"],"tokens":["你","什么时候","下班"]},
+{"t":"我们什么时候吃饭？","ph":"Wǒmen shénme shíhou chī fàn?","vph":"Ủa mân sấn mơ sứ hâu chư phan?","vi":"Khi nào chúng ta ăn cơm?","hl":["什么时候"],"tokens":["我们","什么时候","吃饭"]},
+{"t":"你是什么时候到的？","ph":"Nǐ shì shénme shíhou dào de?","vph":"Nỉ sư sấn mơ sứ hâu tao tơ?","vi":"Bạn đến lúc nào vậy?","hl":["什么时候"],"tokens":["你","是","什么时候","到","的"]},
+{"t":"下一班火车什么时候出发？","ph":"Xià yì bān huǒchē shénme shíhou chūfā?","vph":"Xa i pan hủa chưa sấn mơ sứ hâu chu pha?","vi":"Chuyến tàu tiếp theo khi nào khởi hành?","hl":["什么时候"],"tokens":["下","一","班","火车","什么时候","出发"]},
+{"t":"你什么时候开始学中文的？","ph":"Nǐ shénme shíhou kāishǐ xué Zhōngwén de?","vph":"Nỉ sấn mơ sứ hâu khai sử xuế Chung uấn tơ?","vi":"Bạn bắt đầu học tiếng Trung từ khi nào?","hl":["什么时候"],"tokens":["你","什么时候","开始","学","中文","的"]}
+]},
+{"id":14,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"P","t":"为什么"},{"k":"V","t":"Động từ / Tính từ"},{"k":"O","t":"(Tân ngữ)"}],
+"points":["为什么 (tại sao) thường đặt sau chủ ngữ, trước động từ (\"你为什么迟到？\").","Trả lời lý do bằng 因为 (vì), thường đi cặp 因为…所以… (vì… nên…).","所以 đứng đầu vế sau, trước chủ ngữ của vế đó (\"因为下雨，所以我们不去\").","为什么不 + động từ còn dùng để gợi ý nhẹ nhàng (\"为什么不打车？\" - sao không đi taxi?)."],
+"mistakes":[{"wrong":"你迟到为什么？","right":"你为什么迟到？","why":"为什么 phải đứng trước động từ, không để cuối câu như \"bạn đến muộn tại sao\"."},{"wrong":"因为下雨，我们所以不去。","right":"因为下雨，所以我们不去。","why":"所以 đứng đầu vế sau, trước chủ ngữ, giống chữ \"nên\" trong tiếng Việt."}],
+"compare":"Giống tiếng Việt: 为什么 = \"tại sao\", 因为…所以… = \"vì… nên…\". Khác: tiếng Việt hay đặt \"tại sao\" đầu câu, còn tiếng Trung thường để 为什么 sau chủ ngữ (你为什么…).",
+"tip":"Hỏi 为什么 \"uây sấn mơ\" — đáp 因为 \"in uây\": hai từ cùng có chữ 为 (uây) như một cặp hỏi – đáp.",
+"how":["Đặt 为什么 trước động từ 迟到 → 为什么迟到, rồi thêm chủ ngữ 你 lên đầu → 你为什么迟到？","Ghép 为什么 + 学中文 → 为什么学中文, rồi thêm chủ ngữ 你 lên đầu → 你为什么学中文？","Trả lời lý do bằng 因为: ghép 因为 + 堵车 → 因为堵车, rồi nối vế kết quả bằng 所以我迟到了 → 因为堵车，所以我迟到了。"],
+"dialog":[
+{"who":"A","t":"你为什么不吃？","ph":"Nǐ wèishénme bù chī?","vph":"Nỉ uây sấn mơ pu chư?","vi":"Sao bạn không ăn?","hl":["为什么"]},
+{"who":"B","t":"因为太辣了。","ph":"Yīnwèi tài là le.","vph":"In uây thai la lơ.","vi":"Vì cay quá.","hl":["因为"]},
+{"who":"A","t":"那为什么不换一个菜？","ph":"Nà wèishénme bú huàn yí ge cài?","vph":"Na uây sấn mơ pú hoan í cưa chai?","vi":"Vậy sao không đổi món khác?","hl":["为什么"]},
+{"who":"B","t":"好主意！","ph":"Hǎo zhǔyi!","vph":"Hảo chủ i!","vi":"Ý hay đấy!","hl":[]}
+],
+"more":[
+{"t":"为什么不去？","ph":"Wèishénme bú qù?","vph":"Uây sấn mơ pú chuy?","vi":"Tại sao không đi?","hl":["为什么"],"tokens":["为什么","不","去"]},
+{"t":"你为什么笑？","ph":"Nǐ wèishénme xiào?","vph":"Nỉ uây sấn mơ xeo?","vi":"Sao bạn cười?","hl":["为什么"],"tokens":["你","为什么","笑"]},
+{"t":"你为什么这么累？","ph":"Nǐ wèishénme zhème lèi?","vph":"Nỉ uây sấn mơ chưa mơ lây?","vi":"Sao bạn mệt thế?","hl":["为什么"],"tokens":["你","为什么","这么","累"]},
+{"t":"他为什么没来上班？","ph":"Tā wèishénme méi lái shàngbān?","vph":"Tha uây sấn mơ mấy lái sang pan?","vi":"Tại sao anh ấy không đến làm?","hl":["为什么"],"tokens":["他","为什么","没","来","上班"]},
+{"t":"为什么今天地铁这么挤？","ph":"Wèishénme jīntiān dìtiě zhème jǐ?","vph":"Uây sấn mơ chin thiên ti thiể chưa mơ chỉ?","vi":"Sao hôm nay tàu điện ngầm đông thế?","hl":["为什么"],"tokens":["为什么","今天","地铁","这么","挤"]},
+{"t":"你为什么不早点告诉我？","ph":"Nǐ wèishénme bù zǎo diǎn gàosu wǒ?","vph":"Nỉ uây sấn mơ pu chảo tiẻn cao xu ủa?","vi":"Sao bạn không nói với tôi sớm hơn?","hl":["为什么"],"tokens":["你","为什么","不","早","点","告诉","我"]}
+]},
+{"id":15,
+"formula":[{"k":"P","t":"请"},{"k":"V","t":"Động từ"},{"k":"O","t":"(Tân ngữ / Nơi chốn)"},{"k":"Q","t":"(吧)"}],
+"points":["请 + động từ đặt đầu câu để mời hoặc nhờ một cách lịch sự (\"请坐\" - mời ngồi, \"请等一下\" - xin đợi một chút).","Khi hỏi đường, hỏi thông tin thì mở đầu bằng 请问 (xin hỏi), không dùng 请问 để nhờ làm việc.","请 + người + động từ còn nghĩa là \"mời ai làm gì\", thường là mình trả tiền (\"我请你吃饭\" - tôi mời bạn ăn cơm).","Thêm 请 vào trước một mệnh lệnh làm câu nói nhẹ nhàng, lịch sự hơn hẳn."],
+"mistakes":[{"wrong":"请问帮我拍照。","right":"请帮我拍照。","why":"请问 chỉ dùng để mở đầu câu hỏi; nhờ ai làm gì thì dùng 请 + động từ."},{"wrong":"帮我请拍照。","right":"请帮我拍照。","why":"请 đứng đầu câu, trước cả cụm 帮我."}],
+"compare":"Giống tiếng Việt: 请 đứng đầu câu như \"mời/làm ơn\" (请进 = mời vào). Khác: 请 còn nghĩa là \"khao, đãi\": 我请你 = tôi mời (tôi trả tiền), điều mà chữ \"làm ơn\" không có.",
+"tip":"Muốn lịch sự thì gắn 请 lên đầu: 坐 → 请坐, 等 → 请等, 进 → 请进.",
+"how":["Đặt 请 trước 进 → 请进 (mời vào), rồi mở rộng thành 进来 và thêm 坐吧 phía sau → 请进来坐吧。","Ghép 请 + 写 → 请写, rồi thêm nơi chốn 在这儿 phía sau → 请写在这儿。","Ghép 请 + 帮我 → 请帮我, rồi thêm việc cần giúp 拍张照 phía sau → 请帮我拍张照。"],
+"dialog":[
+{"who":"A","t":"您好，请坐。","ph":"Nín hǎo, qǐng zuò.","vph":"Nín hảo, chỉnh chua.","vi":"Xin chào, mời ngồi.","hl":["请"]},
+{"who":"B","t":"谢谢。请问，这里可以换钱吗？","ph":"Xièxie. Qǐngwèn, zhèlǐ kěyǐ huàn qián ma?","vph":"Xiê xiê. Chỉnh uân, chưa lỉ khửa ỷ hoan chién ma?","vi":"Cảm ơn. Xin hỏi, ở đây đổi tiền được không?","hl":["请"]},
+{"who":"A","t":"可以，请给我看一下护照。","ph":"Kěyǐ, qǐng gěi wǒ kàn yíxià hùzhào.","vph":"Khửa ỷ, chỉnh cẩy ủa khan í xa hu chao.","vi":"Được, làm ơn cho tôi xem hộ chiếu.","hl":["请"]}
+],
+"more":[
+{"t":"请慢用。","ph":"Qǐng màn yòng.","vph":"Chỉnh man dung.","vi":"Mời quý khách dùng bữa ngon miệng.","hl":["请"],"tokens":["请","慢","用"]},
+{"t":"请等一下。","ph":"Qǐng děng yíxià.","vph":"Chỉnh tẩng í xa.","vi":"Xin đợi một chút.","hl":["请"],"tokens":["请","等","一下"]},
+{"t":"请说慢一点。","ph":"Qǐng shuō màn yìdiǎn.","vph":"Chỉnh sua man i tiẻn.","vi":"Làm ơn nói chậm một chút.","hl":["请"],"tokens":["请","说","慢","一点"]},
+{"t":"请给我一杯水。","ph":"Qǐng gěi wǒ yì bēi shuǐ.","vph":"Chỉnh cẩy ủa i pây suẩy.","vi":"Làm ơn cho tôi một cốc nước.","hl":["请"],"tokens":["请","给","我","一","杯","水"]},
+{"t":"请把行李放在门口。","ph":"Qǐng bǎ xíngli fàng zài ménkǒu.","vph":"Chỉnh pả xính lỉ phang chai mấn khẩu.","vi":"Làm ơn để hành lý ở cửa.","hl":["请"],"tokens":["请","把","行李","放","在","门口"]},
+{"t":"今天晚上我请你吃饭。","ph":"Jīntiān wǎnshang wǒ qǐng nǐ chī fàn.","vph":"Chin thiên oản sang ủa chỉnh nỉ chư phan.","vi":"Tối nay tôi mời bạn ăn cơm.","hl":["请"],"tokens":["今天","晚上","我","请","你","吃饭"]}
+]},
+{"id":16,
+"formula":[{"k":"S","t":"(Chủ ngữ)"},{"k":"P","t":"别"},{"k":"V","t":"Động từ"},{"k":"O","t":"(Tân ngữ)"},{"k":"Q","t":"(了)"}],
+"points":["别 + động từ là lời khuyên hoặc mệnh lệnh phủ định: đừng làm gì (\"别担心\" - đừng lo).","别 + động từ + 了 nghĩa là \"đừng … nữa\", nghe mềm và tự nhiên hơn (\"别哭了\" - đừng khóc nữa).","别忘了 + việc cần làm là cách nhắc nhở rất hay dùng (\"别忘了带护照\").","不要 + động từ có nghĩa tương tự 别 nhưng trang trọng hơn, hay gặp trên biển báo."],
+"mistakes":[{"wrong":"你不担心。","right":"你别担心。","why":"Khuyên \"đừng lo\" phải dùng 别; 不担心 chỉ là nêu sự thật \"(bạn) không lo\"."}],
+"compare":"Giống tiếng Việt: 别 đứng trước động từ như \"đừng\" (别走 = đừng đi). Khác: tiếng Trung hay thêm 了 cuối câu (别哭了 = đừng khóc nữa) để lời khuyên mềm và tự nhiên hơn.",
+"tip":"别 đọc \"piế\" nghe na ná \"biết\": \"Biết rồi, đừng nói nữa!\" = 别说了！",
+"how":["Đặt 别 trước động từ 担心 → 别担心, rồi thêm chủ ngữ 你 lên đầu → 你别担心。","Ghép 别 + 走 → 别走, rồi thêm 你 và 先 (khoan đã) trước 别 → 你先别走。","Ghép 别 + 忘 → 别忘, thêm 了 sau 忘 rồi nối việc cần nhớ 带护照 → 别忘了带护照。"],
+"dialog":[
+{"who":"A","t":"快点，飞机要起飞了！","ph":"Kuài diǎn, fēijī yào qǐfēi le!","vph":"Khoai tiẻn, phây chi dao chỉ phây lơ!","vi":"Nhanh lên, máy bay sắp cất cánh rồi!","hl":[]},
+{"who":"B","t":"别着急，还有一个小时。","ph":"Bié zháojí, hái yǒu yí ge xiǎoshí.","vph":"Piế cháo chí, hái dẩu í cưa xẻo sứ.","vi":"Đừng vội, còn một tiếng nữa mà.","hl":["别"]},
+{"who":"A","t":"好吧。别忘了拿行李！","ph":"Hǎo ba. Bié wàng le ná xíngli!","vph":"Hảo pa. Piế oang lơ ná xính lỉ!","vi":"Thôi được. Đừng quên lấy hành lý nhé!","hl":["别"]}
+],
+"more":[
+{"t":"你别客气。","ph":"Nǐ bié kèqi.","vph":"Nỉ piế khưa chi.","vi":"Bạn đừng khách sáo.","hl":["别"],"tokens":["你","别","客气"]},
+{"t":"别说话了。","ph":"Bié shuōhuà le.","vph":"Piế sua hoa lơ.","vi":"Đừng nói chuyện nữa.","hl":["别"],"tokens":["别","说话","了"]},
+{"t":"你别生气了。","ph":"Nǐ bié shēngqì le.","vph":"Nỉ piế sâng chi lơ.","vi":"Bạn đừng giận nữa.","hl":["别"],"tokens":["你","别","生气","了"]},
+{"t":"别在这儿抽烟。","ph":"Bié zài zhèr chōuyān.","vph":"Piế chai chưa châu dan.","vi":"Đừng hút thuốc ở đây.","hl":["别"],"tokens":["别","在","这儿","抽烟"]},
+{"t":"别喝太多酒。","ph":"Bié hē tài duō jiǔ.","vph":"Piế khưa thai tua chiểu.","vi":"Đừng uống quá nhiều rượu.","hl":["别"],"tokens":["别","喝","太","多","酒"]},
+{"t":"晚上别一个人出去。","ph":"Wǎnshang bié yí ge rén chūqu.","vph":"Oản sang piế í cưa rấn chu chuy.","vi":"Buổi tối đừng ra ngoài một mình.","hl":["别"],"tokens":["晚上","别","一","个","人","出去"]}
+]},
+{"id":17,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"A","t":"(已经)"},{"k":"V","t":"Động từ"},{"k":"P","t":"了"},{"k":"O","t":"(Số lượng + Tân ngữ)"}],
+"points":["了 đặt sau động từ hoặc cuối câu để chỉ hành động đã xảy ra, đã hoàn thành (\"他回家了\" - anh ấy về nhà rồi).","Tân ngữ có số lượng thì dùng mẫu: Động từ + 了 + số lượng + tân ngữ (\"买了两张票\").","Có 已经 (đã) thì cuối câu vẫn cần 了 (\"我已经吃了\").","Phủ định việc đã qua dùng 没 + động từ và bỏ 了 (\"我没吃\" - tôi chưa ăn)."],
+"mistakes":[{"wrong":"我没吃了。","right":"我没吃。","why":"Phủ định quá khứ dùng 没 + động từ và phải bỏ 了."},{"wrong":"我已经吃。","right":"我已经吃了。","why":"Tiếng Việt chỉ cần \"đã\", nhưng tiếng Trung có 已经 vẫn phải thêm 了."}],
+"compare":"Giống tiếng Việt: 了 giống chữ \"rồi\" (吃了 = ăn rồi). Khác: 了 đứng SAU động từ hoặc cuối câu chứ không đứng trước như \"đã\", và câu phủ định (没…) thì phải bỏ 了.",
+"tip":"了 = \"rồi\": việc xong rồi thì gắn 了 sau động từ; còn \"chưa\" thì đổi sang 没 và vứt 了 đi.",
+"how":["Thêm 了 sau động từ 吃 → 吃了, rồi đặt chủ ngữ 我 và 已经 (đã) trước động từ → 我已经吃了。","Ghép 到 + 了 → 到了 (đến rồi), rồi đặt chủ ngữ 飞机 lên đầu → 飞机到了。","Ghép 买 + 了 → 买了, thêm 我 phía trước và số lượng + tân ngữ 两张票 phía sau → 我买了两张票。"],
+"dialog":[
+{"who":"A","t":"你到了吗？","ph":"Nǐ dào le ma?","vph":"Nỉ tao lơ ma?","vi":"Bạn đến chưa?","hl":["了"]},
+{"who":"B","t":"我到了，在酒店门口。","ph":"Wǒ dào le, zài jiǔdiàn ménkǒu.","vph":"Ủa tao lơ, chai chiểu tiên mấn khẩu.","vi":"Tôi đến rồi, ở cửa khách sạn.","hl":["了"]},
+{"who":"A","t":"好，我马上下来。你吃饭了吗？","ph":"Hǎo, wǒ mǎshàng xiàlai. Nǐ chī fàn le ma?","vph":"Hảo, ủa mả sang xa lai. Nỉ chư phan lơ ma?","vi":"Được, tôi xuống ngay. Bạn ăn cơm chưa?","hl":["了"]},
+{"who":"B","t":"还没吃，我们一起去吧。","ph":"Hái méi chī, wǒmen yìqǐ qù ba.","vph":"Hái mấy chư, ủa mân i chỉ chuy pa.","vi":"Chưa ăn, chúng ta cùng đi nhé.","hl":[]}
+],
+"more":[
+{"t":"外面下雨了。","ph":"Wàimian xià yǔ le.","vph":"Oai miên xa dủy lơ.","vi":"Ngoài trời mưa rồi.","hl":["了"],"tokens":["外面","下雨","了"]},
+{"t":"他回家了。","ph":"Tā huí jiā le.","vph":"Tha khuấy chia lơ.","vi":"Anh ấy về nhà rồi.","hl":["了"],"tokens":["他","回家","了"]},
+{"t":"我们到酒店了。","ph":"Wǒmen dào jiǔdiàn le.","vph":"Ủa mân tao chiểu tiên lơ.","vi":"Chúng tôi đến khách sạn rồi.","hl":["了"],"tokens":["我们","到","酒店","了"]},
+{"t":"我喝了一杯咖啡。","ph":"Wǒ hē le yì bēi kāfēi.","vph":"Ủa khưa lơ i pây kha phây.","vi":"Tôi đã uống một cốc cà phê.","hl":["了"],"tokens":["我","喝","了","一","杯","咖啡"]},
+{"t":"我已经订好房间了。","ph":"Wǒ yǐjīng dìng hǎo fángjiān le.","vph":"Ủa ỷ chinh tinh hảo pháng chiên lơ.","vi":"Tôi đã đặt phòng xong rồi.","hl":["了"],"tokens":["我","已经","订","好","房间","了"]},
+{"t":"昨天我们看了一个电影。","ph":"Zuótiān wǒmen kàn le yí ge diànyǐng.","vph":"Chúa thiên ủa mân khan lơ í cưa tiên dỉnh.","vi":"Hôm qua chúng tôi đã xem một bộ phim.","hl":["了"],"tokens":["昨天","我们","看","了","一","个","电影"]}
+]},
+{"id":18,
+"formula":[{"k":"S","t":"Chủ ngữ"},{"k":"X","t":"(Thời gian)"},{"k":"P","t":"会"},{"k":"V","t":"Động từ"}],
+"points":["会 + động từ diễn tả dự đoán hoặc việc sẽ xảy ra (\"明天会下雨\" - mai trời sẽ mưa).","Từ chỉ thời gian đặt sau chủ ngữ, trước 会 (\"他明天会来\").","Phủ định là 不会 (sẽ không), không dùng 没会; hỏi bằng …会…吗？ hoặc 会不会…？","会 còn nghĩa là \"biết\" (kỹ năng học được): \"我会游泳\" - tôi biết bơi; phân biệt nhờ ngữ cảnh."],
+"mistakes":[{"wrong":"我会明天去。","right":"我明天会去。","why":"Thời gian đặt sau chủ ngữ, trước 会, không chen giữa 会 và động từ."},{"wrong":"他没会来。","right":"他不会来。","why":"Phủ định của 会 luôn là 不会."}],
+"compare":"Giống tiếng Việt: 会 đứng trước động từ như \"sẽ\" (会来 = sẽ đến). Khác: 会 còn nghĩa \"biết làm\" (我会游泳 = tôi biết bơi), và thời gian luôn đứng trước 会 chứ không đứng sau.",
+"tip":"会 \"huây\" có hai mặt: nói chuyện tương lai thì là \"sẽ\", nói chuyện kỹ năng thì là \"biết\".",
+"how":["Đặt 会 trước động từ 来 → 会来, rồi thêm chủ ngữ 他 và thời gian 明天 trước 会 → 他明天会来。","Ghép 会 + 下雨 → 会下雨, thêm 明天 lên đầu và 吗 cuối câu để hỏi → 明天会下雨吗？","Ghép 会 + 回来 → 会回来, rồi thêm 我 và 很快就 (rất nhanh thôi) trước 会 → 我很快就会回来。"],
+"dialog":[
+{"who":"A","t":"明天会冷吗？","ph":"Míngtiān huì lěng ma?","vph":"Mính thiên huây lẩng ma?","vi":"Ngày mai trời có lạnh không?","hl":["会"]},
+{"who":"B","t":"会，听说会下雪。","ph":"Huì, tīngshuō huì xià xuě.","vph":"Huây, thinh sua huây xa xuể.","vi":"Có, nghe nói sẽ có tuyết.","hl":["会"]},
+{"who":"A","t":"那我会多穿一点。","ph":"Nà wǒ huì duō chuān yìdiǎn.","vph":"Na ủa huây tua choan i tiẻn.","vi":"Vậy tôi sẽ mặc thêm áo.","hl":["会"]}
+],
+"more":[
+{"t":"我会告诉他。","ph":"Wǒ huì gàosu tā.","vph":"Ủa huây cao xu tha.","vi":"Tôi sẽ nói với anh ấy.","hl":["会"],"tokens":["我","会","告诉","他"]},
+{"t":"你会喜欢的。","ph":"Nǐ huì xǐhuan de.","vph":"Nỉ huây xỉ hoan tơ.","vi":"Bạn sẽ thích cho xem.","hl":["会"],"tokens":["你","会","喜欢","的"]},
+{"t":"今天会很热。","ph":"Jīntiān huì hěn rè.","vph":"Chin thiên huây hẩn rưa.","vi":"Hôm nay sẽ rất nóng.","hl":["会"],"tokens":["今天","会","很","热"]},
+{"t":"她不会来了。","ph":"Tā bú huì lái le.","vph":"Tha pú huây lái lơ.","vi":"Cô ấy sẽ không đến nữa.","hl":["会"],"tokens":["她","不","会","来","了"]},
+{"t":"我们周末会去海边。","ph":"Wǒmen zhōumò huì qù hǎibiān.","vph":"Ủa mân châu mua huây chuy hải piên.","vi":"Cuối tuần chúng tôi sẽ đi biển.","hl":["会"],"tokens":["我们","周末","会","去","海边"]},
+{"t":"我下个月会去上海出差。","ph":"Wǒ xià ge yuè huì qù Shànghǎi chūchāi.","vph":"Ủa xa cưa duê huây chuy Sang hải chu chai.","vi":"Tháng sau tôi sẽ đi công tác Thượng Hải.","hl":["会"],"tokens":["我","下","个","月","会","去","上海","出差"]}
+]}
+]

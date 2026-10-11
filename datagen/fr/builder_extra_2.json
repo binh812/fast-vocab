@@ -1,0 +1,3204 @@
+[
+ {
+  "id": 19,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "être (chia)"
+   },
+   {
+    "k": "P",
+    "t": "en train de"
+   },
+   {
+    "k": "V",
+    "t": "Động từ nguyên mẫu"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Dùng être en train de + động từ nguyên mẫu để nhấn mạnh hành động ĐANG diễn ra ngay lúc nói (\"Je suis en train de manger\").",
+   "Chỉ chia être theo chủ ngữ (je suis, tu es, il est, nous sommes, vous êtes, ils sont); động từ sau de luôn để nguyên mẫu.",
+   "De rút thành d' trước động từ bắt đầu bằng nguyên âm hoặc h câm (\"en train d'attendre\").",
+   "Thì hiện tại thường cũng có nghĩa \"đang\" (\"Je mange\" = tôi ăn / tôi đang ăn); en train de chỉ dùng khi muốn nhấn mạnh."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Je en train de manger.",
+    "right": "Je suis en train de manger.",
+    "why": "Thiếu động từ être: \"đang\" không đứng một mình, phải có suis/es/est... trước en train de."
+   },
+   {
+    "wrong": "Elle est en train de attendre.",
+    "right": "Elle est en train d'attendre.",
+    "why": "Trước nguyên âm, de phải rút gọn thành d'."
+   }
+  ],
+  "compare": "Tiếng Việt chỉ cần thêm \"đang\" trước động từ; tiếng Pháp phải dùng cả cụm être + en train de, và chia être theo chủ ngữ.",
+  "tip": "\"En train\" nghĩa đen là \"trên tàu\": đang ngồi trên tàu = việc đang chạy dở, chưa xong!",
+  "how": [
+   "Đặt en train de trước động từ nguyên mẫu manger → en train de manger, rồi thêm chủ ngữ Nous với être chia thành sommes → Nous sommes en train de manger.",
+   "Ghép en train de với chercher → en train de chercher, thêm Je suis ở đầu và tân ngữ l'hôtel ở cuối → Je suis en train de chercher l'hôtel.",
+   "Vì attendre bắt đầu bằng nguyên âm nên de rút thành d' → en train d'attendre, thêm Elle est ở đầu và le bus ở cuối → Elle est en train d'attendre le bus."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Tu es où ?",
+    "ph": "tuy e U",
+    "vi": "Bạn đang ở đâu?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Je suis en train de faire les courses.",
+    "ph": "jơ XUY a~ TRE~ đơ FER lê KURS",
+    "vi": "Mình đang đi chợ.",
+    "hl": [
+     "en train de"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et Paul ?",
+    "ph": "ê PÔL",
+    "vi": "Còn Paul?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Il est en train de dormir à l'hôtel.",
+    "ph": "i-LE a~ TRE~ đơ đor-MIR a lô-TEL",
+    "vi": "Anh ấy đang ngủ ở khách sạn.",
+    "hl": [
+     "en train de"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Je suis en train de lire.",
+    "ph": "jơ XUY a~ TRE~ đơ LIR",
+    "vi": "Tôi đang đọc sách.",
+    "hl": [
+     "en train de"
+    ],
+    "tokens": [
+     "Je",
+     "suis",
+     "en",
+     "train",
+     "de",
+     "lire"
+    ]
+   },
+   {
+    "t": "Il est en train de travailler.",
+    "ph": "i-LE a~ TRE~ đơ tra-va-YÊ",
+    "vi": "Anh ấy đang làm việc.",
+    "hl": [
+     "en train de"
+    ],
+    "tokens": [
+     "Il",
+     "est",
+     "en",
+     "train",
+     "de",
+     "travailler"
+    ]
+   },
+   {
+    "t": "Tu es en train de manger ?",
+    "ph": "tuy E a~ TRE~ đơ ma~-JÊ",
+    "vi": "Bạn đang ăn à?",
+    "hl": [
+     "en train de"
+    ],
+    "tokens": [
+     "Tu",
+     "es",
+     "en",
+     "train",
+     "de",
+     "manger"
+    ]
+   },
+   {
+    "t": "Je suis en train d'appeler un taxi.",
+    "ph": "jơ XUY a~ TRE~ đap-LÊ a~ tak-XI",
+    "vi": "Tôi đang gọi taxi.",
+    "hl": [
+     "en train d'"
+    ],
+    "tokens": [
+     "Je",
+     "suis",
+     "en",
+     "train",
+     "d'appeler",
+     "un",
+     "taxi"
+    ]
+   },
+   {
+    "t": "Nous sommes en train d'arriver à la gare.",
+    "ph": "nu XOM a~ TRE~ đa-ri-VÊ a la GAR",
+    "vi": "Chúng tôi đang đến ga.",
+    "hl": [
+     "en train d'"
+    ],
+    "tokens": [
+     "Nous",
+     "sommes",
+     "en",
+     "train",
+     "d'arriver",
+     "à",
+     "la",
+     "gare"
+    ]
+   },
+   {
+    "t": "Ils sont en train de visiter le musée.",
+    "ph": "il XO~ a~ TRE~ đơ vi-zi-TÊ lơ muy-ZÊ",
+    "vi": "Họ đang tham quan bảo tàng.",
+    "hl": [
+     "en train de"
+    ],
+    "tokens": [
+     "Ils",
+     "sont",
+     "en",
+     "train",
+     "de",
+     "visiter",
+     "le",
+     "musée"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "X",
+    "t": "avoir / être (chia)"
+   },
+   {
+    "k": "P",
+    "t": "déjà"
+   },
+   {
+    "k": "V",
+    "t": "Phân từ quá khứ"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Déjà nghĩa là \"rồi / đã ... rồi\", dùng nhiều nhất với thì quá khứ passé composé.",
+   "Trong passé composé, déjà đứng GIỮA trợ động từ (avoir/être) và phân từ quá khứ (\"J'ai déjà payé\").",
+   "Đa số động từ dùng avoir (j'ai mangé), còn động từ chỉ di chuyển như partir, arriver dùng être (il est parti).",
+   "Ở thì hiện tại, déjà đứng ngay sau động từ (\"Il est déjà là\" = Anh ấy đến rồi)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "J'ai payé déjà.",
+    "right": "J'ai déjà payé.",
+    "why": "Tiếng Việt để \"rồi\" cuối câu, nhưng tiếng Pháp chen déjà vào giữa ai và payé."
+   },
+   {
+    "wrong": "Le bus a déjà parti.",
+    "right": "Le bus est déjà parti.",
+    "why": "Partir dùng trợ động từ être, không dùng avoir."
+   }
+  ],
+  "compare": "Tiếng Việt nói \"ăn rồi\" với \"rồi\" ở cuối; tiếng Pháp đưa déjà vào giữa câu, ngay trước phân từ quá khứ.",
+  "tip": "Nhớ cụm \"déjà vu\" (đã thấy rồi): déjà luôn đứng trước phân từ, y như đứng trước vu!",
+  "how": [
+   "Đặt déjà trước phân từ mangé → déjà mangé, rồi thêm Nous avons (trợ động từ avoir) ở trước → Nous avons déjà mangé.",
+   "Ghép déjà với payé → déjà payé, thêm J'ai ở đầu và tân ngữ la chambre ở cuối → J'ai déjà payé la chambre.",
+   "Ghép déjà với parti → déjà parti, vì partir dùng être nên thêm Le bus est ở trước → Le bus est déjà parti."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Tu veux manger quelque chose ?",
+    "ph": "tuy VƠ ma~-JÊ kel-kơ SHÔZ",
+    "vi": "Bạn muốn ăn gì không?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Non merci, j'ai déjà mangé.",
+    "ph": "no~ mer-XI JÊ đê-JA ma~-JÊ",
+    "vi": "Thôi cảm ơn, mình ăn rồi.",
+    "hl": [
+     "déjà"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Tu as déjà vu ce film ?",
+    "ph": "tuy a đê-JA VUY xơ FILM",
+    "vi": "Bạn xem phim này rồi à?",
+    "hl": [
+     "déjà"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Oui, deux fois !",
+    "ph": "uy đơ FOA",
+    "vi": "Ừ, hai lần rồi!",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Il est déjà là.",
+    "ph": "i-LE đê-JA LA",
+    "vi": "Anh ấy đến rồi.",
+    "hl": [
+     "déjà"
+    ],
+    "tokens": [
+     "Il",
+     "est",
+     "déjà",
+     "là"
+    ]
+   },
+   {
+    "t": "J'ai déjà fini.",
+    "ph": "JÊ đê-JA fi-NI",
+    "vi": "Tôi xong rồi.",
+    "hl": [
+     "déjà"
+    ],
+    "tokens": [
+     "J'ai",
+     "déjà",
+     "fini"
+    ]
+   },
+   {
+    "t": "Elle est déjà partie ?",
+    "ph": "e-LE đê-JA par-TI",
+    "vi": "Cô ấy đi rồi à?",
+    "hl": [
+     "déjà"
+    ],
+    "tokens": [
+     "Elle",
+     "est",
+     "déjà",
+     "partie"
+    ]
+   },
+   {
+    "t": "Nous avons déjà visité Paris.",
+    "ph": "nu-za-VO~ đê-JA vi-zi-TÊ pa-RI",
+    "vi": "Chúng tôi đã thăm Paris rồi.",
+    "hl": [
+     "déjà"
+    ],
+    "tokens": [
+     "Nous",
+     "avons",
+     "déjà",
+     "visité",
+     "Paris"
+    ]
+   },
+   {
+    "t": "Vous avez déjà commandé le dîner ?",
+    "ph": "vu-za-VÊ đê-JA ko-ma~-ĐÊ lơ đi-NÊ",
+    "vi": "Anh chị gọi bữa tối rồi à?",
+    "hl": [
+     "déjà"
+    ],
+    "tokens": [
+     "Vous",
+     "avez",
+     "déjà",
+     "commandé",
+     "le",
+     "dîner"
+    ]
+   },
+   {
+    "t": "J'ai déjà acheté les billets de train.",
+    "ph": "JÊ đê-JA ash-TÊ lê bi-YÊ đơ TRE~",
+    "vi": "Tôi mua vé tàu rồi.",
+    "hl": [
+     "déjà"
+    ],
+    "tokens": [
+     "J'ai",
+     "déjà",
+     "acheté",
+     "les",
+     "billets",
+     "de",
+     "train"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "X",
+    "t": "ne (n')"
+   },
+   {
+    "k": "X",
+    "t": "avoir / être (chia)"
+   },
+   {
+    "k": "P",
+    "t": "pas encore"
+   },
+   {
+    "k": "V",
+    "t": "Phân từ / Tính từ"
+   }
+  ],
+  "points": [
+   "\"Chưa\" = ne ... pas encore: ne (n') đứng trước động từ chia, pas encore đứng ngay sau nó (\"Je n'ai pas encore mangé\").",
+   "Ne rút thành n' trước nguyên âm (n'ai, n'est); văn nói hay bỏ ne (\"J'ai pas encore mangé\") nhưng khi học nên giữ.",
+   "Muốn hỏi \"đã ... chưa?\" thì dùng déjà trong câu hỏi (\"Vous avez déjà réservé ?\"), không dùng pas encore.",
+   "Trả lời ngắn \"chưa\" là \"Pas encore\", \"rồi\" là \"Oui, déjà\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Je pas encore mangé.",
+    "right": "Je n'ai pas encore mangé.",
+    "why": "Thiếu ne và trợ động từ ai: \"chưa ăn\" phải là n'ai pas encore mangé."
+   },
+   {
+    "wrong": "Vous avez réservé pas encore ?",
+    "right": "Vous avez déjà réservé ?",
+    "why": "Câu hỏi \"đã ... chưa\" dùng déjà, không dịch từng chữ \"chưa\" thành pas encore."
+   }
+  ],
+  "compare": "Tiếng Việt chỉ thêm \"chưa\" trước động từ; tiếng Pháp kẹp ne ... pas encore quanh trợ động từ như kẹp bánh mì.",
+  "tip": "Cặp đôi dễ nhớ: déjà = rồi, pas encore = chưa. Hỏi bằng déjà, trả lời \"chưa\" bằng pas encore.",
+  "how": [
+   "Đặt pas encore trước phân từ mangé → pas encore mangé, rồi thêm Je n'ai (ne rút thành n' trước ai) ở đầu → Je n'ai pas encore mangé.",
+   "Ghép pas encore với tính từ prêt → pas encore prêt, thêm Le repas n'est ở trước → Le repas n'est pas encore prêt.",
+   "Để hỏi \"đã ... chưa\", đặt déjà trước réservé → déjà réservé, thêm Vous avez ở đầu, l'hôtel ở cuối và dấu ? → Vous avez déjà réservé l'hôtel ?"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Tu as déjà fini ton travail ?",
+    "ph": "tuy a đê-JA fi-NI to~ tra-VAI",
+    "vi": "Bạn làm xong việc chưa?",
+    "hl": [
+     "déjà"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Non, pas encore.",
+    "ph": "no~ pa-za~-KOR",
+    "vi": "Chưa.",
+    "hl": [
+     "pas encore"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et tu as mangé ?",
+    "ph": "ê tuy a ma~-JÊ",
+    "vi": "Thế bạn ăn chưa?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Non, je n'ai pas encore eu le temps.",
+    "ph": "no~ jơ NÊ pa-za~-KOR uy lơ TA~",
+    "vi": "Chưa, mình chưa có thời gian.",
+    "hl": [
+     "n'",
+     "pas encore"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Il n'est pas encore là.",
+    "ph": "il NE pa-za~-KOR LA",
+    "vi": "Anh ấy chưa đến.",
+    "hl": [
+     "n'",
+     "pas encore"
+    ],
+    "tokens": [
+     "Il",
+     "n'est",
+     "pas",
+     "encore",
+     "là"
+    ]
+   },
+   {
+    "t": "Je n'ai pas encore payé.",
+    "ph": "jơ NÊ pa-za~-KOR pê-YÊ",
+    "vi": "Tôi chưa trả tiền.",
+    "hl": [
+     "n'",
+     "pas encore"
+    ],
+    "tokens": [
+     "Je",
+     "n'ai",
+     "pas",
+     "encore",
+     "payé"
+    ]
+   },
+   {
+    "t": "Le train n'est pas encore arrivé.",
+    "ph": "lơ TRE~ ne pa-za~-KOR a-ri-VÊ",
+    "vi": "Tàu chưa đến.",
+    "hl": [
+     "n'",
+     "pas encore"
+    ],
+    "tokens": [
+     "Le",
+     "train",
+     "n'est",
+     "pas",
+     "encore",
+     "arrivé"
+    ]
+   },
+   {
+    "t": "Nous n'avons pas encore choisi.",
+    "ph": "nu na-VO~ pa-za~-KOR shoa-ZI",
+    "vi": "Chúng tôi chưa chọn món.",
+    "hl": [
+     "n'",
+     "pas encore"
+    ],
+    "tokens": [
+     "Nous",
+     "n'avons",
+     "pas",
+     "encore",
+     "choisi"
+    ]
+   },
+   {
+    "t": "Elle n'a pas encore réservé l'hôtel.",
+    "ph": "el NA pa-za~-KOR rê-zer-VÊ lô-TEL",
+    "vi": "Cô ấy chưa đặt khách sạn.",
+    "hl": [
+     "n'",
+     "pas encore"
+    ],
+    "tokens": [
+     "Elle",
+     "n'a",
+     "pas",
+     "encore",
+     "réservé",
+     "l'hôtel"
+    ]
+   },
+   {
+    "t": "Vous n'avez pas encore reçu la clé ?",
+    "ph": "vu na-VÊ pa-za~-KOR rơ-XUY la KLÊ",
+    "vi": "Anh chị chưa nhận chìa khóa à?",
+    "hl": [
+     "n'",
+     "pas encore"
+    ],
+    "tokens": [
+     "Vous",
+     "n'avez",
+     "pas",
+     "encore",
+     "reçu",
+     "la",
+     "clé"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "être (chia)"
+   },
+   {
+    "k": "P",
+    "t": "très"
+   },
+   {
+    "k": "A",
+    "t": "Tính từ"
+   }
+  ],
+  "points": [
+   "Très (rất) đứng ngay trước tính từ hoặc trạng từ (\"très bon\", \"très vite\").",
+   "Tính từ phải hợp giống và số với danh từ (bon/bonne, beau/belle, gentil/gentils), còn très thì không bao giờ đổi.",
+   "Très cũng đi với trạng từ: \"très bien\" (rất tốt), \"très loin\" (rất xa).",
+   "Không dùng très với danh từ hay động từ: cảm ơn rất nhiều là \"merci beaucoup\", không phải \"merci très\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Ce gâteau est bon très.",
+    "right": "Ce gâteau est très bon.",
+    "why": "Très đứng TRƯỚC tính từ, không đặt sau như kiểu \"ngon lắm\"."
+   },
+   {
+    "wrong": "Merci très.",
+    "right": "Merci beaucoup.",
+    "why": "Très chỉ đi với tính từ/trạng từ; \"cảm ơn rất nhiều\" dùng beaucoup."
+   }
+  ],
+  "compare": "Giống tiếng Việt, très đứng trước tính từ (rất ngon = très bon); khác ở chỗ tiếng Pháp cần động từ être (est) và tính từ phải đổi theo giống, số.",
+  "tip": "Très = \"rất\": cả hai đều đứng trước tính từ, cứ đặt như tiếng Việt là đúng!",
+  "how": [
+   "Đặt très trước tính từ bon → très bon, rồi thêm Ce gâteau est ở trước → Ce gâteau est très bon.",
+   "Ghép très với belle (giống cái vì ville là giống cái) → très belle, thêm La ville est ở trước → La ville est très belle.",
+   "Ghép très với gentils (số nhiều theo gens) → très gentils, thêm Les gens sont ở trước và ici ở cuối → Les gens sont très gentils ici."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Comment est ton hôtel ?",
+    "ph": "ko-MA~ e to~-nô-TEL",
+    "vi": "Khách sạn của bạn thế nào?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Il est très confortable.",
+    "ph": "i-LE TRE ko~-for-TA-BL",
+    "vi": "Rất thoải mái.",
+    "hl": [
+     "très"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et la vue ?",
+    "ph": "ê la VUY",
+    "vi": "Còn cảnh nhìn thì sao?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Très belle, on voit la mer !",
+    "ph": "TRE BEL o~ VOA la MER",
+    "vi": "Rất đẹp, nhìn thấy cả biển!",
+    "hl": [
+     "Très"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "C'est très bien.",
+    "ph": "xê TRE BIE~",
+    "vi": "Rất tốt.",
+    "hl": [
+     "très"
+    ],
+    "tokens": [
+     "C'est",
+     "très",
+     "bien"
+    ]
+   },
+   {
+    "t": "Il fait très chaud.",
+    "ph": "il FE TRE SHÔ",
+    "vi": "Trời rất nóng.",
+    "hl": [
+     "très"
+    ],
+    "tokens": [
+     "Il",
+     "fait",
+     "très",
+     "chaud"
+    ]
+   },
+   {
+    "t": "Elle est très fatiguée.",
+    "ph": "e-LE TRE fa-ti-GHÊ",
+    "vi": "Cô ấy rất mệt.",
+    "hl": [
+     "très"
+    ],
+    "tokens": [
+     "Elle",
+     "est",
+     "très",
+     "fatiguée"
+    ]
+   },
+   {
+    "t": "Le musée est très intéressant.",
+    "ph": "lơ muy-ZÊ e TRE-ze~-tê-rê-XA~",
+    "vi": "Bảo tàng rất thú vị.",
+    "hl": [
+     "très"
+    ],
+    "tokens": [
+     "Le",
+     "musée",
+     "est",
+     "très",
+     "intéressant"
+    ]
+   },
+   {
+    "t": "Ce restaurant n'est pas très cher.",
+    "ph": "xơ rết-tô-RA~ ne PA TRE SHER",
+    "vi": "Nhà hàng này không đắt lắm.",
+    "hl": [
+     "très"
+    ],
+    "tokens": [
+     "Ce",
+     "restaurant",
+     "n'est",
+     "pas",
+     "très",
+     "cher"
+    ]
+   },
+   {
+    "t": "Vous parlez très bien le français.",
+    "ph": "vu par-LÊ TRE BIE~ lơ fra~-XÊ",
+    "vi": "Bạn nói tiếng Pháp rất giỏi.",
+    "hl": [
+     "très"
+    ],
+    "tokens": [
+     "Vous",
+     "parlez",
+     "très",
+     "bien",
+     "le",
+     "français"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "être (chia)"
+   },
+   {
+    "k": "P",
+    "t": "trop"
+   },
+   {
+    "k": "A",
+    "t": "Tính từ / Trạng từ"
+   },
+   {
+    "k": "O",
+    "t": "(pour + ai)"
+   }
+  ],
+  "points": [
+   "Trop (quá) đứng trước tính từ hoặc trạng từ và mang nghĩa TIÊU CỰC: vượt mức mong muốn (\"trop cher\" = đắt quá, không mua nổi).",
+   "Muốn khen \"ngon quá!\" thì dùng très hoặc vraiment (\"C'est vraiment bon !\"), không dùng trop trong văn chuẩn.",
+   "Trop de + danh từ = quá nhiều cái gì (\"trop de monde\" = quá đông người).",
+   "Tính từ sau trop vẫn hợp giống, số với danh từ (\"la soupe est trop chaude\")."
+  ],
+  "mistakes": [
+   {
+    "wrong": "C'est cher trop.",
+    "right": "C'est trop cher.",
+    "why": "Tiếng Việt nói \"đắt quá\", nhưng trop phải đứng TRƯỚC tính từ."
+   },
+   {
+    "wrong": "Il y a trop des gens.",
+    "right": "Il y a trop de gens.",
+    "why": "Sau trop, danh từ chỉ đi với de, không dùng des."
+   }
+  ],
+  "compare": "Tiếng Việt \"quá\" thường đứng sau tính từ (đắt quá) và hay dùng để khen; tiếng Pháp trop luôn đứng trước và thường mang ý phàn nàn.",
+  "tip": "Trop nghe như \"tràn\": tràn ra ngoài mức cho phép, nên đó là điều không mong muốn!",
+  "how": [
+   "Đặt trop trước tính từ cher → trop cher, rồi thêm C'est ở đầu và pour moi ở cuối → C'est trop cher pour moi.",
+   "Ghép trop với chaude (giống cái theo soupe) → trop chaude, thêm La soupe est ở trước → La soupe est trop chaude.",
+   "Ghép trop với trạng từ loin → trop loin, thêm L'hôtel est ở trước và d'ici ở cuối → L'hôtel est trop loin d'ici."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "On prend un taxi ?",
+    "ph": "o~ PRA~ a~ tak-XI",
+    "vi": "Mình đi taxi nhé?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Non, c'est trop cher.",
+    "ph": "no~ xê TRÔ SHER",
+    "vi": "Thôi, đắt quá.",
+    "hl": [
+     "trop"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "À pied alors ?",
+    "ph": "a PIÊ a-LOR",
+    "vi": "Vậy đi bộ nhé?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "C'est trop loin, prenons le métro.",
+    "ph": "xê TRÔ LOE~ prơ-NO~ lơ mê-TRÔ",
+    "vi": "Xa quá, đi tàu điện ngầm đi.",
+    "hl": [
+     "trop"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "C'est trop petit.",
+    "ph": "xê TRÔ pơ-TI",
+    "vi": "Nhỏ quá.",
+    "hl": [
+     "trop"
+    ],
+    "tokens": [
+     "C'est",
+     "trop",
+     "petit"
+    ]
+   },
+   {
+    "t": "Vous parlez trop vite.",
+    "ph": "vu par-LÊ TRÔ VIT",
+    "vi": "Anh nói nhanh quá.",
+    "hl": [
+     "trop"
+    ],
+    "tokens": [
+     "Vous",
+     "parlez",
+     "trop",
+     "vite"
+    ]
+   },
+   {
+    "t": "Ce café est trop sucré.",
+    "ph": "xơ ka-FÊ e TRÔ xuy-KRÊ",
+    "vi": "Cà phê này ngọt quá.",
+    "hl": [
+     "trop"
+    ],
+    "tokens": [
+     "Ce",
+     "café",
+     "est",
+     "trop",
+     "sucré"
+    ]
+   },
+   {
+    "t": "Il y a trop de monde ici.",
+    "ph": "i-li-A TRÔ đơ MO~Đ i-XI",
+    "vi": "Ở đây đông người quá.",
+    "hl": [
+     "trop"
+    ],
+    "tokens": [
+     "Il",
+     "y",
+     "a",
+     "trop",
+     "de",
+     "monde",
+     "ici"
+    ]
+   },
+   {
+    "t": "Ces chaussures sont trop grandes pour moi.",
+    "ph": "xê shô-XUYR xo~ TRÔ GRA~Đ pur MOA",
+    "vi": "Đôi giày này rộng quá với tôi.",
+    "hl": [
+     "trop"
+    ],
+    "tokens": [
+     "Ces",
+     "chaussures",
+     "sont",
+     "trop",
+     "grandes",
+     "pour",
+     "moi"
+    ]
+   },
+   {
+    "t": "Je suis trop fatigué pour sortir ce soir.",
+    "ph": "jơ XUY TRÔ fa-ti-GHÊ pur xor-TIR xơ SOAR",
+    "vi": "Tối nay tôi mệt quá không đi chơi được.",
+    "hl": [
+     "trop"
+    ],
+    "tokens": [
+     "Je",
+     "suis",
+     "trop",
+     "fatigué",
+     "pour",
+     "sortir",
+     "ce",
+     "soir"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "être (chia)"
+   },
+   {
+    "k": "P",
+    "t": "plus"
+   },
+   {
+    "k": "A",
+    "t": "Tính từ"
+   },
+   {
+    "k": "P",
+    "t": "que"
+   },
+   {
+    "k": "O",
+    "t": "Đối tượng so sánh"
+   }
+  ],
+  "points": [
+   "So sánh hơn: plus + tính từ + que + đối tượng (\"plus grand que Lyon\").",
+   "Tính từ hợp giống, số với chủ ngữ (\"cette chambre est plus chère\").",
+   "Que rút thành qu' trước nguyên âm (\"qu'hier\") và đi với đại từ nhấn mạnh moi, toi (\"plus grand que moi\").",
+   "Bon không nói \"plus bon\" mà là meilleur (tốt hơn, ngon hơn): \"Ce vin est meilleur\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Paris est grand plus Lyon.",
+    "right": "Paris est plus grand que Lyon.",
+    "why": "Tiếng Việt để \"hơn\" sau tính từ, còn tiếng Pháp đặt plus TRƯỚC tính từ và cần que trước đối tượng."
+   },
+   {
+    "wrong": "Ce vin est plus bon.",
+    "right": "Ce vin est meilleur.",
+    "why": "Bon là tính từ bất quy tắc: \"ngon hơn\" là meilleur."
+   }
+  ],
+  "compare": "Tiếng Việt: tính từ + hơn + đối tượng (to hơn Lyon); tiếng Pháp: plus + tính từ + que + đối tượng, tức chữ \"hơn\" bị tách làm hai.",
+  "tip": "Kẹp tính từ như bánh sandwich: plus ở trên, que ở dưới → plus GRAND que.",
+  "how": [
+   "Kẹp tính từ grand giữa plus và que → plus grand que, rồi thêm Paris est ở đầu và Lyon ở cuối → Paris est plus grand que Lyon.",
+   "Kẹp chère (giống cái theo chambre) vào plus ... que → plus chère que, thêm Cette chambre est ở trước và l'autre ở sau → Cette chambre est plus chère que l'autre.",
+   "Kẹp rapide vào plus ... que → plus rapide que, thêm Le train est ở đầu và le bus ở cuối → Le train est plus rapide que le bus."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "On prend le train ou l'avion ?",
+    "ph": "o~ PRA~ lơ TRE~ u la-VIO~",
+    "vi": "Mình đi tàu hay máy bay?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "L'avion est plus rapide que le train.",
+    "ph": "la-VIO~ e PLUY ra-PIT kơ lơ TRE~",
+    "vi": "Máy bay nhanh hơn tàu.",
+    "hl": [
+     "plus",
+     "que"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Oui, mais il est plus cher.",
+    "ph": "uy mê i-LE PLUY SHER",
+    "vi": "Ừ, nhưng đắt hơn.",
+    "hl": [
+     "plus"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Il est plus grand que moi.",
+    "ph": "i-LE PLUY GRA~ kơ MOA",
+    "vi": "Anh ấy cao hơn tôi.",
+    "hl": [
+     "plus",
+     "que"
+    ],
+    "tokens": [
+     "Il",
+     "est",
+     "plus",
+     "grand",
+     "que",
+     "moi"
+    ]
+   },
+   {
+    "t": "Cette robe est plus jolie que l'autre.",
+    "ph": "xét RÔP e PLUY jo-LI kơ LÔ-TR",
+    "vi": "Chiếc váy này đẹp hơn chiếc kia.",
+    "hl": [
+     "plus",
+     "que"
+    ],
+    "tokens": [
+     "Cette",
+     "robe",
+     "est",
+     "plus",
+     "jolie",
+     "que",
+     "l'autre"
+    ]
+   },
+   {
+    "t": "Le métro est plus pratique que le taxi.",
+    "ph": "lơ mê-TRÔ e PLUY pra-TIK kơ lơ tak-XI",
+    "vi": "Tàu điện ngầm tiện hơn taxi.",
+    "hl": [
+     "plus",
+     "que"
+    ],
+    "tokens": [
+     "Le",
+     "métro",
+     "est",
+     "plus",
+     "pratique",
+     "que",
+     "le",
+     "taxi"
+    ]
+   },
+   {
+    "t": "Aujourd'hui il fait plus froid qu'hier.",
+    "ph": "ô-jur-ĐUY il FE PLUY FROA kiê-ER",
+    "vi": "Hôm nay lạnh hơn hôm qua.",
+    "hl": [
+     "plus",
+     "qu'"
+    ],
+    "tokens": [
+     "Aujourd'hui",
+     "il",
+     "fait",
+     "plus",
+     "froid",
+     "qu'hier"
+    ]
+   },
+   {
+    "t": "Ma valise est plus lourde que la tienne.",
+    "ph": "ma va-LIZ e PLUY LURĐ kơ la TIEN",
+    "vi": "Vali của tôi nặng hơn của bạn.",
+    "hl": [
+     "plus",
+     "que"
+    ],
+    "tokens": [
+     "Ma",
+     "valise",
+     "est",
+     "plus",
+     "lourde",
+     "que",
+     "la",
+     "tienne"
+    ]
+   },
+   {
+    "t": "Le français est plus difficile que l'anglais.",
+    "ph": "lơ fra~-XÊ e PLUY đi-fi-XIL kơ la~-GLÊ",
+    "vi": "Tiếng Pháp khó hơn tiếng Anh.",
+    "hl": [
+     "plus",
+     "que"
+    ],
+    "tokens": [
+     "Le",
+     "français",
+     "est",
+     "plus",
+     "difficile",
+     "que",
+     "l'anglais"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "être (chia)"
+   },
+   {
+    "k": "P",
+    "t": "le / la / les plus"
+   },
+   {
+    "k": "A",
+    "t": "Tính từ"
+   },
+   {
+    "k": "O",
+    "t": "(de + phạm vi)"
+   }
+  ],
+  "points": [
+   "So sánh nhất: le/la/les + plus + tính từ; mạo từ hợp giống, số với danh từ (le plus beau, la plus proche, les plus chers).",
+   "Phạm vi so sánh dùng de: \"le plus beau musée de Paris\" (đẹp nhất ở Paris).",
+   "Khi tính từ đứng sau danh từ thì phải lặp lại mạo từ: \"la pharmacie la plus proche\".",
+   "Bon thành le meilleur / la meilleure (tốt nhất, ngon nhất), không nói \"le plus bon\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Où est la pharmacie plus proche ?",
+    "right": "Où est la pharmacie la plus proche ?",
+    "why": "Tính từ đứng sau danh từ phải lặp lại mạo từ la trước plus, nếu thiếu thì thành so sánh hơn."
+   },
+   {
+    "wrong": "C'est le plus bon restaurant.",
+    "right": "C'est le meilleur restaurant.",
+    "why": "\"Ngon nhất / tốt nhất\" của bon là le meilleur."
+   }
+  ],
+  "compare": "Tiếng Việt chỉ thêm \"nhất\" sau tính từ (đẹp nhất); tiếng Pháp đặt le/la/les plus trước tính từ và dùng de cho phạm vi (nhất Paris = de Paris).",
+  "tip": "Le plus = \"cái hơn cả\": gắn mạo từ le vào plus là từ \"hơn\" biến thành \"nhất\".",
+  "how": [
+   "Đặt le plus trước tính từ beau → le plus beau, rồi thêm C'est ở đầu, musée và de Paris ở sau → C'est le plus beau musée de Paris.",
+   "Vì pharmacie là giống cái nên dùng la plus với proche → la plus proche, đặt sau la pharmacie và mở đầu bằng Où est → Où est la pharmacie la plus proche ?",
+   "Bon ở dạng so sánh nhất là le meilleur → le meilleur, thêm C'est ở đầu và restaurant du quartier ở sau → C'est le meilleur restaurant du quartier."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Quel est le plat le plus connu ici ?",
+    "ph": "kel E lơ PLA lơ PLUY ko-NUY i-XI",
+    "vi": "Món nổi tiếng nhất ở đây là gì?",
+    "hl": [
+     "le plus"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Le coq au vin, c'est le plus populaire.",
+    "ph": "lơ KOK ô VE~ xê lơ PLUY po-puy-LER",
+    "vi": "Gà nấu rượu vang, món phổ biến nhất.",
+    "hl": [
+     "le plus"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et le meilleur dessert ?",
+    "ph": "ê lơ me-YƠR đê-XER",
+    "vi": "Còn món tráng miệng ngon nhất?",
+    "hl": [
+     "le meilleur"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "La tarte aux pommes !",
+    "ph": "la TART ô POM",
+    "vi": "Bánh táo!",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "C'est le plus grand.",
+    "ph": "xê lơ PLUY GRA~",
+    "vi": "Cái này lớn nhất.",
+    "hl": [
+     "le plus"
+    ],
+    "tokens": [
+     "C'est",
+     "le",
+     "plus",
+     "grand"
+    ]
+   },
+   {
+    "t": "C'est la plus belle plage.",
+    "ph": "xê la PLUY BEL PLAJ",
+    "vi": "Đây là bãi biển đẹp nhất.",
+    "hl": [
+     "la plus"
+    ],
+    "tokens": [
+     "C'est",
+     "la",
+     "plus",
+     "belle",
+     "plage"
+    ]
+   },
+   {
+    "t": "Voici les fruits les plus frais.",
+    "ph": "voa-XI lê FRUY lê PLUY FRE",
+    "vi": "Đây là những trái cây tươi nhất.",
+    "hl": [
+     "les plus"
+    ],
+    "tokens": [
+     "Voici",
+     "les",
+     "fruits",
+     "les",
+     "plus",
+     "frais"
+    ]
+   },
+   {
+    "t": "Quel est le chemin le plus court ?",
+    "ph": "kel E lơ shơ-ME~ lơ PLUY KUR",
+    "vi": "Đường nào ngắn nhất?",
+    "hl": [
+     "le plus"
+    ],
+    "tokens": [
+     "Quel",
+     "est",
+     "le",
+     "chemin",
+     "le",
+     "plus",
+     "court"
+    ]
+   },
+   {
+    "t": "C'est l'hôtel le plus cher de la ville.",
+    "ph": "xê lô-TEL lơ PLUY SHER đơ la VIL",
+    "vi": "Đây là khách sạn đắt nhất thành phố.",
+    "hl": [
+     "le plus"
+    ],
+    "tokens": [
+     "C'est",
+     "l'hôtel",
+     "le",
+     "plus",
+     "cher",
+     "de",
+     "la",
+     "ville"
+    ]
+   },
+   {
+    "t": "Paris est la plus grande ville de France.",
+    "ph": "pa-RI e la PLUY GRA~Đ VIL đơ FRA~X",
+    "vi": "Paris là thành phố lớn nhất nước Pháp.",
+    "hl": [
+     "la plus"
+    ],
+    "tokens": [
+     "Paris",
+     "est",
+     "la",
+     "plus",
+     "grande",
+     "ville",
+     "de",
+     "France"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "Động từ (chia)"
+   },
+   {
+    "k": "P",
+    "t": "aussi"
+   },
+   {
+    "k": "O",
+    "t": "Tân ngữ"
+   }
+  ],
+  "points": [
+   "Aussi (cũng) thường đứng ngay SAU động từ đã chia (\"J'aime aussi le fromage\").",
+   "Trả lời \"tôi cũng vậy\" dùng đại từ nhấn mạnh + aussi: moi aussi, toi aussi, lui aussi.",
+   "Với thì kép, aussi đứng giữa trợ động từ và phân từ (\"J'ai aussi visité Lyon\").",
+   "\"Cũng không\" là non plus, không dùng aussi: \"Moi non plus\" (tôi cũng không)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Je aussi aime le fromage.",
+    "right": "J'aime aussi le fromage.",
+    "why": "Tiếng Việt đặt \"cũng\" trước động từ, còn tiếng Pháp đặt aussi SAU động từ; je còn phải rút thành j'."
+   },
+   {
+    "wrong": "Moi aussi pas.",
+    "right": "Moi non plus.",
+    "why": "\"Tôi cũng không\" là moi non plus, không ghép aussi với pas."
+   }
+  ],
+  "compare": "Tiếng Việt: \"cũng\" đứng trước động từ (tôi cũng thích); tiếng Pháp: aussi đứng sau động từ (j'aime aussi).",
+  "tip": "Động từ đi trước, aussi theo sau như cái đuôi: \"aime aussi\", \"parle aussi\".",
+  "how": [
+   "Đặt aussi ngay sau động từ aime → aime aussi, thêm J' ở đầu và le fromage ở cuối → J'aime aussi le fromage.",
+   "Đặt aussi sau động từ parle → parle aussi, thêm Elle ở đầu và français ở cuối → Elle parle aussi français.",
+   "Đặt aussi sau động từ viens → viens aussi, thêm Je ở đầu và avec vous ở cuối → Je viens aussi avec vous."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "J'adore cette ville !",
+    "ph": "ja-ĐOR xét VIL",
+    "vi": "Mình mê thành phố này quá!",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Moi aussi !",
+    "ph": "MOA ô-XI",
+    "vi": "Mình cũng vậy!",
+    "hl": [
+     "aussi"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Tu visites aussi le Louvre demain ?",
+    "ph": "tuy vi-ZIT ô-XI lơ LU-VR đơ-ME~",
+    "vi": "Mai bạn cũng đi bảo tàng Louvre à?",
+    "hl": [
+     "aussi"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Oui, et ma sœur vient aussi.",
+    "ph": "uy ê ma XƠR VIE~ ô-XI",
+    "vi": "Ừ, chị mình cũng đi.",
+    "hl": [
+     "aussi"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Il travaille aussi ici.",
+    "ph": "il tra-VAI ô-XI i-XI",
+    "vi": "Anh ấy cũng làm việc ở đây.",
+    "hl": [
+     "aussi"
+    ],
+    "tokens": [
+     "Il",
+     "travaille",
+     "aussi",
+     "ici"
+    ]
+   },
+   {
+    "t": "Nous mangeons aussi du riz.",
+    "ph": "nu ma~-JO~ ô-XI đuy RI",
+    "vi": "Chúng tôi cũng ăn cơm.",
+    "hl": [
+     "aussi"
+    ],
+    "tokens": [
+     "Nous",
+     "mangeons",
+     "aussi",
+     "du",
+     "riz"
+    ]
+   },
+   {
+    "t": "Ils parlent aussi anglais.",
+    "ph": "il PARL ô-XI a~-GLÊ",
+    "vi": "Họ cũng nói tiếng Anh.",
+    "hl": [
+     "aussi"
+    ],
+    "tokens": [
+     "Ils",
+     "parlent",
+     "aussi",
+     "anglais"
+    ]
+   },
+   {
+    "t": "Tu veux aussi un café ?",
+    "ph": "tuy VƠ ô-XI a~ ka-FÊ",
+    "vi": "Bạn cũng muốn một ly cà phê à?",
+    "hl": [
+     "aussi"
+    ],
+    "tokens": [
+     "Tu",
+     "veux",
+     "aussi",
+     "un",
+     "café"
+    ]
+   },
+   {
+    "t": "J'ai aussi visité le château.",
+    "ph": "JÊ ô-XI vi-zi-TÊ lơ sha-TÔ",
+    "vi": "Tôi cũng đã thăm lâu đài.",
+    "hl": [
+     "aussi"
+    ],
+    "tokens": [
+     "J'ai",
+     "aussi",
+     "visité",
+     "le",
+     "château"
+    ]
+   },
+   {
+    "t": "Ma femme aime aussi la cuisine vietnamienne.",
+    "ph": "ma FAM EM ô-XI la kuy-ZIN viết-na-MIEN",
+    "vi": "Vợ tôi cũng thích món ăn Việt Nam.",
+    "hl": [
+     "aussi"
+    ],
+    "tokens": [
+     "Ma",
+     "femme",
+     "aime",
+     "aussi",
+     "la",
+     "cuisine",
+     "vietnamienne"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "formula": [
+   {
+    "k": "X",
+    "t": "Từ / Mệnh đề 1"
+   },
+   {
+    "k": "P",
+    "t": "et"
+   },
+   {
+    "k": "X",
+    "t": "Từ / Mệnh đề 2"
+   }
+  ],
+  "points": [
+   "Et (và) nối hai danh từ, hai tính từ hoặc hai mệnh đề (\"un café et un thé\", \"je dîne et je rentre\").",
+   "Mỗi danh từ giữ mạo từ hoặc từ sở hữu riêng (\"mon frère et ma sœur\"), không dùng chung như tiếng Việt.",
+   "Không bao giờ nối âm sau et: \"et un\" đọc là \"ê a~\", không đọc \"ê-ta~\".",
+   "Liệt kê nhiều thứ thì chỉ đặt et trước thứ cuối cùng (\"du pain, du fromage et du vin\")."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Mon frère et sœur habitent à Paris.",
+    "right": "Mon frère et ma sœur habitent à Paris.",
+    "why": "Mỗi danh từ cần từ sở hữu riêng: sœur là giống cái nên phải có ma."
+   },
+   {
+    "wrong": "Du pain et du fromage et du vin.",
+    "right": "Du pain, du fromage et du vin.",
+    "why": "Khi liệt kê, dùng dấu phẩy và chỉ đặt et trước món cuối."
+   }
+  ],
+  "compare": "Giống tiếng Việt, et đứng giữa hai thứ được nối; khác ở chỗ mỗi danh từ cần mạo từ riêng (un café et un thé = một cà phê và một trà).",
+  "tip": "Et đọc gọn là \"ê\" như tiếng gọi bạn \"ê!\", và không bao giờ nối âm với từ đứng sau.",
+  "how": [
+   "Đặt et trước danh từ có mạo từ un thé → et un thé, rồi thêm Un café ở trước và s'il vous plaît ở cuối → Un café et un thé s'il vous plaît.",
+   "Đặt et trước ma sœur → et ma sœur, thêm Mon frère ở đầu và habitent à Paris ở cuối → Mon frère et ma sœur habitent à Paris.",
+   "Đặt et trước mệnh đề je rentre → et je rentre, thêm Je dîne ở trước và à l'hôtel ở cuối → Je dîne et je rentre à l'hôtel."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Vous désirez ?",
+    "ph": "vu đê-zi-RÊ",
+    "vi": "Quý khách dùng gì ạ?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Un croissant et un jus d'orange.",
+    "ph": "a~ kroa-XA~ ê a~ JUY đo-RA~J",
+    "vi": "Một bánh sừng bò và một ly nước cam.",
+    "hl": [
+     "et"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et pour vous, madame ?",
+    "ph": "ê pur VU ma-ĐAM",
+    "vi": "Còn bà dùng gì ạ?",
+    "hl": [
+     "Et"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Un thé et une tarte.",
+    "ph": "a~ TÊ ê uyn TART",
+    "vi": "Một trà và một bánh tart.",
+    "hl": [
+     "et"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Paul et Marie arrivent.",
+    "ph": "pôl ê ma-RI a-RIV",
+    "vi": "Paul và Marie đến.",
+    "hl": [
+     "et"
+    ],
+    "tokens": [
+     "Paul",
+     "et",
+     "Marie",
+     "arrivent"
+    ]
+   },
+   {
+    "t": "J'ai faim et soif.",
+    "ph": "JÊ FE~ ê XOAF",
+    "vi": "Tôi đói và khát.",
+    "hl": [
+     "et"
+    ],
+    "tokens": [
+     "J'ai",
+     "faim",
+     "et",
+     "soif"
+    ]
+   },
+   {
+    "t": "Il fait beau et chaud.",
+    "ph": "il FE BÔ ê SHÔ",
+    "vi": "Trời đẹp và nóng.",
+    "hl": [
+     "et"
+    ],
+    "tokens": [
+     "Il",
+     "fait",
+     "beau",
+     "et",
+     "chaud"
+    ]
+   },
+   {
+    "t": "Je voudrais du pain et du fromage.",
+    "ph": "jơ vu-ĐRÊ đuy PE~ ê đuy fro-MAJ",
+    "vi": "Tôi muốn bánh mì và phô mai.",
+    "hl": [
+     "et"
+    ],
+    "tokens": [
+     "Je",
+     "voudrais",
+     "du",
+     "pain",
+     "et",
+     "du",
+     "fromage"
+    ]
+   },
+   {
+    "t": "Elle est gentille et très drôle.",
+    "ph": "e-LE ja~-TIY ê TRE ĐRÔL",
+    "vi": "Cô ấy dễ thương và rất vui tính.",
+    "hl": [
+     "et"
+    ],
+    "tokens": [
+     "Elle",
+     "est",
+     "gentille",
+     "et",
+     "très",
+     "drôle"
+    ]
+   },
+   {
+    "t": "Je prends une douche et je sors.",
+    "ph": "jơ PRA~ uyn ĐUSH ê jơ XOR",
+    "vi": "Tôi tắm rồi đi ra ngoài.",
+    "hl": [
+     "et"
+    ],
+    "tokens": [
+     "Je",
+     "prends",
+     "une",
+     "douche",
+     "et",
+     "je",
+     "sors"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "formula": [
+   {
+    "k": "X",
+    "t": "Ý 1"
+   },
+   {
+    "k": "P",
+    "t": "mais"
+   },
+   {
+    "k": "X",
+    "t": "Ý 2 (trái ngược)"
+   }
+  ],
+  "points": [
+   "Mais (nhưng) nối hai ý trái ngược nhau (\"cher mais délicieux\").",
+   "Câu ngắn không cần dấu phẩy trước mais; câu dài có thể thêm dấu phẩy (\"Je voudrais venir, mais je travaille demain\").",
+   "Mais luôn đứng đầu ý thứ hai, ngay trước từ hoặc mệnh đề trái ngược.",
+   "Mais còn dùng để nhấn mạnh: \"Mais oui !\" (Tất nhiên rồi!)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Bien que c'est cher mais c'est bon.",
+    "right": "C'est cher mais c'est bon.",
+    "why": "Tiếng Việt hay nói \"tuy ... nhưng\", tiếng Pháp chỉ dùng một từ mais, không ghép đôi."
+   }
+  ],
+  "compare": "Giống hệt tiếng Việt: mais đứng giữa hai ý đối lập như \"nhưng\"; chỉ khác là tiếng Pháp không có cặp \"tuy ... nhưng\".",
+  "tip": "Mais đọc là \"mê\": \"Mê\" món này nhưng (mais) đắt quá!",
+  "how": [
+   "Đặt mais trước tính từ délicieux → mais délicieux, rồi thêm C'est cher ở trước để tạo ý đối lập → C'est cher mais délicieux.",
+   "Đặt mais trước tính từ propre → mais propre, thêm La chambre est petite ở trước → La chambre est petite mais propre.",
+   "Đặt mais trước mệnh đề je comprends → mais je comprends, thêm Je parle peu ở trước → Je parle peu mais je comprends."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Tu aimes Paris ?",
+    "ph": "tuy EM pa-RI",
+    "vi": "Bạn thích Paris không?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Oui, mais c'est très cher.",
+    "ph": "uy mê xê TRE SHER",
+    "vi": "Thích, nhưng đắt lắm.",
+    "hl": [
+     "mais"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et le métro ?",
+    "ph": "ê lơ mê-TRÔ",
+    "vi": "Còn tàu điện ngầm thì sao?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Pratique mais toujours plein de monde.",
+    "ph": "pra-TIK mê tu-JUR PLE~ đơ MO~Đ",
+    "vi": "Tiện nhưng lúc nào cũng đông người.",
+    "hl": [
+     "mais"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Il est petit mais rapide.",
+    "ph": "i-LE pơ-TI mê ra-PIT",
+    "vi": "Nó nhỏ nhưng nhanh.",
+    "hl": [
+     "mais"
+    ],
+    "tokens": [
+     "Il",
+     "est",
+     "petit",
+     "mais",
+     "rapide"
+    ]
+   },
+   {
+    "t": "C'est loin mais très joli.",
+    "ph": "xê LOE~ mê TRE jo-LI",
+    "vi": "Xa nhưng rất đẹp.",
+    "hl": [
+     "mais"
+    ],
+    "tokens": [
+     "C'est",
+     "loin",
+     "mais",
+     "très",
+     "joli"
+    ]
+   },
+   {
+    "t": "Je suis fatigué mais content.",
+    "ph": "jơ XUY fa-ti-GHÊ mê ko~-TA~",
+    "vi": "Tôi mệt nhưng vui.",
+    "hl": [
+     "mais"
+    ],
+    "tokens": [
+     "Je",
+     "suis",
+     "fatigué",
+     "mais",
+     "content"
+    ]
+   },
+   {
+    "t": "J'aime le café mais pas le thé.",
+    "ph": "JEM lơ ka-FÊ mê PA lơ TÊ",
+    "vi": "Tôi thích cà phê nhưng không thích trà.",
+    "hl": [
+     "mais"
+    ],
+    "tokens": [
+     "J'aime",
+     "le",
+     "café",
+     "mais",
+     "pas",
+     "le",
+     "thé"
+    ]
+   },
+   {
+    "t": "Je voudrais venir mais je travaille.",
+    "ph": "jơ vu-ĐRÊ vơ-NIR mê jơ tra-VAI",
+    "vi": "Tôi muốn đến nhưng tôi phải làm việc.",
+    "hl": [
+     "mais"
+    ],
+    "tokens": [
+     "Je",
+     "voudrais",
+     "venir",
+     "mais",
+     "je",
+     "travaille"
+    ]
+   },
+   {
+    "t": "L'hôtel est vieux mais le service est excellent.",
+    "ph": "lô-TEL e VIƠ mê lơ xer-VIX e-tek-xê-LA~",
+    "vi": "Khách sạn cũ nhưng phục vụ rất tốt.",
+    "hl": [
+     "mais"
+    ],
+    "tokens": [
+     "L'hôtel",
+     "est",
+     "vieux",
+     "mais",
+     "le",
+     "service",
+     "est",
+     "excellent"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "formula": [
+   {
+    "k": "X",
+    "t": "Mệnh đề chính"
+   },
+   {
+    "k": "P",
+    "t": "si"
+   },
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "Động từ (hiện tại)"
+   }
+  ],
+  "points": [
+   "Si (nếu) + thì hiện tại; mệnh đề chính dùng hiện tại, tương lai hoặc mệnh lệnh (\"On reste ici s'il pleut\").",
+   "KHÔNG dùng thì tương lai sau si: nói \"si j'ai le temps\", không nói \"si j'aurai le temps\".",
+   "Si chỉ rút thành s' trước il/ils (s'il, s'ils); trước elle, on vẫn giữ si (\"si elle vient\").",
+   "Mệnh đề si đứng đầu hay cuối câu đều được; khi đứng đầu thì thêm dấu phẩy (\"S'il pleut, on reste ici\")."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Si j'aurai le temps, je viendrai.",
+    "right": "Si j'ai le temps, je viendrai.",
+    "why": "Sau si dùng thì hiện tại, dù nghĩa là tương lai."
+   },
+   {
+    "wrong": "Si il pleut, on reste ici.",
+    "right": "S'il pleut, on reste ici.",
+    "why": "Si gặp il phải rút gọn thành s'il."
+   }
+  ],
+  "compare": "Giống tiếng Việt \"nếu ... thì ...\" nhưng tiếng Pháp không có từ \"thì\", và động từ sau si không bao giờ ở thì tương lai.",
+  "tip": "Si gặp il là dính liền thành s'il, như hai người bạn khoác vai nhau.",
+  "how": [
+   "Si gặp il nên rút thành s' → s'il pleut, rồi đặt mệnh đề chính On reste ici ở trước → On reste ici s'il pleut.",
+   "Đặt si trước vous avez besoin → si vous avez besoin, thêm mệnh lệnh Appelez-moi ở trước → Appelez-moi si vous avez besoin.",
+   "Đặt si trước j'ai le temps (thì hiện tại) → si j'ai le temps, thêm mệnh đề tương lai Je viendrai ở trước → Je viendrai si j'ai le temps."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "On va à la plage demain ?",
+    "ph": "o~ VA a la PLAJ đơ-ME~",
+    "vi": "Mai mình đi biển nhé?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Oui, s'il fait beau.",
+    "ph": "uy xil FE BÔ",
+    "vi": "Ừ, nếu trời đẹp.",
+    "hl": [
+     "s'"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et s'il pleut ?",
+    "ph": "ê xil PLƠ",
+    "vi": "Còn nếu trời mưa?",
+    "hl": [
+     "s'"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "On visite le musée si tu veux.",
+    "ph": "o~ vi-ZIT lơ muy-ZÊ xi tuy VƠ",
+    "vi": "Thì mình đi bảo tàng, nếu bạn muốn.",
+    "hl": [
+     "si"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Viens si tu peux.",
+    "ph": "VIE~ xi tuy PƠ",
+    "vi": "Đến nếu bạn có thể nhé.",
+    "hl": [
+     "si"
+    ],
+    "tokens": [
+     "Viens",
+     "si",
+     "tu",
+     "peux"
+    ]
+   },
+   {
+    "t": "On sort s'il fait beau.",
+    "ph": "o~ XOR xil FE BÔ",
+    "vi": "Mình ra ngoài nếu trời đẹp.",
+    "hl": [
+     "s'"
+    ],
+    "tokens": [
+     "On",
+     "sort",
+     "s'il",
+     "fait",
+     "beau"
+    ]
+   },
+   {
+    "t": "Dites-moi si vous avez faim.",
+    "ph": "đit-MOA xi vu-za-VÊ FE~",
+    "vi": "Hãy nói tôi biết nếu anh chị đói.",
+    "hl": [
+     "si"
+    ],
+    "tokens": [
+     "Dites-moi",
+     "si",
+     "vous",
+     "avez",
+     "faim"
+    ]
+   },
+   {
+    "t": "Je prends un taxi si c'est loin.",
+    "ph": "jơ PRA~ a~ tak-XI xi xê LOE~",
+    "vi": "Tôi sẽ đi taxi nếu xa.",
+    "hl": [
+     "si"
+    ],
+    "tokens": [
+     "Je",
+     "prends",
+     "un",
+     "taxi",
+     "si",
+     "c'est",
+     "loin"
+    ]
+   },
+   {
+    "t": "On dîne ensemble si vous êtes libres.",
+    "ph": "o~ ĐIN a~-XA~-BL xi vu-ZET LI-BR",
+    "vi": "Mình ăn tối cùng nhau nếu các bạn rảnh.",
+    "hl": [
+     "si"
+    ],
+    "tokens": [
+     "On",
+     "dîne",
+     "ensemble",
+     "si",
+     "vous",
+     "êtes",
+     "libres"
+    ]
+   },
+   {
+    "t": "Je t'appelle si le train est en retard.",
+    "ph": "jơ ta-PEL xi lơ TRE~ e-ta~ rơ-TAR",
+    "vi": "Tôi sẽ gọi bạn nếu tàu bị trễ.",
+    "hl": [
+     "si"
+    ],
+    "tokens": [
+     "Je",
+     "t'appelle",
+     "si",
+     "le",
+     "train",
+     "est",
+     "en",
+     "retard"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "formula": [
+   {
+    "k": "P",
+    "t": "ce / cette / ces"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ"
+   },
+   {
+    "k": "P",
+    "t": "(-ci / -là)"
+   }
+  ],
+  "points": [
+   "Ce + danh từ giống đực (ce plat), cette + giống cái (cette robe), ces + số nhiều (ces chaussures) = ... này / đó.",
+   "Trước danh từ giống đực bắt đầu bằng nguyên âm hoặc h câm, ce đổi thành cet (cet hôtel).",
+   "Muốn phân biệt \"này\" và \"kia\", thêm -ci / -là sau danh từ (ce plat-ci, ce plat-là).",
+   "Đại từ thay cho danh từ: celui-là (cái kia, giống đực), celle-là (giống cái), ceux-là (số nhiều)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Je voudrais ce robe.",
+    "right": "Je voudrais cette robe.",
+    "why": "Robe là danh từ giống cái nên phải dùng cette."
+   },
+   {
+    "wrong": "Ce hôtel est cher.",
+    "right": "Cet hôtel est cher.",
+    "why": "Trước danh từ giống đực bắt đầu bằng nguyên âm hoặc h câm, ce đổi thành cet."
+   }
+  ],
+  "compare": "Tiếng Việt để \"này / kia\" SAU danh từ (cái váy này); tiếng Pháp đặt ce/cette TRƯỚC danh từ và đổi theo giống, số.",
+  "tip": "Ce đực, cette cái, ces nhiều; thêm -là là chỉ tay ra xa \"đằng kia\".",
+  "how": [
+   "Plat là danh từ giống đực nên đặt ce phía trước → ce plat, rồi thêm Je voudrais ở đầu và s'il vous plaît ở cuối → Je voudrais ce plat s'il vous plaît.",
+   "Robe là danh từ giống cái nên dùng cette → cette robe, thêm Combien coûte ở trước và dấu ? → Combien coûte cette robe ?",
+   "Gắn -là vào đại từ celui → celui-là (cái kia), rồi đặt sau Je préfère → Je préfère celui-là."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Vous aimez ce chapeau ?",
+    "ph": "vu-ze-MÊ xơ sha-PÔ",
+    "vi": "Anh thích cái mũ này không?",
+    "hl": [
+     "ce"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Non, je préfère celui-là.",
+    "ph": "no~ jơ prê-FER xơ-luy-LA",
+    "vi": "Không, tôi thích cái kia hơn.",
+    "hl": [
+     "celui-là"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et ces lunettes ?",
+    "ph": "ê xê luy-NET",
+    "vi": "Còn cặp kính này?",
+    "hl": [
+     "ces"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Oui, elles sont parfaites !",
+    "ph": "uy el XO~ par-FET",
+    "vi": "Ừ, cặp này hoàn hảo!",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Cette chambre est grande.",
+    "ph": "xét SHA~-BR e GRA~Đ",
+    "vi": "Phòng này rộng.",
+    "hl": [
+     "Cette"
+    ],
+    "tokens": [
+     "Cette",
+     "chambre",
+     "est",
+     "grande"
+    ]
+   },
+   {
+    "t": "Ce bus va à la gare ?",
+    "ph": "xơ BUYT VA a la GAR",
+    "vi": "Xe buýt này đi ra ga à?",
+    "hl": [
+     "Ce"
+    ],
+    "tokens": [
+     "Ce",
+     "bus",
+     "va",
+     "à",
+     "la",
+     "gare"
+    ]
+   },
+   {
+    "t": "J'aime beaucoup ces chaussures.",
+    "ph": "JEM bô-KU xê shô-XUYR",
+    "vi": "Tôi rất thích đôi giày này.",
+    "hl": [
+     "ces"
+    ],
+    "tokens": [
+     "J'aime",
+     "beaucoup",
+     "ces",
+     "chaussures"
+    ]
+   },
+   {
+    "t": "Nous prenons cette table-là.",
+    "ph": "nu prơ-NO~ xét ta-blơ-LA",
+    "vi": "Chúng tôi lấy cái bàn kia.",
+    "hl": [
+     "cette",
+     "-là"
+    ],
+    "tokens": [
+     "Nous",
+     "prenons",
+     "cette",
+     "table-là"
+    ]
+   },
+   {
+    "t": "Cet hôtel est près de la plage.",
+    "ph": "xé-tô-TEL e PRE đơ la PLAJ",
+    "vi": "Khách sạn này gần bãi biển.",
+    "hl": [
+     "Cet"
+    ],
+    "tokens": [
+     "Cet",
+     "hôtel",
+     "est",
+     "près",
+     "de",
+     "la",
+     "plage"
+    ]
+   },
+   {
+    "t": "Ce plat-ci est meilleur que celui-là.",
+    "ph": "xơ PLA-XI e me-YƠR kơ xơ-luy-LA",
+    "vi": "Món này ngon hơn món kia.",
+    "hl": [
+     "Ce",
+     "-ci",
+     "celui-là"
+    ],
+    "tokens": [
+     "Ce",
+     "plat-ci",
+     "est",
+     "meilleur",
+     "que",
+     "celui-là"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "formula": [
+   {
+    "k": "P",
+    "t": "mon / ma / mes"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ"
+   }
+  ],
+  "points": [
+   "Mon + danh từ giống đực (mon passeport), ma + giống cái (ma valise), mes + số nhiều (mes clés) = ... của tôi.",
+   "Từ sở hữu đứng TRƯỚC danh từ và thay cho mạo từ (không nói \"le mon passeport\").",
+   "Trước danh từ giống cái bắt đầu bằng nguyên âm vẫn dùng mon cho dễ đọc (mon amie, mon adresse).",
+   "Của người khác: ton/ta/tes (của bạn), son/sa/ses (của anh ấy/cô ấy), votre/vos (của ông bà); X de Y = X của Y (la voiture de Paul)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "La valise de moi.",
+    "right": "Ma valise.",
+    "why": "\"Vali của tôi\" không dịch từng chữ mà dùng từ sở hữu ma đặt trước danh từ."
+   },
+   {
+    "wrong": "Ma adresse est ici.",
+    "right": "Mon adresse est ici.",
+    "why": "Adresse là giống cái nhưng bắt đầu bằng nguyên âm nên dùng mon."
+   }
+  ],
+  "compare": "Tiếng Việt đặt \"của tôi\" sau danh từ (vali của tôi); tiếng Pháp đặt mon/ma/mes trước và đổi theo giống, số của đồ vật, không theo người sở hữu.",
+  "tip": "Nhìn đồ vật chứ đừng nhìn người: ma valise, mon passeport, mes clés, dù bạn là nam hay nữ!",
+  "how": [
+   "Valise là danh từ giống cái nên dùng ma → ma valise, rồi thêm Où est ở trước và dấu ? → Où est ma valise ?",
+   "Passeport là danh từ giống đực nên dùng mon → mon passeport, thêm J'ai perdu ở trước → J'ai perdu mon passeport.",
+   "Clés là số nhiều nên dùng mes → mes clés, thêm Je cherche ở trước → Je cherche mes clés."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Où est mon téléphone ?",
+    "ph": "U e mo~ tê-lê-FON",
+    "vi": "Điện thoại của tôi đâu rồi?",
+    "hl": [
+     "mon"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Il est dans ton sac.",
+    "ph": "i-LE đa~ to~ XAK",
+    "vi": "Nó ở trong túi của bạn đó.",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "Et mes lunettes ?",
+    "ph": "ê mê luy-NET",
+    "vi": "Còn kính của tôi?",
+    "hl": [
+     "mes"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Sur la table, à côté de ma tasse.",
+    "ph": "xuyr la TA-BL a kô-TÊ đơ ma TAX",
+    "vi": "Trên bàn, cạnh cái cốc của tôi.",
+    "hl": [
+     "ma"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Voici mon billet.",
+    "ph": "voa-XI mo~ bi-YÊ",
+    "vi": "Đây là vé của tôi.",
+    "hl": [
+     "mon"
+    ],
+    "tokens": [
+     "Voici",
+     "mon",
+     "billet"
+    ]
+   },
+   {
+    "t": "Ma chambre est petite.",
+    "ph": "ma SHA~-BR e pơ-TIT",
+    "vi": "Phòng của tôi nhỏ.",
+    "hl": [
+     "Ma"
+    ],
+    "tokens": [
+     "Ma",
+     "chambre",
+     "est",
+     "petite"
+    ]
+   },
+   {
+    "t": "Mes amis sont français.",
+    "ph": "mê-za-MI xo~ fra~-XÊ",
+    "vi": "Bạn bè của tôi là người Pháp.",
+    "hl": [
+     "Mes"
+    ],
+    "tokens": [
+     "Mes",
+     "amis",
+     "sont",
+     "français"
+    ]
+   },
+   {
+    "t": "Je vous présente ma femme.",
+    "ph": "jơ vu prê-ZA~T ma FAM",
+    "vi": "Xin giới thiệu vợ tôi.",
+    "hl": [
+     "ma"
+    ],
+    "tokens": [
+     "Je",
+     "vous",
+     "présente",
+     "ma",
+     "femme"
+    ]
+   },
+   {
+    "t": "C'est la voiture de mon frère.",
+    "ph": "xê la voa-TUYR đơ mo~ FRER",
+    "vi": "Đây là xe của anh trai tôi.",
+    "hl": [
+     "mon"
+    ],
+    "tokens": [
+     "C'est",
+     "la",
+     "voiture",
+     "de",
+     "mon",
+     "frère"
+    ]
+   },
+   {
+    "t": "Mon adresse est dans mon sac à dos.",
+    "ph": "mo~-na-ĐRES e đa~ mo~ XAK a ĐÔ",
+    "vi": "Địa chỉ của tôi ở trong ba lô của tôi.",
+    "hl": [
+     "Mon",
+     "mon"
+    ],
+    "tokens": [
+     "Mon",
+     "adresse",
+     "est",
+     "dans",
+     "mon",
+     "sac",
+     "à",
+     "dos"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "Động từ"
+   },
+   {
+    "k": "P",
+    "t": "à / en / au"
+   },
+   {
+    "k": "O",
+    "t": "Nơi chốn"
+   }
+  ],
+  "points": [
+   "À + tên thành phố (\"à Paris\", \"à Hanoï\").",
+   "En + tên nước giống cái (đa số tận cùng bằng -e: en France, en Italie); au + nước giống đực (au Vietnam, au Japon).",
+   "À + le gộp thành au (au restaurant), à + les thành aux; còn à la, à l' giữ nguyên (à la gare, à l'hôtel).",
+   "Cùng giới từ này dùng cho cả \"ở\" lẫn \"đến\": \"Je vais à Paris\" (tôi đi Paris), \"J'habite à Paris\" (tôi sống ở Paris)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "J'habite en Paris.",
+    "right": "J'habite à Paris.",
+    "why": "Trước tên thành phố dùng à, en chỉ dùng cho nước giống cái."
+   },
+   {
+    "wrong": "On mange à le restaurant.",
+    "right": "On mange au restaurant.",
+    "why": "À + le bắt buộc gộp thành au."
+   }
+  ],
+  "compare": "Tiếng Việt chỉ một từ \"ở\" cho mọi nơi; tiếng Pháp phải chọn à, en hay au tùy là thành phố, nước giống cái hay danh từ giống đực.",
+  "tip": "Câu thần chú: \"à phố, en nước, au quán\" — thành phố dùng à, nước giống cái dùng en, chỗ giống đực dùng au.",
+  "how": [
+   "Đặt à trước tên thành phố Paris → à Paris, rồi thêm J'habite ở trước và depuis un an ở cuối → J'habite à Paris depuis un an.",
+   "France là nước giống cái nên dùng en → en France, thêm Je travaille ở trước → Je travaille en France.",
+   "À + le restaurant gộp thành au → au restaurant, thêm On mange ở trước và ce soir ở cuối → On mange au restaurant ce soir."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Tu habites où ?",
+    "ph": "tuy a-BIT U",
+    "vi": "Bạn sống ở đâu?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "J'habite à Lyon, en France.",
+    "ph": "ja-BIT a li-O~ a~ FRA~X",
+    "vi": "Mình sống ở Lyon, nước Pháp.",
+    "hl": [
+     "à",
+     "en"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Et tu travailles au centre-ville ?",
+    "ph": "ê tuy tra-VAI ô xa~-trơ-VIL",
+    "vi": "Thế bạn làm việc ở trung tâm à?",
+    "hl": [
+     "au"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Non, je travaille à l'aéroport.",
+    "ph": "no~ jơ tra-VAI a la-ê-rô-POR",
+    "vi": "Không, mình làm ở sân bay.",
+    "hl": [
+     "à"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Je suis à l'hôtel.",
+    "ph": "jơ XUY a lô-TEL",
+    "vi": "Tôi đang ở khách sạn.",
+    "hl": [
+     "à"
+    ],
+    "tokens": [
+     "Je",
+     "suis",
+     "à",
+     "l'hôtel"
+    ]
+   },
+   {
+    "t": "Elle habite au Vietnam.",
+    "ph": "e-la-BIT ô viết-NAM",
+    "vi": "Cô ấy sống ở Việt Nam.",
+    "hl": [
+     "au"
+    ],
+    "tokens": [
+     "Elle",
+     "habite",
+     "au",
+     "Vietnam"
+    ]
+   },
+   {
+    "t": "Mon fils étudie au Japon.",
+    "ph": "mo~ FIX ê-tuy-ĐI ô ja-PO~",
+    "vi": "Con trai tôi học ở Nhật.",
+    "hl": [
+     "au"
+    ],
+    "tokens": [
+     "Mon",
+     "fils",
+     "étudie",
+     "au",
+     "Japon"
+    ]
+   },
+   {
+    "t": "On se retrouve à la gare ?",
+    "ph": "o~ xơ rơ-TRUV a la GAR",
+    "vi": "Mình gặp nhau ở ga nhé?",
+    "hl": [
+     "à"
+    ],
+    "tokens": [
+     "On",
+     "se",
+     "retrouve",
+     "à",
+     "la",
+     "gare"
+    ]
+   },
+   {
+    "t": "Nous sommes en vacances en Italie.",
+    "ph": "nu XOM a~ va-KA~X a~-ni-ta-LI",
+    "vi": "Chúng tôi đang đi nghỉ ở Ý.",
+    "hl": [
+     "en Italie"
+    ],
+    "tokens": [
+     "Nous",
+     "sommes",
+     "en",
+     "vacances",
+     "en",
+     "Italie"
+    ]
+   },
+   {
+    "t": "Je passe une semaine à Nice en juillet.",
+    "ph": "jơ PAX uyn xơ-MEN a NIX a~ jui-YÊ",
+    "vi": "Tôi ở Nice một tuần vào tháng Bảy.",
+    "hl": [
+     "à Nice"
+    ],
+    "tokens": [
+     "Je",
+     "passe",
+     "une",
+     "semaine",
+     "à",
+     "Nice",
+     "en",
+     "juillet"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "Động từ"
+   },
+   {
+    "k": "P",
+    "t": "avec"
+   },
+   {
+    "k": "O",
+    "t": "Người / Vật"
+   }
+  ],
+  "points": [
+   "Avec (với, cùng) đứng trước người hoặc vật đi kèm (\"avec mes amis\", \"avec du lait\").",
+   "Sau avec dùng đại từ nhấn mạnh: moi, toi, lui, elle, nous, vous, eux (\"avec moi\", không nói \"avec je\").",
+   "Avec còn chỉ phương tiện, cách thức: \"payer avec la carte\" (trả bằng thẻ).",
+   "Ngược nghĩa với avec là sans (không có): \"un café sans sucre\"."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Tu viens avec je ?",
+    "right": "Tu viens avec moi ?",
+    "why": "Sau giới từ phải dùng đại từ nhấn mạnh moi, không dùng je."
+   },
+   {
+    "wrong": "Un café avec lait.",
+    "right": "Un café avec du lait.",
+    "why": "Đồ ăn uống không đếm được cần mạo từ bộ phận du / de la sau avec."
+   }
+  ],
+  "compare": "Giống tiếng Việt \"với\": đứng trước người hoặc vật đi kèm; khác ở chỗ \"với tôi\" phải là avec moi chứ không dùng je.",
+  "tip": "Muốn rủ ai đi cùng, chỉ cần hai chữ: \"Avec moi ?\" (Đi với mình không?)",
+  "how": [
+   "Đặt avec trước mes amis (nối âm thành mê-za-MI) → avec mes amis, thêm Je voyage ở trước → Je voyage avec mes amis.",
+   "Sau avec dùng đại từ nhấn mạnh moi → avec moi, thêm Tu viens ở trước và dấu ? → Tu viens avec moi ?",
+   "Đặt avec trước du lait (mạo từ bộ phận) → avec du lait, thêm Un café ở trước và s'il vous plaît ở cuối → Un café avec du lait s'il vous plaît."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Tu dînes avec qui ce soir ?",
+    "ph": "tuy ĐIN a-VEK KI xơ SOAR",
+    "vi": "Tối nay bạn ăn tối với ai?",
+    "hl": [
+     "avec"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Avec mes collègues.",
+    "ph": "a-VEK mê ko-LEG",
+    "vi": "Với đồng nghiệp.",
+    "hl": [
+     "Avec"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Je peux venir avec vous ?",
+    "ph": "jơ PƠ vơ-NIR a-VEK VU",
+    "vi": "Mình đi cùng được không?",
+    "hl": [
+     "avec"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Bien sûr !",
+    "ph": "bie~ XUYR",
+    "vi": "Tất nhiên rồi!",
+    "hl": []
+   }
+  ],
+  "more": [
+   {
+    "t": "Je pars avec lui.",
+    "ph": "jơ PAR a-VEK LUY",
+    "vi": "Tôi đi với anh ấy.",
+    "hl": [
+     "avec"
+    ],
+    "tokens": [
+     "Je",
+     "pars",
+     "avec",
+     "lui"
+    ]
+   },
+   {
+    "t": "Un thé avec du sucre.",
+    "ph": "a~ TÊ a-VEK đuy XUY-KR",
+    "vi": "Một trà có đường.",
+    "hl": [
+     "avec"
+    ],
+    "tokens": [
+     "Un",
+     "thé",
+     "avec",
+     "du",
+     "sucre"
+    ]
+   },
+   {
+    "t": "Elle habite avec ses parents.",
+    "ph": "e-la-BIT a-VEK xê pa-RA~",
+    "vi": "Cô ấy sống với bố mẹ.",
+    "hl": [
+     "avec"
+    ],
+    "tokens": [
+     "Elle",
+     "habite",
+     "avec",
+     "ses",
+     "parents"
+    ]
+   },
+   {
+    "t": "Je peux payer avec la carte ?",
+    "ph": "jơ PƠ pê-YÊ a-VEK la KART",
+    "vi": "Tôi trả bằng thẻ được không?",
+    "hl": [
+     "avec"
+    ],
+    "tokens": [
+     "Je",
+     "peux",
+     "payer",
+     "avec",
+     "la",
+     "carte"
+    ]
+   },
+   {
+    "t": "Une chambre avec vue sur la mer.",
+    "ph": "uyn SHA~-BR a-VEK VUY xuyr la MER",
+    "vi": "Một phòng nhìn ra biển.",
+    "hl": [
+     "avec"
+    ],
+    "tokens": [
+     "Une",
+     "chambre",
+     "avec",
+     "vue",
+     "sur",
+     "la",
+     "mer"
+    ]
+   },
+   {
+    "t": "Nous allons au musée avec les enfants.",
+    "ph": "nu-za-LO~ ô muy-ZÊ a-VEK lê-za~-FA~",
+    "vi": "Chúng tôi đi bảo tàng với bọn trẻ.",
+    "hl": [
+     "avec"
+    ],
+    "tokens": [
+     "Nous",
+     "allons",
+     "au",
+     "musée",
+     "avec",
+     "les",
+     "enfants"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "V",
+    "t": "Động từ"
+   },
+   {
+    "k": "O",
+    "t": "Vật"
+   },
+   {
+    "k": "P",
+    "t": "pour / à"
+   },
+   {
+    "k": "O",
+    "t": "Người nhận"
+   }
+  ],
+  "points": [
+   "Pour + người = dành cho ai (\"pour toi\", \"pour ma mère\").",
+   "Donner, envoyer, offrir + vật + à + người = đưa / gửi / tặng cho ai (\"J'envoie une carte à ma mère\").",
+   "Câu mệnh lệnh \"cho tôi\" gắn -moi sau động từ bằng gạch nối (\"Donnez-moi\", \"Montrez-moi\").",
+   "Ngoài câu mệnh lệnh, \"cho tôi\" là me đứng trước động từ (\"Il me donne la clé\")."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Donnez pour moi deux billets.",
+    "right": "Donnez-moi deux billets.",
+    "why": "\"Cho tôi\" trong câu mệnh lệnh là -moi gắn sau động từ, không dùng pour."
+   },
+   {
+    "wrong": "J'envoie ma mère une carte.",
+    "right": "J'envoie une carte à ma mère.",
+    "why": "Người nhận phải có à phía trước và thường đứng sau vật được gửi."
+   }
+  ],
+  "compare": "Tiếng Việt chỉ có một chữ \"cho\"; tiếng Pháp tách thành pour (dành cho), à (đưa/gửi cho) và -moi gắn sau động từ mệnh lệnh.",
+  "tip": "Quà thì pour, gửi thì à, xin thì -moi: \"pour toi\" (tặng bạn), \"à ma mère\" (gửi mẹ), \"Donnez-moi\" (cho tôi).",
+  "how": [
+   "Đặt pour trước đại từ toi → pour toi, rồi thêm Ce cadeau est ở trước → Ce cadeau est pour toi.",
+   "Gắn -moi sau động từ mệnh lệnh donnez → Donnez-moi, thêm deux billets và s'il vous plaît ở sau → Donnez-moi deux billets s'il vous plaît.",
+   "Đặt à trước người nhận ma mère → à ma mère, thêm J'envoie une carte ở trước → J'envoie une carte à ma mère."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "C'est pour qui, ces fleurs ?",
+    "ph": "xê pur KI xê FLƠR",
+    "vi": "Hoa này để tặng ai vậy?",
+    "hl": [
+     "pour"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Pour ma femme, c'est son anniversaire.",
+    "ph": "pur ma FAM xê xo~-na-ni-ver-XER",
+    "vi": "Cho vợ tôi, hôm nay sinh nhật cô ấy.",
+    "hl": [
+     "Pour"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Je fais un joli paquet ?",
+    "ph": "jơ FE a~ jo-LI pa-KÊ",
+    "vi": "Tôi gói đẹp cho anh nhé?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Oui, et donnez-moi une carte aussi.",
+    "ph": "uy ê đo-nê-MOA uyn KART ô-XI",
+    "vi": "Vâng, và cho tôi thêm một tấm thiệp.",
+    "hl": [
+     "-moi"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "C'est pour vous.",
+    "ph": "xê pur VU",
+    "vi": "Cái này dành cho anh chị.",
+    "hl": [
+     "pour"
+    ],
+    "tokens": [
+     "C'est",
+     "pour",
+     "vous"
+    ]
+   },
+   {
+    "t": "Donnez-moi la clé s'il vous plaît.",
+    "ph": "đo-nê-MOA la KLÊ xin vu PLÊ",
+    "vi": "Làm ơn đưa tôi chìa khóa.",
+    "hl": [
+     "-moi"
+    ],
+    "tokens": [
+     "Donnez-moi",
+     "la",
+     "clé",
+     "s'il",
+     "vous",
+     "plaît"
+    ]
+   },
+   {
+    "t": "J'achète du pain pour mes enfants.",
+    "ph": "ja-SHET đuy PE~ pur mê-za~-FA~",
+    "vi": "Tôi mua bánh mì cho các con.",
+    "hl": [
+     "pour"
+    ],
+    "tokens": [
+     "J'achète",
+     "du",
+     "pain",
+     "pour",
+     "mes",
+     "enfants"
+    ]
+   },
+   {
+    "t": "Elle écrit une lettre à son ami.",
+    "ph": "e-lê-KRI uyn LE-TR a xo~-na-MI",
+    "vi": "Cô ấy viết thư cho bạn.",
+    "hl": [
+     "à son"
+    ],
+    "tokens": [
+     "Elle",
+     "écrit",
+     "une",
+     "lettre",
+     "à",
+     "son",
+     "ami"
+    ]
+   },
+   {
+    "t": "Il donne son billet au contrôleur.",
+    "ph": "il ĐON xo~ bi-YÊ ô ko~-trô-LƠR",
+    "vi": "Anh ấy đưa vé cho người soát vé.",
+    "hl": [
+     "au"
+    ],
+    "tokens": [
+     "Il",
+     "donne",
+     "son",
+     "billet",
+     "au",
+     "contrôleur"
+    ]
+   },
+   {
+    "t": "Je voudrais une table pour quatre personnes.",
+    "ph": "jơ vu-ĐRÊ uyn TA-BL pur KA-TR per-XON",
+    "vi": "Tôi muốn một bàn cho bốn người.",
+    "hl": [
+     "pour"
+    ],
+    "tokens": [
+     "Je",
+     "voudrais",
+     "une",
+     "table",
+     "pour",
+     "quatre",
+     "personnes"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "devoir (chia)"
+   },
+   {
+    "k": "V",
+    "t": "Động từ nguyên mẫu"
+   },
+   {
+    "k": "O",
+    "t": "(Tân ngữ)"
+   }
+  ],
+  "points": [
+   "Devoir (phải) + động từ nguyên mẫu; chia: je dois, tu dois, il doit, nous devons, vous devez, ils doivent.",
+   "Động từ đứng sau devoir luôn ở nguyên mẫu (\"je dois partir\", không nói \"je dois pars\").",
+   "Il faut + nguyên mẫu = cần phải, nói chung chung không chỉ ai (\"Il faut réserver\").",
+   "Phủ định ne ... pas devoir = không được làm gì (\"Vous ne devez pas fumer ici\")."
+  ],
+  "mistakes": [
+   {
+    "wrong": "Je dois pars maintenant.",
+    "right": "Je dois partir maintenant.",
+    "why": "Sau devoir động từ phải để nguyên mẫu, không chia."
+   },
+   {
+    "wrong": "Il faut je réserve.",
+    "right": "Je dois réserver.",
+    "why": "Il faut không đi với chủ ngữ + động từ chia; muốn nói ai phải làm gì thì dùng devoir."
+   }
+  ],
+  "compare": "Giống tiếng Việt \"phải + động từ\"; khác ở chỗ devoir phải chia theo chủ ngữ, còn động từ theo sau để nguyên mẫu.",
+  "tip": "Bộ ba dễ nhớ: tôi phải = je dois (đoa), chúng tôi phải = nous devons (đơ-VO~), ai cũng phải = il faut (il FÔ).",
+  "how": [
+   "Chia devoir với je thành dois rồi đặt trước partir → dois partir, thêm Je ở đầu và maintenant ở cuối → Je dois partir maintenant.",
+   "Chia devoir với nous thành devons rồi ghép với changer → devons changer, thêm Nous ở đầu và de train ở cuối → Nous devons changer de train.",
+   "Dùng Il faut (cần phải, nói chung) trước réserver → Il faut réserver, thêm à l'avance ở cuối → Il faut réserver à l'avance."
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Tu restes encore un peu ?",
+    "ph": "tuy REST a~-KOR a~ PƠ",
+    "vi": "Bạn ở lại thêm chút nữa không?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Non, je dois rentrer à l'hôtel.",
+    "ph": "no~ jơ ĐOA ra~-TRÊ a lô-TEL",
+    "vi": "Không, mình phải về khách sạn.",
+    "hl": [
+     "dois"
+    ]
+   },
+   {
+    "who": "A",
+    "t": "Pourquoi ?",
+    "ph": "pur-KOA",
+    "vi": "Sao vậy?",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Nous devons partir tôt demain.",
+    "ph": "nu đơ-VO~ par-TIR TÔ đơ-ME~",
+    "vi": "Sáng mai bọn mình phải đi sớm.",
+    "hl": [
+     "devons"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "Tu dois venir.",
+    "ph": "tuy ĐOA vơ-NIR",
+    "vi": "Bạn phải đến nhé.",
+    "hl": [
+     "dois"
+    ],
+    "tokens": [
+     "Tu",
+     "dois",
+     "venir"
+    ]
+   },
+   {
+    "t": "Il doit travailler ce soir.",
+    "ph": "il ĐOA tra-va-YÊ xơ SOAR",
+    "vi": "Tối nay anh ấy phải làm việc.",
+    "hl": [
+     "doit"
+    ],
+    "tokens": [
+     "Il",
+     "doit",
+     "travailler",
+     "ce",
+     "soir"
+    ]
+   },
+   {
+    "t": "Il faut prendre le métro.",
+    "ph": "il FÔ PRA~-ĐR lơ mê-TRÔ",
+    "vi": "Phải đi tàu điện ngầm.",
+    "hl": [
+     "Il faut"
+    ],
+    "tokens": [
+     "Il",
+     "faut",
+     "prendre",
+     "le",
+     "métro"
+    ]
+   },
+   {
+    "t": "Vous devez payer à la caisse.",
+    "ph": "vu đơ-VÊ pê-YÊ a la KES",
+    "vi": "Anh chị phải trả tiền ở quầy thu ngân.",
+    "hl": [
+     "devez"
+    ],
+    "tokens": [
+     "Vous",
+     "devez",
+     "payer",
+     "à",
+     "la",
+     "caisse"
+    ]
+   },
+   {
+    "t": "Ils doivent arriver avant midi.",
+    "ph": "il ĐOAV a-ri-VÊ a-VA~ mi-ĐI",
+    "vi": "Họ phải đến trước buổi trưa.",
+    "hl": [
+     "doivent"
+    ],
+    "tokens": [
+     "Ils",
+     "doivent",
+     "arriver",
+     "avant",
+     "midi"
+    ]
+   },
+   {
+    "t": "Vous ne devez pas fumer dans la chambre.",
+    "ph": "vu nơ đơ-VÊ PA fuy-MÊ đa~ la SHA~-BR",
+    "vi": "Quý khách không được hút thuốc trong phòng.",
+    "hl": [
+     "devez"
+    ],
+    "tokens": [
+     "Vous",
+     "ne",
+     "devez",
+     "pas",
+     "fumer",
+     "dans",
+     "la",
+     "chambre"
+    ]
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "formula": [
+   {
+    "k": "S",
+    "t": "Chủ ngữ"
+   },
+   {
+    "k": "P",
+    "t": "essayer (chia)"
+   },
+   {
+    "k": "X",
+    "t": "(de)"
+   },
+   {
+    "k": "O",
+    "t": "Danh từ / Động từ"
+   }
+  ],
+  "points": [
+   "Essayer + danh từ = thử (quần áo, món ăn): \"essayer cette veste\".",
+   "Essayer de + động từ nguyên mẫu = cố gắng / thử làm gì (\"J'essaie de parler français\"); de thành d' trước nguyên âm.",
+   "Chia: j'essaie, tu essaies, il essaie, nous essayons, vous essayez; mệnh lệnh lịch sự là \"Essayez !\".",
+   "Hỏi thử đồ ở cửa hàng dùng \"Je peux essayer ... ?\" (Tôi thử ... được không?)."
+  ],
+  "mistakes": [
+   {
+    "wrong": "J'essaie parler français.",
+    "right": "J'essaie de parler français.",
+    "why": "Trước động từ phải thêm de: essayer de + nguyên mẫu."
+   },
+   {
+    "wrong": "Je essaie cette veste.",
+    "right": "J'essaie cette veste.",
+    "why": "Je gặp nguyên âm phải rút thành j'."
+   }
+  ],
+  "compare": "Tiếng Việt \"thử\" đứng trước cả danh từ lẫn động từ; tiếng Pháp cũng vậy, nhưng trước động từ phải chèn thêm de.",
+  "tip": "Thử đồ: essayer + đồ; thử làm: essayer DE + làm. Có hành động là nhớ chèn de!",
+  "how": [
+   "Đặt essayer (nguyên mẫu vì đứng sau peux) trước cette veste → essayer cette veste, thêm Je peux ở đầu và dấu ? → Je peux essayer cette veste ?",
+   "Chia essayer với je thành essaie rồi thêm de trước động từ parler → essaie de parler, thêm J' ở đầu và français ở cuối → J'essaie de parler français.",
+   "Dùng mệnh lệnh Essayez trước ce plat → Essayez ce plat, thêm tính từ typique và dấu ! → Essayez ce plat typique !"
+  ],
+  "dialog": [
+   {
+    "who": "A",
+    "t": "Je peux essayer ce pantalon ?",
+    "ph": "jơ PƠ ê-xê-YÊ xơ pa~-ta-LO~",
+    "vi": "Tôi thử cái quần này được không?",
+    "hl": [
+     "essayer"
+    ]
+   },
+   {
+    "who": "B",
+    "t": "Bien sûr, la cabine est là-bas.",
+    "ph": "bie~ XUYR la ka-BIN e la-BA",
+    "vi": "Tất nhiên, phòng thử ở đằng kia.",
+    "hl": []
+   },
+   {
+    "who": "A",
+    "t": "Il est trop petit.",
+    "ph": "i-LE TRÔ pơ-TI",
+    "vi": "Nó chật quá.",
+    "hl": []
+   },
+   {
+    "who": "B",
+    "t": "Essayez cette taille, elle est plus grande.",
+    "ph": "ê-xê-YÊ xét TAI e-LE PLUY GRA~Đ",
+    "vi": "Anh thử cỡ này đi, nó rộng hơn.",
+    "hl": [
+     "Essayez"
+    ]
+   }
+  ],
+  "more": [
+   {
+    "t": "J'essaie ce chapeau.",
+    "ph": "jê-XÊ xơ sha-PÔ",
+    "vi": "Tôi thử cái mũ này.",
+    "hl": [
+     "essaie"
+    ],
+    "tokens": [
+     "J'essaie",
+     "ce",
+     "chapeau"
+    ]
+   },
+   {
+    "t": "Essayez encore une fois.",
+    "ph": "ê-xê-YÊ a~-KOR uyn FOA",
+    "vi": "Hãy thử lại lần nữa.",
+    "hl": [
+     "Essayez"
+    ],
+    "tokens": [
+     "Essayez",
+     "encore",
+     "une",
+     "fois"
+    ]
+   },
+   {
+    "t": "Nous essayons de dormir.",
+    "ph": "nu-zê-xê-YO~ đơ đor-MIR",
+    "vi": "Chúng tôi đang cố ngủ.",
+    "hl": [
+     "essayons de"
+    ],
+    "tokens": [
+     "Nous",
+     "essayons",
+     "de",
+     "dormir"
+    ]
+   },
+   {
+    "t": "Tu veux essayer la cuisine vietnamienne ?",
+    "ph": "tuy VƠ ê-xê-YÊ la kuy-ZIN viết-na-MIEN",
+    "vi": "Bạn muốn thử món ăn Việt Nam không?",
+    "hl": [
+     "essayer"
+    ],
+    "tokens": [
+     "Tu",
+     "veux",
+     "essayer",
+     "la",
+     "cuisine",
+     "vietnamienne"
+    ]
+   },
+   {
+    "t": "J'essaie d'apprendre dix mots par jour.",
+    "ph": "jê-XÊ đa-PRA~-ĐR đi MÔ par JUR",
+    "vi": "Tôi cố học mười từ mỗi ngày.",
+    "hl": [
+     "essaie d'"
+    ],
+    "tokens": [
+     "J'essaie",
+     "d'apprendre",
+     "dix",
+     "mots",
+     "par",
+     "jour"
+    ]
+   },
+   {
+    "t": "Elle essaie de trouver un hôtel pas cher.",
+    "ph": "e-lê-XÊ đơ tru-VÊ a~-nô-TEL pa SHER",
+    "vi": "Cô ấy đang cố tìm một khách sạn rẻ.",
+    "hl": [
+     "essaie de"
+    ],
+    "tokens": [
+     "Elle",
+     "essaie",
+     "de",
+     "trouver",
+     "un",
+     "hôtel",
+     "pas",
+     "cher"
+    ]
+   }
+  ]
+ }
+]

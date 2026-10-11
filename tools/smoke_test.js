@@ -189,38 +189,75 @@ try {
   doc.querySelector('.tab[data-tab="builder"]').click();
   check("builder tab lists 36 lessons", doc.querySelectorAll(".bd-tile").length === 36);
   check("builder lessons grouped into 3 levels", doc.querySelectorAll(".bd-level").length === 3);
-  doc.querySelector('.bd-tile[data-lesson="1"]').click();
+  check("builder list suggests the next lesson to study", /Bài 1/.test(doc.getElementById("bdContinue").textContent));
+  doc.getElementById("bdContinue").click();
   const L1 = window.LANG_PACKS.ru.builder[0];
   check("lesson view shows pivot word", doc.querySelector(".bd-pivot-t").textContent === L1.pivot.t);
   check("lesson view shows 3 branches of word -> phrase -> sentence", doc.querySelectorAll(".bd-branch").length === 3 && doc.querySelectorAll(".bd-branch .bd-node").length === 9);
   check("pivot is highlighted inside phrases/sentences", doc.querySelectorAll(".bd-branch .bd-t .hl").length >= 6);
+  for (const [id, label] of [["bdFormula","sentence formula"],["bdPoints","usage rules"],["bdMistakes","common mistakes"],["bdCompare","comparison with Vietnamese"],["bdDialog","sample dialogue"],["bdMore","extra examples"],["bdTip","memory tip"]])
+    check(`lesson has a '${label}' section`, !!doc.getElementById(id));
+  check("formula highlights the pivot block", doc.querySelectorAll("#bdFormula .fb-P").length >= 1);
+  check("each branch explains how it is built", doc.querySelectorAll(".bd-how").length === 3);
+  check("lesson shows 6 extra examples", doc.querySelectorAll("#bdMore .bd-ex").length === 6);
+  check("dialogue rendered as chat bubbles", doc.querySelectorAll("#bdDialog .bd-msg").length >= 3);
   doc.querySelectorAll(".bd-branch .bd-node")[2].click();
   check("tapping a node speaks it", lastSpoken === L1.branches[0].steps[2].t);
+  doc.querySelector("#bdMore .bd-ex").click();
+  check("tapping an extra example speaks it", lastSpoken === L1.more[0].t);
+  doc.getElementById("bdPlay").click();
+  check("'watch step by step' animation dims nodes then lights the first one", doc.querySelectorAll(".bd-node.dim").length === 8 && doc.querySelectorAll(".bd-node.lit").length === 1);
+  doc.getElementById("bdPlay").click();
+  check("animation can be stopped", doc.querySelectorAll(".bd-node.dim").length === 0);
 
-  doc.getElementById("bdPractice").click();
-  check("practice shows word tiles (tokens + 1 distractor)", doc.querySelectorAll("#bdBank .bd-word").length === L1.branches[0].steps[2].tokens.length + 1);
-  check("check button disabled until a tile is picked", doc.getElementById("bdCheck").disabled);
+  // luyện tập: trả lời theo dữ liệu thật; câu thứ 2 cố tình trả lời sai
+  const allSentences = L1.branches.map(b => b.steps[2]).concat(L1.more || []);
+  const findStep = vi => allSentences.find(x => x.vi === vi);
   function pickTokens(tokens){
     for (const t of tokens) {
       const tile = Array.from(doc.querySelectorAll("#bdBank .bd-word")).find(b => !b.disabled && b.textContent === t);
       tile.click();
     }
   }
-  pickTokens(L1.branches[0].steps[2].tokens);
-  check("picked tiles move into the answer area", doc.querySelectorAll("#bdAnswer .bd-word").length === L1.branches[0].steps[2].tokens.length);
-  doc.getElementById("bdCheck").click();
-  check("correct order is accepted", !!doc.querySelector(".bd-feedback.ok"));
-  check("builder progress saved per language", JSON.parse(window.localStorage.getItem("fv_builder_ru") || "{}")["1"].length === 1);
-  doc.getElementById("bdNext").click();
-  pickTokens(L1.branches[1].steps[2].tokens.slice().reverse());
-  doc.getElementById("bdCheck").click();
-  check("wrong order is rejected and shows the correct sentence", !!doc.querySelector(".bd-feedback.wrong") && !!doc.querySelector(".bd-correct"));
-  doc.getElementById("bdRetry").click();
-  check("retry clears the answer", doc.querySelectorAll("#bdAnswer .bd-word").length === 0);
+  doc.getElementById("bdPractice").click();
+  const totalItems = parseInt(doc.querySelector(".bd-practice .list-head-title").textContent.split("/")[1], 10);
+  check(`practice mixes fill-the-pivot and arrange items (${totalItems} items)`, totalItems >= 6 && !!doc.querySelector(".bd-options"));
+  let sawArrange = false, sawCombo = false, hintTested = false;
+  for (let n = 0; n < totalItems; n++) {
+    const wantWrong = n === 1;
+    if (doc.querySelector(".bd-options")) {
+      const stp = findStep(doc.querySelector(".bd-prompt-vi.small").textContent);
+      const opt = Array.from(doc.querySelectorAll(".bd-opt")).find(o => (o.getAttribute("data-o") === stp.hl[0]) !== wantWrong);
+      opt.click();
+      if (wantWrong) check("wrong pivot choice is rejected and the full sentence shown", !!doc.querySelector(".bd-feedback.wrong") && !!doc.querySelector(".bd-correct"));
+    } else {
+      sawArrange = true;
+      const stp = findStep(doc.querySelector(".bd-prompt-vi").textContent);
+      check(`arrange item ${n+1} offers its tokens + 1 distractor tile`, doc.querySelectorAll("#bdBank .bd-word").length === stp.tokens.length + 1);
+      if (wantWrong) {
+        pickTokens(stp.tokens.slice().reverse());
+        doc.getElementById("bdCheck").click();
+        check("wrong order is rejected", !!doc.querySelector(".bd-feedback.wrong"));
+        doc.getElementById("bdRetry").click();
+      }
+      if (!hintTested && !wantWrong) { hintTested = true; doc.getElementById("bdHint").click(); check("hint places the first correct tile", doc.querySelector("#bdAnswer .bd-word").textContent === stp.tokens[0]); doc.querySelector("#bdAnswer .bd-word").click(); }
+      pickTokens(stp.tokens);
+      doc.getElementById("bdCheck").click();
+      check(`arrange item ${n+1} accepts the correct order`, !!doc.querySelector(".bd-feedback.ok"));
+    }
+    if (doc.querySelector(".bd-combo")) sawCombo = true;
+    doc.getElementById("bdNext").click();
+  }
+  check("practice included sentence-arrange items", sawArrange);
+  check("combo counter appears after consecutive first-try answers", sawCombo);
+  check("finishing practice shows stars and score", !!doc.querySelector(".bd-done") && /\d+\/\d+/.test(doc.querySelector(".bd-score").textContent));
+  check("finishing practice launches confetti", !!window.document.querySelector(".confetti"));
+  const savedStars = JSON.parse(window.localStorage.getItem("fv_builder_ru") || "{}")["1"];
+  check(`lesson stars saved per language (${savedStars && savedStars.stars}★)`, savedStars && savedStars.stars >= 1);
+  doc.getElementById("bdBackLesson").click();
   window.onNativeBack();
-  check("back from practice returns to lesson view", !!doc.querySelector(".bd-pivot"));
-  window.onNativeBack();
-  check("back from lesson returns to lesson list (with progress dot)", doc.querySelectorAll('.bd-tile[data-lesson="1"] .bd-dots span.on').length === 1);
+  check("back from lesson returns to lesson list", doc.querySelectorAll(".bd-tile").length === 36);
+  check("finished lesson shows its stars on the list", doc.querySelector('.bd-tile[data-lesson="1"]').classList.contains("done"));
   check("header shows lessons done count on builder tab", /\d+\/36 bài/.test(doc.getElementById("hdrStat").textContent));
 
   // 9. ôn tập flashcard (spaced repetition) - đúng luồng người dùng thực (không đổi dropdown mặc định)
