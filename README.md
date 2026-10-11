@@ -73,6 +73,11 @@ Cùng kịch bản đó xuất được thành **file MP4** (1080×1920, để c
 pkg install ffmpeg && pip install edge-tts      # cùng Chromium ở mục dưới
 node tools/render_lesson_video.js zh 1 GhepCau_TiengTrung_Bai1.mp4 [--fps 24] [--tutor3d] [--preview <thư mục>]
 ```
+Xuất hàng loạt mọi bài (bỏ qua video đã có — dừng giữa chừng rồi chạy lại sẽ làm tiếp; tiến độ ghi ở `render_log.txt` trong thư mục ra):
+```
+termux-wake-lock    # giữ máy không ngủ khi chạy lâu
+node tools/render_all_videos.js /storage/emulated/0/Download/NgoaiNguBoTui_Videos zh,ru,en,fr --res 720
+```
 Giọng đọc neural từ edge-tts (cần mạng lúc render, có cache ở `build/video_cache`, tự cắt khoảng lặng), Chromium headless chụp từng khung, FFmpeg ghép hình + đặt từng câu đọc đúng thời điểm. Một video ~80–120 giây render mất ~7 phút trên điện thoại. Chromium trên Termux không vẽ được WebGL ổn định (GPU process crash) nên MP4 dùng gia sư bản 2D (SVG, cùng tạo hình); chạy trên PC thêm `--tutor3d` để dùng gia sư 3D. `--preview` chỉ chụp vài khung mỗi cảnh để chỉnh thiết kế nhanh.
 
 ## Soát giao diện nhiều kích thước màn hình

@@ -1,7 +1,7 @@
 // Xuất video bài giảng "Ghép câu" thành MP4 (dọc 1080x1920) — video-as-code:
 //   kịch bản + hình từ app/assets/js/lesson_video.js (giống hệt chế độ xem video trong app),
 //   giọng đọc neural từ edge-tts (cần mạng lúc render), Chromium headless chụp từng khung, FFmpeg ghép.
-// Dùng:  node tools/render_lesson_video.js <ngôn ngữ ru|en|fr|zh> <số bài> [file ra.mp4] [--fps 24] [--tutor3d] [--preview <thư mục>]
+// Dùng:  node tools/render_lesson_video.js <ngôn ngữ ru|en|fr|zh> <số bài> [file ra.mp4] [--fps 24] [--res 720|1080] [--tutor3d] [--preview <thư mục>]
 //   --tutor3d: dùng gia sư 3D (cần Chromium vẽ được WebGL — chạy trên PC; Chromium trên Termux bị lỗi GPU nên mặc định dùng bản 2D)
 // Cần:   chromium-browser, ffmpeg, edge-tts (pip install edge-tts)
 const { spawn, execFileSync } = require("child_process");
@@ -16,6 +16,8 @@ const lessonId = parseInt(process.argv[3] || "1", 10);
 const out = path.resolve(process.argv[4] && !process.argv[4].startsWith("--") ? process.argv[4] : `video_${lang}_bai${lessonId}.mp4`);
 const fpsArg = process.argv.indexOf("--fps");
 const FPS = fpsArg > 0 ? parseInt(process.argv[fpsArg + 1], 10) : 24;
+const resArg = process.argv.indexOf("--res");
+const RES = resArg > 0 ? parseInt(process.argv[resArg + 1], 10) : 1080; // chiều ngang video: 720 hoặc 1080 (khung dọc 9:16)
 const CACHE = path.join(ROOT, "build", "video_cache");
 const TUTOR = process.argv.includes("--tutor3d") ? "3d" : "2d";
 const RATE = { vi: "+8%" }; // lời giảng tiếng Việt đọc nhanh hơn chút; câu mẫu ngoại ngữ giữ tốc độ chuẩn cho dễ nghe
@@ -100,7 +102,7 @@ async function main(){
   const { durations, files } = synth(draft.cues);
 
   const b = await openBrowser();
-  await b.send("Emulation.setDeviceMetricsOverride", { width: 540, height: 960, deviceScaleFactor: 2, mobile: true });
+  await b.send("Emulation.setDeviceMetricsOverride", { width: 540, height: 960, deviceScaleFactor: RES / 540, mobile: true });
   await b.send("Page.navigate", { url: "file://" + path.join(__dirname, "video_render.html") });
   await sleep(1500);
   const info = await b.evalJs(`new Promise(function(done){
