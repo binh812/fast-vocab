@@ -1410,7 +1410,15 @@ function renderBuilderLesson(){
     '<div class="bd-wrap">'+
       '<div class="list-head"><button class="back-btn" id="bdBack">‹ Danh sách bài</button>'+
         '<div class="list-head-title">Bài ' + l.id + ' · ' + esc(l.vi) + '</div></div>'+
-      '<div class="bd-hero ' + lv.cls + '">'+
+      // bố cục: video dọc ở cột trái, bên cạnh là thẻ từ trụ + mục lục; nội dung bài chạy bên dưới
+      // (màn rộng: cột video dính bên trái suốt khi cuộn, nội dung ở cột phải)
+      '<div class="bd-layout' + (window.LessonVideo ? '' : ' no-video') + '">'+
+      (window.LessonVideo
+        ? '<aside class="bd-side"><div class="bd-video-title">📺 Video bài giảng <small>~' + Math.round(LessonVideo.plan(l, state.lang).duration / 10) * 10 + 's</small></div>'+
+          '<div class="lv-player" id="bdVideo"></div></aside>'
+        : '')+
+      '<div class="bd-top">'+
+        '<div class="bd-hero ' + lv.cls + '">'+
         '<div class="bd-pivot" data-say="' + esc(l.pivot.t) + '">'+
           '<div class="bd-pivot-vi">' + esc(l.vi) + '</div>'+
           '<div class="bd-pivot-t">' + esc(l.pivot.t) + '</div>'+
@@ -1423,13 +1431,13 @@ function renderBuilderLesson(){
           '<div class="bd-note">💡 ' + esc(l.note) + '</div>'+
         '</div>'+
       '</div>'+
-      (window.LessonVideo
-        ? '<section class="bd-sec bd-video-sec"><div class="bd-sec-title"><span>📺</span>Video bài giảng <small>~' + Math.round(LessonVideo.plan(l, state.lang).duration / 10) * 10 + ' giây</small></div>'+
-          '<div class="lv-player" id="bdVideo"></div></section>'
-        : '')+
-      '<div class="bd-nav" id="bdNav">' + nav.map(function(n){ return '<button data-go="' + n[0] + '">' + n[1] + '</button>'; }).join("") + '</div>'+
+        '<div class="bd-nav" id="bdNav">' + nav.map(function(n){ return '<button data-go="' + n[0] + '">' + n[1] + '</button>'; }).join("")+
+          '<button class="bd-nav-practice" data-go="practice">🎯 Luyện tập</button></div>'+
+      '</div>'+
+      '<div class="bd-body">'+
       secs.join("")+
       '<button class="big-btn bd-practice-btn" id="bdPractice">🎯 Luyện tập bài này</button>'+
+      '</div></div>'+
     '</div>';
   main.scrollTop = 0;
 
@@ -1439,6 +1447,7 @@ function renderBuilderLesson(){
   if(vb) mountLessonVideo(vb, l);
   document.getElementById("bdNav").addEventListener("click", function(e){
     var b = e.target.closest("[data-go]"); if(!b) return;
+    if(b.getAttribute("data-go") === "practice"){ startBuilderPractice(); return; }
     var target = document.getElementById(b.getAttribute("data-go"));
     if(target && target.scrollIntoView) target.scrollIntoView({behavior:"smooth", block:"start"});
   });
@@ -1755,6 +1764,9 @@ function mountLessonVideo(box, l){
     box.classList.toggle("lv-land", land);
     if(!full){
       var avail = (box.parentNode && box.parentNode.clientWidth) || W;
+      // màn rộng: cột video co theo đúng bề ngang video (tối đa ~1/3 trang) để không chừa khoảng trống
+      var lay = box.closest(".bd-layout");
+      if(lay && window.matchMedia && matchMedia("(min-width:760px)").matches) avail = Math.min(340, lay.clientWidth * 0.32);
       // tối thiểu ~200px ngang để thanh điều khiển không bị cắt (điện thoại xoay ngang, màn rất thấp)
       sc = Math.min(avail / 540, Math.max(Math.min(H * 0.56, 600) / 960, 200 / 540));
     } else if(land){
@@ -1763,7 +1775,7 @@ function mountLessonVideo(box, l){
       sc = Math.min((W - 24) / 540, (H - (ctrl.offsetHeight || 96) - 28) / 960);
     }
     var vw = Math.round(540 * sc), vh = Math.round(960 * sc);
-    box.classList.toggle("lv-narrow", !land && vw < 240);
+    box.classList.toggle("lv-narrow", !full && vw < 240);
     box.style.width = full ? "" : vw + "px";
     fitEl.style.width = vw + "px";
     fitEl.style.height = vh + "px";
