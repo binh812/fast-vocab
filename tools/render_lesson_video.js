@@ -35,34 +35,54 @@ function loadLesson(){
 }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-/* 1. giọng đọc: mỗi câu 1 file mp3 (có cache theo nội dung) + đo độ dài thật */
-function synth(cues){
+/* 1. giọng đọc: mỗi câu 1 file (có cache theo nội dung, cắt khoảng lặng) + đo độ dài thật.
+   Gọi edge-tts song song vài câu một lúc (phần lớn thời gian là chờ mạng). */
+function run(cmd, args){
+  return new Promise((resolve, reject) => {
+    const p = spawn(cmd, args, { stdio: ["ignore", "pipe", "ignore"] });
+    let out = "";
+    p.stdout.on("data", d => out += d);
+    p.on("close", code => code === 0 ? resolve(out) : reject(new Error(cmd + " exit " + code)));
+  });
+}
+async function synthOne(c, f){
+  if (fs.existsSync(f) && fs.statSync(f).size > 500) return;
+  const raw = f + ".raw.mp3";
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      await run("edge-tts", ["--voice", VOICES[c.lang], ...(RATE[c.lang] ? ["--rate=" + RATE[c.lang]] : []), "--text", c.text, "--write-media", raw]);
+      // cắt khoảng lặng đầu/cuối của file giọng (edge-tts để dư ~0.5s mỗi đầu -> video dài lê thê)
+      await run("ffmpeg", ["-y", "-loglevel", "error", "-i", raw, "-af",
+        "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse",
+        "-c:a", "aac", "-b:a", "128k", f]);
+      fs.unlinkSync(raw);
+      return;
+    } catch (e) {
+      if (attempt === 2) throw new Error("edge-tts lỗi với: " + c.text);
+      await sleep(1500 * (attempt + 1));
+    }
+  }
+}
+async function synth(cues){
   fs.mkdirSync(CACHE, { recursive: true });
   const durations = {}, files = {};
   const uniq = [...new Map(cues.map(c => [LV.audioKey(c.lang, c.text), c])).values()];
-  uniq.forEach((c, i) => {
-    const k = LV.audioKey(c.lang, c.text);
-    const f = path.join(CACHE, crypto.createHash("md5").update(VOICES[c.lang] + "|" + (RATE[c.lang] || "") + "|" + c.text).digest("hex") + ".m4a");
-    if (!fs.existsSync(f) || fs.statSync(f).size < 500) {
-      process.stdout.write(`\r  giọng đọc ${i + 1}/${uniq.length}   `);
-      for (let attempt = 0; attempt < 3; attempt++) {
-        try {
-          const raw = f + ".raw.mp3";
-          execFileSync("edge-tts", ["--voice", VOICES[c.lang], ...(RATE[c.lang] ? ["--rate=" + RATE[c.lang]] : []), "--text", c.text, "--write-media", raw], { stdio: "ignore" });
-          // cắt khoảng lặng đầu/cuối của file giọng (edge-tts để dư ~0.5s mỗi đầu -> video dài lê thê)
-          execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", raw, "-af",
-            "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse",
-            "-c:a", "aac", "-b:a", "128k", f]);
-          fs.unlinkSync(raw);
-          break;
-        }
-        catch (e) { if (attempt === 2) throw new Error("edge-tts lỗi với: " + c.text); }
-      }
+  const items = uniq.map(c => ({ c, k: LV.audioKey(c.lang, c.text),
+    f: path.join(CACHE, crypto.createHash("md5").update(VOICES[c.lang] + "|" + (RATE[c.lang] || "") + "|" + c.text).digest("hex") + ".m4a") }));
+  let next = 0, done = 0;
+  async function worker(){
+    while (next < items.length) {
+      const it = items[next++];
+      await synthOne(it.c, it.f);
+      process.stdout.write(`\r  giọng đọc ${++done}/${items.length}   `);
     }
-    files[k] = f;
-    durations[k] = parseFloat(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString());
-  });
+  }
+  await Promise.all([worker(), worker(), worker(), worker()]);
   process.stdout.write("\n");
+  for (const it of items) {
+    files[it.k] = it.f;
+    durations[it.k] = parseFloat(await run("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", it.f]));
+  }
   return { durations, files };
 }
 
@@ -72,6 +92,8 @@ async function openBrowser(){
   const profile = fs.mkdtempSync(path.join(require("os").tmpdir(), "fvvideo-"));
   const chrome = spawn("chromium-browser", [
     "--headless=new", "--no-sandbox", "--hide-scrollbars", "--mute-audio", "--allow-file-access-from-files",
+    // ít tiến trình con nhất có thể: Android 12+ (phantom process killer) diệt app sinh quá nhiều tiến trình
+    "--single-process", "--no-zygote", "--renderer-process-limit=1", "--disable-extensions", "--disable-background-networking",
     "--use-gl=angle", "--use-angle=swiftshader-webgl", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist",
     "--remote-debugging-port=" + port, "--user-data-dir=" + profile, "about:blank",
   ], { stdio: "ignore" });
@@ -99,7 +121,7 @@ async function main(){
   const lesson = loadLesson();
   console.log(`Bài ${lesson.id} · ${lesson.vi} (${lang})`);
   const draft = LV.plan(lesson, lang);
-  const { durations, files } = synth(draft.cues);
+  const { durations, files } = await synth(draft.cues);
 
   const b = await openBrowser();
   await b.send("Emulation.setDeviceMetricsOverride", { width: 540, height: 960, deviceScaleFactor: RES / 540, mobile: true });

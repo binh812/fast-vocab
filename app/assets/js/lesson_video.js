@@ -334,12 +334,13 @@ function mount(container, lesson, lang, opts){
     }
     if(s.name === "dialog"){
       var hdl = E("lv-head", "💬 Hội thoại mẫu", 270, 130); show(hdl, s.at, {o:0, y:-20});
-      var nD = lesson.dialog.length, stepY = Math.min(150, 560 / nD);
+      // mỗi lúc chỉ 2 bong bóng (1 cặp hỏi - đáp); cặp sau thay cặp trước -> câu dài không tràn xuống phụ đề
       lesson.dialog.forEach(function(d, di){
         var left = d.who === "A";
-        var e = E("lv-bubble " + (left ? "a" : "b"), '<span class="lv-who">' + (left ? "🧑" : "👩") + '</span>' + card(d), left ? 240 : 300, 245 + di * stepY);
+        var e = E("lv-bubble " + (left ? "a" : "b"), '<span class="lv-who">' + (left ? "🧑" : "👩") + '</span>' + card(d), left ? 240 : 300, di % 2 ? 520 : 300);
         show(e, m["d" + di] - 0.15, {o:0, x:left ? -60 : 60, s:0.85}, 0.45);
-        hide(e, end - 0.35);
+        var nextPair = m["d" + (di - di % 2 + 2)];
+        hide(e, nextPair ? nextPair - 0.45 : end - 0.35, {o:0, y:-40}, 0.3);
       });
       hide(hdl, end - 0.35);
     }
