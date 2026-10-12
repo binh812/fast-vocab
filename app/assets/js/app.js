@@ -1728,10 +1728,10 @@ function mountLessonVideo(box, l){
   box.innerHTML =
     '<div class="lv-fit"><div class="lv-host"></div><button class="lv-bigplay" title="Phát video">▶</button></div>'+
     '<div class="lv-controls">'+
+      '<input type="range" min="0" max="1000" value="0">'+
       '<button data-c="play" class="main" title="Phát / tạm dừng">▶</button>'+
       '<button data-c="prev" title="Cảnh trước">⏮</button>'+
       '<button data-c="next" title="Cảnh sau">⏭</button>'+
-      '<input type="range" min="0" max="1000" value="0">'+
       '<span class="lv-time">0:00</span>'+
       '<button data-c="full" title="Toàn màn hình">⛶</button>'+
     '</div>';
@@ -1745,18 +1745,30 @@ function mountLessonVideo(box, l){
   var poster = (intro.marks.pivot || intro.at) + 1.0; // ảnh xem trước: lúc thẻ từ trụ đã hiện
   var p = lvPlayer = {V:V, t:poster, playing:false, last:0, nextCue:0, raf:0, box:box, started:false};
 
+  // video dọc 9:16 -> khung phát cũng dọc, ôm sát video (không kéo ngang hết trang với 2 dải đen).
+  // Toàn màn hình khi xoay ngang: thanh điều khiển chuyển sang cột bên phải video.
   p.fit = function(){
     var full = box.classList.contains("lv-full");
-    var w = fitEl.clientWidth || box.clientWidth || 360;
-    var ctrlH = box.querySelector(".lv-controls").offsetHeight || 52;
-    var maxH = full ? (window.innerHeight - ctrlH) : Math.min(window.innerHeight * 0.62, 620);
-    var sc = Math.min(w / 540, maxH / 960);
-    // toàn màn hình: khung chiếm hết chiều cao, video căn giữa cả 2 chiều
-    var boxH = full ? maxH : 960 * sc;
-    fitEl.style.height = Math.round(boxH) + "px";
+    var ctrl = box.querySelector(".lv-controls");
+    var W = window.innerWidth, H = window.innerHeight, sc;
+    var land = full && W > H * 1.1;
+    box.classList.toggle("lv-land", land);
+    if(!full){
+      var avail = (box.parentNode && box.parentNode.clientWidth) || W;
+      // tối thiểu ~200px ngang để thanh điều khiển không bị cắt (điện thoại xoay ngang, màn rất thấp)
+      sc = Math.min(avail / 540, Math.max(Math.min(H * 0.56, 600) / 960, 200 / 540));
+    } else if(land){
+      sc = Math.min((W - 250) / 540, (H - 24) / 960);
+    } else {
+      sc = Math.min((W - 24) / 540, (H - (ctrl.offsetHeight || 96) - 28) / 960);
+    }
+    var vw = Math.round(540 * sc), vh = Math.round(960 * sc);
+    box.classList.toggle("lv-narrow", !land && vw < 240);
+    box.style.width = full ? "" : vw + "px";
+    fitEl.style.width = vw + "px";
+    fitEl.style.height = vh + "px";
+    ctrl.style.width = land ? "" : vw + "px";
     host.style.transform = "scale(" + sc + ")";
-    host.style.marginLeft = Math.max(0, (w - 540 * sc) / 2) + "px";
-    host.style.marginTop = Math.max(0, (boxH - 960 * sc) / 2) + "px";
   };
   function fmt(sec){ sec = Math.max(0, Math.floor(sec)); return Math.floor(sec / 60) + ":" + pad2(sec % 60); }
   function render(){
