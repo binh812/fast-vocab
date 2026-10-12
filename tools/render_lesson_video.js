@@ -48,7 +48,8 @@ function run(cmd, args){
 async function synthOne(c, f){
   if (fs.existsSync(f) && fs.statSync(f).size > 500) return;
   const raw = f + ".raw.mp3";
-  for (let attempt = 0; attempt < 3; attempt++) {
+  // edge-tts thỉnh thoảng lỗi tạm thời (mạng chập chờn / máy chủ chặn khi gọi dồn dập) -> thử lại, chờ lâu dần
+  for (let attempt = 0; attempt < 6; attempt++) {
     try {
       await run("edge-tts", ["--voice", VOICES[c.lang], ...(RATE[c.lang] ? ["--rate=" + RATE[c.lang]] : []), "--text", c.text, "--write-media", raw]);
       // cắt khoảng lặng đầu/cuối của file giọng (edge-tts để dư ~0.5s mỗi đầu -> video dài lê thê)
@@ -58,8 +59,8 @@ async function synthOne(c, f){
       fs.unlinkSync(raw);
       return;
     } catch (e) {
-      if (attempt === 2) throw new Error("edge-tts lỗi với: " + c.text);
-      await sleep(1500 * (attempt + 1));
+      if (attempt === 5) throw new Error("edge-tts lỗi với: " + c.text);
+      await sleep(3000 * Math.pow(2, attempt)); // 3s, 6s, 12s, 24s, 48s
     }
   }
 }
@@ -77,7 +78,7 @@ async function synth(cues){
       process.stdout.write(`\r  giọng đọc ${++done}/${items.length}   `);
     }
   }
-  await Promise.all([worker(), worker(), worker(), worker()]);
+  await Promise.all([worker(), worker()]); // 2 câu song song: nhanh mà không bị máy chủ chặn vì gọi dồn dập
   process.stdout.write("\n");
   for (const it of items) {
     files[it.k] = it.f;
