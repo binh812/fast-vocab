@@ -45,24 +45,44 @@ function run(cmd, args){
     p.on("close", code => code === 0 ? resolve(out) : reject(new Error(cmd + " exit " + code)));
   });
 }
+// giọng dự phòng cùng ngôn ngữ (dùng khi giọng chính bị máy chủ từ chối liên tục cho 1 câu)
+const BACKUP_VOICES = {
+  vi: "vi-VN-NamMinhNeural", zh: "zh-CN-YunxiNeural", ru: "ru-RU-DmitryNeural",
+  en: "en-US-GuyNeural", fr: "fr-FR-HenriNeural",
+};
+const warnings = [];
+/* edge-tts thỉnh thoảng trả "No audio was received" một cách ngẫu nhiên (hay gặp với đoạn ngắn/cụt).
+   Không để 1 câu làm hỏng cả video: thử lại -> thử biến thể câu -> giọng dự phòng -> im lặng đúng độ dài
+   (phụ đề vẫn hiện) + ghi cảnh báo. */
 async function synthOne(c, f){
   if (fs.existsSync(f) && fs.statSync(f).size > 500) return;
   const raw = f + ".raw.mp3";
-  // edge-tts thỉnh thoảng lỗi tạm thời (mạng chập chờn / máy chủ chặn khi gọi dồn dập) -> thử lại, chờ lâu dần
-  for (let attempt = 0; attempt < 6; attempt++) {
+  const variants = [...new Set([c.text, c.text.replace(/['"“”‘’()]/g, "").trim() + ".", c.text + "…"])];
+  const plans = [];
+  for (let i = 0; i < 3; i++) plans.push([VOICES[c.lang], c.text]);
+  variants.slice(1).forEach(v => plans.push([VOICES[c.lang], v]));
+  plans.push([BACKUP_VOICES[c.lang], c.text], [BACKUP_VOICES[c.lang], variants[1]]);
+  for (let i = 0; i < plans.length; i++) {
+    const [voice, text] = plans[i];
     try {
-      await run("edge-tts", ["--voice", VOICES[c.lang], ...(RATE[c.lang] ? ["--rate=" + RATE[c.lang]] : []), "--text", c.text, "--write-media", raw]);
+      await run("edge-tts", ["--voice", voice, ...(RATE[c.lang] ? ["--rate=" + RATE[c.lang]] : []), "--text", text, "--write-media", raw]);
       // cắt khoảng lặng đầu/cuối của file giọng (edge-tts để dư ~0.5s mỗi đầu -> video dài lê thê)
       await run("ffmpeg", ["-y", "-loglevel", "error", "-i", raw, "-af",
         "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse",
         "-c:a", "aac", "-b:a", "128k", f]);
       fs.unlinkSync(raw);
+      if (i >= 3) warnings.push(`dùng ${voice === VOICES[c.lang] ? "biến thể câu" : "giọng dự phòng"}: ${c.text}`);
       return;
     } catch (e) {
-      if (attempt === 5) throw new Error("edge-tts lỗi với: " + c.text);
-      await sleep(3000 * Math.pow(2, attempt)); // 3s, 6s, 12s, 24s, 48s
+      await sleep(1500 * (i < 3 ? i + 1 : 2));
     }
   }
+  // đường cùng: khoảng lặng bằng độ dài ước lượng -> video vẫn đúng nhịp, phụ đề vẫn hiện
+  const secs = Math.max(0.6, String(c.text).length * 0.06).toFixed(2);
+  await run("ffmpeg", ["-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", secs, "-c:a", "aac", f + ".silent.m4a"]);
+  fs.renameSync(f + ".silent.m4a", f.replace(/\.m4a$/, ".silent.m4a"));
+  warnings.push(`IM LẶNG (edge-tts từ chối): ${c.text}`);
+  return f.replace(/\.m4a$/, ".silent.m4a");
 }
 async function synth(cues){
   fs.mkdirSync(CACHE, { recursive: true });
@@ -74,7 +94,8 @@ async function synth(cues){
   async function worker(){
     while (next < items.length) {
       const it = items[next++];
-      await synthOne(it.c, it.f);
+      const alt = await synthOne(it.c, it.f);
+      if (alt) it.f = alt;
       process.stdout.write(`\r  giọng đọc ${++done}/${items.length}   `);
     }
   }
@@ -182,6 +203,7 @@ async function main(){
     "-filter_complex", filters.join(";") + ";" + mix,
     "-map", "0:v", "-map", "[aout]", "-c:v", "copy", "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", out]);
   fs.unlinkSync(silent);
+  warnings.forEach(w => console.log("⚠️ " + w));
   console.log(`✅ ${out} (${(fs.statSync(out).size / 1048576).toFixed(1)}MB, mất ${Math.round((Date.now() - t0) / 1000)}s)`);
 }
 main().catch(e => { console.error("LỖI:", e.message); process.exit(1); });
